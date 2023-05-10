@@ -3116,3 +3116,50 @@ EOFError: EOF read where object expected
 [2023-05-11 01:40:37] INFO root fetch - main [MainThread]: End processing [django-admin-interface]: success
 [2023-05-11 01:40:55] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-05-11 01:40:55] INFO root fetch - main [MainThread]: Store serial: [18054657]
+[2023-05-11 01:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054657]
+[2023-05-11 01:46:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-fragments
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cupid-matching
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tarn
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantconnect-stubs
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-thomas-better-finders
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-queuey
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fluffy-server
+[2023-05-11 01:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-omnilogic-local
+[2023-05-11 01:46:05] INFO root fetch - processPackages [certora-cli-alpha-thomas-better-finders]: New version: [20230510.23.42.304672] Old Version: [20230510.22.29.482642]
+[2023-05-11 01:46:05] INFO root fetch - processPackages [cupid-matching]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 01:46:05] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 01:46:05] INFO root fetch - processPackages [tarn]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-11 01:46:05] INFO root fetch - processPackages [django-fragments]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 01:46:05] WARNING root fetch - processPackages [python-omnilogic-local]: Skipping, unable to determine old version
+[2023-05-11 01:46:05] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local] error
+[2023-05-11 01:46:05] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-05-11 01:46:05] INFO root fetch - processPackages [fluffy-server]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-11 01:46:05] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/6d/87/e748f29b7e88a4a640d56afd14cc12ec48c7a0f9545b19ff0e271985c9b4/tarn-0.4.3.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [certora-cli-alpha-thomas-better-finders]: Downloading https://files.pythonhosted.org/packages/ba/aa/a972a6be3547e86f1b9086f619f5887fd808127010c5bad29f81946ab083/certora-cli-alpha-thomas-better-finders-20230510.22.29.482642.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-11 01:46:05] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230511/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 01:46:05] WARNING root fetch - processPackages [certora-cli-alpha-thomas-better-finders]: Skipping package: exceeds size limit 39240841>=10485760
+[2023-05-11 01:46:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-better-finders] error
+[2023-05-11 01:46:05] INFO root fetch - processPackages [cupid-matching]: Downloading https://files.pythonhosted.org/packages/73/a7/4c09b39348015fb0f3f693e0d5a41fd8d89287d18354ac3e11a66bb8e760/cupid_matching-1.1.1.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-05-11 01:46:05] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230511/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-05-11 01:46:05] INFO root fetch - processPackages [fluffy-server]: Downloading https://files.pythonhosted.org/packages/47/20/9aa6c7d39d97b574e59508a02dcf1d176f1db1bb4ef75dd548249ed1b662/fluffy-server-1.9.0.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/78/df/6d53d2e2118ebf913eabd322dc9ff4cdd9f2fadd8c9f7844cfd4fb070da4/tarn-0.4.4.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [cupid-matching]: executing diffoscope
+[2023-05-11 01:46:05] INFO root fetch - processPackages [cupid-matching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupid_matching-1.1.0.tar.gz tmp/cupid_matching-1.1.1.tar.gz --markdown 20230511/c/cupid-matching/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 01:46:05] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/5e/46/3ae8be5a90d8436948ce7121c3239a98d40ee0d2bcb84bb33ec456229462/django_fragments-0.1.2.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [tarn]: executing diffoscope
+[2023-05-11 01:46:05] INFO root fetch - processPackages [tarn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarn-0.4.3.tar.gz tmp/tarn-0.4.4.tar.gz --markdown 20230511/t/tarn/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-11 01:46:05] INFO root fetch - processPackages [django-fragments]: executing diffoscope
+[2023-05-11 01:46:05] INFO root fetch - processPackages [django-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_fragments-0.1.1.tar.gz tmp/django_fragments-0.1.2.tar.gz --markdown 20230511/d/django-fragments/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 01:46:05] INFO root fetch - processPackages [fluffy-server]: Downloading https://files.pythonhosted.org/packages/e0/fc/6593d132991d2809aa72ca33353a6295a40908c549a3ab282bebee5bfc66/fluffy-server-1.9.1.tar.gz
+[2023-05-11 01:46:05] INFO root fetch - processPackages [fluffy-server]: executing diffoscope
+[2023-05-11 01:46:05] INFO root fetch - processPackages [fluffy-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluffy-server-1.9.0.tar.gz tmp/fluffy-server-1.9.1.tar.gz --markdown 20230511/f/fluffy-server/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-11 01:46:06] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-11 01:46:06] INFO root fetch - main [MainThread]: End processing [cupid-matching]: success
+[2023-05-11 01:46:06] INFO root fetch - main [MainThread]: End processing [django-fragments]: success
+[2023-05-11 01:46:07] INFO root fetch - main [MainThread]: End processing [tarn]: success
+[2023-05-11 01:46:08] INFO root fetch - main [MainThread]: End processing [fluffy-server]: success
+[2023-05-11 01:46:10] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-05-11 01:46:10] INFO root fetch - main [MainThread]: Store serial: [18054681]
