@@ -2627,3 +2627,88 @@ EOFError: EOF read where object expected
 [2023-05-11 01:02:58] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
 [2023-05-11 01:03:43] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-05-11 01:03:43] INFO root fetch - main [MainThread]: Store serial: [18054406]
+[2023-05-11 01:08:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054406]
+[2023-05-11 01:08:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TheSilent
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrc-python-utils
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-fragments
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-probs-rdf
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lexset
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: graphql-service-framework
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opsrampcli
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lexset
+[2023-05-11 01:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rat
+[2023-05-11 01:08:51] INFO root fetch - processPackages [django-fragments]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [sphinx-probs-rdf]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [rat]: New version: [3.0.0a4] Old Version: [3.0.0a13]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [lexset]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [lexset]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [opsrampcli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 01:08:51] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230510] Old Version: [0.7.0b20230509]
+[2023-05-11 01:08:52] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230511/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [sphinx-probs-rdf]: Downloading https://files.pythonhosted.org/packages/29/67/c4d51818c3138c3ae04c4fa4037f9671a7991c1521bdc940592ba8d8c760/sphinx_probs_rdf-0.4.1.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/d2/0e/d736fc939d01e607191808738764688a42252e15e696e26699f65c7ad22d/django_fragments-0.1.0.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [opsrampcli]: Downloading https://files.pythonhosted.org/packages/5b/a5/a8255476c3528f791cf6a973dedc1a73932cadf3aa435982cd9c9c95ffbe/opsrampcli-0.8.1.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/fb/d2/957564c19dc74f3f6a49500a1ea50504601b1df3b1cd6d4ff30c64326958/lexset-4.0.2.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/61/fd/adb696c73dff40eb5ec957233895822eed10b1c7a2d78a1ebb6fb8558349/tmnt-0.7.0b20230509.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/fb/d2/957564c19dc74f3f6a49500a1ea50504601b1df3b1cd6d4ff30c64326958/lexset-4.0.2.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [rat]: Downloading https://files.pythonhosted.org/packages/4a/7d/562be8afbac88bb253877e60eea124bb69379262f147802bcb91a3569fb0/rat-3.0.0a13.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [sphinx-probs-rdf]: Downloading https://files.pythonhosted.org/packages/92/e1/841f367c24cd687afbf9263e199eb2d3b6712fa09729c955d6c245b57def/sphinx_probs_rdf-0.4.2.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [sphinx-probs-rdf]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [sphinx-probs-rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_probs_rdf-0.4.1.tar.gz tmp/sphinx_probs_rdf-0.4.2.tar.gz --markdown 20230511/s/sphinx-probs-rdf/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230511/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [django-fragments]: Downloading https://files.pythonhosted.org/packages/ff/85/ab9022cbf1413b55692bffe12f684df7e22e1783939d629cfb2f41fcdfe6/django_fragments-0.1.1.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/29/81/32fe389d21f4a31df4d8706439dd808ece9eefc7e9706e3f6099003f63c5/lexset-4.0.3.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/29/81/32fe389d21f4a31df4d8706439dd808ece9eefc7e9706e3f6099003f63c5/lexset-4.0.3.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [django-fragments]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [django-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_fragments-0.1.0.tar.gz tmp/django_fragments-0.1.1.tar.gz --markdown 20230511/d/django-fragments/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexset-4.0.2.tar.gz tmp/lexset-4.0.3.tar.gz --markdown 20230511/l/lexset/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [lexset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexset-4.0.2.tar.gz tmp/lexset-4.0.3.tar.gz --markdown 20230511/l/lexset/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [opsrampcli]: Downloading https://files.pythonhosted.org/packages/83/8e/3cfd296953a6a9cbbe7ddee39d52b5d811771aabac8954243b57c9abbd5f/opsrampcli-0.9.0.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/74/70/6d96c29cbcefa2ea89290c347c2e1464252e5c5996ebd2355034886b71a2/tmnt-0.7.0b20230510.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [rat]: Downloading https://files.pythonhosted.org/packages/92/3b/3ebb667b59b2220553bcad4030731f453d4534d578cc26c8e9d3a17c1827/rat-3.0.0a4.tar.gz
+[2023-05-11 01:08:52] INFO root fetch - processPackages [rat]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [rat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rat-3.0.0a13.tar.gz tmp/rat-3.0.0a4.tar.gz --markdown 20230511/r/rat/3.0.0a13-3.0.0a4/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [opsrampcli]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [opsrampcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsrampcli-0.8.1.tar.gz tmp/opsrampcli-0.9.0.tar.gz --markdown 20230511/o/opsrampcli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 01:08:52] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-05-11 01:08:52] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230509.tar.gz tmp/tmnt-0.7.0b20230510.tar.gz --markdown 20230511/t/tmnt/0.7.0b20230509-0.7.0b20230510/diff.md --exclude *.pyd
+[2023-05-11 01:08:53] INFO root fetch - processPackages [graphql-service-framework]: Start processing: fiddler-client
+[2023-05-11 01:08:53] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-11 01:08:53] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev1]
+[2023-05-11 01:08:53] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-05-11 01:08:53] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev1.tar.gz tmp/fiddler-client-2.0.0.dev3.tar.gz --markdown 20230511/f/fiddler-client/2.0.0.dev1-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-11 01:08:54] INFO root fetch - processPackages [sphinx-probs-rdf]: Start processing: thirdweb-sdk
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [sphinx-probs-rdf]: success
+[2023-05-11 01:08:54] INFO root fetch - processPackages [thirdweb-sdk]: New version: [3.0.2a4] Old Version: [3.0.2a3]
+[2023-05-11 01:08:54] INFO root fetch - processPackages [lexset]: Start processing: flwr-nightly
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [lexset]: success
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [lexset]: success
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 01:08:54] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230510] Old Version: [1.5.0.dev20230509]
+[2023-05-11 01:08:54] INFO root fetch - processPackages [thirdweb-sdk]: Downloading https://files.pythonhosted.org/packages/66/af/2abb1211bf726e2811e5e2dc764888480f812719fce99e1545e4c607218c/thirdweb_sdk-3.0.2a4.tar.gz
+[2023-05-11 01:08:54] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/18/63/c5a5b9aab8523331744824669993f6db46f8d00430476c4debc037fa0884/flwr_nightly-1.5.0.dev20230509.tar.gz
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [django-fragments]: success
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-05-11 01:08:54] INFO root fetch - processPackages [thirdweb-sdk]: executing diffoscope
+[2023-05-11 01:08:54] INFO root fetch - processPackages [thirdweb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdweb_sdk-3.0.2a3.tar.gz tmp/thirdweb_sdk-3.0.2a4.tar.gz --markdown 20230511/t/thirdweb-sdk/3.0.2a3-3.0.2a4/diff.md --exclude *.pyd
+[2023-05-11 01:08:54] INFO root fetch - main [MainThread]: End processing [opsrampcli]: success
+[2023-05-11 01:08:54] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/17/db/56875438aab08a9b5251e0d6e1adca59811c550dd42e0188a42d89b5785c/flwr_nightly-1.5.0.dev20230510.tar.gz
+[2023-05-11 01:08:55] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-05-11 01:08:55] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230509.tar.gz tmp/flwr_nightly-1.5.0.dev20230510.tar.gz --markdown 20230511/f/flwr-nightly/1.5.0.dev20230509-1.5.0.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 01:08:55] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-05-11 01:08:55] INFO root fetch - main [MainThread]: End processing [rat]: success
+[2023-05-11 01:08:56] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-05-11 01:09:01] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
+[2023-05-11 01:09:01] INFO root fetch - main [MainThread]: Store serial: [18054452]
