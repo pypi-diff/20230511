@@ -2855,3 +2855,103 @@ EOFError: EOF read where object expected
 [2023-05-11 01:19:28] INFO root fetch - main [MainThread]: End processing [google-cloud-bigtable]: success
 [2023-05-11 01:19:43] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2023-05-11 01:19:43] INFO root fetch - main [MainThread]: Store serial: [18054534]
+[2023-05-11 01:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054534]
+[2023-05-11 01:24:52] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clipped
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thirdweb-sdk
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape-tools
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hassle
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deephaven-core
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: budgetguard
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deephaven-server
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphql-service-framework
+[2023-05-11 01:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-review
+[2023-05-11 01:24:52] INFO root fetch - processPackages [hassle]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [griptape-tools]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [budgetguard]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [clipped]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [deephaven-core]: New version: [0.24.1] Old Version: [0.24.0]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [deephaven-server]: New version: [0.24.1] Old Version: [0.24.0]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [gpt-review]: New version: [0.8.1rc628.post1] Old Version: [0.8.0rc622.post1]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [thirdweb-sdk]: New version: [3.0.2a5] Old Version: [3.0.2a4]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.314] Old Version: [0.3.313]
+[2023-05-11 01:24:52] INFO root fetch - processPackages [griptape-tools]: executing diffoscope
+[2023-05-11 01:24:52] INFO root fetch - processPackages [griptape-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape_tools-0.9.1.tar.gz tmp/griptape_tools-0.9.2.tar.gz --markdown 20230511/g/griptape-tools/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 01:24:52] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-11 01:24:52] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230511/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 01:24:52] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/74/56/c1beee9edc9e865f8114965722235c0c7989dac109827b5da4d39ad5f2e1/clipped-0.3.3.tar.gz
+[2023-05-11 01:24:52] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c8/f1/d28ce59c500c1b92a2748ddf112d8edf16b31f5a4bf26f6ff9811078fc2a/pepperize.cdk-ses-smtp-credentials-0.3.313.tar.gz
+[2023-05-11 01:24:52] INFO root fetch - processPackages [deephaven-core]: Downloading https://files.pythonhosted.org/packages/21/ed/11b9ec922fc2f260bab53102b294c58d992d111c137224b3ca4736234b87/deephaven_core-0.24.0-py3-none-any.whl
+[2023-05-11 01:24:52] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/1b/08/08af9f52ecf04500543be061bdc30c01d6f01cf7c80a2783999001de16c7/hassle-2.8.2.tar.gz
+[2023-05-11 01:24:52] INFO root fetch - processPackages [thirdweb-sdk]: Downloading https://files.pythonhosted.org/packages/39/4f/864bcf8b31d8a6563e9a626c96e9c97fe7b974c6709d4271c129f6310821/thirdweb_sdk-3.0.2a5.tar.gz
+[2023-05-11 01:24:52] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/0a/a2/46ba17c4e4b602a9966d65ca1e4193bcb3a20b3f7a2c2fbb62a6f44d20fb/gpt-review-0.8.1rc628.post1.tar.gz
+[2023-05-11 01:24:52] INFO root fetch - processPackages [deephaven-server]: Downloading https://files.pythonhosted.org/packages/41/49/58f57eec00d6f135410738e2628e9fd6d8ce753dc35a7d282a3b19ad65fd/deephaven_server-0.24.0-py3-none-any.whl
+[2023-05-11 01:24:52] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-11 01:24:52] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.1.tar.gz tmp/hassle-2.8.2.tar.gz --markdown 20230511/h/hassle/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] WARNING root fetch - processPackages [deephaven-server]: Skipping package: exceeds size limit 148409816>=10485760
+[2023-05-11 01:24:53] INFO root fetch - processPackages [deephaven-server]: Start processing: modelbit
+[2023-05-11 01:24:53] INFO root fetch - main [MainThread]: End processing [deephaven-server] error
+[2023-05-11 01:24:53] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.8.0rc622.post1.tar.gz tmp/gpt-review-0.8.1rc628.post1.tar.gz --markdown 20230511/g/gpt-review/0.8.0rc622.post1-0.8.1rc628.post1/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] INFO root fetch - processPackages [clipped]: Downloading https://files.pythonhosted.org/packages/19/4e/ed6d1799c3bd46e1c6a96a29df2423e3e39e513a38c1a33413a1e4fe970d/clipped-0.3.4.tar.gz
+[2023-05-11 01:24:53] INFO root fetch - processPackages [thirdweb-sdk]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [thirdweb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdweb_sdk-3.0.2a4.tar.gz tmp/thirdweb_sdk-3.0.2a5.tar.gz --markdown 20230511/t/thirdweb-sdk/3.0.2a4-3.0.2a5/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] INFO root fetch - processPackages [deephaven-core]: Downloading https://files.pythonhosted.org/packages/41/9b/12410752e3337a25183402f27185e0eb4b2252b296674e21935ffa2bcc11/deephaven_core-0.24.1-py3-none-any.whl
+[2023-05-11 01:24:53] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-11 01:24:53] INFO root fetch - processPackages [budgetguard]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [budgetguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgetguard-0.8.0.tar.gz tmp/budgetguard-0.9.0.tar.gz --markdown 20230511/b/budgetguard/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] INFO root fetch - processPackages [clipped]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [clipped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipped-0.3.3.tar.gz tmp/clipped-0.3.4.tar.gz --markdown 20230511/c/clipped/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] INFO root fetch - processPackages [deephaven-core]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [deephaven-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephaven_core-0.24.0-py3-none-any.whl.zip tmp/deephaven_core-0.24.1-py3-none-any.whl.zip --markdown 20230511/d/deephaven-core/0.24.0-0.24.1/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/87/fe/7ead6a6d0f21ca89f997332f258340efb1018d11a2763c818f4fb01a5bcf/pepperize.cdk-ses-smtp-credentials-0.3.314.tar.gz
+[2023-05-11 01:24:53] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230511/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-11 01:24:53] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-11 01:24:53] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.313.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.314.tar.gz --markdown 20230511/p/pepperize.cdk-ses-smtp-credentials/0.3.313-0.3.314/diff.md --exclude *.pyd
+[2023-05-11 01:24:54] INFO root fetch - processPackages [graphql-service-framework]: Start processing: icpp-free
+[2023-05-11 01:24:54] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-11 01:24:54] INFO root fetch - processPackages [icpp-free]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-11 01:24:54] INFO root fetch - processPackages [griptape-tools]: Start processing: py3d
+[2023-05-11 01:24:54] INFO root fetch - main [MainThread]: End processing [griptape-tools]: success
+[2023-05-11 01:24:54] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-05-11 01:24:54] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/1f/00/e5049b4513ad5d103e71e9669242b3d1c14ceb7805f4935efc08f7983b3c/icpp_free-2.1.0-py3-none-any.whl
+[2023-05-11 01:24:54] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-11 01:24:54] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.84.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230511/p/py3d/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 01:24:54] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/ac/6b/59839cbc5196693571d024d876595d1635559a71606ee061dbe3d592b6cf/icpp_free-2.2.0-py3-none-any.whl
+[2023-05-11 01:24:54] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-05-11 01:24:54] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.1.0-py3-none-any.whl.zip tmp/icpp_free-2.2.0-py3-none-any.whl.zip --markdown 20230511/i/icpp-free/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-11 01:24:54] INFO root fetch - processPackages [hassle]: Start processing: aws-assumptions
+[2023-05-11 01:24:54] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-11 01:24:54] INFO root fetch - processPackages [budgetguard]: Start processing: dreem
+[2023-05-11 01:24:54] INFO root fetch - main [MainThread]: End processing [budgetguard]: success
+[2023-05-11 01:24:55] INFO root fetch - processPackages [dreem]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 01:24:55] INFO root fetch - processPackages [aws-assumptions]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 01:24:55] INFO root fetch - processPackages [dreem]: executing diffoscope
+[2023-05-11 01:24:55] INFO root fetch - processPackages [dreem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreem-0.1.8.tar.gz tmp/dreem-0.1.9.tar.gz --markdown 20230511/d/dreem/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 01:24:55] INFO root fetch - processPackages [gpt-review]: Start processing: disklru
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-11 01:24:55] WARNING root fetch - processPackages [disklru]: Skipping, unable to determine old version
+[2023-05-11 01:24:55] INFO root fetch - processPackages [disklru]: Start processing: armada-airflow
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [disklru] error
+[2023-05-11 01:24:55] INFO root fetch - processPackages [armada-airflow]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-11 01:24:55] INFO root fetch - processPackages [aws-assumptions]: Downloading https://files.pythonhosted.org/packages/ec/a1/d6348f03e48988659f6f4707f79fb3140cbc82e2ede36583d6545577fc2d/aws_assumptions-0.2.2.tar.gz
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-05-11 01:24:55] INFO root fetch - processPackages [armada-airflow]: Downloading https://files.pythonhosted.org/packages/43/c8/df975a0a811b9097be56648e8d7c5082c368da8318781d354917e27bf108/armada_airflow-0.3.0-py3-none-any.whl
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [clipped]: success
+[2023-05-11 01:24:55] INFO root fetch - processPackages [aws-assumptions]: executing diffoscope
+[2023-05-11 01:24:55] INFO root fetch - processPackages [aws-assumptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_assumptions-0.2.1.tar.gz tmp/aws_assumptions-0.2.2.tar.gz --markdown 20230511/a/aws-assumptions/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [deephaven-core]: success
+[2023-05-11 01:24:55] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-11 01:24:55] INFO root fetch - processPackages [armada-airflow]: Downloading https://files.pythonhosted.org/packages/49/36/a1a60e94e82a69209e83efc4cb5ea521bee8beb679692587c353e95f6fd2/armada_airflow-0.4.0-py3-none-any.whl
+[2023-05-11 01:24:56] INFO root fetch - processPackages [armada-airflow]: executing diffoscope
+[2023-05-11 01:24:56] INFO root fetch - processPackages [armada-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armada_airflow-0.3.0-py3-none-any.whl.zip tmp/armada_airflow-0.4.0-py3-none-any.whl.zip --markdown 20230511/a/armada-airflow/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 01:24:56] INFO root fetch - main [MainThread]: End processing [aws-assumptions]: success
+[2023-05-11 01:24:57] INFO root fetch - main [MainThread]: End processing [armada-airflow]: success
+[2023-05-11 01:24:58] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
+[2023-05-11 01:24:58] INFO root fetch - main [MainThread]: End processing [dreem]: success
+[2023-05-11 01:24:58] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-05-11 01:24:58] INFO root fetch - main [MainThread]: Store serial: [18054582]
