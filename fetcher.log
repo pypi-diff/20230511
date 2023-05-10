@@ -2784,3 +2784,74 @@ EOFError: EOF read where object expected
 [2023-05-11 01:14:13] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
 [2023-05-11 01:14:13] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
 [2023-05-11 01:14:13] INFO root fetch - main [MainThread]: Store serial: [18054499]
+[2023-05-11 01:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054499]
+[2023-05-11 01:19:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arize-phoenix
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-bigtable
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultralytics
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-sb-socialnetworks
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osrparse
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrc-python-utils
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betby
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liitos
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-roborock
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: l10n-ar-api
+[2023-05-11 01:19:22] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [betby]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230511/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [osrparse]: New version: [7.0.0] Old Version: [6.0.2]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [google-cloud-bigtable]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230511/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [l10n-ar-api]: New version: [2.5.0] Old Version: [2.4.2]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [liitos]: New version: [2023.5.9] Old Version: [2023.5.10]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ultralytics]: New version: [8.0.98] Old Version: [8.0.97]
+[2023-05-11 01:19:22] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [liitos]: Downloading https://files.pythonhosted.org/packages/46/7f/57fc9ebbe3076542e7b9568c28915fd3358918c3d8104af7e33b7e01812b/liitos-2023.5.10.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [osrparse]: Downloading https://files.pythonhosted.org/packages/e4/84/22fad6d5a50c5ae1d1c802a6ca1bca465e966e1961c97664e9e104696fea/osrparse-6.0.2.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [l10n-ar-api]: Downloading https://files.pythonhosted.org/packages/c5/1e/cf30ec68d4d75bc05bf82fe42f23fdfe14b40195485d2c193ebf601b4752/l10n_ar_api-2.4.2.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: Downloading https://files.pythonhosted.org/packages/7b/c8/2795c22b7c1414bb276a5dda99092195a8d4bb91712f7df238008a7d25e2/wagtail_sb_socialnetworks-0.6.0.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [google-cloud-bigtable]: Downloading https://files.pythonhosted.org/packages/73/53/d329370dc282108f26a1608c1d2dd9dc83c4e4b69af08010248990accf22/google-cloud-bigtable-2.8.1.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/02/68/3c87854917afaf79b62b704b9fb2cc7990f3a25ed08013fb7f95804a6b46/betby-0.2.1.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.2.0.tar.gz tmp/betby-0.2.1.tar.gz --markdown 20230511/b/betby/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [l10n-ar-api]: Downloading https://files.pythonhosted.org/packages/98/1c/3411c2593b097d2f08a9b653baa8ccd46c32d7e7c87e8b0ea43c2c13429b/l10n_ar_api-2.5.0.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.97.tar.gz tmp/ultralytics-8.0.98.tar.gz --markdown 20230511/u/ultralytics/8.0.97-8.0.98/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [osrparse]: Downloading https://files.pythonhosted.org/packages/bf/67/f9839c9149dabf7d4ca485d0a5e86758842f9b41ed4f3e4e97b52cd3530e/osrparse-7.0.0.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: Downloading https://files.pythonhosted.org/packages/95/69/47dba3ca7de6756ca5537cd95278167ec34ab620091a074e09fdd9774b9f/wagtail_sb_socialnetworks-0.7.0.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [liitos]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [liitos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liitos-2023.5.10.tar.gz tmp/liitos-2023.5.9.tar.gz --markdown 20230511/l/liitos/2023.5.10-2023.5.9/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [google-cloud-bigtable]: Downloading https://files.pythonhosted.org/packages/43/3f/48f9246ce975409c3f5519002ebc49faa00f52c678a345bc967ec63b5a65/google-cloud-bigtable-2.9.0.tar.gz
+[2023-05-11 01:19:22] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [l10n-ar-api]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [wagtail-sb-socialnetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_sb_socialnetworks-0.6.0.tar.gz tmp/wagtail_sb_socialnetworks-0.7.0.tar.gz --markdown 20230511/w/wagtail-sb-socialnetworks/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [l10n-ar-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l10n_ar_api-2.4.2.tar.gz tmp/l10n_ar_api-2.5.0.tar.gz --markdown 20230511/l/l10n-ar-api/2.4.2-2.5.0/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [osrparse]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [osrparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osrparse-6.0.2.tar.gz tmp/osrparse-7.0.0.tar.gz --markdown 20230511/o/osrparse/6.0.2-7.0.0/diff.md --exclude *.pyd
+[2023-05-11 01:19:22] INFO root fetch - processPackages [google-cloud-bigtable]: executing diffoscope
+[2023-05-11 01:19:22] INFO root fetch - processPackages [google-cloud-bigtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigtable-2.8.1.tar.gz tmp/google-cloud-bigtable-2.9.0.tar.gz --markdown 20230511/g/google-cloud-bigtable/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-05-11 01:19:23] INFO root fetch - processPackages [pyrc-python-utils]: Start processing: np-codeocean
+[2023-05-11 01:19:23] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 01:19:23] INFO root fetch - processPackages [np-codeocean]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 01:19:23] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-05-11 01:19:24] INFO root fetch - processPackages [np-codeocean]: Downloading https://files.pythonhosted.org/packages/ad/b7/92af190d9bf60d2519b8ac87b5e9dc9358b59b86465489352bb13014505d/np_codeocean-0.1.1.tar.gz
+[2023-05-11 01:19:24] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-11 01:19:24] INFO root fetch - processPackages [np-codeocean]: Downloading https://files.pythonhosted.org/packages/90/f7/e7de53c3735fe9bb059c9fd5b0c5c2b0efc71fc6f76311063d6c726c1cd7/np_codeocean-0.1.2.tar.gz
+[2023-05-11 01:19:24] INFO root fetch - main [MainThread]: End processing [liitos]: success
+[2023-05-11 01:19:24] INFO root fetch - processPackages [np-codeocean]: executing diffoscope
+[2023-05-11 01:19:24] INFO root fetch - processPackages [np-codeocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_codeocean-0.1.1.tar.gz tmp/np_codeocean-0.1.2.tar.gz --markdown 20230511/n/np-codeocean/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 01:19:24] INFO root fetch - main [MainThread]: End processing [osrparse]: success
+[2023-05-11 01:19:24] INFO root fetch - main [MainThread]: End processing [wagtail-sb-socialnetworks]: success
+[2023-05-11 01:19:24] INFO root fetch - main [MainThread]: End processing [l10n-ar-api]: success
+[2023-05-11 01:19:25] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-05-11 01:19:25] INFO root fetch - main [MainThread]: End processing [np-codeocean]: success
+[2023-05-11 01:19:28] INFO root fetch - main [MainThread]: End processing [google-cloud-bigtable]: success
+[2023-05-11 01:19:43] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-05-11 01:19:43] INFO root fetch - main [MainThread]: Store serial: [18054534]
