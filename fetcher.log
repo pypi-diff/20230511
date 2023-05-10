@@ -1,0 +1,105 @@
+[2023-05-11 00:01:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18053193]
+[2023-05-11 00:01:10] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-mike-consolidate-errors
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrc-python-utils
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atuin-graph
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nb-move-imports
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batframes
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: procurement-bytetheory
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoprof
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HandsomeSerialization
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Calculadoradatu
+[2023-05-11 00:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kolibri-ml
+[2023-05-11 00:01:10] WARNING root fetch - processPackages [certora-cli-alpha-mike-consolidate-errors]: Skipping, unable to determine old version
+[2023-05-11 00:01:10] INFO root fetch - processPackages [certora-cli-alpha-mike-consolidate-errors]: Start processing: bigraph-schema
+[2023-05-11 00:01:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-mike-consolidate-errors] error
+[2023-05-11 00:01:10] INFO root fetch - processPackages [batframes]: New version: [1.0.0.7] Old Version: [1.0.0.6]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [HandsomeSerialization]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [nb-move-imports]: New version: [0.4.3] Old Version: [0.4.1]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [autoprof]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [atuin-graph]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 00:01:10] WARNING root fetch - processPackages [Calculadoradatu]: Skipping, unable to determine old version
+[2023-05-11 00:01:10] INFO root fetch - processPackages [Calculadoradatu]: Start processing: svix
+[2023-05-11 00:01:10] INFO root fetch - main [MainThread]: End processing [Calculadoradatu] error
+[2023-05-11 00:01:10] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [svix]: New version: [0.85.1] Old Version: [0.85.0]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230511/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.8.tar.gz tmp/procurement_bytetheory-1.0.9.tar.gz --markdown 20230511/p/procurement-bytetheory/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [HandsomeSerialization]: Downloading https://files.pythonhosted.org/packages/6f/0c/8fffac1afdfd803d0bdda9966929ef6c811631e2f17216dfb86847fa25c3/HandsomeSerialization-0.1.0.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [batframes]: Downloading https://files.pythonhosted.org/packages/57/0c/f8519396422cbb36d0304d04bc19cc42aa3369127be4305d32b4613f7119/batframes-1.0.0.7.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [autoprof]: Downloading https://files.pythonhosted.org/packages/88/2b/cb9f629f9ef2955c86f15170cedb4790124a36bbb1fdec7f7b51e973f338/autoprof-0.7.2-py2.py3-none-any.whl
+[2023-05-11 00:01:10] INFO root fetch - processPackages [atuin-graph]: Downloading https://files.pythonhosted.org/packages/78/44/d1482786cce215e5293d0b30991fa4028595d6ee41d17ad2f5866f775379/atuin_graph-1.0.0.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/b2/bc/ab886cf6ac6b1a84be05ad9065c46bbb65e9840f3e8ad804d65741865ebd/bigraph-schema-0.0.7.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [nb-move-imports]: Downloading https://files.pythonhosted.org/packages/1c/e5/87b54a54d2446c2c915b43dbad011c6046de930ec1a79a2a5b538668fc51/nb_move_imports-0.4.1.tar.gz
+[2023-05-11 00:01:10] WARNING root fetch - processPackages [atuin-graph]: Skipping package: exceeds size limit 44925047>=10485760
+[2023-05-11 00:01:10] INFO root fetch - processPackages [atuin-graph]: Start processing: emmet-core
+[2023-05-11 00:01:10] INFO root fetch - main [MainThread]: End processing [atuin-graph] error
+[2023-05-11 00:01:10] INFO root fetch - processPackages [svix]: Downloading https://files.pythonhosted.org/packages/42/b9/a77467cc3c7b09d4abcaf20a30413bcdc0366ca25ec73ca170ac73660e3a/svix-0.85.1.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-11 00:01:10] INFO root fetch - processPackages [autoprof]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [autoprof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoprof-0.7.1-py2.py3-none-any.whl.zip tmp/autoprof-0.7.2-py2.py3-none-any.whl.zip --markdown 20230511/a/autoprof/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [batframes]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [batframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batframes-1.0.0.6.tar.gz tmp/batframes-1.0.0.7.tar.gz --markdown 20230511/b/batframes/1.0.0.6-1.0.0.7/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [svix]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [svix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svix-0.85.0.tar.gz tmp/svix-0.85.1.tar.gz --markdown 20230511/s/svix/0.85.0-0.85.1/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [HandsomeSerialization]: Downloading https://files.pythonhosted.org/packages/30/ba/913baa70d0af4b0409596261e7ae71c849d85e224ae0911dbbbdaadeb169/HandsomeSerialization-0.1.1.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/df/8e/61432e7e2966e9e03a0109b78f810b877d0a4243c7fc3e9379a460c0dbc4/bigraph-schema-0.0.8.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [HandsomeSerialization]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [HandsomeSerialization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HandsomeSerialization-0.1.0.tar.gz tmp/HandsomeSerialization-0.1.1.tar.gz --markdown 20230511/H/HandsomeSerialization/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.7.tar.gz tmp/bigraph-schema-0.0.8.tar.gz --markdown 20230511/b/bigraph-schema/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [nb-move-imports]: Downloading https://files.pythonhosted.org/packages/86/a6/1ce75b0b0feb601625033855e0aed2556cf895203f4f0b7b1078dd1f38ce/nb_move_imports-0.4.3.tar.gz
+[2023-05-11 00:01:10] INFO root fetch - processPackages [nb-move-imports]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [nb-move-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_move_imports-0.4.1.tar.gz tmp/nb_move_imports-0.4.3.tar.gz --markdown 20230511/n/nb-move-imports/0.4.1-0.4.3/diff.md --exclude *.pyd
+[2023-05-11 00:01:10] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2023-05-11 00:01:10] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20230511/e/emmet-core/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-11 00:01:11] INFO root fetch - processPackages [procurement-bytetheory]: Start processing: stmapy
+[2023-05-11 00:01:11] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-11 00:01:11] WARNING root fetch - processPackages [stmapy]: Skipping, unable to determine old version
+[2023-05-11 00:01:11] INFO root fetch - processPackages [stmapy]: Start processing: mobie
+[2023-05-11 00:01:11] INFO root fetch - main [MainThread]: End processing [stmapy] error
+[2023-05-11 00:01:12] INFO root fetch - processPackages [batframes]: Start processing: emmet-builders
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [batframes]: success
+[2023-05-11 00:01:12] INFO root fetch - processPackages [mobie]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-05-11 00:01:12] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-11 00:01:12] INFO root fetch - processPackages [pyrc-python-utils]: Start processing: fabric_fss_utils
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 00:01:12] INFO root fetch - processPackages [fabric_fss_utils]: New version: [1.5.0rc1] Old Version: [1.4.0]
+[2023-05-11 00:01:12] INFO root fetch - processPackages [mobie]: Downloading https://files.pythonhosted.org/packages/be/53/1e5409caf907127f9cc5bc94d09c4971567443cba0e1b0bf5e3bea2955ad/mobie-4.0.4.tar.gz
+[2023-05-11 00:01:12] INFO root fetch - processPackages [nb-move-imports]: Start processing: catppuccin
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [nb-move-imports]: success
+[2023-05-11 00:01:12] INFO root fetch - processPackages [catppuccin]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-11 00:01:12] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2023-05-11 00:01:12] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20230511/e/emmet-builders/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-11 00:01:12] INFO root fetch - processPackages [mobie]: executing diffoscope
+[2023-05-11 00:01:12] INFO root fetch - processPackages [mobie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobie-4.0.3.tar.gz tmp/mobie-4.0.4.tar.gz --markdown 20230511/m/mobie/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-05-11 00:01:12] INFO root fetch - processPackages [bigraph-schema]: Start processing: nb-move-imports
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-05-11 00:01:12] INFO root fetch - processPackages [nb-move-imports]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-11 00:01:12] INFO root fetch - processPackages [fabric_fss_utils]: Downloading https://files.pythonhosted.org/packages/ca/e2/3752b9b64491c1e96c104881f74093c0878c28221451925091d2321e7619/fabric_fss_utils-1.4.0.tar.gz
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [HandsomeSerialization]: success
+[2023-05-11 00:01:12] INFO root fetch - processPackages [catppuccin]: executing diffoscope
+[2023-05-11 00:01:12] INFO root fetch - processPackages [catppuccin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catppuccin-1.2.0.tar.gz tmp/catppuccin-1.3.0.tar.gz --markdown 20230511/c/catppuccin/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-11 00:01:12] INFO root fetch - processPackages [nb-move-imports]: Downloading https://files.pythonhosted.org/packages/14/64/aeb5645ca7feb769c7f38f29348c616f9c27d47d35c03db59213234b8ec7/nb_move_imports-0.4.4.tar.gz
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [autoprof]: success
+[2023-05-11 00:01:12] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2023-05-11 00:01:12] INFO root fetch - processPackages [nb-move-imports]: executing diffoscope
+[2023-05-11 00:01:12] INFO root fetch - processPackages [nb-move-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_move_imports-0.4.3.tar.gz tmp/nb_move_imports-0.4.4.tar.gz --markdown 20230511/n/nb-move-imports/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-11 00:01:12] INFO root fetch - processPackages [fabric_fss_utils]: Downloading https://files.pythonhosted.org/packages/e9/01/4b97e64a2b727f5d45e4ba9dff1c87241437996595c0dfba6a26162f3974/fabric_fss_utils-1.5.0rc1.tar.gz
+[2023-05-11 00:01:13] INFO root fetch - processPackages [fabric_fss_utils]: executing diffoscope
+[2023-05-11 00:01:13] INFO root fetch - processPackages [fabric_fss_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_fss_utils-1.4.0.tar.gz tmp/fabric_fss_utils-1.5.0rc1.tar.gz --markdown 20230511/f/fabric_fss_utils/1.4.0-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-11 00:01:13] INFO root fetch - main [MainThread]: End processing [mobie]: success
+[2023-05-11 00:01:14] INFO root fetch - main [MainThread]: End processing [catppuccin]: success
+[2023-05-11 00:01:14] INFO root fetch - main [MainThread]: End processing [nb-move-imports]: success
+[2023-05-11 00:01:14] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2023-05-11 00:01:15] INFO root fetch - main [MainThread]: End processing [svix]: success
+[2023-05-11 00:01:16] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-05-11 00:01:45] INFO root fetch - main [MainThread]: End processing [fabric_fss_utils]: success
+[2023-05-11 00:01:45] INFO root fetch - main [MainThread]: Store serial: [18053256]
