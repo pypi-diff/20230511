@@ -2712,3 +2712,75 @@ EOFError: EOF read where object expected
 [2023-05-11 01:08:56] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2023-05-11 01:09:01] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
 [2023-05-11 01:09:01] INFO root fetch - main [MainThread]: Store serial: [18054452]
+[2023-05-11 01:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054452]
+[2023-05-11 01:14:09] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: earthengine-api
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: betby
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wheecode
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hexwatershed
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crossmark-jotform-api
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: griptape
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lexset
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dev-gpt
+[2023-05-11 01:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fortifyapi
+[2023-05-11 01:14:09] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 01:14:09] INFO root fetch - processPackages [griptape]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-05-11 01:14:09] INFO root fetch - processPackages [crossmark-jotform-api]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-05-11 01:14:09] INFO root fetch - processPackages [betby]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-11 01:14:09] INFO root fetch - processPackages [lexset]: New version: [4.0.3] Old Version: [4.0.2]
+[2023-05-11 01:14:09] INFO root fetch - processPackages [fortifyapi]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-05-11 01:14:09] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 01:14:10] INFO root fetch - processPackages [lexset]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [lexset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexset-4.0.2.tar.gz tmp/lexset-4.0.3.tar.gz --markdown 20230511/l/lexset/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] WARNING root fetch - processPackages [wheecode]: Skipping, unable to determine old version
+[2023-05-11 01:14:10] INFO root fetch - processPackages [wheecode]: Start processing: hakai-api
+[2023-05-11 01:14:10] INFO root fetch - main [MainThread]: End processing [wheecode] error
+[2023-05-11 01:14:10] INFO root fetch - processPackages [earthengine-api]: New version: [0.1.99] Old Version: [0.1.97]
+[2023-05-11 01:14:10] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.1.8.tar.gz tmp/betby-0.2.0.tar.gz --markdown 20230511/b/betby/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.7.3.tar.gz tmp/griptape-0.8.0.tar.gz --markdown 20230511/g/griptape/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [hakai-api]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-11 01:14:10] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.8.tar.gz tmp/hexwatershed-0.2.9.tar.gz --markdown 20230511/h/hexwatershed/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.37.dev78] Old Version: [0.18.37.dev52]
+[2023-05-11 01:14:10] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230511/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [crossmark-jotform-api]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [crossmark-jotform-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossmark-jotform-api-0.2.4.tar.gz tmp/crossmark-jotform-api-0.2.6.tar.gz --markdown 20230511/c/crossmark-jotform-api/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [hakai-api]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [hakai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakai_api-1.4.0.tar.gz tmp/hakai_api-1.4.1.tar.gz --markdown 20230511/h/hakai-api/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [fortifyapi]: Downloading https://files.pythonhosted.org/packages/69/ec/9cafd5bb2f1e95358e8c3542011ed9470aec1f8316a01c0ebcb5cb2aab7c/fortifyapi-3.1.6.tar.gz
+[2023-05-11 01:14:10] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/1b/dc/4cb3e1ff22baa21710c2b9cf9e3c1efa44b9e0738b03932da670cc4f4603/dev-gpt-0.18.37.dev52.tar.gz
+[2023-05-11 01:14:10] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/34/ab/ffc5a8a504b242a55990eb9ac363c9e5e30cdbb203f0362d6e7ba41bbcad/earthengine-api-0.1.97.tar.gz
+[2023-05-11 01:14:10] INFO root fetch - processPackages [fortifyapi]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [fortifyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortifyapi-3.1.5.tar.gz tmp/fortifyapi-3.1.6.tar.gz --markdown 20230511/f/fortifyapi/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/a1/07/8bbcd18ddec5d6ad7651aa7d7d812d764dc7ab5b53cd800fe6a8f6d03598/dev-gpt-0.18.37.dev78.tar.gz
+[2023-05-11 01:14:10] INFO root fetch - processPackages [earthengine-api]: Downloading https://files.pythonhosted.org/packages/57/32/e9962f84ea0857b1d931597eb5b674e5a023c9162b7e369593bcab88756d/earthengine-api-0.1.99.tar.gz
+[2023-05-11 01:14:10] INFO root fetch - processPackages [earthengine-api]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [earthengine-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthengine-api-0.1.97.tar.gz tmp/earthengine-api-0.1.99.tar.gz --markdown 20230511/e/earthengine-api/0.1.97-0.1.99/diff.md --exclude *.pyd
+[2023-05-11 01:14:10] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 01:14:10] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev52.tar.gz tmp/dev-gpt-0.18.37.dev78.tar.gz --markdown 20230511/d/dev-gpt/0.18.37.dev52-0.18.37.dev78/diff.md --exclude *.pyd
+[2023-05-11 01:14:11] INFO root fetch - processPackages [lexset]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-11 01:14:11] INFO root fetch - main [MainThread]: End processing [lexset]: success
+[2023-05-11 01:14:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.312] Old Version: [0.3.311]
+[2023-05-11 01:14:11] INFO root fetch - processPackages [betby]: Start processing: great-expectations-experimental
+[2023-05-11 01:14:11] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-05-11 01:14:11] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230510080] Old Version: [0.1.20230503047]
+[2023-05-11 01:14:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/9c/11/669a836d0db066f3a6aa3403dd8eeeb39e1f0effb76a7c2e9989a6c01b2c/pepperize.cdk-ses-smtp-credentials-0.3.312.tar.gz
+[2023-05-11 01:14:11] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-05-11 01:14:11] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230503047.tar.gz tmp/great_expectations_experimental-0.1.20230510080.tar.gz --markdown 20230511/g/great-expectations-experimental/0.1.20230503047-0.1.20230510080/diff.md --exclude *.pyd
+[2023-05-11 01:14:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-11 01:14:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.311.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.312.tar.gz --markdown 20230511/p/pepperize.cdk-ses-smtp-credentials/0.3.311-0.3.312/diff.md --exclude *.pyd
+[2023-05-11 01:14:11] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2023-05-11 01:14:12] INFO root fetch - main [MainThread]: End processing [crossmark-jotform-api]: success
+[2023-05-11 01:14:12] INFO root fetch - main [MainThread]: End processing [hakai-api]: success
+[2023-05-11 01:14:12] INFO root fetch - main [MainThread]: End processing [fortifyapi]: success
+[2023-05-11 01:14:12] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-05-11 01:14:12] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-05-11 01:14:12] INFO root fetch - main [MainThread]: End processing [earthengine-api]: success
+[2023-05-11 01:14:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-11 01:14:13] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 01:14:13] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-05-11 01:14:13] INFO root fetch - main [MainThread]: Store serial: [18054499]
