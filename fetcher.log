@@ -103,3 +103,72 @@
 [2023-05-11 00:01:16] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-05-11 00:01:45] INFO root fetch - main [MainThread]: End processing [fabric_fss_utils]: success
 [2023-05-11 00:01:45] INFO root fetch - main [MainThread]: Store serial: [18053256]
+[2023-05-11 00:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18053256]
+[2023-05-11 00:06:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrc-python-utils
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-oracle
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: web3-ethereum-defi
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: motrackers-test
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-github
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrc-python-utils
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: named-enum
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enhanceezqq
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vision-xformer
+[2023-05-11 00:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cartography
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.0a1683752304] Old Version: [5.9.0a1683610445]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [enhanceezqq]: New version: [1.0.0.7] Old Version: [1.0.0.6]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [vision-xformer]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 00:06:55] WARNING root fetch - processPackages [motrackers-test]: Skipping, unable to determine old version
+[2023-05-11 00:06:55] INFO root fetch - processPackages [motrackers-test]: Start processing: pulpcore
+[2023-05-11 00:06:55] INFO root fetch - main [MainThread]: End processing [motrackers-test] error
+[2023-05-11 00:06:55] INFO root fetch - processPackages [enhanceezqq]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [named-enum]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [enhanceezqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanceezqq-1.0.0.6.tar.gz tmp/enhanceezqq-1.0.0.7.tar.gz --markdown 20230511/e/enhanceezqq/1.0.0.6-1.0.0.7/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [dbt-oracle]: New version: [1.5.0rc1] Old Version: [1.4.2rc1]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683610445.tar.gz tmp/pulumi_github-5.9.0a1683752304.tar.gz --markdown 20230511/p/pulumi-github/5.9.0a1683610445-5.9.0a1683752304/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [cartography]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [vision-xformer]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [vision-xformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_xformer-0.1.6.tar.gz tmp/vision_xformer-0.1.7.tar.gz --markdown 20230511/v/vision-xformer/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230511/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/c0/89/7601eb95141c75164d5d1eff5cb95156a1e8a495d42f9c3b0344af97f25c/dbt-oracle-1.4.2rc1.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [named-enum]: Downloading https://files.pythonhosted.org/packages/dd/20/27e9dbe597ec153613fb62304dd746dbd31d443e3867c86d36319d122602/named_enum-1.2.0.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [cartography]: Downloading https://files.pythonhosted.org/packages/0c/1f/16b6664d81d1abdd57e0f6a133c955f70ed0486c06739a38a0f6f868af68/cartography-0.8.0.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [named-enum]: Downloading https://files.pythonhosted.org/packages/f3/36/087822d01e24f643001457ff6bb31230d244838d25932545b9ac96ad29e7/named_enum-1.3.0.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/78/a2/2b6f09c069737e8aae76caa6b15c7703c0356ae073fd37d66feabf4760a6/dbt-oracle-1.5.0rc1.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [cartography]: Downloading https://files.pythonhosted.org/packages/7f/d5/3c2223cf97c91e40b061ea40ddbfe85ed8faf4b3126699c78f4aa6b6b07d/cartography-0.9.0.tar.gz
+[2023-05-11 00:06:55] INFO root fetch - processPackages [named-enum]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [named-enum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/named_enum-1.2.0.tar.gz tmp/named_enum-1.3.0.tar.gz --markdown 20230511/n/named-enum/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [dbt-oracle]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [dbt-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-oracle-1.4.2rc1.tar.gz tmp/dbt-oracle-1.5.0rc1.tar.gz --markdown 20230511/d/dbt-oracle/1.4.2rc1-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [cartography]: executing diffoscope
+[2023-05-11 00:06:55] INFO root fetch - processPackages [cartography]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartography-0.8.0.tar.gz tmp/cartography-0.9.0.tar.gz --markdown 20230511/c/cartography/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 00:06:55] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2023-05-11 00:06:56] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2023-05-11 00:06:56] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20230511/w/web3-ethereum-defi/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-11 00:06:56] INFO root fetch - processPackages [enhanceezqq]: Start processing: pulpcore-client
+[2023-05-11 00:06:56] INFO root fetch - main [MainThread]: End processing [enhanceezqq]: success
+[2023-05-11 00:06:56] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-11 00:06:56] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-11 00:06:56] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230511/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-11 00:06:56] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 00:06:56] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 00:06:57] INFO root fetch - main [MainThread]: End processing [vision-xformer]: success
+[2023-05-11 00:06:57] INFO root fetch - main [MainThread]: End processing [named-enum]: success
+[2023-05-11 00:06:58] INFO root fetch - main [MainThread]: End processing [cartography]: success
+[2023-05-11 00:06:58] INFO root fetch - main [MainThread]: End processing [dbt-oracle]: success
+[2023-05-11 00:06:58] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-11 00:07:00] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-05-11 00:07:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-11 00:07:30] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2023-05-11 00:07:30] INFO root fetch - main [MainThread]: Store serial: [18053293]
