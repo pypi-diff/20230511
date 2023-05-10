@@ -172,3 +172,62 @@
 [2023-05-11 00:07:00] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
 [2023-05-11 00:07:30] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
 [2023-05-11 00:07:30] INFO root fetch - main [MainThread]: Store serial: [18053293]
+[2023-05-11 00:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18053293]
+[2023-05-11 00:12:39] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vanoma-api-utils
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-engine-manager
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nb-move-imports
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-oscar-wfrs
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paperscraper
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arize-phoenix
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timm
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satcfdi
+[2023-05-11 00:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: modal-client
+[2023-05-11 00:12:39] INFO root fetch - processPackages [arize-phoenix]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [nb-move-imports]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [modal-client]: New version: [0.49.2159] Old Version: [0.49.2152]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2023-05-11 00:12:39] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-0.0.8.tar.gz tmp/arize_phoenix-0.0.9.tar.gz --markdown 20230511/a/arize-phoenix/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:12:39] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [nb-move-imports]: executing diffoscope
+[2023-05-11 00:12:39] INFO root fetch - processPackages [h2o-engine-manager]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [paperscraper]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [nb-move-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_move_imports-0.4.3.tar.gz tmp/nb_move_imports-0.4.4.tar.gz --markdown 20230511/n/nb-move-imports/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-11 00:12:39] INFO root fetch - processPackages [django-oscar-wfrs]: New version: [5.1.2] Old Version: [5.1.1]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.94.0] Old Version: [0.93.0]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [timm]: New version: [0.8.6.dev0] Old Version: [0.8.3.dev0]
+[2023-05-11 00:12:39] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-11 00:12:39] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2152-py3-none-any.whl.zip tmp/modal_client-0.49.2159-py3-none-any.whl.zip --markdown 20230511/m/modal-client/0.49.2152-0.49.2159/diff.md --exclude *.pyd
+[2023-05-11 00:12:39] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/32/10/c0fc11e4e50d9b503f9bbe8bc3b411e7f4d805db4e09864c26a6ae06cc12/vanoma_api_utils-0.93.0.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/e2/d6/375edaf0658a821ca84c3272ee9e2db8ab7f91cb99562b3606904078ee0b/satcfdi-4.0.8.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [h2o-engine-manager]: Downloading https://files.pythonhosted.org/packages/eb/90/79a5138a4ec37c34825fb0135436348af1f45bcd526640bedfcc56b13a0f/h2o_engine_manager-0.3.1-py3-none-any.whl
+[2023-05-11 00:12:40] INFO root fetch - processPackages [django-oscar-wfrs]: Downloading https://files.pythonhosted.org/packages/f5/10/736eb3b1a5266202d23d5812d40d1aac13563d2afe0910c63f926b334a8b/django-oscar-wfrs-5.1.1.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [timm]: Downloading https://files.pythonhosted.org/packages/15/df/c5bc42c152fadf0e7b982a223fa7e4f38549a1842a91b9836c2b4d513c3a/timm-0.8.3.dev0.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [paperscraper]: Downloading https://files.pythonhosted.org/packages/77/34/15044b14d1f331cf53d73d050ed60debf8c5d116950997f07350a4fa65ec/paperscraper-0.2.7.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [django-oscar-wfrs]: Downloading https://files.pythonhosted.org/packages/49/82/3b8aca586b97aaa6a88526dc530dbb88262345baf6b409c03c05e0645ab4/django-oscar-wfrs-5.1.2.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [h2o-engine-manager]: Downloading https://files.pythonhosted.org/packages/ce/ec/895039f717a5d3776bc4fa17dc2715d4563f024a95be6963f9e17e7f35b8/h2o_engine_manager-0.3.2.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/f4/46/2b1f959a3ee1e32c758f76b02ec4dee58b17ba3fc48e3d6677237a6f7e41/vanoma_api_utils-0.94.0.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [paperscraper]: executing diffoscope
+[2023-05-11 00:12:40] INFO root fetch - processPackages [paperscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperscraper-0.2.6.tar.gz tmp/paperscraper-0.2.7.tar.gz --markdown 20230511/p/paperscraper/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-11 00:12:40] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-05-11 00:12:40] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.93.0.tar.gz tmp/vanoma_api_utils-0.94.0.tar.gz --markdown 20230511/v/vanoma-api-utils/0.93.0-0.94.0/diff.md --exclude *.pyd
+[2023-05-11 00:12:40] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/be/13/8394d3dd0f36b7eeb02321c07bd92764b9d1f283649098cbbe0d1ceb0b77/satcfdi-4.0.9.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [django-oscar-wfrs]: executing diffoscope
+[2023-05-11 00:12:40] INFO root fetch - processPackages [django-oscar-wfrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oscar-wfrs-5.1.1.tar.gz tmp/django-oscar-wfrs-5.1.2.tar.gz --markdown 20230511/d/django-oscar-wfrs/5.1.1-5.1.2/diff.md --exclude *.pyd
+[2023-05-11 00:12:40] INFO root fetch - processPackages [h2o-engine-manager]: executing diffoscope
+[2023-05-11 00:12:40] INFO root fetch - processPackages [h2o-engine-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_engine_manager-0.3.1-py3-none-any.whl.zip tmp/h2o_engine_manager-0.3.2.tar.gz --markdown 20230511/h/h2o-engine-manager/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-11 00:12:40] INFO root fetch - processPackages [timm]: Downloading https://files.pythonhosted.org/packages/05/89/26d7adb0a32d6d87c10881a6486da563fa5647e553d5ad79ae72a4150348/timm-0.8.6.dev0.tar.gz
+[2023-05-11 00:12:40] INFO root fetch - processPackages [timm]: executing diffoscope
+[2023-05-11 00:12:40] INFO root fetch - processPackages [timm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timm-0.8.3.dev0.tar.gz tmp/timm-0.8.6.dev0.tar.gz --markdown 20230511/t/timm/0.8.3.dev0-0.8.6.dev0/diff.md --exclude *.pyd
+[2023-05-11 00:12:40] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-05-11 00:12:40] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230511/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:12:41] INFO root fetch - main [MainThread]: End processing [nb-move-imports]: success
+[2023-05-11 00:12:41] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-05-11 00:12:42] INFO root fetch - main [MainThread]: End processing [paperscraper]: success
+[2023-05-11 00:12:42] INFO root fetch - main [MainThread]: End processing [h2o-engine-manager]: success
+[2023-05-11 00:12:42] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-11 00:12:43] INFO root fetch - main [MainThread]: End processing [timm]: success
+[2023-05-11 00:12:44] INFO root fetch - main [MainThread]: End processing [django-oscar-wfrs]: success
+[2023-05-11 00:12:46] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-05-11 00:12:58] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2023-05-11 00:12:58] INFO root fetch - main [MainThread]: Store serial: [18053319]
