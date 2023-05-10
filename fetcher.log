@@ -2578,3 +2578,52 @@ EOFError: EOF read where object expected
 [2023-05-11 00:57:41] INFO root fetch - main [MainThread]: End processing [betby]: success
 [2023-05-11 00:57:42] INFO root fetch - main [MainThread]: End processing [dalle-pytorch]: success
 [2023-05-11 00:57:42] INFO root fetch - main [MainThread]: Store serial: [18054374]
+[2023-05-11 01:02:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054374]
+[2023-05-11 01:02:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrc-python-utils
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esphome
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mockupgen
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satcfdi
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylatexenc
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-zipped-directory
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-cloud-pubsublite
+[2023-05-11 01:02:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: disklru
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pylatexenc]: New version: [3.0a17] Old Version: [3.0a15]
+[2023-05-11 01:02:51] INFO root fetch - processPackages [mockupgen]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 01:02:51] INFO root fetch - processPackages [google-cloud-pubsublite]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-05-11 01:02:51] INFO root fetch - processPackages [esphome]: New version: [2023.5.0b1] Old Version: [2023.4.4]
+[2023-05-11 01:02:51] INFO root fetch - processPackages [satcfdi]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-05-11 01:02:51] INFO root fetch - processPackages [hatch-zipped-directory]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-05-11 01:02:51] WARNING root fetch - processPackages [disklru]: Skipping, unable to determine old version
+[2023-05-11 01:02:51] INFO root fetch - main [MainThread]: End processing [disklru] error
+[2023-05-11 01:02:51] INFO root fetch - processPackages [mockupgen]: Downloading https://files.pythonhosted.org/packages/47/f6/15809aa5e2fd01e869f50385149d11ef2ff80a3c87592d4ac8a13722992f/mockupgen-0.0.1.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [satcfdi]: executing diffoscope
+[2023-05-11 01:02:51] INFO root fetch - processPackages [satcfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satcfdi-4.0.8.tar.gz tmp/satcfdi-4.0.9.tar.gz --markdown 20230511/s/satcfdi/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pylatexenc]: Downloading https://files.pythonhosted.org/packages/7a/3b/1cd3847a72a715c17226d0e45450df2705be5f49cf389514d339af7284c8/pylatexenc-3.0a15.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/1c/ba/c2099bf49cfd3be6d58c62a777f54af28612c70ebfda093f8181319394ac/esphome-2023.4.4.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [google-cloud-pubsublite]: Downloading https://files.pythonhosted.org/packages/09/b2/dfe2ef00f3ba4526dd7a17ec07759d78bab81012d375a0716a3d7f6b9284/google-cloud-pubsublite-1.8.0.tar.gz
+[2023-05-11 01:02:51] WARNING root fetch - processPackages [mockupgen]: Skipping package: exceeds size limit 20861128>=10485760
+[2023-05-11 01:02:51] INFO root fetch - main [MainThread]: End processing [mockupgen] error
+[2023-05-11 01:02:51] INFO root fetch - processPackages [hatch-zipped-directory]: Downloading https://files.pythonhosted.org/packages/23/cc/20608ef2edc9a8c25325d8ef76570f4f5608784d7693d3130d688df1c15c/hatch_zipped_directory-0.1.0b2.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 01:02:51] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/fd/99/ae3d26dae4a2f9e0b3992cd28d32fe7959910502f66b38139d5bd70d0d3f/esphome-2023.5.0b1.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [hatch-zipped-directory]: Downloading https://files.pythonhosted.org/packages/36/8a/14e7d5dd6e323028f53d9a2cc5167ed4f0dfd206505f6782f331e8e9807a/hatch_zipped_directory-0.1.0b3.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pylatexenc]: Downloading https://files.pythonhosted.org/packages/46/3c/f55491da279454152e64e077f8d573accc4f6abae11c90cc9569140deab5/pylatexenc-3.0a17.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [google-cloud-pubsublite]: Downloading https://files.pythonhosted.org/packages/77/c2/56d9b31bff9fdbd17c26e93cfb620220be038c3281df6e6b52305a19d637/google-cloud-pubsublite-1.8.1.tar.gz
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pylatexenc]: executing diffoscope
+[2023-05-11 01:02:51] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-05-11 01:02:51] INFO root fetch - processPackages [pylatexenc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylatexenc-3.0a15.tar.gz tmp/pylatexenc-3.0a17.tar.gz --markdown 20230511/p/pylatexenc/3.0a15-3.0a17/diff.md --exclude *.pyd
+[2023-05-11 01:02:51] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.4.4.tar.gz tmp/esphome-2023.5.0b1.tar.gz --markdown 20230511/e/esphome/2023.4.4-2023.5.0b1/diff.md --exclude *.pyd
+[2023-05-11 01:02:51] INFO root fetch - processPackages [hatch-zipped-directory]: executing diffoscope
+[2023-05-11 01:02:51] INFO root fetch - processPackages [hatch-zipped-directory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_zipped_directory-0.1.0b2.tar.gz tmp/hatch_zipped_directory-0.1.0b3.tar.gz --markdown 20230511/h/hatch-zipped-directory/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-05-11 01:02:51] INFO root fetch - processPackages [google-cloud-pubsublite]: executing diffoscope
+[2023-05-11 01:02:51] INFO root fetch - processPackages [google-cloud-pubsublite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-pubsublite-1.8.0.tar.gz tmp/google-cloud-pubsublite-1.8.1.tar.gz --markdown 20230511/g/google-cloud-pubsublite/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-05-11 01:02:52] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 01:02:53] INFO root fetch - main [MainThread]: End processing [hatch-zipped-directory]: success
+[2023-05-11 01:02:54] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsublite]: success
+[2023-05-11 01:02:55] INFO root fetch - main [MainThread]: End processing [pylatexenc]: success
+[2023-05-11 01:02:58] INFO root fetch - main [MainThread]: End processing [satcfdi]: success
+[2023-05-11 01:03:43] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-05-11 01:03:43] INFO root fetch - main [MainThread]: Store serial: [18054406]
