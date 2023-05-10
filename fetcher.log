@@ -2295,3 +2295,66 @@ EOFError: EOF read where object expected
 
 [2023-05-11 00:29:48] INFO root fetch - main [MainThread]: End processing [appmap] error
 [2023-05-11 00:29:48] INFO root fetch - main [MainThread]: Store serial: [18054182]
+[2023-05-11 00:34:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054182]
+[2023-05-11 00:34:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-thomas-better-finders
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLAlchemy
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viazoom
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: octodir
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: policyengine-us
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stringunitconverter
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxtyping
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MGSurvE
+[2023-05-11 00:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sspeedup
+[2023-05-11 00:34:57] INFO root fetch - processPackages [certora-cli-alpha-thomas-better-finders]: New version: [20230510.22.29.482642] Old Version: [20230510.21.5.863658]
+[2023-05-11 00:34:57] INFO root fetch - processPackages [stringunitconverter]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 00:34:57] INFO root fetch - processPackages [viazoom]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 00:34:57] INFO root fetch - processPackages [octodir]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-11 00:34:57] INFO root fetch - processPackages [MGSurvE]: New version: [0.9.0.0] Old Version: [0.8.1.0]
+[2023-05-11 00:34:57] INFO root fetch - processPackages [policyengine-us]: New version: [0.316.0] Old Version: [0.315.0]
+[2023-05-11 00:34:58] INFO root fetch - processPackages [SQLAlchemy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-11 00:34:58] INFO root fetch - processPackages [sspeedup]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 00:34:58] INFO root fetch - processPackages [jaxtyping]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 00:34:58] INFO root fetch - processPackages [certora-cli-alpha-thomas-better-finders]: Downloading https://files.pythonhosted.org/packages/04/bf/6c5063fe99d058041c3e183557153f41d10fcd6be4eb334b01dcc2fcb677/certora-cli-alpha-thomas-better-finders-20230510.21.5.863658.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [stringunitconverter]: Downloading https://files.pythonhosted.org/packages/54/5c/3fab4161eafdc2b22d2632ffd0c365e078771996ec12f14c6c7cc536dd34/stringunitconverter-0.3.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/0f/73/b76a2c8dbe035791e54da29cefaa22c166f875b24da844dc0f16b66e47bb/SQLAlchemy-2.0.8.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [viazoom]: Downloading https://files.pythonhosted.org/packages/cc/ff/e02bd44248d0cc889aaf2b93b68fbc7d05461ccc37c7274bfda8e1abf0a5/viazoom-0.1.2.tar.gz
+[2023-05-11 00:34:58] WARNING root fetch - processPackages [certora-cli-alpha-thomas-better-finders]: Skipping package: exceeds size limit 39240367>=10485760
+[2023-05-11 00:34:58] INFO root fetch - processPackages [octodir]: Downloading https://files.pythonhosted.org/packages/0c/4e/eb67aa13ae37da31bd1c5e48124ddaa405851e6ec944a4debc974f6a7623/octodir-1.0.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-better-finders] error
+[2023-05-11 00:34:58] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/e0/55/be73a2fea005796dc8f01c8935251d57ebb4362f84a2b7b5c7465f6bfbd7/MGSurvE-0.8.1.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/72/47/6aa83cda86ebfd8dbcb93f2b04b9baeed6c3e014f49c8cecfcfb81d92d64/policyengine-us-0.316.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [jaxtyping]: Downloading https://files.pythonhosted.org/packages/a3/9e/78ca5ff8dd7871586e0696e25426058e568639e0132836af3abc1463ce37/jaxtyping-0.2.8.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [sspeedup]: Downloading https://files.pythonhosted.org/packages/53/ff/0d81dc0e4bdd7144254b76a113c03e1a5db1c751baee4770a604532f5abf/sspeedup-0.8.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [stringunitconverter]: Downloading https://files.pythonhosted.org/packages/78/dc/61287aeee822097dbbf7b26ffaf3d3bc23bafd4fec44139f04251a805492/stringunitconverter-0.4.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.315.0.tar.gz tmp/policyengine-us-0.316.0.tar.gz --markdown 20230511/p/policyengine-us/0.315.0-0.316.0/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [viazoom]: Downloading https://files.pythonhosted.org/packages/90/ed/dd237baa213742a18ace496a0bb82e10020ea0531391d9bc5a7357e838ea/viazoom-0.1.3.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [octodir]: Downloading https://files.pythonhosted.org/packages/df/d5/5f5e3cf6b901610a8020f7189d65e73f6c0af77042f3c314a71e7c632a4a/octodir-1.1.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [stringunitconverter]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [stringunitconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringunitconverter-0.3.tar.gz tmp/stringunitconverter-0.4.tar.gz --markdown 20230511/s/stringunitconverter/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [MGSurvE]: Downloading https://files.pythonhosted.org/packages/29/91/3686781ca7ff57de5264cfde561b359585e0e710dbff9fc91fa873e6b36c/MGSurvE-0.9.0.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [SQLAlchemy]: Downloading https://files.pythonhosted.org/packages/74/2c/2316a7a0d8b03e34741b3763604d180423f79730010dd7ed61d0f2854d8d/SQLAlchemy-2.0.9.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [octodir]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [octodir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octodir-1.0.0.tar.gz tmp/octodir-1.1.0.tar.gz --markdown 20230511/o/octodir/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [sspeedup]: Downloading https://files.pythonhosted.org/packages/b6/b6/5176dcf8bcfbf153891baafef5056d06bfe05dab90687290c389b7884981/sspeedup-0.9.0.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [MGSurvE]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [MGSurvE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MGSurvE-0.8.1.0.tar.gz tmp/MGSurvE-0.9.0.0.tar.gz --markdown 20230511/M/MGSurvE/0.8.1.0-0.9.0.0/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [viazoom]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [viazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viazoom-0.1.2.tar.gz tmp/viazoom-0.1.3.tar.gz --markdown 20230511/v/viazoom/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [jaxtyping]: Downloading https://files.pythonhosted.org/packages/85/0f/1439acacec90920e4a60216446a4d60b4184659cc9182455c9f970689b2c/jaxtyping-0.2.9.tar.gz
+[2023-05-11 00:34:58] INFO root fetch - processPackages [SQLAlchemy]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [SQLAlchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-2.0.8.tar.gz tmp/SQLAlchemy-2.0.9.tar.gz --markdown 20230511/S/SQLAlchemy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [sspeedup]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [sspeedup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspeedup-0.8.0.tar.gz tmp/sspeedup-0.9.0.tar.gz --markdown 20230511/s/sspeedup/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 00:34:58] INFO root fetch - processPackages [jaxtyping]: executing diffoscope
+[2023-05-11 00:34:58] INFO root fetch - processPackages [jaxtyping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxtyping-0.2.8.tar.gz tmp/jaxtyping-0.2.9.tar.gz --markdown 20230511/j/jaxtyping/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 00:34:59] INFO root fetch - main [MainThread]: End processing [octodir]: success
+[2023-05-11 00:34:59] INFO root fetch - main [MainThread]: End processing [stringunitconverter]: success
+[2023-05-11 00:35:00] INFO root fetch - main [MainThread]: End processing [MGSurvE]: success
+[2023-05-11 00:35:00] INFO root fetch - main [MainThread]: End processing [sspeedup]: success
+[2023-05-11 00:35:00] INFO root fetch - main [MainThread]: End processing [viazoom]: success
+[2023-05-11 00:35:00] INFO root fetch - main [MainThread]: End processing [jaxtyping]: success
+[2023-05-11 00:35:58] INFO root fetch - main [MainThread]: End processing [SQLAlchemy]: success
+[2023-05-11 00:36:10] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-11 00:36:10] INFO root fetch - main [MainThread]: Store serial: [18054231]
