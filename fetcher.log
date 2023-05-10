@@ -2177,3 +2177,121 @@
 [2023-05-11 00:24:32] INFO root fetch - main [MainThread]: End processing [aws-cdk.custom-resources]: success
 [2023-05-11 00:24:34] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-11 00:24:34] INFO root fetch - main [MainThread]: Store serial: [18053941]
+[2023-05-11 00:29:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18053941]
+[2023-05-11 00:29:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-webapp-skeleton
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: appmap
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-async-langchain
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision-xformer
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-imgui-redux
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hkqr
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-oracle
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbcmgr
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bimcvcovid19i
+[2023-05-11 00:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cleanlab-studio
+[2023-05-11 00:29:43] INFO root fetch - processPackages [appmap]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-11 00:29:43] WARNING root fetch - processPackages [hkqr]: Skipping, unable to determine old version
+[2023-05-11 00:29:43] INFO root fetch - processPackages [hkqr]: Start processing: fastlingo
+[2023-05-11 00:29:43] INFO root fetch - main [MainThread]: End processing [hkqr] error
+[2023-05-11 00:29:43] INFO root fetch - processPackages [vision-xformer]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [cbcmgr]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [dbt-oracle]: New version: [1.5.0rc1] Old Version: [1.5.0]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [py-imgui-redux]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [bimcvcovid19i]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 00:29:43] INFO root fetch - processPackages [vision-xformer]: Downloading https://files.pythonhosted.org/packages/5e/b7/c69b16b7ce0cb4d1d0d9d14024b1714543a0c5ccabe7299c7d2fc54a0c8e/vision_xformer-0.1.9.tar.gz
+[2023-05-11 00:29:43] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/d0/e3/88fcbafe4920471ffa61f0a3681f1c9f000805c6ff2c04be1b0e5d943e22/fastapi_async_langchain-0.4.5.tar.gz
+[2023-05-11 00:29:43] WARNING root fetch - processPackages [fastlingo]: Skipping, unable to determine old version
+[2023-05-11 00:29:43] INFO root fetch - main [MainThread]: End processing [fastlingo] error
+[2023-05-11 00:29:43] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/6a/34/ba99627059d2ea165562392e9c99e64dac5d655ebffa31e3f61e8bc4ed9c/dbt-oracle-1.5.0.tar.gz
+[2023-05-11 00:29:43] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/f2/7e/f32f11d1f20873b6544f9429e83a6cb2a22abe5f245abba0bcd91dfe715c/appmap-1.9.0.tar.gz
+[2023-05-11 00:29:43] INFO root fetch - processPackages [py-imgui-redux]: Downloading https://files.pythonhosted.org/packages/6f/49/537855a28976eefe64936b25def35b78837ddb660fb213d5df2cfda5f87a/py_imgui_redux-1.0.1-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-05-11 00:29:43] INFO root fetch - processPackages [bimcvcovid19i]: Downloading https://files.pythonhosted.org/packages/bf/df/8c57feb5110ee4c954b9041b74c71fa516a5829efb3243dac01cd5a7a8f3/bimcvcovid19i-0.0.7.tar.gz
+[2023-05-11 00:29:43] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/51/ef/cac7b573ee00fadd061b64e6fa6334b3dd7cc2928488c0b6547f9465bb7a/cbcmgr-1.2.2.tar.gz
+[2023-05-11 00:29:43] INFO root fetch - processPackages [bimcvcovid19i]: executing diffoscope
+[2023-05-11 00:29:43] INFO root fetch - processPackages [bimcvcovid19i]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimcvcovid19i-0.0.6.tar.gz tmp/bimcvcovid19i-0.0.7.tar.gz --markdown 20230511/b/bimcvcovid19i/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-1.2.1.tar.gz tmp/cbcmgr-1.2.2.tar.gz --markdown 20230511/c/cbcmgr/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/a3/38/a971511d9717d2bb757ad00d81b97118efe862c3c1380946329f8c24d02d/fastapi_async_langchain-0.5.0.tar.gz
+[2023-05-11 00:29:44] INFO root fetch - processPackages [dbt-oracle]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [dbt-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-oracle-1.5.0.tar.gz tmp/dbt-oracle-1.5.0rc1.tar.gz --markdown 20230511/d/dbt-oracle/1.5.0-1.5.0rc1/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [vision-xformer]: Downloading https://files.pythonhosted.org/packages/c3/71/83055714b73da06dff2f6b82d389407eba72c24cdded7681c0adc529eccf/vision_xformer-0.2.0.tar.gz
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230511/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/47/9b/972726ed4161e0f67f2b624d7b07f9c59948fc06607a490530243eddc8ca/cleanlab-studio-1.0.3.tar.gz
+[2023-05-11 00:29:44] INFO root fetch - processPackages [py-imgui-redux]: Downloading https://files.pythonhosted.org/packages/90/53/c237e92611101010e9117a92812dde20e3d3d436882e1f4851e027cf810c/py_imgui_redux-1.0.3-cp39-cp39-win_amd64.whl
+[2023-05-11 00:29:44] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.4.5.tar.gz tmp/fastapi_async_langchain-0.5.0.tar.gz --markdown 20230511/f/fastapi-async-langchain/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [vision-xformer]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [vision-xformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_xformer-0.1.9.tar.gz tmp/vision_xformer-0.2.0.tar.gz --markdown 20230511/v/vision-xformer/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/d8/c7/6ce38549b3048524dba85c7c34487c648fd10bdd5378a2654bf672a6baba/appmap-1.9.1.tar.gz
+[2023-05-11 00:29:44] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-1.9.0.tar.gz tmp/appmap-1.9.1.tar.gz --markdown 20230511/a/appmap/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-1.0.2.tar.gz tmp/cleanlab-studio-1.0.3.tar.gz --markdown 20230511/c/cleanlab-studio/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 00:29:44] INFO root fetch - processPackages [py-imgui-redux]: executing diffoscope
+[2023-05-11 00:29:44] INFO root fetch - processPackages [py-imgui-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_imgui_redux-1.0.1-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/py_imgui_redux-1.0.3-cp39-cp39-win_amd64.whl.zip --markdown 20230511/p/py-imgui-redux/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 00:29:45] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2023-05-11 00:29:45] INFO root fetch - main [MainThread]: End processing [bimcvcovid19i]: success
+[2023-05-11 00:29:45] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-05-11 00:29:45] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-05-11 00:29:45] INFO root fetch - main [MainThread]: End processing [vision-xformer]: success
+[2023-05-11 00:29:46] INFO root fetch - main [MainThread]: End processing [dbt-oracle]: success
+[2023-05-11 00:29:46] INFO root fetch - main [MainThread]: End processing [py-imgui-redux]: success
+[2023-05-11 00:29:46] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-05-11 00:29:48] ERROR root fetch - processPackages [appmap]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-11 00:29:48] INFO root fetch - main [MainThread]: End processing [appmap] error
+[2023-05-11 00:29:48] INFO root fetch - main [MainThread]: Store serial: [18054182]
