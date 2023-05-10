@@ -2998,3 +2998,59 @@ EOFError: EOF read where object expected
 [2023-05-11 01:30:11] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-11 01:30:11] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
 [2023-05-11 01:30:11] INFO root fetch - main [MainThread]: Store serial: [18054602]
+[2023-05-11 01:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054602]
+[2023-05-11 01:35:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stmapy
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: persisty
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mitiq
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gracy
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thirdweb-sdk
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: esdbclient
+[2023-05-11 01:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hassle
+[2023-05-11 01:35:20] INFO root fetch - processPackages [stmapy]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [persisty]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230510.23.31.519293] Old Version: [20230510.22.42.113214]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [mitiq]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.316] Old Version: [0.3.315]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [hassle]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [thirdweb-sdk]: New version: [3.0.2a6] Old Version: [3.0.2a5]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [esdbclient]: New version: [1.0a2] Old Version: [1.0a1]
+[2023-05-11 01:35:20] INFO root fetch - processPackages [persisty]: executing diffoscope
+[2023-05-11 01:35:20] INFO root fetch - processPackages [persisty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persisty-0.0.7.tar.gz tmp/persisty-0.0.8.tar.gz --markdown 20230511/p/persisty/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [thirdweb-sdk]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [thirdweb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdweb_sdk-3.0.2a5.tar.gz tmp/thirdweb_sdk-3.0.2a6.tar.gz --markdown 20230511/t/thirdweb-sdk/3.0.2a5-3.0.2a6/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/c5/9b/f328f0deea2baa1c1c08025dc2da8c863e155235e3f44fc53c072921dc5f/certora-cli-alpha-jtoman-try-catch-20230510.22.42.113214.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.8.1.tar.gz tmp/hassle-2.8.2.tar.gz --markdown 20230511/h/hassle/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [mitiq]: Downloading https://files.pythonhosted.org/packages/e6/55/3e84009b3e400d0031498aaa12cdb8d90174a879fc32b13303209c82b4ad/mitiq-0.9.2.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [stmapy]: Downloading https://files.pythonhosted.org/packages/4f/4d/1fd18cfba20f603ec7321a4bf9fe2863bdeb1de6267a20080d480658d406/stmapy-0.4.0.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/cd/1f/c880607a2c92ea7edf79b474fe69127bf700211792b250de5688cc0f35c4/gracy-1.9.0.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/3e/b3/224b5d048a16d935f19f89f18d9c1b4a7b376f9618ca8b9fc51dbb3a81aa/pepperize.cdk-ses-smtp-credentials-0.3.316.tar.gz
+[2023-05-11 01:35:21] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39214852>=10485760
+[2023-05-11 01:35:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-11 01:35:21] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/e2/4d/5fb0d8d680cde508bed2eb64ad0f2b4e65f14b4855f195b40d59c6b95570/esdbclient-1.0a2.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [stmapy]: Downloading https://files.pythonhosted.org/packages/51/b6/88b938540d178aba430372653a08a71f10aa878ca89a18b0c27c729e2290/stmapy-0.4.1.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.315.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.316.tar.gz --markdown 20230511/p/pepperize.cdk-ses-smtp-credentials/0.3.315-0.3.316/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [gracy]: Downloading https://files.pythonhosted.org/packages/1e/6f/ce2bfb2b73be0d267e60d390c02a83bd9ad556c22357258727c677517895/gracy-1.9.1.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [stmapy]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [stmapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stmapy-0.4.0.tar.gz tmp/stmapy-0.4.1.tar.gz --markdown 20230511/s/stmapy/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [mitiq]: Downloading https://files.pythonhosted.org/packages/e9/34/9126c901f4d512cc6a0c8516aeb1292c17f789883ae0776b20bd9221f1d9/mitiq-0.9.3.tar.gz
+[2023-05-11 01:35:21] INFO root fetch - processPackages [esdbclient]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [esdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esdbclient-1.0a1.tar.gz tmp/esdbclient-1.0a2.tar.gz --markdown 20230511/e/esdbclient/1.0a1-1.0a2/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [mitiq]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [mitiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitiq-0.9.2.tar.gz tmp/mitiq-0.9.3.tar.gz --markdown 20230511/m/mitiq/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-11 01:35:21] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-05-11 01:35:21] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230511/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-11 01:35:22] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-11 01:35:22] INFO root fetch - main [MainThread]: End processing [stmapy]: success
+[2023-05-11 01:35:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-11 01:35:23] INFO root fetch - main [MainThread]: End processing [persisty]: success
+[2023-05-11 01:35:23] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-05-11 01:35:23] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
+[2023-05-11 01:35:24] INFO root fetch - main [MainThread]: End processing [mitiq]: success
+[2023-05-11 01:35:25] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
+[2023-05-11 01:35:25] INFO root fetch - main [MainThread]: Store serial: [18054628]
