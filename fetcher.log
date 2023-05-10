@@ -2416,3 +2416,89 @@ EOFError: EOF read where object expected
 [2023-05-11 00:41:25] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
 [2023-05-11 00:41:28] INFO root fetch - main [MainThread]: End processing [cupid-matching]: success
 [2023-05-11 00:41:28] INFO root fetch - main [MainThread]: Store serial: [18054262]
+[2023-05-11 00:46:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054262]
+[2023-05-11 00:46:37] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faker-file
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shandy-sqlfmt
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-async-langchain
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: videocdn-tv
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-hawq
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdsfactory
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tilequant
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mockupgen
+[2023-05-11 00:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cengal
+[2023-05-11 00:46:37] INFO root fetch - processPackages [sqlalchemy-hawq]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [videocdn-tv]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230510.22.42.113214] Old Version: [20230510.20.59.361934]
+[2023-05-11 00:46:37] WARNING root fetch - processPackages [mockupgen]: Skipping, unable to determine old version
+[2023-05-11 00:46:37] INFO root fetch - processPackages [mockupgen]: Start processing: supervision
+[2023-05-11 00:46:37] INFO root fetch - main [MainThread]: End processing [mockupgen] error
+[2023-05-11 00:46:37] INFO root fetch - processPackages [cengal]: New version: [3.1.17] Old Version: [3.1.16]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [fastapi-async-langchain]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [shandy-sqlfmt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [tilequant]: New version: [0.4.1.post1] Old Version: [0.4.1.post0]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [gdsfactory]: New version: [6.92.2] Old Version: [6.92.1]
+[2023-05-11 00:46:37] INFO root fetch - processPackages [supervision]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-11 00:46:38] INFO root fetch - processPackages [sqlalchemy-hawq]: Downloading https://files.pythonhosted.org/packages/85/00/89e8837c416a324ca7174b6f353f5a909de40ba0199ddad2dea15ba989a1/sqlalchemy_hawq-1.0.1.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [fastapi-async-langchain]: Downloading https://files.pythonhosted.org/packages/84/c6/7c9d4f70668b2eae5b767a1042a41d49aa725946cd5da949f24c4c2c76a1/fastapi_async_langchain-0.5.1.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/12/ee/4cb6e7ddd5668402a1c7f602ce678e1a1a21c49ca2255c43ef9c72998753/certora-cli-alpha-jtoman-try-catch-20230510.20.59.361934.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [videocdn-tv]: Downloading https://files.pythonhosted.org/packages/0e/11/0469a069718a0dec99f6b30e562d470833913d9cfefba7dfed2e488fc546/videocdn_tv-0.1.9.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [cengal]: Downloading https://files.pythonhosted.org/packages/ae/10/a47174710553172b4d77781ffd1dc293ca364aee554c35ea8625157c57df/cengal-3.1.17.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [shandy-sqlfmt]: Downloading https://files.pythonhosted.org/packages/6a/f3/a47406ac26c9c3f2da66d2a0c95247503555af0abd754e041c32d9a93c2a/shandy-sqlfmt-0.8.0.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [tilequant]: Downloading https://files.pythonhosted.org/packages/a2/cb/0e087b4574d8de618cf16ad90a542f56cf6e18b3a95d06c86db3b8693da0/tilequant-0.4.1.post0.tar.gz
+[2023-05-11 00:46:38] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39214852>=10485760
+[2023-05-11 00:46:38] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: e3nn-jax
+[2023-05-11 00:46:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-11 00:46:38] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/4f/95/2e94efc178f17275a6e2cbffee079681695edf72d125b78d4755f49128aa/supervision-0.6.0.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [cengal]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [cengal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cengal-3.1.16.tar.gz tmp/cengal-3.1.17.tar.gz --markdown 20230511/c/cengal/3.1.16-3.1.17/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [e3nn-jax]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-11 00:46:38] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230511/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [fastapi-async-langchain]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [fastapi-async-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_async_langchain-0.5.0.tar.gz tmp/fastapi_async_langchain-0.5.1.tar.gz --markdown 20230511/f/fastapi-async-langchain/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7b/df/55749a27a8cc6dda5d8e4b7f12beb810406e9048b1d4a712385210e09106/gdsfactory-6.92.2.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [tilequant]: Downloading https://files.pythonhosted.org/packages/2c/a6/cf0889e1b706f2040255999b6f0a75bed49c85100bb0f447a76d295ac4e9/tilequant-0.4.1.post1-cp39-cp39-win_amd64.whl
+[2023-05-11 00:46:38] INFO root fetch - processPackages [videocdn-tv]: Downloading https://files.pythonhosted.org/packages/4e/ff/bc1b99dc3e8f3f2fff5729812aaa5dc00300f15b370876d161a1dfd37643/videocdn_tv-0.2.0.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [sqlalchemy-hawq]: Downloading https://files.pythonhosted.org/packages/40/07/f3616ebdb7216e3ce8093490f7a27df387cf048f6ef14ccf7d8aec4b3a51/sqlalchemy_hawq-1.0.3.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/13/4d/d1fc4ae9b7b5ba2731634f562a7749df0efdaf4f4aebdef6d703b0a56a67/e3nn_jax-0.9.1.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [supervision]: Downloading https://files.pythonhosted.org/packages/77/60/7c25ad0ce6199b508d30bcb5d23cbc1d4aa9ed41287643bbf0f333b6dff4/supervision-0.7.0.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.92.1.tar.gz tmp/gdsfactory-6.92.2.tar.gz --markdown 20230511/g/gdsfactory/6.92.1-6.92.2/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [videocdn-tv]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [videocdn-tv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/videocdn_tv-0.1.9.tar.gz tmp/videocdn_tv-0.2.0.tar.gz --markdown 20230511/v/videocdn-tv/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [sqlalchemy-hawq]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [sqlalchemy-hawq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_hawq-1.0.1.tar.gz tmp/sqlalchemy_hawq-1.0.3.tar.gz --markdown 20230511/s/sqlalchemy-hawq/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [supervision]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [supervision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervision-0.6.0.tar.gz tmp/supervision-0.7.0.tar.gz --markdown 20230511/s/supervision/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [tilequant]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [tilequant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilequant-0.4.1.post0.tar.gz tmp/tilequant-0.4.1.post1-cp39-cp39-win_amd64.whl.zip --markdown 20230511/t/tilequant/0.4.1.post0-0.4.1.post1/diff.md --exclude *.pyd
+[2023-05-11 00:46:38] INFO root fetch - processPackages [shandy-sqlfmt]: Downloading https://files.pythonhosted.org/packages/c8/3f/822481411f40cc263d3e36323365a501caa9317e6386586c95a500c8f229/shandy-sqlfmt-0.9.0.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/dd/2b/f088a9fd1f6290d72497c0e1f822eff10efb1cc31d30c99f8264b09c3a01/e3nn_jax-0.9.2.tar.gz
+[2023-05-11 00:46:38] INFO root fetch - processPackages [shandy-sqlfmt]: executing diffoscope
+[2023-05-11 00:46:38] INFO root fetch - processPackages [shandy-sqlfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shandy-sqlfmt-0.8.0.tar.gz tmp/shandy-sqlfmt-0.9.0.tar.gz --markdown 20230511/s/shandy-sqlfmt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 00:46:39] INFO root fetch - processPackages [e3nn-jax]: executing diffoscope
+[2023-05-11 00:46:39] INFO root fetch - processPackages [e3nn-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e3nn_jax-0.9.1.tar.gz tmp/e3nn_jax-0.9.2.tar.gz --markdown 20230511/e/e3nn-jax/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 00:46:39] INFO root fetch - processPackages [fastapi-async-langchain]: Start processing: cc-py-commons
+[2023-05-11 00:46:39] INFO root fetch - main [MainThread]: End processing [fastapi-async-langchain]: success
+[2023-05-11 00:46:39] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 00:46:39] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-11 00:46:39] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230511/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 00:46:40] INFO root fetch - processPackages [videocdn-tv]: Start processing: assisted-service-client
+[2023-05-11 00:46:40] INFO root fetch - main [MainThread]: End processing [videocdn-tv]: success
+[2023-05-11 00:46:40] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-11 00:46:40] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-11 00:46:40] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230511/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-11 00:46:40] INFO root fetch - main [MainThread]: End processing [shandy-sqlfmt]: success
+[2023-05-11 00:46:41] INFO root fetch - main [MainThread]: End processing [sqlalchemy-hawq]: success
+[2023-05-11 00:46:41] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-05-11 00:46:41] INFO root fetch - main [MainThread]: End processing [supervision]: success
+[2023-05-11 00:46:41] INFO root fetch - main [MainThread]: End processing [tilequant]: success
+[2023-05-11 00:46:41] INFO root fetch - main [MainThread]: End processing [e3nn-jax]: success
+[2023-05-11 00:46:41] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-11 00:46:44] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-11 00:46:46] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-05-11 00:47:18] INFO root fetch - main [MainThread]: End processing [cengal]: success
+[2023-05-11 00:47:18] INFO root fetch - main [MainThread]: Store serial: [18054332]
