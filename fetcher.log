@@ -2555,3 +2555,26 @@ EOFError: EOF read where object expected
 [2023-05-11 00:52:29] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
 [2023-05-11 00:52:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-business-requirement]: success
 [2023-05-11 00:52:29] INFO root fetch - main [MainThread]: Store serial: [18054363]
+[2023-05-11 00:57:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054363]
+[2023-05-11 00:57:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-11 00:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minivan-tools
+[2023-05-11 00:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betby
+[2023-05-11 00:57:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dalle-pytorch
+[2023-05-11 00:57:39] INFO root fetch - processPackages [minivan-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-11 00:57:39] INFO root fetch - processPackages [betby]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-05-11 00:57:39] INFO root fetch - processPackages [dalle-pytorch]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-05-11 00:57:39] INFO root fetch - processPackages [minivan-tools]: Downloading https://files.pythonhosted.org/packages/8a/8e/d89a8833251299fe4f47abe2923ec7de0650cc90fad02d97e856060f21d4/minivan_tools-0.1.4.tar.gz
+[2023-05-11 00:57:39] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/16/8b/7c53acc18b77ed34ce3bb50d1ae905a2695bd549a5e0a03fbff4ce3633ac/betby-0.2.0.tar.gz
+[2023-05-11 00:57:39] INFO root fetch - processPackages [dalle-pytorch]: Downloading https://files.pythonhosted.org/packages/99/c8/9a6fb9a9f509b0eed68e08feedd570dc0373c16623029821a73c6d8829f5/dalle-pytorch-1.6.4.tar.gz
+[2023-05-11 00:57:39] INFO root fetch - processPackages [minivan-tools]: Downloading https://files.pythonhosted.org/packages/cb/d2/2fc7281200351d7e6246ef430fce42b34d6554bbc3105e712685f48c8344/minivan_tools-0.1.5.tar.gz
+[2023-05-11 00:57:39] INFO root fetch - processPackages [minivan-tools]: executing diffoscope
+[2023-05-11 00:57:39] INFO root fetch - processPackages [minivan-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minivan_tools-0.1.4.tar.gz tmp/minivan_tools-0.1.5.tar.gz --markdown 20230511/m/minivan-tools/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-11 00:57:40] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-05-11 00:57:40] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.1.8.tar.gz tmp/betby-0.2.0.tar.gz --markdown 20230511/b/betby/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 00:57:40] INFO root fetch - processPackages [dalle-pytorch]: Downloading https://files.pythonhosted.org/packages/98/cf/6f4f8189a43246991ad466dee412ca0e361cc7957ce504ce376b526f407d/dalle-pytorch-1.6.5.tar.gz
+[2023-05-11 00:57:40] INFO root fetch - main [MainThread]: End processing [minivan-tools]: success
+[2023-05-11 00:57:41] INFO root fetch - processPackages [dalle-pytorch]: executing diffoscope
+[2023-05-11 00:57:41] INFO root fetch - processPackages [dalle-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalle-pytorch-1.6.4.tar.gz tmp/dalle-pytorch-1.6.5.tar.gz --markdown 20230511/d/dalle-pytorch/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-05-11 00:57:41] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-05-11 00:57:42] INFO root fetch - main [MainThread]: End processing [dalle-pytorch]: success
+[2023-05-11 00:57:42] INFO root fetch - main [MainThread]: Store serial: [18054374]
