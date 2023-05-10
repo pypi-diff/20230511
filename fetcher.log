@@ -2955,3 +2955,46 @@ EOFError: EOF read where object expected
 [2023-05-11 01:24:58] INFO root fetch - main [MainThread]: End processing [dreem]: success
 [2023-05-11 01:24:58] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
 [2023-05-11 01:24:58] INFO root fetch - main [MainThread]: Store serial: [18054582]
+[2023-05-11 01:30:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054582]
+[2023-05-11 01:30:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: armada-airflow
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thirdweb-sdk
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: discovery-transition-ds
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oobabot
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lexset
+[2023-05-11 01:30:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SDTcloud
+[2023-05-11 01:30:07] INFO root fetch - processPackages [armada-airflow]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.315] Old Version: [0.3.314]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [oobabot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [lexset]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [thirdweb-sdk]: New version: [3.0.2a6] Old Version: [3.0.2a5]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [armada-airflow]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [armada-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armada_airflow-0.3.0-py3-none-any.whl.zip tmp/armada_airflow-0.4.0-py3-none-any.whl.zip --markdown 20230511/a/armada-airflow/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 01:30:07] INFO root fetch - processPackages [SDTcloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 01:30:07] INFO root fetch - processPackages [thirdweb-sdk]: Downloading https://files.pythonhosted.org/packages/7c/33/3d7ff4bb96a4991115af097723d78a3dd844073dcc87535aaf4dba646846/thirdweb_sdk-3.0.2a6.tar.gz
+[2023-05-11 01:30:07] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/42/00/ded343c4b53e2c5b8b715d77a54c4a3cebae0f621ee05ef97971e630b4a0/lexset-4.0.4.tar.gz
+[2023-05-11 01:30:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4c/69/9707ff36c3fdf82e0c5da6595d2babbfc816f633997d52b6f934c26e7197/pepperize.cdk-ses-smtp-credentials-0.3.315.tar.gz
+[2023-05-11 01:30:07] INFO root fetch - processPackages [oobabot]: Downloading https://files.pythonhosted.org/packages/ff/22/f72242365af377bcd7d8f47f2ced71151f1905599aebc583370f42f5d87d/oobabot-0.1.4.tar.gz
+[2023-05-11 01:30:07] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230511/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-11 01:30:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.314.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.315.tar.gz --markdown 20230511/p/pepperize.cdk-ses-smtp-credentials/0.3.314-0.3.315/diff.md --exclude *.pyd
+[2023-05-11 01:30:07] INFO root fetch - processPackages [thirdweb-sdk]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [thirdweb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdweb_sdk-3.0.2a5.tar.gz tmp/thirdweb_sdk-3.0.2a6.tar.gz --markdown 20230511/t/thirdweb-sdk/3.0.2a5-3.0.2a6/diff.md --exclude *.pyd
+[2023-05-11 01:30:07] INFO root fetch - processPackages [SDTcloud]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [SDTcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SDTcloud-0.1.8.tar.gz tmp/SDTcloud-0.1.9.tar.gz --markdown 20230511/S/SDTcloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 01:30:07] INFO root fetch - processPackages [lexset]: Downloading https://files.pythonhosted.org/packages/7d/ca/fba34920c8ccd040d2b33ea7bc64c2c67f76076590840a2613715caf43f3/lexset-4.0.5.tar.gz
+[2023-05-11 01:30:07] INFO root fetch - processPackages [oobabot]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [oobabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oobabot-0.1.3.tar.gz tmp/oobabot-0.1.4.tar.gz --markdown 20230511/o/oobabot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 01:30:07] INFO root fetch - processPackages [lexset]: executing diffoscope
+[2023-05-11 01:30:07] INFO root fetch - processPackages [lexset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexset-4.0.4.tar.gz tmp/lexset-4.0.5.tar.gz --markdown 20230511/l/lexset/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-05-11 01:30:08] INFO root fetch - main [MainThread]: End processing [armada-airflow]: success
+[2023-05-11 01:30:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-11 01:30:09] INFO root fetch - main [MainThread]: End processing [SDTcloud]: success
+[2023-05-11 01:30:09] INFO root fetch - main [MainThread]: End processing [oobabot]: success
+[2023-05-11 01:30:09] INFO root fetch - main [MainThread]: End processing [lexset]: success
+[2023-05-11 01:30:11] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-11 01:30:11] INFO root fetch - main [MainThread]: End processing [thirdweb-sdk]: success
+[2023-05-11 01:30:11] INFO root fetch - main [MainThread]: Store serial: [18054602]
