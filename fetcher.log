@@ -3163,3 +3163,38 @@ EOFError: EOF read where object expected
 [2023-05-11 01:46:08] INFO root fetch - main [MainThread]: End processing [fluffy-server]: success
 [2023-05-11 01:46:10] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-11 01:46:10] INFO root fetch - main [MainThread]: Store serial: [18054681]
+[2023-05-11 01:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054681]
+[2023-05-11 01:51:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analogvnn
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rat
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vanoma-api-utils
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ikabot
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyanide
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphql-service-framework
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ikabot]: New version: [6.5.9] Old Version: [6.5.8]
+[2023-05-11 01:51:19] INFO root fetch - processPackages [rat]: New version: [3.0.0a4] Old Version: [3.0.0a13]
+[2023-05-11 01:51:19] INFO root fetch - processPackages [analogvnn]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 01:51:19] WARNING root fetch - processPackages [pyanide]: Skipping, unable to determine old version
+[2023-05-11 01:51:19] INFO root fetch - main [MainThread]: End processing [pyanide] error
+[2023-05-11 01:51:19] INFO root fetch - processPackages [vanoma-api-utils]: New version: [0.95.0] Old Version: [0.94.0]
+[2023-05-11 01:51:19] INFO root fetch - processPackages [rat]: executing diffoscope
+[2023-05-11 01:51:19] INFO root fetch - processPackages [rat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rat-3.0.0a13.tar.gz tmp/rat-3.0.0a4.tar.gz --markdown 20230511/r/rat/3.0.0a13-3.0.0a4/diff.md --exclude *.pyd
+[2023-05-11 01:51:19] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ikabot]: Downloading https://files.pythonhosted.org/packages/0d/e9/e4ce71f80264c30282d864dff5afc9e3bb729764c474a019510d6d2bb2be/ikabot-6.5.8.tar.gz
+[2023-05-11 01:51:19] INFO root fetch - processPackages [vanoma-api-utils]: Downloading https://files.pythonhosted.org/packages/f3/79/ff53a8f8da91bed95d0ffc0142a62f102800807b2567544d90f9783e88e1/vanoma_api_utils-0.95.0.tar.gz
+[2023-05-11 01:51:19] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-11 01:51:19] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230511/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 01:51:19] INFO root fetch - processPackages [vanoma-api-utils]: executing diffoscope
+[2023-05-11 01:51:19] INFO root fetch - processPackages [vanoma-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanoma_api_utils-0.94.0.tar.gz tmp/vanoma_api_utils-0.95.0.tar.gz --markdown 20230511/v/vanoma-api-utils/0.94.0-0.95.0/diff.md --exclude *.pyd
+[2023-05-11 01:51:19] INFO root fetch - processPackages [analogvnn]: Downloading https://files.pythonhosted.org/packages/33/75/eb52cc0fd0f3b4e8b3d5606c5464d736fd12ad44abe04b9f070a3cfb1fb5/analogvnn-1.0.4.tar.gz
+[2023-05-11 01:51:19] INFO root fetch - processPackages [analogvnn]: executing diffoscope
+[2023-05-11 01:51:19] INFO root fetch - processPackages [analogvnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogvnn-1.0.3.tar.gz tmp/analogvnn-1.0.4.tar.gz --markdown 20230511/a/analogvnn/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 01:51:19] INFO root fetch - processPackages [ikabot]: Downloading https://files.pythonhosted.org/packages/26/5b/e9d957f9404d9ecdc7a7225bddfbcacccec8b2ec638c762b3dd882664415/ikabot-6.5.9.tar.gz
+[2023-05-11 01:51:20] INFO root fetch - processPackages [ikabot]: executing diffoscope
+[2023-05-11 01:51:20] INFO root fetch - processPackages [ikabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ikabot-6.5.8.tar.gz tmp/ikabot-6.5.9.tar.gz --markdown 20230511/i/ikabot/6.5.8-6.5.9/diff.md --exclude *.pyd
+[2023-05-11 01:51:20] INFO root fetch - main [MainThread]: End processing [rat]: success
+[2023-05-11 01:51:21] INFO root fetch - main [MainThread]: End processing [analogvnn]: success
+[2023-05-11 01:51:21] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-11 01:51:21] INFO root fetch - main [MainThread]: End processing [vanoma-api-utils]: success
+[2023-05-11 01:51:21] INFO root fetch - main [MainThread]: End processing [ikabot]: success
+[2023-05-11 01:51:21] INFO root fetch - main [MainThread]: Store serial: [18054702]
