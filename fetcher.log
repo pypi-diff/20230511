@@ -21116,3 +21116,181 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:37:34] INFO root fetch - main [MainThread]: End processing [jina]: success
 [2023-05-11 16:37:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 16:37:37] INFO root fetch - main [MainThread]: Store serial: [18064798]
+[2023-05-11 16:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064798]
+[2023-05-11 16:42:46] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiuv
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiuv
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiuv
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiuv
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: permit
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoptiML
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modbus-wrapper
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: printername
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: localstack-core
+[2023-05-11 16:42:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: djlint
+[2023-05-11 16:42:47] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230510161215] Old Version: [2.0.3.dev20230510111327]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [printername]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [pyoptiML]: New version: [0.3] Old Version: [0.1]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [printername]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [printername]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printername-0.0.2.tar.gz tmp/printername-0.0.3.tar.gz --markdown 20230511/p/printername/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [permit]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230510111327.tar.gz tmp/localstack-core-2.0.3.dev20230510161215.tar.gz --markdown 20230511/l/localstack-core/2.0.3.dev20230510111327-2.0.3.dev20230510161215/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [modbus-wrapper]: New version: [1.0.3] Old Version: [1.0.2b0]
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/4d/56/c91d3d920911de65a01694b8a0db479cd9fb3b654fde6a2131c64c11ecd3/aiuv-0.3.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/4d/56/c91d3d920911de65a01694b8a0db479cd9fb3b654fde6a2131c64c11ecd3/aiuv-0.3.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/4d/56/c91d3d920911de65a01694b8a0db479cd9fb3b654fde6a2131c64c11ecd3/aiuv-0.3.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/4d/56/c91d3d920911de65a01694b8a0db479cd9fb3b654fde6a2131c64c11ecd3/aiuv-0.3.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [pyoptiML]: Downloading https://files.pythonhosted.org/packages/c9/60/9909533041d5f8857c54a559d4bd53d03423a19284aceb4373dcfc9d4cbf/pyoptiML-0.1.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230511/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [modbus-wrapper]: Downloading https://files.pythonhosted.org/packages/f1/6c/5b36cd50b58bbec160a916ee756e6b7674f953dccd6463ea6384093248bc/modbus-wrapper-1.0.2b0.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/00/5a/55f21aa5560beb25548f1553d5e1fe9406baa4ad08a3e87b955df9109d91/permit-1.2.1.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/ee/cb/2fe8e46f388054cd17cf620eb5e25066dd7541cd9c8d6f962d3be43588b6/aiuv-0.4.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/ee/cb/2fe8e46f388054cd17cf620eb5e25066dd7541cd9c8d6f962d3be43588b6/aiuv-0.4.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/ee/cb/2fe8e46f388054cd17cf620eb5e25066dd7541cd9c8d6f962d3be43588b6/aiuv-0.4.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [pyoptiML]: Downloading https://files.pythonhosted.org/packages/88/aa/e0a800723182cad1f6e8749488a845b7ac07c69a9d945bd1e0d15d93f285/pyoptiML-0.3.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: Downloading https://files.pythonhosted.org/packages/ee/cb/2fe8e46f388054cd17cf620eb5e25066dd7541cd9c8d6f962d3be43588b6/aiuv-0.4.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [modbus-wrapper]: Downloading https://files.pythonhosted.org/packages/43/03/30215ae2c6c36d5d3e71f66b2bf4f13fccb9843ee56d36c41e54ab2073f6/modbus-wrapper-1.0.3.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/95/ff/70e7ee6692fa5bd8531ecd376396cdb51d10baef226b873410912c3b1f32/permit-1.2.2.tar.gz
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiuv-0.3.tar.gz tmp/aiuv-0.4.tar.gz --markdown 20230511/a/aiuv/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiuv-0.3.tar.gz tmp/aiuv-0.4.tar.gz --markdown 20230511/a/aiuv/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiuv-0.3.tar.gz tmp/aiuv-0.4.tar.gz --markdown 20230511/a/aiuv/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [pyoptiML]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [pyoptiML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptiML-0.1.tar.gz tmp/pyoptiML-0.3.tar.gz --markdown 20230511/p/pyoptiML/0.1-0.3/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [aiuv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiuv-0.3.tar.gz tmp/aiuv-0.4.tar.gz --markdown 20230511/a/aiuv/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [modbus-wrapper]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [modbus-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modbus-wrapper-1.0.2b0.tar.gz tmp/modbus-wrapper-1.0.3.tar.gz --markdown 20230511/m/modbus-wrapper/1.0.2b0-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 16:42:47] INFO root fetch - processPackages [permit]: executing diffoscope
+[2023-05-11 16:42:47] INFO root fetch - processPackages [permit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-1.2.1.tar.gz tmp/permit-1.2.2.tar.gz --markdown 20230511/p/permit/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-11 16:42:48] INFO root fetch - processPackages [printername]: Start processing: boris-behav-obs
+[2023-05-11 16:42:48] INFO root fetch - main [MainThread]: End processing [printername]: success
+[2023-05-11 16:42:48] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-05-11 16:42:48] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-05-11 16:42:48] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230511/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-05-11 16:42:49] INFO root fetch - processPackages [aiuv]: Start processing: msg2bytes
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [aiuv]: success
+[2023-05-11 16:42:49] INFO root fetch - processPackages [aiuv]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [aiuv]: success
+[2023-05-11 16:42:49] INFO root fetch - processPackages [djlint]: Start processing: ghevaluator
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [msg2bytes]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: New version: [2.0.0] Old Version: [0.0.1]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [aiuv]: Start processing: ghevaluator
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [aiuv]: success
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: New version: [2.0.0] Old Version: [0.0.1]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [aiuv]: Start processing: OpenGeode-core
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [aiuv]: success
+[2023-05-11 16:42:49] INFO root fetch - processPackages [msg2bytes]: Downloading https://files.pythonhosted.org/packages/fe/1a/3e1674542c6ddd01faf2736813597e25f4f112bcf1df56628687369824c4/msg2bytes-0.1.3.tar.gz
+[2023-05-11 16:42:49] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.0.9]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/2d/c7/db306a9d5f550c1bf24d1030998dc9102bf809200494c6ace230ea205f04/ghevaluator-0.0.1.tar.gz
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/2d/c7/db306a9d5f550c1bf24d1030998dc9102bf809200494c6ace230ea205f04/ghevaluator-0.0.1.tar.gz
+[2023-05-11 16:42:49] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/f4/d6/c03770d6a9178257977a810f85df4252ebce3b549f00a6a4ad2bc5cd7a5b/OpenGeode_core-14.0.9-cp39-cp39-win_amd64.whl
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pyoptiML]: Start processing: dumbo-asp
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [pyoptiML]: success
+[2023-05-11 16:42:49] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17911399>=10485760
+[2023-05-11 16:42:49] INFO root fetch - processPackages [OpenGeode-core]: Start processing: pytedea
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-05-11 16:42:49] INFO root fetch - processPackages [msg2bytes]: Downloading https://files.pythonhosted.org/packages/0f/72/fa31d46646df08581e43cc3354dfb2ce521504bb23095af38428a4588b32/msg2bytes-0.1.4.tar.gz
+[2023-05-11 16:42:49] INFO root fetch - processPackages [modbus-wrapper]: Start processing: anoexpress
+[2023-05-11 16:42:49] INFO root fetch - main [MainThread]: End processing [modbus-wrapper]: success
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pytedea]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/b6/07/cf14041170a367fe2c46df44bf3099638ccdb6a0931a2faab3df8fb09239/ghevaluator-2.0.0.tar.gz
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: Downloading https://files.pythonhosted.org/packages/b6/07/cf14041170a367fe2c46df44bf3099638ccdb6a0931a2faab3df8fb09239/ghevaluator-2.0.0.tar.gz
+[2023-05-11 16:42:49] INFO root fetch - processPackages [anoexpress]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [dumbo-asp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 16:42:49] INFO root fetch - processPackages [msg2bytes]: executing diffoscope
+[2023-05-11 16:42:49] INFO root fetch - processPackages [msg2bytes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msg2bytes-0.1.3.tar.gz tmp/msg2bytes-0.1.4.tar.gz --markdown 20230511/m/msg2bytes/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 16:42:49] INFO root fetch - processPackages [anoexpress]: executing diffoscope
+[2023-05-11 16:42:49] INFO root fetch - processPackages [anoexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoexpress-0.1.4.tar.gz tmp/anoexpress-0.1.5.tar.gz --markdown 20230511/a/anoexpress/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pytedea]: executing diffoscope
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: executing diffoscope
+[2023-05-11 16:42:49] INFO root fetch - processPackages [pytedea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedea-0.0.4.tar.gz tmp/pytedea-0.0.5.tar.gz --markdown 20230511/p/pytedea/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghevaluator-0.0.1.tar.gz tmp/ghevaluator-2.0.0.tar.gz --markdown 20230511/g/ghevaluator/0.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: executing diffoscope
+[2023-05-11 16:42:49] INFO root fetch - processPackages [ghevaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghevaluator-0.0.1.tar.gz tmp/ghevaluator-2.0.0.tar.gz --markdown 20230511/g/ghevaluator/0.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-11 16:42:50] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/2a/14/8a28611790b56516b229c885b5ef77983affbb331ff5b0958db582192c24/dumbo_asp-0.0.8.tar.gz
+[2023-05-11 16:42:50] INFO root fetch - processPackages [dumbo-asp]: Downloading https://files.pythonhosted.org/packages/76/f9/caa8b424408e3ec56d9ac024882116380e06ddb9b675de285ac93b89b659/dumbo_asp-0.0.9.tar.gz
+[2023-05-11 16:42:50] INFO root fetch - processPackages [dumbo-asp]: executing diffoscope
+[2023-05-11 16:42:50] INFO root fetch - processPackages [dumbo-asp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dumbo_asp-0.0.8.tar.gz tmp/dumbo_asp-0.0.9.tar.gz --markdown 20230511/d/dumbo-asp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:42:50] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: webraft
+[2023-05-11 16:42:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-11 16:42:50] WARNING root fetch - processPackages [webraft]: Skipping, unable to determine old version
+[2023-05-11 16:42:50] INFO root fetch - processPackages [webraft]: Start processing: trame
+[2023-05-11 16:42:50] INFO root fetch - main [MainThread]: End processing [webraft] error
+[2023-05-11 16:42:50] INFO root fetch - processPackages [trame]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-11 16:42:51] INFO root fetch - processPackages [boris-behav-obs]: Start processing: adafruit-circuitpython-fxas21002c
+[2023-05-11 16:42:51] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-05-11 16:42:51] INFO root fetch - processPackages [adafruit-circuitpython-fxas21002c]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-11 16:42:51] INFO root fetch - processPackages [trame]: executing diffoscope
+[2023-05-11 16:42:51] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-2.4.0.tar.gz tmp/trame-2.4.1.tar.gz --markdown 20230511/t/trame/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-11 16:42:51] INFO root fetch - processPackages [adafruit-circuitpython-fxas21002c]: Downloading https://files.pythonhosted.org/packages/5b/b3/9e9f4a886ff3cd617afaeda69ff10779ec7d02ac00d00b10ee6d7624ef35/adafruit-circuitpython-fxas21002c-2.1.8.tar.gz
+[2023-05-11 16:42:51] INFO root fetch - processPackages [anoexpress]: Start processing: PatryksAutoAI
+[2023-05-11 16:42:51] INFO root fetch - main [MainThread]: End processing [anoexpress]: success
+[2023-05-11 16:42:51] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-11 16:42:51] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:42:51] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.2.tar.gz tmp/PatryksAutoAI-0.2.3.tar.gz --markdown 20230511/P/PatryksAutoAI/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-11 16:42:51] INFO root fetch - processPackages [msg2bytes]: Start processing: bigraph-viz
+[2023-05-11 16:42:51] INFO root fetch - main [MainThread]: End processing [msg2bytes]: success
+[2023-05-11 16:42:51] INFO root fetch - processPackages [bigraph-viz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 16:42:51] INFO root fetch - processPackages [adafruit-circuitpython-fxas21002c]: Downloading https://files.pythonhosted.org/packages/2e/c4/ef1a329a162b222d3fe18ba64053757a7d30e6a3f59a85bddec70c9fbde1/adafruit-circuitpython-fxas21002c-2.1.9.tar.gz
+[2023-05-11 16:42:51] INFO root fetch - processPackages [bigraph-viz]: executing diffoscope
+[2023-05-11 16:42:51] INFO root fetch - processPackages [bigraph-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-viz-0.0.8.tar.gz tmp/bigraph-viz-0.0.9.tar.gz --markdown 20230511/b/bigraph-viz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:42:51] INFO root fetch - processPackages [dumbo-asp]: Start processing: declearn
+[2023-05-11 16:42:51] INFO root fetch - main [MainThread]: End processing [dumbo-asp]: success
+[2023-05-11 16:42:51] INFO root fetch - processPackages [adafruit-circuitpython-fxas21002c]: executing diffoscope
+[2023-05-11 16:42:51] INFO root fetch - processPackages [adafruit-circuitpython-fxas21002c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-fxas21002c-2.1.8.tar.gz tmp/adafruit-circuitpython-fxas21002c-2.1.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-fxas21002c/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:42:52] INFO root fetch - processPackages [declearn]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-11 16:42:52] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/e9/91/c323cf71bae636f7fc86b502b8d1078b3f455e7727acc71698335610ddc5/declearn-2.1.0.tar.gz
+[2023-05-11 16:42:52] INFO root fetch - processPackages [ghevaluator]: Start processing: hepai
+[2023-05-11 16:42:52] INFO root fetch - main [MainThread]: End processing [ghevaluator]: success
+[2023-05-11 16:42:52] INFO root fetch - processPackages [hepai]: New version: [1.0.9] Old Version: [1.0.8.1]
+[2023-05-11 16:42:52] INFO root fetch - processPackages [declearn]: Downloading https://files.pythonhosted.org/packages/05/4a/15aaee81d130d6f25cb1b876d79ae7e230ed551b6ed2481bf304abb1a315/declearn-2.2.0.tar.gz
+[2023-05-11 16:42:52] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-05-11 16:42:52] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.8.1.tar.gz tmp/hepai-1.0.9.tar.gz --markdown 20230511/h/hepai/1.0.8.1-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:42:52] INFO root fetch - processPackages [declearn]: executing diffoscope
+[2023-05-11 16:42:52] INFO root fetch - processPackages [declearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/declearn-2.1.0.tar.gz tmp/declearn-2.2.0.tar.gz --markdown 20230511/d/declearn/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-11 16:42:52] INFO root fetch - processPackages [ghevaluator]: Start processing: adafruit-circuitpython-fxos8700
+[2023-05-11 16:42:52] INFO root fetch - main [MainThread]: End processing [ghevaluator]: success
+[2023-05-11 16:42:52] INFO root fetch - processPackages [adafruit-circuitpython-fxos8700]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-11 16:42:53] INFO root fetch - processPackages [adafruit-circuitpython-fxos8700]: Downloading https://files.pythonhosted.org/packages/7d/dc/08a64658c86c448e59c95316258cf36754d77bdb97d9f1fe4bd88d3a0120/adafruit-circuitpython-fxos8700-2.1.8.tar.gz
+[2023-05-11 16:42:53] INFO root fetch - processPackages [trame]: Start processing: amid
+[2023-05-11 16:42:53] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2023-05-11 16:42:53] INFO root fetch - processPackages [amid]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-11 16:42:53] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/63/b6/7b8fbac0e861e9709a550fb10b182f206e9daf576813d1ab075397ecd4bc/amid-0.9.0.tar.gz
+[2023-05-11 16:42:53] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: printername
+[2023-05-11 16:42:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:42:53] INFO root fetch - processPackages [printername]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 16:42:53] INFO root fetch - processPackages [adafruit-circuitpython-fxos8700]: Downloading https://files.pythonhosted.org/packages/91/d4/9e1898627230e231ec5e0fa33098a584d9b0b1751680e47757cf7f9b76eb/adafruit-circuitpython-fxos8700-2.1.9.tar.gz
+[2023-05-11 16:42:53] INFO root fetch - main [MainThread]: End processing [bigraph-viz]: success
+[2023-05-11 16:42:53] INFO root fetch - main [MainThread]: End processing [permit]: success
+[2023-05-11 16:42:53] INFO root fetch - processPackages [printername]: Downloading https://files.pythonhosted.org/packages/12/15/873bc0ea460105f4a5610de0a6c5e2b25537c45792e78fd4c8c3af3e9860/printername-0.0.4.tar.gz
+[2023-05-11 16:42:53] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-fxas21002c]: success
+[2023-05-11 16:42:53] INFO root fetch - processPackages [adafruit-circuitpython-fxos8700]: executing diffoscope
+[2023-05-11 16:42:53] INFO root fetch - processPackages [adafruit-circuitpython-fxos8700]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-fxos8700-2.1.8.tar.gz tmp/adafruit-circuitpython-fxos8700-2.1.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-fxos8700/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:42:53] INFO root fetch - processPackages [amid]: Downloading https://files.pythonhosted.org/packages/0b/92/30a29361e79dfdb9bd10412e1465fd6fb5e780e40a34f24dc5f071fc07bc/amid-0.9.1.tar.gz
+[2023-05-11 16:42:53] INFO root fetch - processPackages [amid]: executing diffoscope
+[2023-05-11 16:42:53] INFO root fetch - processPackages [amid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amid-0.9.0.tar.gz tmp/amid-0.9.1.tar.gz --markdown 20230511/a/amid/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 16:42:53] INFO root fetch - processPackages [printername]: Downloading https://files.pythonhosted.org/packages/eb/27/ed46917d8900adc7cc22a5e815b78ab2cfa02853c548647e17b7aad138dd/printername-0.0.5.tar.gz
+[2023-05-11 16:42:53] INFO root fetch - processPackages [printername]: executing diffoscope
+[2023-05-11 16:42:53] INFO root fetch - processPackages [printername]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printername-0.0.4.tar.gz tmp/printername-0.0.5.tar.gz --markdown 20230511/p/printername/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 16:42:54] INFO root fetch - main [MainThread]: End processing [pytedea]: success
+[2023-05-11 16:42:54] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-05-11 16:42:54] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-fxos8700]: success
+[2023-05-11 16:42:55] INFO root fetch - main [MainThread]: End processing [printername]: success
+[2023-05-11 16:42:55] INFO root fetch - main [MainThread]: End processing [amid]: success
+[2023-05-11 16:42:56] INFO root fetch - main [MainThread]: End processing [declearn]: success
+[2023-05-11 16:42:56] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-11 16:42:56] INFO root fetch - main [MainThread]: Store serial: [18064887]
