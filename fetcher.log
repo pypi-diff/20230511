@@ -20257,3 +20257,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:54:59] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2023-05-11 15:55:01] INFO root fetch - main [MainThread]: End processing [laboneq]: success
 [2023-05-11 15:55:01] INFO root fetch - main [MainThread]: Store serial: [18064299]
+[2023-05-11 16:00:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064299]
+[2023-05-11 16:00:10] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigraph-viz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensesame-extension-osweb
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unicef-security
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: labvirtual
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharingiscaring
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: melizalab-tools
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymstodo
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipenv-check
+[2023-05-11 16:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdascorer
+[2023-05-11 16:00:10] INFO root fetch - processPackages [unicef-security]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [labvirtual]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [bigraph-viz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [melizalab-tools]: New version: [2023.5.3] Old Version: [2023.5.11]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pymstodo]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pipenv-check]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [cdascorer]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230511/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pipenv-check]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pipenv-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-check-0.0.5.tar.gz tmp/pipenv-check-0.0.6.tar.gz --markdown 20230511/p/pipenv-check/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [bigraph-viz]: Downloading https://files.pythonhosted.org/packages/cd/4a/596b6733502cbc0ee6b22baa45635393188e01b18b5c832576f84190b6db/bigraph-viz-0.0.8.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230511/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/7a/c0/39e76aa2eb7bbbbd4f1887be7659dcfb45dbc34cbe65a4b5f3f138db1656/labvirtual-0.2.3.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [melizalab-tools]: Downloading https://files.pythonhosted.org/packages/ba/1e/4f3ce1d5369a48147f756b009a36938697e63f3cdc3b9144fbf73fdb7d29/melizalab-tools-2023.5.11.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pymstodo]: Downloading https://files.pythonhosted.org/packages/44/45/61469aace82d9bc96a1b7f6abc202c3f969dbf1b6c8fc08d7ec454f7f4cb/pymstodo-0.1.3.tar.gz
+[2023-05-11 16:00:10] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43630882>=10485760
+[2023-05-11 16:00:10] INFO root fetch - processPackages [labvirtual]: Start processing: recon-lw
+[2023-05-11 16:00:10] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 16:00:10] INFO root fetch - processPackages [unicef-security]: Downloading https://files.pythonhosted.org/packages/ca/93/7a9e747a838f86db5839a3f84ae14af9f86a8091a6314c9c5c978650f533/unicef-security-1.4.3.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4948146675] Old Version: [2.0.0.dev4946478922]
+[2023-05-11 16:00:10] INFO root fetch - processPackages [cdascorer]: Downloading https://files.pythonhosted.org/packages/3a/a5/3bde6e41acc893cde28d32327e96d409c4f6626f285c7a681a3ad93c6c65/cdascorer-0.0.0.dev8.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pymstodo]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [pymstodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymstodo-0.1.2.tar.gz tmp/pymstodo-0.1.3.tar.gz --markdown 20230511/p/pymstodo/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [unicef-security]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [unicef-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicef-security-1.4.2.tar.gz tmp/unicef-security-1.4.3.tar.gz --markdown 20230511/u/unicef-security/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4946478922.tar.gz tmp/recon_lw-2.0.0.dev4948146675.tar.gz --markdown 20230511/r/recon-lw/2.0.0.dev4946478922-2.0.0.dev4948146675/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [bigraph-viz]: Downloading https://files.pythonhosted.org/packages/d7/b1/89b66d4b66f8baf361b72d00f97edabc6f1501e765bf8b68bf615de142d7/bigraph-viz-0.0.9.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230511/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [melizalab-tools]: Downloading https://files.pythonhosted.org/packages/fa/81/d445a3e75958ba890c3b8ea86a6a046be03613e803ff69f6f22a626af652/melizalab-tools-2023.5.3.tar.gz
+[2023-05-11 16:00:10] INFO root fetch - processPackages [bigraph-viz]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [bigraph-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-viz-0.0.8.tar.gz tmp/bigraph-viz-0.0.9.tar.gz --markdown 20230511/b/bigraph-viz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:00:10] INFO root fetch - processPackages [melizalab-tools]: executing diffoscope
+[2023-05-11 16:00:10] INFO root fetch - processPackages [melizalab-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melizalab-tools-2023.5.11.tar.gz tmp/melizalab-tools-2023.5.3.tar.gz --markdown 20230511/m/melizalab-tools/2023.5.11-2023.5.3/diff.md --exclude *.pyd
+[2023-05-11 16:00:11] INFO root fetch - processPackages [cdascorer]: Downloading https://files.pythonhosted.org/packages/ee/1f/16f4e47337052a8589fd6938b196709bc80778f8e04bfc6057d506b802d5/cdascorer-0.0.0.dev9.tar.gz
+[2023-05-11 16:00:11] INFO root fetch - processPackages [cdascorer]: executing diffoscope
+[2023-05-11 16:00:11] INFO root fetch - processPackages [cdascorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdascorer-0.0.0.dev8.tar.gz tmp/cdascorer-0.0.0.dev9.tar.gz --markdown 20230511/c/cdascorer/0.0.0.dev8-0.0.0.dev9/diff.md --exclude *.pyd
+[2023-05-11 16:00:12] INFO root fetch - processPackages [pipenv-check]: Start processing: tester-flask
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [pipenv-check]: success
+[2023-05-11 16:00:12] INFO root fetch - processPackages [tester-flask]: New version: [1.2] Old Version: [1.1]
+[2023-05-11 16:00:12] INFO root fetch - processPackages [quantplay]: Start processing: SpectroscopicBinarySystem
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-11 16:00:12] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-11 16:00:12] INFO root fetch - processPackages [tester-flask]: Downloading https://files.pythonhosted.org/packages/c4/98/99b8dd64542422db67f176f24cd6047eeb069e3c0f2c5f4be35ac12138f2/tester_flask-1.1.tar.gz
+[2023-05-11 16:00:12] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-05-11 16:00:12] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.2.0.tar.gz tmp/SpectroscopicBinarySystem-1.2.1.tar.gz --markdown 20230511/S/SpectroscopicBinarySystem/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-11 16:00:12] INFO root fetch - processPackages [melizalab-tools]: Start processing: appollo
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [melizalab-tools]: success
+[2023-05-11 16:00:12] INFO root fetch - processPackages [tester-flask]: Downloading https://files.pythonhosted.org/packages/71/e1/03952b87be892522e10ff2fa5f6635c19ca0405124c798a3606f887ea5a9/tester_flask-1.2.tar.gz
+[2023-05-11 16:00:12] INFO root fetch - processPackages [appollo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [pymstodo]: success
+[2023-05-11 16:00:12] INFO root fetch - processPackages [tester-flask]: executing diffoscope
+[2023-05-11 16:00:12] INFO root fetch - processPackages [tester-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tester_flask-1.1.tar.gz tmp/tester_flask-1.2.tar.gz --markdown 20230511/t/tester-flask/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-11 16:00:12] INFO root fetch - processPackages [appollo]: Downloading https://files.pythonhosted.org/packages/9c/d8/6a169af682e267bb43d8e8e4d24a6604467a10fff7235bd0cb2e57e6a642/appollo-1.0.3.tar.gz
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [bigraph-viz]: success
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [cdascorer]: success
+[2023-05-11 16:00:12] WARNING root fetch - processPackages [appollo]: Skipping package: exceeds size limit 12658360>=10485760
+[2023-05-11 16:00:12] INFO root fetch - main [MainThread]: End processing [appollo] error
+[2023-05-11 16:00:13] INFO root fetch - main [MainThread]: End processing [unicef-security]: success
+[2023-05-11 16:00:13] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-05-11 16:00:13] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-05-11 16:00:13] INFO root fetch - main [MainThread]: End processing [tester-flask]: success
+[2023-05-11 16:00:15] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-11 16:00:15] INFO root fetch - main [MainThread]: Store serial: [18064349]
