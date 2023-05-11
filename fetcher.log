@@ -10293,3 +10293,103 @@ EOFError: EOF read where object expected
 [2023-05-11 08:23:09] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
 [2023-05-11 08:23:10] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-11 08:23:10] INFO root fetch - main [MainThread]: Store serial: [18058867]
+[2023-05-11 08:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058867]
+[2023-05-11 08:28:19] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antgo
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solscan
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberutils
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mecord-cli
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weightie
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcontext
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tccli-intl-en
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fosslight-prechecker
+[2023-05-11 08:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: houdini-package-manager
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230510] Old Version: [20230509]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [qcontext]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fosslight-prechecker]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [cyberutils]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [houdini-package-manager]: New version: [0.2.2] Old Version: [0.1.0]
+[2023-05-11 08:28:19] WARNING root fetch - processPackages [solscan]: Skipping, unable to determine old version
+[2023-05-11 08:28:19] INFO root fetch - processPackages [solscan]: Start processing: chdb
+[2023-05-11 08:28:19] INFO root fetch - main [MainThread]: End processing [solscan] error
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fosslight-prechecker]: executing diffoscope
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fosslight-prechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_prechecker-3.0.8.tar.gz tmp/fosslight_prechecker-3.0.9.tar.gz --markdown 20230511/f/fosslight-prechecker/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-11 08:28:19] INFO root fetch - processPackages [antgo]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 08:28:19] WARNING root fetch - processPackages [weightie]: Skipping, unable to determine old version
+[2023-05-11 08:28:19] INFO root fetch - processPackages [weightie]: Start processing: checkov
+[2023-05-11 08:28:19] INFO root fetch - main [MainThread]: End processing [weightie] error
+[2023-05-11 08:28:19] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [qcontext]: Downloading https://files.pythonhosted.org/packages/be/92/2db53e71635fa2d9b73d8b4d4562e9a6f0e2d1af7e1edf9a8e072fc0759e/qcontext-1.0.2.tar.gz
+[2023-05-11 08:28:19] INFO root fetch - processPackages [chdb]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/c8/38/01f1ad04b07c1a4e67a7d12b79c876e0653721a3767b8e2d1180159d08bc/fake-bpy-module-latest-20230510.tar.gz
+[2023-05-11 08:28:19] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-05-11 08:28:19] INFO root fetch - processPackages [qcontext]: executing diffoscope
+[2023-05-11 08:28:19] INFO root fetch - processPackages [qcontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcontext-1.0.1.tar.gz tmp/qcontext-1.0.2.tar.gz --markdown 20230511/q/qcontext/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-11 08:28:19] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230509.tar.gz tmp/fake-bpy-module-latest-20230510.tar.gz --markdown 20230511/f/fake-bpy-module-latest/20230509-20230510/diff.md --exclude *.pyd
+[2023-05-11 08:28:19] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/c3/8e/f84870a2f03396194fdb992f3864b6717896cfbb414bba9ffc6c9ed20e65/chdb-0.7.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 08:28:19] INFO root fetch - processPackages [cyberutils]: Downloading https://files.pythonhosted.org/packages/ab/9e/c3b01af43ef4ca289645053b1474d74d2e829de9cd647b232381dce9095e/cyberutils-0.0.3.tar.gz
+[2023-05-11 08:28:19] INFO root fetch - processPackages [houdini-package-manager]: Downloading https://files.pythonhosted.org/packages/62/c4/c63dac217fe198b9d7c67ab8cb01c2c7e90f9f37624eb75cf86d677dae7d/houdini_package_manager-0.2.2.tar.gz
+[2023-05-11 08:28:19] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/16/23/8a88f9a85282918cc607acaeb48e594688faeaf53a9099a7cf81a92b0352/antgo-0.1.7.tar.gz
+[2023-05-11 08:28:20] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-11 08:28:20] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230511/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-11 08:28:20] INFO root fetch - processPackages [cyberutils]: executing diffoscope
+[2023-05-11 08:28:20] INFO root fetch - processPackages [cyberutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberutils-0.0.2.tar.gz tmp/cyberutils-0.0.3.tar.gz --markdown 20230511/c/cyberutils/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 08:28:20] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 108991854>=10485760
+[2023-05-11 08:28:20] INFO root fetch - processPackages [chdb]: Start processing: pulumi-kong
+[2023-05-11 08:28:20] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-05-11 08:28:20] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-05-11 08:28:20] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230511/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 08:28:20] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-05-11 08:28:20] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.6.tar.gz tmp/antgo-0.1.7.tar.gz --markdown 20230511/a/antgo/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 08:28:20] INFO root fetch - processPackages [houdini-package-manager]: executing diffoscope
+[2023-05-11 08:28:20] INFO root fetch - processPackages [houdini-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/houdini_package_manager-0.1.0.tar.gz tmp/houdini_package_manager-0.2.2.tar.gz --markdown 20230511/h/houdini-package-manager/0.1.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 08:28:20] INFO root fetch - processPackages [pulumi-kong]: New version: [4.6.0a1683784668] Old Version: [4.6.0a1683610701]
+[2023-05-11 08:28:20] INFO root fetch - processPackages [pulumi-kong]: Downloading https://files.pythonhosted.org/packages/b0/51/54639e6ab4609942b292ee69f15134018c44e04d16a073e8ce80be977cd2/pulumi_kong-4.6.0a1683784668.tar.gz
+[2023-05-11 08:28:20] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-05-11 08:28:20] INFO root fetch - processPackages [pulumi-kong]: executing diffoscope
+[2023-05-11 08:28:20] INFO root fetch - processPackages [pulumi-kong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kong-4.6.0a1683610701.tar.gz tmp/pulumi_kong-4.6.0a1683784668.tar.gz --markdown 20230511/p/pulumi-kong/4.6.0a1683610701-4.6.0a1683784668/diff.md --exclude *.pyd
+[2023-05-11 08:28:21] INFO root fetch - processPackages [fosslight-prechecker]: Start processing: pulumi-kafka
+[2023-05-11 08:28:21] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
+[2023-05-11 08:28:21] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-05-11 08:28:21] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230511/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-11 08:28:21] INFO root fetch - processPackages [pulumi-kafka]: New version: [3.5.0a1683784467] Old Version: [3.5.0a1683612894]
+[2023-05-11 08:28:21] INFO root fetch - processPackages [pulumi-kafka]: Downloading https://files.pythonhosted.org/packages/4b/f4/bfa0582c5689d2d8a9f34845a54aa3cf41297ced8d25ba81bc0787caca10/pulumi_kafka-3.5.0a1683784467.tar.gz
+[2023-05-11 08:28:21] INFO root fetch - processPackages [pulumi-kafka]: executing diffoscope
+[2023-05-11 08:28:21] INFO root fetch - processPackages [pulumi-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kafka-3.5.0a1683612894.tar.gz tmp/pulumi_kafka-3.5.0a1683784467.tar.gz --markdown 20230511/p/pulumi-kafka/3.5.0a1683612894-3.5.0a1683784467/diff.md --exclude *.pyd
+[2023-05-11 08:28:22] INFO root fetch - processPackages [cyberutils]: Start processing: AtomsHelpersUtils
+[2023-05-11 08:28:22] INFO root fetch - main [MainThread]: End processing [cyberutils]: success
+[2023-05-11 08:28:22] INFO root fetch - processPackages [AtomsHelpersUtils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 08:28:22] INFO root fetch - processPackages [AtomsHelpersUtils]: Downloading https://files.pythonhosted.org/packages/40/3d/79c02041c4145d90fb85a55f2a20c21f27fc0f9fd73782db5bff82402f76/AtomsHelpersUtils-0.0.8.tar.gz
+[2023-05-11 08:28:22] INFO root fetch - processPackages [AtomsHelpersUtils]: Downloading https://files.pythonhosted.org/packages/71/47/56481b79289345eeb87130e285b7a2136a2a635ff57e59ba032e66076b5e/AtomsHelpersUtils-0.0.9.tar.gz
+[2023-05-11 08:28:23] INFO root fetch - processPackages [AtomsHelpersUtils]: executing diffoscope
+[2023-05-11 08:28:23] INFO root fetch - processPackages [AtomsHelpersUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AtomsHelpersUtils-0.0.8.tar.gz tmp/AtomsHelpersUtils-0.0.9.tar.gz --markdown 20230511/A/AtomsHelpersUtils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 08:28:23] INFO root fetch - processPackages [qcontext]: Start processing: scoi-lab-serializer-package
+[2023-05-11 08:28:23] INFO root fetch - main [MainThread]: End processing [qcontext]: success
+[2023-05-11 08:28:23] INFO root fetch - processPackages [scoi-lab-serializer-package]: New version: [0.2] Old Version: [0.1]
+[2023-05-11 08:28:23] INFO root fetch - processPackages [pulumi-kong]: Start processing: tccli
+[2023-05-11 08:28:23] INFO root fetch - main [MainThread]: End processing [pulumi-kong]: success
+[2023-05-11 08:28:23] INFO root fetch - processPackages [scoi-lab-serializer-package]: executing diffoscope
+[2023-05-11 08:28:23] INFO root fetch - processPackages [scoi-lab-serializer-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoi_lab_serializer_package-0.1.tar.gz tmp/scoi_lab_serializer_package-0.2.tar.gz --markdown 20230511/s/scoi-lab-serializer-package/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-11 08:28:23] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-05-11 08:28:23] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-05-11 08:28:23] INFO root fetch - processPackages [mecord-cli]: Start processing: certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns
+[2023-05-11 08:28:23] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-05-11 08:28:23] INFO root fetch - main [MainThread]: End processing [pulumi-kafka]: success
+[2023-05-11 08:28:23] WARNING root fetch - processPackages [certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns]: Skipping, unable to determine old version
+[2023-05-11 08:28:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns] error
+[2023-05-11 08:28:24] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-05-11 08:28:24] INFO root fetch - main [MainThread]: End processing [houdini-package-manager]: success
+[2023-05-11 08:28:24] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-05-11 08:28:24] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230511/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-05-11 08:28:24] INFO root fetch - main [MainThread]: End processing [scoi-lab-serializer-package]: success
+[2023-05-11 08:28:24] INFO root fetch - main [MainThread]: End processing [AtomsHelpersUtils]: success
+[2023-05-11 08:28:25] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-05-11 08:28:27] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-11 08:28:29] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-05-11 08:28:34] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-05-11 08:29:04] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-11 08:29:04] INFO root fetch - main [MainThread]: Store serial: [18058921]
