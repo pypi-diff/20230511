@@ -19716,3 +19716,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:17:18] INFO root fetch - main [MainThread]: End processing [ctapipe]: success
 [2023-05-11 15:17:23] INFO root fetch - main [MainThread]: End processing [jupyter-scheduler]: success
 [2023-05-11 15:17:23] INFO root fetch - main [MainThread]: Store serial: [18063982]
+[2023-05-11 15:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063982]
+[2023-05-11 15:22:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotslacker-testcli
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockplotlib
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-reconcile-payment-order
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gmurtaza-lotr-sdk
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xgi
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cookiesamurai
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instructure-dap-client
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sierras
+[2023-05-11 15:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boolrule
+[2023-05-11 15:22:33] WARNING root fetch - processPackages [cookiesamurai]: Skipping, unable to determine old version
+[2023-05-11 15:22:33] INFO root fetch - processPackages [cookiesamurai]: Start processing: pyridy
+[2023-05-11 15:22:33] INFO root fetch - main [MainThread]: End processing [cookiesamurai] error
+[2023-05-11 15:22:33] INFO root fetch - processPackages [boolrule]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [sierras]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [blockplotlib]: New version: [2023.1.4] Old Version: [2023.1.3]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [xgi]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-11 15:22:33] WARNING root fetch - processPackages [odoo-addon-account-reconcile-payment-order]: Skipping, unable to determine old version
+[2023-05-11 15:22:33] INFO root fetch - processPackages [robotslacker-testcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [odoo-addon-account-reconcile-payment-order]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-11 15:22:33] WARNING root fetch - processPackages [gmurtaza-lotr-sdk]: Skipping, unable to determine old version
+[2023-05-11 15:22:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-payment-order] error
+[2023-05-11 15:22:33] INFO root fetch - processPackages [instructure-dap-client]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [gmurtaza-lotr-sdk]: Start processing: odoo14-addon-account-invoice-export
+[2023-05-11 15:22:33] INFO root fetch - processPackages [sierras]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - main [MainThread]: End processing [gmurtaza-lotr-sdk] error
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [sierras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sierras-0.1.2.tar.gz tmp/sierras-0.2.0.tar.gz --markdown 20230511/s/sierras/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pyridy]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [boolrule]: Downloading https://files.pythonhosted.org/packages/06/70/4c3641acb4db4052191896e437c293db5e048a093b74e2e3abd60be2aaa0/boolrule-0.3.3.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [blockplotlib]: Downloading https://files.pythonhosted.org/packages/08/dc/9e243938878ba5505f1d666814ebbce9cd39af268aea4574821f90039843/blockplotlib-2023.1.3.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [odoo14-addon-account-invoice-export]: New version: [14.0.1.2.3] Old Version: [14.0.1.2.2]
+[2023-05-11 15:22:33] INFO root fetch - processPackages [xgi]: Downloading https://files.pythonhosted.org/packages/2a/61/f04e3ad341f38233a05f8d6103259d438958c62006e91c2c5c1abeb78b3e/xgi-0.5.7.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/c0/c9/6c9696dddf445f6b0c8275106942c5db1c30ca80a42746e7f76902dc154d/pyridy-1.0.2.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/97/f3/65b39d6143b99b0c7416a1da2fc1f3c441dad340e13a8b10550ec9f06620/instructure-dap-client-0.3.7.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [odoo14-addon-account-invoice-export]: Downloading https://files.pythonhosted.org/packages/36/a4/11aa742d4088d7262ac61523804530f64161bda1e90823899bfe9fc19c37/odoo14_addon_account_invoice_export-14.0.1.2.2-py3-none-any.whl
+[2023-05-11 15:22:33] INFO root fetch - processPackages [blockplotlib]: Downloading https://files.pythonhosted.org/packages/2f/b9/3b1d4ff1b68b72d5574ccbdf450ef81d2f18e52eb3888ee4dd09553fc057/blockplotlib-2023.1.4.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [robotslacker-testcli]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [robotslacker-testcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotslacker-testcli-0.0.8.tar.gz tmp/robotslacker-testcli-0.0.9.tar.gz --markdown 20230511/r/robotslacker-testcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [boolrule]: Downloading https://files.pythonhosted.org/packages/31/03/dfb894c1f01e61446155b43290d095804919add534be620ff59fd7ebfe34/boolrule-0.3.4.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pyridy]: Downloading https://files.pythonhosted.org/packages/9f/57/fe09d84af3eb2b3ccbe52b8ae893bf5c8aa286beaa9745d4fcf7ede22959/pyridy-1.0.3.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [instructure-dap-client]: Downloading https://files.pythonhosted.org/packages/b1/b9/d2ed3385e8288ebf5616971f885738ca8e85a08eb8de08904a964fb2658e/instructure-dap-client-0.3.8.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [xgi]: Downloading https://files.pythonhosted.org/packages/7b/b2/1dfb084b908f213ebbad88f4728c45248601be5e040ebdb5612d1577683c/xgi-0.5.8.tar.gz
+[2023-05-11 15:22:33] INFO root fetch - processPackages [blockplotlib]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [blockplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockplotlib-2023.1.3.tar.gz tmp/blockplotlib-2023.1.4.tar.gz --markdown 20230511/b/blockplotlib/2023.1.3-2023.1.4/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [boolrule]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [boolrule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boolrule-0.3.3.tar.gz tmp/boolrule-0.3.4.tar.gz --markdown 20230511/b/boolrule/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pyridy]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [pyridy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyridy-1.0.2.tar.gz tmp/pyridy-1.0.3.tar.gz --markdown 20230511/p/pyridy/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [instructure-dap-client]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [instructure-dap-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructure-dap-client-0.3.7.tar.gz tmp/instructure-dap-client-0.3.8.tar.gz --markdown 20230511/i/instructure-dap-client/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [xgi]: executing diffoscope
+[2023-05-11 15:22:33] INFO root fetch - processPackages [xgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgi-0.5.7.tar.gz tmp/xgi-0.5.8.tar.gz --markdown 20230511/x/xgi/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-11 15:22:33] INFO root fetch - processPackages [odoo14-addon-account-invoice-export]: Downloading https://files.pythonhosted.org/packages/38/20/baf91bc1efa93de6ef55a0caa105287bbef725305a6cd0ffb560c2fc0dd4/odoo14_addon_account_invoice_export-14.0.1.2.3-py3-none-any.whl
+[2023-05-11 15:22:34] INFO root fetch - processPackages [odoo14-addon-account-invoice-export]: executing diffoscope
+[2023-05-11 15:22:34] INFO root fetch - processPackages [odoo14-addon-account-invoice-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_invoice_export-14.0.1.2.2-py3-none-any.whl.zip tmp/odoo14_addon_account_invoice_export-14.0.1.2.3-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-account-invoice-export/14.0.1.2.2-14.0.1.2.3/diff.md --exclude *.pyd
+[2023-05-11 15:22:34] INFO root fetch - processPackages [sierras]: Start processing: dbt-coves
+[2023-05-11 15:22:34] INFO root fetch - main [MainThread]: End processing [sierras]: success
+[2023-05-11 15:22:34] INFO root fetch - processPackages [dbt-coves]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-11 15:22:35] INFO root fetch - processPackages [dbt-coves]: executing diffoscope
+[2023-05-11 15:22:35] INFO root fetch - processPackages [dbt-coves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_coves-1.4.8.tar.gz tmp/dbt_coves-1.4.9.tar.gz --markdown 20230511/d/dbt-coves/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-11 15:22:35] INFO root fetch - main [MainThread]: End processing [blockplotlib]: success
+[2023-05-11 15:22:35] INFO root fetch - main [MainThread]: End processing [boolrule]: success
+[2023-05-11 15:22:35] INFO root fetch - main [MainThread]: End processing [pyridy]: success
+[2023-05-11 15:22:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-invoice-export]: success
+[2023-05-11 15:22:36] INFO root fetch - main [MainThread]: End processing [instructure-dap-client]: success
+[2023-05-11 15:22:36] INFO root fetch - main [MainThread]: End processing [robotslacker-testcli]: success
+[2023-05-11 15:22:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-11 15:22:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-11 15:22:36] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
+[2023-05-11 15:22:38] INFO root fetch - main [MainThread]: End processing [xgi]: success
+[2023-05-11 15:22:38] INFO root fetch - main [MainThread]: Store serial: [18064027]
