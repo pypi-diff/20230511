@@ -19326,3 +19326,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:54:59] INFO root fetch - main [MainThread]: End processing [cookie-composer]: success
 [2023-05-11 14:55:01] INFO root fetch - main [MainThread]: End processing [AdsorptionBreakthroughAnalysis]: success
 [2023-05-11 14:55:01] INFO root fetch - main [MainThread]: Store serial: [18063775]
+[2023-05-11 15:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063775]
+[2023-05-11 15:00:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lendsmart-autotest
+[2023-05-11 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nanoprep-ffm
+[2023-05-11 15:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-11 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crepes
+[2023-05-11 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resolwe
+[2023-05-11 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crc-event-schemas
+[2023-05-11 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-05-11 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trademasterntu
+[2023-05-11 15:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-05-11 15:00:11] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.5] Old Version: [1.4]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [trademasterntu]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111247] Old Version: [99.0.202305111244]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111247] Old Version: [99.0.202305111244]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crc-event-schemas]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crepes]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-11 15:00:11] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.8.tar.gz tmp/nanoprep-ffm-0.0.9.tar.gz --markdown 20230511/n/nanoprep-ffm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_spark_gpt-0.1.2.tar.gz tmp/nonebot_plugin_spark_gpt-0.1.3.tar.gz --markdown 20230511/n/nonebot-plugin-spark-gpt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111244-py3-none-any.whl.zip tmp/kcli-99.0.202305111247-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111244-99.0.202305111247/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111244-py3-none-any.whl.zip tmp/kcli-99.0.202305111247-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111244-99.0.202305111247/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [trademasterntu]: Downloading https://files.pythonhosted.org/packages/df/c3/b49daf3689021ef2cda2cfb2607367b4b16482b10ca4890b4ea3843575ed/trademasterntu-0.0.1.tar.gz
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crc-event-schemas]: Downloading https://files.pythonhosted.org/packages/7e/ae/1862471404816c6d3a7fd2532ea32374db29c0244b25e676f352e1da9938/crc_event_schemas-0.1.4-py3-none-any.whl
+[2023-05-11 15:00:11] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/4a/c8/e1a7400ec95de25aaedbbb58a29f2a75206e2950d5f1177a765963a7b939/lendsmart_autotest-1.5.tar.gz
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crepes]: Downloading https://files.pythonhosted.org/packages/63/d9/dcf0e4f6e29238f3ea7a3b3f122faa3ea2a413c2f3a2a24732bc41ebfcec/crepes-0.2.0.tar.gz
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crc-event-schemas]: Downloading https://files.pythonhosted.org/packages/e9/4d/e5a29b285c060eb4d52db7ffcbbd58042b02d6e3a0f213fd17027f60719f/crc-event-schemas-0.1.5.tar.gz
+[2023-05-11 15:00:11] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.4.tar.gz tmp/lendsmart_autotest-1.5.tar.gz --markdown 20230511/l/lendsmart-autotest/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230511/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crepes]: Downloading https://files.pythonhosted.org/packages/a3/a1/369392201bdd6e78020a504d280f81e603b19521a9f13bfd30a706fe66d3/crepes-0.3.0.tar.gz
+[2023-05-11 15:00:11] INFO root fetch - processPackages [trademasterntu]: Downloading https://files.pythonhosted.org/packages/f2/ff/d32261ad22e0422d4fb2fc3f91dae49b49d2f0575c798dd7758189200e9f/trademasterntu-0.1.0.tar.gz
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crc-event-schemas]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crc-event-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crc_event_schemas-0.1.4-py3-none-any.whl.zip tmp/crc-event-schemas-0.1.5.tar.gz --markdown 20230511/c/crc-event-schemas/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crepes]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [crepes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepes-0.2.0.tar.gz tmp/crepes-0.3.0.tar.gz --markdown 20230511/c/crepes/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 15:00:11] INFO root fetch - processPackages [trademasterntu]: executing diffoscope
+[2023-05-11 15:00:11] INFO root fetch - processPackages [trademasterntu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trademasterntu-0.0.1.tar.gz tmp/trademasterntu-0.1.0.tar.gz --markdown 20230511/t/trademasterntu/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-11 15:00:12] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-05-11 15:00:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt]: success
+[2023-05-11 15:00:13] INFO root fetch - main [MainThread]: End processing [crc-event-schemas]: success
+[2023-05-11 15:00:13] INFO root fetch - main [MainThread]: End processing [crepes]: success
+[2023-05-11 15:00:13] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-11 15:00:14] INFO root fetch - main [MainThread]: End processing [trademasterntu]: success
+[2023-05-11 15:00:18] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-05-11 15:00:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 15:00:20] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 15:00:20] INFO root fetch - main [MainThread]: Store serial: [18063805]
