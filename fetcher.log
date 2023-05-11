@@ -22744,3 +22744,75 @@ EOFError: EOF read where object expected
 [2023-05-11 17:53:31] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-05-11 17:54:04] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
 [2023-05-11 17:54:04] INFO root fetch - main [MainThread]: Store serial: [18065884]
+[2023-05-11 17:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065884]
+[2023-05-11 17:59:14] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: address-to-line
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speedyapi
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setup-test-alireza
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-theorist-bms
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GPTInterface
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantplay
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ob-metaflow
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: secretmessage
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-dnoticias-auth
+[2023-05-11 17:59:14] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-11 17:59:14] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-05-11 17:59:14] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-11 17:59:14] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230511/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-11 17:59:14] WARNING root fetch - processPackages [GPTInterface]: Skipping, unable to determine old version
+[2023-05-11 17:59:14] INFO root fetch - processPackages [GPTInterface]: Start processing: DeSide
+[2023-05-11 17:59:14] INFO root fetch - main [MainThread]: End processing [GPTInterface] error
+[2023-05-11 17:59:14] INFO root fetch - processPackages [django-dnoticias-auth]: New version: [1.3rc9] Old Version: [1.3rc8]
+[2023-05-11 17:59:14] WARNING root fetch - processPackages [secretmessage]: Skipping, unable to determine old version
+[2023-05-11 17:59:14] INFO root fetch - processPackages [secretmessage]: Start processing: orbit-database-shell
+[2023-05-11 17:59:14] INFO root fetch - main [MainThread]: End processing [secretmessage] error
+[2023-05-11 17:59:14] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-05-11 17:59:14] WARNING root fetch - processPackages [address-to-line]: Skipping, unable to determine old version
+[2023-05-11 17:59:14] INFO root fetch - processPackages [ob-metaflow]: New version: [2.8.4.2] Old Version: [2.8.4.1]
+[2023-05-11 17:59:14] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230511/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-05-11 17:59:14] INFO root fetch - processPackages [address-to-line]: Start processing: numericalmodel
+[2023-05-11 17:59:14] INFO root fetch - main [MainThread]: End processing [address-to-line] error
+[2023-05-11 17:59:14] WARNING root fetch - processPackages [setup-test-alireza]: Skipping, unable to determine old version
+[2023-05-11 17:59:15] INFO root fetch - processPackages [setup-test-alireza]: Start processing: UEVaultManager
+[2023-05-11 17:59:15] INFO root fetch - main [MainThread]: End processing [setup-test-alireza] error
+[2023-05-11 17:59:15] WARNING root fetch - processPackages [orbit-database-shell]: Skipping, unable to determine old version
+[2023-05-11 17:59:15] INFO root fetch - main [MainThread]: End processing [orbit-database-shell] error
+[2023-05-11 17:59:15] INFO root fetch - processPackages [autora-theorist-bms]: New version: [1.0.0b0] Old Version: [1.0.0a0]
+[2023-05-11 17:59:15] INFO root fetch - processPackages [UEVaultManager]: New version: [1.1.1.1] Old Version: [1.1.1]
+[2023-05-11 17:59:15] INFO root fetch - processPackages [speedyapi]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-11 17:59:15] WARNING root fetch - processPackages [DeSide]: Skipping, unable to determine old version
+[2023-05-11 17:59:15] INFO root fetch - main [MainThread]: End processing [DeSide] error
+[2023-05-11 17:59:15] INFO root fetch - processPackages [numericalmodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 17:59:15] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/ef/97/3319441d370684e6cb8fc0c432bd26bebcc5876348b9a121004a2f477afd/ob-metaflow-2.8.4.1.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/69/a6/6c1b254c96bdd6b927b9a4d855c6cc969fb9538e372cd82eba36b8511f30/django_dnoticias_auth-1.3rc8.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [autora-theorist-bms]: Downloading https://files.pythonhosted.org/packages/cd/08/f7458f7385d224c873ee4a0e1aa9d23a4bbc340e033e25a08a7f74a45eea/autora-theorist-bms-1.0.0a0.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [speedyapi]: Downloading https://files.pythonhosted.org/packages/ed/a5/b93b6d5e41b787520e87786af6230013baadd779731385f4c18b1332e597/speedyapi-1.0.4.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/01/b9/daa4461c537cace5fec794efd023a9e6a40d42e974f106886d863faeb5ae/UEVaultManager-1.1.1.1.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [numericalmodel]: Downloading https://files.pythonhosted.org/packages/41/a3/b3d4487ab77fda8e9ecf87cff4686d20440d8681913ee49a4665f8338018/numericalmodel-0.1.8.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [django-dnoticias-auth]: Downloading https://files.pythonhosted.org/packages/8c/e3/fda76c4416e1891b6a260f8640bacae541e65171c5a2f3901e8c268882d3/django_dnoticias_auth-1.3rc9.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-11 17:59:15] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.1.1.tar.gz tmp/UEVaultManager-1.1.1.1.tar.gz --markdown 20230511/U/UEVaultManager/1.1.1-1.1.1.1/diff.md --exclude *.pyd
+[2023-05-11 17:59:15] INFO root fetch - processPackages [ob-metaflow]: Downloading https://files.pythonhosted.org/packages/93/af/3e0052d3dee1950d11140ee747f7720a4cd3348bbaa6ee44260a49b789d7/ob-metaflow-2.8.4.2.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [autora-theorist-bms]: Downloading https://files.pythonhosted.org/packages/b2/c1/3e9f9e76a046b72098069c3a755b52a6cfb23623dba0103bdb2464037d98/autora-theorist-bms-1.0.0b0.tar.gz
+[2023-05-11 17:59:15] INFO root fetch - processPackages [django-dnoticias-auth]: executing diffoscope
+[2023-05-11 17:59:15] INFO root fetch - processPackages [django-dnoticias-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dnoticias_auth-1.3rc8.tar.gz tmp/django_dnoticias_auth-1.3rc9.tar.gz --markdown 20230511/d/django-dnoticias-auth/1.3rc8-1.3rc9/diff.md --exclude *.pyd
+[2023-05-11 17:59:15] INFO root fetch - processPackages [ob-metaflow]: executing diffoscope
+[2023-05-11 17:59:15] INFO root fetch - processPackages [ob-metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-metaflow-2.8.4.1.tar.gz tmp/ob-metaflow-2.8.4.2.tar.gz --markdown 20230511/o/ob-metaflow/2.8.4.1-2.8.4.2/diff.md --exclude *.pyd
+[2023-05-11 17:59:15] INFO root fetch - processPackages [autora-theorist-bms]: executing diffoscope
+[2023-05-11 17:59:15] INFO root fetch - processPackages [autora-theorist-bms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-theorist-bms-1.0.0a0.tar.gz tmp/autora-theorist-bms-1.0.0b0.tar.gz --markdown 20230511/a/autora-theorist-bms/1.0.0a0-1.0.0b0/diff.md --exclude *.pyd
+[2023-05-11 17:59:15] INFO root fetch - processPackages [numericalmodel]: Downloading https://files.pythonhosted.org/packages/5e/f4/5b1b6bab7ae6818136ebc710bff58d9028942868370ac83f438f6ccbc5c7/numericalmodel-0.1.9.tar.gz
+[2023-05-11 17:59:16] INFO root fetch - processPackages [numericalmodel]: executing diffoscope
+[2023-05-11 17:59:16] INFO root fetch - processPackages [numericalmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numericalmodel-0.1.8.tar.gz tmp/numericalmodel-0.1.9.tar.gz --markdown 20230511/n/numericalmodel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 17:59:16] INFO root fetch - processPackages [speedyapi]: Downloading https://files.pythonhosted.org/packages/b2/66/e0e2c8b05ee870c1139126fd0ef27f06651dcd94bd0ecef675775595ec3b/speedyapi-1.0.5.tar.gz
+[2023-05-11 17:59:16] INFO root fetch - processPackages [speedyapi]: executing diffoscope
+[2023-05-11 17:59:16] INFO root fetch - processPackages [speedyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedyapi-1.0.4.tar.gz tmp/speedyapi-1.0.5.tar.gz --markdown 20230511/s/speedyapi/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-11 17:59:16] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-11 17:59:17] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-11 17:59:17] INFO root fetch - main [MainThread]: End processing [django-dnoticias-auth]: success
+[2023-05-11 17:59:17] INFO root fetch - main [MainThread]: End processing [autora-theorist-bms]: success
+[2023-05-11 17:59:17] INFO root fetch - main [MainThread]: End processing [numericalmodel]: success
+[2023-05-11 17:59:17] INFO root fetch - main [MainThread]: End processing [speedyapi]: success
+[2023-05-11 17:59:18] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-05-11 17:59:18] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
+[2023-05-11 17:59:18] INFO root fetch - main [MainThread]: Store serial: [18065936]
