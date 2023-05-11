@@ -20647,3 +20647,133 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:15:58] INFO root fetch - main [MainThread]: End processing [trademasterntu]: success
 [2023-05-11 16:15:59] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
 [2023-05-11 16:15:59] INFO root fetch - main [MainThread]: Store serial: [18064520]
+[2023-05-11 16:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064520]
+[2023-05-11 16:21:09] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sca-rhythm
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testarchiver
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raga-cli
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: knowledge-graph
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocflib
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: be-brief
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafruit-circuitpython-as7341
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-imm20200930
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyBLACK
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rgwadmin
+[2023-05-11 16:21:09] INFO root fetch - processPackages [sca-rhythm]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [testarchiver]: New version: [2.6.1rc4948814835] Old Version: [2.6.1rc3281044688]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ocflib]: New version: [9] Old Version: [8]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [adafruit-circuitpython-as7341]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:21:09] WARNING root fetch - processPackages [be-brief]: Skipping, unable to determine old version
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ocflib]: executing diffoscope
+[2023-05-11 16:21:09] INFO root fetch - processPackages [be-brief]: Start processing: dao-analyzer
+[2023-05-11 16:21:09] INFO root fetch - main [MainThread]: End processing [be-brief] error
+[2023-05-11 16:21:09] INFO root fetch - processPackages [ocflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocflib-8.tar.gz tmp/ocflib-9.tar.gz --markdown 20230511/o/ocflib/8-9/diff.md --exclude *.pyd
+[2023-05-11 16:21:09] INFO root fetch - processPackages [knowledge-graph]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [pyBLACK]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:21:09] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.1rc3281044688.tar.gz tmp/testarchiver-2.6.1rc4948814835.tar.gz --markdown 20230511/t/testarchiver/2.6.1rc3281044688-2.6.1rc4948814835/diff.md --exclude *.pyd
+[2023-05-11 16:21:09] INFO root fetch - processPackages [alibabacloud-imm20200930]: New version: [2.1.9] Old Version: [2.1.7]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [rgwadmin]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-11 16:21:09] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230511/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:09] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/33/3e/65e3957a5694844502aa0e1de9e83fbcf7034698eefc6a3f5eda3d127628/sca_rhythm-0.4.3.tar.gz
+[2023-05-11 16:21:09] INFO root fetch - processPackages [adafruit-circuitpython-as7341]: Downloading https://files.pythonhosted.org/packages/a7/3f/35951fb372df91c79bb236d2ccb0236fa3d0857269537663326d62b40297/adafruit-circuitpython-as7341-1.2.8.tar.gz
+[2023-05-11 16:21:09] INFO root fetch - processPackages [dao-analyzer]: New version: [1.2.6.dev9] Old Version: [1.2.6.dev8]
+[2023-05-11 16:21:09] INFO root fetch - processPackages [pyBLACK]: Downloading https://files.pythonhosted.org/packages/ec/7c/4327b6e46772a87ecd4af704ff329c24a41ab0b12cedfa0f6a2d7bd3116d/pyBLACK-0.1.2.tar.gz
+[2023-05-11 16:21:09] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/47/90/475dd8feb480ff2b78563036de729dc01cbf5b25b2ac993862c1e62c8e47/knowledge-graph-0.0.8.tar.gz
+[2023-05-11 16:21:09] INFO root fetch - processPackages [rgwadmin]: Downloading https://files.pythonhosted.org/packages/c3/1b/e51ce335c89a0432947437b5e3cc0cec610f26712e6316c4a32494f76167/rgwadmin-2.4.1.tar.gz
+[2023-05-11 16:21:09] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-11 16:21:09] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.4.2.tar.gz tmp/sca_rhythm-0.4.3.tar.gz --markdown 20230511/s/sca-rhythm/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-11 16:21:10] INFO root fetch - processPackages [adafruit-circuitpython-as7341]: Downloading https://files.pythonhosted.org/packages/3b/39/de8a248456007382908e705c0eea49a82ceac58953d0b3522d29105000ea/adafruit-circuitpython-as7341-1.2.9.tar.gz
+[2023-05-11 16:21:10] INFO root fetch - processPackages [adafruit-circuitpython-as7341]: executing diffoscope
+[2023-05-11 16:21:10] INFO root fetch - processPackages [adafruit-circuitpython-as7341]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-as7341-1.2.8.tar.gz tmp/adafruit-circuitpython-as7341-1.2.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-as7341/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:10] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/f7/63/d54513e484e215dc50961d03a40b3c529eefaeadeb0f93dfe7c7324122d0/dao-analyzer-1.2.6.dev8.tar.gz
+[2023-05-11 16:21:10] INFO root fetch - processPackages [alibabacloud-imm20200930]: executing diffoscope
+[2023-05-11 16:21:10] INFO root fetch - processPackages [alibabacloud-imm20200930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_imm20200930-2.1.7.tar.gz tmp/alibabacloud_imm20200930-2.1.9.tar.gz --markdown 20230511/a/alibabacloud-imm20200930/2.1.7-2.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:10] INFO root fetch - processPackages [rgwadmin]: Downloading https://files.pythonhosted.org/packages/18/cc/4571c136b8b6aa48127c9adea55c08d25ad33bcf4a3c87dadcab02a5d7b6/rgwadmin-2.4.2.tar.gz
+[2023-05-11 16:21:10] INFO root fetch - processPackages [pyBLACK]: Downloading https://files.pythonhosted.org/packages/86/6d/f8d6264c4da689ab1acaad168bd9cef08e825103596174564466a62ab8d5/pyBLACK-0.1.3.tar.gz
+[2023-05-11 16:21:10] INFO root fetch - processPackages [knowledge-graph]: Downloading https://files.pythonhosted.org/packages/9c/cf/8eb769891bf4b0813c7674ef29fbcd29b2c6cd65fec1ce5091bab2354116/knowledge-graph-0.0.9.tar.gz
+[2023-05-11 16:21:10] INFO root fetch - processPackages [rgwadmin]: executing diffoscope
+[2023-05-11 16:21:10] INFO root fetch - processPackages [rgwadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgwadmin-2.4.1.tar.gz tmp/rgwadmin-2.4.2.tar.gz --markdown 20230511/r/rgwadmin/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-11 16:21:10] INFO root fetch - processPackages [pyBLACK]: executing diffoscope
+[2023-05-11 16:21:10] INFO root fetch - processPackages [pyBLACK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBLACK-0.1.2.tar.gz tmp/pyBLACK-0.1.3.tar.gz --markdown 20230511/p/pyBLACK/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 16:21:10] INFO root fetch - processPackages [knowledge-graph]: executing diffoscope
+[2023-05-11 16:21:10] INFO root fetch - processPackages [knowledge-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knowledge-graph-0.0.8.tar.gz tmp/knowledge-graph-0.0.9.tar.gz --markdown 20230511/k/knowledge-graph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:10] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/55/bc/fa7edbbc52fa21904a8ae8aeb8419c7d2c115e344779778eaa9ff990c667/dao-analyzer-1.2.6.dev9.tar.gz
+[2023-05-11 16:21:10] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2023-05-11 16:21:10] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao-analyzer-1.2.6.dev8.tar.gz tmp/dao-analyzer-1.2.6.dev9.tar.gz --markdown 20230511/d/dao-analyzer/1.2.6.dev8-1.2.6.dev9/diff.md --exclude *.pyd
+[2023-05-11 16:21:11] INFO root fetch - processPackages [ocflib]: Start processing: mattlib
+[2023-05-11 16:21:11] INFO root fetch - main [MainThread]: End processing [ocflib]: success
+[2023-05-11 16:21:11] INFO root fetch - processPackages [mattlib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 16:21:11] INFO root fetch - processPackages [mattlib]: executing diffoscope
+[2023-05-11 16:21:11] INFO root fetch - processPackages [mattlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattlib-1.1.0.tar.gz tmp/mattlib-1.1.1.tar.gz --markdown 20230511/m/mattlib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 16:21:11] INFO root fetch - processPackages [testarchiver]: Start processing: pulumi-ngrok
+[2023-05-11 16:21:11] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:21:11] INFO root fetch - processPackages [sca-rhythm]: Start processing: montecarlodata
+[2023-05-11 16:21:11] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-11 16:21:11] INFO root fetch - processPackages [pulumi-ngrok]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-05-11 16:21:11] INFO root fetch - processPackages [raga-cli]: Start processing: dask-awkward
+[2023-05-11 16:21:11] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-11 16:21:11] INFO root fetch - processPackages [montecarlodata]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-11 16:21:11] INFO root fetch - processPackages [pulumi-ngrok]: executing diffoscope
+[2023-05-11 16:21:11] INFO root fetch - processPackages [pulumi-ngrok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ngrok-0.0.14.tar.gz tmp/pulumi_ngrok-0.0.15.tar.gz --markdown 20230511/p/pulumi-ngrok/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-05-11 16:21:11] INFO root fetch - processPackages [dask-awkward]: New version: [2023.5.0] Old Version: [2023.4.2]
+[2023-05-11 16:21:11] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/5e/10/a334e930a7cee693482642bd78d06d4ecf2ed0e5000ac2d8cbdc3865a6a5/dask_awkward-2023.4.2.tar.gz
+[2023-05-11 16:21:12] INFO root fetch - processPackages [rgwadmin]: Start processing: adafruit-circuitpython-fona
+[2023-05-11 16:21:12] INFO root fetch - main [MainThread]: End processing [rgwadmin]: success
+[2023-05-11 16:21:12] INFO root fetch - processPackages [montecarlodata]: executing diffoscope
+[2023-05-11 16:21:12] INFO root fetch - processPackages [montecarlodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montecarlodata-0.9.1.tar.gz tmp/montecarlodata-0.9.2.tar.gz --markdown 20230511/m/montecarlodata/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 16:21:12] INFO root fetch - processPackages [adafruit-circuitpython-fona]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-11 16:21:12] INFO root fetch - processPackages [dask-awkward]: Downloading https://files.pythonhosted.org/packages/32/b8/f0f55510d852b850d2e17d0af9f712ba4b9805507637e6f94a9b5a2de627/dask_awkward-2023.5.0.tar.gz
+[2023-05-11 16:21:12] INFO root fetch - processPackages [adafruit-circuitpython-fona]: Downloading https://files.pythonhosted.org/packages/74/23/8e21a188601c46e1af5f09a841acedd3b4c77e0ef18ce7bf0135666c0f4a/adafruit-circuitpython-fona-2.1.8.tar.gz
+[2023-05-11 16:21:12] INFO root fetch - processPackages [dask-awkward]: executing diffoscope
+[2023-05-11 16:21:12] INFO root fetch - processPackages [dask-awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask_awkward-2023.4.2.tar.gz tmp/dask_awkward-2023.5.0.tar.gz --markdown 20230511/d/dask-awkward/2023.4.2-2023.5.0/diff.md --exclude *.pyd
+[2023-05-11 16:21:12] INFO root fetch - processPackages [adafruit-circuitpython-as7341]: Start processing: hatchling
+[2023-05-11 16:21:12] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-as7341]: success
+[2023-05-11 16:21:12] INFO root fetch - processPackages [hatchling]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-11 16:21:12] INFO root fetch - processPackages [knowledge-graph]: Start processing: pyphetools
+[2023-05-11 16:21:12] INFO root fetch - main [MainThread]: End processing [knowledge-graph]: success
+[2023-05-11 16:21:12] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-11 16:21:12] INFO root fetch - processPackages [hatchling]: executing diffoscope
+[2023-05-11 16:21:12] INFO root fetch - processPackages [hatchling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchling-1.8.1.tar.gz tmp/hatchling-1.9.0.tar.gz --markdown 20230511/h/hatchling/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:21:12] INFO root fetch - processPackages [pyBLACK]: Start processing: nonebot-plugin-segbuilder
+[2023-05-11 16:21:12] INFO root fetch - main [MainThread]: End processing [pyBLACK]: success
+[2023-05-11 16:21:12] INFO root fetch - processPackages [adafruit-circuitpython-fona]: Downloading https://files.pythonhosted.org/packages/d4/4f/88ca298aed9e3948d717ea01924c539d850d8d4a0405dd98fe2c6ad19497/adafruit-circuitpython-fona-2.1.9.tar.gz
+[2023-05-11 16:21:12] INFO root fetch - processPackages [adafruit-circuitpython-fona]: executing diffoscope
+[2023-05-11 16:21:12] INFO root fetch - processPackages [adafruit-circuitpython-fona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-fona-2.1.8.tar.gz tmp/adafruit-circuitpython-fona-2.1.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-fona/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:12] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-05-11 16:21:12] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230511/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:12] WARNING root fetch - processPackages [nonebot-plugin-segbuilder]: Skipping, unable to determine old version
+[2023-05-11 16:21:12] INFO root fetch - processPackages [nonebot-plugin-segbuilder]: Start processing: testarchiver
+[2023-05-11 16:21:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-segbuilder] error
+[2023-05-11 16:21:12] INFO root fetch - processPackages [testarchiver]: New version: [2.6.1rc4948925347] Old Version: [2.6.1rc4948875927]
+[2023-05-11 16:21:13] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/cd/2f/edf5c5e3ac4629ffefa04e4f71532bb63f86615c818a556e66c502b1f2e1/testarchiver-2.6.1rc4948875927.tar.gz
+[2023-05-11 16:21:13] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/19/fc/38557590ef2f23c7e271417434675580d61248bdb68a1f2a20c374e86399/testarchiver-2.6.1rc4948925347.tar.gz
+[2023-05-11 16:21:13] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:21:13] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.1rc4948875927.tar.gz tmp/testarchiver-2.6.1rc4948925347.tar.gz --markdown 20230511/t/testarchiver/2.6.1rc4948875927-2.6.1rc4948925347/diff.md --exclude *.pyd
+[2023-05-11 16:21:13] INFO root fetch - processPackages [montecarlodata]: Start processing: prowler
+[2023-05-11 16:21:13] INFO root fetch - main [MainThread]: End processing [montecarlodata]: success
+[2023-05-11 16:21:13] INFO root fetch - processPackages [prowler]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-05-11 16:21:13] INFO root fetch - processPackages [dask-awkward]: Start processing: adafruit-circuitpython-ov5640
+[2023-05-11 16:21:13] INFO root fetch - main [MainThread]: End processing [dask-awkward]: success
+[2023-05-11 16:21:14] INFO root fetch - processPackages [adafruit-circuitpython-ov5640]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 16:21:14] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/75/dd/c63f8b507a76264ef73dd19871ddba29d090de2067396f7ff768e4caf445/prowler-3.4.1.tar.gz
+[2023-05-11 16:21:14] INFO root fetch - main [MainThread]: End processing [mattlib]: success
+[2023-05-11 16:21:14] INFO root fetch - processPackages [adafruit-circuitpython-ov5640]: Downloading https://files.pythonhosted.org/packages/5b/07/32371ea11f4fa6bd34c7dc035dac0f173d24d440185450a28fe3123998a6/adafruit-circuitpython-ov5640-1.1.8.tar.gz
+[2023-05-11 16:21:14] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-fona]: success
+[2023-05-11 16:21:14] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/88/95/f75f7d8910277bf17355f633b6773b5544f89ef5669432ac50b76a1a34b2/prowler-3.5.0.tar.gz
+[2023-05-11 16:21:14] INFO root fetch - processPackages [adafruit-circuitpython-ov5640]: Downloading https://files.pythonhosted.org/packages/fa/3c/487b67195bea9c74e75732790dd09b6928041d21302fe0d27a16bfa4221d/adafruit-circuitpython-ov5640-1.1.9.tar.gz
+[2023-05-11 16:21:14] INFO root fetch - processPackages [adafruit-circuitpython-ov5640]: executing diffoscope
+[2023-05-11 16:21:14] INFO root fetch - processPackages [adafruit-circuitpython-ov5640]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ov5640-1.1.8.tar.gz tmp/adafruit-circuitpython-ov5640-1.1.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-ov5640/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:21:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-imm20200930]: success
+[2023-05-11 16:21:14] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2023-05-11 16:21:14] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.4.1.tar.gz tmp/prowler-3.5.0.tar.gz --markdown 20230511/p/prowler/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2023-05-11 16:21:14] INFO root fetch - main [MainThread]: End processing [hatchling]: success
+[2023-05-11 16:21:14] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-05-11 16:21:14] INFO root fetch - main [MainThread]: End processing [pulumi-ngrok]: success
+[2023-05-11 16:21:15] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:21:15] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2023-05-11 16:21:15] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ov5640]: success
+[2023-05-11 16:21:32] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2023-05-11 16:21:32] INFO root fetch - main [MainThread]: Store serial: [18064598]
