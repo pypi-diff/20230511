@@ -19455,3 +19455,124 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:05:34] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-11 15:05:39] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
 [2023-05-11 15:05:39] INFO root fetch - main [MainThread]: Store serial: [18063843]
+[2023-05-11 15:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063843]
+[2023-05-11 15:10:49] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbnlab-preview
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xguard
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyodc
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boris-behav-obs
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lendsmart-autotest
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: picsellia-tf2
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ytsaurus-spyt
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ert
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-stdlib
+[2023-05-11 15:10:49] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.7] Old Version: [1.6]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [picsellia-tf2]: New version: [0.9] Old Version: [0.8]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [pyodc]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [xguard]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.70.1b444.post15369525.dev8] Old Version: [1.70.1b444.post12006552.dev9]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ert]: New version: [5.0.0b8] Old Version: [5.0.0b7]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-11 15:10:49] INFO root fetch - processPackages [picsellia-tf2]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [picsellia-tf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia_tf2-0.8.tar.gz tmp/picsellia_tf2-0.9.tar.gz --markdown 20230511/p/picsellia-tf2/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230511/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/2e/d5/1004d47caa9b4e9966472e71172c3a2e0f49ab2af4dbb8217232c7d7f9cd/ytsaurus-spyt-1.70.1b444.post12006552.dev9.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d8/60/c5c01d43a500736a986b39889e2d6388bc9cc4cfc133f03e2faf98be773f/fbnlab_preview-0.1.6-py3-none-any.whl
+[2023-05-11 15:10:49] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/26/05/c2ed47a4065cb292346274c7e3db95504022699f6825dfd4dd032c70b673/lendsmart_autotest-1.6.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [xguard]: Downloading https://files.pythonhosted.org/packages/0a/74/c57d0a786cb6bca503c222610e450c0199fbc7244e6f4f24c8ae254e58f4/xguard-1.0.1.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [pyodc]: Downloading https://files.pythonhosted.org/packages/29/65/8e3f6f80f4fa3094cbf52d63108e6c99b3a1ac8d6713866530386ad331e7/pyodc-1.1.4.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230511/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.5.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.5.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230511/f/fbgemm-gpu-nightly-cpu/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/cb/3d/80b6c99c43f3c92066af4a56956d70911c4da697ba1d7029ee813b5b4964/ert-5.0.0b8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 15:10:49] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/96/0f/5d2440e5bab6d3adf21030ef8c61930d2f861305ce8edebce77ed4757249/lendsmart_autotest-1.7.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [xguard]: Downloading https://files.pythonhosted.org/packages/e1/26/c332809cb4066c84780bf63dc6dcc55abd3efbcefdb0e8e21f91a2dc3c25/xguard-1.0.3.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/13/15/be64f70c8ccc315cb077d7879df5074ea6d8bd926d5380ade006b5513094/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-05-11 15:10:49] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.6.tar.gz tmp/lendsmart_autotest-1.7.tar.gz --markdown 20230511/l/lendsmart-autotest/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [pyodc]: Downloading https://files.pythonhosted.org/packages/67/1f/cfe51153c9aaa5f8d33baf40515bae3d0e116e6c805f533d6729c038f987/pyodc-1.2.0.tar.gz
+[2023-05-11 15:10:49] INFO root fetch - processPackages [xguard]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [xguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xguard-1.0.1.tar.gz tmp/xguard-1.0.3.tar.gz --markdown 20230511/x/xguard/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230511/f/fbnlab-preview/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [pyodc]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [pyodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodc-1.1.4.tar.gz tmp/pyodc-1.2.0.tar.gz --markdown 20230511/p/pyodc/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-05-11 15:10:49] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.70.1b444.post12006552.dev9.tar.gz tmp/ytsaurus-spyt-1.70.1b444.post15369525.dev8.tar.gz --markdown 20230511/y/ytsaurus-spyt/1.70.1b444.post12006552.dev9-1.70.1b444.post15369525.dev8/diff.md --exclude *.pyd
+[2023-05-11 15:10:50] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-05-11 15:10:50] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0b7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0b8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230511/e/ert/5.0.0b7-5.0.0b8/diff.md --exclude *.pyd
+[2023-05-11 15:10:51] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: pyuiauto
+[2023-05-11 15:10:51] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-05-11 15:10:51] INFO root fetch - processPackages [pyuiauto]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 15:10:51] INFO root fetch - processPackages [lendsmart-autotest]: Start processing: sarus-data-spec-public
+[2023-05-11 15:10:51] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-11 15:10:51] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.2.1.dev3] Old Version: [3.2.1.dev2]
+[2023-05-11 15:10:51] INFO root fetch - processPackages [xguard]: Start processing: dorothy-sdk
+[2023-05-11 15:10:51] INFO root fetch - main [MainThread]: End processing [xguard]: success
+[2023-05-11 15:10:51] INFO root fetch - processPackages [dorothy-sdk]: New version: [1.4.7] Old Version: [1.4.3]
+[2023-05-11 15:10:51] INFO root fetch - processPackages [pyuiauto]: Downloading https://files.pythonhosted.org/packages/22/3f/eec2fde3c645db2d39f51efac0fecc05b3f62de74add70d915e60c8e465b/pyUIauto-0.1.6.tar.gz
+[2023-05-11 15:10:51] INFO root fetch - processPackages [fbnlab-preview]: Start processing: nbdev-numpy
+[2023-05-11 15:10:51] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-05-11 15:10:51] INFO root fetch - processPackages [pyuiauto]: executing diffoscope
+[2023-05-11 15:10:51] INFO root fetch - processPackages [pyuiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUIauto-0.1.5.tar.gz tmp/pyUIauto-0.1.6.tar.gz --markdown 20230511/p/pyuiauto/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 15:10:51] INFO root fetch - processPackages [dorothy-sdk]: Downloading https://files.pythonhosted.org/packages/78/0c/6b3a7e8a6aed05deaebb1889485385e56da27b934f7f3af6d2f37290862a/dorothy-sdk-1.4.3.tar.gz
+[2023-05-11 15:10:51] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:10:51] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/78/9f/15844b4e000f12d321705e329ba1e2ed1df6feabb23471b144af146ab121/sarus_data_spec_public-3.2.1.dev3.tar.gz
+[2023-05-11 15:10:51] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-05-11 15:10:51] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230511/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:10:51] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-11 15:10:51] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.2.1.dev2.tar.gz tmp/sarus_data_spec_public-3.2.1.dev3.tar.gz --markdown 20230511/s/sarus-data-spec-public/3.2.1.dev2-3.2.1.dev3/diff.md --exclude *.pyd
+[2023-05-11 15:10:52] INFO root fetch - processPackages [dorothy-sdk]: Downloading https://files.pythonhosted.org/packages/8c/1f/cebd578ce46844e3fc5fca05521515b6775962855c3155cec9cf8b83fe96/dorothy-sdk-1.4.7.tar.gz
+[2023-05-11 15:10:52] INFO root fetch - processPackages [dorothy-sdk]: executing diffoscope
+[2023-05-11 15:10:52] INFO root fetch - processPackages [dorothy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorothy-sdk-1.4.3.tar.gz tmp/dorothy-sdk-1.4.7.tar.gz --markdown 20230511/d/dorothy-sdk/1.4.3-1.4.7/diff.md --exclude *.pyd
+[2023-05-11 15:10:52] INFO root fetch - processPackages [boris-behav-obs]: Start processing: lendsmart-autotest
+[2023-05-11 15:10:52] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-05-11 15:10:52] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.8] Old Version: [1.7]
+[2023-05-11 15:10:52] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/7b/44/662d8353bf54431924a4182c8da36f7b22124087830e42b85f87b7fc7611/lendsmart_autotest-1.8.tar.gz
+[2023-05-11 15:10:52] INFO root fetch - processPackages [pyodc]: Start processing: sharingiscaring
+[2023-05-11 15:10:52] INFO root fetch - main [MainThread]: End processing [pyodc]: success
+[2023-05-11 15:10:52] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 15:10:52] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-11 15:10:52] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230511/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 15:10:52] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-11 15:10:52] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.7.tar.gz tmp/lendsmart_autotest-1.8.tar.gz --markdown 20230511/l/lendsmart-autotest/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-11 15:10:53] INFO root fetch - processPackages [pyuiauto]: Start processing: nbdev-pandas
+[2023-05-11 15:10:53] INFO root fetch - main [MainThread]: End processing [pyuiauto]: success
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230511/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-numpy]: Start processing: nbdev-pytorch
+[2023-05-11 15:10:53] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-11 15:10:53] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230511/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:10:53] INFO root fetch - processPackages [dorothy-sdk]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-11 15:10:53] INFO root fetch - main [MainThread]: End processing [dorothy-sdk]: success
+[2023-05-11 15:10:53] INFO root fetch - processPackages [lendsmart-autotest]: Start processing: ldbpy
+[2023-05-11 15:10:53] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-11 15:10:54] INFO root fetch - processPackages [ldbpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 15:10:54] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:10:54] INFO root fetch - processPackages [ldbpy]: Downloading https://files.pythonhosted.org/packages/62/67/6c9555073c5b4da1470d72d18e1432a8d5751e41726e55a2038e6a358c6a/ldbpy-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 15:10:54] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-11 15:10:54] INFO root fetch - processPackages [ldbpy]: Downloading https://files.pythonhosted.org/packages/6c/a7/0bf454c67a5ced723855942811ece69550973649ca3a26e30d41f9f99b08/ldbpy-0.0.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 15:10:54] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-11 15:10:54] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:10:54] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-11 15:10:54] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-11 15:10:54] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-11 15:10:54] INFO root fetch - processPackages [ldbpy]: executing diffoscope
+[2023-05-11 15:10:54] INFO root fetch - processPackages [ldbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldbpy-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ldbpy-0.0.3-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230511/l/ldbpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:10:56] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-05-11 15:10:56] INFO root fetch - main [MainThread]: End processing [picsellia-tf2]: success
+[2023-05-11 15:10:56] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-11 15:10:58] INFO root fetch - main [MainThread]: End processing [ldbpy]: success
+[2023-05-11 15:11:05] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-05-11 15:11:48] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-05-11 15:11:48] INFO root fetch - main [MainThread]: Store serial: [18063899]
