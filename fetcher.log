@@ -3780,3 +3780,26 @@ EOFError: EOF read where object expected
 [2023-05-11 02:35:29] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-05-11 02:35:31] INFO root fetch - main [MainThread]: End processing [llama-index]: success
 [2023-05-11 02:35:31] INFO root fetch - main [MainThread]: Store serial: [18055055]
+[2023-05-11 02:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18055055]
+[2023-05-11 02:40:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-11 02:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-05-11 02:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-11 02:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickhouse-connect
+[2023-05-11 02:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-alerts
+[2023-05-11 02:40:40] INFO root fetch - processPackages [neon-skill-alerts]: New version: [1.5.1a1] Old Version: [1.5.0]
+[2023-05-11 02:40:40] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-11 02:40:40] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping, unable to determine old version
+[2023-05-11 02:40:40] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-11 02:40:40] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-05-11 02:40:40] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230511/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-11 02:40:40] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-11 02:40:40] INFO root fetch - processPackages [neon-skill-alerts]: executing diffoscope
+[2023-05-11 02:40:40] INFO root fetch - processPackages [neon-skill-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_alerts-1.5.0-py3-none-any.whl.zip tmp/neon_skill_alerts-1.5.1a1-py3-none-any.whl.zip --markdown 20230511/n/neon-skill-alerts/1.5.0-1.5.1a1/diff.md --exclude *.pyd
+[2023-05-11 02:40:40] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/26/e4/caf7f5e5eae407eaafa63d6fa7e3ba5696b30c42ff593cf8c2d9be23812e/clickhouse-connect-0.5.8.tar.gz
+[2023-05-11 02:40:41] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/a4/ed/a54e720ed6235da41c8c52aa8655c953d56a9a23fa8707f9e941378f53ac/clickhouse-connect-0.5.9.tar.gz
+[2023-05-11 02:40:41] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2023-05-11 02:40:41] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.5.8.tar.gz tmp/clickhouse-connect-0.5.9.tar.gz --markdown 20230511/c/clickhouse-connect/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-11 02:40:41] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-05-11 02:40:42] INFO root fetch - main [MainThread]: End processing [neon-skill-alerts]: success
+[2023-05-11 02:40:42] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2023-05-11 02:40:42] INFO root fetch - main [MainThread]: Store serial: [18055131]
