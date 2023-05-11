@@ -9178,3 +9178,71 @@ EOFError: EOF read where object expected
 [2023-05-11 06:40:49] INFO root fetch - main [MainThread]: End processing [k1lib]: success
 [2023-05-11 06:40:50] INFO root fetch - main [MainThread]: End processing [generic-path]: success
 [2023-05-11 06:40:50] INFO root fetch - main [MainThread]: Store serial: [18058233]
+[2023-05-11 06:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058233]
+[2023-05-11 06:45:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aksharify
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aa-simplewiki
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: realnet
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-document-page
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utils-tddschn
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywencai
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jupyter-ai-magics
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyter-ai
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sca-rhythm
+[2023-05-11 06:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mootdx
+[2023-05-11 06:45:59] INFO root fetch - processPackages [aa-simplewiki]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [odoo12-addon-document-page]: New version: [12.0.1.4.0.99.dev9] Old Version: [12.0.1.4.0.99.dev8]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [utils-tddschn]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [sca-rhythm]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [realnet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [mootdx]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [pywencai]: New version: [0.8.2] Old Version: [0.8.0]
+[2023-05-11 06:45:59] WARNING root fetch - processPackages [aksharify]: Skipping, unable to determine old version
+[2023-05-11 06:45:59] INFO root fetch - processPackages [aksharify]: Start processing: napari-threedee
+[2023-05-11 06:45:59] INFO root fetch - main [MainThread]: End processing [aksharify] error
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/0d/97/82c22b0b785bb895e4dcd0d6b64e09378a92a9e222218250ef5d9974857f/jupyter_ai_magics-0.6.1.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/c4/24/942a63a92ea92542ad54c5aa139b3633e0e805ab195efd463ba50c233fe7/jupyter_ai-0.6.1.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [utils-tddschn]: Downloading https://files.pythonhosted.org/packages/ab/bf/c3317e1a4bbb9c70dab6b8443c863acc0419b10d49bf93699f1c53a6366a/utils_tddschn-1.0.4.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/02/32/a0f9f5abe41539077cccd81d1880ff837f67e1a6dcd8cc3dd0f7ab8ec812/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl
+[2023-05-11 06:45:59] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 06:45:59] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/08/e9/4f61e9ae2c765fea901955a329629d7674897a6c7cd629a5f03272b39262/sca_rhythm-0.4.2.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/06/de/bd820f0cb777fa38383cdbc154df96c8b82b3d4a47d2097796eca64e986f/aa-simplewiki-1.0.0.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [utils-tddschn]: executing diffoscope
+[2023-05-11 06:45:59] INFO root fetch - processPackages [utils-tddschn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_tddschn-1.0.3.tar.gz tmp/utils_tddschn-1.0.4.tar.gz --markdown 20230511/u/utils-tddschn/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 06:45:59] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/ae/87/07e1bb1b0969548e6351fea67db72b72ecf52720ec4c963fe39c85f1a454/pywencai-0.8.2.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [mootdx]: executing diffoscope
+[2023-05-11 06:45:59] INFO root fetch - processPackages [mootdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mootdx-0.9.8.tar.gz tmp/mootdx-0.9.9.tar.gz --markdown 20230511/m/mootdx/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai-magics]: Downloading https://files.pythonhosted.org/packages/d1/42/901cac99da8da6243c558c2f610659fd8f21941f27ba344abcf9d0f36259/jupyter_ai_magics-0.7.0.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [realnet]: executing diffoscope
+[2023-05-11 06:45:59] INFO root fetch - processPackages [realnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/realnet-0.0.98.tar.gz tmp/realnet-0.0.99.tar.gz --markdown 20230511/r/realnet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 06:45:59] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-11 06:45:59] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.4.1.tar.gz tmp/sca_rhythm-0.4.2.tar.gz --markdown 20230511/s/sca-rhythm/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-11 06:45:59] INFO root fetch - processPackages [odoo12-addon-document-page]: Downloading https://files.pythonhosted.org/packages/66/84/d4e81b566901a7741533ce200b9c2d435cda7138bd8f3a5ab2b1399e9e98/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl
+[2023-05-11 06:45:59] INFO root fetch - processPackages [aa-simplewiki]: Downloading https://files.pythonhosted.org/packages/d1/bf/2886ba6332c5e7ea8963bfc93e97c77d68d8883c48434009835f650368b0/aa-simplewiki-1.0.1.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [napari-threedee]: Downloading https://files.pythonhosted.org/packages/81/1f/82e3d9c32140273bc57be3c479e8e5ee885204a3dca7be7d2476b777ac72/napari-threedee-0.0.9.tar.gz
+[2023-05-11 06:45:59] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-05-11 06:45:59] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.8.0.tar.gz tmp/pywencai-0.8.2.tar.gz --markdown 20230511/p/pywencai/0.8.0-0.8.2/diff.md --exclude *.pyd
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-05-11 06:45:59] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-0.6.1.tar.gz tmp/jupyter_ai_magics-0.7.0.tar.gz --markdown 20230511/j/jupyter-ai-magics/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 06:46:00] INFO root fetch - processPackages [aa-simplewiki]: executing diffoscope
+[2023-05-11 06:46:00] INFO root fetch - processPackages [aa-simplewiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-simplewiki-1.0.0.tar.gz tmp/aa-simplewiki-1.0.1.tar.gz --markdown 20230511/a/aa-simplewiki/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 06:46:00] INFO root fetch - processPackages [jupyter-ai]: Downloading https://files.pythonhosted.org/packages/56/2a/dc4d99fe778fffa1e0b2f88347bd4ae95ecb963d14df57f4bd68cc2575d1/jupyter_ai-0.7.0.tar.gz
+[2023-05-11 06:46:00] INFO root fetch - processPackages [odoo12-addon-document-page]: executing diffoscope
+[2023-05-11 06:46:00] INFO root fetch - processPackages [odoo12-addon-document-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_document_page-12.0.1.4.0.99.dev9-py3-none-any.whl.zip --markdown 20230511/o/odoo12-addon-document-page/12.0.1.4.0.99.dev8-12.0.1.4.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-11 06:46:00] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2023-05-11 06:46:00] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20230511/n/napari-threedee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 06:46:00] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-05-11 06:46:00] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-0.6.1.tar.gz tmp/jupyter_ai-0.7.0.tar.gz --markdown 20230511/j/jupyter-ai/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 06:46:01] INFO root fetch - main [MainThread]: End processing [utils-tddschn]: success
+[2023-05-11 06:46:01] INFO root fetch - main [MainThread]: End processing [mootdx]: success
+[2023-05-11 06:46:01] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-11 06:46:01] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-05-11 06:46:01] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-05-11 06:46:01] INFO root fetch - main [MainThread]: End processing [aa-simplewiki]: success
+[2023-05-11 06:46:02] INFO root fetch - main [MainThread]: End processing [odoo12-addon-document-page]: success
+[2023-05-11 06:46:02] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2023-05-11 06:46:04] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-05-11 06:46:05] INFO root fetch - main [MainThread]: End processing [realnet]: success
+[2023-05-11 06:46:05] INFO root fetch - main [MainThread]: Store serial: [18058276]
