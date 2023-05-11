@@ -16246,3 +16246,68 @@ EOFError: EOF read where object expected
 [2023-05-11 12:24:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 12:24:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 12:24:08] INFO root fetch - main [MainThread]: Store serial: [18062013]
+[2023-05-11 12:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062013]
+[2023-05-11 12:29:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imaxt-multiscale-plugin
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imaxt-multiscale-plugin
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-iot
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: media-catalogue
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mmcb-avt
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ocf-datapipes
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scandal
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipcryptoaddonV1
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solscan
+[2023-05-11 12:29:17] INFO root fetch - processPackages [imaxt-multiscale-plugin]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [imaxt-multiscale-plugin]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.81] Old Version: [0.0.80]
+[2023-05-11 12:29:17] WARNING root fetch - processPackages [media-catalogue]: Skipping, unable to determine old version
+[2023-05-11 12:29:17] INFO root fetch - processPackages [media-catalogue]: Start processing: civilpy
+[2023-05-11 12:29:17] INFO root fetch - main [MainThread]: End processing [media-catalogue] error
+[2023-05-11 12:29:17] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: New version: [20230511.10.26.900248] Old Version: [20230507.9.30.414759]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [aliyun-python-sdk-iot]: New version: [8.9.0] Old Version: [8.8.0]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [solscan]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-11 12:29:17] WARNING root fetch - processPackages [pipcryptoaddonV1]: Skipping, unable to determine old version
+[2023-05-11 12:29:17] INFO root fetch - main [MainThread]: End processing [pipcryptoaddonV1] error
+[2023-05-11 12:29:17] INFO root fetch - processPackages [scandal]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [civilpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 12:29:17] INFO root fetch - processPackages [imaxt-multiscale-plugin]: Downloading https://files.pythonhosted.org/packages/a2/a3/77929e790b07814ed621bb60f359492ef2a952da5894dc1bac6cc3f24143/imaxt-multiscale-plugin-0.2.5.tar.gz
+[2023-05-11 12:29:17] INFO root fetch - processPackages [imaxt-multiscale-plugin]: Downloading https://files.pythonhosted.org/packages/a2/a3/77929e790b07814ed621bb60f359492ef2a952da5894dc1bac6cc3f24143/imaxt-multiscale-plugin-0.2.5.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/10/6e/336cd74cccaf8038a9d40d34e30acfd87d125ba1b92a5ff6c8418902a199/mmcb-avt-0.0.81.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [solscan]: Downloading https://files.pythonhosted.org/packages/ea/01/b16d426024713b71083eaf5d91a62c1489996722a94ca4cc241ef2a7974a/solscan-0.1.4.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.80.tar.gz tmp/mmcb-avt-0.0.81.tar.gz --markdown 20230511/m/mmcb-avt/0.0.80-0.0.81/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Downloading https://files.pythonhosted.org/packages/34/ed/7b5cdeb453167f2318bdbbda434d91d0b3325e8783bcea932a7f56b79179/aliyun-python-sdk-iot-8.8.0.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Downloading https://files.pythonhosted.org/packages/6e/d0/4808276e2dd04e56b89349c38836b6f53d1d0be9eb0c36a9a3e6be8068bd/certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize-20230507.9.30.414759.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [scandal]: Downloading https://files.pythonhosted.org/packages/08/6e/243077010ca7e3f39d3ca6f182281c1946afdfc8b6cfc376c89a80865aa8/scandal-0.0.6.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230511/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Skipping package: exceeds size limit 38481183>=10485760
+[2023-05-11 12:29:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize] error
+[2023-05-11 12:29:18] INFO root fetch - processPackages [imaxt-multiscale-plugin]: Downloading https://files.pythonhosted.org/packages/1d/af/9eb1e1c99273d0bdb2894953dfe520057d4c37b98ed91cd76adba9f98f14/imaxt-multiscale-plugin-0.3.0.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [imaxt-multiscale-plugin]: Downloading https://files.pythonhosted.org/packages/1d/af/9eb1e1c99273d0bdb2894953dfe520057d4c37b98ed91cd76adba9f98f14/imaxt-multiscale-plugin-0.3.0.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [solscan]: Downloading https://files.pythonhosted.org/packages/b8/23/59afe9606bd65141d03330b5b45792b8dcb2886181b3e1b6cc05c63d4934/solscan-0.1.5.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [imaxt-multiscale-plugin]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [imaxt-multiscale-plugin]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [imaxt-multiscale-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaxt-multiscale-plugin-0.2.5.tar.gz tmp/imaxt-multiscale-plugin-0.3.0.tar.gz --markdown 20230511/i/imaxt-multiscale-plugin/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] INFO root fetch - processPackages [imaxt-multiscale-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaxt-multiscale-plugin-0.2.5.tar.gz tmp/imaxt-multiscale-plugin-0.3.0.tar.gz --markdown 20230511/i/imaxt-multiscale-plugin/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: Downloading https://files.pythonhosted.org/packages/d1/e3/04259d9d5b1e68e55ba6ba2893f559449dd3a4550a842e833a102b4048d5/aliyun-python-sdk-iot-8.9.0.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.7.tar.gz tmp/civilpy-0.0.8.tar.gz --markdown 20230511/c/civilpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [aliyun-python-sdk-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-iot-8.8.0.tar.gz tmp/aliyun-python-sdk-iot-8.9.0.tar.gz --markdown 20230511/a/aliyun-python-sdk-iot/8.8.0-8.9.0/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] INFO root fetch - processPackages [solscan]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [solscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solscan-0.1.4.tar.gz tmp/solscan-0.1.5.tar.gz --markdown 20230511/s/solscan/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-11 12:29:18] INFO root fetch - processPackages [scandal]: Downloading https://files.pythonhosted.org/packages/f6/1f/898088d46f252bf04bea36fc52c6cecf5557d7586a41a2ff1012ed07f611/scandal-0.1.0.tar.gz
+[2023-05-11 12:29:18] INFO root fetch - processPackages [scandal]: executing diffoscope
+[2023-05-11 12:29:18] INFO root fetch - processPackages [scandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandal-0.0.6.tar.gz tmp/scandal-0.1.0.tar.gz --markdown 20230511/s/scandal/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-11 12:29:19] INFO root fetch - main [MainThread]: End processing [imaxt-multiscale-plugin]: success
+[2023-05-11 12:29:20] INFO root fetch - main [MainThread]: End processing [solscan]: success
+[2023-05-11 12:29:20] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-05-11 12:29:20] INFO root fetch - main [MainThread]: End processing [imaxt-multiscale-plugin]: success
+[2023-05-11 12:29:20] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-05-11 12:29:20] INFO root fetch - main [MainThread]: End processing [scandal]: success
+[2023-05-11 12:29:20] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-11 12:29:24] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-iot]: success
+[2023-05-11 12:29:24] INFO root fetch - main [MainThread]: Store serial: [18062051]
