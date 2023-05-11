@@ -18572,3 +18572,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:22:32] INFO root fetch - main [MainThread]: End processing [gluonts]: success
 [2023-05-11 14:22:32] INFO root fetch - main [MainThread]: End processing [neural-compressor-full]: success
 [2023-05-11 14:22:32] INFO root fetch - main [MainThread]: Store serial: [18063373]
+[2023-05-11 14:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063373]
+[2023-05-11 14:27:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyees
+[2023-05-11 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geti-sdk
+[2023-05-11 14:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trademasterntu
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: better-translation
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tilmedia
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: funasr
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sharingiscaring
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbloss
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spetlr
+[2023-05-11 14:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opengeode
+[2023-05-11 14:27:42] INFO root fetch - processPackages [funasr]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-05-11 14:27:42] WARNING root fetch - processPackages [trademasterntu]: Skipping, unable to determine old version
+[2023-05-11 14:27:42] INFO root fetch - processPackages [trademasterntu]: Start processing: cliconfig
+[2023-05-11 14:27:42] INFO root fetch - main [MainThread]: End processing [trademasterntu] error
+[2023-05-11 14:27:42] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [better-translation]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [cliconfig]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [spetlr]: New version: [1.1.79] Old Version: [1.1.75]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230511/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] INFO root fetch - processPackages [tilmedia]: New version: [3.14.0] Old Version: [3.13.0]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.4.8.tar.gz tmp/funasr-0.5.0.tar.gz --markdown 20230511/f/funasr/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] INFO root fetch - processPackages [pyees]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [opengeode]: New version: [4.1.2] Old Version: [4.1.0]
+[2023-05-11 14:27:42] INFO root fetch - processPackages [better-translation]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [better-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better-translation-0.3.2.tar.gz tmp/better-translation-0.4.0.tar.gz --markdown 20230511/b/better-translation/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] WARNING root fetch - processPackages [cbloss]: Skipping, unable to determine old version
+[2023-05-11 14:27:42] INFO root fetch - main [MainThread]: End processing [cbloss] error
+[2023-05-11 14:27:42] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/e5/c4/bab4550ae8f5c42372fd6b967d688d40342f9b06ddc4d2b9a117f5f2e08c/cliconfig-0.4.5.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/9b/45/b3178ea438fc7b4b06ed4e8b0f4fe9839ca936cf317cfad993176361d4b2/pyees-1.2.3.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/af/87/e36bdcbffd33497a81c238d4a0401c7bbfc561aed6ae46ff9601a5c7b719/spetlr-1.1.75.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.4.4.tar.gz tmp/cliconfig-0.4.5.tar.gz --markdown 20230511/c/cliconfig/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] INFO root fetch - processPackages [tilmedia]: Downloading https://files.pythonhosted.org/packages/49/ea/1d4d90746d58010481299f4be8ef7b89a67f0cdc87fea18a342a66031021/tilmedia-3.13.0-cp39-cp39-win_amd64.whl
+[2023-05-11 14:27:42] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/30/ca/f60125afa488e20b500f8f2f7d8c0ab7aae516f58a3e4cf4e336ed5a266d/geti-sdk-1.5.4.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/c7/0f/3b824b8a8b5e5d7640ffef264e7436db38e702f427c5f6ae4195ecf5f3b7/pyees-1.2.4.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [opengeode]: Downloading https://files.pythonhosted.org/packages/80/7c/2f6e5f0768898286909f1ca614419a5cbc5de537d66c8199a0a7290fb8b3/opengeode-4.1.2.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/e2/86/c46aadcda06fc93c7c1c87ad7fbca9b23c308b523890808822e8f5aff8b3/spetlr-1.1.79.tar.gz
+[2023-05-11 14:27:42] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.3.tar.gz tmp/geti-sdk-1.5.4.tar.gz --markdown 20230511/g/geti-sdk/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.2.3.tar.gz tmp/pyees-1.2.4.tar.gz --markdown 20230511/p/pyees/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2023-05-11 14:27:42] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-1.1.75.tar.gz tmp/spetlr-1.1.79.tar.gz --markdown 20230511/s/spetlr/1.1.75-1.1.79/diff.md --exclude *.pyd
+[2023-05-11 14:27:42] INFO root fetch - processPackages [tilmedia]: Downloading https://files.pythonhosted.org/packages/ad/80/fdcd670c0c18621d0286754ac8160a94a27369eb0a54e5a451230974508c/tilmedia-3.14.0-cp39-cp39-win_amd64.whl
+[2023-05-11 14:27:43] INFO root fetch - processPackages [tilmedia]: executing diffoscope
+[2023-05-11 14:27:43] INFO root fetch - processPackages [tilmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tilmedia-3.13.0-cp39-cp39-win_amd64.whl.zip tmp/tilmedia-3.14.0-cp39-cp39-win_amd64.whl.zip --markdown 20230511/t/tilmedia/3.13.0-3.14.0/diff.md --exclude *.pyd
+[2023-05-11 14:27:43] INFO root fetch - main [MainThread]: End processing [better-translation]: success
+[2023-05-11 14:27:44] INFO root fetch - processPackages [opengeode]: executing diffoscope
+[2023-05-11 14:27:44] INFO root fetch - processPackages [opengeode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengeode-4.1.0.tar.gz tmp/opengeode-4.1.2.tar.gz --markdown 20230511/o/opengeode/4.1.0-4.1.2/diff.md --exclude *.pyd
+[2023-05-11 14:27:44] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2023-05-11 14:27:44] INFO root fetch - main [MainThread]: End processing [tilmedia]: success
+[2023-05-11 14:27:44] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-05-11 14:27:44] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-11 14:27:46] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-11 14:27:47] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2023-05-11 14:27:49] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-11 14:27:50] INFO root fetch - main [MainThread]: End processing [opengeode]: success
+[2023-05-11 14:27:50] INFO root fetch - main [MainThread]: Store serial: [18063426]
