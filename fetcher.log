@@ -6200,3 +6200,80 @@ EOFError: EOF read where object expected
 [2023-05-11 03:41:51] INFO root fetch - main [MainThread]: End processing [patchnetvlad]: success
 [2023-05-11 03:41:51] INFO root fetch - main [MainThread]: End processing [hbshare]: success
 [2023-05-11 03:41:51] INFO root fetch - main [MainThread]: Store serial: [18056651]
+[2023-05-11 03:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18056651]
+[2023-05-11 03:46:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-django
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proactive
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hx-requests
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-organizations
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matplotlips
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: disklru
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: proactive-jupyter-kernel
+[2023-05-11 03:46:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grumble
+[2023-05-11 03:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cookiesamurai
+[2023-05-11 03:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: matplotlips
+[2023-05-11 03:47:00] INFO root fetch - processPackages [disklru]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: New version: [0.1] Old Version: [0.0.9]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-05-11 03:47:00] WARNING root fetch - processPackages [cookiesamurai]: Skipping, unable to determine old version
+[2023-05-11 03:47:00] INFO root fetch - processPackages [cookiesamurai]: Start processing: checkov3
+[2023-05-11 03:47:00] INFO root fetch - main [MainThread]: End processing [cookiesamurai] error
+[2023-05-11 03:47:00] INFO root fetch - processPackages [grumble]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: New version: [0.1] Old Version: [0.0.9]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [checkov3]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-05-11 03:47:00] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230511/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [disklru]: Downloading https://files.pythonhosted.org/packages/ad/af/e631d091bec6bd98e2d6c4b21ce0851e35955c3c9a91a921fde239abba29/disklru-1.0.1.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230511/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/b6/ee/a88a186e791ab2f853e3a90ce41536be9c014b8f9f6e0b7b97cd5b450b06/matplotlips-0.0.9.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230511/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-05-11 03:47:00] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-05-11 03:47:00] INFO root fetch - processPackages [proactive]: Start processing: stmapy
+[2023-05-11 03:47:00] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230511/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/b6/ee/a88a186e791ab2f853e3a90ce41536be9c014b8f9f6e0b7b97cd5b450b06/matplotlips-0.0.9.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [grumble]: Downloading https://files.pythonhosted.org/packages/df/18/a8d424076d114e2d2383811532b26f5238ace78fabbd30ef1109d00ab002/grumble-1.0.0.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/73/b1/b57674350c25bb038af8a2209a5135f6683f962ac8bec32665017c0e484f/checkov3-0.1.3.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [stmapy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-11 03:47:00] INFO root fetch - processPackages [disklru]: Downloading https://files.pythonhosted.org/packages/2b/47/a8835defdd88c1d52b71152b8fe6aa416b9b021db6cb3157df5e92a8d285/disklru-1.0.2.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [disklru]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [disklru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/disklru-1.0.1.tar.gz tmp/disklru-1.0.2.tar.gz --markdown 20230511/d/disklru/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/2b/99/887ab4c8aa96e44cba6d14947a75cb8afd7f4f3b9d807de22f264a09364c/matplotlips-0.1.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/2b/99/887ab4c8aa96e44cba6d14947a75cb8afd7f4f3b9d807de22f264a09364c/matplotlips-0.1.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlips-0.0.9.tar.gz tmp/matplotlips-0.1.tar.gz --markdown 20230511/m/matplotlips/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [matplotlips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlips-0.0.9.tar.gz tmp/matplotlips-0.1.tar.gz --markdown 20230511/m/matplotlips/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [grumble]: Downloading https://files.pythonhosted.org/packages/13/ef/4c38fcdccf4eedebbb76ec57ca0f63e13bd66f6a7141a65f53618e7affa2/grumble-1.1.0.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [stmapy]: Downloading https://files.pythonhosted.org/packages/0f/5b/9d4e64063f171a2814ca57583288c3a50aef413ee7c1a9766b01243d105a/stmapy-0.4.2.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [grumble]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [grumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grumble-1.0.0.tar.gz tmp/grumble-1.1.0.tar.gz --markdown 20230511/g/grumble/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/06/d2/24f075f01cf14104134c84e5d11bd902833abbbde8b53828867131e8183d/checkov3-0.1.4.tar.gz
+[2023-05-11 03:47:00] INFO root fetch - processPackages [checkov3]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [checkov3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov3-0.1.3.tar.gz tmp/checkov3-0.1.4.tar.gz --markdown 20230511/c/checkov3/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 03:47:00] INFO root fetch - processPackages [stmapy]: executing diffoscope
+[2023-05-11 03:47:00] INFO root fetch - processPackages [stmapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stmapy-0.4.1.tar.gz tmp/stmapy-0.4.2.tar.gz --markdown 20230511/s/stmapy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-11 03:47:01] INFO root fetch - processPackages [hx-requests]: Start processing: newWhoisBobPkgs
+[2023-05-11 03:47:01] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-05-11 03:47:01] INFO root fetch - processPackages [newWhoisBobPkgs]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-05-11 03:47:01] INFO root fetch - processPackages [newWhoisBobPkgs]: executing diffoscope
+[2023-05-11 03:47:01] INFO root fetch - processPackages [newWhoisBobPkgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newWhoisBobPkgs-1.0.0.8-py3-none-any.whl.zip tmp/newWhoisBobPkgs-1.0.0.9-py3-none-any.whl.zip --markdown 20230511/n/newWhoisBobPkgs/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:47:01] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-05-11 03:47:01] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-11 03:47:01] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-05-11 03:47:02] INFO root fetch - main [MainThread]: End processing [disklru]: success
+[2023-05-11 03:47:02] INFO root fetch - main [MainThread]: End processing [grumble]: success
+[2023-05-11 03:47:02] INFO root fetch - main [MainThread]: End processing [matplotlips]: success
+[2023-05-11 03:47:02] INFO root fetch - main [MainThread]: End processing [stmapy]: success
+[2023-05-11 03:47:02] INFO root fetch - main [MainThread]: End processing [matplotlips]: success
+[2023-05-11 03:47:03] INFO root fetch - main [MainThread]: End processing [newWhoisBobPkgs]: success
+[2023-05-11 03:47:44] INFO root fetch - main [MainThread]: End processing [checkov3]: success
+[2023-05-11 03:47:44] INFO root fetch - main [MainThread]: Store serial: [18056689]
