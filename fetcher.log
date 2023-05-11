@@ -10874,3 +10874,55 @@ EOFError: EOF read where object expected
 [2023-05-11 09:02:34] INFO root fetch - main [MainThread]: End processing [qcontext]: success
 [2023-05-11 09:02:58] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
 [2023-05-11 09:02:58] INFO root fetch - main [MainThread]: Store serial: [18059243]
+[2023-05-11 09:08:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059243]
+[2023-05-11 09:08:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoviz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bp-data-visualization
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-sale-workflow
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nextcloudtalkbot
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-signalfx
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-France-Local
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-slack
+[2023-05-11 09:08:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-SPODES
+[2023-05-11 09:08:09] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [OpenFisca-France-Local]: New version: [4.6.0] Old Version: [4.5.1]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [bp-data-visualization]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-slack]: New version: [0.4.3a1683787560] Old Version: [0.4.3a1683612784]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230510.0] Old Version: [16.0.20230507.0]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-signalfx]: New version: [5.9.0a1678179334] Old Version: [5.9.0a1678129624]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [zoviz]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [nextcloudtalkbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 09:08:09] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-11 09:08:09] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230511/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 09:08:09] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/62/4c/704acbc28e8d143ff7d8bcc45dc55313b55dd4b74948fabf991c80c30b51/OpenFisca-France-Local-4.5.1.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/39/01/118ff39e3e5bc58e05756a517d2b426abe032aa3420d27e3000aaac3b14a/zoviz-0.4.98.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [nextcloudtalkbot]: Downloading https://files.pythonhosted.org/packages/c7/93/ef3894eae8bc05f8c8e25d3cc90108ceb2d47071634bd67614a1c3e94df3/nextcloudtalkbot-0.0.8.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-slack]: Downloading https://files.pythonhosted.org/packages/44/f6/8861ecbac93434f7d07495e9be660f34366a2614c41b93936e479bb95397/pulumi_slack-0.4.3a1683787560.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/83/4d/a870b1447d0fa25504b76244af477db68e68efaec5fb208b0b0cbd2cdf1e/bp-data-visualization-1.0.5.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/af/93/2cd19f5cb160ba303514f975f687bc3b1d3077a18b5659b53e4d911d7fc2/odoo_addons_oca_sale_workflow-16.0.20230510.0-py3-none-any.whl
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-slack]: executing diffoscope
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_slack-0.4.3a1683612784.tar.gz tmp/pulumi_slack-0.4.3a1683787560.tar.gz --markdown 20230511/p/pulumi-slack/0.4.3a1683612784-0.4.3a1683787560/diff.md --exclude *.pyd
+[2023-05-11 09:08:09] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-05-11 09:08:09] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230507.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230510.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addons-oca-sale-workflow/16.0.20230507.0-16.0.20230510.0/diff.md --exclude *.pyd
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2023-05-11 09:08:09] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-5.9.0a1678129624.tar.gz tmp/pulumi_signalfx-5.9.0a1678179334.tar.gz --markdown 20230511/p/pulumi-signalfx/5.9.0a1678129624-5.9.0a1678179334/diff.md --exclude *.pyd
+[2023-05-11 09:08:09] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-05-11 09:08:09] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-1.0.4.tar.gz tmp/bp-data-visualization-1.0.5.tar.gz --markdown 20230511/b/bp-data-visualization/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-11 09:08:09] INFO root fetch - processPackages [zoviz]: Downloading https://files.pythonhosted.org/packages/4b/9a/dea269ed1403497e3e963b49e4d08cdc0e831c8642e0f505481d42cdc405/zoviz-0.4.99.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [nextcloudtalkbot]: Downloading https://files.pythonhosted.org/packages/17/a6/3613ebeed7e2534a6b590ee3d06896c1a415d6a752927b521ff177ba7f04/nextcloudtalkbot-0.0.9.tar.gz
+[2023-05-11 09:08:09] INFO root fetch - processPackages [zoviz]: executing diffoscope
+[2023-05-11 09:08:09] INFO root fetch - processPackages [zoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoviz-0.4.98.tar.gz tmp/zoviz-0.4.99.tar.gz --markdown 20230511/z/zoviz/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-05-11 09:08:10] INFO root fetch - processPackages [nextcloudtalkbot]: executing diffoscope
+[2023-05-11 09:08:10] INFO root fetch - processPackages [nextcloudtalkbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextcloudtalkbot-0.0.8.tar.gz tmp/nextcloudtalkbot-0.0.9.tar.gz --markdown 20230511/n/nextcloudtalkbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 09:08:10] INFO root fetch - processPackages [OpenFisca-France-Local]: Downloading https://files.pythonhosted.org/packages/eb/06/bbceb49704a2334eb2dc9b9297ba10d4e77ce756be7cc7bfaf5ff1c2bd6e/OpenFisca-France-Local-4.6.0.tar.gz
+[2023-05-11 09:08:11] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-05-11 09:08:11] INFO root fetch - main [MainThread]: End processing [zoviz]: success
+[2023-05-11 09:08:11] INFO root fetch - main [MainThread]: End processing [pulumi-slack]: success
+[2023-05-11 09:08:11] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-11 09:08:11] INFO root fetch - processPackages [OpenFisca-France-Local]: executing diffoscope
+[2023-05-11 09:08:11] INFO root fetch - processPackages [OpenFisca-France-Local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Local-4.5.1.tar.gz tmp/OpenFisca-France-Local-4.6.0.tar.gz --markdown 20230511/O/OpenFisca-France-Local/4.5.1-4.6.0/diff.md --exclude *.pyd
+[2023-05-11 09:08:12] INFO root fetch - main [MainThread]: End processing [nextcloudtalkbot]: success
+[2023-05-11 09:08:13] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-05-11 09:08:13] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2023-05-11 09:08:17] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
+[2023-05-11 09:08:17] INFO root fetch - main [MainThread]: Store serial: [18059263]
