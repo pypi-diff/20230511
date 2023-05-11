@@ -14936,3 +14936,84 @@ EOFError: EOF read where object expected
 [2023-05-11 11:48:23] INFO root fetch - main [MainThread]: End processing [canlib]: success
 [2023-05-11 11:48:24] INFO root fetch - main [MainThread]: End processing [optimum]: success
 [2023-05-11 11:48:24] INFO root fetch - main [MainThread]: Store serial: [18061404]
+[2023-05-11 11:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061404]
+[2023-05-11 11:53:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tondortools
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rer.customersatisfaction
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flake8-aaa
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eyes-soatra
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfpack
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recon-lw
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lsst-ctrl-bps-htcondor
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: couchdb-python-requests
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MoveFile
+[2023-05-11 11:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rq-chains
+[2023-05-11 11:53:33] INFO root fetch - processPackages [rer.customersatisfaction]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4946478922] Old Version: [2.0.0.dev4945863409]
+[2023-05-11 11:53:33] WARNING root fetch - processPackages [rq-chains]: Skipping, unable to determine old version
+[2023-05-11 11:53:33] INFO root fetch - processPackages [rq-chains]: Start processing: astro-metadata-translator
+[2023-05-11 11:53:33] INFO root fetch - main [MainThread]: End processing [rq-chains] error
+[2023-05-11 11:53:33] INFO root fetch - processPackages [eyes-soatra]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [tondortools]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [cfpack]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [couchdb-python-requests]: New version: [0.4a9] Old Version: [0.4a8]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [MoveFile]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [flake8-aaa]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:53:33] INFO root fetch - processPackages [rer.customersatisfaction]: Downloading https://files.pythonhosted.org/packages/98/cf/aea6346a67133c3536ff6f6d8c059fc7013f622ee5596f1ca35b0e0c887a/rer.customersatisfaction-2.2.1.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/39/d3/c48793f240dba8cd9e3fdc2552a77cff10d3023f438b7d13054504b89e13/recon_lw-2.0.0.dev4945863409.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/8f/3e/6a1ac52405303b7cea353a33f34d6edd66ce803a6364478ea112bbc40178/cfpack-0.0.8.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/84/2c/e47a8b7c61208197e881bd22f273eb4747b5a67161ed2d61410932e4ac00/eyes_soatra-0.0.19.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [MoveFile]: Downloading https://files.pythonhosted.org/packages/4e/ca/5fcea65401b07b5793fe4e7aa42fc0d289b1ec4f3e3a2ff41d6468310614/moveFile-0.3.0.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/9c/29/1a3392502c8a25f2eb2fabe112e03edaf4de2d8396df282510856200f6a7/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [couchdb-python-requests]: Downloading https://files.pythonhosted.org/packages/45/9a/06f891411ba0a4b0549d3930ac59dc68df441a9204fa667259c0173d69a6/couchdb_python_requests-0.4a8-py3-none-any.whl
+[2023-05-11 11:53:33] INFO root fetch - processPackages [flake8-aaa]: Downloading https://files.pythonhosted.org/packages/69/a0/4ddc52c2c7412b0817e689adfaa37cf3d778aef178e30bcd1ce7f8ce7e08/flake8-aaa-0.8.1.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/d1/b8/9908f4dd239365b2c96dfde57c8980e22a970190d592a90c39fc3a202347/recon_lw-2.0.0.dev4946478922.tar.gz
+[2023-05-11 11:53:33] INFO root fetch - processPackages [tondortools]: executing diffoscope
+[2023-05-11 11:53:33] INFO root fetch - processPackages [tondortools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tondortools-1.0.8.tar.gz tmp/tondortools-1.0.9.tar.gz --markdown 20230511/t/tondortools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [eyes-soatra]: Downloading https://files.pythonhosted.org/packages/be/75/79373445afe628511bc68df3874df1ad8142448216fa7e7cb54e910ec209/eyes_soatra-0.0.20.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/f7/bf/08caf1a8b67add3a6d9bf0226a8ec4576d1560ab975ae699e66d240f1273/cfpack-0.0.9.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [MoveFile]: Downloading https://files.pythonhosted.org/packages/15/7d/51ea8fea9490e0ec788b2d851af9060adf2947896fb61f4cda293dd8720c/MoveFile-0.3.1.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4945863409.tar.gz tmp/recon_lw-2.0.0.dev4946478922.tar.gz --markdown 20230511/r/recon-lw/2.0.0.dev4945863409-2.0.0.dev4946478922/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [cfpack]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [cfpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfpack-0.0.8.tar.gz tmp/cfpack-0.0.9.tar.gz --markdown 20230511/c/cfpack/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [eyes-soatra]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [eyes-soatra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_soatra-0.0.19.tar.gz tmp/eyes_soatra-0.0.20.tar.gz --markdown 20230511/e/eyes-soatra/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/3c/cc/c973405023d7f2d0de5436529223459d8600f71b8be3454b9262b1ac019c/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [couchdb-python-requests]: Downloading https://files.pythonhosted.org/packages/e1/c6/ad6cad19429eb22a152db2717f8419c862488aa6024ea8d5d427dc4dd65b/couchdb_python_requests-0.4a9-py3-none-any.whl
+[2023-05-11 11:53:34] INFO root fetch - processPackages [rer.customersatisfaction]: Downloading https://files.pythonhosted.org/packages/a1/59/424dd77b2a38685320af58a665d485de289ec4fdd3f4182c953d6c44b356/rer.customersatisfaction-2.2.2.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230511/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-htcondor-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-ctrl-bps-htcondor/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [flake8-aaa]: Downloading https://files.pythonhosted.org/packages/53/c8/700462c3cb69d9c4fb728c4384746082fc9494a6da20a7d36bba7da8c31d/flake8-aaa-0.9.0.tar.gz
+[2023-05-11 11:53:34] INFO root fetch - processPackages [MoveFile]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [MoveFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moveFile-0.3.0.tar.gz tmp/MoveFile-0.3.1.tar.gz --markdown 20230511/M/MoveFile/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [rer.customersatisfaction]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [rer.customersatisfaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rer.customersatisfaction-2.2.1.tar.gz tmp/rer.customersatisfaction-2.2.2.tar.gz --markdown 20230511/r/rer.customersatisfaction/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [couchdb-python-requests]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [couchdb-python-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/couchdb_python_requests-0.4a8-py3-none-any.whl.zip tmp/couchdb_python_requests-0.4a9-py3-none-any.whl.zip --markdown 20230511/c/couchdb-python-requests/0.4a8-0.4a9/diff.md --exclude *.pyd
+[2023-05-11 11:53:34] INFO root fetch - processPackages [flake8-aaa]: executing diffoscope
+[2023-05-11 11:53:34] INFO root fetch - processPackages [flake8-aaa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-aaa-0.8.1.tar.gz tmp/flake8-aaa-0.9.0.tar.gz --markdown 20230511/f/flake8-aaa/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 11:53:35] INFO root fetch - processPackages [recon-lw]: Start processing: dciclient
+[2023-05-11 11:53:35] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-11 11:53:35] INFO root fetch - main [MainThread]: End processing [tondortools]: success
+[2023-05-11 11:53:35] INFO root fetch - processPackages [dciclient]: New version: [3.1.0] Old Version: [2.5.0]
+[2023-05-11 11:53:35] INFO root fetch - main [MainThread]: End processing [cfpack]: success
+[2023-05-11 11:53:35] INFO root fetch - processPackages [dciclient]: Downloading https://files.pythonhosted.org/packages/e2/81/59dd440a5937378491b3c07b44723025bc3360c16ac8638616c477e5946e/dciclient-2.5.0.tar.gz
+[2023-05-11 11:53:36] INFO root fetch - processPackages [dciclient]: Downloading https://files.pythonhosted.org/packages/8f/7c/d22276825ea0ae056aedb99dcaff2c29df996998069322072dbb1533f7bb/dciclient-3.1.0.tar.gz
+[2023-05-11 11:53:36] INFO root fetch - main [MainThread]: End processing [couchdb-python-requests]: success
+[2023-05-11 11:53:36] INFO root fetch - processPackages [dciclient]: executing diffoscope
+[2023-05-11 11:53:36] INFO root fetch - processPackages [dciclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dciclient-2.5.0.tar.gz tmp/dciclient-3.1.0.tar.gz --markdown 20230511/d/dciclient/2.5.0-3.1.0/diff.md --exclude *.pyd
+[2023-05-11 11:53:36] INFO root fetch - main [MainThread]: End processing [flake8-aaa]: success
+[2023-05-11 11:53:36] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2023-05-11 11:53:37] INFO root fetch - main [MainThread]: End processing [MoveFile]: success
+[2023-05-11 11:53:37] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-05-11 11:53:37] INFO root fetch - main [MainThread]: End processing [dciclient]: success
+[2023-05-11 11:53:38] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
+[2023-05-11 11:53:43] INFO root fetch - main [MainThread]: End processing [rer.customersatisfaction]: success
+[2023-05-11 11:53:43] INFO root fetch - main [MainThread]: Store serial: [18061446]
