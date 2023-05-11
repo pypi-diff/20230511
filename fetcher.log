@@ -10502,3 +10502,87 @@ EOFError: EOF read where object expected
 [2023-05-11 08:34:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
 [2023-05-11 08:35:06] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-05-11 08:35:06] INFO root fetch - main [MainThread]: Store serial: [18058973]
+[2023-05-11 08:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058973]
+[2023-05-11 08:40:15] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qontract-reconcile
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramp-packer
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rum-with-telegram
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hkfdb
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polyscope
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-macos
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-mongodbatlas
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neutone-sdk
+[2023-05-11 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-05-11 08:40:15] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 08:40:15] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230510] Old Version: [2.14.0.dev20230509]
+[2023-05-11 08:40:15] INFO root fetch - processPackages [hkfdb]: New version: [3.0] Old Version: [2.8]
+[2023-05-11 08:40:15] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/09/88/7fa73e853fe97d4dd4cb0a2742cbdbb2ecc1d7bb967e474ed2baf1192a0c/tf_nightly_macos-2.14.0.dev20230509-cp39-cp39-macosx_12_0_arm64.whl
+[2023-05-11 08:40:16] INFO root fetch - processPackages [ramp-packer]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.0a1683784922] Old Version: [3.9.0a1683611208]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.8.tar.gz tmp/rum_with_telegram-0.9.9.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [neutone-sdk]: New version: [1.2.1] Old Version: [1.1.3]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230508.0] Old Version: [16.0.20230504.0]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-11 08:40:16] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 189583424>=10485760
+[2023-05-11 08:40:16] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: permmod
+[2023-05-11 08:40:16] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-05-11 08:40:16] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230511/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [polyscope]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [permmod]: New version: [0.3] Old Version: [0.2]
+[2023-05-11 08:40:16] INFO root fetch - processPackages [ramp-packer]: Downloading https://files.pythonhosted.org/packages/55/c9/b583a2d28515bf67e6c88dda8546f00bd6c4b27a8c8e455222d185f17f67/ramp_packer-2.5.3.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/b1/e2/3b97b42e885ae3fe54e6618fb76057fb2470945e6436c634176c3a1f7b89/hkfdb-3.0.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [neutone-sdk]: Downloading https://files.pythonhosted.org/packages/51/09/af8b8ff063596260f7a23dcaddd3a4151a4c627b7627cde40a7584a11a7e/neutone_sdk-1.1.3.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-2.8.tar.gz tmp/hkfdb-3.0.tar.gz --markdown 20230511/h/hkfdb/2.8-3.0/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [polyscope]: Downloading https://files.pythonhosted.org/packages/a3/6d/418b509cb1b74e881f6e6dd6824b5a3e27d76b5d89a96f446448175870fc/polyscope-1.3.1.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [permmod]: Downloading https://files.pythonhosted.org/packages/1a/67/6c92eec7dc77c2725f132b79810c2801550a11546c621fc5f7d895dd22d0/permmod-0.2.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/2b/70/469e747d469dac9598688021c5c28fa79e7db3e3027467035f3a1afe2a5b/pulumi_mongodbatlas-3.9.0a1683784922.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230504.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230508.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addons-oca-purchase-workflow/16.0.20230504.0-16.0.20230508.0/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [ramp-packer]: Downloading https://files.pythonhosted.org/packages/6c/f7/1ee07e34efd7dc256e0b537790062ff2e251c3cef53a9034e776fb4b2a80/ramp_packer-2.5.4.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230511/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [neutone-sdk]: Downloading https://files.pythonhosted.org/packages/a0/4f/c667ca9b7d1abb3122b2fe485e1b9581867bf4f8394c3b043176013338d1/neutone_sdk-1.2.1.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.0a1683611208.tar.gz tmp/pulumi_mongodbatlas-3.9.0a1683784922.tar.gz --markdown 20230511/p/pulumi-mongodbatlas/3.9.0a1683611208-3.9.0a1683784922/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [permmod]: Downloading https://files.pythonhosted.org/packages/20/b2/4553b36d39d4dacf985bc25dafbe6bc256afee408a3c141cdd0f70704698/permmod-0.3.tar.gz
+[2023-05-11 08:40:16] INFO root fetch - processPackages [neutone-sdk]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [neutone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutone_sdk-1.1.3.tar.gz tmp/neutone_sdk-1.2.1.tar.gz --markdown 20230511/n/neutone-sdk/1.1.3-1.2.1/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [ramp-packer]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [ramp-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramp_packer-2.5.3.tar.gz tmp/ramp_packer-2.5.4.tar.gz --markdown 20230511/r/ramp-packer/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-05-11 08:40:16] INFO root fetch - processPackages [permmod]: executing diffoscope
+[2023-05-11 08:40:16] INFO root fetch - processPackages [permmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permmod-0.2.tar.gz tmp/permmod-0.3.tar.gz --markdown 20230511/p/permmod/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-11 08:40:17] INFO root fetch - processPackages [bridgecrew]: Start processing: pulumi-mysql
+[2023-05-11 08:40:17] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-11 08:40:17] INFO root fetch - processPackages [pulumi-mysql]: New version: [3.2.0a1683785098] Old Version: [3.2.0a1683611293]
+[2023-05-11 08:40:17] INFO root fetch - processPackages [rum-with-telegram]: Start processing: rum-with-telegram
+[2023-05-11 08:40:17] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 08:40:17] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 08:40:17] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 08:40:17] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.8.tar.gz tmp/rum_with_telegram-0.9.9.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 08:40:17] INFO root fetch - processPackages [polyscope]: Downloading https://files.pythonhosted.org/packages/a2/27/ac4051fcdfd3fc102c8651eddc1bf5b14f46c2d86ec4274dc084fb440cda/polyscope-1.3.2.tar.gz
+[2023-05-11 08:40:17] INFO root fetch - processPackages [hkfdb]: Start processing: zendron
+[2023-05-11 08:40:17] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-05-11 08:40:17] INFO root fetch - processPackages [pulumi-mysql]: Downloading https://files.pythonhosted.org/packages/32/35/cefb21cf70df2e75fd856e8f815436ebdd52e513b53bd4212ba8a2148ce2/pulumi_mysql-3.2.0a1683785098.tar.gz
+[2023-05-11 08:40:17] INFO root fetch - processPackages [zendron]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 08:40:18] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-05-11 08:40:18] INFO root fetch - processPackages [polyscope]: executing diffoscope
+[2023-05-11 08:40:18] INFO root fetch - processPackages [polyscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyscope-1.3.1.tar.gz tmp/polyscope-1.3.2.tar.gz --markdown 20230511/p/polyscope/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-11 08:40:18] INFO root fetch - processPackages [zendron]: executing diffoscope
+[2023-05-11 08:40:18] INFO root fetch - processPackages [zendron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zendron-1.1.8.tar.gz tmp/zendron-1.1.9.tar.gz --markdown 20230511/z/zendron/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 08:40:18] INFO root fetch - processPackages [pulumi-mysql]: executing diffoscope
+[2023-05-11 08:40:18] INFO root fetch - processPackages [pulumi-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mysql-3.2.0a1683611293.tar.gz tmp/pulumi_mysql-3.2.0a1683785098.tar.gz --markdown 20230511/p/pulumi-mysql/3.2.0a1683611293-3.2.0a1683785098/diff.md --exclude *.pyd
+[2023-05-11 08:40:18] INFO root fetch - main [MainThread]: End processing [permmod]: success
+[2023-05-11 08:40:18] INFO root fetch - main [MainThread]: End processing [ramp-packer]: success
+[2023-05-11 08:40:19] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 08:40:19] INFO root fetch - main [MainThread]: End processing [pulumi-mysql]: success
+[2023-05-11 08:40:19] INFO root fetch - main [MainThread]: End processing [neutone-sdk]: success
+[2023-05-11 08:40:19] INFO root fetch - main [MainThread]: End processing [zendron]: success
+[2023-05-11 08:40:20] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-05-11 08:40:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-11 08:40:51] INFO root fetch - main [MainThread]: End processing [polyscope]: success
+[2023-05-11 08:40:51] INFO root fetch - main [MainThread]: Store serial: [18059062]
