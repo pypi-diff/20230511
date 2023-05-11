@@ -15155,3 +15155,92 @@ EOFError: EOF read where object expected
 [2023-05-11 11:58:59] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
 [2023-05-11 11:58:59] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
 [2023-05-11 11:58:59] INFO root fetch - main [MainThread]: Store serial: [18061533]
+[2023-05-11 12:04:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061533]
+[2023-05-11 12:04:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-ctrl-mpexec
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megfile
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: semisup-segmentation
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunpeek
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-check4
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoxynet
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-wake
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata-front
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prompthub-py
+[2023-05-11 12:04:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volare
+[2023-05-11 12:04:11] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [prompthub-py]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [megfile]: New version: [2.0.5] Old Version: [2.0.4.post3]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 12:04:11] WARNING root fetch - processPackages [cloud-check4]: Skipping, unable to determine old version
+[2023-05-11 12:04:11] INFO root fetch - processPackages [cloud-check4]: Start processing: attune-project-api
+[2023-05-11 12:04:11] INFO root fetch - main [MainThread]: End processing [cloud-check4] error
+[2023-05-11 12:04:11] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-11 12:04:11] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230511/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 12:04:11] INFO root fetch - processPackages [pytest-wake]: New version: [0.3.6] Old Version: [0.3.2]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [sunpeek]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [udata-front]: New version: [3.2.3.dev9974] Old Version: [3.2.3.dev10489]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-05-11 12:04:11] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.0.4.post3-py3-none-any.whl.zip tmp/megfile-2.0.5-py3-none-any.whl.zip --markdown 20230511/m/megfile/2.0.4.post3-2.0.5/diff.md --exclude *.pyd
+[2023-05-11 12:04:11] INFO root fetch - processPackages [volare]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-11 12:04:11] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-05-11 12:04:11] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230511/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [prompthub-py]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [prompthub-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompthub_py-1.0.0.tar.gz tmp/prompthub_py-2.0.0.tar.gz --markdown 20230511/p/prompthub-py/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230511/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-05-11 12:04:12] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/6c/06/0b51ac366f66b601b545d1290480800e1179472e16bdde58219fbdd02a7f/udata_front-3.2.3.dev10489-py2.py3-none-any.whl
+[2023-05-11 12:04:12] INFO root fetch - processPackages [pytest-wake]: Downloading https://files.pythonhosted.org/packages/82/cb/0903c57964b695644525aa74978facdaa133517fbbecaa1a42d136f392cb/pytest_wake-0.3.2-py3-none-any.whl
+[2023-05-11 12:04:12] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/ca/69/f57076362193c87fc61b686a4c9cf48ce52315526f4145f1696ffe5bd38c/volare-0.7.1.tar.gz
+[2023-05-11 12:04:12] INFO root fetch - processPackages [sunpeek]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [sunpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpeek-0.2.8-py3-none-any.whl.zip tmp/sunpeek-0.2.9-py3-none-any.whl.zip --markdown 20230511/s/sunpeek/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [pytest-wake]: Downloading https://files.pythonhosted.org/packages/d2/3e/05c44cadebb491011435d3ced083517ce3aaac293d0725c73b37317d3866/pytest-wake-0.3.6.tar.gz
+[2023-05-11 12:04:12] INFO root fetch - processPackages [volare]: Downloading https://files.pythonhosted.org/packages/19/c6/73e73d0e22eaa9f1069e460974bceeebbc5eb6d814a0979f49bc91f49bb0/volare-0.7.2.tar.gz
+[2023-05-11 12:04:12] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.3.dev10489-py2.py3-none-any.whl.zip tmp/udata_front-3.2.3.dev9974-py2.py3-none-any.whl.zip --markdown 20230511/u/udata-front/3.2.3.dev10489-3.2.3.dev9974/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [pytest-wake]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [pytest-wake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_wake-0.3.2-py3-none-any.whl.zip tmp/pytest-wake-0.3.6.tar.gz --markdown 20230511/p/pytest-wake/0.3.2-0.3.6/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [volare]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [volare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volare-0.7.1.tar.gz tmp/volare-0.7.2.tar.gz --markdown 20230511/v/volare/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-11 12:04:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-05-11 12:04:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-05-11 12:04:12] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 12:04:13] INFO root fetch - processPackages [semisup-segmentation]: Start processing: xregi
+[2023-05-11 12:04:13] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-11 12:04:13] WARNING root fetch - processPackages [xregi]: Skipping, unable to determine old version
+[2023-05-11 12:04:13] INFO root fetch - processPackages [xregi]: Start processing: autokattis
+[2023-05-11 12:04:13] INFO root fetch - main [MainThread]: End processing [xregi] error
+[2023-05-11 12:04:13] INFO root fetch - processPackages [prompthub-py]: Start processing: edwh-restic-plugin
+[2023-05-11 12:04:13] INFO root fetch - main [MainThread]: End processing [prompthub-py]: success
+[2023-05-11 12:04:13] WARNING root fetch - processPackages [autokattis]: Skipping, unable to determine old version
+[2023-05-11 12:04:13] INFO root fetch - processPackages [autokattis]: Start processing: refind-btrfs
+[2023-05-11 12:04:13] INFO root fetch - main [MainThread]: End processing [autokattis] error
+[2023-05-11 12:04:13] INFO root fetch - processPackages [edwh-restic-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 12:04:13] INFO root fetch - processPackages [refind-btrfs]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-05-11 12:04:13] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/be/16/a2051169c1822f125b5907b5db863e3b21944d56988473252bee43dad286/edwh_restic_plugin-0.1.2.tar.gz
+[2023-05-11 12:04:13] INFO root fetch - processPackages [refind-btrfs]: Downloading https://files.pythonhosted.org/packages/e3/6d/1e8ec59dc0dbdcec6e5731bfadd899d0c8c20055b808ec8dea9ffe7dcb85/refind-btrfs-0.5.6.tar.gz
+[2023-05-11 12:04:14] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/ec/62/57639943f240dcb56d3b7f2e49a025f0c1cd4d9c1b07030d338276baaff6/edwh_restic_plugin-0.1.3.tar.gz
+[2023-05-11 12:04:14] WARNING root fetch - processPackages [edwh-restic-plugin]: Skipping package: exceeds size limit 15412379>=10485760
+[2023-05-11 12:04:14] INFO root fetch - processPackages [edwh-restic-plugin]: Start processing: ceci
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [edwh-restic-plugin] error
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [pytest-wake]: success
+[2023-05-11 12:04:14] INFO root fetch - processPackages [ceci]: New version: [1.9] Old Version: [1.8.4]
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [sunpeek]: success
+[2023-05-11 12:04:14] INFO root fetch - processPackages [refind-btrfs]: Downloading https://files.pythonhosted.org/packages/7f/5c/6a8196a5a12b375aebf195d4ca61b037dfa56b061ebfba83a9dbb157c24c/refind-btrfs-0.6.0.tar.gz
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [volare]: success
+[2023-05-11 12:04:14] INFO root fetch - processPackages [ceci]: Downloading https://files.pythonhosted.org/packages/ee/48/22ff68d67665662ebfe97dce7eee7dc644ac4a0b2e0e3ac97c89e861e845/ceci-1.8.4.tar.gz
+[2023-05-11 12:04:14] INFO root fetch - processPackages [refind-btrfs]: executing diffoscope
+[2023-05-11 12:04:14] INFO root fetch - processPackages [refind-btrfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refind-btrfs-0.5.6.tar.gz tmp/refind-btrfs-0.6.0.tar.gz --markdown 20230511/r/refind-btrfs/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-05-11 12:04:14] INFO root fetch - processPackages [ceci]: Downloading https://files.pythonhosted.org/packages/0e/df/d18f0b41d9105ddb830488dafaddcf7f5a6194e9e592a8d404fa67eabe27/ceci-1.9.tar.gz
+[2023-05-11 12:04:14] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-05-11 12:04:15] INFO root fetch - processPackages [ceci]: executing diffoscope
+[2023-05-11 12:04:15] INFO root fetch - processPackages [ceci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ceci-1.8.4.tar.gz tmp/ceci-1.9.tar.gz --markdown 20230511/c/ceci/1.8.4-1.9/diff.md --exclude *.pyd
+[2023-05-11 12:04:16] INFO root fetch - main [MainThread]: End processing [ceci]: success
+[2023-05-11 12:04:16] INFO root fetch - main [MainThread]: End processing [refind-btrfs]: success
+[2023-05-11 12:04:18] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-05-11 12:04:38] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-05-11 12:04:38] INFO root fetch - main [MainThread]: Store serial: [18061597]
