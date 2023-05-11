@@ -3972,3 +3972,65 @@ EOFError: EOF read where object expected
 [2023-05-11 02:56:31] INFO root fetch - main [MainThread]: End processing [types-aioboto3]: success
 [2023-05-11 02:56:47] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-11 02:56:47] INFO root fetch - main [MainThread]: Store serial: [18055291]
+[2023-05-11 03:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18055291]
+[2023-05-11 03:01:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bassmap
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astronomer-starship
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: structure-py
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrc-python-utils
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-curl
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-all-out
+[2023-05-11 03:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: symba
+[2023-05-11 03:01:56] INFO root fetch - processPackages [astronomer-starship]: New version: [1.0.0] Old Version: [0.3.5]
+[2023-05-11 03:01:56] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 03:01:56] INFO root fetch - processPackages [bassmap]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 03:01:56] INFO root fetch - processPackages [structure-py]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-11 03:01:56] INFO root fetch - processPackages [fastapi-all-out]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-05-11 03:01:56] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-11 03:01:57] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230511] Old Version: [0.0.8.dev20230510]
+[2023-05-11 03:01:57] INFO root fetch - processPackages [bassmap]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [bassmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bassmap-0.0.8.tar.gz tmp/bassmap-0.0.9.tar.gz --markdown 20230511/b/bassmap/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230511/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230511/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [fastapi-all-out]: Downloading https://files.pythonhosted.org/packages/db/16/f772c863b42325098d9e8beb8b00f8ef414215b3cbfefe2dcf25fb745c65/fastapi_all_out-0.2.8.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230511/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/2d/5b/6cd1bdc14e4721181a53f7fa4084e05ff5edad5f054cdc8f4f656facd13a/structure_py-0.8.3.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [astronomer-starship]: Downloading https://files.pythonhosted.org/packages/64/46/96271d60a66a0f384e7a9a252e410c2ddee938167b5612aed5a1c39b63a9/astronomer-starship-0.3.5.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/f3/9d/fd029079cecf4ba8b61218be42680a207efce9441880fcbff17cbb465f69/aemcmc-nightly-0.0.8.dev20230510.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.2.tar.gz tmp/structure_py-0.8.3.tar.gz --markdown 20230511/s/structure-py/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [symba]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-05-11 03:01:57] INFO root fetch - processPackages [astronomer-starship]: Downloading https://files.pythonhosted.org/packages/bf/b0/5ea4e250129c1cb832da7e075fb5ad2ad53f9c8035ef0aad9b8850284b6d/astronomer_starship-1.0.0.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/3d/41/c2a6d35ffe2ccb8e5150f7fd7c172d598e5201bcf452f583122bd82cfb14/aemcmc-nightly-0.0.8.dev20230511.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [fastapi-all-out]: Downloading https://files.pythonhosted.org/packages/b3/e4/2364f504c2bc94dea4c86977a3353df91280728e8dbad456879f617c4126/fastapi_all_out-0.3.0.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [astronomer-starship]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [astronomer-starship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer-starship-0.3.5.tar.gz tmp/astronomer_starship-1.0.0.tar.gz --markdown 20230511/a/astronomer-starship/0.3.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230510.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230511.tar.gz --markdown 20230511/a/aemcmc-nightly/0.0.8.dev20230510-0.0.8.dev20230511/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [symba]: Downloading https://files.pythonhosted.org/packages/02/30/54ff185e832a08ad70fa6ce1041f650f079a523b619b35f01e6238d67d71/symba-2.1.0.tar.gz
+[2023-05-11 03:01:57] INFO root fetch - processPackages [fastapi-all-out]: executing diffoscope
+[2023-05-11 03:01:57] INFO root fetch - processPackages [fastapi-all-out]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_all_out-0.2.8.tar.gz tmp/fastapi_all_out-0.3.0.tar.gz --markdown 20230511/f/fastapi-all-out/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 03:01:57] INFO root fetch - processPackages [symba]: Downloading https://files.pythonhosted.org/packages/92/8b/a46450d5031d25806be530eda7e754fe8fffa582580641761bc00e88fa84/symba-2.2.0-cp310-cp310-musllinux_1_1_aarch64.whl
+[2023-05-11 03:01:58] INFO root fetch - processPackages [symba]: executing diffoscope
+[2023-05-11 03:01:58] INFO root fetch - processPackages [symba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symba-2.1.0.tar.gz tmp/symba-2.2.0-cp310-cp310-musllinux_1_1_aarch64.whl.zip --markdown 20230511/s/symba/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-05-11 03:01:58] INFO root fetch - main [MainThread]: End processing [bassmap]: success
+[2023-05-11 03:01:58] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 03:01:58] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-11 03:01:59] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-11 03:01:59] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-11 03:01:59] INFO root fetch - main [MainThread]: End processing [fastapi-all-out]: success
+[2023-05-11 03:01:59] INFO root fetch - main [MainThread]: End processing [symba]: success
+[2023-05-11 03:02:01] INFO root fetch - main [MainThread]: End processing [astronomer-starship]: success
+[2023-05-11 03:02:01] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-11 03:02:01] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-11 03:02:01] INFO root fetch - main [MainThread]: Store serial: [18055324]
