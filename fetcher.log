@@ -8984,3 +8984,42 @@ EOFError: EOF read where object expected
 [2023-05-11 06:19:57] INFO root fetch - main [MainThread]: End processing [utils-tddschn]: success
 [2023-05-11 06:19:57] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-route-stock]: success
 [2023-05-11 06:19:57] INFO root fetch - main [MainThread]: Store serial: [18058106]
+[2023-05-11 06:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058106]
+[2023-05-11 06:25:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-11 06:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sds011lib
+[2023-05-11 06:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pawnlib
+[2023-05-11 06:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astro-ghost
+[2023-05-11 06:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jarvis-ui
+[2023-05-11 06:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyt-gpt
+[2023-05-11 06:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensormc
+[2023-05-11 06:25:06] INFO root fetch - processPackages [astro-ghost]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-11 06:25:06] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 06:25:06] INFO root fetch - processPackages [sds011lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 06:25:06] INFO root fetch - processPackages [jarvis-ui]: New version: [2.0] Old Version: [1.1]
+[2023-05-11 06:25:06] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-11 06:25:06] WARNING root fetch - processPackages [tensormc]: Skipping, unable to determine old version
+[2023-05-11 06:25:06] INFO root fetch - main [MainThread]: End processing [tensormc] error
+[2023-05-11 06:25:06] INFO root fetch - processPackages [hyt-gpt]: Downloading https://files.pythonhosted.org/packages/53/ef/dd4ef88fafd07c6ad4149aa9e363d81671084ec76896355bbc981d999da4/hyt-gpt-0.3.4.tar.gz
+[2023-05-11 06:25:07] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/ed/f7/f2502755f5256701be7e7f280b5018f91efa77a8796d5c1c096bc26765f6/astro_ghost-0.2.5.tar.gz
+[2023-05-11 06:25:07] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/a8/cb/7634b1c7ed6d9e45660fa8b6470f28587fe4cfd16ad19beb5c54c4b9a41c/pawnlib-1.0.8-py3-none-any.whl
+[2023-05-11 06:25:07] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/7a/b0/1dc57c5f5169edb93b43ecd0667938ec3b16bc0c0483b65fad0e5340e85c/jarvis_ui-2.0-py3-none-any.whl
+[2023-05-11 06:25:07] INFO root fetch - processPackages [sds011lib]: Downloading https://files.pythonhosted.org/packages/ac/8d/615abd75ac1651fa423feae11da7efa6c9730a3e6648f71c089273bd9917/sds011lib-0.2.1.tar.gz
+[2023-05-11 06:25:07] INFO root fetch - processPackages [sds011lib]: executing diffoscope
+[2023-05-11 06:25:07] INFO root fetch - processPackages [sds011lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sds011lib-0.2.0.tar.gz tmp/sds011lib-0.2.1.tar.gz --markdown 20230511/s/sds011lib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 06:25:07] INFO root fetch - processPackages [jarvis-ui]: executing diffoscope
+[2023-05-11 06:25:07] INFO root fetch - processPackages [jarvis-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ui-1.1-py3-none-any.whl.zip tmp/jarvis_ui-2.0-py3-none-any.whl.zip --markdown 20230511/j/jarvis-ui/1.1-2.0/diff.md --exclude *.pyd
+[2023-05-11 06:25:07] INFO root fetch - processPackages [hyt-gpt]: Downloading https://files.pythonhosted.org/packages/a0/66/bdfd609e9884d446a4ca987296cc2836854f1cfe027abf0292577f8d7712/hyt-gpt-0.3.5.tar.gz
+[2023-05-11 06:25:07] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-11 06:25:07] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.4.tar.gz tmp/hyt-gpt-0.3.5.tar.gz --markdown 20230511/h/hyt-gpt/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-11 06:25:07] INFO root fetch - processPackages [astro-ghost]: Downloading https://files.pythonhosted.org/packages/70/7c/883e8b85996da522e026b62bfcbded536dc7568aa759b5243107b3d02f95/astro_ghost-0.2.6.tar.gz
+[2023-05-11 06:25:07] INFO root fetch - processPackages [pawnlib]: Downloading https://files.pythonhosted.org/packages/e5/1a/be9c0c6b988781b2019b731f112202f032371d0b5b489297fb2912c7d8ca/pawnlib-1.0.9-py3-none-any.whl
+[2023-05-11 06:25:07] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-11 06:25:07] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230511/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 06:25:07] INFO root fetch - processPackages [astro-ghost]: executing diffoscope
+[2023-05-11 06:25:07] INFO root fetch - processPackages [astro-ghost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_ghost-0.2.5.tar.gz tmp/astro_ghost-0.2.6.tar.gz --markdown 20230511/a/astro-ghost/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-11 06:25:08] INFO root fetch - main [MainThread]: End processing [sds011lib]: success
+[2023-05-11 06:25:08] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-11 06:25:08] INFO root fetch - main [MainThread]: End processing [jarvis-ui]: success
+[2023-05-11 06:25:08] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-11 06:25:09] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
+[2023-05-11 06:25:09] INFO root fetch - main [MainThread]: Store serial: [18058130]
