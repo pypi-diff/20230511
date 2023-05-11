@@ -11297,3 +11297,60 @@ EOFError: EOF read where object expected
 [2023-05-11 09:29:39] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2023-05-11 09:29:40] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-05-11 09:29:40] INFO root fetch - main [MainThread]: Store serial: [18059447]
+[2023-05-11 09:34:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059447]
+[2023-05-11 09:34:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gtki-module-orup-errors
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AGIpdf2json
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DLMS-SPODES
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localcosmos-server
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kappadata
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-stock-cycle-count
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-cli
+[2023-05-11 09:34:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-stock-orderpoint-generator
+[2023-05-11 09:34:48] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.36.1] Old Version: [1.36.0]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [kappadata]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: New version: [12.0.1.1.1.99.dev9] Old Version: [12.0.1.1.1.99.dev8]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [AGIpdf2json]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [localcosmos-server]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-orderpoint-generator]: New version: [12.0.1.0.1.99.dev6] Old Version: [12.0.1.0.1.99.dev5]
+[2023-05-11 09:34:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230511/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230511/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/a9/0a/50d17687f68dafe16e177e829b360d8873a691fc4d4c2bb0a19b213ae432/gtki_module_orup_errors-1.36.0-py3-none-any.whl
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/76/9e/0899d363053c0f73958109da0e748d4d285cf7a0277b6f7d99d384e33c26/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev8-py3-none-any.whl
+[2023-05-11 09:34:49] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/61/00/ab654a56ccee649ce5ffc92e70830470f4b118aba44f5448791ded818adf/localcosmos_server-0.9.3.tar.gz
+[2023-05-11 09:34:49] INFO root fetch - processPackages [AGIpdf2json]: Downloading https://files.pythonhosted.org/packages/03/12/e045a36056bcbf04dcde603369db470ea790bc08c6e3f893ca8b7c2e2c6e/AGIpdf2json-0.0.3.tar.gz
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-orderpoint-generator]: Downloading https://files.pythonhosted.org/packages/ec/6c/45b65ce7ff0080d9811e5a35464bd4e50e31152547008579c2ebf91ccd6a/odoo12_addon_stock_orderpoint_generator-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-05-11 09:34:49] INFO root fetch - processPackages [AGIpdf2json]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [AGIpdf2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AGIpdf2json-0.0.2.tar.gz tmp/AGIpdf2json-0.0.3.tar.gz --markdown 20230511/A/AGIpdf2json/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.2.8.tar.gz tmp/kappadata-1.2.9.tar.gz --markdown 20230511/k/kappadata/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/e9/7d/7b121d733eaf462ce8f9acc432787e4356c087542e766e4fd176b66580f9/gtki_module_orup_errors-1.36.1-py3-none-any.whl
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/32/11/99fd9f8aa355ba5088cb3133b63a6dd88754671b56d8b0f9af7be3d8c29a/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev9-py3-none-any.whl
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-orderpoint-generator]: Downloading https://files.pythonhosted.org/packages/e7/4e/2313325de487dc32506656e0ec855c39154bfb4cda7dab0e0c95e4ab2687/odoo12_addon_stock_orderpoint_generator-12.0.1.0.1.99.dev6-py3-none-any.whl
+[2023-05-11 09:34:49] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.36.0-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.36.1-py3-none-any.whl.zip --markdown 20230511/g/gtki-module-orup-errors/1.36.0-1.36.1/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_cycle_count-12.0.1.1.1.99.dev9-py3-none-any.whl.zip --markdown 20230511/o/odoo12-addon-stock-cycle-count/12.0.1.1.1.99.dev8-12.0.1.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-orderpoint-generator]: executing diffoscope
+[2023-05-11 09:34:49] INFO root fetch - processPackages [odoo12-addon-stock-orderpoint-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_orderpoint_generator-12.0.1.0.1.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_stock_orderpoint_generator-12.0.1.0.1.99.dev6-py3-none-any.whl.zip --markdown 20230511/o/odoo12-addon-stock-orderpoint-generator/12.0.1.0.1.99.dev5-12.0.1.0.1.99.dev6/diff.md --exclude *.pyd
+[2023-05-11 09:34:50] INFO root fetch - main [MainThread]: End processing [AGIpdf2json]: success
+[2023-05-11 09:34:50] INFO root fetch - processPackages [localcosmos-server]: Downloading https://files.pythonhosted.org/packages/5d/b5/0c97a340dd47c39e15214419963c0d28f5e1c89f1340833bc42fc71f32e2/localcosmos_server-0.9.4.tar.gz
+[2023-05-11 09:34:50] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-11 09:34:51] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-11 09:34:51] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-05-11 09:34:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-orderpoint-generator]: success
+[2023-05-11 09:34:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-cycle-count]: success
+[2023-05-11 09:34:52] INFO root fetch - processPackages [localcosmos-server]: executing diffoscope
+[2023-05-11 09:34:52] INFO root fetch - processPackages [localcosmos-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_server-0.9.3.tar.gz tmp/localcosmos_server-0.9.4.tar.gz --markdown 20230511/l/localcosmos-server/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-11 09:34:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-11 09:34:52] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-05-11 09:35:12] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
+[2023-05-11 09:35:12] INFO root fetch - main [MainThread]: Store serial: [18059471]
