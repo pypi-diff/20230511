@@ -10675,3 +10675,73 @@ EOFError: EOF read where object expected
 [2023-05-11 08:46:07] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
 [2023-05-11 08:46:08] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-11 08:46:08] INFO root fetch - main [MainThread]: Store serial: [18059110]
+[2023-05-11 08:51:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059110]
+[2023-05-11 08:51:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: insight-python-win
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: label-sleuth
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: echolocator
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cruft
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-sa-orm-filter
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-rma-sale
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-rma
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-rma
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: k1lib
+[2023-05-11 08:51:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: insight-python-linux
+[2023-05-11 08:51:17] INFO root fetch - processPackages [echolocator]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [insight-python-win]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [label-sleuth]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [k1lib]: New version: [1.3.7.3] Old Version: [1.3.7.2]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [label-sleuth]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [label-sleuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/label-sleuth-0.9.3.tar.gz tmp/label-sleuth-0.9.4.tar.gz --markdown 20230511/l/label-sleuth/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-11 08:51:17] INFO root fetch - processPackages [fastapi-sa-orm-filter]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.7.2-py3-none-any.whl.zip tmp/k1lib-1.3.7.3-py3-none-any.whl.zip --markdown 20230511/k/k1lib/1.3.7.2-1.3.7.3/diff.md --exclude *.pyd
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma-sale]: New version: [15.0.1.1.0.9] Old Version: [15.0.1.1.0.8]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [insight-python-linux]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [cruft]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.3.2] Old Version: [15.0.1.1.3.1]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.7.dev2] Old Version: [14.0.3.2.7.dev1]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/cb/3b/ddb775920858aa88a9f19cd62aaea715fd372a8ee50f2477d61fd42c6760/echolocator-1.2.0.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [insight-python-win]: Downloading https://files.pythonhosted.org/packages/e7/87/586b45a74b648ccf6a4d4af616e57a794bde2eb48d5010004be78fbd195b/insight_python_win-4.3.0.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/7b/0f/db3dde6796ec5eb683af563a6c7a6fb37059e909799c741e6ba0edd61332/odoo_addon_rma_sale-15.0.1.1.0.8-py3-none-any.whl
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/05/d1/b39fd9ae518ee49a3a30761f566f1d375a983caab82929af92c2d6afd631/odoo_addon_rma-15.0.1.1.3.1-py3-none-any.whl
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/a4/39/f1067644c1dbcbffe0163ae7d7fab316ba67c9f4d0d586e0712e7cd64741/odoo14_addon_rma-14.0.3.2.7.dev1-py3-none-any.whl
+[2023-05-11 08:51:17] WARNING root fetch - processPackages [insight-python-win]: Skipping package: exceeds size limit 14680002>=10485760
+[2023-05-11 08:51:17] INFO root fetch - processPackages [insight-python-win]: Start processing: pulumi-opsgenie
+[2023-05-11 08:51:17] INFO root fetch - main [MainThread]: End processing [insight-python-win] error
+[2023-05-11 08:51:17] INFO root fetch - processPackages [cruft]: Downloading https://files.pythonhosted.org/packages/2a/0b/a70327239e960b4a59487822c41ada615967ded54b26bcd8c25aaa7f49dd/cruft-2.8.0.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [fastapi-sa-orm-filter]: Downloading https://files.pythonhosted.org/packages/69/8a/c8ad3e3612aaa66871a419bf60af7823b986c250051a0d6ea33869543a3c/fastapi-sa-orm-filter-0.1.3.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [pulumi-opsgenie]: New version: [1.3.0a1683786029] Old Version: [1.3.0a1683612176]
+[2023-05-11 08:51:17] INFO root fetch - processPackages [echolocator]: Downloading https://files.pythonhosted.org/packages/f7/e8/358bb03157c5102a8e7f47426ae556c176ae3293988e60f0a8067bfd8bde/echolocator-1.3.0.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/ed/61/2f7e5299310cba07bf92ee08bfc9d887541f6631cfabc9a3dcf432f7c97b/odoo14_addon_rma-14.0.3.2.7.dev2-py3-none-any.whl
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/e6/cf/0a26ff58b12808760c361cb9aca5ca0799f7913d52033dd67a9ef012cb50/odoo_addon_rma-15.0.1.1.3.2-py3-none-any.whl
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma-sale]: Downloading https://files.pythonhosted.org/packages/ca/fe/9cbae03fbe3e9fdac92daa5c23d580e57021e0e8c4befeccd14fcec5c665/odoo_addon_rma_sale-15.0.1.1.0.9-py3-none-any.whl
+[2023-05-11 08:51:17] INFO root fetch - processPackages [fastapi-sa-orm-filter]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [fastapi-sa-orm-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-sa-orm-filter-0.1.2.tar.gz tmp/fastapi-sa-orm-filter-0.1.3.tar.gz --markdown 20230511/f/fastapi-sa-orm-filter/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 08:51:17] INFO root fetch - processPackages [cruft]: Downloading https://files.pythonhosted.org/packages/c7/a4/8df14c14add70b13d29b5534d8f03007f00ad7350f5585594f4cca9868b2/cruft-2.9.0.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma-sale]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo-addon-rma-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma_sale-15.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_rma_sale-15.0.1.1.0.9-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-rma-sale/15.0.1.1.0.8-15.0.1.1.0.9/diff.md --exclude *.pyd
+[2023-05-11 08:51:17] INFO root fetch - processPackages [cruft]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [cruft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruft-2.8.0.tar.gz tmp/cruft-2.9.0.tar.gz --markdown 20230511/c/cruft/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.7.dev1-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.7.dev2-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-rma/14.0.3.2.7.dev1-14.0.3.2.7.dev2/diff.md --exclude *.pyd
+[2023-05-11 08:51:17] INFO root fetch - processPackages [pulumi-opsgenie]: Downloading https://files.pythonhosted.org/packages/a5/80/3bc2d1ce630222b7f24769066905aaa6938821a904cf97e059865b90948f/pulumi_opsgenie-1.3.0a1683786029.tar.gz
+[2023-05-11 08:51:17] INFO root fetch - processPackages [echolocator]: executing diffoscope
+[2023-05-11 08:51:17] INFO root fetch - processPackages [echolocator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolocator-1.2.0.tar.gz tmp/echolocator-1.3.0.tar.gz --markdown 20230511/e/echolocator/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-11 08:51:18] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-05-11 08:51:18] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.3.1-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.3.2-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-rma/15.0.1.1.3.1-15.0.1.1.3.2/diff.md --exclude *.pyd
+[2023-05-11 08:51:18] INFO root fetch - processPackages [pulumi-opsgenie]: executing diffoscope
+[2023-05-11 08:51:18] INFO root fetch - processPackages [pulumi-opsgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opsgenie-1.3.0a1683612176.tar.gz tmp/pulumi_opsgenie-1.3.0a1683786029.tar.gz --markdown 20230511/p/pulumi-opsgenie/1.3.0a1683612176-1.3.0a1683786029/diff.md --exclude *.pyd
+[2023-05-11 08:51:19] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-11 08:51:19] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/73/ec/bfad00f407f5e1e9c8f05fe4d99836b3914bc026e04234c49f0e9eacf037/insight_python_linux-4.3.0.tar.gz
+[2023-05-11 08:51:19] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 81645685>=10485760
+[2023-05-11 08:51:19] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2023-05-11 08:51:19] INFO root fetch - main [MainThread]: End processing [fastapi-sa-orm-filter]: success
+[2023-05-11 08:51:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma-sale]: success
+[2023-05-11 08:51:19] INFO root fetch - main [MainThread]: End processing [cruft]: success
+[2023-05-11 08:51:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-05-11 08:51:20] INFO root fetch - main [MainThread]: End processing [pulumi-opsgenie]: success
+[2023-05-11 08:51:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-05-11 08:51:23] INFO root fetch - main [MainThread]: End processing [echolocator]: success
+[2023-05-11 08:52:01] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
+[2023-05-11 08:52:01] INFO root fetch - main [MainThread]: Store serial: [18059140]
