@@ -17046,3 +17046,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 13:02:05] INFO root fetch - main [MainThread]: End processing [datagen-tech]: success
 [2023-05-11 13:02:09] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-05-11 13:02:09] INFO root fetch - main [MainThread]: Store serial: [18062424]
+[2023-05-11 13:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062424]
+[2023-05-11 13:07:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macrometa-target-mongo
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-term
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdflib-ocdm
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mawk
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deezer-python
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: garpix-company
+[2023-05-11 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-serve
+[2023-05-11 13:07:25] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [garpix-company]: New version: [2.8.0] Old Version: [2.7.3]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [gpt-term]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [deezer-python]: New version: [5.9.0] Old Version: [5.8.1]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [gpt-term]: executing diffoscope
+[2023-05-11 13:07:25] INFO root fetch - processPackages [gpt-term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-term-1.0.1.tar.gz tmp/gpt-term-1.0.2.tar.gz --markdown 20230511/g/gpt-term/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 13:07:25] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-05-11 13:07:25] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230511/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 13:07:25] INFO root fetch - processPackages [rdflib-ocdm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 13:07:25] WARNING root fetch - processPackages [mawk]: Skipping, unable to determine old version
+[2023-05-11 13:07:25] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-11 13:07:25] INFO root fetch - main [MainThread]: End processing [mawk] error
+[2023-05-11 13:07:25] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230511/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-11 13:07:25] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 13:07:25] INFO root fetch - processPackages [deezer-python]: executing diffoscope
+[2023-05-11 13:07:25] INFO root fetch - processPackages [deezer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_python-5.8.1.tar.gz tmp/deezer_python-5.9.0.tar.gz --markdown 20230511/d/deezer-python/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2023-05-11 13:07:25] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/b3/cd/c4a971e795a55833fc4c5fa6c8fcb721a5481348b76bd763b9c294d6ddec/garpix_company-2.8.0.tar.gz
+[2023-05-11 13:07:26] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/4e/3c/fb5ba17407fdac45c606cf0d378e4e65ce39bdde07c203ca78de5539aaa8/rdflib_ocdm-0.1.0.tar.gz
+[2023-05-11 13:07:26] INFO root fetch - processPackages [garpix-company]: executing diffoscope
+[2023-05-11 13:07:26] INFO root fetch - processPackages [garpix-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_company-2.7.3.tar.gz tmp/garpix_company-2.8.0.tar.gz --markdown 20230511/g/garpix-company/2.7.3-2.8.0/diff.md --exclude *.pyd
+[2023-05-11 13:07:26] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-11 13:07:26] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-11 13:07:26] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230511/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-11 13:07:26] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230511/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-11 13:07:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-05-11 13:07:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230511/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 13:07:26] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/68/75/aa773079d4c39f74f078b703e02eb4c4a4306084ae73c76354975c21bfd7/rdflib_ocdm-0.1.1.tar.gz
+[2023-05-11 13:07:26] INFO root fetch - processPackages [rdflib-ocdm]: executing diffoscope
+[2023-05-11 13:07:26] INFO root fetch - processPackages [rdflib-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdflib_ocdm-0.1.0.tar.gz tmp/rdflib_ocdm-0.1.1.tar.gz --markdown 20230511/r/rdflib-ocdm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 13:07:27] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-05-11 13:07:27] INFO root fetch - main [MainThread]: End processing [deezer-python]: success
+[2023-05-11 13:07:27] INFO root fetch - main [MainThread]: End processing [gpt-term]: success
+[2023-05-11 13:07:27] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-11 13:07:28] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-05-11 13:07:28] INFO root fetch - main [MainThread]: End processing [rdflib-ocdm]: success
+[2023-05-11 13:07:28] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-11 13:07:28] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
+[2023-05-11 13:07:29] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-11 13:07:29] INFO root fetch - main [MainThread]: Store serial: [18062455]
