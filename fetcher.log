@@ -17980,3 +17980,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 13:50:24] INFO root fetch - main [MainThread]: End processing [lg-april-permissions]: success
 [2023-05-11 13:50:24] INFO root fetch - main [MainThread]: End processing [astro-provider-databricks]: success
 [2023-05-11 13:50:24] INFO root fetch - main [MainThread]: Store serial: [18063044]
+[2023-05-11 13:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063044]
+[2023-05-11 13:55:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steam-pysigma
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dqops
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca-spark3
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-scandal
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydan
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-friesian-spark3
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-chronos-spark3
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-spark3
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: btssh
+[2023-05-11 13:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lanceotron
+[2023-05-11 13:55:32] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-05-11 13:55:32] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 13:55:32] INFO root fetch - processPackages [dqops]: New version: [0.2.0.1] Old Version: [0.2.0.0]
+[2023-05-11 13:55:32] INFO root fetch - processPackages [dbt-scandal]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 13:55:32] INFO root fetch - processPackages [pydan]: New version: [7.1] Old Version: [6.9]
+[2023-05-11 13:55:32] INFO root fetch - processPackages [lanceotron]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 13:55:33] WARNING root fetch - processPackages [btssh]: Skipping, unable to determine old version
+[2023-05-11 13:55:33] INFO root fetch - processPackages [btssh]: Start processing: oking
+[2023-05-11 13:55:33] INFO root fetch - main [MainThread]: End processing [btssh] error
+[2023-05-11 13:55:33] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pydan]: Downloading https://files.pythonhosted.org/packages/97/83/102bd7b73a621e090411b9f492a7e90ebb7e5a4bb6695187bf7acd6c0b7f/pydan-6.9-py3-none-any.whl
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/6a/a2/ec559fd202a4d64be56d837faf7752b6e9b2ce0fb5d97197d626d30da427/bigdl_orca_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dqops]: Downloading https://files.pythonhosted.org/packages/fb/ec/d61099e45ad78730802663475ea1616d52d9f0fddf71b26406d920f0b4b0/dqops-0.2.0.0.tar.gz
+[2023-05-11 13:55:33] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dbt-scandal]: Downloading https://files.pythonhosted.org/packages/8a/8c/e23e236826aef0efae652813660b6732c170d53f9918c6ff23c814823bbf/dbt_scandal-0.1.1.tar.gz
+[2023-05-11 13:55:33] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207564>=10485760
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: pyphetools
+[2023-05-11 13:55:33] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-11 13:55:33] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/5f/7c/baac198500e205375d00165e4600082b060571545273447a140af49435d3/lanceotron-1.2.2.tar.gz
+[2023-05-11 13:55:33] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-11 13:55:33] INFO root fetch - processPackages [oking]: Start processing: juju
+[2023-05-11 13:55:33] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dbt-scandal]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dbt-scandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_scandal-0.1.0.tar.gz tmp/dbt_scandal-0.1.1.tar.gz --markdown 20230511/d/dbt-scandal/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/68/f2/34969a91d2c59c4404eb1906dabe79c644c3f9863a9443b45a1b0caf974a/bigdl_friesian_spark3-2.4.0b20230511-py3-none-manylinux1_x86_64.whl
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/0d/1b/185a28288cec9dd4045590134680d2281fcfb7e29760ee16b25665b7be64/bigdl_chronos_spark3-2.4.0b20230511-py3-none-manylinux1_x86_64.whl
+[2023-05-11 13:55:33] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/de/5e/36db9b9fa7a6a76aa16ee07e2031455b4bb341ea08a41508d1908caacbaa/steam-pysigma-2023.5.5.tar.gz
+[2023-05-11 13:55:33] INFO root fetch - processPackages [juju]: New version: [3.1.2.0] Old Version: [3.1.0b1]
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/97/1d/eba0b55786112f58be45b1bcab783b9a913802bf5dcd82c200871eeb2eff/bigdl_spark3-2.4.0b20230511-py3-none-manylinux1_x86_64.whl
+[2023-05-11 13:55:33] INFO root fetch - processPackages [lanceotron]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [lanceotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanceotron-1.2.1-py3-none-any.whl.zip tmp/lanceotron-1.2.2.tar.gz --markdown 20230511/l/lanceotron/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230511/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dqops]: Downloading https://files.pythonhosted.org/packages/85/28/c2326a9e5ddb1208202ebfcb51fcbebd046ed6ee085d578e7e1bafd7be23/dqops-0.2.0.1.tar.gz
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230511-py3-none-manylinux1_x86_64.whl.zip --markdown 20230511/b/bigdl-spark3/2.4.0b20230510-2.4.0b20230511/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230511-py3-none-manylinux1_x86_64.whl.zip --markdown 20230511/b/bigdl-friesian-spark3/2.4.0b20230510-2.4.0b20230511/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230511-py3-none-manylinux1_x86_64.whl.zip --markdown 20230511/b/bigdl-chronos-spark3/2.4.0b20230510-2.4.0b20230511/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] WARNING root fetch - processPackages [steam-pysigma]: Skipping package: exceeds size limit 69830358>=10485760
+[2023-05-11 13:55:33] INFO root fetch - processPackages [steam-pysigma]: Start processing: btconfig
+[2023-05-11 13:55:33] INFO root fetch - main [MainThread]: End processing [steam-pysigma] error
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pydan]: Downloading https://files.pythonhosted.org/packages/95/a2/7f8b43655cae3f221df23ef950d74a6876f6031522614a01a022784b1cfd/pydan-7.1-py3-none-any.whl
+[2023-05-11 13:55:33] WARNING root fetch - processPackages [btconfig]: Skipping, unable to determine old version
+[2023-05-11 13:55:33] INFO root fetch - main [MainThread]: End processing [btconfig] error
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dqops]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [dqops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqops-0.2.0.0.tar.gz tmp/dqops-0.2.0.1.tar.gz --markdown 20230511/d/dqops/0.2.0.0-0.2.0.1/diff.md --exclude *.pyd
+[2023-05-11 13:55:33] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/43/54/773d747e953efeb17c5c1c0158a7c4b79a17f4490b657a5b0bdb817a20d3/juju-3.1.0b1-py3.10.egg
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pydan]: executing diffoscope
+[2023-05-11 13:55:33] INFO root fetch - processPackages [pydan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydan-6.9-py3-none-any.whl.zip tmp/pydan-7.1-py3-none-any.whl.zip --markdown 20230511/p/pydan/6.9-7.1/diff.md --exclude *.pyd
+[2023-05-11 13:55:34] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/0b/5b/28f670aef3cb4d8de0261b7038dcbccda97a463baadad4105421cfa486da/juju-3.1.2.0.tar.gz
+[2023-05-11 13:55:34] INFO root fetch - processPackages [juju]: executing diffoscope
+[2023-05-11 13:55:34] INFO root fetch - processPackages [juju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juju-3.1.0b1-py3.10.egg tmp/juju-3.1.2.0.tar.gz --markdown 20230511/j/juju/3.1.0b1-3.1.2.0/diff.md --exclude *.pyd
+[2023-05-11 13:55:35] INFO root fetch - main [MainThread]: End processing [dbt-scandal]: success
+[2023-05-11 13:55:35] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-11 13:55:35] INFO root fetch - main [MainThread]: End processing [pydan]: success
+[2023-05-11 13:55:35] INFO root fetch - main [MainThread]: End processing [dqops]: success
+[2023-05-11 13:55:35] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-05-11 13:55:35] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-11 13:55:36] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-11 13:55:37] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
+[2023-05-11 13:55:37] INFO root fetch - main [MainThread]: End processing [juju]: success
+[2023-05-11 13:55:37] INFO root fetch - main [MainThread]: Store serial: [18063090]
