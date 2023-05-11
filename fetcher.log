@@ -16422,3 +16422,81 @@ EOFError: EOF read where object expected
 [2023-05-11 12:34:46] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-05-11 12:35:06] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
 [2023-05-11 12:35:06] INFO root fetch - main [MainThread]: Store serial: [18062127]
+[2023-05-11 12:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062127]
+[2023-05-11 12:40:16] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meg-qc
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zoetropy
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotON_sdk
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dqops
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-py
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: draftail-maths
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vessl
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bulk-directory-tree
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: solscan
+[2023-05-11 12:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: st-microservice
+[2023-05-11 12:40:16] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.3.7] Old Version: [0.0.3.6]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [solscan]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [st-microservice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [solscan]: executing diffoscope
+[2023-05-11 12:40:16] INFO root fetch - processPackages [solscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solscan-0.1.8.tar.gz tmp/solscan-0.1.9.tar.gz --markdown 20230511/s/solscan/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 12:40:16] WARNING root fetch - processPackages [meg-qc]: Skipping, unable to determine old version
+[2023-05-11 12:40:16] INFO root fetch - processPackages [meg-qc]: Start processing: spox
+[2023-05-11 12:40:16] INFO root fetch - main [MainThread]: End processing [meg-qc] error
+[2023-05-11 12:40:16] WARNING root fetch - processPackages [dqops]: Skipping, unable to determine old version
+[2023-05-11 12:40:16] INFO root fetch - processPackages [dqops]: Start processing: lazi
+[2023-05-11 12:40:16] INFO root fetch - main [MainThread]: End processing [dqops] error
+[2023-05-11 12:40:16] WARNING root fetch - processPackages [zoetropy]: Skipping, unable to determine old version
+[2023-05-11 12:40:16] INFO root fetch - processPackages [zoetropy]: Start processing: figurative
+[2023-05-11 12:40:16] INFO root fetch - processPackages [bulk-directory-tree]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 12:40:16] INFO root fetch - main [MainThread]: End processing [zoetropy] error
+[2023-05-11 12:40:16] INFO root fetch - processPackages [vessl]: New version: [0.1.95] Old Version: [0.1.94]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2023-05-11 12:40:16] WARNING root fetch - processPackages [draftail-maths]: Skipping, unable to determine old version
+[2023-05-11 12:40:16] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-0.9.8.tar.gz tmp/st_microservice-0.9.9.tar.gz --markdown 20230511/s/st-microservice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 12:40:16] INFO root fetch - processPackages [draftail-maths]: Start processing: asimov
+[2023-05-11 12:40:16] INFO root fetch - main [MainThread]: End processing [draftail-maths] error
+[2023-05-11 12:40:16] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [lazi]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [asimov]: New version: [0.6.0a2] Old Version: [0.6.0a1]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [spox]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/7d/b2/ecb8515ab5fd63b0296a38f04f3bc6789132cc768310fbfb7ded6192e48c/spotON_sdk-0.0.3.7.tar.gz
+[2023-05-11 12:40:16] WARNING root fetch - processPackages [figurative]: Skipping, unable to determine old version
+[2023-05-11 12:40:16] INFO root fetch - processPackages [figurative]: Start processing: rq-chains
+[2023-05-11 12:40:16] INFO root fetch - main [MainThread]: End processing [figurative] error
+[2023-05-11 12:40:16] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-11 12:40:16] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.0.3.tar.gz tmp/lazi-1.0.4.tar.gz --markdown 20230511/l/lazi/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 12:40:16] INFO root fetch - processPackages [rq-chains]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 12:40:16] INFO root fetch - processPackages [bulk-directory-tree]: Downloading https://files.pythonhosted.org/packages/dd/e8/2385f11ff5b76ea4cea47ce0c3026916441118cfa991c8e102d5e286b0c4/bulk_directory_tree-1.0.3.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.3.6.tar.gz tmp/spotON_sdk-0.0.3.7.tar.gz --markdown 20230511/s/spotON_sdk/0.0.3.6-0.0.3.7/diff.md --exclude *.pyd
+[2023-05-11 12:40:17] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/1b/b6/26d30a3188eb0491c3047effc799a5a38ca6ceae2f1189713b89fd1da2f3/asimov-0.6.0a1-py2.py3-none-any.whl
+[2023-05-11 12:40:17] INFO root fetch - processPackages [spox]: Downloading https://files.pythonhosted.org/packages/61/30/99503711baafc7b44726a61822608f6936bc0df7ed8024461fdf6991e723/spox-0.7.0.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/89/b7/5ac53bf36872fcc7b569278afc19d3b6c94e9eb9e99f9aacb679a2d50c3c/vessl-0.1.95.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [rq-chains]: Downloading https://files.pythonhosted.org/packages/3a/ed/2c3d599b4f6f40d7e6b81e90845312a20aecd8250770c5543233e74f2b52/rq-chains-0.1.3.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230511/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 12:40:17] INFO root fetch - processPackages [bulk-directory-tree]: Downloading https://files.pythonhosted.org/packages/f7/ed/dfcaee56d6ad7f8d74f19aa71eb3a42268db17d1b86dd6a3017ebdb3658e/bulk_directory_tree-1.0.4.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.94.tar.gz tmp/vessl-0.1.95.tar.gz --markdown 20230511/v/vessl/0.1.94-0.1.95/diff.md --exclude *.pyd
+[2023-05-11 12:40:17] INFO root fetch - processPackages [bulk-directory-tree]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [bulk-directory-tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulk_directory_tree-1.0.3.tar.gz tmp/bulk_directory_tree-1.0.4.tar.gz --markdown 20230511/b/bulk-directory-tree/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 12:40:17] INFO root fetch - processPackages [asimov]: Downloading https://files.pythonhosted.org/packages/2e/4f/1c4963f6a5a9d64455f78e44531e7d9f68eb89124065020bed355d420855/asimov-0.6.0a2-py2.py3-none-any.whl
+[2023-05-11 12:40:17] INFO root fetch - processPackages [spox]: Downloading https://files.pythonhosted.org/packages/56/cc/c6ea3d3f7e93bfe2b31a9050c200e765edbe4b261ad5d599e5ac2e11ed2f/spox-0.8.0.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [rq-chains]: Downloading https://files.pythonhosted.org/packages/cd/12/e684cdcec7e0fd5d89bfb649dfee051b3960c35b88b852b2062042f8de79/rq-chains-0.1.4.tar.gz
+[2023-05-11 12:40:17] INFO root fetch - processPackages [spox]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [spox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spox-0.7.0.tar.gz tmp/spox-0.8.0.tar.gz --markdown 20230511/s/spox/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-11 12:40:17] INFO root fetch - processPackages [asimov]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [asimov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asimov-0.6.0a1-py2.py3-none-any.whl.zip tmp/asimov-0.6.0a2-py2.py3-none-any.whl.zip --markdown 20230511/a/asimov/0.6.0a1-0.6.0a2/diff.md --exclude *.pyd
+[2023-05-11 12:40:17] INFO root fetch - processPackages [rq-chains]: executing diffoscope
+[2023-05-11 12:40:17] INFO root fetch - processPackages [rq-chains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rq-chains-0.1.3.tar.gz tmp/rq-chains-0.1.4.tar.gz --markdown 20230511/r/rq-chains/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 12:40:18] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2023-05-11 12:40:18] INFO root fetch - main [MainThread]: End processing [solscan]: success
+[2023-05-11 12:40:18] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-11 12:40:18] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-11 12:40:19] INFO root fetch - main [MainThread]: End processing [bulk-directory-tree]: success
+[2023-05-11 12:40:19] INFO root fetch - main [MainThread]: End processing [rq-chains]: success
+[2023-05-11 12:40:19] INFO root fetch - main [MainThread]: End processing [asimov]: success
+[2023-05-11 12:40:20] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-05-11 12:40:21] INFO root fetch - main [MainThread]: End processing [spox]: success
+[2023-05-11 12:40:24] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-05-11 12:40:24] INFO root fetch - main [MainThread]: Store serial: [18062187]
