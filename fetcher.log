@@ -9083,3 +9083,72 @@ EOFError: EOF read where object expected
 [2023-05-11 06:30:21] INFO root fetch - main [MainThread]: End processing [mercoa]: success
 [2023-05-11 06:30:24] INFO root fetch - main [MainThread]: End processing [generic-path]: success
 [2023-05-11 06:30:24] INFO root fetch - main [MainThread]: Store serial: [18058165]
+[2023-05-11 06:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058165]
+[2023-05-11 06:35:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywencai
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-attachments-management
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fazy
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-ml-component
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azureml-pipeline-wrapper
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wistiapy
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastqueue-lib
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sca-rhythm
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cveutils
+[2023-05-11 06:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-hr-attendance-modification-tracking
+[2023-05-11 06:35:33] INFO root fetch - processPackages [azure-ml-component]: New version: [0.9.9.post3] Old Version: [0.9.9.post2]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [django-attachments-management]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [pywencai]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [sca-rhythm]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [azureml-pipeline-wrapper]: New version: [0.9.9.post3] Old Version: [0.9.9.post2]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [odoo14-addon-hr-attendance-modification-tracking]: New version: [14.0.1.0.5.dev3] Old Version: [14.0.1.0.5.dev2]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [fastqueue-lib]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [cveutils]: New version: [0.3] Old Version: [0.2]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [fazy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [wistiapy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 06:35:33] INFO root fetch - processPackages [django-attachments-management]: Downloading https://files.pythonhosted.org/packages/09/4e/33743e28ce343afd419a5ac6274840ec73ee45563860b094019c774bb59c/django_attachments_management-1.1.2.tar.gz
+[2023-05-11 06:35:33] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/13/f1/97fb49446d6f5fceaf37541431db9f076150e39453f8e6cecbcdbacb68e5/sca_rhythm-0.4.0.tar.gz
+[2023-05-11 06:35:33] INFO root fetch - processPackages [azure-ml-component]: Downloading https://files.pythonhosted.org/packages/5b/81/2c2b870dd983d3b16409778b3718a880ffc534df16b9c861e5906f8c91af/azure_ml_component-0.9.9.post2-py3-none-any.whl
+[2023-05-11 06:35:33] INFO root fetch - processPackages [azureml-pipeline-wrapper]: Downloading https://files.pythonhosted.org/packages/c1/39/b25579595a1f8f07ab5b483dc0632291ceccd0bbc44163819e56758a2914/azureml_pipeline_wrapper-0.9.9.post2-py3-none-any.whl
+[2023-05-11 06:35:33] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/a3/eb/ed8cd6802e1acc845e245e774617601c327c2e627c7a9ecdc94d7319c718/pywencai-0.8.1.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fazy]: Downloading https://files.pythonhosted.org/packages/3f/92/650419d7037a384fa987369ea7c1ead6e09c1fe6330523513339c785fb80/fazy-0.0.4.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [odoo14-addon-hr-attendance-modification-tracking]: Downloading https://files.pythonhosted.org/packages/e3/64/c2476f21fcc3834b54df7be996cde45c344819a4ff3fd0b6ca0196181e41/odoo14_addon_hr_attendance_modification_tracking-14.0.1.0.5.dev2-py3-none-any.whl
+[2023-05-11 06:35:34] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/12/c6/053f97c2fbd6973c41b793399ed1b176613c6907ac01a83cbb52dbc4a305/cveutils-0.3.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [wistiapy]: Downloading https://files.pythonhosted.org/packages/58/91/91b0ab1909f4eab00e629ec0f10fa353ef40ce8c9defe1c3a01c1f2e75f8/wistiapy-0.0.8.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [django-attachments-management]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [django-attachments-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_attachments_management-1.1.1.tar.gz tmp/django_attachments_management-1.1.2.tar.gz --markdown 20230511/d/django-attachments-management/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fastqueue-lib]: Downloading https://files.pythonhosted.org/packages/2b/43/e1d106c04d8f630bfb6b429de4dd340f8017d018f7f4c5295175ba345d62/fastqueue-lib-0.0.6.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.8.0.tar.gz tmp/pywencai-0.8.1.tar.gz --markdown 20230511/p/pywencai/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [sca-rhythm]: Downloading https://files.pythonhosted.org/packages/3c/b1/97b2f54c16f4a8e7439859f07abf687a00cc09071c2cdf36aec8884e610e/sca_rhythm-0.4.1.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [cveutils]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [cveutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cveutils-0.2.tar.gz tmp/cveutils-0.3.tar.gz --markdown 20230511/c/cveutils/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fastqueue-lib]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fastqueue-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastqueue-lib-0.0.5.tar.gz tmp/fastqueue-lib-0.0.6.tar.gz --markdown 20230511/f/fastqueue-lib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [odoo14-addon-hr-attendance-modification-tracking]: Downloading https://files.pythonhosted.org/packages/d0/ec/311640f0c85e18d12097cd8dec022940feaa5c7b8fed1973e4537c6cb9c7/odoo14_addon_hr_attendance_modification_tracking-14.0.1.0.5.dev3-py3-none-any.whl
+[2023-05-11 06:35:34] INFO root fetch - processPackages [azureml-pipeline-wrapper]: Downloading https://files.pythonhosted.org/packages/10/f4/9b64a4bde0eea819cd9103220d6f4f55d32025ed9e44144830b928a748fa/azureml_pipeline_wrapper-0.9.9.post3-py3-none-any.whl
+[2023-05-11 06:35:34] INFO root fetch - processPackages [azure-ml-component]: Downloading https://files.pythonhosted.org/packages/7e/f9/36b9120b1f2cc136295f2c151db99476aeff37d5e7b7f9859d694a3516db/azure_ml_component-0.9.9.post3-py3-none-any.whl
+[2023-05-11 06:35:34] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.4.0.tar.gz tmp/sca_rhythm-0.4.1.tar.gz --markdown 20230511/s/sca-rhythm/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fazy]: Downloading https://files.pythonhosted.org/packages/99/90/a95f0cd9838f27e04437de587d2afa011c7bcdf4bd0dbf041970dbd79bd0/fazy-0.0.5.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [odoo14-addon-hr-attendance-modification-tracking]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [odoo14-addon-hr-attendance-modification-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_attendance_modification_tracking-14.0.1.0.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_attendance_modification_tracking-14.0.1.0.5.dev3-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-hr-attendance-modification-tracking/14.0.1.0.5.dev2-14.0.1.0.5.dev3/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [azureml-pipeline-wrapper]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [azureml-pipeline-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_pipeline_wrapper-0.9.9.post2-py3-none-any.whl.zip tmp/azureml_pipeline_wrapper-0.9.9.post3-py3-none-any.whl.zip --markdown 20230511/a/azureml-pipeline-wrapper/0.9.9.post2-0.9.9.post3/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [azure-ml-component]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [azure-ml-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure_ml_component-0.9.9.post2-py3-none-any.whl.zip tmp/azure_ml_component-0.9.9.post3-py3-none-any.whl.zip --markdown 20230511/a/azure-ml-component/0.9.9.post2-0.9.9.post3/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [wistiapy]: Downloading https://files.pythonhosted.org/packages/cf/9d/8591a4010f8933f26ed4d8e4494234884e4a3b5b6ff6217fad0ec5badc47/wistiapy-0.0.9.tar.gz
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fazy]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [fazy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fazy-0.0.4.tar.gz tmp/fazy-0.0.5.tar.gz --markdown 20230511/f/fazy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 06:35:34] INFO root fetch - processPackages [wistiapy]: executing diffoscope
+[2023-05-11 06:35:34] INFO root fetch - processPackages [wistiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wistiapy-0.0.8.tar.gz tmp/wistiapy-0.0.9.tar.gz --markdown 20230511/w/wistiapy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 06:35:35] INFO root fetch - main [MainThread]: End processing [cveutils]: success
+[2023-05-11 06:35:35] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [fastqueue-lib]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-attendance-modification-tracking]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [fazy]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [azureml-pipeline-wrapper]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [django-attachments-management]: success
+[2023-05-11 06:35:36] INFO root fetch - main [MainThread]: End processing [wistiapy]: success
+[2023-05-11 06:35:38] INFO root fetch - main [MainThread]: End processing [azure-ml-component]: success
+[2023-05-11 06:35:38] INFO root fetch - main [MainThread]: Store serial: [18058214]
