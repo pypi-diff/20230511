@@ -9283,3 +9283,37 @@ EOFError: EOF read where object expected
 [2023-05-11 06:51:16] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
 [2023-05-11 06:51:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2023-05-11 06:51:17] INFO root fetch - main [MainThread]: Store serial: [18058293]
+[2023-05-11 06:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058293]
+[2023-05-11 06:56:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-11 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyramm
+[2023-05-11 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DeepMuon
+[2023-05-11 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calfps
+[2023-05-11 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfscanner
+[2023-05-11 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-syzygy
+[2023-05-11 06:56:25] INFO root fetch - processPackages [DeepMuon]: New version: [1.9.1] Old Version: [1.8.9]
+[2023-05-11 06:56:26] INFO root fetch - processPackages [calfps]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 06:56:26] INFO root fetch - processPackages [pyramm]: New version: [1.9] Old Version: [1.8]
+[2023-05-11 06:56:26] INFO root fetch - processPackages [django-syzygy]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-05-11 06:56:26] INFO root fetch - processPackages [cfscanner]: New version: [1.3.18] Old Version: [1.3.17]
+[2023-05-11 06:56:26] INFO root fetch - processPackages [pyramm]: executing diffoscope
+[2023-05-11 06:56:26] INFO root fetch - processPackages [pyramm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramm-1.8.tar.gz tmp/pyramm-1.9.tar.gz --markdown 20230511/p/pyramm/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-11 06:56:26] INFO root fetch - processPackages [DeepMuon]: Downloading https://files.pythonhosted.org/packages/a7/5c/e364dc70ddcb5293378f71643f252d23ccf18e9adc3d6b2423659e93393b/DeepMuon-1.8.9.tar.gz
+[2023-05-11 06:56:26] INFO root fetch - processPackages [calfps]: Downloading https://files.pythonhosted.org/packages/ea/68/7f4483af686763d0b477d8f8a80f0a99fe0300a5531fb5d3370726e050c1/calfps-0.0.1.tar.gz
+[2023-05-11 06:56:26] INFO root fetch - processPackages [django-syzygy]: Downloading https://files.pythonhosted.org/packages/9f/af/d0e3fb7fbc63cdb22736630525fe0c72a0ba9506544d7f8ca4f6b578326d/django-syzygy-0.1.0a8.tar.gz
+[2023-05-11 06:56:26] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/c0/91/c03d4248d5c91f6716de861496c0a5ef3d8cb65406f0cf48d4f102a1f661/cfscanner-1.3.17.tar.gz
+[2023-05-11 06:56:26] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 33344688>=10485760
+[2023-05-11 06:56:26] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-05-11 06:56:26] INFO root fetch - processPackages [calfps]: Downloading https://files.pythonhosted.org/packages/d0/66/3d46d73c091d9e587568b7845c4a78aaa79e57ef423c11a9661cb8115bc4/calfps-0.0.2.tar.gz
+[2023-05-11 06:56:26] INFO root fetch - processPackages [django-syzygy]: Downloading https://files.pythonhosted.org/packages/c0/db/426326f10c367df163f17939cffe242aaed8bc7433946f9e488a262ee866/django-syzygy-0.1.0a9.tar.gz
+[2023-05-11 06:56:26] INFO root fetch - processPackages [DeepMuon]: Downloading https://files.pythonhosted.org/packages/df/69/b3a8ab9fbb544e803e67952c4e6a43aa21854825a0bd92c291022c9bd628/DeepMuon-1.9.1.tar.gz
+[2023-05-11 06:56:26] INFO root fetch - processPackages [django-syzygy]: executing diffoscope
+[2023-05-11 06:56:26] INFO root fetch - processPackages [django-syzygy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-syzygy-0.1.0a8.tar.gz tmp/django-syzygy-0.1.0a9.tar.gz --markdown 20230511/d/django-syzygy/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-05-11 06:56:26] INFO root fetch - processPackages [calfps]: executing diffoscope
+[2023-05-11 06:56:26] INFO root fetch - processPackages [calfps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfps-0.0.1.tar.gz tmp/calfps-0.0.2.tar.gz --markdown 20230511/c/calfps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 06:56:26] INFO root fetch - processPackages [DeepMuon]: executing diffoscope
+[2023-05-11 06:56:26] INFO root fetch - processPackages [DeepMuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepMuon-1.8.9.tar.gz tmp/DeepMuon-1.9.1.tar.gz --markdown 20230511/D/DeepMuon/1.8.9-1.9.1/diff.md --exclude *.pyd
+[2023-05-11 06:56:27] INFO root fetch - main [MainThread]: End processing [pyramm]: success
+[2023-05-11 06:56:27] INFO root fetch - main [MainThread]: End processing [calfps]: success
+[2023-05-11 06:56:27] INFO root fetch - main [MainThread]: End processing [django-syzygy]: success
+[2023-05-11 06:56:28] INFO root fetch - main [MainThread]: End processing [DeepMuon]: success
+[2023-05-11 06:56:28] INFO root fetch - main [MainThread]: Store serial: [18058308]
