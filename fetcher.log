@@ -6337,3 +6337,69 @@ EOFError: EOF read where object expected
 [2023-05-11 03:52:56] INFO root fetch - main [MainThread]: End processing [trame]: success
 [2023-05-11 03:52:57] INFO root fetch - main [MainThread]: End processing [hbshare]: success
 [2023-05-11 03:52:57] INFO root fetch - main [MainThread]: Store serial: [18056736]
+[2023-05-11 03:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18056736]
+[2023-05-11 03:58:06] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: social-auth-app-django-tweaked
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-subject-dashboard
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eznlp
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lesscode-tool
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-tools
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coredis
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discotoolkit
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrc-python-utils
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exergenics
+[2023-05-11 03:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webdrivertools
+[2023-05-11 03:58:06] INFO root fetch - processPackages [np-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 03:58:06] WARNING root fetch - processPackages [social-auth-app-django-tweaked]: Skipping, unable to determine old version
+[2023-05-11 03:58:06] INFO root fetch - processPackages [social-auth-app-django-tweaked]: Start processing: cdk-webapp-skeleton
+[2023-05-11 03:58:06] INFO root fetch - main [MainThread]: End processing [social-auth-app-django-tweaked] error
+[2023-05-11 03:58:06] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [discotoolkit]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230511/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.8.tar.gz tmp/np_tools-0.1.9.tar.gz --markdown 20230511/n/np-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [eznlp]: New version: [0.2.4] Old Version: [0.2.3rc1]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [exergenics]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [edc-subject-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 03:58:06] WARNING root fetch - processPackages [webdrivertools]: Skipping, unable to determine old version
+[2023-05-11 03:58:06] INFO root fetch - processPackages [webdrivertools]: Start processing: g2tools
+[2023-05-11 03:58:06] INFO root fetch - main [MainThread]: End processing [webdrivertools] error
+[2023-05-11 03:58:06] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [coredis]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230511/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/c1/90/66729379baf854109071c6ad50958949fcbca5fa979bedb94b63524c5a80/exergenics-2.8.0.tar.gz
+[2023-05-11 03:58:06] INFO root fetch - processPackages [discotoolkit]: Downloading https://files.pythonhosted.org/packages/61/14/491324047367ae92e1df921dcd293e7f68d7ab65cc43e9d200bef6c1ee8c/discotoolkit-1.0.3.tar.gz
+[2023-05-11 03:58:06] INFO root fetch - processPackages [eznlp]: Downloading https://files.pythonhosted.org/packages/3c/fd/4c3b46039bd9ae0870ce3139c798f50404a2b86f31ecbcbe7f9aba091d43/eznlp-0.2.3rc1.tar.gz
+[2023-05-11 03:58:06] INFO root fetch - processPackages [g2tools]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-11 03:58:06] INFO root fetch - processPackages [g2tools]: Downloading https://files.pythonhosted.org/packages/b5/80/687e3da56d7f54294d521728ba7c5046670bcefd5c9cfb09fc92851ecca7/g2tools-1.4.1.tar.gz
+[2023-05-11 03:58:06] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.0.2.tar.gz tmp/discotoolkit-1.0.3.tar.gz --markdown 20230511/d/discotoolkit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [exergenics]: Downloading https://files.pythonhosted.org/packages/51/b8/55630868b0f42f0caeefe8b44ee2cde46ee84c7820ed98f326b4b686e83d/exergenics-2.9.0.tar.gz
+[2023-05-11 03:58:06] INFO root fetch - processPackages [edc-subject-dashboard]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [edc-subject-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20230511/e/edc-subject-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [coredis]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [coredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coredis-4.8.3.tar.gz tmp/coredis-4.9.0.tar.gz --markdown 20230511/c/coredis/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-05-11 03:58:06] INFO root fetch - processPackages [eznlp]: Downloading https://files.pythonhosted.org/packages/44/a9/91cfb130fb24709d8818989a80522e533b8f0e6a9dd03edd51315121f2c5/eznlp-0.2.4.tar.gz
+[2023-05-11 03:58:06] INFO root fetch - processPackages [exergenics]: executing diffoscope
+[2023-05-11 03:58:06] INFO root fetch - processPackages [exergenics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exergenics-2.8.0.tar.gz tmp/exergenics-2.9.0.tar.gz --markdown 20230511/e/exergenics/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-11 03:58:07] INFO root fetch - processPackages [eznlp]: executing diffoscope
+[2023-05-11 03:58:07] INFO root fetch - processPackages [eznlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznlp-0.2.3rc1.tar.gz tmp/eznlp-0.2.4.tar.gz --markdown 20230511/e/eznlp/0.2.3rc1-0.2.4/diff.md --exclude *.pyd
+[2023-05-11 03:58:07] INFO root fetch - processPackages [g2tools]: Downloading https://files.pythonhosted.org/packages/54/58/11664111b85d9907e69b825843f5d7ec7102d5600cf10fbf867784a1f1d0/g2tools-1.4.2.tar.gz
+[2023-05-11 03:58:07] INFO root fetch - processPackages [g2tools]: executing diffoscope
+[2023-05-11 03:58:07] INFO root fetch - processPackages [g2tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2tools-1.4.1.tar.gz tmp/g2tools-1.4.2.tar.gz --markdown 20230511/g/g2tools/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-11 03:58:07] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-11 03:58:08] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-05-11 03:58:08] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 03:58:08] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-05-11 03:58:08] INFO root fetch - main [MainThread]: End processing [exergenics]: success
+[2023-05-11 03:58:08] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-05-11 03:58:08] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
+[2023-05-11 03:58:09] INFO root fetch - main [MainThread]: End processing [eznlp]: success
+[2023-05-11 03:58:11] INFO root fetch - main [MainThread]: End processing [coredis]: success
+[2023-05-11 03:58:13] INFO root fetch - main [MainThread]: End processing [g2tools]: success
+[2023-05-11 03:58:13] INFO root fetch - main [MainThread]: Store serial: [18056798]
