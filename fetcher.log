@@ -12795,3 +12795,119 @@ EOFError: EOF read where object expected
 [2023-05-11 10:58:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 10:59:00] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
 [2023-05-11 10:59:00] INFO root fetch - main [MainThread]: Store serial: [18060380]
+[2023-05-11 11:04:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18060380]
+[2023-05-11 11:04:09] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frinx-python-sdk
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aac-datasets
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Alpha-Rabbit
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appium-flutter-utils
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bagbag
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cispa
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmeel-octomap
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-vectordb
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynocaptcha
+[2023-05-11 11:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oc-portal-commons
+[2023-05-11 11:04:10] INFO root fetch - processPackages [aac-datasets]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [cmeel-octomap]: New version: [1.9.8.1] Old Version: [1.9.8]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pynocaptcha]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230511/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [frinx-python-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [django-vectordb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230511/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] WARNING root fetch - processPackages [appium-flutter-utils]: Skipping, unable to determine old version
+[2023-05-11 11:04:10] INFO root fetch - processPackages [appium-flutter-utils]: Start processing: bkapi-plugins-py
+[2023-05-11 11:04:10] WARNING root fetch - processPackages [oc-portal-commons]: Skipping, unable to determine old version
+[2023-05-11 11:04:10] INFO root fetch - main [MainThread]: End processing [appium-flutter-utils] error
+[2023-05-11 11:04:10] WARNING root fetch - processPackages [cispa]: Skipping, unable to determine old version
+[2023-05-11 11:04:10] INFO root fetch - processPackages [oc-portal-commons]: Start processing: minder-downloader
+[2023-05-11 11:04:10] INFO root fetch - main [MainThread]: End processing [oc-portal-commons] error
+[2023-05-11 11:04:10] INFO root fetch - processPackages [cispa]: Start processing: pipenv-check
+[2023-05-11 11:04:10] INFO root fetch - main [MainThread]: End processing [cispa] error
+[2023-05-11 11:04:10] INFO root fetch - processPackages [minder-downloader]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.4.7.tar.gz tmp/pynocaptcha-1.4.8.tar.gz --markdown 20230511/p/pynocaptcha/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [aac-datasets]: Downloading https://files.pythonhosted.org/packages/73/c9/99d93880913e77721bf30e4c40f643f21871530841d12945910c281dbbfb/aac_datasets-0.3.1.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pipenv-check]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [minder-downloader]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [minder-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder_downloader-0.1.7.tar.gz tmp/minder_downloader-0.1.9.tar.gz --markdown 20230511/m/minder-downloader/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.5111700] Old Version: [0.511]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [cmeel-octomap]: Downloading https://files.pythonhosted.org/packages/f6/15/2367800169bb7c2e4219443f8377f495704f374570ddacbfd2a867a746ee/cmeel_octomap-1.9.8-3-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl
+[2023-05-11 11:04:10] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/0a/17/140466311b7702142a3e3f5e8a991f9c7830a3b8f49f2069907a45ec6e00/bkapi-plugins-py-0.511.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [frinx-python-sdk]: Downloading https://files.pythonhosted.org/packages/20/e9/160a56a5ff78fc6810fc83098d03555efe0dfbb5a271f28de4ae0d3c48af/frinx-python-sdk-0.0.8.tar.gz
+[2023-05-11 11:04:10] WARNING root fetch - processPackages [bkapi-plugins-py]: Skipping package: exceeds size limit 12640638>=10485760
+[2023-05-11 11:04:10] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: python-ironicclient
+[2023-05-11 11:04:10] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py] error
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pipenv-check]: Downloading https://files.pythonhosted.org/packages/5f/6a/163047e36b1422ccea32872f3c1174206a5833a5855ae66081b0dae9468f/pipenv-check-0.0.5.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [python-ironicclient]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-05-11 11:04:10] INFO root fetch - processPackages [django-vectordb]: Downloading https://files.pythonhosted.org/packages/41/a6/8b8c4d0072bead4a8101780e7fae012bcfa566c63f79e2c408d265a9399f/django-vectordb-0.1.3.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [aac-datasets]: Downloading https://files.pythonhosted.org/packages/87/b9/78a3bb8c12c7d0cff7c5b906a3896da9064e87e8a011283110944d3c9f29/aac_datasets-0.3.2.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [django-vectordb]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [django-vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vectordb-0.1.2.tar.gz tmp/django-vectordb-0.1.3.tar.gz --markdown 20230511/d/django-vectordb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [aac-datasets]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [aac-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aac_datasets-0.3.1.tar.gz tmp/aac_datasets-0.3.2.tar.gz --markdown 20230511/a/aac-datasets/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [frinx-python-sdk]: Downloading https://files.pythonhosted.org/packages/c0/1e/c71af231909a7b143d83eda2fb2d7be30fe0afd8877607663d74ec4e29e4/frinx-python-sdk-0.0.9.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [python-ironicclient]: Downloading https://files.pythonhosted.org/packages/06/7b/5b16dc27d0225a890b5cb8afc68dc8d238ddd4c0aa49599a921122e2090e/python-ironicclient-5.1.0.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [cmeel-octomap]: Downloading https://files.pythonhosted.org/packages/cb/f5/2ed5a74df30c24289d8c5b765eec3e29250a184ef8e1a32bb374d5bf08b0/cmeel_octomap-1.9.8.1-7-py3-none-macosx_11_0_arm64.whl
+[2023-05-11 11:04:10] INFO root fetch - processPackages [frinx-python-sdk]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [frinx-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frinx-python-sdk-0.0.8.tar.gz tmp/frinx-python-sdk-0.0.9.tar.gz --markdown 20230511/f/frinx-python-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pipenv-check]: Downloading https://files.pythonhosted.org/packages/52/6a/169c17cd346f6854bbe97024a8304bb7f24414b8fa7e075e96979c42fa3a/pipenv-check-0.0.6.tar.gz
+[2023-05-11 11:04:10] INFO root fetch - processPackages [cmeel-octomap]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [cmeel-octomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_octomap-1.9.8-3-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl.zip tmp/cmeel_octomap-1.9.8.1-7-py3-none-macosx_11_0_arm64.whl.zip --markdown 20230511/c/cmeel-octomap/1.9.8-1.9.8.1/diff.md --exclude *.pyd
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pipenv-check]: executing diffoscope
+[2023-05-11 11:04:10] INFO root fetch - processPackages [pipenv-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipenv-check-0.0.5.tar.gz tmp/pipenv-check-0.0.6.tar.gz --markdown 20230511/p/pipenv-check/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 11:04:11] INFO root fetch - processPackages [python-ironicclient]: Downloading https://files.pythonhosted.org/packages/c2/f7/e5c0063279983ba121444d6e2ea65af1cc49db4987970aab4119f003867b/python-ironicclient-5.2.0.tar.gz
+[2023-05-11 11:04:11] INFO root fetch - processPackages [python-ironicclient]: executing diffoscope
+[2023-05-11 11:04:11] INFO root fetch - processPackages [python-ironicclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ironicclient-5.1.0.tar.gz tmp/python-ironicclient-5.2.0.tar.gz --markdown 20230511/p/python-ironicclient/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-05-11 11:04:11] INFO root fetch - processPackages [pynocaptcha]: Start processing: deci-common
+[2023-05-11 11:04:11] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-05-11 11:04:12] INFO root fetch - processPackages [deci-common]: New version: [9.0.0] Old Version: [8.1.0]
+[2023-05-11 11:04:12] INFO root fetch - processPackages [deci-common]: Downloading https://files.pythonhosted.org/packages/29/f0/520c6cb82f1366858b5e8790cf3a36bad7b10652dc1e4df6a8d93efec990/deci_common-8.1.0.tar.gz
+[2023-05-11 11:04:12] INFO root fetch - processPackages [minder-downloader]: Start processing: vsv
+[2023-05-11 11:04:12] INFO root fetch - main [MainThread]: End processing [minder-downloader]: success
+[2023-05-11 11:04:12] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: prettynumbers
+[2023-05-11 11:04:12] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-11 11:04:12] INFO root fetch - processPackages [prettynumbers]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-11 11:04:12] WARNING root fetch - processPackages [vsv]: Skipping, unable to determine old version
+[2023-05-11 11:04:12] INFO root fetch - processPackages [vsv]: Start processing: python-neutronclient
+[2023-05-11 11:04:12] INFO root fetch - main [MainThread]: End processing [vsv] error
+[2023-05-11 11:04:12] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-05-11 11:04:12] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.2.4.tar.gz tmp/prettynumbers-0.2.5.tar.gz --markdown 20230511/p/prettynumbers/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-11 11:04:12] INFO root fetch - processPackages [python-neutronclient]: New version: [9.0.0] Old Version: [8.2.1]
+[2023-05-11 11:04:12] INFO root fetch - processPackages [deci-common]: Downloading https://files.pythonhosted.org/packages/d2/e4/f964630669e1c3968372619e15347d6dffc26456edaa9555fb42d5130c6e/deci_common-9.0.0.tar.gz
+[2023-05-11 11:04:12] INFO root fetch - processPackages [deci-common]: executing diffoscope
+[2023-05-11 11:04:12] INFO root fetch - processPackages [deci-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_common-8.1.0.tar.gz tmp/deci_common-9.0.0.tar.gz --markdown 20230511/d/deci-common/8.1.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-11 11:04:12] INFO root fetch - processPackages [aac-datasets]: Start processing: mariqt
+[2023-05-11 11:04:12] INFO root fetch - main [MainThread]: End processing [aac-datasets]: success
+[2023-05-11 11:04:12] INFO root fetch - processPackages [python-neutronclient]: Downloading https://files.pythonhosted.org/packages/02/b3/0c7942e654eec1428544237e1e0911c792e5abf763403bd825ce0c3bef07/python-neutronclient-8.2.1.tar.gz
+[2023-05-11 11:04:12] INFO root fetch - processPackages [mariqt]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-11 11:04:12] INFO root fetch - processPackages [pipenv-check]: Start processing: neutron
+[2023-05-11 11:04:12] INFO root fetch - main [MainThread]: End processing [pipenv-check]: success
+[2023-05-11 11:04:12] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/26/76/04f4ac079016d5ad43fdd5e5141f22d236b047e53f2c5c32ff99ecfaebfc/mariqt-0.4.1-py2.py3-none-any.whl
+[2023-05-11 11:04:13] INFO root fetch - processPackages [python-neutronclient]: Downloading https://files.pythonhosted.org/packages/ef/e4/107865bfbdd8153e15431e2fb9988a29b69de5558b928fd4a4671ceed972/python-neutronclient-9.0.0.tar.gz
+[2023-05-11 11:04:13] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2023-05-11 11:04:13] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.4.0-py3-none-any.whl.zip tmp/mariqt-0.4.1-py2.py3-none-any.whl.zip --markdown 20230511/m/mariqt/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 11:04:13] INFO root fetch - processPackages [python-neutronclient]: executing diffoscope
+[2023-05-11 11:04:13] INFO root fetch - processPackages [python-neutronclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-neutronclient-8.2.1.tar.gz tmp/python-neutronclient-9.0.0.tar.gz --markdown 20230511/p/python-neutronclient/8.2.1-9.0.0/diff.md --exclude *.pyd
+[2023-05-11 11:04:13] INFO root fetch - processPackages [neutron]: New version: [23.0.0.0b1] Old Version: [22.0.0.0rc2]
+[2023-05-11 11:04:13] INFO root fetch - processPackages [django-vectordb]: Start processing: autogluon.common
+[2023-05-11 11:04:13] INFO root fetch - main [MainThread]: End processing [django-vectordb]: success
+[2023-05-11 11:04:13] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230510] Old Version: [0.7.1b20230509]
+[2023-05-11 11:04:13] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-05-11 11:04:13] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230509.tar.gz tmp/autogluon.common-0.7.1b20230510.tar.gz --markdown 20230511/a/autogluon.common/0.7.1b20230509-0.7.1b20230510/diff.md --exclude *.pyd
+[2023-05-11 11:04:13] INFO root fetch - processPackages [neutron]: Downloading https://files.pythonhosted.org/packages/bb/fb/b8cd393fe23466447a21762f0f5bcb03ac2baf10f1b3372e2ae5ce335192/neutron-22.0.0.0rc2.tar.gz
+[2023-05-11 11:04:13] WARNING root fetch - processPackages [neutron]: Skipping package: exceeds size limit 14036482>=10485760
+[2023-05-11 11:04:13] INFO root fetch - main [MainThread]: End processing [neutron] error
+[2023-05-11 11:04:13] INFO root fetch - main [MainThread]: End processing [frinx-python-sdk]: success
+[2023-05-11 11:04:14] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-05-11 11:04:14] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-05-11 11:04:15] INFO root fetch - main [MainThread]: End processing [deci-common]: success
+[2023-05-11 11:04:16] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-11 11:04:16] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2023-05-11 11:04:17] INFO root fetch - main [MainThread]: End processing [python-ironicclient]: success
+[2023-05-11 11:04:17] INFO root fetch - main [MainThread]: End processing [cmeel-octomap]: success
+[2023-05-11 11:04:18] INFO root fetch - main [MainThread]: End processing [python-neutronclient]: success
+[2023-05-11 11:04:18] INFO root fetch - main [MainThread]: Store serial: [18060464]
