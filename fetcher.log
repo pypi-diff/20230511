@@ -9347,3 +9347,50 @@ EOFError: EOF read where object expected
 [2023-05-11 07:01:38] INFO root fetch - main [MainThread]: End processing [mystring]: success
 [2023-05-11 07:01:38] INFO root fetch - main [MainThread]: End processing [vortex-api]: success
 [2023-05-11 07:01:38] INFO root fetch - main [MainThread]: Store serial: [18058327]
+[2023-05-11 07:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058327]
+[2023-05-11 07:06:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcontext
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-runtime-nightly
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sioscgi
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rum-with-telegram
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multi-model-server
+[2023-05-11 07:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flux-python
+[2023-05-11 07:06:47] INFO root fetch - processPackages [qcontext]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 07:06:47] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230511] Old Version: [0.1.1.dev20230510]
+[2023-05-11 07:06:47] INFO root fetch - processPackages [sioscgi]: New version: [4.0.0] Old Version: [3.0.1]
+[2023-05-11 07:06:47] INFO root fetch - processPackages [flux-python]: New version: [0.50.0rc0] Old Version: [0.50.0]
+[2023-05-11 07:06:47] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230511] Old Version: [1.1.8b20230510]
+[2023-05-11 07:06:47] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-11 07:06:48] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230510] Old Version: [2.14.0.dev20230509]
+[2023-05-11 07:06:48] INFO root fetch - processPackages [flux-python]: executing diffoscope
+[2023-05-11 07:06:48] INFO root fetch - processPackages [flux-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-python-0.50.0.tar.gz tmp/flux-python-0.50.0rc0.tar.gz --markdown 20230511/f/flux-python/0.50.0-0.50.0rc0/diff.md --exclude *.pyd
+[2023-05-11 07:06:48] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/41/1d/4ba69488f727a9d4acdc8778f5978a1f88bbc12d0a3dac02e3b0309ac405/multi_model_server-1.1.8b20230511-py2.py3-none-any.whl
+[2023-05-11 07:06:48] INFO root fetch - processPackages [qcontext]: Downloading https://files.pythonhosted.org/packages/3a/cd/ee1844fc81bf7c9243b1b9ea9172c84074169cd013b8fbaacef690bca2ca/qcontext-1.0.0.tar.gz
+[2023-05-11 07:06:48] INFO root fetch - processPackages [sioscgi]: Downloading https://files.pythonhosted.org/packages/e5/cd/c8de8d5b6b07976fa8a50cbd20e3be654daf73c30f83f34e9099601793ca/sioscgi-3.0.1.tar.gz
+[2023-05-11 07:06:48] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/fb/e6/2ad17f03f72bcd8f740e95254d44210184fc2dd5178cbf769bd23c82bd5d/rapid_pe-0.1.1.dev20230511.tar.gz
+[2023-05-11 07:06:48] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/ca/ae/1d49bddb16bd895f2b992054212b9c975db9cd73817adcfa97b108e5a629/rum_with_telegram-0.9.7.tar.gz
+[2023-05-11 07:06:48] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 07:06:48] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.6.tar.gz tmp/rum_with_telegram-0.9.7.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-11 07:06:48] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/35/2f/ba3fc3a8848d64362b109e00b756bb236cddf63c5ed07300f07e6c640e73/tflite_runtime_nightly-2.14.0.dev20230509-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-11 07:06:48] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-11 07:06:48] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230510.tar.gz tmp/rapid_pe-0.1.1.dev20230511.tar.gz --markdown 20230511/r/rapid-pe/0.1.1.dev20230510-0.1.1.dev20230511/diff.md --exclude *.pyd
+[2023-05-11 07:06:48] INFO root fetch - processPackages [qcontext]: Downloading https://files.pythonhosted.org/packages/ba/5d/d625aff1fba3925a62e6ea6c635ba496217feb66e22c417b15bdcb93c504/qcontext-1.0.1.tar.gz
+[2023-05-11 07:06:48] INFO root fetch - processPackages [qcontext]: executing diffoscope
+[2023-05-11 07:06:48] INFO root fetch - processPackages [qcontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcontext-1.0.0.tar.gz tmp/qcontext-1.0.1.tar.gz --markdown 20230511/q/qcontext/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 07:06:48] INFO root fetch - processPackages [sioscgi]: Downloading https://files.pythonhosted.org/packages/22/f9/60b7e150660fa8c4cacf16af29ee0ef4bde6e14b5f9a1a52047ae0690688/sioscgi-4.0.0.tar.gz
+[2023-05-11 07:06:48] INFO root fetch - processPackages [sioscgi]: executing diffoscope
+[2023-05-11 07:06:48] INFO root fetch - processPackages [sioscgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sioscgi-3.0.1.tar.gz tmp/sioscgi-4.0.0.tar.gz --markdown 20230511/s/sioscgi/3.0.1-4.0.0/diff.md --exclude *.pyd
+[2023-05-11 07:06:48] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3a/0f/078917aa2dc424de6e45922f8df862323c8eb8dd33ec8b8b7b9bbdafb09c/tflite_runtime_nightly-2.14.0.dev20230510-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-11 07:06:48] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-11 07:06:48] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230510-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230511-py2.py3-none-any.whl.zip --markdown 20230511/m/multi-model-server/1.1.8b20230510-1.1.8b20230511/diff.md --exclude *.pyd
+[2023-05-11 07:06:49] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-11 07:06:49] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230509-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230510-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230511/t/tflite-runtime-nightly/2.14.0.dev20230509-2.14.0.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 07:06:49] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-11 07:06:49] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 07:06:50] INFO root fetch - main [MainThread]: End processing [flux-python]: success
+[2023-05-11 07:06:50] INFO root fetch - main [MainThread]: End processing [sioscgi]: success
+[2023-05-11 07:06:52] INFO root fetch - main [MainThread]: End processing [qcontext]: success
+[2023-05-11 07:07:19] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-11 07:09:40] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-11 07:09:40] INFO root fetch - main [MainThread]: Store serial: [18058355]
