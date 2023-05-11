@@ -15244,3 +15244,117 @@ EOFError: EOF read where object expected
 [2023-05-11 12:04:18] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
 [2023-05-11 12:04:38] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-05-11 12:04:38] INFO root fetch - main [MainThread]: Store serial: [18061597]
+[2023-05-11 12:09:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061597]
+[2023-05-11 12:09:48] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gspread
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azdev
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-image-annotation
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: addict-tracking-changes
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vehicle
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swatchbook
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edwh-restic-plugin
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastdfe
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalguide
+[2023-05-11 12:09:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-governance
+[2023-05-11 12:09:48] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.95] Old Version: [1.1.94]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [edwh-restic-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [streamlit-image-annotation]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [addict-tracking-changes]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-05-11 12:09:48] WARNING root fetch - processPackages [swatchbook]: Skipping, unable to determine old version
+[2023-05-11 12:09:48] INFO root fetch - processPackages [swatchbook]: Start processing: fastapi-gateway-ultra
+[2023-05-11 12:09:48] INFO root fetch - main [MainThread]: End processing [swatchbook] error
+[2023-05-11 12:09:48] INFO root fetch - processPackages [edwh-restic-plugin]: Downloading https://files.pythonhosted.org/packages/ec/62/57639943f240dcb56d3b7f2e49a025f0c1cd4d9c1b07030d338276baaff6/edwh_restic_plugin-0.1.3.tar.gz
+[2023-05-11 12:09:48] INFO root fetch - processPackages [fastdfe]: New version: [0.1.5b0] Old Version: [0.1.4b0]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [vehicle]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 12:09:48] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-11 12:09:48] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.94.tar.gz tmp/cloud-governance-1.1.95.tar.gz --markdown 20230511/c/cloud-governance/1.1.94-1.1.95/diff.md --exclude *.pyd
+[2023-05-11 12:09:48] INFO root fetch - processPackages [gspread]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-05-11 12:09:48] WARNING root fetch - processPackages [edwh-restic-plugin]: Skipping package: exceeds size limit 15412379>=10485760
+[2023-05-11 12:09:48] INFO root fetch - processPackages [edwh-restic-plugin]: Start processing: lsst-daf-butler
+[2023-05-11 12:09:48] INFO root fetch - main [MainThread]: End processing [edwh-restic-plugin] error
+[2023-05-11 12:09:48] WARNING root fetch - processPackages [fastapi-gateway-ultra]: Skipping, unable to determine old version
+[2023-05-11 12:09:48] INFO root fetch - processPackages [fastapi-gateway-ultra]: Start processing: fdcalls
+[2023-05-11 12:09:48] INFO root fetch - main [MainThread]: End processing [fastapi-gateway-ultra] error
+[2023-05-11 12:09:48] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-11 12:09:48] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230511/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 12:09:49] INFO root fetch - processPackages [gspread]: Downloading https://files.pythonhosted.org/packages/32/da/d7f820b7efd943d740861d4403ccedee9376811548efb199b086753037ed/gspread-5.8.0.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fastdfe]: Downloading https://files.pythonhosted.org/packages/82/65/1fddc137831bc4d42166f93e5fabca33bae6ffc7317bbd2e7caeda63fcfa/fastdfe-0.1.4b0.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [addict-tracking-changes]: Downloading https://files.pythonhosted.org/packages/73/7c/7bf188feeb286df6e3c3bfb9ee7b74485d7f7e27e88d604c888db29f422f/addict-tracking-changes-0.1.1.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [vehicle]: Downloading https://files.pythonhosted.org/packages/f4/f0/155283665faf55b8dffd69467fc58c807b7882c9599389a40c01c1be4c1e/vehicle-1.0.0.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fdcalls]: New version: [1.3.0] Old Version: [1.2]
+[2023-05-11 12:09:49] INFO root fetch - processPackages [streamlit-image-annotation]: Downloading https://files.pythonhosted.org/packages/ee/ef/510c5ebc9da097320a497e6d0fe2ba9a039cf644089ffb7bd82616198c69/streamlit_image_annotation-0.3.1.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/dc/b1/9f18559a0567653c67511c02f80d8778d9d0fd3e9873efffb923379924eb/lsst-daf-butler-26.0.0a20230400.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230511/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [gspread]: Downloading https://files.pythonhosted.org/packages/c4/ad/d76417ba329ab5b10ac26082ccb0e52a90bdef5135ab6d88c79ffa4e1644/gspread-5.9.0.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fastdfe]: Downloading https://files.pythonhosted.org/packages/fd/41/611a6a0e1fe9f3268e8cebe1cd16e09d0e5f27c61c5e417186151dc2e5b2/fastdfe-0.1.5b0.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [addict-tracking-changes]: Downloading https://files.pythonhosted.org/packages/a4/88/66c34bbb368d7d6c5661105f001cbde8b87e9e6832a5214f8b4078cf9cc6/addict-tracking-changes-1.0.0.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [streamlit-image-annotation]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [streamlit-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_image_annotation-0.3.0.tar.gz tmp/streamlit_image_annotation-0.3.1.tar.gz --markdown 20230511/s/streamlit-image-annotation/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [vehicle]: Downloading https://files.pythonhosted.org/packages/ae/a9/882b81a62172cce7c5aa5e2ee45fc9c1a2531ca70cc8b4d17a4cbede4e44/vehicle-1.0.1.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fdcalls]: Downloading https://files.pythonhosted.org/packages/81/d4/59982534fcde1ec9655552533ed57bd55ece24bdc67fd2ed1c9986c136c1/fdcalls-1.3.0-py3-none-any.whl
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fastdfe]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fastdfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdfe-0.1.4b0.tar.gz tmp/fastdfe-0.1.5b0.tar.gz --markdown 20230511/f/fastdfe/0.1.4b0-0.1.5b0/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [addict-tracking-changes]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [addict-tracking-changes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addict-tracking-changes-0.1.1.tar.gz tmp/addict-tracking-changes-1.0.0.tar.gz --markdown 20230511/a/addict-tracking-changes/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [gspread]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [gspread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspread-5.8.0.tar.gz tmp/gspread-5.9.0.tar.gz --markdown 20230511/g/gspread/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [vehicle]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [vehicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vehicle-1.0.0.tar.gz tmp/vehicle-1.0.1.tar.gz --markdown 20230511/v/vehicle/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/63/f1/05460b4cbb11577f16194d576ae8d564636b13a457f218b01be5e8977fcc/lsst-daf-butler-26.0.0a20230500.tar.gz
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fdcalls]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [fdcalls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdcalls-1.2-py3-none-any.whl.zip tmp/fdcalls-1.3.0-py3-none-any.whl.zip --markdown 20230511/f/fdcalls/1.2-1.3.0/diff.md --exclude *.pyd
+[2023-05-11 12:09:49] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2023-05-11 12:09:49] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.0.0a20230400.tar.gz tmp/lsst-daf-butler-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-daf-butler/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 12:09:50] INFO root fetch - processPackages [digitalguide]: Start processing: jcmutils
+[2023-05-11 12:09:50] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-11 12:09:50] INFO root fetch - processPackages [jcmutils]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-05-11 12:09:50] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/9d/86/7732b7acef117e8c2d76d8a9228ae896ef679de45be2ed74eeb9337c9aeb/jcmutils-1.4.2.tar.gz
+[2023-05-11 12:09:50] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-11 12:09:50] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.4.1.tar.gz tmp/jcmutils-1.4.2.tar.gz --markdown 20230511/j/jcmutils/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-05-11 12:09:51] INFO root fetch - processPackages [azdev]: Start processing: akshare
+[2023-05-11 12:09:51] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-05-11 12:09:51] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.80]
+[2023-05-11 12:09:51] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/fd/3a/356e81bb1883564a6834d5152b96529c4026c7f344b9100a0528e3961811/akshare-1.9.80.tar.gz
+[2023-05-11 12:09:51] INFO root fetch - processPackages [gspread]: Start processing: crunch-cli
+[2023-05-11 12:09:51] INFO root fetch - main [MainThread]: End processing [gspread]: success
+[2023-05-11 12:09:51] INFO root fetch - processPackages [crunch-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-11 12:09:51] INFO root fetch - processPackages [fastdfe]: Start processing: mkdocstrings-python
+[2023-05-11 12:09:51] INFO root fetch - main [MainThread]: End processing [fastdfe]: success
+[2023-05-11 12:09:51] INFO root fetch - processPackages [addict-tracking-changes]: Start processing: wagtail-preference-blocks
+[2023-05-11 12:09:51] INFO root fetch - main [MainThread]: End processing [addict-tracking-changes]: success
+[2023-05-11 12:09:51] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-11 12:09:51] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.0.0.tar.gz tmp/crunch-cli-1.1.0.tar.gz --markdown 20230511/c/crunch-cli/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 12:09:51] INFO root fetch - processPackages [mkdocstrings-python]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-11 12:09:51] INFO root fetch - processPackages [vehicle]: Start processing: semisup-segmentation
+[2023-05-11 12:09:51] INFO root fetch - main [MainThread]: End processing [vehicle]: success
+[2023-05-11 12:09:51] WARNING root fetch - processPackages [wagtail-preference-blocks]: Skipping, unable to determine old version
+[2023-05-11 12:09:51] INFO root fetch - processPackages [wagtail-preference-blocks]: Start processing: easyPythonpi
+[2023-05-11 12:09:51] INFO root fetch - main [MainThread]: End processing [wagtail-preference-blocks] error
+[2023-05-11 12:09:51] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 12:09:51] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-11 12:09:51] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.80.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230511/a/akshare/1.9.80-1.9.9/diff.md --exclude *.pyd
+[2023-05-11 12:09:51] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-11 12:09:51] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230511/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 12:09:51] INFO root fetch - processPackages [easyPythonpi]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-11 12:09:51] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/e0/95/a25fb66cc564b584e149982abe461d7cdb7847b6bc2a8a97162faf79e1e5/mkdocstrings_python-1.0.0.tar.gz
+[2023-05-11 12:09:52] INFO root fetch - processPackages [mkdocstrings-python]: executing diffoscope
+[2023-05-11 12:09:52] INFO root fetch - processPackages [mkdocstrings-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocstrings-python-0.9.0.tar.gz tmp/mkdocstrings_python-1.0.0.tar.gz --markdown 20230511/m/mkdocstrings-python/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 12:09:52] INFO root fetch - processPackages [easyPythonpi]: Downloading https://files.pythonhosted.org/packages/93/8a/6dc1effca3bfb0266f6f90bd96634f5fdfc16efa53d2f3fbd0553ca31c3e/easyPythonpi-0.1.7.tar.gz
+[2023-05-11 12:09:52] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-11 12:09:52] INFO root fetch - processPackages [easyPythonpi]: Downloading https://files.pythonhosted.org/packages/73/6e/3a05e300112f37f6d63f4725c166028f84025610ed0722c3fd118e508b5b/easyPythonpi-0.1.9.tar.gz
+[2023-05-11 12:09:52] INFO root fetch - processPackages [easyPythonpi]: executing diffoscope
+[2023-05-11 12:09:52] INFO root fetch - processPackages [easyPythonpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyPythonpi-0.1.7.tar.gz tmp/easyPythonpi-0.1.9.tar.gz --markdown 20230511/e/easyPythonpi/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 12:09:52] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-11 12:09:53] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-11 12:09:53] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-11 12:09:53] INFO root fetch - main [MainThread]: End processing [easyPythonpi]: success
+[2023-05-11 12:09:54] INFO root fetch - main [MainThread]: End processing [mkdocstrings-python]: success
+[2023-05-11 12:09:57] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2023-05-11 12:09:59] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-11 12:10:17] INFO root fetch - main [MainThread]: End processing [fdcalls]: success
+[2023-05-11 12:12:35] INFO root fetch - main [MainThread]: End processing [streamlit-image-annotation]: success
+[2023-05-11 12:12:35] INFO root fetch - main [MainThread]: Store serial: [18061687]
