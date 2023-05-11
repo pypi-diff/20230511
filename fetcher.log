@@ -16109,3 +16109,140 @@ EOFError: EOF read where object expected
 [2023-05-11 12:18:31] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 12:18:46] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-05-11 12:18:46] INFO root fetch - main [MainThread]: Store serial: [18061943]
+[2023-05-11 12:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061943]
+[2023-05-11 12:23:56] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-gpt
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azunyan
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crunch-cli
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dev-gpt
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digitalguide
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hitsave
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hitsave
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oba
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geofileops
+[2023-05-11 12:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: issue-db-api
+[2023-05-11 12:23:56] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.40.dev1] Old Version: [0.18.39.dev3]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.40.dev1] Old Version: [0.18.39.dev3]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [hitsave]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [oba]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [hitsave]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [issue-db-api]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [azunyan]: New version: [4.8.3] Old Version: [4.8.2]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [crunch-cli]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [geofileops]: New version: [0.8.0a5] Old Version: [0.8.0a4]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 12:23:56] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/78/a1/bc079079fd6ba8af449b9558509d72394213f2cea25587c2404c7d6fd592/dev-gpt-0.18.39.dev3.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/78/a1/bc079079fd6ba8af449b9558509d72394213f2cea25587c2404c7d6fd592/dev-gpt-0.18.39.dev3.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/16/d5/828ed3cf48a8ae13d908ea20292aa58e3e2f0e67ca7b454f8ceefe19fa08/crunch-cli-1.1.1.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [oba]: Downloading https://files.pythonhosted.org/packages/97/09/c377e75b48f38409abaa18fe1c05853fed7636c3bd4221e1aff7d9ace929/oba-0.0.6.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [azunyan]: Downloading https://files.pythonhosted.org/packages/bb/33/b365bcfc62a1c0cde5fff576b8774bee86ff444a0722c4df55bbdc0c62c5/azunyan-4.8.2.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [hitsave]: Downloading https://files.pythonhosted.org/packages/dc/af/40616606d91aaaa59c155fbeb767e6b857f4b2463d6870bec31962a65926/hitsave-0.3.8.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [hitsave]: Downloading https://files.pythonhosted.org/packages/dc/af/40616606d91aaaa59c155fbeb767e6b857f4b2463d6870bec31962a65926/hitsave-0.3.8.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/2f/0b/d845c718a87e351bbda87e2442f9b0fd1397b64d495531a018006c3c6ac2/dev-gpt-0.18.40.dev1.tar.gz
+[2023-05-11 12:23:56] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/f5/c6/718ad78f77c8f1ca3788e1a8f1c4849dd25dab4b2c53dff9b476ad037299/issue_db_api-0.8.0.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [geofileops]: Downloading https://files.pythonhosted.org/packages/10/04/af4a443ba1d118ece19f8e49acbc5eff3c575ccb40013c2eb560da64c8cc/geofileops-0.8.0a5.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/2f/0b/d845c718a87e351bbda87e2442f9b0fd1397b64d495531a018006c3c6ac2/dev-gpt-0.18.40.dev1.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230511/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/b8/ef/2c7bc50fb25c70f6c2a2fe790b16ba1e88487e8dd2f3bd9a1d79fb7ca073/crunch-cli-1.1.2.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [azunyan]: Downloading https://files.pythonhosted.org/packages/b6/77/394b939b77611970f9c0085d293f2224f80255b76d5e5c0618fd2b6af272/azunyan-4.8.3.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.7.3.tar.gz tmp/issue_db_api-0.8.0.tar.gz --markdown 20230511/i/issue-db-api/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [hitsave]: Downloading https://files.pythonhosted.org/packages/9d/ab/8a646ac990497a2235add3c2588ced81c5901f1a4f778e0b96333ae49e26/hitsave-0.3.9.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [azunyan]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [hitsave]: Downloading https://files.pythonhosted.org/packages/9d/ab/8a646ac990497a2235add3c2588ced81c5901f1a4f778e0b96333ae49e26/hitsave-0.3.9.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [azunyan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azunyan-4.8.2.tar.gz tmp/azunyan-4.8.3.tar.gz --markdown 20230511/a/azunyan/4.8.2-4.8.3/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [geofileops]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [geofileops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geofileops-0.8.0a4.tar.gz tmp/geofileops-0.8.0a5.tar.gz --markdown 20230511/g/geofileops/0.8.0a4-0.8.0a5/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [oba]: Downloading https://files.pythonhosted.org/packages/ed/63/f12b7c452417311f29736214a05c5ad973b286539582ef68ff1ac1000731/oba-0.0.7.tar.gz
+[2023-05-11 12:23:57] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.39.dev3.tar.gz tmp/dev-gpt-0.18.40.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.39.dev3-0.18.40.dev1/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.39.dev3.tar.gz tmp/dev-gpt-0.18.40.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.39.dev3-0.18.40.dev1/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.1.1.tar.gz tmp/crunch-cli-1.1.2.tar.gz --markdown 20230511/c/crunch-cli/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [hitsave]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [hitsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitsave-0.3.8.tar.gz tmp/hitsave-0.3.9.tar.gz --markdown 20230511/h/hitsave/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [hitsave]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [hitsave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitsave-0.3.8.tar.gz tmp/hitsave-0.3.9.tar.gz --markdown 20230511/h/hitsave/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 12:23:57] INFO root fetch - processPackages [oba]: executing diffoscope
+[2023-05-11 12:23:57] INFO root fetch - processPackages [oba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oba-0.0.6.tar.gz tmp/oba-0.0.7.tar.gz --markdown 20230511/o/oba/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 12:23:58] INFO root fetch - processPackages [azunyan]: Start processing: kcli
+[2023-05-11 12:23:58] INFO root fetch - main [MainThread]: End processing [azunyan]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111017] Old Version: [99.0.202305110857]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [crunch-cli]: Start processing: jaibasiccalculator
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/01/b5/78a34b2203b67e8fb4b2e0ef159d1c62a72d71d2ad2fd6a665173850c46d/kcli-99.0.202305111017-py3-none-any.whl
+[2023-05-11 12:23:59] INFO root fetch - processPackages [digitalguide]: Start processing: negotium
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-11 12:23:59] WARNING root fetch - processPackages [jaibasiccalculator]: Skipping, unable to determine old version
+[2023-05-11 12:23:59] INFO root fetch - processPackages [jaibasiccalculator]: Start processing: solscan
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [jaibasiccalculator] error
+[2023-05-11 12:23:59] INFO root fetch - processPackages [solscan]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [negotium]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [solscan]: executing diffoscope
+[2023-05-11 12:23:59] INFO root fetch - processPackages [solscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solscan-0.1.2.tar.gz tmp/solscan-0.1.3.tar.gz --markdown 20230511/s/solscan/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 12:23:59] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/3c/e1/29ff8a5faad0ab80d82766b0ae7a439648147f36d01c9db7280b93f5ac8d/negotium-0.2.0.tar.gz
+[2023-05-11 12:23:59] INFO root fetch - processPackages [dev-gpt]: Start processing: kcli
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [hitsave]: Start processing: semisup-segmentation
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [hitsave]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [issue-db-api]: Start processing: Renate
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111021] Old Version: [99.0.202305111019]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [oba]: Start processing: esdbclient
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [oba]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [esdbclient]: New version: [1.0a3] Old Version: [1.0a2]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-11 12:23:59] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230511/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 12:23:59] INFO root fetch - processPackages [negotium]: Downloading https://files.pythonhosted.org/packages/82/d0/9c0e3e674a1d76c8af86b172d040a8a473523dad6dd958cdb3bb9a6bb741/negotium-0.2.1.tar.gz
+[2023-05-11 12:23:59] INFO root fetch - processPackages [Renate]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 12:23:59] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/19/ff/e1b22788075c0da3b5f66ef7e7a22e110b1f00f9e15bf644ca692b6334b9/kcli-99.0.202305111019-py3-none-any.whl
+[2023-05-11 12:23:59] INFO root fetch - processPackages [hitsave]: Start processing: TRIdentificationValidator
+[2023-05-11 12:23:59] INFO root fetch - main [MainThread]: End processing [hitsave]: success
+[2023-05-11 12:23:59] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 12:23:59] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305110857-py3-none-any.whl.zip tmp/kcli-99.0.202305111017-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305110857-99.0.202305111017/diff.md --exclude *.pyd
+[2023-05-11 12:23:59] INFO root fetch - processPackages [negotium]: executing diffoscope
+[2023-05-11 12:23:59] INFO root fetch - processPackages [negotium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negotium-0.2.0.tar.gz tmp/negotium-0.2.1.tar.gz --markdown 20230511/n/negotium/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 12:24:00] WARNING root fetch - processPackages [TRIdentificationValidator]: Skipping, unable to determine old version
+[2023-05-11 12:24:00] INFO root fetch - processPackages [TRIdentificationValidator]: Start processing: betby
+[2023-05-11 12:24:00] INFO root fetch - main [MainThread]: End processing [TRIdentificationValidator] error
+[2023-05-11 12:24:00] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/75/e1/16fc26ffce1fa0feb82350d5cae695cbbbf55501e019ed6de9e85d515453/esdbclient-1.0a3.tar.gz
+[2023-05-11 12:24:00] INFO root fetch - processPackages [betby]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-11 12:24:00] INFO root fetch - processPackages [Renate]: Downloading https://files.pythonhosted.org/packages/f1/7c/7058374df209eea196af6c0d2d440af35c7d5b8d5851ad01646d44d9db21/Renate-0.2.0.tar.gz
+[2023-05-11 12:24:00] INFO root fetch - processPackages [dev-gpt]: Start processing: pierskarsenbarg-pulumi-sdm
+[2023-05-11 12:24:00] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 12:24:00] INFO root fetch - processPackages [esdbclient]: executing diffoscope
+[2023-05-11 12:24:00] INFO root fetch - processPackages [esdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esdbclient-1.0a2.tar.gz tmp/esdbclient-1.0a3.tar.gz --markdown 20230511/e/esdbclient/1.0a2-1.0a3/diff.md --exclude *.pyd
+[2023-05-11 12:24:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/2a/b1/82e02d32aafd86e04dafc61be1b72cd52091072866ae14f28e96ef37c5ad/kcli-99.0.202305111021-py3-none-any.whl
+[2023-05-11 12:24:00] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 12:24:00] INFO root fetch - processPackages [Renate]: Downloading https://files.pythonhosted.org/packages/28/5f/097fca87c7bb31fa3e3f9e6986ded07f572703bfa4d69cdb5dcf8d6752c8/Renate-0.2.1.tar.gz
+[2023-05-11 12:24:00] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/2b/66/e88c56a0a0bb2f2399539fa763b72d93ca168d82f5e5441e13a415ebc79b/betby-0.2.4.tar.gz
+[2023-05-11 12:24:00] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-05-11 12:24:00] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.2.3.tar.gz tmp/betby-0.2.4.tar.gz --markdown 20230511/b/betby/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-11 12:24:00] INFO root fetch - processPackages [Renate]: executing diffoscope
+[2023-05-11 12:24:00] INFO root fetch - processPackages [Renate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Renate-0.2.0.tar.gz tmp/Renate-0.2.1.tar.gz --markdown 20230511/R/Renate/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 12:24:00] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/31/c5/7617ec42ac877ba1b0b11aa89d7ff63190689d2209e51ca40f0f761154d5/pierskarsenbarg_pulumi_sdm-1.1.1.tar.gz
+[2023-05-11 12:24:00] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 12:24:00] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111019-py3-none-any.whl.zip tmp/kcli-99.0.202305111021-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111019-99.0.202305111021/diff.md --exclude *.pyd
+[2023-05-11 12:24:00] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: executing diffoscope
+[2023-05-11 12:24:00] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_sdm-1.1.0.tar.gz tmp/pierskarsenbarg_pulumi_sdm-1.1.1.tar.gz --markdown 20230511/p/pierskarsenbarg-pulumi-sdm/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 12:24:01] INFO root fetch - processPackages [solscan]: Start processing: genio-tools
+[2023-05-11 12:24:01] INFO root fetch - main [MainThread]: End processing [solscan]: success
+[2023-05-11 12:24:01] INFO root fetch - processPackages [genio-tools]: New version: [1.4a1.dev9] Old Version: [1.4a1.dev10]
+[2023-05-11 12:24:01] INFO root fetch - processPackages [genio-tools]: Downloading https://files.pythonhosted.org/packages/51/6d/ac3c040f083219442aa424ed33c66c3adee75ad3a6a17c1be023232a9396/genio_tools-1.4a1.dev10-py3-none-any.whl
+[2023-05-11 12:24:01] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-11 12:24:01] INFO root fetch - main [MainThread]: End processing [negotium]: success
+[2023-05-11 12:24:02] INFO root fetch - processPackages [genio-tools]: Downloading https://files.pythonhosted.org/packages/8a/bc/6f367ef6ae9c34d5ab2bd6cff2d0b2c224bfcb042b9c6d800401e2e815a2/genio_tools-1.4a1.dev9-py3-none-any.whl
+[2023-05-11 12:24:02] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-05-11 12:24:02] INFO root fetch - processPackages [genio-tools]: executing diffoscope
+[2023-05-11 12:24:02] INFO root fetch - processPackages [genio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genio_tools-1.4a1.dev10-py3-none-any.whl.zip tmp/genio_tools-1.4a1.dev9-py3-none-any.whl.zip --markdown 20230511/g/genio-tools/1.4a1.dev10-1.4a1.dev9/diff.md --exclude *.pyd
+[2023-05-11 12:24:02] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
+[2023-05-11 12:24:02] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
+[2023-05-11 12:24:03] INFO root fetch - main [MainThread]: End processing [Renate]: success
+[2023-05-11 12:24:03] INFO root fetch - main [MainThread]: End processing [geofileops]: success
+[2023-05-11 12:24:03] INFO root fetch - main [MainThread]: End processing [genio-tools]: success
+[2023-05-11 12:24:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 12:24:08] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 12:24:08] INFO root fetch - main [MainThread]: Store serial: [18062013]
