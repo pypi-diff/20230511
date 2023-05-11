@@ -19381,3 +19381,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:00:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 15:00:20] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 15:00:20] INFO root fetch - main [MainThread]: Store serial: [18063805]
+[2023-05-11 15:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063805]
+[2023-05-11 15:05:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cefeste
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: news-recommender-metrics
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyneweb
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tutor-mfe
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbluemind4
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybpg400-tspspi
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: express-pascal-voc-tools
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-dprog-jfu
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: compose-chart-export
+[2023-05-11 15:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xverif
+[2023-05-11 15:05:30] INFO root fetch - processPackages [cefeste]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [pyneweb]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-11 15:05:30] WARNING root fetch - processPackages [pybpg400-tspspi]: Skipping, unable to determine old version
+[2023-05-11 15:05:30] INFO root fetch - processPackages [pybpg400-tspspi]: Start processing: flatterer
+[2023-05-11 15:05:30] INFO root fetch - main [MainThread]: End processing [pybpg400-tspspi] error
+[2023-05-11 15:05:30] INFO root fetch - processPackages [flatterer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [tutor-mfe]: New version: [15.0.6] Old Version: [15.0.5]
+[2023-05-11 15:05:30] WARNING root fetch - processPackages [news-recommender-metrics]: Skipping, unable to determine old version
+[2023-05-11 15:05:30] INFO root fetch - processPackages [news-recommender-metrics]: Start processing: assisted-service-client
+[2023-05-11 15:05:30] INFO root fetch - main [MainThread]: End processing [news-recommender-metrics] error
+[2023-05-11 15:05:30] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-11 15:05:30] WARNING root fetch - processPackages [xverif]: Skipping, unable to determine old version
+[2023-05-11 15:05:30] INFO root fetch - processPackages [xverif]: Start processing: yfinance
+[2023-05-11 15:05:30] INFO root fetch - main [MainThread]: End processing [xverif] error
+[2023-05-11 15:05:30] INFO root fetch - processPackages [django-dprog-jfu]: New version: [3.0.0] Old Version: [2.2.4]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [netbluemind4]: New version: [4.1.65207] Old Version: [4.1.65201]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [compose-chart-export]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [flatterer]: executing diffoscope
+[2023-05-11 15:05:30] INFO root fetch - processPackages [flatterer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatterer-0.8.0.tar.gz tmp/flatterer-0.9.0.tar.gz --markdown 20230511/f/flatterer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 15:05:30] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/88/b4/3dd395b64419691299eb6cecdbf5e96faa41300d46efb399d12d64287f1a/pyneweb-0.5.3.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [yfinance]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-11 15:05:30] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-11 15:05:30] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230511/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-11 15:05:30] INFO root fetch - processPackages [tutor-mfe]: Downloading https://files.pythonhosted.org/packages/8d/90/111c1e72d5c191baa4210ee312b9b8071c69333fbdb8d74d820bbb329b30/tutor-mfe-15.0.5.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [django-dprog-jfu]: Downloading https://files.pythonhosted.org/packages/41/09/f40df122e2712dd5307c4567711e0cbfcd769e6b2435fc7d7e811796f04f/django-dprog-jfu-2.2.4.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [pyneweb]: executing diffoscope
+[2023-05-11 15:05:30] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/af/3b/079b1bf04d93ae43b4ef2a4c4a8d638b7fd9121bb77d5c09d1a240ad3fe9/express-pascal-voc-tools-0.6.2.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [pyneweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneweb-0.5.2.tar.gz tmp/pyneweb-0.5.3.tar.gz --markdown 20230511/p/pyneweb/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-11 15:05:30] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/ca/9b/8ce1270d8e223337add809ec57528bbeec299f0d439f4d54957202295c8f/cefeste-1.1.3.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [compose-chart-export]: Downloading https://files.pythonhosted.org/packages/ec/d8/eb913660e16e8cd0fde35b1d0ad9ab052f5a86d3aea7f98090ca6da462bc/compose_chart_export-0.0.18-py3-none-any.whl
+[2023-05-11 15:05:30] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/a8/d8/009751b5ddba3498075f4e073f65a1e4e30dfc83bdb3003ef5044588b4b8/yfinance-0.2.7.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-11 15:05:30] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.6.1.tar.gz tmp/express-pascal-voc-tools-0.6.2.tar.gz --markdown 20230511/e/express-pascal-voc-tools/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-11 15:05:30] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-05-11 15:05:30] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.1.2.tar.gz tmp/cefeste-1.1.3.tar.gz --markdown 20230511/c/cefeste/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-11 15:05:30] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/9b/24/215bcbb117ce3add61826d9cc748f3354d7fb95e0086ebc1411a1bb5593c/netbluemind4-4.1.65201.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [tutor-mfe]: Downloading https://files.pythonhosted.org/packages/d8/e3/983f4b5e6439762964771f13b7f9183bc9bbf94541462fd052b8e5c0e2ba/tutor-mfe-15.0.6.tar.gz
+[2023-05-11 15:05:30] INFO root fetch - processPackages [compose-chart-export]: executing diffoscope
+[2023-05-11 15:05:30] INFO root fetch - processPackages [compose-chart-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compose_chart_export-0.0.17-py3-none-any.whl.zip tmp/compose_chart_export-0.0.18-py3-none-any.whl.zip --markdown 20230511/c/compose-chart-export/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-05-11 15:05:30] INFO root fetch - processPackages [django-dprog-jfu]: Downloading https://files.pythonhosted.org/packages/90/a0/b9940f0fefb083fd9b8fba8907f290dac5138d773abae8a5c0c62e044a0d/django-dprog-jfu-3.0.0.tar.gz
+[2023-05-11 15:05:31] INFO root fetch - processPackages [tutor-mfe]: executing diffoscope
+[2023-05-11 15:05:31] INFO root fetch - processPackages [tutor-mfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-mfe-15.0.5.tar.gz tmp/tutor-mfe-15.0.6.tar.gz --markdown 20230511/t/tutor-mfe/15.0.5-15.0.6/diff.md --exclude *.pyd
+[2023-05-11 15:05:31] INFO root fetch - processPackages [netbluemind4]: Downloading https://files.pythonhosted.org/packages/44/91/511ca4d323a1ebd8c90668dcf61370853fa2d9b2b1b68cab14f7abcd2c22/netbluemind4-4.1.65207.tar.gz
+[2023-05-11 15:05:31] INFO root fetch - processPackages [django-dprog-jfu]: executing diffoscope
+[2023-05-11 15:05:31] INFO root fetch - processPackages [django-dprog-jfu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dprog-jfu-2.2.4.tar.gz tmp/django-dprog-jfu-3.0.0.tar.gz --markdown 20230511/d/django-dprog-jfu/2.2.4-3.0.0/diff.md --exclude *.pyd
+[2023-05-11 15:05:31] INFO root fetch - processPackages [yfinance]: Downloading https://files.pythonhosted.org/packages/44/7c/2f17e16867fb4ad198467cc2ee2db5ff845cfdb1159ecb69ef2e6fc0807b/yfinance-0.2.9.tar.gz
+[2023-05-11 15:05:31] INFO root fetch - processPackages [netbluemind4]: executing diffoscope
+[2023-05-11 15:05:31] INFO root fetch - processPackages [netbluemind4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind4-4.1.65201.tar.gz tmp/netbluemind4-4.1.65207.tar.gz --markdown 20230511/n/netbluemind4/4.1.65201-4.1.65207/diff.md --exclude *.pyd
+[2023-05-11 15:05:31] INFO root fetch - processPackages [yfinance]: executing diffoscope
+[2023-05-11 15:05:31] INFO root fetch - processPackages [yfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfinance-0.2.7.tar.gz tmp/yfinance-0.2.9.tar.gz --markdown 20230511/y/yfinance/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [flatterer]: success
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [pyneweb]: success
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [compose-chart-export]: success
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [tutor-mfe]: success
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-05-11 15:05:32] INFO root fetch - main [MainThread]: End processing [yfinance]: success
+[2023-05-11 15:05:33] INFO root fetch - main [MainThread]: End processing [django-dprog-jfu]: success
+[2023-05-11 15:05:34] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-11 15:05:39] INFO root fetch - main [MainThread]: End processing [netbluemind4]: success
+[2023-05-11 15:05:39] INFO root fetch - main [MainThread]: Store serial: [18063843]
