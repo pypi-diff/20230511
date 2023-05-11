@@ -10198,3 +10198,49 @@ EOFError: EOF read where object expected
 [2023-05-11 08:12:39] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
 [2023-05-11 08:12:42] INFO root fetch - main [MainThread]: End processing [pulumi-datadog]: success
 [2023-05-11 08:12:42] INFO root fetch - main [MainThread]: Store serial: [18058776]
+[2023-05-11 08:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058776]
+[2023-05-11 08:17:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testing-juhwanlee123
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iturtle
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-pos
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pocketrockit
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rum-with-telegram
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-fastly
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irails
+[2023-05-11 08:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qcontext
+[2023-05-11 08:17:51] WARNING root fetch - processPackages [testing-juhwanlee123]: Skipping, unable to determine old version
+[2023-05-11 08:17:51] INFO root fetch - main [MainThread]: End processing [testing-juhwanlee123] error
+[2023-05-11 08:17:51] INFO root fetch - processPackages [qcontext]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pocketrockit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 08:17:51] INFO root fetch - processPackages [odoo14-addons-oca-pos]: New version: [14.0.20230509.0] Old Version: [14.0.20230505.0]
+[2023-05-11 08:17:51] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 08:17:51] INFO root fetch - processPackages [irails]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-11 08:17:51] INFO root fetch - processPackages [qcontext]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [qcontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcontext-1.0.0.tar.gz tmp/qcontext-1.0.1.tar.gz --markdown 20230511/q/qcontext/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 08:17:51] INFO root fetch - processPackages [odoo14-addons-oca-pos]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [odoo14-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_pos-14.0.20230505.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_pos-14.0.20230509.0-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addons-oca-pos/14.0.20230505.0-14.0.20230509.0/diff.md --exclude *.pyd
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pocketrockit]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pocketrockit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pocketrockit-0.0.8.tar.gz tmp/pocketrockit-0.0.9.tar.gz --markdown 20230511/p/pocketrockit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 08:17:51] WARNING root fetch - processPackages [iturtle]: Skipping, unable to determine old version
+[2023-05-11 08:17:51] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.428.0]
+[2023-05-11 08:17:51] INFO root fetch - main [MainThread]: End processing [iturtle] error
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pulumi-fastly]: New version: [7.4.0a1683784083] Old Version: [7.4.0a1683610349]
+[2023-05-11 08:17:51] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.2.7.tar.gz tmp/irails-1.2.8.tar.gz --markdown 20230511/i/irails/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-11 08:17:51] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.8.tar.gz tmp/rum_with_telegram-0.9.9.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 08:17:51] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6c/09/e552090675cc26d7266cea4a871f633a61b973dd0f71830bd0b29b4b60b4/stigg_api_client-0.428.0.tar.gz
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/08/5d/973262c76479256c5d775362492bdbc247339e66fe26ce1a972489442e34/pulumi_fastly-7.4.0a1683784083.tar.gz
+[2023-05-11 08:17:51] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.428.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230511/s/stigg-api-client/0.428.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2023-05-11 08:17:51] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-7.4.0a1683610349.tar.gz tmp/pulumi_fastly-7.4.0a1683784083.tar.gz --markdown 20230511/p/pulumi-fastly/7.4.0a1683610349-7.4.0a1683784083/diff.md --exclude *.pyd
+[2023-05-11 08:17:52] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-pos]: success
+[2023-05-11 08:17:52] INFO root fetch - main [MainThread]: End processing [pocketrockit]: success
+[2023-05-11 08:17:52] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 08:17:53] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-11 08:17:53] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-11 08:17:53] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2023-05-11 08:17:55] INFO root fetch - main [MainThread]: End processing [qcontext]: success
+[2023-05-11 08:17:55] INFO root fetch - main [MainThread]: Store serial: [18058830]
