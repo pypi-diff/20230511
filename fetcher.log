@@ -14838,3 +14838,101 @@ EOFError: EOF read where object expected
 [2023-05-11 11:43:01] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-05-11 11:43:08] INFO root fetch - main [MainThread]: End processing [idyntree]: success
 [2023-05-11 11:43:08] INFO root fetch - main [MainThread]: Store serial: [18061343]
+[2023-05-11 11:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061343]
+[2023-05-11 11:48:17] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 11:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyoxynet
+[2023-05-11 11:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytrees-rs
+[2023-05-11 11:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xefab
+[2023-05-11 11:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2023-05-11 11:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netgen-mesher
+[2023-05-11 11:48:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specfile
+[2023-05-11 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hostphot
+[2023-05-11 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pikendus-backend
+[2023-05-11 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Products.MeetingCPASLalouviere
+[2023-05-11 11:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalguide
+[2023-05-11 11:48:18] INFO root fetch - processPackages [hostphot]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.429.0]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 11:48:18] WARNING root fetch - processPackages [Products.MeetingCPASLalouviere]: Skipping, unable to determine old version
+[2023-05-11 11:48:18] INFO root fetch - processPackages [Products.MeetingCPASLalouviere]: Start processing: stackdiac
+[2023-05-11 11:48:18] INFO root fetch - main [MainThread]: End processing [Products.MeetingCPASLalouviere] error
+[2023-05-11 11:48:18] INFO root fetch - processPackages [hostphot]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [hostphot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostphot-2.6.1.tar.gz tmp/hostphot-2.6.2.tar.gz --markdown 20230511/h/hostphot/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.429.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230511/s/stigg-api-client/0.429.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] WARNING root fetch - processPackages [pytrees-rs]: Skipping, unable to determine old version
+[2023-05-11 11:48:18] INFO root fetch - processPackages [pytrees-rs]: Start processing: optimum
+[2023-05-11 11:48:18] INFO root fetch - main [MainThread]: End processing [pytrees-rs] error
+[2023-05-11 11:48:18] WARNING root fetch - processPackages [pikendus-backend]: Skipping, unable to determine old version
+[2023-05-11 11:48:18] INFO root fetch - processPackages [xefab]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [pikendus-backend]: Start processing: happyserial
+[2023-05-11 11:48:18] INFO root fetch - main [MainThread]: End processing [pikendus-backend] error
+[2023-05-11 11:48:18] INFO root fetch - processPackages [specfile]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2302.post42.dev0] Old Version: [6.2.2302.post21.dev0]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230511/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [stackdiac]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [optimum]: New version: [1.8.5] Old Version: [1.8.4]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [happyserial]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/8d/e1/92032085870c291fb2dd75821631f85abbec6c99975eb4536d66e8c0b08d/netgen_mesher-6.2.2302.post21.dev0-cp39-cp39-win_amd64.whl
+[2023-05-11 11:48:18] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/34/62/20eddcbef126e85431dc3242ff709176eaaa67d3d3a70ff2f8afeafe4479/specfile-0.9.0.tar.gz
+[2023-05-11 11:48:18] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20011802>=10485760
+[2023-05-11 11:48:18] INFO root fetch - processPackages [netgen-mesher]: Start processing: pm-food-lib
+[2023-05-11 11:48:18] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-05-11 11:48:18] WARNING root fetch - processPackages [pm-food-lib]: Skipping, unable to determine old version
+[2023-05-11 11:48:18] INFO root fetch - processPackages [pm-food-lib]: Start processing: djungle-rulesengine-client
+[2023-05-11 11:48:18] INFO root fetch - main [MainThread]: End processing [pm-food-lib] error
+[2023-05-11 11:48:18] INFO root fetch - processPackages [happyserial]: Downloading https://files.pythonhosted.org/packages/74/8b/75c9e420042fdde2368318834a8519a4217e96193e7c6d3896f1934a0777/happyserial-1.0.0.tar.gz
+[2023-05-11 11:48:18] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230511/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [djungle-rulesengine-client]: New version: [0.3.3] Old Version: [0.3.0]
+[2023-05-11 11:48:18] INFO root fetch - processPackages [stackdiac]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [stackdiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackdiac-0.0.1.dev8.tar.gz tmp/stackdiac-0.0.1.dev9.tar.gz --markdown 20230511/s/stackdiac/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [xefab]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [xefab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xefab-0.1.8.tar.gz tmp/xefab-0.1.9.tar.gz --markdown 20230511/x/xefab/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/e7/13/1741402fb005970ef936f0b41332e06f8863588e953706a20a3df92706db/optimum-1.8.5.tar.gz
+[2023-05-11 11:48:18] INFO root fetch - processPackages [happyserial]: Downloading https://files.pythonhosted.org/packages/11/c7/687f6bba58e77c2d3cd2b2e118e31e6b438bf1b12a7ecb0432313b72ec92/happyserial-1.2.0.tar.gz
+[2023-05-11 11:48:18] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.8.4.tar.gz tmp/optimum-1.8.5.tar.gz --markdown 20230511/o/optimum/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [specfile]: Downloading https://files.pythonhosted.org/packages/98/58/5da46f58f41bce3602175cc9a4b5e90820385801d225c063e6e9ba50bc97/specfile-0.9.1.tar.gz
+[2023-05-11 11:48:18] INFO root fetch - processPackages [happyserial]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [happyserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happyserial-1.0.0.tar.gz tmp/happyserial-1.2.0.tar.gz --markdown 20230511/h/happyserial/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-11 11:48:18] INFO root fetch - processPackages [djungle-rulesengine-client]: Downloading https://files.pythonhosted.org/packages/03/29/f7b81dc93a67eb2464440a2707c6aace5e097fe15c9693911342d25c8fd9/djungle-rulesengine-client-0.3.3.tar.gz
+[2023-05-11 11:48:18] INFO root fetch - processPackages [djungle-rulesengine-client]: executing diffoscope
+[2023-05-11 11:48:18] INFO root fetch - processPackages [djungle-rulesengine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djungle-rulesengine-client-0.3.0.tar.gz tmp/djungle-rulesengine-client-0.3.3.tar.gz --markdown 20230511/d/djungle-rulesengine-client/0.3.0-0.3.3/diff.md --exclude *.pyd
+[2023-05-11 11:48:19] INFO root fetch - processPackages [specfile]: executing diffoscope
+[2023-05-11 11:48:19] INFO root fetch - processPackages [specfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specfile-0.9.0.tar.gz tmp/specfile-0.9.1.tar.gz --markdown 20230511/s/specfile/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 11:48:19] INFO root fetch - processPackages [stigg-api-client]: Start processing: pp-kd-common
+[2023-05-11 11:48:19] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-11 11:48:19] WARNING root fetch - processPackages [pp-kd-common]: Skipping, unable to determine old version
+[2023-05-11 11:48:19] INFO root fetch - processPackages [pp-kd-common]: Start processing: canlib
+[2023-05-11 11:48:19] INFO root fetch - main [MainThread]: End processing [pp-kd-common] error
+[2023-05-11 11:48:19] INFO root fetch - processPackages [canlib]: New version: [1.23.804] Old Version: [1.22.565]
+[2023-05-11 11:48:19] INFO root fetch - processPackages [digitalguide]: Start processing: fusionsc
+[2023-05-11 11:48:19] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-11 11:48:19] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-11 11:48:19] INFO root fetch - processPackages [canlib]: Downloading https://files.pythonhosted.org/packages/50/22/fd67afe1fad0fb23076d3bd5dd3e5c71419fc30b77b6e76b83ef81195daf/canlib-1.22.565.tar.gz
+[2023-05-11 11:48:19] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-11 11:48:19] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-11 11:48:19] INFO root fetch - processPackages [fusionsc]: Start processing: otrs-somconnexio
+[2023-05-11 11:48:19] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-11 11:48:20] INFO root fetch - processPackages [otrs-somconnexio]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-11 11:48:20] INFO root fetch - processPackages [canlib]: Downloading https://files.pythonhosted.org/packages/38/25/6a1a7f66be8abb32957a8626fd8266c7d4b57201bc7387f68cb15e9ff201/canlib-1.23.804.tar.gz
+[2023-05-11 11:48:20] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/24/61/f12a7af09c175dfc8830738eef0b0f2e7248bc680d1b4d319dacd61b1c4b/otrs_somconnexio-0.4.8.tar.gz
+[2023-05-11 11:48:20] INFO root fetch - main [MainThread]: End processing [xefab]: success
+[2023-05-11 11:48:20] INFO root fetch - processPackages [canlib]: executing diffoscope
+[2023-05-11 11:48:20] INFO root fetch - processPackages [canlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canlib-1.22.565.tar.gz tmp/canlib-1.23.804.tar.gz --markdown 20230511/c/canlib/1.22.565-1.23.804/diff.md --exclude *.pyd
+[2023-05-11 11:48:20] INFO root fetch - main [MainThread]: End processing [happyserial]: success
+[2023-05-11 11:48:20] INFO root fetch - processPackages [otrs-somconnexio]: Downloading https://files.pythonhosted.org/packages/e5/91/0ea2de8ef72bee6e5e7ad4882d4afa735692fe75764c546ea0a7f8b2bee1/otrs_somconnexio-0.4.9.tar.gz
+[2023-05-11 11:48:20] INFO root fetch - main [MainThread]: End processing [djungle-rulesengine-client]: success
+[2023-05-11 11:48:20] INFO root fetch - processPackages [otrs-somconnexio]: executing diffoscope
+[2023-05-11 11:48:20] INFO root fetch - processPackages [otrs-somconnexio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrs_somconnexio-0.4.8.tar.gz tmp/otrs_somconnexio-0.4.9.tar.gz --markdown 20230511/o/otrs-somconnexio/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-11 11:48:21] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-05-11 11:48:21] INFO root fetch - main [MainThread]: End processing [specfile]: success
+[2023-05-11 11:48:22] INFO root fetch - main [MainThread]: End processing [hostphot]: success
+[2023-05-11 11:48:22] INFO root fetch - main [MainThread]: End processing [otrs-somconnexio]: success
+[2023-05-11 11:48:23] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
+[2023-05-11 11:48:23] INFO root fetch - main [MainThread]: End processing [canlib]: success
+[2023-05-11 11:48:24] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2023-05-11 11:48:24] INFO root fetch - main [MainThread]: Store serial: [18061404]
