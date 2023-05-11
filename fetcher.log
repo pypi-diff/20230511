@@ -20520,3 +20520,130 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:10:42] INFO root fetch - main [MainThread]: End processing [ocflib]: success
 [2023-05-11 16:10:42] INFO root fetch - main [MainThread]: End processing [django-tenants]: success
 [2023-05-11 16:10:42] INFO root fetch - main [MainThread]: Store serial: [18064459]
+[2023-05-11 16:15:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064459]
+[2023-05-11 16:15:51] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testarchiver
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wildcard.hps
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alnoda-wrk
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aliyun-python-sdk-imm
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchmanager-nightly
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: crosscompute-printers-pdf
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: elastic-blast
+[2023-05-11 16:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-11 16:15:51] INFO root fetch - processPackages [alnoda-wrk]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-05-11 16:15:51] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-11 16:15:51] INFO root fetch - processPackages [torchmanager-nightly]: New version: [1.2b5] Old Version: [1.2b4]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [wildcard.hps]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [crosscompute-printers-pdf]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [elastic-blast]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [testarchiver]: New version: [2.6.1rc4948814835] Old Version: [2.6.1rc3281044688]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [aliyun-python-sdk-imm]: New version: [2.1.15] Old Version: [2.1.14]
+[2023-05-11 16:15:52] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230511/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/61/d4/660a26453e7ae56d391e3266d21ff1db991beb619addb82906a50e9dfa3a/alnoda_wrk-0.4.6.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/f7/1f/b9de3fa164ecc20f7fe47a2c08aa4edc5a2e08351b315102d8b510e9a9f2/PatryksAutoAI-0.2.2.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/f7/1f/b9de3fa164ecc20f7fe47a2c08aa4edc5a2e08351b315102d8b510e9a9f2/PatryksAutoAI-0.2.2.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [crosscompute-printers-pdf]: Downloading https://files.pythonhosted.org/packages/06/79/6eab294c48d7a8155ec11f469d92d19f5e14119886915400cabdf13c999e/crosscompute-printers-pdf-0.4.0.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [wildcard.hps]: Downloading https://files.pythonhosted.org/packages/40/47/a8706692f8d827088abf2ffbe0e7e73e85556deb99ba0006befe5e17e788/wildcard.hps-1.4.0.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [elastic-blast]: Downloading https://files.pythonhosted.org/packages/ea/60/a1f1614302deea06e92470346dc2732c188e726af3a9dd445b0283075577/elastic_blast-1.0.0.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/f4/d6/8a8c50f3721cfb84e533b3744a229e5b7e064e167b13554fdad1ae12f756/testarchiver-2.6.1rc3281044688.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [torchmanager-nightly]: Downloading https://files.pythonhosted.org/packages/54/46/2882a2befdbb8295dfd919627ae8eb08a4d8568404dc0ea871d87371c108/torchmanager_nightly-1.2b5.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Downloading https://files.pythonhosted.org/packages/47/10/306da3bb6bdb2c7cfbb649b3d2293c00a0681c17824d171790fe6a7e5386/aliyun-python-sdk-imm-2.1.15.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/96/f8/2050e2d1e8e67fb7207d959518231568bb6bd71f74de6587e1ddc28b7627/PatryksAutoAI-0.2.3.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/96/f8/2050e2d1e8e67fb7207d959518231568bb6bd71f74de6587e1ddc28b7627/PatryksAutoAI-0.2.3.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [alnoda-wrk]: Downloading https://files.pythonhosted.org/packages/bf/2b/65abcc0c677704d4f761bd40adabb3685806c21afc6695b54f8af2b5d5b2/alnoda_wrk-0.4.7.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [aliyun-python-sdk-imm]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [aliyun-python-sdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-imm-2.1.14.tar.gz tmp/aliyun-python-sdk-imm-2.1.15.tar.gz --markdown 20230511/a/aliyun-python-sdk-imm/2.1.14-2.1.15/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [torchmanager-nightly]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [torchmanager-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmanager_nightly-1.2b4.tar.gz tmp/torchmanager_nightly-1.2b5.tar.gz --markdown 20230511/t/torchmanager-nightly/1.2b4-1.2b5/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [crosscompute-printers-pdf]: Downloading https://files.pythonhosted.org/packages/b5/11/9e0b1d0d83762ceb58e36302bfa758e5f338cfb3458723dab438f10b97de/crosscompute-printers-pdf-0.4.1.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [elastic-blast]: Downloading https://files.pythonhosted.org/packages/b3/c0/b6f042c1bae29f779c5b0fa27d0189588594a1993899582d7e6136030a0c/elastic_blast-1.1.0.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [wildcard.hps]: Downloading https://files.pythonhosted.org/packages/cd/b5/2e80e400ddf2469309584cc5eb980deff92d96a04154c1233dd78a17c9c8/wildcard.hps-1.4.1.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.2.tar.gz tmp/PatryksAutoAI-0.2.3.tar.gz --markdown 20230511/P/PatryksAutoAI/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [crosscompute-printers-pdf]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [crosscompute-printers-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crosscompute-printers-pdf-0.4.0.tar.gz tmp/crosscompute-printers-pdf-0.4.1.tar.gz --markdown 20230511/c/crosscompute-printers-pdf/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.2.tar.gz tmp/PatryksAutoAI-0.2.3.tar.gz --markdown 20230511/P/PatryksAutoAI/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [alnoda-wrk]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [alnoda-wrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alnoda_wrk-0.4.6.tar.gz tmp/alnoda_wrk-0.4.7.tar.gz --markdown 20230511/a/alnoda-wrk/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/3c/37/0b7e632997651fb67e31f47680e6ce786b9521dc3fb6f2c77448338fd3a3/testarchiver-2.6.1rc4948814835.tar.gz
+[2023-05-11 16:15:52] INFO root fetch - processPackages [elastic-blast]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [elastic-blast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic_blast-1.0.0.tar.gz tmp/elastic_blast-1.1.0.tar.gz --markdown 20230511/e/elastic-blast/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [wildcard.hps]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [wildcard.hps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildcard.hps-1.4.0.tar.gz tmp/wildcard.hps-1.4.1.tar.gz --markdown 20230511/w/wildcard.hps/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-11 16:15:52] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:15:52] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.1rc3281044688.tar.gz tmp/testarchiver-2.6.1rc4948814835.tar.gz --markdown 20230511/t/testarchiver/2.6.1rc3281044688-2.6.1rc4948814835/diff.md --exclude *.pyd
+[2023-05-11 16:15:54] INFO root fetch - processPackages [torchmanager-nightly]: Start processing: python-substack
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [torchmanager-nightly]: success
+[2023-05-11 16:15:54] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: btecli
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:15:54] WARNING root fetch - processPackages [btecli]: Skipping, unable to determine old version
+[2023-05-11 16:15:54] INFO root fetch - processPackages [btecli]: Start processing: schematic-db
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [btecli] error
+[2023-05-11 16:15:54] INFO root fetch - processPackages [python-substack]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 16:15:54] INFO root fetch - processPackages [schematic-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 16:15:54] INFO root fetch - processPackages [wildcard.hps]: Start processing: hepai
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [wildcard.hps]: success
+[2023-05-11 16:15:54] INFO root fetch - processPackages [python-substack]: Downloading https://files.pythonhosted.org/packages/08/1f/b85bbf909f096e5406cf4d31636af63e549c69d01b85081b8aaeabc5e9f3/python_substack-0.1.5.tar.gz
+[2023-05-11 16:15:54] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: adafruit-circuitpython-si5351
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:15:54] INFO root fetch - processPackages [adafruit-circuitpython-si5351]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-11 16:15:54] INFO root fetch - processPackages [crosscompute-printers-pdf]: Start processing: upstash-py
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [crosscompute-printers-pdf]: success
+[2023-05-11 16:15:54] INFO root fetch - processPackages [hepai]: New version: [1.0.9] Old Version: [1.0.8.1]
+[2023-05-11 16:15:54] INFO root fetch - processPackages [testarchiver]: Start processing: trademasterntu
+[2023-05-11 16:15:54] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:15:55] INFO root fetch - processPackages [upstash-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-11 16:15:55] INFO root fetch - processPackages [adafruit-circuitpython-si5351]: Downloading https://files.pythonhosted.org/packages/83/c7/8e510bb55f529187996e818526278d829940114d663a06ba62a6de946344/adafruit-circuitpython-si5351-1.3.5.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [trademasterntu]: New version: [1.0.1] Old Version: [0.0.1]
+[2023-05-11 16:15:55] INFO root fetch - processPackages [alnoda-wrk]: Start processing: gaiaFramework
+[2023-05-11 16:15:55] INFO root fetch - main [MainThread]: End processing [alnoda-wrk]: success
+[2023-05-11 16:15:55] INFO root fetch - processPackages [schematic-db]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [schematic-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schematic_db-0.0.8.tar.gz tmp/schematic_db-0.0.9.tar.gz --markdown 20230511/s/schematic-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [upstash-py]: Downloading https://files.pythonhosted.org/packages/a6/1b/c478bbd2e3f575d3be4286c89dca3fa40d6887dc0779a3e6a6424567db73/upstash_py-0.1.0.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [python-substack]: Downloading https://files.pythonhosted.org/packages/0d/41/fdd2bf3701310f5f1379be429e940493516800d24b992ab59e90d1195ebd/python_substack-0.1.6.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 16:15:55] INFO root fetch - processPackages [python-substack]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [python-substack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_substack-0.1.5.tar.gz tmp/python_substack-0.1.6.tar.gz --markdown 20230511/p/python-substack/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d5/59/1a2d684052d8cfb8c732ee281019dd1d18d8712598941b10038ccbd31386/hepai-1.0.8.1.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [trademasterntu]: Downloading https://files.pythonhosted.org/packages/05/dd/18a17326e9dc0ebe7505964ab26b2ecd6acfd09975be8fb05a5b44c3a4a8/trademasterntu-1.0.1.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Start processing: nkululeko
+[2023-05-11 16:15:55] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-imm]: success
+[2023-05-11 16:15:55] INFO root fetch - processPackages [nkululeko]: New version: [0.45.2] Old Version: [0.45.1]
+[2023-05-11 16:15:55] INFO root fetch - processPackages [adafruit-circuitpython-si5351]: Downloading https://files.pythonhosted.org/packages/cc/73/92c63a33f385de511478ebd9b8e467b987a0f61b500104c6c3ddeaceb3f8/adafruit-circuitpython-si5351-1.3.6.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [upstash-py]: Downloading https://files.pythonhosted.org/packages/d6/8b/f3d1c8969954fda4881bf27d2961623523a74faf31b703eee10834d3c64d/upstash_py-0.2.0.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [upstash-py]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [upstash-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_py-0.1.0.tar.gz tmp/upstash_py-0.2.0.tar.gz --markdown 20230511/u/upstash-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [trademasterntu]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [trademasterntu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trademasterntu-0.0.1.tar.gz tmp/trademasterntu-1.0.1.tar.gz --markdown 20230511/t/trademasterntu/0.0.1-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230511/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [adafruit-circuitpython-si5351]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [adafruit-circuitpython-si5351]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-si5351-1.3.5.tar.gz tmp/adafruit-circuitpython-si5351-1.3.6.tar.gz --markdown 20230511/a/adafruit-circuitpython-si5351/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/cf/bd/8488ec87ec4b70a54ec1e07c585b3022e45956051b92296e2fb7aee39bc9/hepai-1.0.9.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/e0/90/f82476f02a2bbf06bb221283493fb61d791f868844787c2471129ef149c3/nkululeko-0.45.2.tar.gz
+[2023-05-11 16:15:55] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-05-11 16:15:55] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.8.1.tar.gz tmp/hepai-1.0.9.tar.gz --markdown 20230511/h/hepai/1.0.8.1-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:15:55] INFO root fetch - processPackages [elastic-blast]: Start processing: sca-rhythm
+[2023-05-11 16:15:55] INFO root fetch - main [MainThread]: End processing [elastic-blast]: success
+[2023-05-11 16:15:55] INFO root fetch - processPackages [sca-rhythm]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-11 16:15:56] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-05-11 16:15:56] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.45.1.tar.gz tmp/nkululeko-0.45.2.tar.gz --markdown 20230511/n/nkululeko/0.45.1-0.45.2/diff.md --exclude *.pyd
+[2023-05-11 16:15:56] INFO root fetch - processPackages [sca-rhythm]: executing diffoscope
+[2023-05-11 16:15:56] INFO root fetch - processPackages [sca-rhythm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sca_rhythm-0.4.1.tar.gz tmp/sca_rhythm-0.4.2.tar.gz --markdown 20230511/s/sca-rhythm/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-11 16:15:56] INFO root fetch - main [MainThread]: End processing [schematic-db]: success
+[2023-05-11 16:15:56] INFO root fetch - main [MainThread]: End processing [python-substack]: success
+[2023-05-11 16:15:57] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-si5351]: success
+[2023-05-11 16:15:57] INFO root fetch - main [MainThread]: End processing [sca-rhythm]: success
+[2023-05-11 16:15:57] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-11 16:15:57] INFO root fetch - main [MainThread]: End processing [upstash-py]: success
+[2023-05-11 16:15:58] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-05-11 16:15:58] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-05-11 16:15:58] INFO root fetch - main [MainThread]: End processing [trademasterntu]: success
+[2023-05-11 16:15:59] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-05-11 16:15:59] INFO root fetch - main [MainThread]: Store serial: [18064520]
