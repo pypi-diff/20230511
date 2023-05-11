@@ -17266,3 +17266,144 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 13:18:04] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-alidns]: success
 [2023-05-11 13:18:36] INFO root fetch - main [MainThread]: End processing [pyg-sql]: success
 [2023-05-11 13:18:36] INFO root fetch - main [MainThread]: Store serial: [18062592]
+[2023-05-11 13:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062592]
+[2023-05-11 13:23:45] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazi
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccxt
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experiment-scheduler
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trademaster511
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ev-fleet-sim
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensv
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devxhub
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deterrers-api
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em-aretomo
+[2023-05-11 13:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyneweb
+[2023-05-11 13:23:45] WARNING root fetch - processPackages [experiment-scheduler]: Skipping, unable to determine old version
+[2023-05-11 13:23:45] INFO root fetch - processPackages [experiment-scheduler]: Start processing: pytedea
+[2023-05-11 13:23:45] INFO root fetch - main [MainThread]: End processing [experiment-scheduler] error
+[2023-05-11 13:23:45] WARNING root fetch - processPackages [trademaster511]: Skipping, unable to determine old version
+[2023-05-11 13:23:45] INFO root fetch - processPackages [trademaster511]: Start processing: rabbie
+[2023-05-11 13:23:45] INFO root fetch - main [MainThread]: End processing [trademaster511] error
+[2023-05-11 13:23:45] INFO root fetch - processPackages [pyneweb]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-11 13:23:45] INFO root fetch - processPackages [lazi]: New version: [1.2.0.15] Old Version: [1.1.0.post13]
+[2023-05-11 13:23:45] INFO root fetch - processPackages [scipion-em-aretomo]: New version: [3.6.5] Old Version: [3.6.3]
+[2023-05-11 13:23:46] WARNING root fetch - processPackages [opensv]: Skipping, unable to determine old version
+[2023-05-11 13:23:46] INFO root fetch - processPackages [deterrers-api]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-11 13:23:46] WARNING root fetch - processPackages [devxhub]: Skipping, unable to determine old version
+[2023-05-11 13:23:46] INFO root fetch - processPackages [opensv]: Start processing: tb-nightly
+[2023-05-11 13:23:46] INFO root fetch - main [MainThread]: End processing [opensv] error
+[2023-05-11 13:23:46] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-05-11 13:23:46] INFO root fetch - processPackages [devxhub]: Start processing: projen
+[2023-05-11 13:23:46] INFO root fetch - main [MainThread]: End processing [devxhub] error
+[2023-05-11 13:23:46] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-11 13:23:46] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-11 13:23:46] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-11 13:23:46] INFO root fetch - processPackages [rabbie]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pytedea]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 13:23:46] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230511/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/58/e9/2e58c3e80f6bf80f3406e7c9b4878e3d575948a493e4998560e87a862106/pyneweb-0.2.0.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230511/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [scipion-em-aretomo]: Downloading https://files.pythonhosted.org/packages/b6/93/0f43aa96d4bac1202d4dbc54b97dfdadc0d550d7a9b90463624521baf480/scipion-em-aretomo-3.6.3.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [deterrers-api]: Downloading https://files.pythonhosted.org/packages/8d/a9/3dcbd461b946fc34ff5fa01dbf9ea86f429f09809bb3d8f6fd573bc50025/deterrers-api-0.4.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/d4/d6/83c1dfe37ff93bee2798ec1d42744f83babb3e8a172cd9868316508d89ce/lazi-1.2.0.15.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [rabbie]: Downloading https://files.pythonhosted.org/packages/b1/ea/cef95fa1bffb06dc6d955632709d74e6f47e901f253c8d8b5eba5ceddca5/rabbie-0.0.4.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.1.0.post13.tar.gz tmp/lazi-1.2.0.15.tar.gz --markdown 20230511/l/lazi/1.1.0.post13-1.2.0.15/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230511/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/54/4c/9a578600bc899acf07306e33fd403e82adefd2552a6aa89cd86ad3c0c608/pyneweb-0.3.0.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230511/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pytedea]: Downloading https://files.pythonhosted.org/packages/1f/53/f922aa68696971a73686d5d97cf88e340d5926f73ca33f2b3dec927028d8/pytedea-0.0.5.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [deterrers-api]: Downloading https://files.pythonhosted.org/packages/19/57/8bea4b29f4266840fc6291d5e9268313808e14d71b19a47bdeba8f0b0e66/deterrers-api-0.4.1.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [scipion-em-aretomo]: Downloading https://files.pythonhosted.org/packages/d1/cf/002ae0e3f198c58abdef0e9867439ec338b06a3258e5a2e17c8c46daa26d/scipion-em-aretomo-3.6.5.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [rabbie]: Downloading https://files.pythonhosted.org/packages/4c/97/54f6993b5869a97bc5b715dd6ecdfb2c5350109b948a6c63b3ff8aedb8f9/rabbie-0.0.5.tar.gz
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pyneweb]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pyneweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneweb-0.2.0.tar.gz tmp/pyneweb-0.3.0.tar.gz --markdown 20230511/p/pyneweb/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [deterrers-api]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [deterrers-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deterrers-api-0.4.tar.gz tmp/deterrers-api-0.4.1.tar.gz --markdown 20230511/d/deterrers-api/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pytedea]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [pytedea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytedea-0.0.4.tar.gz tmp/pytedea-0.0.5.tar.gz --markdown 20230511/p/pytedea/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [scipion-em-aretomo]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [scipion-em-aretomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-aretomo-3.6.3.tar.gz tmp/scipion-em-aretomo-3.6.5.tar.gz --markdown 20230511/s/scipion-em-aretomo/3.6.3-3.6.5/diff.md --exclude *.pyd
+[2023-05-11 13:23:46] INFO root fetch - processPackages [rabbie]: executing diffoscope
+[2023-05-11 13:23:46] INFO root fetch - processPackages [rabbie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbie-0.0.4.tar.gz tmp/rabbie-0.0.5.tar.gz --markdown 20230511/r/rabbie/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 13:23:48] INFO root fetch - processPackages [lazi]: Start processing: pikendus-backend
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pikendus-backend]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-11 13:23:48] INFO root fetch - processPackages [projen]: Start processing: pepperize.cdk-private-bucket
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pikendus-backend]: Downloading https://files.pythonhosted.org/packages/eb/99/3225093466ebf47e0d7dfdb59070e36c93605f3b8317a71650c9e8ebb4b3/pikendus_backend-0.2.0.tar.gz
+[2023-05-11 13:23:48] INFO root fetch - processPackages [rabbie]: Start processing: tour-guide
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [rabbie]: success
+[2023-05-11 13:23:48] INFO root fetch - processPackages [ev-fleet-sim]: Start processing: Unstop
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-05-11 13:23:48] WARNING root fetch - processPackages [Unstop]: Skipping, unable to determine old version
+[2023-05-11 13:23:48] INFO root fetch - processPackages [Unstop]: Start processing: viadot
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [Unstop] error
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pyneweb]: Start processing: alibabacloud-alidns20150109-py2
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [pyneweb]: success
+[2023-05-11 13:23:48] INFO root fetch - processPackages [pikendus-backend]: Downloading https://files.pythonhosted.org/packages/b0/83/8b76333db025c96bac38a8edbb27f0658c1e8ce2b9902b8143cc1e6a3d23/pikendus_backend-0.2.2.tar.gz
+[2023-05-11 13:23:48] INFO root fetch - processPackages [alibabacloud-alidns20150109-py2]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 13:23:48] INFO root fetch - processPackages [deterrers-api]: Start processing: pagexml-tools
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [deterrers-api]: success
+[2023-05-11 13:23:48] WARNING root fetch - processPackages [tour-guide]: Skipping, unable to determine old version
+[2023-05-11 13:23:48] INFO root fetch - processPackages [tour-guide]: Start processing: alibabacloud-alidns20150109
+[2023-05-11 13:23:48] INFO root fetch - main [MainThread]: End processing [tour-guide] error
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pikendus-backend]: executing diffoscope
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pikendus-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikendus_backend-0.2.0.tar.gz tmp/pikendus_backend-0.2.2.tar.gz --markdown 20230511/p/pikendus-backend/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 13:23:49] INFO root fetch - processPackages [viadot]: New version: [2.0a9] Old Version: [2.0a8]
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pagexml-tools]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109-py2]: Downloading https://files.pythonhosted.org/packages/0a/84/b5896547c23f2264e8b2d63ce6c976d740b66a59e7e0d933be974cae455a/alibabacloud_alidns20150109_py2-1.0.1.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109]: Downloading https://files.pythonhosted.org/packages/3f/44/2cbfafd50c02eeadcfe420a8d8f83768eb97c13ebb28096cee8e5a99589d/alibabacloud_alidns20150109-3.0.2.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pagexml-tools]: Downloading https://files.pythonhosted.org/packages/51/a7/bdcf1dfa0203bced9d8f25bdd421e2a8fd773748ec20266a058d7c5eef66/pagexml_tools-0.3.3.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [viadot]: Downloading https://files.pythonhosted.org/packages/bc/4f/a8885f208b9c60774953fea5affa0c87ab49bd1a080c74f834ef35e2c906/viadot-2.0a8.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [scipion-em-aretomo]: Start processing: sphinxext-bsb
+[2023-05-11 13:23:49] INFO root fetch - main [MainThread]: End processing [scipion-em-aretomo]: success
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109-py2]: Downloading https://files.pythonhosted.org/packages/69/7d/97afd65838c4180f5cbb938a7300252e845ab2e4b21f4ba7777ec013da50/alibabacloud_alidns20150109_py2-1.0.2.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109]: Downloading https://files.pythonhosted.org/packages/e7/63/181b01b065834c0d914152c1d2bb34ba12239d2772d84a337df3ef5d30d7/alibabacloud_alidns20150109-3.0.3.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pagexml-tools]: Downloading https://files.pythonhosted.org/packages/87/c6/6542c92cc3a4e9d8a5778119adae404732a3db381e8cb34f9f113205aea0/pagexml_tools-0.3.4.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [sphinxext-bsb]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109-py2]: executing diffoscope
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alidns20150109_py2-1.0.1.tar.gz tmp/alibabacloud_alidns20150109_py2-1.0.2.tar.gz --markdown 20230511/a/alibabacloud-alidns20150109-py2/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pagexml-tools]: executing diffoscope
+[2023-05-11 13:23:49] INFO root fetch - processPackages [pagexml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pagexml_tools-0.3.3.tar.gz tmp/pagexml_tools-0.3.4.tar.gz --markdown 20230511/p/pagexml-tools/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109]: executing diffoscope
+[2023-05-11 13:23:49] INFO root fetch - processPackages [alibabacloud-alidns20150109]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alidns20150109-3.0.2.tar.gz tmp/alibabacloud_alidns20150109-3.0.3.tar.gz --markdown 20230511/a/alibabacloud-alidns20150109/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-05-11 13:23:49] INFO root fetch - processPackages [sphinxext-bsb]: Downloading https://files.pythonhosted.org/packages/65/d4/1fbcd55a6bc8e9e83db38e5fc1011884661a2e3c8e94a0fab6d9c53e1274/sphinxext-bsb-0.2.0.tar.gz
+[2023-05-11 13:23:49] INFO root fetch - processPackages [viadot]: Downloading https://files.pythonhosted.org/packages/6d/83/4a908a5a459caedd1bd262ecdf2ba395364a60dfa7814528cb5a74d45481/viadot-2.0a9.tar.gz
+[2023-05-11 13:23:50] INFO root fetch - processPackages [sphinxext-bsb]: Downloading https://files.pythonhosted.org/packages/cb/c2/d6d5a1909611ec533d9835be31175047f2e68e026a90d42893c70473f402/sphinxext-bsb-0.2.1.tar.gz
+[2023-05-11 13:23:50] INFO root fetch - processPackages [viadot]: executing diffoscope
+[2023-05-11 13:23:50] INFO root fetch - processPackages [viadot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viadot-2.0a8.tar.gz tmp/viadot-2.0a9.tar.gz --markdown 20230511/v/viadot/2.0a8-2.0a9/diff.md --exclude *.pyd
+[2023-05-11 13:23:50] INFO root fetch - processPackages [sphinxext-bsb]: executing diffoscope
+[2023-05-11 13:23:50] INFO root fetch - processPackages [sphinxext-bsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxext-bsb-0.2.0.tar.gz tmp/sphinxext-bsb-0.2.1.tar.gz --markdown 20230511/s/sphinxext-bsb/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 13:23:50] INFO root fetch - processPackages [pikendus-backend]: Start processing: torchtnt-nightly
+[2023-05-11 13:23:50] INFO root fetch - main [MainThread]: End processing [pikendus-backend]: success
+[2023-05-11 13:23:50] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-11 13:23:50] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: autokattis
+[2023-05-11 13:23:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-05-11 13:23:50] INFO root fetch - processPackages [tb-nightly]: Start processing: navalmartin-mir-vision-utils
+[2023-05-11 13:23:50] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-11 13:23:50] WARNING root fetch - processPackages [autokattis]: Skipping, unable to determine old version
+[2023-05-11 13:23:50] INFO root fetch - main [MainThread]: End processing [autokattis] error
+[2023-05-11 13:23:50] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 13:23:50] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-11 13:23:50] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230511/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-11 13:23:50] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-11 13:23:50] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230511/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 13:23:51] INFO root fetch - main [MainThread]: End processing [pytedea]: success
+[2023-05-11 13:23:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-alidns20150109]: success
+[2023-05-11 13:23:51] INFO root fetch - main [MainThread]: End processing [pagexml-tools]: success
+[2023-05-11 13:23:51] INFO root fetch - main [MainThread]: End processing [sphinxext-bsb]: success
+[2023-05-11 13:23:52] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-11 13:23:52] INFO root fetch - main [MainThread]: End processing [viadot]: success
+[2023-05-11 13:23:53] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-11 13:23:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-alidns20150109-py2]: success
+[2023-05-11 13:23:55] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-11 13:23:55] INFO root fetch - main [MainThread]: Store serial: [18062684]
