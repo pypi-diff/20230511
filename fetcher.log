@@ -4034,3 +4034,17 @@ EOFError: EOF read where object expected
 [2023-05-11 03:02:01] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-05-11 03:02:01] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2023-05-11 03:02:01] INFO root fetch - main [MainThread]: Store serial: [18055324]
+[2023-05-11 03:07:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18055324]
+[2023-05-11 03:07:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-11 03:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ktrain
+[2023-05-11 03:07:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phanterpwa
+[2023-05-11 03:07:10] INFO root fetch - processPackages [phanterpwa]: New version: [13.13.3] Old Version: [13.13.2]
+[2023-05-11 03:07:10] INFO root fetch - processPackages [ktrain]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-11 03:07:10] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/8b/57/8842f4a284709b26ebc49e15832a4c5c510cd40faecda1cc81ef225294fb/phanterpwa-13.13.3.tar.gz
+[2023-05-11 03:07:10] INFO root fetch - processPackages [ktrain]: executing diffoscope
+[2023-05-11 03:07:10] INFO root fetch - processPackages [ktrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ktrain-0.9.3.tar.gz tmp/ktrain-0.9.4.tar.gz --markdown 20230511/k/ktrain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-11 03:07:11] INFO root fetch - processPackages [phanterpwa]: executing diffoscope
+[2023-05-11 03:07:11] INFO root fetch - processPackages [phanterpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanterpwa-13.13.2.tar.gz tmp/phanterpwa-13.13.3.tar.gz --markdown 20230511/p/phanterpwa/13.13.2-13.13.3/diff.md --exclude *.pyd
+[2023-05-11 03:07:12] INFO root fetch - main [MainThread]: End processing [ktrain]: success
+[2023-05-11 03:07:15] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
+[2023-05-11 03:07:15] INFO root fetch - main [MainThread]: Store serial: [18055381]
