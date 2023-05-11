@@ -21889,3 +21889,102 @@ EOFError: EOF read where object expected
 [2023-05-11 17:09:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2023-05-11 17:09:46] INFO root fetch - main [MainThread]: End processing [osmosispy]: success
 [2023-05-11 17:09:46] INFO root fetch - main [MainThread]: Store serial: [18065238]
+[2023-05-11 17:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065238]
+[2023-05-11 17:14:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testarchiver
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labvirtual
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scandal
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt4all
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dev-dependencies
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TINTOlib
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enstools-compression
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sphinx-thunlp-theme1
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rpycocotools
+[2023-05-11 17:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testarchiver
+[2023-05-11 17:14:56] INFO root fetch - processPackages [gpt4all]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [scandal]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [dev-dependencies]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [labvirtual]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-11 17:14:56] WARNING root fetch - processPackages [sphinx-thunlp-theme1]: Skipping, unable to determine old version
+[2023-05-11 17:14:56] INFO root fetch - processPackages [sphinx-thunlp-theme1]: Start processing: hotsos
+[2023-05-11 17:14:56] INFO root fetch - main [MainThread]: End processing [sphinx-thunlp-theme1] error
+[2023-05-11 17:14:56] INFO root fetch - processPackages [enstools-compression]: New version: [2023.5] Old Version: [2023.4.1]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: New version: [2.6.4rc4949407461] Old Version: [2.6.4rc4949312958]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [rpycocotools]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: New version: [2.6.4rc4949407461] Old Version: [2.6.4rc4949312958]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [hotsos]: New version: [1.1.13.post9] Old Version: [1.1.13.post8]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [dev-dependencies]: Downloading https://files.pythonhosted.org/packages/0a/aa/569c62886b2ba4b9c4a79cc26b4e1865f8b5b269d9748ac3dcc42310b60f/dev_dependencies-0.0.3.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/d0/7b/13fb2ad1ac3b6456cc226a6dbb802f6691064da383f68dd4d0f26a536b63/labvirtual-0.3.1.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/c7/43/ead5daed7cefdaa8ad81397fa0626d4caecfc0356884ce3096c9735669b7/tintolib-0.0.2-py3-none-any.whl
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/eb/d1/757fc26af5e5fb83fc150206bc30965dd703ad4f8025a2d44d96b8473cd5/testarchiver-2.6.4rc4949407461.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [enstools-compression]: Downloading https://files.pythonhosted.org/packages/f0/b6/8848478693b9493ae52d4364f46b67623a0631964ab4da9b3329d4d4c439/enstools-compression-2023.4.1.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [gpt4all]: Downloading https://files.pythonhosted.org/packages/33/7f/c403415b804222c0881c8faa3e3c71826ea2837b399c725ade511bf239d2/gpt4all-0.2.0-py3-none-win_amd64.whl
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/eb/d1/757fc26af5e5fb83fc150206bc30965dd703ad4f8025a2d44d96b8473cd5/testarchiver-2.6.4rc4949407461.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [scandal]: Downloading https://files.pythonhosted.org/packages/27/b9/c80c0c9321b1cf19f8cde35986e31b1ec65c98f3f44ed18ebd9f2d860650/scandal-0.1.1.tar.gz
+[2023-05-11 17:14:56] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43632056>=10485760
+[2023-05-11 17:14:56] INFO root fetch - processPackages [labvirtual]: Start processing: journalmk
+[2023-05-11 17:14:56] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 17:14:56] WARNING root fetch - processPackages [TINTOlib]: Skipping package: exceeds size limit 28669031>=10485760
+[2023-05-11 17:14:56] INFO root fetch - processPackages [TINTOlib]: Start processing: mqt.qmap
+[2023-05-11 17:14:56] INFO root fetch - main [MainThread]: End processing [TINTOlib] error
+[2023-05-11 17:14:56] INFO root fetch - processPackages [mqt.qmap]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [journalmk]: New version: [2023.1.1] Old Version: [2022.3]
+[2023-05-11 17:14:56] INFO root fetch - processPackages [dev-dependencies]: Downloading https://files.pythonhosted.org/packages/bf/5c/f581a9b93174bebacd1d50d607b1db507db6bb8c6574fbf6905ff9d2e5ac/dev-dependencies-0.1.1.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [rpycocotools]: Downloading https://files.pythonhosted.org/packages/c0/6f/3d384f98abc6fecb3258825a30d2bdf758df8e2f048ae1d6622dbc297db6/rpycocotools-0.0.5.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.4rc4949312958.tar.gz tmp/testarchiver-2.6.4rc4949407461.tar.gz --markdown 20230511/t/testarchiver/2.6.4rc4949312958-2.6.4rc4949407461/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.4rc4949312958.tar.gz tmp/testarchiver-2.6.4rc4949407461.tar.gz --markdown 20230511/t/testarchiver/2.6.4rc4949312958-2.6.4rc4949407461/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [gpt4all]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [gpt4all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-0.1.9-py3-none-win_amd64.whl.zip tmp/gpt4all-0.2.0-py3-none-win_amd64.whl.zip --markdown 20230511/g/gpt4all/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [dev-dependencies]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [dev-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev_dependencies-0.0.3.tar.gz tmp/dev-dependencies-0.1.1.tar.gz --markdown 20230511/d/dev-dependencies/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/83/b2/9992242ec9cd59f60a941b3e39186a2c8a8679e3524afe505cc1674c6dba/mqt.qmap-2.1.3.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.13.post8.tar.gz tmp/hotsos-1.1.13.post9.tar.gz --markdown 20230511/h/hotsos/1.1.13.post8-1.1.13.post9/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [rpycocotools]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [rpycocotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpycocotools-0.0.4.tar.gz tmp/rpycocotools-0.0.5.tar.gz --markdown 20230511/r/rpycocotools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [journalmk]: Downloading https://files.pythonhosted.org/packages/f7/8e/39526af94e751ca74f6148f380380cacf947f6f7377df5777d830f5765e0/journalmk-2022.3.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [enstools-compression]: Downloading https://files.pythonhosted.org/packages/ac/bf/571aa216921a8551b35b80eebdb7fe64e97faae27ccbe94b51b0a47af42b/enstools-compression-2023.5.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [scandal]: Downloading https://files.pythonhosted.org/packages/d7/fb/fa93f15df2b201e23e5393a3ec87507f31c0c119df6066e1ee6385094067/scandal-0.1.4.tar.gz
+[2023-05-11 17:14:56] INFO root fetch - processPackages [scandal]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [scandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandal-0.1.1.tar.gz tmp/scandal-0.1.4.tar.gz --markdown 20230511/s/scandal/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 17:14:56] INFO root fetch - processPackages [enstools-compression]: executing diffoscope
+[2023-05-11 17:14:56] INFO root fetch - processPackages [enstools-compression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstools-compression-2023.4.1.tar.gz tmp/enstools-compression-2023.5.tar.gz --markdown 20230511/e/enstools-compression/2023.4.1-2023.5/diff.md --exclude *.pyd
+[2023-05-11 17:14:57] INFO root fetch - processPackages [journalmk]: Downloading https://files.pythonhosted.org/packages/91/73/57b00f2a1ca5ca76903cc773f5ef0a0d75a6d150e04da9d7397eca8164a3/journalmk-2023.1.1.tar.gz
+[2023-05-11 17:14:57] INFO root fetch - processPackages [journalmk]: executing diffoscope
+[2023-05-11 17:14:57] INFO root fetch - processPackages [journalmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journalmk-2022.3.tar.gz tmp/journalmk-2023.1.1.tar.gz --markdown 20230511/j/journalmk/2022.3-2023.1.1/diff.md --exclude *.pyd
+[2023-05-11 17:14:57] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/b9/e5/22660586d1cdcdca462e979bbae7d4f9b9aad7824f2f420a822fbfeada37/mqt.qmap-2.1.4.tar.gz
+[2023-05-11 17:14:58] INFO root fetch - processPackages [mqt.qmap]: executing diffoscope
+[2023-05-11 17:14:58] INFO root fetch - processPackages [mqt.qmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt.qmap-2.1.3.tar.gz tmp/mqt.qmap-2.1.4.tar.gz --markdown 20230511/m/mqt.qmap/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-11 17:14:58] INFO root fetch - processPackages [dev-dependencies]: Start processing: testarchiver
+[2023-05-11 17:14:58] INFO root fetch - main [MainThread]: End processing [dev-dependencies]: success
+[2023-05-11 17:14:58] INFO root fetch - processPackages [testarchiver]: New version: [3.0.0rc4949483441] Old Version: [3.0.0rc4949459940]
+[2023-05-11 17:14:58] INFO root fetch - processPackages [scandal]: Start processing: example-package-9itahi
+[2023-05-11 17:14:58] INFO root fetch - main [MainThread]: End processing [scandal]: success
+[2023-05-11 17:14:58] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/7b/1f/bfcdea1708d000813cdca5491541b2072c5bd51fb4d8b6450d26a0786b2a/testarchiver-3.0.0rc4949459940.tar.gz
+[2023-05-11 17:14:58] WARNING root fetch - processPackages [example-package-9itahi]: Skipping, unable to determine old version
+[2023-05-11 17:14:58] INFO root fetch - processPackages [example-package-9itahi]: Start processing: PatryksAutoAI
+[2023-05-11 17:14:58] INFO root fetch - main [MainThread]: End processing [example-package-9itahi] error
+[2023-05-11 17:14:58] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-11 17:14:58] INFO root fetch - processPackages [journalmk]: Start processing: etl-jobs
+[2023-05-11 17:14:58] INFO root fetch - main [MainThread]: End processing [journalmk]: success
+[2023-05-11 17:14:58] WARNING root fetch - processPackages [etl-jobs]: Skipping, unable to determine old version
+[2023-05-11 17:14:58] INFO root fetch - main [MainThread]: End processing [etl-jobs] error
+[2023-05-11 17:14:58] INFO root fetch - main [MainThread]: End processing [enstools-compression]: success
+[2023-05-11 17:14:59] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 17:14:59] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/cf/ed/24fdc09559e4cb3484843067e47583d6fb9c574fb127c51a91246fbc049f/PatryksAutoAI-0.2.7.tar.gz
+[2023-05-11 17:14:59] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/93/b6/3eacf4a852c6f042e1074b20340c7c9e92c051c3584dc9bfa9a0140f4614/testarchiver-3.0.0rc4949483441.tar.gz
+[2023-05-11 17:14:59] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 17:14:59] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.6.tar.gz tmp/PatryksAutoAI-0.2.7.tar.gz --markdown 20230511/P/PatryksAutoAI/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-11 17:14:59] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 17:14:59] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-3.0.0rc4949459940.tar.gz tmp/testarchiver-3.0.0rc4949483441.tar.gz --markdown 20230511/t/testarchiver/3.0.0rc4949459940-3.0.0rc4949483441/diff.md --exclude *.pyd
+[2023-05-11 17:14:59] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 17:14:59] INFO root fetch - main [MainThread]: End processing [rpycocotools]: success
+[2023-05-11 17:15:00] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 17:15:00] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 17:15:02] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-05-11 17:15:02] INFO root fetch - main [MainThread]: End processing [gpt4all]: success
+[2023-05-11 17:15:23] INFO root fetch - main [MainThread]: End processing [mqt.qmap]: success
+[2023-05-11 17:15:23] INFO root fetch - main [MainThread]: Store serial: [18065347]
