@@ -16500,3 +16500,166 @@ EOFError: EOF read where object expected
 [2023-05-11 12:40:21] INFO root fetch - main [MainThread]: End processing [spox]: success
 [2023-05-11 12:40:24] INFO root fetch - main [MainThread]: End processing [vessl]: success
 [2023-05-11 12:40:24] INFO root fetch - main [MainThread]: Store serial: [18062187]
+[2023-05-11 12:45:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062187]
+[2023-05-11 12:45:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pts-fault-injection
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: channels-zmq
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazi
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: officekit
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osais
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: venakatest
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: secmarker-py3
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrfu
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bibster
+[2023-05-11 12:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dynalite-devices
+[2023-05-11 12:45:34] INFO root fetch - processPackages [lazi]: New version: [1.1.0.post13] Old Version: [1.0.4]
+[2023-05-11 12:45:34] INFO root fetch - processPackages [osais]: New version: [1.0.39] Old Version: [1.0.38]
+[2023-05-11 12:45:34] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-05-11 12:45:34] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.38.tar.gz tmp/osais-1.0.39.tar.gz --markdown 20230511/o/osais/1.0.38-1.0.39/diff.md --exclude *.pyd
+[2023-05-11 12:45:34] WARNING root fetch - processPackages [officekit]: Skipping, unable to determine old version
+[2023-05-11 12:45:34] INFO root fetch - processPackages [officekit]: Start processing: goldretriever
+[2023-05-11 12:45:34] INFO root fetch - processPackages [venakatest]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-05-11 12:45:34] WARNING root fetch - processPackages [secmarker-py3]: Skipping, unable to determine old version
+[2023-05-11 12:45:34] INFO root fetch - processPackages [secmarker-py3]: Start processing: wagtail-synopsis
+[2023-05-11 12:45:34] WARNING root fetch - processPackages [channels-zmq]: Skipping, unable to determine old version
+[2023-05-11 12:45:34] INFO root fetch - processPackages [channels-zmq]: Start processing: garpix-company
+[2023-05-11 12:45:34] INFO root fetch - main [MainThread]: End processing [officekit] error
+[2023-05-11 12:45:34] INFO root fetch - main [MainThread]: End processing [secmarker-py3] error
+[2023-05-11 12:45:34] INFO root fetch - processPackages [pts-fault-injection]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-11 12:45:34] INFO root fetch - main [MainThread]: End processing [channels-zmq] error
+[2023-05-11 12:45:34] WARNING root fetch - processPackages [bibster]: Skipping, unable to determine old version
+[2023-05-11 12:45:34] INFO root fetch - processPackages [bibster]: Start processing: spectacularAI
+[2023-05-11 12:45:34] INFO root fetch - main [MainThread]: End processing [bibster] error
+[2023-05-11 12:45:34] INFO root fetch - processPackages [dynalite-devices]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 12:45:34] INFO root fetch - processPackages [pyrfu]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-11 12:45:34] INFO root fetch - processPackages [garpix-company]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-05-11 12:45:34] INFO root fetch - processPackages [lazi]: Downloading https://files.pythonhosted.org/packages/de/49/ffed4c5abb2008a7dce74a2c07a2b103a27cd1072c20b6ce9aec2defbcf7/lazi-1.1.0.post13.tar.gz
+[2023-05-11 12:45:34] WARNING root fetch - processPackages [wagtail-synopsis]: Skipping, unable to determine old version
+[2023-05-11 12:45:34] INFO root fetch - main [MainThread]: End processing [wagtail-synopsis] error
+[2023-05-11 12:45:34] INFO root fetch - processPackages [goldretriever]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 12:45:34] INFO root fetch - processPackages [lazi]: executing diffoscope
+[2023-05-11 12:45:34] INFO root fetch - processPackages [lazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazi-1.0.4.tar.gz tmp/lazi-1.1.0.post13.tar.gz --markdown 20230511/l/lazi/1.0.4-1.1.0.post13/diff.md --exclude *.pyd
+[2023-05-11 12:45:34] INFO root fetch - processPackages [pts-fault-injection]: Downloading https://files.pythonhosted.org/packages/78/09/4d655ff50d6ba8f1c23b68d82ba2ea01c0d7338145c2f404ebd6209e45b3/pts_fault_injection-0.0.5.tar.gz
+[2023-05-11 12:45:34] INFO root fetch - processPackages [pyrfu]: Downloading https://files.pythonhosted.org/packages/c8/e3/6c48b7120225f0fd925d77a3b360644c4a73e1c2952c8960ac83bdebf184/pyrfu-2.3.8.tar.gz
+[2023-05-11 12:45:34] INFO root fetch - processPackages [dynalite-devices]: Downloading https://files.pythonhosted.org/packages/c1/26/7e53f14be908c85d53fc77eb0781079089ff227a4adb2aa1b3b1a0786168/dynalite_devices-0.1.8.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [spectacularAI]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 12:45:35] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/52/c4/19a71e8f4d572d3ba3270f83658801bdf5cd3019d7ddde1edc29c90984c5/garpix_company-2.7.3.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [goldretriever]: Downloading https://files.pythonhosted.org/packages/64/ae/4e63525dd7f575234148ae6c991c599401657c0f70863c175eb45f64aef9/goldretriever-0.1.0.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [venakatest]: Downloading https://files.pythonhosted.org/packages/aa/32/1891ebbd1245b707fe53e6fa7dc712808dc931bf89354fd70fbb697d32d4/venakatest-0.1.36.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [venakatest]: executing diffoscope
+[2023-05-11 12:45:35] INFO root fetch - processPackages [venakatest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venakatest-0.1.35.tar.gz tmp/venakatest-0.1.36.tar.gz --markdown 20230511/v/venakatest/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-05-11 12:45:35] INFO root fetch - processPackages [garpix-company]: executing diffoscope
+[2023-05-11 12:45:35] INFO root fetch - processPackages [garpix-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_company-2.7.2.tar.gz tmp/garpix_company-2.7.3.tar.gz --markdown 20230511/g/garpix-company/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-05-11 12:45:35] INFO root fetch - processPackages [pts-fault-injection]: Downloading https://files.pythonhosted.org/packages/c8/61/56e2d0e0b8a4171b56abe83bf3498fa48032855a003635830ab0747dcfee/pts_fault_injection-0.0.7.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [goldretriever]: Downloading https://files.pythonhosted.org/packages/14/66/2c96058f27ad76390c13116543c752019db6389334397e2a95df792424ce/goldretriever-0.1.1.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [pts-fault-injection]: executing diffoscope
+[2023-05-11 12:45:35] INFO root fetch - processPackages [pts-fault-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pts_fault_injection-0.0.5.tar.gz tmp/pts_fault_injection-0.0.7.tar.gz --markdown 20230511/p/pts-fault-injection/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 12:45:35] INFO root fetch - processPackages [pyrfu]: Downloading https://files.pythonhosted.org/packages/00/1b/a9cce0b37f300d02ea02d6a482feb6852956232b628d51133834731767bf/pyrfu-2.3.9.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [dynalite-devices]: Downloading https://files.pythonhosted.org/packages/2d/d1/a410520eb932d676ce9da50e1d32381db693e814adf947afe3c661f25c0c/dynalite_devices-0.1.9.tar.gz
+[2023-05-11 12:45:35] INFO root fetch - processPackages [spectacularAI]: executing diffoscope
+[2023-05-11 12:45:35] INFO root fetch - processPackages [spectacularAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230511/s/spectacularAI/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 12:45:35] INFO root fetch - processPackages [goldretriever]: executing diffoscope
+[2023-05-11 12:45:35] INFO root fetch - processPackages [goldretriever]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goldretriever-0.1.0.tar.gz tmp/goldretriever-0.1.1.tar.gz --markdown 20230511/g/goldretriever/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 12:45:35] WARNING root fetch - processPackages [pyrfu]: Skipping package: exceeds size limit 10579393>=10485760
+[2023-05-11 12:45:35] INFO root fetch - main [MainThread]: End processing [pyrfu] error
+[2023-05-11 12:45:35] INFO root fetch - processPackages [dynalite-devices]: executing diffoscope
+[2023-05-11 12:45:35] INFO root fetch - processPackages [dynalite-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynalite_devices-0.1.8.tar.gz tmp/dynalite_devices-0.1.9.tar.gz --markdown 20230511/d/dynalite-devices/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 12:45:36] INFO root fetch - main [MainThread]: End processing [lazi]: success
+[2023-05-11 12:45:36] INFO root fetch - main [MainThread]: End processing [venakatest]: success
+[2023-05-11 12:45:36] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-05-11 12:45:36] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
+[2023-05-11 12:45:36] INFO root fetch - main [MainThread]: End processing [pts-fault-injection]: success
+[2023-05-11 12:45:37] INFO root fetch - main [MainThread]: End processing [dynalite-devices]: success
+[2023-05-11 12:45:37] ERROR root fetch - processPackages [spectacularAI]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139971306462560)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139971440680448)
+
+[2023-05-11 12:45:37] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
+[2023-05-11 12:45:38] INFO root fetch - main [MainThread]: End processing [goldretriever]: success
+[2023-05-11 12:45:38] INFO root fetch - main [MainThread]: Store serial: [18062242]
