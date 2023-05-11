@@ -10006,3 +10006,54 @@ EOFError: EOF read where object expected
 [2023-05-11 07:56:57] INFO root fetch - main [MainThread]: End processing [athiruma-cloud-governance]: success
 [2023-05-11 07:56:58] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2023-05-11 07:56:58] INFO root fetch - main [MainThread]: Store serial: [18058663]
+[2023-05-11 08:02:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058663]
+[2023-05-11 08:02:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aspose-cells
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-akamai
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irails
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azuread
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-cloudflare
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-ak-68b3ee3230284cddaa19740dcaf251d8
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rum-with-telegram
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zebedee
+[2023-05-11 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tryconf
+[2023-05-11 08:02:07] INFO root fetch - processPackages [aspose-cells]: New version: [23.5.0] Old Version: [23.4.0]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [irails]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-akamai]: New version: [4.6.0a1683782330] Old Version: [4.5.0a1683661246]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.1.0a1683783241] Old Version: [5.1.0a1683609631]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2023-05-11 08:02:07] INFO root fetch - processPackages [zebedee]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 08:02:07] WARNING root fetch - processPackages [tryconf]: Skipping, unable to determine old version
+[2023-05-11 08:02:07] INFO root fetch - main [MainThread]: End processing [tryconf] error
+[2023-05-11 08:02:07] INFO root fetch - processPackages [zebedee]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [zebedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebedee-0.0.1.tar.gz tmp/zebedee-0.0.2.tar.gz --markdown 20230511/z/zebedee/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 08:02:07] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/93/c1/e7f0101e551035f8605c6d2373187e35b2ded8f574bb23f9da0f10955a61/irails-1.2.8.tar.gz
+[2023-05-11 08:02:07] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: Downloading https://files.pythonhosted.org/packages/83/c2/1daa3e0ae67bf245a817c93c8f35d604f725e43145f55977348afb64e883/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.4.tar.gz
+[2023-05-11 08:02:07] INFO root fetch - processPackages [aspose-cells]: Downloading https://files.pythonhosted.org/packages/0f/79/b882683cc4898bcd41832dd7bdfccaad35102dedd7a38c9f7531faf2b9e0/aspose-cells-23.4.0.tar.gz
+[2023-05-11 08:02:07] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/de/f9/7b3ef30eb4fc60948de69fc0f89801ee5229f8fbff2b1dc59397ec757313/rum_with_telegram-0.9.9.tar.gz
+[2023-05-11 08:02:07] WARNING root fetch - processPackages [aspose-cells]: Skipping package: exceeds size limit 12356092>=10485760
+[2023-05-11 08:02:07] INFO root fetch - main [MainThread]: End processing [aspose-cells] error
+[2023-05-11 08:02:07] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.3.tar.gz tmp/antchain_ak_68b3ee3230284cddaa19740dcaf251d8-1.0.4.tar.gz --markdown 20230511/a/antchain-ak-68b3ee3230284cddaa19740dcaf251d8/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 08:02:07] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.2.7.tar.gz tmp/irails-1.2.8.tar.gz --markdown 20230511/i/irails/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-05-11 08:02:07] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.8.tar.gz tmp/rum_with_telegram-0.9.9.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/66/9f/44c8f2a99c0a7b8a4d3567f882a01af73af885062bd5d5b7db80dfe33044/pulumi_akamai-4.6.0a1683782330.tar.gz
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/3c/b0/f2b1b2f59945a7cc83dd19d6e3122116177ef1a85f39cdd4deb6e7e7c877/pulumi_cloudflare-5.1.0a1683783241.tar.gz
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20230511/p/pulumi-azuread/5.9.0-5.9.0a1637590268/diff.md --exclude *.pyd
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.1.0a1683609631.tar.gz tmp/pulumi_cloudflare-5.1.0a1683783241.tar.gz --markdown 20230511/p/pulumi-cloudflare/5.1.0a1683609631-5.1.0a1683783241/diff.md --exclude *.pyd
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-05-11 08:02:07] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-4.5.0a1683661246.tar.gz tmp/pulumi_akamai-4.6.0a1683782330.tar.gz --markdown 20230511/p/pulumi-akamai/4.5.0a1683661246-4.6.0a1683782330/diff.md --exclude *.pyd
+[2023-05-11 08:02:08] INFO root fetch - main [MainThread]: End processing [zebedee]: success
+[2023-05-11 08:02:09] INFO root fetch - main [MainThread]: End processing [antchain-ak-68b3ee3230284cddaa19740dcaf251d8]: success
+[2023-05-11 08:02:09] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 08:02:09] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-11 08:02:09] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2023-05-11 08:02:10] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-05-11 08:02:11] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2023-05-11 08:02:11] INFO root fetch - main [MainThread]: Store serial: [18058693]
