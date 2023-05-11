@@ -3229,3 +3229,9 @@ EOFError: EOF read where object expected
 [2023-05-11 01:56:32] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
 [2023-05-11 01:56:32] INFO root fetch - main [MainThread]: End processing [leafmap]: success
 [2023-05-11 01:56:32] INFO root fetch - main [MainThread]: Store serial: [18054721]
+[2023-05-11 02:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054721]
+[2023-05-11 02:01:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-05-11 02:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaml-sync
+[2023-05-11 02:01:40] WARNING root fetch - processPackages [yaml-sync]: Skipping, unable to determine old version
+[2023-05-11 02:01:40] INFO root fetch - main [MainThread]: End processing [yaml-sync] error
+[2023-05-11 02:01:40] INFO root fetch - main [MainThread]: Store serial: [18054726]
