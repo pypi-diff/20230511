@@ -22516,3 +22516,136 @@ EOFError: EOF read where object expected
 [2023-05-11 17:42:23] INFO root fetch - main [MainThread]: End processing [ms3]: success
 [2023-05-11 17:42:45] INFO root fetch - main [MainThread]: End processing [btrack]: success
 [2023-05-11 17:42:45] INFO root fetch - main [MainThread]: Store serial: [18065735]
+[2023-05-11 17:47:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065735]
+[2023-05-11 17:47:57] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minot
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autumn8
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manageprojects
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fuzzy-search
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: estela
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ImageMagic
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irails
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: did-py
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steam-pysigma
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sitkibex
+[2023-05-11 17:47:57] INFO root fetch - processPackages [irails]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.5.6] Old Version: [2023.5.5]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/de/5e/36db9b9fa7a6a76aa16ee07e2031455b4bb341ea08a41508d1908caacbaa/steam-pysigma-2023.5.5.tar.gz
+[2023-05-11 17:47:57] INFO root fetch - processPackages [fuzzy-search]: New version: [2.0.0a0] Old Version: [1.6.0]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [minot]: New version: [1.1.2] Old Version: [0.1.1]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ImageMagic]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc3] Old Version: [1.0.5rc2]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [manageprojects]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 17:47:57] WARNING root fetch - processPackages [steam-pysigma]: Skipping package: exceeds size limit 69830358>=10485760
+[2023-05-11 17:47:57] WARNING root fetch - processPackages [sitkibex]: Skipping, unable to determine old version
+[2023-05-11 17:47:57] INFO root fetch - processPackages [steam-pysigma]: Start processing: kiwi-booster
+[2023-05-11 17:47:57] INFO root fetch - processPackages [sitkibex]: Start processing: spgci
+[2023-05-11 17:47:57] INFO root fetch - main [MainThread]: End processing [steam-pysigma] error
+[2023-05-11 17:47:57] INFO root fetch - processPackages [estela]: New version: [0.2.1] Old Version: [0.2]
+[2023-05-11 17:47:57] INFO root fetch - main [MainThread]: End processing [sitkibex] error
+[2023-05-11 17:47:57] INFO root fetch - processPackages [did-py]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/a8/fe/c3cf9bee081a7b37d5201531474a79eb28836b8339dbafe2dbfce2413a06/irails-1.3.3.tar.gz
+[2023-05-11 17:47:57] INFO root fetch - processPackages [fuzzy-search]: Downloading https://files.pythonhosted.org/packages/c6/e5/58b98ae002bc5561bc7dff5cc8fb813cb2030193744f52601136f6c8104b/fuzzy_search-1.6.0.tar.gz
+[2023-05-11 17:47:57] INFO root fetch - processPackages [spgci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 17:47:57] WARNING root fetch - processPackages [kiwi-booster]: Skipping, unable to determine old version
+[2023-05-11 17:47:57] INFO root fetch - processPackages [kiwi-booster]: Start processing: iso15118
+[2023-05-11 17:47:57] INFO root fetch - main [MainThread]: End processing [kiwi-booster] error
+[2023-05-11 17:47:57] INFO root fetch - processPackages [iso15118]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-11 17:47:57] INFO root fetch - processPackages [minot]: Downloading https://files.pythonhosted.org/packages/0f/01/7fe3b30d38e5fb832ed4bd7edcfcf677b7ce4e85c1db713ebabcd6029148/minot-0.1.1.tar.gz
+[2023-05-11 17:47:57] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-11 17:47:57] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.3.2.tar.gz tmp/irails-1.3.3.tar.gz --markdown 20230511/i/irails/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-05-11 17:47:57] INFO root fetch - processPackages [estela]: Downloading https://files.pythonhosted.org/packages/43/65/152a58599e63b5eb97a5e586aa615353ff494fe6f4d3929f91f290cce5a4/estela-0.2.tar.gz
+[2023-05-11 17:47:57] INFO root fetch - processPackages [manageprojects]: Downloading https://files.pythonhosted.org/packages/54/d4/212d9abea9e72c85f24dbdb01494447803a68fd5ae03b222a243050d5f00/manageprojects-0.9.8.tar.gz
+[2023-05-11 17:47:57] INFO root fetch - processPackages [ImageMagic]: Downloading https://files.pythonhosted.org/packages/4b/e3/a4777dc06eef6cdb8cbf88447c01ba8b9377f7c2bd862c66d222964e398a/ImageMagic-0.2.0.tar.gz
+[2023-05-11 17:47:58] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/e2/0e/c75c074d8ed4b06ec2cadea0c8154076267a37f1a2bc1e1542822e67ee75/autumn8-1.0.5rc3.tar.gz
+[2023-05-11 17:47:58] INFO root fetch - processPackages [iso15118]: Downloading https://files.pythonhosted.org/packages/ef/dd/e18cf63de58aa4819175858bea5d77b3ca4bd4ba7822845dcfa559088a84/iso15118-0.8.1.tar.gz
+[2023-05-11 17:47:58] INFO root fetch - processPackages [did-py]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [did-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/did-py-0.0.7.tar.gz tmp/did-py-0.0.9.tar.gz --markdown 20230511/d/did-py/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [fuzzy-search]: Downloading https://files.pythonhosted.org/packages/e2/be/adecb76308ad45784da4b60a041da43536be2f978eced3a2523149cfd354/fuzzy_search-2.0.0a0.tar.gz
+[2023-05-11 17:47:58] WARNING root fetch - processPackages [iso15118]: Skipping package: exceeds size limit 11797341>=10485760
+[2023-05-11 17:47:58] INFO root fetch - processPackages [iso15118]: Start processing: kcli
+[2023-05-11 17:47:58] INFO root fetch - main [MainThread]: End processing [iso15118] error
+[2023-05-11 17:47:58] INFO root fetch - processPackages [minot]: Downloading https://files.pythonhosted.org/packages/99/60/33522c47ec836c0874b8d27d08ee9640fb3e4298d6d9e50d4e862a81db69/minot-1.1.2-py3-none-any.whl
+[2023-05-11 17:47:58] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.5rc2.tar.gz tmp/autumn8-1.0.5rc3.tar.gz --markdown 20230511/a/autumn8/1.0.5rc2-1.0.5rc3/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111434] Old Version: [99.0.202305111259]
+[2023-05-11 17:47:58] INFO root fetch - processPackages [fuzzy-search]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [fuzzy-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzy_search-1.6.0.tar.gz tmp/fuzzy_search-2.0.0a0.tar.gz --markdown 20230511/f/fuzzy-search/1.6.0-2.0.0a0/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [spgci]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [ImageMagic]: Downloading https://files.pythonhosted.org/packages/e3/00/343a0b25ac57bbd15e35f509d48c95217da39760182c80acd4c073ba79e1/ImageMagic-0.2.1.tar.gz
+[2023-05-11 17:47:58] INFO root fetch - processPackages [spgci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spgci-0.0.8.tar.gz tmp/spgci-0.0.9.tar.gz --markdown 20230511/s/spgci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [minot]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [minot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minot-0.1.1.tar.gz tmp/minot-1.1.2-py3-none-any.whl.zip --markdown 20230511/m/minot/0.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [manageprojects]: Downloading https://files.pythonhosted.org/packages/74/a2/d35a6bb03724fffe5e9c14f766fbb2944bd13acbb5f24c80b46698d229fa/manageprojects-0.9.9.tar.gz
+[2023-05-11 17:47:58] INFO root fetch - processPackages [estela]: Downloading https://files.pythonhosted.org/packages/6e/46/a5b18f256ecbfc68d7c37fa5b42b02124a0307c2d29ac58d89dbcde31bee/estela-0.2.1.tar.gz
+[2023-05-11 17:47:58] INFO root fetch - processPackages [manageprojects]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [manageprojects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manageprojects-0.9.8.tar.gz tmp/manageprojects-0.9.9.tar.gz --markdown 20230511/m/manageprojects/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [estela]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [estela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estela-0.2.tar.gz tmp/estela-0.2.1.tar.gz --markdown 20230511/e/estela/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [ImageMagic]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [ImageMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageMagic-0.2.0.tar.gz tmp/ImageMagic-0.2.1.tar.gz --markdown 20230511/I/ImageMagic/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 17:47:58] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/45/1e/9c7f20198c88e13ed8ea1d888051cf12a00a5c24926105d48377d1dc208d/kcli-99.0.202305111434-py3-none-any.whl
+[2023-05-11 17:47:58] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 17:47:58] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111259-py3-none-any.whl.zip tmp/kcli-99.0.202305111434-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111259-99.0.202305111434/diff.md --exclude *.pyd
+[2023-05-11 17:47:59] INFO root fetch - processPackages [did-py]: Start processing: steam-sdk
+[2023-05-11 17:47:59] INFO root fetch - main [MainThread]: End processing [did-py]: success
+[2023-05-11 17:47:59] INFO root fetch - processPackages [steam-sdk]: New version: [2023.5.0] Old Version: [2023.4.3]
+[2023-05-11 17:47:59] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-05-11 17:47:59] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.4.3.tar.gz tmp/steam-sdk-2023.5.0.tar.gz --markdown 20230511/s/steam-sdk/2023.4.3-2023.5.0/diff.md --exclude *.pyd
+[2023-05-11 17:47:59] INFO root fetch - processPackages [autumn8]: Start processing: django-otp
+[2023-05-11 17:47:59] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-11 17:48:00] INFO root fetch - processPackages [django-otp]: New version: [1.2.0] Old Version: [1.1.6]
+[2023-05-11 17:48:00] INFO root fetch - processPackages [spgci]: Start processing: pipen-board
+[2023-05-11 17:48:00] INFO root fetch - main [MainThread]: End processing [spgci]: success
+[2023-05-11 17:48:00] INFO root fetch - processPackages [django-otp]: Downloading https://files.pythonhosted.org/packages/3e/c5/1d23f287296ff32f12d3f764fd3b4455de78078fe839b12dad2b7e78031d/django-otp-1.1.6.tar.gz
+[2023-05-11 17:48:00] INFO root fetch - processPackages [pipen-board]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 17:48:00] INFO root fetch - processPackages [estela]: Start processing: selfcord.py
+[2023-05-11 17:48:00] INFO root fetch - main [MainThread]: End processing [estela]: success
+[2023-05-11 17:48:00] INFO root fetch - processPackages [selfcord.py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 17:48:00] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/31/63/f2a1c7098ca525f1a7c90d797610beaf37a174bde0d76be18e6a615dcd69/pipen_board-0.0.8.tar.gz
+[2023-05-11 17:48:00] INFO root fetch - processPackages [selfcord.py]: executing diffoscope
+[2023-05-11 17:48:00] INFO root fetch - processPackages [selfcord.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfcord.py-0.1.3.tar.gz tmp/selfcord.py-0.1.4.tar.gz --markdown 20230511/s/selfcord.py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 17:48:00] INFO root fetch - processPackages [django-otp]: Downloading https://files.pythonhosted.org/packages/33/37/84e8adcd0bf21da68db0c87dbef64141badf0321b4d0e50e3e8d431789bd/django_otp-1.2.0.tar.gz
+[2023-05-11 17:48:00] INFO root fetch - processPackages [ImageMagic]: Start processing: mystring
+[2023-05-11 17:48:00] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
+[2023-05-11 17:48:00] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-05-11 17:48:00] INFO root fetch - processPackages [django-otp]: executing diffoscope
+[2023-05-11 17:48:00] INFO root fetch - processPackages [django-otp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-otp-1.1.6.tar.gz tmp/django_otp-1.2.0.tar.gz --markdown 20230511/d/django-otp/1.1.6-1.2.0/diff.md --exclude *.pyd
+[2023-05-11 17:48:00] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-11 17:48:00] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.85.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230511/m/mystring/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:48:00] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/76/75/9dfbe613db363d72e0a6de5ee0f554059cc36a28eeb8b5b62751cc64f800/pipen_board-0.0.9.tar.gz
+[2023-05-11 17:48:00] INFO root fetch - processPackages [fuzzy-search]: Start processing: terrainman
+[2023-05-11 17:48:00] INFO root fetch - main [MainThread]: End processing [fuzzy-search]: success
+[2023-05-11 17:48:00] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.19]
+[2023-05-11 17:48:00] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-05-11 17:48:00] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.0.8.tar.gz tmp/pipen_board-0.0.9.tar.gz --markdown 20230511/p/pipen-board/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:48:01] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-05-11 17:48:01] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.19.tar.gz tmp/terrainman-0.0.9.tar.gz --markdown 20230511/t/terrainman/0.0.19-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:48:01] INFO root fetch - processPackages [minot]: Start processing: eva-shell
+[2023-05-11 17:48:01] INFO root fetch - main [MainThread]: End processing [minot]: success
+[2023-05-11 17:48:01] INFO root fetch - processPackages [eva-shell]: New version: [0.0.92] Old Version: [0.0.91]
+[2023-05-11 17:48:01] INFO root fetch - processPackages [manageprojects]: Start processing: PyNucSeg
+[2023-05-11 17:48:01] INFO root fetch - main [MainThread]: End processing [manageprojects]: success
+[2023-05-11 17:48:01] INFO root fetch - processPackages [PyNucSeg]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 17:48:01] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/56/67/c38a744b4721becbe1becd67510f116215e7a638a08ea65ef99c51da732b/eva-shell-0.0.91.tar.gz
+[2023-05-11 17:48:01] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/b6/88/09c98e6655025fb3057559d0c44c4396702a2cc87c489243f46ec9536e44/eva-shell-0.0.92.tar.gz
+[2023-05-11 17:48:01] INFO root fetch - processPackages [eva-shell]: executing diffoscope
+[2023-05-11 17:48:01] INFO root fetch - processPackages [eva-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eva-shell-0.0.91.tar.gz tmp/eva-shell-0.0.92.tar.gz --markdown 20230511/e/eva-shell/0.0.91-0.0.92/diff.md --exclude *.pyd
+[2023-05-11 17:48:01] INFO root fetch - processPackages [PyNucSeg]: executing diffoscope
+[2023-05-11 17:48:01] INFO root fetch - processPackages [PyNucSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNucSeg-0.0.7.tar.gz tmp/PyNucSeg-0.0.8.tar.gz --markdown 20230511/P/PyNucSeg/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 17:48:02] INFO root fetch - processPackages [selfcord.py]: Start processing: ImageMagic
+[2023-05-11 17:48:02] INFO root fetch - main [MainThread]: End processing [selfcord.py]: success
+[2023-05-11 17:48:02] INFO root fetch - processPackages [ImageMagic]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 17:48:02] INFO root fetch - processPackages [ImageMagic]: executing diffoscope
+[2023-05-11 17:48:02] INFO root fetch - processPackages [ImageMagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageMagic-0.2.0.tar.gz tmp/ImageMagic-0.2.1.tar.gz --markdown 20230511/I/ImageMagic/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 17:48:02] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-11 17:48:02] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-05-11 17:48:02] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-05-11 17:48:03] INFO root fetch - main [MainThread]: End processing [eva-shell]: success
+[2023-05-11 17:48:03] INFO root fetch - main [MainThread]: End processing [PyNucSeg]: success
+[2023-05-11 17:48:03] INFO root fetch - main [MainThread]: End processing [django-otp]: success
+[2023-05-11 17:48:03] INFO root fetch - main [MainThread]: End processing [ImageMagic]: success
+[2023-05-11 17:48:04] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-11 17:48:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 17:48:11] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-05-11 17:48:11] INFO root fetch - main [MainThread]: Store serial: [18065840]
