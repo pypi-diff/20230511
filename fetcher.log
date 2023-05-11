@@ -21515,3 +21515,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:53:27] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2023-05-11 16:53:28] INFO root fetch - main [MainThread]: End processing [sonusai]: success
 [2023-05-11 16:53:28] INFO root fetch - main [MainThread]: Store serial: [18065057]
+[2023-05-11 16:58:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065057]
+[2023-05-11 16:58:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sonusai
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindee
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model2queue
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daskcheck
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labvirtual
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agilicus
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctadata
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PatryksAutoAI
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: postgres-tq
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: testarchiver
+[2023-05-11 16:58:38] INFO root fetch - processPackages [model2queue]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [daskcheck]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [labvirtual]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [testarchiver]: New version: [2.6.1rc4949087927] Old Version: [2.6.1rc4949012430]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [mindee]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ctadata]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [sonusai]: New version: [0.9.1] Old Version: [0.8.8]
+[2023-05-11 16:58:38] WARNING root fetch - processPackages [postgres-tq]: Skipping, unable to determine old version
+[2023-05-11 16:58:38] INFO root fetch - processPackages [postgres-tq]: Start processing: testarchiver
+[2023-05-11 16:58:38] INFO root fetch - main [MainThread]: End processing [postgres-tq] error
+[2023-05-11 16:58:38] INFO root fetch - processPackages [testarchiver]: New version: [2.6.4rc4949312958] Old Version: [2.6.4]
+[2023-05-11 16:58:38] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/10/51/ec192fe321213d4bbc78482655aa97fde3d69e92673e3fbee3ee6104b115/labvirtual-0.2.7.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [ctadata]: Downloading https://files.pythonhosted.org/packages/5e/bf/248bbf99652eaec2bda1daa5e5ef557a18113a072a08333eaaa26028a417/ctadata-0.2.5.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [daskcheck]: Downloading https://files.pythonhosted.org/packages/5a/5c/2420013e7588542dc8b4d00c6ee7f895cd52aac9f3428839405e78085d7d/daskcheck-0.0.8.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [agilicus]: Downloading https://files.pythonhosted.org/packages/41/da/b6c1919e19d168ad8df708f8342d24fcacee5ed407dbe84106c4e40a5030/agilicus-1.98.9.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/fb/80/e2dc21694760e92b546f409c41964a9bb0da3a95cdce261cfaa1ff265c66/testarchiver-2.6.1rc4949087927.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/34/17/4492faf5e50e4da9d3e3f3cbe9279c943d058daa1e933055f3437ef98e1c/testarchiver-2.6.4.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/3f/59/064318704bf347f68a4b3355ab0f8c4297d38abe20d7391167191d970570/PatryksAutoAI-0.2.5.tar.gz
+[2023-05-11 16:58:38] INFO root fetch - processPackages [model2queue]: executing diffoscope
+[2023-05-11 16:58:38] INFO root fetch - processPackages [model2queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model2queue-0.1.2.tar.gz tmp/model2queue-0.1.3.tar.gz --markdown 20230511/m/model2queue/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43632057>=10485760
+[2023-05-11 16:58:39] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 16:58:39] INFO root fetch - processPackages [daskcheck]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [daskcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daskcheck-0.0.7.tar.gz tmp/daskcheck-0.0.8.tar.gz --markdown 20230511/d/daskcheck/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.1rc4949012430.tar.gz tmp/testarchiver-2.6.1rc4949087927.tar.gz --markdown 20230511/t/testarchiver/2.6.1rc4949012430-2.6.1rc4949087927/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.4.tar.gz tmp/PatryksAutoAI-0.2.5.tar.gz --markdown 20230511/P/PatryksAutoAI/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [mindee]: Downloading https://files.pythonhosted.org/packages/5e/9a/0e4d3d9cd35e3b181ef8c6742dfc2d08a63b4dd6c14fd7d2b8151cc875e5/mindee-3.8.1.tar.gz
+[2023-05-11 16:58:39] INFO root fetch - processPackages [ctadata]: Downloading https://files.pythonhosted.org/packages/78/13/71e9be95db6b018d2386eb6841369b976975b3a99e2cdaf8dae5c05c783d/ctadata-0.2.6.tar.gz
+[2023-05-11 16:58:39] INFO root fetch - processPackages [sonusai]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [sonusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonusai-0.8.8.tar.gz tmp/sonusai-0.9.1.tar.gz --markdown 20230511/s/sonusai/0.8.8-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [agilicus]: Downloading https://files.pythonhosted.org/packages/1d/c0/a470c20345840f34b91ac339854052d1b8397fa5b281f8a824d9f303cf77/agilicus-1.99.0.tar.gz
+[2023-05-11 16:58:39] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/83/0c/b8d50f49344df08da95a77e61222077309f618f2f3bffaa724492a4df864/testarchiver-2.6.4rc4949312958.tar.gz
+[2023-05-11 16:58:39] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20230511/a/agilicus/1.98.9-1.99.0/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [ctadata]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [ctadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctadata-0.2.5.tar.gz tmp/ctadata-0.2.6.tar.gz --markdown 20230511/c/ctadata/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [mindee]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [mindee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindee-3.8.0.tar.gz tmp/mindee-3.8.1.tar.gz --markdown 20230511/m/mindee/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-05-11 16:58:39] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:58:39] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.4.tar.gz tmp/testarchiver-2.6.4rc4949312958.tar.gz --markdown 20230511/t/testarchiver/2.6.4-2.6.4rc4949312958/diff.md --exclude *.pyd
+[2023-05-11 16:58:41] INFO root fetch - main [MainThread]: End processing [model2queue]: success
+[2023-05-11 16:58:41] INFO root fetch - main [MainThread]: End processing [daskcheck]: success
+[2023-05-11 16:58:41] INFO root fetch - main [MainThread]: End processing [ctadata]: success
+[2023-05-11 16:58:42] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:58:42] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:58:42] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:58:43] INFO root fetch - main [MainThread]: End processing [mindee]: success
+[2023-05-11 16:58:44] INFO root fetch - main [MainThread]: End processing [sonusai]: success
+[2023-05-11 16:59:08] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-05-11 16:59:08] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2023-05-11 16:59:08] INFO root fetch - main [MainThread]: Store serial: [18065093]
