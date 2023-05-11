@@ -20340,3 +20340,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:00:13] INFO root fetch - main [MainThread]: End processing [tester-flask]: success
 [2023-05-11 16:00:15] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-05-11 16:00:15] INFO root fetch - main [MainThread]: Store serial: [18064349]
+[2023-05-11 16:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064349]
+[2023-05-11 16:05:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serveai
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stepmix
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dissect.target
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: earthscopestraintools
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zserio
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grai-source-dbt-cloud
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-intel
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easyJsonStorage
+[2023-05-11 16:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-11 16:05:24] INFO root fetch - processPackages [stepmix]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [grai-source-dbt-cloud]: New version: [0.0.3a1] Old Version: [0.0.2]
+[2023-05-11 16:05:24] WARNING root fetch - processPackages [serveai]: Skipping, unable to determine old version
+[2023-05-11 16:05:24] INFO root fetch - processPackages [serveai]: Start processing: pt-lemmatizer
+[2023-05-11 16:05:24] INFO root fetch - main [MainThread]: End processing [serveai] error
+[2023-05-11 16:05:24] INFO root fetch - processPackages [earthscopestraintools]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [zserio]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-11 16:05:24] WARNING root fetch - processPackages [easyJsonStorage]: Skipping, unable to determine old version
+[2023-05-11 16:05:24] INFO root fetch - processPackages [easyJsonStorage]: Start processing: mrfix
+[2023-05-11 16:05:24] INFO root fetch - main [MainThread]: End processing [easyJsonStorage] error
+[2023-05-11 16:05:24] WARNING root fetch - processPackages [pt-lemmatizer]: Skipping, unable to determine old version
+[2023-05-11 16:05:24] INFO root fetch - main [MainThread]: End processing [pt-lemmatizer] error
+[2023-05-11 16:05:24] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230511] Old Version: [2.14.0.dev20230509]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [grai-source-dbt-cloud]: executing diffoscope
+[2023-05-11 16:05:24] INFO root fetch - processPackages [grai-source-dbt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt_cloud-0.0.2.tar.gz tmp/grai_source_dbt_cloud-0.0.3a1.tar.gz --markdown 20230511/g/grai-source-dbt-cloud/0.0.2-0.0.3a1/diff.md --exclude *.pyd
+[2023-05-11 16:05:24] INFO root fetch - processPackages [stepmix]: Downloading https://files.pythonhosted.org/packages/28/a4/c6ee5cae5d2d162d755a8235703244e35a7d0f12717797e1e97289247e45/stepmix-1.0.1.tar.gz
+[2023-05-11 16:05:24] INFO root fetch - processPackages [earthscopestraintools]: Downloading https://files.pythonhosted.org/packages/33/91/f7ac377c17f86ceb90ba105328b068e6af7fb90c9cdddcbec4472152253d/earthscopestraintools-0.1.6.tar.gz
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/5f/f8/d2440e73e6d8837a7ae7cdd85dc7ef7ad3653b2ea4ba3aa26ae9682bb2c9/PatryksAutoAI-0.2.0.tar.gz
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/5f/f8/d2440e73e6d8837a7ae7cdd85dc7ef7ad3653b2ea4ba3aa26ae9682bb2c9/PatryksAutoAI-0.2.0.tar.gz
+[2023-05-11 16:05:24] INFO root fetch - processPackages [zserio]: Downloading https://files.pythonhosted.org/packages/31/ea/390a30a4cbc67b0923c20b865318214f44bf41c8f599335f23e6dcd4b457/zserio-2.8.0.tar.gz
+[2023-05-11 16:05:24] INFO root fetch - processPackages [mrfix]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-11 16:05:24] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.9.tar.gz tmp/PatryksAutoAI-0.2.0.tar.gz --markdown 20230511/P/PatryksAutoAI/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 16:05:24] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-11 16:05:24] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:05:24] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.9.tar.gz tmp/PatryksAutoAI-0.2.0.tar.gz --markdown 20230511/P/PatryksAutoAI/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 16:05:25] INFO root fetch - processPackages [stepmix]: Downloading https://files.pythonhosted.org/packages/62/8a/4bc3f21b4d8004646bfc036712af6cbdb0c532f98a2aa7c701ca6ccc92be/stepmix-1.0.2.tar.gz
+[2023-05-11 16:05:25] INFO root fetch - processPackages [earthscopestraintools]: Downloading https://files.pythonhosted.org/packages/16/c7/78e403ed57738553161e5554b2cf9a96eae8107060f1ac5e7071bf8edc53/earthscopestraintools-0.1.7.tar.gz
+[2023-05-11 16:05:25] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/af/51/54d37443f5ca367e11ad369e72a9429917db85f55d7ead0e94d18befe9da/mrfix-0.0.1.tar.gz
+[2023-05-11 16:05:25] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/e1/09/515027cae1ff3283535b978aa932c75aca5ed4d42ec42f8f7481f73cece0/tf_nightly_intel-2.14.0.dev20230509-cp39-cp39-win_amd64.whl
+[2023-05-11 16:05:25] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 180120266>=10485760
+[2023-05-11 16:05:25] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-05-11 16:05:25] INFO root fetch - processPackages [earthscopestraintools]: executing diffoscope
+[2023-05-11 16:05:25] INFO root fetch - processPackages [earthscopestraintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthscopestraintools-0.1.6.tar.gz tmp/earthscopestraintools-0.1.7.tar.gz --markdown 20230511/e/earthscopestraintools/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 16:05:25] INFO root fetch - processPackages [zserio]: Downloading https://files.pythonhosted.org/packages/b1/46/31a8839e31078b96ce1c9478439dfa78798de45f5d4ca954ec29b9267be9/zserio-2.9.0.tar.gz
+[2023-05-11 16:05:25] INFO root fetch - processPackages [stepmix]: executing diffoscope
+[2023-05-11 16:05:25] INFO root fetch - processPackages [stepmix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepmix-1.0.1.tar.gz tmp/stepmix-1.0.2.tar.gz --markdown 20230511/s/stepmix/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 16:05:25] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/58/34/8cd09ac1f05fdd68032200596014384459a14c14c10d4a36670d6dd0614d/mrfix-1.0.0.tar.gz
+[2023-05-11 16:05:25] INFO root fetch - processPackages [zserio]: executing diffoscope
+[2023-05-11 16:05:25] INFO root fetch - processPackages [zserio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zserio-2.8.0.tar.gz tmp/zserio-2.9.0.tar.gz --markdown 20230511/z/zserio/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:05:25] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-05-11 16:05:25] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-0.0.1.tar.gz tmp/mrfix-1.0.0.tar.gz --markdown 20230511/m/mrfix/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 16:05:26] INFO root fetch - main [MainThread]: End processing [grai-source-dbt-cloud]: success
+[2023-05-11 16:05:26] INFO root fetch - main [MainThread]: End processing [earthscopestraintools]: success
+[2023-05-11 16:05:26] INFO root fetch - main [MainThread]: End processing [zserio]: success
+[2023-05-11 16:05:26] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:05:26] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-05-11 16:05:27] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:05:27] INFO root fetch - main [MainThread]: End processing [stepmix]: success
+[2023-05-11 16:05:27] INFO root fetch - main [MainThread]: Store serial: [18064398]
