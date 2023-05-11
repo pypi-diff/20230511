@@ -14675,3 +14675,65 @@ EOFError: EOF read where object expected
 [2023-05-11 11:32:25] INFO root fetch - main [MainThread]: End processing [steamship]: success
 [2023-05-11 11:32:33] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-11 11:32:33] INFO root fetch - main [MainThread]: Store serial: [18061237]
+[2023-05-11 11:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061237]
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-secret
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adede
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lr3-Serializer
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: samna
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-mrp-attachment-mgmt
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rq-chains
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wanna-ml
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wistiapy
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-query-tools
+[2023-05-11 11:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ape-scroll
+[2023-05-11 11:37:42] INFO root fetch - processPackages [wanna-ml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 11:37:42] INFO root fetch - processPackages [wistiapy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 11:37:42] WARNING root fetch - processPackages [django-query-tools]: Skipping, unable to determine old version
+[2023-05-11 11:37:42] WARNING root fetch - processPackages [lr3-Serializer]: Skipping, unable to determine old version
+[2023-05-11 11:37:42] WARNING root fetch - processPackages [adede]: Skipping, unable to determine old version
+[2023-05-11 11:37:42] INFO root fetch - processPackages [django-query-tools]: Start processing: typedattr
+[2023-05-11 11:37:42] INFO root fetch - processPackages [lr3-Serializer]: Start processing: pyopencga
+[2023-05-11 11:37:42] INFO root fetch - processPackages [adede]: Start processing: vive-tracker-apiserver
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: End processing [django-query-tools] error
+[2023-05-11 11:37:42] WARNING root fetch - processPackages [ape-scroll]: Skipping, unable to determine old version
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: End processing [lr3-Serializer] error
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: End processing [adede] error
+[2023-05-11 11:37:42] INFO root fetch - processPackages [spaceone-secret]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: End processing [ape-scroll] error
+[2023-05-11 11:37:42] WARNING root fetch - processPackages [rq-chains]: Skipping, unable to determine old version
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: End processing [rq-chains] error
+[2023-05-11 11:37:42] INFO root fetch - processPackages [odoo14-addon-mrp-attachment-mgmt]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.1.dev2]
+[2023-05-11 11:37:42] WARNING root fetch - processPackages [vive-tracker-apiserver]: Skipping, unable to determine old version
+[2023-05-11 11:37:42] INFO root fetch - main [MainThread]: End processing [vive-tracker-apiserver] error
+[2023-05-11 11:37:42] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-05-11 11:37:42] INFO root fetch - processPackages [wistiapy]: executing diffoscope
+[2023-05-11 11:37:42] INFO root fetch - processPackages [wistiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wistiapy-0.0.8.tar.gz tmp/wistiapy-0.0.9.tar.gz --markdown 20230511/w/wistiapy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:37:42] INFO root fetch - processPackages [typedattr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 11:37:42] INFO root fetch - processPackages [pyopencga]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-05-11 11:37:42] INFO root fetch - processPackages [wanna-ml]: executing diffoscope
+[2023-05-11 11:37:42] INFO root fetch - processPackages [wanna-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanna-ml-0.2.8.tar.gz tmp/wanna-ml-0.2.9.tar.gz --markdown 20230511/w/wanna-ml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 11:37:42] INFO root fetch - processPackages [odoo14-addon-mrp-attachment-mgmt]: Downloading https://files.pythonhosted.org/packages/45/ba/f85d5d6af54bebb823c42189a621266b7d5c89ab6092e647c3e87d0c2f5c/odoo14_addon_mrp_attachment_mgmt-14.0.1.2.1.dev2-py3-none-any.whl
+[2023-05-11 11:37:43] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/06/7d/ce03ec148e649acf35430f964511e586fb819cd4c7b5bb85d1fdd49db164/typedattr-0.1.8.tar.gz
+[2023-05-11 11:37:43] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/10/5b/1f922357847e4ee3ab41a6f9653d5d49aeac37dc96c4d066a77d26a859c8/pyopencga-2.8.0.tar.gz
+[2023-05-11 11:37:43] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-05-11 11:37:43] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230511/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-05-11 11:37:43] INFO root fetch - processPackages [spaceone-secret]: executing diffoscope
+[2023-05-11 11:37:43] INFO root fetch - processPackages [spaceone-secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip --markdown 20230511/s/spaceone-secret/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-11 11:37:43] INFO root fetch - processPackages [odoo14-addon-mrp-attachment-mgmt]: Downloading https://files.pythonhosted.org/packages/24/b1/9d497799448b8f8d7acac3859b72d2b40146b73d4f72691262cb3a1773fe/odoo14_addon_mrp_attachment_mgmt-14.0.1.3.0-py3-none-any.whl
+[2023-05-11 11:37:43] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/83/6c/9d4e3f2dbc9801e887d91bade2dde85c725064f1237bcf3e3ccde3fa408c/pyopencga-2.8.1.tar.gz
+[2023-05-11 11:37:43] INFO root fetch - processPackages [typedattr]: Downloading https://files.pythonhosted.org/packages/97/72/e46a3a122f4712981bd954b904bb6a8b37bb4e792258d9ec7453ef3543ac/typedattr-0.1.9.tar.gz
+[2023-05-11 11:37:43] INFO root fetch - processPackages [odoo14-addon-mrp-attachment-mgmt]: executing diffoscope
+[2023-05-11 11:37:43] INFO root fetch - processPackages [odoo14-addon-mrp-attachment-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_attachment_mgmt-14.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_mrp_attachment_mgmt-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-mrp-attachment-mgmt/14.0.1.2.1.dev2-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-05-11 11:37:43] INFO root fetch - processPackages [pyopencga]: executing diffoscope
+[2023-05-11 11:37:43] INFO root fetch - processPackages [pyopencga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencga-2.8.0.tar.gz tmp/pyopencga-2.8.1.tar.gz --markdown 20230511/p/pyopencga/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-05-11 11:37:43] INFO root fetch - processPackages [typedattr]: executing diffoscope
+[2023-05-11 11:37:43] INFO root fetch - processPackages [typedattr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedattr-0.1.8.tar.gz tmp/typedattr-0.1.9.tar.gz --markdown 20230511/t/typedattr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 11:37:44] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-05-11 11:37:44] INFO root fetch - main [MainThread]: End processing [wistiapy]: success
+[2023-05-11 11:37:44] INFO root fetch - main [MainThread]: End processing [spaceone-secret]: success
+[2023-05-11 11:37:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-attachment-mgmt]: success
+[2023-05-11 11:37:44] INFO root fetch - main [MainThread]: End processing [typedattr]: success
+[2023-05-11 11:37:45] INFO root fetch - main [MainThread]: End processing [pyopencga]: success
+[2023-05-11 11:37:45] INFO root fetch - main [MainThread]: End processing [wanna-ml]: success
+[2023-05-11 11:37:45] INFO root fetch - main [MainThread]: Store serial: [18061283]
