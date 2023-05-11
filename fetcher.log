@@ -7842,3 +7842,27 @@ EOFError: EOF read where object expected
 [2023-05-11 05:01:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-lighthouse]: success
 [2023-05-11 05:01:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-monitor]: success
 [2023-05-11 05:01:23] INFO root fetch - main [MainThread]: Store serial: [18057533]
+[2023-05-11 05:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18057533]
+[2023-05-11 05:06:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-11 05:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: echostream-node
+[2023-05-11 05:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simpleparallelize
+[2023-05-11 05:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fly-tracker
+[2023-05-11 05:06:32] INFO root fetch - processPackages [fly-tracker]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 05:06:32] INFO root fetch - processPackages [simpleparallelize]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 05:06:32] INFO root fetch - processPackages [echostream-node]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 05:06:32] INFO root fetch - processPackages [simpleparallelize]: Downloading https://files.pythonhosted.org/packages/62/58/b0ede46ca38e60325362451d8e1c19be61534502c52d5be6a6e00f2ded29/simpleparallelize-0.1.1.tar.gz
+[2023-05-11 05:06:32] INFO root fetch - processPackages [fly-tracker]: Downloading https://files.pythonhosted.org/packages/97/87/d9aa35157546fc26abc794f7e8eb2948f36e753d8ecc5f0e101cc88ebeb1/fly_tracker-0.0.1-py3-none-any.whl
+[2023-05-11 05:06:32] INFO root fetch - processPackages [echostream-node]: Downloading https://files.pythonhosted.org/packages/30/43/0c78de8d8e632745db3692f615fd039076c9fa24d037ba0d09dd39a8996d/echostream-node-0.3.8.tar.gz
+[2023-05-11 05:06:33] INFO root fetch - processPackages [simpleparallelize]: Downloading https://files.pythonhosted.org/packages/0b/5a/a961bbabcebfae20b1071f0eb99c2d79625e383f97b4b760c0fbfed364c3/simpleparallelize-0.1.2.tar.gz
+[2023-05-11 05:06:33] INFO root fetch - processPackages [fly-tracker]: Downloading https://files.pythonhosted.org/packages/43/02/d766da8afd4d0e601dcd7e3225b3360d55072455faaa907ab7525d0807f6/fly_tracker-0.0.2.tar.gz
+[2023-05-11 05:06:33] INFO root fetch - processPackages [simpleparallelize]: executing diffoscope
+[2023-05-11 05:06:33] INFO root fetch - processPackages [simpleparallelize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleparallelize-0.1.1.tar.gz tmp/simpleparallelize-0.1.2.tar.gz --markdown 20230511/s/simpleparallelize/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 05:06:33] INFO root fetch - processPackages [fly-tracker]: executing diffoscope
+[2023-05-11 05:06:33] INFO root fetch - processPackages [echostream-node]: Downloading https://files.pythonhosted.org/packages/6f/11/5701b60a253c7c8e19523c27d3ee31217e0a53f9d2c5b649fbf30db653f5/echostream-node-0.3.9.tar.gz
+[2023-05-11 05:06:33] INFO root fetch - processPackages [fly-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fly_tracker-0.0.1-py3-none-any.whl.zip tmp/fly_tracker-0.0.2.tar.gz --markdown 20230511/f/fly-tracker/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 05:06:33] INFO root fetch - processPackages [echostream-node]: executing diffoscope
+[2023-05-11 05:06:33] INFO root fetch - processPackages [echostream-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echostream-node-0.3.8.tar.gz tmp/echostream-node-0.3.9.tar.gz --markdown 20230511/e/echostream-node/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 05:06:34] INFO root fetch - main [MainThread]: End processing [simpleparallelize]: success
+[2023-05-11 05:06:34] INFO root fetch - main [MainThread]: End processing [echostream-node]: success
+[2023-05-11 05:06:34] INFO root fetch - main [MainThread]: End processing [fly-tracker]: success
+[2023-05-11 05:06:34] INFO root fetch - main [MainThread]: Store serial: [18057541]
