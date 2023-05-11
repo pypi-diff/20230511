@@ -9953,3 +9953,56 @@ EOFError: EOF read where object expected
 [2023-05-11 07:51:45] INFO root fetch - main [MainThread]: End processing [unitlab]: success
 [2023-05-11 07:51:45] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
 [2023-05-11 07:51:45] INFO root fetch - main [MainThread]: Store serial: [18058639]
+[2023-05-11 07:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058639]
+[2023-05-11 07:56:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arclet-alconna
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-artifactory
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athiruma-cloud-governance
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Alpha-Rabbit
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-civo
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitlab
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zebedee
+[2023-05-11 07:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SNPfilter
+[2023-05-11 07:56:53] INFO root fetch - processPackages [SNPfilter]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [athiruma-cloud-governance]: New version: [1.1.93] Old Version: [1.1.92]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [arclet-alconna]: New version: [1.7.0rc7] Old Version: [1.7.0rc6]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [pulumi-artifactory]: New version: [3.5.0a1683782374] Old Version: [3.5.0a1683609429]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [zebedee]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [unitlab]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1683782748] Old Version: [2.4.0a1683609541]
+[2023-05-11 07:56:53] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-11 07:56:53] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230511/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [athiruma-cloud-governance]: Downloading https://files.pythonhosted.org/packages/bc/0a/f046e172e9261b1065984a4d78d1e3a7e75bf0a8f4eb9ef35ee89024fba4/athiruma-cloud-governance-1.1.93.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [SNPfilter]: Downloading https://files.pythonhosted.org/packages/2b/ea/ee8d3012f4baf9563374ff5725bfc48f7ca72cacfbeef1b89285bd355e19/SNPfilter-0.0.2.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/35/f8/5335297688f7fe8db93f2d242e2145e378c0afa009efa0a061438cf72818/unitlab-1.8.1.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [zebedee]: Downloading https://files.pythonhosted.org/packages/5a/34/ff5d5671d8ee556cd7a133de5809b3e11d865df80196da854965c5a1d07e/zebedee-0.0.1.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [athiruma-cloud-governance]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [athiruma-cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athiruma-cloud-governance-1.1.92.tar.gz tmp/athiruma-cloud-governance-1.1.93.tar.gz --markdown 20230511/a/athiruma-cloud-governance/1.1.92-1.1.93/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/fc/3e/0e0a1fea0040d79a515fb5d3a446dde487efae8f0bbc5f05f0dd4a700ee6/pulumi_artifactory-3.5.0a1683782374.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/20/c6/4b3563c082961f4556ccf6409c390de6ad993a1c93e030311c050aa5a39f/pulumi_civo-2.4.0a1683782748.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [SNPfilter]: Downloading https://files.pythonhosted.org/packages/79/01/c3105ec6faac42d775ebab0059ac5c835d3d2fd716436158feee90e4d974/SNPfilter-0.0.3.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [zebedee]: Downloading https://files.pythonhosted.org/packages/47/48/acad3b5cfbbfb76d1a475fdd441e5a210bc986e39fa49a803b00986d55ba/zebedee-0.0.2.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [arclet-alconna]: Downloading https://files.pythonhosted.org/packages/cb/7f/e550bbf0ab20765b8f41ec804eef28894052cea3604a41fee6ae1c3ab858/arclet-alconna-1.7.0rc7.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-3.5.0a1683609429.tar.gz tmp/pulumi_artifactory-3.5.0a1683782374.tar.gz --markdown 20230511/p/pulumi-artifactory/3.5.0a1683609429-3.5.0a1683782374/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/58/c9/57ee1546aadcca1f8847db1b9322c4b57ddd3506ff462235b5767542989e/unitlab-1.8.2.tar.gz
+[2023-05-11 07:56:54] INFO root fetch - processPackages [SNPfilter]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [SNPfilter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SNPfilter-0.0.2.tar.gz tmp/SNPfilter-0.0.3.tar.gz --markdown 20230511/S/SNPfilter/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1683609541.tar.gz tmp/pulumi_civo-2.4.0a1683782748.tar.gz --markdown 20230511/p/pulumi-civo/2.4.0a1683609541-2.4.0a1683782748/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [zebedee]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [zebedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebedee-0.0.1.tar.gz tmp/zebedee-0.0.2.tar.gz --markdown 20230511/z/zebedee/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [arclet-alconna]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [arclet-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-1.7.0rc6.tar.gz tmp/arclet-alconna-1.7.0rc7.tar.gz --markdown 20230511/a/arclet-alconna/1.7.0rc6-1.7.0rc7/diff.md --exclude *.pyd
+[2023-05-11 07:56:54] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-05-11 07:56:54] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.8.1.tar.gz tmp/unitlab-1.8.2.tar.gz --markdown 20230511/u/unitlab/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-05-11 07:56:55] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-11 07:56:55] INFO root fetch - main [MainThread]: End processing [SNPfilter]: success
+[2023-05-11 07:56:56] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-05-11 07:56:56] INFO root fetch - main [MainThread]: End processing [arclet-alconna]: success
+[2023-05-11 07:56:56] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-05-11 07:56:56] INFO root fetch - main [MainThread]: End processing [zebedee]: success
+[2023-05-11 07:56:57] INFO root fetch - main [MainThread]: End processing [athiruma-cloud-governance]: success
+[2023-05-11 07:56:58] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2023-05-11 07:56:58] INFO root fetch - main [MainThread]: Store serial: [18058663]
