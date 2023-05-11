@@ -14421,3 +14421,135 @@ EOFError: EOF read where object expected
 [2023-05-11 11:21:39] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-05-11 11:21:40] INFO root fetch - main [MainThread]: End processing [os-brick]: success
 [2023-05-11 11:21:40] INFO root fetch - main [MainThread]: Store serial: [18061038]
+[2023-05-11 11:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061038]
+[2023-05-11 11:26:50] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yz-core2
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cdk
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu-aws
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ja3requests
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grizli
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-service-catalog-factory
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tbp-nightly
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lite-tools
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inhandtest
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digitalguide
+[2023-05-11 11:26:50] INFO root fetch - processPackages [grizli]: New version: [1.8.7] Old Version: [1.8.5]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [inhandtest]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [tinybird-cdk]: New version: [0.17.0] Old Version: [0.16.8]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ja3requests]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [yz-core2]: New version: [1.0.49] Old Version: [1.0.47]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [lite-tools]: New version: [0.4.9.9] Old Version: [0.4.9.8]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-05-11 11:26:50] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.5.tar.gz tmp/grizli-1.8.7.tar.gz --markdown 20230511/g/grizli/1.8.5-1.8.7/diff.md --exclude *.pyd
+[2023-05-11 11:26:50] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-11 11:26:50] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.42.tar.gz tmp/inhandtest-0.0.43.tar.gz --markdown 20230511/i/inhandtest/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-05-11 11:26:50] INFO root fetch - processPackages [aws-service-catalog-factory]: New version: [0.99.0] Old Version: [0.98.1]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230511] Old Version: [2.14.0.dev20230510]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-11 11:26:50] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/af/38/411185765226df8d9237a765b5e16a3eb8229dea8b9e4aebdb20672e1f86/tinybird-cdk-0.16.8.tar.gz
+[2023-05-11 11:26:50] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/80/d5/d151970554e6582252b98c3108705d13085a7dc34245e27d8a84aa9dc7fb/lite_tools-0.4.9.8-py3-none-any.whl
+[2023-05-11 11:26:50] INFO root fetch - processPackages [ja3requests]: Downloading https://files.pythonhosted.org/packages/0d/2a/77ca2e191620dabb6759be8c17d031e5026d6755160c3dba79e9f3362867/ja3requests-0.0.1.tar.gz
+[2023-05-11 11:26:50] INFO root fetch - processPackages [aws-service-catalog-factory]: Downloading https://files.pythonhosted.org/packages/02/61/6ad14efaef6d9695140a4b801f780647ae44e992b473667bb71de1079025/aws_service_catalog_factory-0.98.1.tar.gz
+[2023-05-11 11:26:50] INFO root fetch - processPackages [digitalguide]: Downloading https://files.pythonhosted.org/packages/c9/f2/e2219ba27a431b06d3483e9c6a52091ce08044fbf9edd7e760566c135cdf/digitalguide-0.0.98.tar.gz
+[2023-05-11 11:26:50] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/ee/e9/a1f6d680d09cd169aba40e11c86353733a7e01fda2917c7a3b30b4f6b2c4/tf_nightly_cpu_aws-2.14.0.dev20230510-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-11 11:26:51] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 251309556>=10485760
+[2023-05-11 11:26:51] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: bambooai
+[2023-05-11 11:26:51] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-05-11 11:26:51] INFO root fetch - processPackages [bambooai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 11:26:51] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/b6/38/d10b6c8b4f1678ed637020fbaa21db70d18e068717894ae8248f3611b60d/yz-core2-1.0.49.tar.gz
+[2023-05-11 11:26:51] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [ja3requests]: Downloading https://files.pythonhosted.org/packages/89/f7/e1b5c041f8a26c8418b5eec1e98be803fd7745ffc59278fb42531be256dc/ja3requests-0.0.2.tar.gz
+[2023-05-11 11:26:51] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230511/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [lite-tools]: Downloading https://files.pythonhosted.org/packages/40/02/c8d1ce34f7fdcb6015276185ff6ef593475a639f13f131e8d0da62426dbc/lite_tools-0.4.9.9-py3-none-any.whl
+[2023-05-11 11:26:51] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.1.1.tar.gz tmp/bambooai-0.1.2.tar.gz --markdown 20230511/b/bambooai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.47.tar.gz tmp/yz-core2-1.0.49.tar.gz --markdown 20230511/y/yz-core2/1.0.47-1.0.49/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [tinybird-cdk]: Downloading https://files.pythonhosted.org/packages/80/b6/5526d800de8a7521facd1a8fa8c02d258af52b891bc0e4cc447cb0028389/tinybird-cdk-0.17.0.tar.gz
+[2023-05-11 11:26:51] INFO root fetch - processPackages [aws-service-catalog-factory]: Downloading https://files.pythonhosted.org/packages/56/e5/667f7b1441c95e54956c4609aa2f6fceab21be33a6e93c4f320ec786e3dc/aws_service_catalog_factory-0.99.0.tar.gz
+[2023-05-11 11:26:51] INFO root fetch - processPackages [ja3requests]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [ja3requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ja3requests-0.0.1.tar.gz tmp/ja3requests-0.0.2.tar.gz --markdown 20230511/j/ja3requests/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [digitalguide]: Downloading https://files.pythonhosted.org/packages/6a/bc/3440642248c58834e34d2dcdefc5eedb1d56dd55501a9f1f1efc349b6348/digitalguide-0.0.99.tar.gz
+[2023-05-11 11:26:51] INFO root fetch - processPackages [lite-tools]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [lite-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_tools-0.4.9.8-py3-none-any.whl.zip tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip --markdown 20230511/l/lite-tools/0.4.9.8-0.4.9.9/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [aws-service-catalog-factory]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [aws-service-catalog-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_service_catalog_factory-0.98.1.tar.gz tmp/aws_service_catalog_factory-0.99.0.tar.gz --markdown 20230511/a/aws-service-catalog-factory/0.98.1-0.99.0/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [tinybird-cdk]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [tinybird-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cdk-0.16.8.tar.gz tmp/tinybird-cdk-0.17.0.tar.gz --markdown 20230511/t/tinybird-cdk/0.16.8-0.17.0/diff.md --exclude *.pyd
+[2023-05-11 11:26:51] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-11 11:26:51] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230511/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 11:26:53] INFO root fetch - processPackages [ja3requests]: Start processing: scPANTHEON
+[2023-05-11 11:26:53] INFO root fetch - main [MainThread]: End processing [ja3requests]: success
+[2023-05-11 11:26:53] INFO root fetch - processPackages [scPANTHEON]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-11 11:26:53] INFO root fetch - processPackages [bambooai]: Start processing: spaceone-secret
+[2023-05-11 11:26:53] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-05-11 11:26:53] INFO root fetch - processPackages [spaceone-secret]: New version: [1.9.7rc1] Old Version: [1.9.7.1]
+[2023-05-11 11:26:53] INFO root fetch - processPackages [inhandtest]: Start processing: wagtail-content-admin
+[2023-05-11 11:26:53] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-11 11:26:53] INFO root fetch - processPackages [spaceone-secret]: executing diffoscope
+[2023-05-11 11:26:53] INFO root fetch - processPackages [spaceone-secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_secret-1.9.7.1-py3-none-any.whl.zip tmp/spaceone_secret-1.9.7rc1-py3-none-any.whl.zip --markdown 20230511/s/spaceone-secret/1.9.7.1-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-11 11:26:53] WARNING root fetch - processPackages [wagtail-content-admin]: Skipping, unable to determine old version
+[2023-05-11 11:26:53] INFO root fetch - processPackages [wagtail-content-admin]: Start processing: nkululeko
+[2023-05-11 11:26:53] INFO root fetch - main [MainThread]: End processing [wagtail-content-admin] error
+[2023-05-11 11:26:53] INFO root fetch - processPackages [scPANTHEON]: Downloading https://files.pythonhosted.org/packages/88/bd/74e8f1b61e4e863ac86a98f35d62f1641984bedbcd70d2f2ce8abe736d3d/scPANTHEON-0.2.7.tar.gz
+[2023-05-11 11:26:53] INFO root fetch - processPackages [nkululeko]: New version: [0.45.1] Old Version: [0.45.0]
+[2023-05-11 11:26:53] INFO root fetch - processPackages [scPANTHEON]: executing diffoscope
+[2023-05-11 11:26:53] INFO root fetch - processPackages [scPANTHEON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scPANTHEON-0.2.6.tar.gz tmp/scPANTHEON-0.2.7.tar.gz --markdown 20230511/s/scPANTHEON/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-11 11:26:53] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-05-11 11:26:53] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.45.0.tar.gz tmp/nkululeko-0.45.1.tar.gz --markdown 20230511/n/nkululeko/0.45.0-0.45.1/diff.md --exclude *.pyd
+[2023-05-11 11:26:53] INFO root fetch - processPackages [tinybird-cdk]: Start processing: Orange3-ImageAnalytics
+[2023-05-11 11:26:53] INFO root fetch - main [MainThread]: End processing [tinybird-cdk]: success
+[2023-05-11 11:26:54] INFO root fetch - processPackages [Orange3-ImageAnalytics]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 11:26:54] INFO root fetch - processPackages [yz-core2]: Start processing: django-pbx-admin
+[2023-05-11 11:26:54] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-05-11 11:26:54] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-05-11 11:26:54] INFO root fetch - processPackages [lite-tools]: Start processing: ar-ex-sys-worker
+[2023-05-11 11:26:54] INFO root fetch - processPackages [Orange3-ImageAnalytics]: Downloading https://files.pythonhosted.org/packages/5a/b3/2840e2b0c9bea27ca24e4ca16e678750664e00792c414e30813c26a14ed2/Orange3-ImageAnalytics-0.8.0.tar.gz
+[2023-05-11 11:26:54] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
+[2023-05-11 11:26:54] INFO root fetch - processPackages [ar-ex-sys-worker]: New version: [1.6.20] Old Version: [1.6.11]
+[2023-05-11 11:26:54] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/75/8c/48ad62b0e8f79988d824961d87bd3e2447dee17a578aab90e882d42592dd/ar_ex_sys_worker-1.6.11-py3-none-any.whl
+[2023-05-11 11:26:54] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2023-05-11 11:26:54] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20230511/d/django-pbx-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 11:26:54] INFO root fetch - processPackages [digitalguide]: Start processing: aliyun-python-sdk-linkvisual
+[2023-05-11 11:26:54] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-11 11:26:54] WARNING root fetch - processPackages [aliyun-python-sdk-linkvisual]: Skipping, unable to determine old version
+[2023-05-11 11:26:54] INFO root fetch - processPackages [aliyun-python-sdk-linkvisual]: Start processing: lazycodr
+[2023-05-11 11:26:54] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-linkvisual] error
+[2023-05-11 11:26:54] INFO root fetch - processPackages [ar-ex-sys-worker]: Downloading https://files.pythonhosted.org/packages/c5/6a/8fc387e87bd95036694b08f07264f701d166cddc20adfb37d44a405c212c/ar_ex_sys_worker-1.6.20-py3-none-any.whl
+[2023-05-11 11:26:54] WARNING root fetch - processPackages [lazycodr]: Skipping, unable to determine old version
+[2023-05-11 11:26:54] INFO root fetch - processPackages [lazycodr]: Start processing: timeblok-py
+[2023-05-11 11:26:54] INFO root fetch - main [MainThread]: End processing [lazycodr] error
+[2023-05-11 11:26:54] WARNING root fetch - processPackages [timeblok-py]: Skipping, unable to determine old version
+[2023-05-11 11:26:54] INFO root fetch - processPackages [timeblok-py]: Start processing: pm-food-lib
+[2023-05-11 11:26:54] INFO root fetch - main [MainThread]: End processing [timeblok-py] error
+[2023-05-11 11:26:55] INFO root fetch - processPackages [ar-ex-sys-worker]: executing diffoscope
+[2023-05-11 11:26:55] INFO root fetch - processPackages [ar-ex-sys-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ar_ex_sys_worker-1.6.11-py3-none-any.whl.zip tmp/ar_ex_sys_worker-1.6.20-py3-none-any.whl.zip --markdown 20230511/a/ar-ex-sys-worker/1.6.11-1.6.20/diff.md --exclude *.pyd
+[2023-05-11 11:26:55] WARNING root fetch - processPackages [pm-food-lib]: Skipping, unable to determine old version
+[2023-05-11 11:26:55] INFO root fetch - processPackages [pm-food-lib]: Start processing: tedeous
+[2023-05-11 11:26:55] INFO root fetch - main [MainThread]: End processing [pm-food-lib] error
+[2023-05-11 11:26:55] INFO root fetch - processPackages [tedeous]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 11:26:55] INFO root fetch - processPackages [tbp-nightly]: Start processing: yasuo
+[2023-05-11 11:26:55] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-11 11:26:55] INFO root fetch - processPackages [yasuo]: New version: [3.0.0] Old Version: [2.0.4]
+[2023-05-11 11:26:55] INFO root fetch - processPackages [tedeous]: Downloading https://files.pythonhosted.org/packages/8d/ed/14fa671b3885c805bf09a42170c5845185d1e4ea789559d083319a50f5cc/TEDEouS-0.1.1.tar.gz
+[2023-05-11 11:26:55] INFO root fetch - processPackages [yasuo]: Downloading https://files.pythonhosted.org/packages/9e/de/e0e8f2aa2c4579f8ecfb5a1222aa61ae85e4d2a0d6fe146b8db97bb09b1c/yasuo-2.0.4.tar.gz
+[2023-05-11 11:26:55] INFO root fetch - processPackages [tedeous]: executing diffoscope
+[2023-05-11 11:26:55] INFO root fetch - processPackages [tedeous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEDEouS-0.1.0.tar.gz tmp/TEDEouS-0.1.1.tar.gz --markdown 20230511/t/tedeous/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 11:26:55] INFO root fetch - processPackages [yasuo]: Downloading https://files.pythonhosted.org/packages/be/ee/024aca15afa111dc0c9ec3b91e2b2f9d796eb645cfa768c6ec9e467bb12c/yasuo-3.0.0.tar.gz
+[2023-05-11 11:26:56] INFO root fetch - processPackages [Orange3-ImageAnalytics]: Downloading https://files.pythonhosted.org/packages/db/17/b7a37fde81b1bfdffe2ae5c0a1a17b4cdcf0c97aab85fa9d42032caccc9d/Orange3-ImageAnalytics-0.9.0.tar.gz
+[2023-05-11 11:26:56] INFO root fetch - main [MainThread]: End processing [spaceone-secret]: success
+[2023-05-11 11:26:56] INFO root fetch - processPackages [yasuo]: executing diffoscope
+[2023-05-11 11:26:56] INFO root fetch - processPackages [yasuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yasuo-2.0.4.tar.gz tmp/yasuo-3.0.0.tar.gz --markdown 20230511/y/yasuo/2.0.4-3.0.0/diff.md --exclude *.pyd
+[2023-05-11 11:26:56] INFO root fetch - main [MainThread]: End processing [aws-service-catalog-factory]: success
+[2023-05-11 11:26:57] INFO root fetch - main [MainThread]: End processing [ar-ex-sys-worker]: success
+[2023-05-11 11:26:57] INFO root fetch - main [MainThread]: End processing [scPANTHEON]: success
+[2023-05-11 11:26:57] INFO root fetch - main [MainThread]: End processing [tedeous]: success
+[2023-05-11 11:26:57] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-05-11 11:26:57] INFO root fetch - processPackages [Orange3-ImageAnalytics]: executing diffoscope
+[2023-05-11 11:26:57] INFO root fetch - processPackages [Orange3-ImageAnalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Orange3-ImageAnalytics-0.8.0.tar.gz tmp/Orange3-ImageAnalytics-0.9.0.tar.gz --markdown 20230511/O/Orange3-ImageAnalytics/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 11:26:57] INFO root fetch - main [MainThread]: End processing [yasuo]: success
+[2023-05-11 11:26:58] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-05-11 11:27:01] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2023-05-11 11:27:07] INFO root fetch - main [MainThread]: End processing [Orange3-ImageAnalytics]: success
+[2023-05-11 11:27:07] INFO root fetch - main [MainThread]: Store serial: [18061126]
