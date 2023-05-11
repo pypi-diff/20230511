@@ -20850,3 +20850,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:26:44] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-fona]: success
 [2023-05-11 16:26:48] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-11 16:26:48] INFO root fetch - main [MainThread]: Store serial: [18064658]
+[2023-05-11 16:31:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064658]
+[2023-05-11 16:31:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prowler-cloud
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pt-lemmatizer
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camerahub-tagger
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testarchiver
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volcengine
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xpublish
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mystring
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: supervisely
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-11 16:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solarmach
+[2023-05-11 16:31:57] INFO root fetch - processPackages [xpublish]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [pt-lemmatizer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.85]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [camerahub-tagger]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [volcengine]: New version: [1.0.9] Old Version: [1.0.89]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [prowler-cloud]: New version: [3.5.0] Old Version: [3.4.1]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [testarchiver]: New version: [2.6.1rc4949012430] Old Version: [2.6.1rc4948985236]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [solarmach]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 16:31:57] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-05-11 16:31:57] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230511/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [pt-lemmatizer]: Downloading https://files.pythonhosted.org/packages/4f/0f/40c1a94d80da42177f8295720ca034345058e32e12c44e2a96e1efccb81a/pt_lemmatizer-0.1.8.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/d2/66/09c9e32c3001c324e68bdabcff32a008e3711f97cb61c31f14455f534933/mystring-0.0.85.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/05/a4/8bf43850aa9bc1324ed236840117968a96b52bf6b1172ad103209b9fe76f/testarchiver-2.6.1rc4948985236.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/98/d2/d5d046457484f83d1fac3f4fbbf159dbd18834fecfb470f519c2314bc4f6/camerahub_tagger-0.4.1.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/ee/f0/b07cc5fad7af69046fd44acf371119485e397715dade42a3e15701092635/volcengine-1.0.89.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [xpublish]: Downloading https://files.pythonhosted.org/packages/99/d2/227123697bf88110860f8b03c4b7ab507d83ab43b184e3ff9edb61866203/xpublish-0.2.0.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/42/0b/e19105665dbabfda507ab0500c7db8f77475607e6c5b4792770b91f4045e/prowler_cloud-3.4.1.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/59/7a/bcab7732863e1983217da0cdb180f7252c00abff9253f4d47ac27c174ff1/solarmach-0.1.7.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.85.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230511/m/mystring/0.0.85-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/43/29/8240e81ba2f5cf72f65e5b77f697d6bb796d5683f0e83824e2c98a7b49bd/camerahub_tagger-0.5.0.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [testarchiver]: Downloading https://files.pythonhosted.org/packages/74/5e/58a1f075c0b60ab8885871b5a31644b05d0d6902df9ca5f05cc2f3457559/testarchiver-2.6.1rc4949012430.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [pt-lemmatizer]: Downloading https://files.pythonhosted.org/packages/45/d2/6b993654de869118a3441fa9fbe16e2eb1fd01c4cc8fea2daeb676553033/pt_lemmatizer-0.1.9.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/53/8e/c42675cf6a8cca4482d840e06c5931139c07b2745f56af9c6e07ce5b45c8/volcengine-1.0.9.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [xpublish]: Downloading https://files.pythonhosted.org/packages/d9/80/b892d7bb10d9ea1f48598f6846f13fd68e33dba234965e78b2a88e0c9845/xpublish-0.3.0.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/a4/28/e11dc304a2f71995e3536c010c839a88d10b4f3e1576ae898d105fb282ba/prowler_cloud-3.5.0.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [pt-lemmatizer]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [pt-lemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_lemmatizer-0.1.8.tar.gz tmp/pt_lemmatizer-0.1.9.tar.gz --markdown 20230511/p/pt-lemmatizer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [camerahub-tagger]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [camerahub-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub_tagger-0.4.1.tar.gz tmp/camerahub_tagger-0.5.0.tar.gz --markdown 20230511/c/camerahub-tagger/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [solarmach]: Downloading https://files.pythonhosted.org/packages/b0/b0/a88e0d205a5a6d32dad06eaf289217d0189b36ec3eddcc18079ed8061cf2/solarmach-0.2.0.tar.gz
+[2023-05-11 16:31:58] INFO root fetch - processPackages [xpublish]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [xpublish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpublish-0.2.0.tar.gz tmp/xpublish-0.3.0.tar.gz --markdown 20230511/x/xpublish/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.1rc4948985236.tar.gz tmp/testarchiver-2.6.1rc4949012430.tar.gz --markdown 20230511/t/testarchiver/2.6.1rc4948985236-2.6.1rc4949012430/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.4.1.tar.gz tmp/prowler_cloud-3.5.0.tar.gz --markdown 20230511/p/prowler-cloud/3.4.1-3.5.0/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.89.tar.gz tmp/volcengine-1.0.9.tar.gz --markdown 20230511/v/volcengine/1.0.89-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:31:58] INFO root fetch - processPackages [solarmach]: executing diffoscope
+[2023-05-11 16:31:58] INFO root fetch - processPackages [solarmach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarmach-0.1.7.tar.gz tmp/solarmach-0.2.0.tar.gz --markdown 20230511/s/solarmach/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 16:31:59] INFO root fetch - processPackages [mystring]: Start processing: substrafl
+[2023-05-11 16:31:59] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-11 16:31:59] INFO root fetch - processPackages [substrafl]: New version: [0.36.0rc1] Old Version: [0.35.1rc1]
+[2023-05-11 16:31:59] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/a7/3b/de0bd01b31c804d49f3ab42a959cf0aa6ae226540d72bfc675cd41c2db7a/substrafl-0.35.1rc1.tar.gz
+[2023-05-11 16:32:00] INFO root fetch - processPackages [camerahub-tagger]: Start processing: TINTOlib
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [camerahub-tagger]: success
+[2023-05-11 16:32:00] INFO root fetch - processPackages [pt-lemmatizer]: Start processing: iterio
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [pt-lemmatizer]: success
+[2023-05-11 16:32:00] INFO root fetch - processPackages [substrafl]: Downloading https://files.pythonhosted.org/packages/29/4c/5273113e7a3baef586e837b8f15437627d6f2847922b74917bb2b2ab39f4/substrafl-0.36.0rc1.tar.gz
+[2023-05-11 16:32:00] WARNING root fetch - processPackages [TINTOlib]: Skipping, unable to determine old version
+[2023-05-11 16:32:00] INFO root fetch - processPackages [TINTOlib]: Start processing: computation-graph
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [TINTOlib] error
+[2023-05-11 16:32:00] WARNING root fetch - processPackages [iterio]: Skipping, unable to determine old version
+[2023-05-11 16:32:00] INFO root fetch - processPackages [iterio]: Start processing: labvirtual
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [iterio] error
+[2023-05-11 16:32:00] INFO root fetch - processPackages [labvirtual]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-11 16:32:00] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/7a/c0/39e76aa2eb7bbbbd4f1887be7659dcfb45dbc34cbe65a4b5f3f138db1656/labvirtual-0.2.3.tar.gz
+[2023-05-11 16:32:00] INFO root fetch - processPackages [computation-graph]: New version: [9] Old Version: [7]
+[2023-05-11 16:32:00] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43630882>=10485760
+[2023-05-11 16:32:00] INFO root fetch - processPackages [labvirtual]: Start processing: gptcache
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 16:32:00] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2023-05-11 16:32:00] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.35.1rc1.tar.gz tmp/substrafl-0.36.0rc1.tar.gz --markdown 20230511/s/substrafl/0.35.1rc1-0.36.0rc1/diff.md --exclude *.pyd
+[2023-05-11 16:32:00] INFO root fetch - processPackages [xpublish]: Start processing: executor-engine
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [xpublish]: success
+[2023-05-11 16:32:00] INFO root fetch - processPackages [executor-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:32:00] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:32:00] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: quintus
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-11 16:32:00] INFO root fetch - processPackages [computation-graph]: Downloading https://files.pythonhosted.org/packages/d3/7a/4ca790cd68ab8ecc81d3f636b207580a86c94f97a9e81efa711c7c4d37ff/computation-graph-7.tar.gz
+[2023-05-11 16:32:00] INFO root fetch - processPackages [executor-engine]: executing diffoscope
+[2023-05-11 16:32:00] INFO root fetch - processPackages [executor-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/executor-engine-0.1.8.tar.gz tmp/executor-engine-0.1.9.tar.gz --markdown 20230511/e/executor-engine/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:32:00] INFO root fetch - main [MainThread]: End processing [solarmach]: success
+[2023-05-11 16:32:00] INFO root fetch - processPackages [quintus]: New version: [0.2] Old Version: [0.1]
+[2023-05-11 16:32:00] INFO root fetch - processPackages [computation-graph]: Downloading https://files.pythonhosted.org/packages/d3/84/b953d43c561dc982f24fed841639a029915d5614f9ed7d2178f9e5f1d406/computation-graph-9.tar.gz
+[2023-05-11 16:32:01] INFO root fetch - processPackages [quintus]: Downloading https://files.pythonhosted.org/packages/0e/9c/f22360639ced6f54515aa740c702dcda92e207c719b478d434558614641d/quintus-0.1.tar.gz
+[2023-05-11 16:32:01] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:32:01] INFO root fetch - processPackages [computation-graph]: executing diffoscope
+[2023-05-11 16:32:01] INFO root fetch - processPackages [computation-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/computation-graph-7.tar.gz tmp/computation-graph-9.tar.gz --markdown 20230511/c/computation-graph/7-9/diff.md --exclude *.pyd
+[2023-05-11 16:32:01] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-05-11 16:32:01] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-05-11 16:32:01] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230511/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:32:01] INFO root fetch - processPackages [quintus]: Downloading https://files.pythonhosted.org/packages/0c/85/05545638fa369074e7d37eb22c977769b016530cf541b3d282d97a4c85ee/quintus-0.2-py3-none-any.whl
+[2023-05-11 16:32:01] INFO root fetch - processPackages [quintus]: executing diffoscope
+[2023-05-11 16:32:01] INFO root fetch - processPackages [quintus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quintus-0.1.tar.gz tmp/quintus-0.2-py3-none-any.whl.zip --markdown 20230511/q/quintus/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-11 16:32:01] INFO root fetch - main [MainThread]: End processing [executor-engine]: success
+[2023-05-11 16:32:02] INFO root fetch - main [MainThread]: End processing [computation-graph]: success
+[2023-05-11 16:32:02] INFO root fetch - main [MainThread]: End processing [quintus]: success
+[2023-05-11 16:32:02] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-05-11 16:32:02] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2023-05-11 16:32:05] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2023-05-11 16:32:16] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2023-05-11 16:32:16] INFO root fetch - main [MainThread]: Store serial: [18064709]
