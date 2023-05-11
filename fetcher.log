@@ -9317,3 +9317,33 @@ EOFError: EOF read where object expected
 [2023-05-11 06:56:27] INFO root fetch - main [MainThread]: End processing [django-syzygy]: success
 [2023-05-11 06:56:28] INFO root fetch - main [MainThread]: End processing [DeepMuon]: success
 [2023-05-11 06:56:28] INFO root fetch - main [MainThread]: Store serial: [18058308]
+[2023-05-11 07:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058308]
+[2023-05-11 07:01:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-11 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2023-05-11 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2023-05-11 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywencai
+[2023-05-11 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycallingcards
+[2023-05-11 07:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vortex-api
+[2023-05-11 07:01:37] INFO root fetch - processPackages [vortex-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-11 07:01:37] INFO root fetch - processPackages [pywencai]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-11 07:01:37] ERROR root fetch - processPackages [pycallingcards]: Unable to get metadata: No such project 'pycallingcards'
+[2023-05-11 07:01:37] INFO root fetch - main [MainThread]: End processing [pycallingcards] error
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: New version: [0.0.9] Old Version: [0.0.83]
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/df/8f/70fd714d9a4fae1c134f390ca897dab9b1409bbf781db6a1e25b18e489eb/mystring-0.0.83.tar.gz
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/df/8f/70fd714d9a4fae1c134f390ca897dab9b1409bbf781db6a1e25b18e489eb/mystring-0.0.83.tar.gz
+[2023-05-11 07:01:37] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/51/0a/f683bb57fda4d74e730f15ae5177989da9f36bdd8be40e8cb55fb91ed45f/pywencai-0.8.4.tar.gz
+[2023-05-11 07:01:37] INFO root fetch - processPackages [vortex-api]: Downloading https://files.pythonhosted.org/packages/df/f3/90a9a5397f0d5eb52e6840818f2bd2827a0d88fd862ef8d29f2fdd03af9c/vortex_api-1.0.5.tar.gz
+[2023-05-11 07:01:37] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-05-11 07:01:37] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.8.3.tar.gz tmp/pywencai-0.8.4.tar.gz --markdown 20230511/p/pywencai/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.83.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230511/m/mystring/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2023-05-11 07:01:37] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.0.83.tar.gz tmp/mystring-0.0.9.tar.gz --markdown 20230511/m/mystring/0.0.83-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 07:01:37] INFO root fetch - processPackages [vortex-api]: executing diffoscope
+[2023-05-11 07:01:37] INFO root fetch - processPackages [vortex-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortex_api-1.0.4.tar.gz tmp/vortex_api-1.0.5.tar.gz --markdown 20230511/v/vortex-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-11 07:01:38] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-05-11 07:01:38] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-11 07:01:38] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2023-05-11 07:01:38] INFO root fetch - main [MainThread]: End processing [vortex-api]: success
+[2023-05-11 07:01:38] INFO root fetch - main [MainThread]: Store serial: [18058327]
