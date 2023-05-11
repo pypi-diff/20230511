@@ -17809,3 +17809,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 13:39:48] INFO root fetch - main [MainThread]: End processing [hpy]: success
 [2023-05-11 13:39:55] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-11 13:39:55] INFO root fetch - main [MainThread]: Store serial: [18062941]
+[2023-05-11 13:45:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062941]
+[2023-05-11 13:45:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textprepro
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rdflib-ocdm
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybarb
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daskcheck
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bytecodemanipulation
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edm-arch
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gbd-tools
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: btconfig
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalguide
+[2023-05-11 13:45:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: btecli
+[2023-05-11 13:45:06] INFO root fetch - processPackages [edm-arch]: New version: [1.0.33] Old Version: [1.0.32]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [rdflib-ocdm]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [textprepro]: New version: [0.0.1] Old Version: [0.0.0.1]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [pybarb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [daskcheck]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.7] Old Version: [4.5.6]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [bytecodemanipulation]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 13:45:06] WARNING root fetch - processPackages [btecli]: Skipping, unable to determine old version
+[2023-05-11 13:45:06] INFO root fetch - processPackages [btecli]: Start processing: clustree
+[2023-05-11 13:45:06] INFO root fetch - main [MainThread]: End processing [btecli] error
+[2023-05-11 13:45:06] INFO root fetch - processPackages [daskcheck]: executing diffoscope
+[2023-05-11 13:45:06] INFO root fetch - processPackages [daskcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daskcheck-0.0.5.tar.gz tmp/daskcheck-0.0.7.tar.gz --markdown 20230511/d/daskcheck/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 13:45:06] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-11 13:45:06] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230511/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 13:45:06] INFO root fetch - processPackages [textprepro]: Downloading https://files.pythonhosted.org/packages/ab/73/dc683b15be92f6ebfbe5672a304db23d0361b83be86442667fd1c7ba19b8/textprepro-0.0.0.1.tar.gz
+[2023-05-11 13:45:06] INFO root fetch - processPackages [clustree]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 13:45:06] INFO root fetch - processPackages [pybarb]: Downloading https://files.pythonhosted.org/packages/2b/6b/72c977cf01775e9211e05fa4d32ab1215c932405eabef502b0d0d262fe9b/pybarb-0.3.2.tar.gz
+[2023-05-11 13:45:06] INFO root fetch - processPackages [rdflib-ocdm]: Downloading https://files.pythonhosted.org/packages/10/fb/3d55b22d232c3692842e9e3a703d88caf008a1ef0516b56cc54a04f27cda/rdflib_ocdm-0.2.0.tar.gz
+[2023-05-11 13:45:06] INFO root fetch - processPackages [edm-arch]: Downloading https://files.pythonhosted.org/packages/8f/2e/7b641e106c39d36fd8848560aa45d0759f5d9495ca9e39e674a9b17a9724/edm-arch-1.0.33.tar.gz
+[2023-05-11 13:45:06] WARNING root fetch - processPackages [btconfig]: Skipping, unable to determine old version
+[2023-05-11 13:45:06] INFO root fetch - processPackages [btconfig]: Start processing: unicef-security
+[2023-05-11 13:45:06] INFO root fetch - main [MainThread]: End processing [btconfig] error
+[2023-05-11 13:45:06] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/8e/2a/3cac0bd49af85a69d8d5c6a28caacddec3837fe3787a68d38a90b545e675/gbd_tools-4.5.7.tar.gz
+[2023-05-11 13:45:06] INFO root fetch - processPackages [pybarb]: executing diffoscope
+[2023-05-11 13:45:06] INFO root fetch - processPackages [pybarb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybarb-0.3.1.tar.gz tmp/pybarb-0.3.2.tar.gz --markdown 20230511/p/pybarb/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-11 13:45:06] INFO root fetch - processPackages [rdflib-ocdm]: executing diffoscope
+[2023-05-11 13:45:06] INFO root fetch - processPackages [rdflib-ocdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdflib_ocdm-0.1.1.tar.gz tmp/rdflib_ocdm-0.2.0.tar.gz --markdown 20230511/r/rdflib-ocdm/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 13:45:06] INFO root fetch - processPackages [textprepro]: Downloading https://files.pythonhosted.org/packages/65/91/06efb518c59611d6066623c0780041667540611d81bdd9b5757693710c8a/textprepro-0.0.1.tar.gz
+[2023-05-11 13:45:06] INFO root fetch - processPackages [edm-arch]: executing diffoscope
+[2023-05-11 13:45:06] INFO root fetch - processPackages [edm-arch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edm-arch-1.0.32.tar.gz tmp/edm-arch-1.0.33.tar.gz --markdown 20230511/e/edm-arch/1.0.32-1.0.33/diff.md --exclude *.pyd
+[2023-05-11 13:45:06] INFO root fetch - processPackages [clustree]: Downloading https://files.pythonhosted.org/packages/dc/0c/2c6b380a4a532a1cd5a6c248184a899ca6779f1aac96a0c283bb79e410d6/clustree-0.2.0.tar.gz
+[2023-05-11 13:45:06] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-11 13:45:06] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.6.tar.gz tmp/gbd_tools-4.5.7.tar.gz --markdown 20230511/g/gbd-tools/4.5.6-4.5.7/diff.md --exclude *.pyd
+[2023-05-11 13:45:07] INFO root fetch - processPackages [bytecodemanipulation]: Downloading https://files.pythonhosted.org/packages/2a/04/e6725eaaed3835f4687032a0996be759d2ac212989839b365b6bb803e67e/bytecodemanipulation-0.2.9.tar.gz
+[2023-05-11 13:45:07] INFO root fetch - processPackages [unicef-security]: New version: [1.4.2] Old Version: [1.4]
+[2023-05-11 13:45:07] INFO root fetch - processPackages [textprepro]: executing diffoscope
+[2023-05-11 13:45:07] INFO root fetch - processPackages [textprepro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textprepro-0.0.0.1.tar.gz tmp/textprepro-0.0.1.tar.gz --markdown 20230511/t/textprepro/0.0.0.1-0.0.1/diff.md --exclude *.pyd
+[2023-05-11 13:45:07] INFO root fetch - processPackages [bytecodemanipulation]: executing diffoscope
+[2023-05-11 13:45:07] INFO root fetch - processPackages [bytecodemanipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytecodemanipulation-0.2.8.tar.gz tmp/bytecodemanipulation-0.2.9.tar.gz --markdown 20230511/b/bytecodemanipulation/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 13:45:07] INFO root fetch - processPackages [unicef-security]: Downloading https://files.pythonhosted.org/packages/ea/cf/86520783e89d12c580e0af8242f2df05f9a10a1ab61125c23fa828315d5c/unicef-security-1.4.tar.gz
+[2023-05-11 13:45:07] INFO root fetch - processPackages [clustree]: Downloading https://files.pythonhosted.org/packages/40/32/7da6e2c5ad94915b09847984cb1c441a8b1284e50fde257e23a743617c42/clustree-0.2.1.tar.gz
+[2023-05-11 13:45:07] INFO root fetch - processPackages [clustree]: executing diffoscope
+[2023-05-11 13:45:07] INFO root fetch - processPackages [clustree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustree-0.2.0.tar.gz tmp/clustree-0.2.1.tar.gz --markdown 20230511/c/clustree/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 13:45:07] INFO root fetch - processPackages [unicef-security]: Downloading https://files.pythonhosted.org/packages/6b/50/668e1c09f9302c914d2a3c00ff76485f18084afd30eb239df85fbde70393/unicef-security-1.4.2.tar.gz
+[2023-05-11 13:45:07] INFO root fetch - processPackages [unicef-security]: executing diffoscope
+[2023-05-11 13:45:07] INFO root fetch - processPackages [unicef-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicef-security-1.4.tar.gz tmp/unicef-security-1.4.2.tar.gz --markdown 20230511/u/unicef-security/1.4-1.4.2/diff.md --exclude *.pyd
+[2023-05-11 13:45:08] INFO root fetch - processPackages [daskcheck]: Start processing: rabbie
+[2023-05-11 13:45:08] INFO root fetch - main [MainThread]: End processing [daskcheck]: success
+[2023-05-11 13:45:08] INFO root fetch - processPackages [rabbie]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 13:45:08] INFO root fetch - processPackages [rdflib-ocdm]: Start processing: eswrap
+[2023-05-11 13:45:08] INFO root fetch - main [MainThread]: End processing [rdflib-ocdm]: success
+[2023-05-11 13:45:08] INFO root fetch - processPackages [rabbie]: Downloading https://files.pythonhosted.org/packages/68/e4/45923b1954e8edff536cd65505337afd59c4b9be38bc3c4bd5548d05c753/rabbie-0.0.6.tar.gz
+[2023-05-11 13:45:08] INFO root fetch - processPackages [digitalguide]: Start processing: tweety-ns
+[2023-05-11 13:45:08] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-11 13:45:08] INFO root fetch - main [MainThread]: End processing [pybarb]: success
+[2023-05-11 13:45:09] INFO root fetch - processPackages [eswrap]: New version: [0.4] Old Version: [0.3.1]
+[2023-05-11 13:45:09] INFO root fetch - processPackages [tweety-ns]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-11 13:45:09] INFO root fetch - processPackages [rabbie]: executing diffoscope
+[2023-05-11 13:45:09] INFO root fetch - processPackages [rabbie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbie-0.0.5.tar.gz tmp/rabbie-0.0.6.tar.gz --markdown 20230511/r/rabbie/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 13:45:09] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/19/92/562b5fd20d0ebb1b4d62b378071d9a35034e4099af0c45b081b7ddeca9d2/eswrap-0.3.1.tar.gz
+[2023-05-11 13:45:09] INFO root fetch - main [MainThread]: End processing [clustree]: success
+[2023-05-11 13:45:09] INFO root fetch - processPackages [tweety-ns]: Downloading https://files.pythonhosted.org/packages/50/f9/2a804e6aa631834de07423ef8775f543a220d52afbeb9b284ba6065dcbbb/tweety-ns-0.7.1.tar.gz
+[2023-05-11 13:45:09] INFO root fetch - processPackages [eswrap]: Downloading https://files.pythonhosted.org/packages/7b/bb/ce8dc4d16a62a7c7eadec1adcaf4bb4729578c22db593c739b468ee1bb9d/eswrap-0.4.tar.gz
+[2023-05-11 13:45:09] INFO root fetch - processPackages [tweety-ns]: executing diffoscope
+[2023-05-11 13:45:09] INFO root fetch - processPackages [tweety-ns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweety-ns-0.7.0.tar.gz tmp/tweety-ns-0.7.1.tar.gz --markdown 20230511/t/tweety-ns/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-11 13:45:09] INFO root fetch - processPackages [eswrap]: executing diffoscope
+[2023-05-11 13:45:09] INFO root fetch - processPackages [eswrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eswrap-0.3.1.tar.gz tmp/eswrap-0.4.tar.gz --markdown 20230511/e/eswrap/0.3.1-0.4/diff.md --exclude *.pyd
+[2023-05-11 13:45:09] INFO root fetch - main [MainThread]: End processing [textprepro]: success
+[2023-05-11 13:45:10] INFO root fetch - main [MainThread]: End processing [edm-arch]: success
+[2023-05-11 13:45:10] INFO root fetch - main [MainThread]: End processing [unicef-security]: success
+[2023-05-11 13:45:10] INFO root fetch - main [MainThread]: End processing [rabbie]: success
+[2023-05-11 13:45:11] INFO root fetch - main [MainThread]: End processing [eswrap]: success
+[2023-05-11 13:45:11] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-11 13:45:11] INFO root fetch - main [MainThread]: End processing [tweety-ns]: success
+[2023-05-11 13:45:11] INFO root fetch - main [MainThread]: End processing [bytecodemanipulation]: success
+[2023-05-11 13:45:11] INFO root fetch - main [MainThread]: Store serial: [18062994]
