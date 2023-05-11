@@ -8805,3 +8805,48 @@ EOFError: EOF read where object expected
 [2023-05-11 05:48:44] INFO root fetch - main [MainThread]: End processing [synthea-rdf]: success
 [2023-05-11 05:48:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt]: success
 [2023-05-11 05:48:46] INFO root fetch - main [MainThread]: Store serial: [18058024]
+[2023-05-11 05:53:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058024]
+[2023-05-11 05:53:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-11 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tennis
+[2023-05-11 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dummy-kinematics
+[2023-05-11 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dummy-kinematics
+[2023-05-11 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: planet
+[2023-05-11 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prometheus-http-sd
+[2023-05-11 05:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tennis
+[2023-05-11 05:53:55] INFO root fetch - processPackages [dummy-kinematics]: New version: [0.0.8] Old Version: [0.0.7a3]
+[2023-05-11 05:53:55] INFO root fetch - processPackages [tennis]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 05:53:55] INFO root fetch - processPackages [prometheus-http-sd]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-11 05:53:55] INFO root fetch - processPackages [dummy-kinematics]: New version: [0.0.8] Old Version: [0.0.7a3]
+[2023-05-11 05:53:55] INFO root fetch - processPackages [tennis]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 05:53:55] INFO root fetch - processPackages [planet]: New version: [2.0a6] Old Version: [2.0a5.dev0]
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: Downloading https://files.pythonhosted.org/packages/58/7e/79ff0110927c47a8e50904876d32989aa7e6f472cfa0d6f5bc81bca6847e/dummy_kinematics-0.0.7a3.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: Downloading https://files.pythonhosted.org/packages/58/7e/79ff0110927c47a8e50904876d32989aa7e6f472cfa0d6f5bc81bca6847e/dummy_kinematics-0.0.7a3.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: Downloading https://files.pythonhosted.org/packages/5d/ca/61a4b7dd37128e42e71332d18943347d0bea337620b921c3f2fbe45bff0d/tennis-0.1.5.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: Downloading https://files.pythonhosted.org/packages/5d/ca/61a4b7dd37128e42e71332d18943347d0bea337620b921c3f2fbe45bff0d/tennis-0.1.5.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/e8/93/7d71b785134bf27821b2500b3d0d0221d8b6e6dd43938f56df98f4ab6672/prometheus_http_sd-1.2.1.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/c1/b6/225cff175ba304537587c354b83521e6e2229f41b5db8eccd15d8bffd258/planet-2.0a5.dev0.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: Downloading https://files.pythonhosted.org/packages/a4/7b/af37ab929aa9cff0f32639a911cbe61bfb13f40509d3d18a92dcd1badfd6/dummy_kinematics-0.0.8.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: Downloading https://files.pythonhosted.org/packages/a4/7b/af37ab929aa9cff0f32639a911cbe61bfb13f40509d3d18a92dcd1badfd6/dummy_kinematics-0.0.8.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [prometheus-http-sd]: Downloading https://files.pythonhosted.org/packages/ca/cd/96a7a05dc18295e7f98d8812eb844a34e8ca41e43c25193aadd395c36751/prometheus_http_sd-1.2.2.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: Downloading https://files.pythonhosted.org/packages/93/05/e3691eed0ec75bf254054e683536bb5bbfa89f7f5db9c1f410c104891fc7/tennis-0.1.6.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: Downloading https://files.pythonhosted.org/packages/93/05/e3691eed0ec75bf254054e683536bb5bbfa89f7f5db9c1f410c104891fc7/tennis-0.1.6.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/1b/de/4e9153e0f3f3c19088d3c1e4c5432e1f7ade1f918c736e47830e558f2f5e/planet-2.0a6.tar.gz
+[2023-05-11 05:53:56] INFO root fetch - processPackages [prometheus-http-sd]: executing diffoscope
+[2023-05-11 05:53:56] INFO root fetch - processPackages [prometheus-http-sd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prometheus_http_sd-1.2.1.tar.gz tmp/prometheus_http_sd-1.2.2.tar.gz --markdown 20230511/p/prometheus-http-sd/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: executing diffoscope
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_kinematics-0.0.7a3.tar.gz tmp/dummy_kinematics-0.0.8.tar.gz --markdown 20230511/d/dummy-kinematics/0.0.7a3-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: executing diffoscope
+[2023-05-11 05:53:56] INFO root fetch - processPackages [dummy-kinematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_kinematics-0.0.7a3.tar.gz tmp/dummy_kinematics-0.0.8.tar.gz --markdown 20230511/d/dummy-kinematics/0.0.7a3-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: executing diffoscope
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: executing diffoscope
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tennis-0.1.5.tar.gz tmp/tennis-0.1.6.tar.gz --markdown 20230511/t/tennis/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 05:53:56] INFO root fetch - processPackages [tennis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tennis-0.1.5.tar.gz tmp/tennis-0.1.6.tar.gz --markdown 20230511/t/tennis/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 05:53:56] INFO root fetch - processPackages [planet]: executing diffoscope
+[2023-05-11 05:53:56] INFO root fetch - processPackages [planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planet-2.0a5.dev0.tar.gz tmp/planet-2.0a6.tar.gz --markdown 20230511/p/planet/2.0a5.dev0-2.0a6/diff.md --exclude *.pyd
+[2023-05-11 05:53:57] INFO root fetch - main [MainThread]: End processing [dummy-kinematics]: success
+[2023-05-11 05:53:58] INFO root fetch - main [MainThread]: End processing [dummy-kinematics]: success
+[2023-05-11 05:53:58] INFO root fetch - main [MainThread]: End processing [tennis]: success
+[2023-05-11 05:53:58] INFO root fetch - main [MainThread]: End processing [prometheus-http-sd]: success
+[2023-05-11 05:53:58] INFO root fetch - main [MainThread]: End processing [tennis]: success
+[2023-05-11 05:53:58] INFO root fetch - main [MainThread]: End processing [planet]: success
+[2023-05-11 05:53:58] INFO root fetch - main [MainThread]: Store serial: [18058043]
