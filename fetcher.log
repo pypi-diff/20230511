@@ -18145,3 +18145,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
 [2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [better-translation]: success
 [2023-05-11 14:01:00] INFO root fetch - main [MainThread]: Store serial: [18063142]
+[2023-05-11 14:06:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063142]
+[2023-05-11 14:06:09] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-eyalf-clean-EvaldCVLExp
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Calculadoradatu2
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: D47crunch
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: facefinder
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openstef
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-gpt-torch
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: celery
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-agents-nightly
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: extr-ds
+[2023-05-11 14:06:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: invenio-workflows-tugraz
+[2023-05-11 14:06:09] INFO root fetch - processPackages [extr-ds]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 14:06:09] INFO root fetch - processPackages [facefinder]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-11 14:06:09] INFO root fetch - processPackages [celery]: New version: [5.3.0b2] Old Version: [5.3.0b1]
+[2023-05-11 14:06:09] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 14:06:09] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-11 14:06:09] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: Skipping, unable to determine old version
+[2023-05-11 14:06:09] INFO root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: Start processing: async-btree
+[2023-05-11 14:06:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-clean-EvaldCVLExp] error
+[2023-05-11 14:06:09] WARNING root fetch - processPackages [Calculadoradatu2]: Skipping, unable to determine old version
+[2023-05-11 14:06:09] INFO root fetch - processPackages [Calculadoradatu2]: Start processing: niked
+[2023-05-11 14:06:09] INFO root fetch - main [MainThread]: End processing [Calculadoradatu2] error
+[2023-05-11 14:06:10] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.1rc8] Old Version: [0.0.1rc7]
+[2023-05-11 14:06:10] INFO root fetch - processPackages [async-btree]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 14:06:10] INFO root fetch - processPackages [extr-ds]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [extr-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-ds-0.0.8.tar.gz tmp/extr-ds-0.0.9.tar.gz --markdown 20230511/e/extr-ds/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [D47crunch]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-05-11 14:06:10] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-05-11 14:06:10] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230511/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230511/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] WARNING root fetch - processPackages [niked]: Skipping, unable to determine old version
+[2023-05-11 14:06:10] INFO root fetch - processPackages [niked]: Start processing: cliconfig
+[2023-05-11 14:06:10] INFO root fetch - main [MainThread]: End processing [niked] error
+[2023-05-11 14:06:10] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/1c/af/73c8833885899db91381ace0d0936ef2a1e4905d982e5e99ad6bdbe62357/celery-5.3.0b1.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [facefinder]: Downloading https://files.pythonhosted.org/packages/d9/7f/483bc469a015cc0bdca89594805dab32ef5bde76df872276c08084336358/facefinder-0.1.8.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [cliconfig]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-11 14:06:10] INFO root fetch - processPackages [D47crunch]: Downloading https://files.pythonhosted.org/packages/d2/66/6913668eb00fd4b70c6040b9e7bd26b159dd912ecb30cc519b9c8df3faf2/D47crunch-2.0.3.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [async-btree]: Downloading https://files.pythonhosted.org/packages/d4/96/09bae3c0d903513a64fb8cb10dd4115073158bba03f3f958abdd5f4e6d3c/async_btree-1.1.0.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/d8/5e/aae4f72c0d709588767ec68e766ff22787ba14fda62462c8224096805437/openstef-3.2.8.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [facefinder]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [facefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facefinder-0.1.7.tar.gz tmp/facefinder-0.1.8.tar.gz --markdown 20230511/f/facefinder/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.4.3.tar.gz tmp/cliconfig-0.4.4.tar.gz --markdown 20230511/c/cliconfig/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/c6/af/4787fcc60f670429b6faf0d2fd632b904f8e712c1121ca1cac0bad2b86f6/open_gpt_torch-0.0.1rc8.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_gpt_torch-0.0.1rc7.tar.gz tmp/open_gpt_torch-0.0.1rc8.tar.gz --markdown 20230511/o/open-gpt-torch/0.0.1rc7-0.0.1rc8/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [D47crunch]: Downloading https://files.pythonhosted.org/packages/84/a5/a2b4fdc92839b0457d74d8929d5b7996195a06f4f491b82c45ab46c34ea4/D47crunch-2.0.4.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [async-btree]: Downloading https://files.pythonhosted.org/packages/8a/08/680f2a102b77e974f2948c518dfe50d9af6194b7853897e0ad24ae48be14/async_btree-1.1.1.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/29/d4/6bfa6f73beb32d4a7f81fc4d95e23ee53c07a7d37cabaa2e96846a64a68c/celery-5.3.0b2.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [D47crunch]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [D47crunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/D47crunch-2.0.3.tar.gz tmp/D47crunch-2.0.4.tar.gz --markdown 20230511/D/D47crunch/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [async-btree]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [async-btree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_btree-1.1.0.tar.gz tmp/async_btree-1.1.1.tar.gz --markdown 20230511/a/async-btree/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/08/0a/df7db806501a61abf24779c5c0a1d1fc52e9e8822793a33bb64b0a4002cc/openstef-3.2.9.tar.gz
+[2023-05-11 14:06:10] INFO root fetch - processPackages [celery]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-5.3.0b1.tar.gz tmp/celery-5.3.0b2.tar.gz --markdown 20230511/c/celery/5.3.0b1-5.3.0b2/diff.md --exclude *.pyd
+[2023-05-11 14:06:10] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-05-11 14:06:10] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230511/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-05-11 14:06:11] INFO root fetch - processPackages [extr-ds]: Start processing: nexgen
+[2023-05-11 14:06:11] INFO root fetch - main [MainThread]: End processing [extr-ds]: success
+[2023-05-11 14:06:11] INFO root fetch - processPackages [nexgen]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-05-11 14:06:11] INFO root fetch - main [MainThread]: End processing [facefinder]: success
+[2023-05-11 14:06:12] INFO root fetch - processPackages [nexgen]: Downloading https://files.pythonhosted.org/packages/28/9a/c23a52178b2cf80144eb7c741739e6b7dd1c3ec614acf446c1a2e3b992ed/nexgen-0.6.8.tar.gz
+[2023-05-11 14:06:12] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-05-11 14:06:12] INFO root fetch - main [MainThread]: End processing [async-btree]: success
+[2023-05-11 14:06:12] INFO root fetch - main [MainThread]: End processing [D47crunch]: success
+[2023-05-11 14:06:12] INFO root fetch - processPackages [nexgen]: Downloading https://files.pythonhosted.org/packages/a2/08/889ecee59e28c5d8842fc645406d4539ae2a5c47e4181b0c0f058c51213f/nexgen-0.6.9.tar.gz
+[2023-05-11 14:06:12] INFO root fetch - processPackages [nexgen]: executing diffoscope
+[2023-05-11 14:06:12] INFO root fetch - processPackages [nexgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexgen-0.6.8.tar.gz tmp/nexgen-0.6.9.tar.gz --markdown 20230511/n/nexgen/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-05-11 14:06:12] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-11 14:06:14] INFO root fetch - main [MainThread]: End processing [nexgen]: success
+[2023-05-11 14:06:14] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-11 14:06:14] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-05-11 14:06:16] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-11 14:06:20] INFO root fetch - main [MainThread]: End processing [celery]: success
+[2023-05-11 14:06:20] INFO root fetch - main [MainThread]: Store serial: [18063191]
