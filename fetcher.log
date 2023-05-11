@@ -11843,3 +11843,189 @@ EOFError: EOF read where object expected
 [2023-05-11 10:09:41] ERROR root fetch - processPackages [aspose-diagram]: Timeout during execution of pkgdiff
 [2023-05-11 10:09:41] INFO root fetch - main [MainThread]: End processing [aspose-diagram] error
 [2023-05-11 10:09:41] INFO root fetch - main [MainThread]: Store serial: [18059757]
+[2023-05-11 10:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059757]
+[2023-05-11 10:14:53] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forestadmin-agent-toolkit
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwrpy
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-reels
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ggp-template
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forestadmin-agent-flask
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-oci
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azureml-designer-recommender-modules
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: electrumsv-bclifehash
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lanceotron
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ggp-template]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-11 10:14:53] WARNING root fetch - processPackages [mercury-reels]: Skipping, unable to determine old version
+[2023-05-11 10:14:53] INFO root fetch - processPackages [mercury-reels]: Start processing: edman
+[2023-05-11 10:14:53] INFO root fetch - main [MainThread]: End processing [mercury-reels] error
+[2023-05-11 10:14:53] INFO root fetch - processPackages [pulumi-oci]: New version: [0.9.1a1677791364] Old Version: [0.9.0]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [mwrpy]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [cg]: New version: [30.1.1] Old Version: [30.1.0]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [azureml-designer-recommender-modules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:14:53] WARNING root fetch - processPackages [electrumsv-bclifehash]: Skipping, unable to determine old version
+[2023-05-11 10:14:53] INFO root fetch - processPackages [electrumsv-bclifehash]: Start processing: pykantorovich
+[2023-05-11 10:14:53] INFO root fetch - main [MainThread]: End processing [electrumsv-bclifehash] error
+[2023-05-11 10:14:53] INFO root fetch - processPackages [lanceotron]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [edman]: New version: [2023.5.8] Old Version: [2023.5.12]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ggp-template]: Downloading https://files.pythonhosted.org/packages/90/98/2df7dddb121f1756b1b9cca977b7f8f4828388d9cea23560ed7596cdebcf/ggp_template-0.1.1.tar.gz
+[2023-05-11 10:14:53] WARNING root fetch - processPackages [pykantorovich]: Skipping, unable to determine old version
+[2023-05-11 10:14:53] INFO root fetch - processPackages [pykantorovich]: Start processing: oscar-python
+[2023-05-11 10:14:53] INFO root fetch - main [MainThread]: End processing [pykantorovich] error
+[2023-05-11 10:14:53] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Downloading https://files.pythonhosted.org/packages/29/9d/d3184ce330ad8d16f9bde85bb6dc14f07b9aecd77c21ad7161b236ba7a38/azureml_designer_recommender_modules-0.0.8-py3-none-any.whl
+[2023-05-11 10:14:53] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/fb/29/b65efaf48238938cecd5386766a722f72a37264ff9c12d07fa96f56e148e/edman-2023.5.12.tar.gz
+[2023-05-11 10:14:53] INFO root fetch - processPackages [oscar-python]: New version: [1.1.0b1] Old Version: [1.0.4]
+[2023-05-11 10:14:53] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/d8/72/b51516a2a31352bd63b8829e82982c9ea27fe848fbfe3c995540d9a39fb6/lanceotron-1.2.0-py3-none-any.whl
+[2023-05-11 10:14:53] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/07/c9/559c21739643cb62c5c3771c4a34d1336861480c27785f36de111429c6c0/mwrpy-0.1.7.tar.gz
+[2023-05-11 10:14:53] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/87/53/baeb72f09bde0317e0fb894817c94c45905057677ef16eaeeceea944d504/cg-30.1.1.tar.gz
+[2023-05-11 10:14:53] INFO root fetch - processPackages [pulumi-oci]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [pulumi-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_oci-0.9.0.tar.gz tmp/pulumi_oci-0.9.1a1677791364.tar.gz --markdown 20230511/p/pulumi-oci/0.9.0-0.9.1a1677791364/diff.md --exclude *.pyd
+[2023-05-11 10:14:53] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230511/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ggp-template]: Downloading https://files.pythonhosted.org/packages/6e/2a/4987802482f3e1887066b7b12fb8183f3652a6c66feddc4177478ad6c33c/ggp_template-0.2.0.tar.gz
+[2023-05-11 10:14:53] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230511/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 10:14:53] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Downloading https://files.pythonhosted.org/packages/9d/1e/8e8dc14fcee5d907f1027b5603f48d70a18ff5e6e2c2c2f2702330ec52ef/azureml_designer_recommender_modules-0.0.9-py3-none-any.whl
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ggp-template]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [ggp-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggp_template-0.1.1.tar.gz tmp/ggp_template-0.2.0.tar.gz --markdown 20230511/g/ggp-template/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 10:14:53] INFO root fetch - processPackages [oscar-python]: Downloading https://files.pythonhosted.org/packages/e9/dd/63487877092486fa934550e0b217eaa0c70f538c4dca2e22c5958b5b490c/oscar_python-1.0.4.tar.gz
+[2023-05-11 10:14:53] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.1.6.tar.gz tmp/mwrpy-0.1.7.tar.gz --markdown 20230511/m/mwrpy/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 10:14:53] INFO root fetch - processPackages [edman]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2023.5.12.tar.gz tmp/edman-2023.5.8.tar.gz --markdown 20230511/e/edman/2023.5.12-2023.5.8/diff.md --exclude *.pyd
+[2023-05-11 10:14:53] INFO root fetch - processPackages [lanceotron]: Downloading https://files.pythonhosted.org/packages/b4/a1/a4d6265c7c3764a212f818df4aa031c5afa2d8abb040b8c401405d163452/lanceotron-1.2.1-py3-none-any.whl
+[2023-05-11 10:14:53] INFO root fetch - processPackages [azureml-designer-recommender-modules]: executing diffoscope
+[2023-05-11 10:14:53] INFO root fetch - processPackages [azureml-designer-recommender-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_recommender_modules-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_recommender_modules-0.0.9-py3-none-any.whl.zip --markdown 20230511/a/azureml-designer-recommender-modules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:14:54] INFO root fetch - processPackages [lanceotron]: executing diffoscope
+[2023-05-11 10:14:54] INFO root fetch - processPackages [lanceotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanceotron-1.2.0-py3-none-any.whl.zip tmp/lanceotron-1.2.1-py3-none-any.whl.zip --markdown 20230511/l/lanceotron/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-11 10:14:54] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-11 10:14:54] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.1.0.tar.gz tmp/cg-30.1.1.tar.gz --markdown 20230511/c/cg/30.1.0-30.1.1/diff.md --exclude *.pyd
+[2023-05-11 10:14:54] INFO root fetch - processPackages [oscar-python]: Downloading https://files.pythonhosted.org/packages/2a/dd/a33c76f04dd0083eef9e7f1d3848caa3a1895d36f3a17521b2885be26b55/oscar_python-1.1.0b1.tar.gz
+[2023-05-11 10:14:54] INFO root fetch - processPackages [oscar-python]: executing diffoscope
+[2023-05-11 10:14:54] INFO root fetch - processPackages [oscar-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oscar_python-1.0.4.tar.gz tmp/oscar_python-1.1.0b1.tar.gz --markdown 20230511/o/oscar-python/1.0.4-1.1.0b1/diff.md --exclude *.pyd
+[2023-05-11 10:14:55] INFO root fetch - processPackages [forestadmin-agent-flask]: Start processing: nester-struct
+[2023-05-11 10:14:55] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-05-11 10:14:55] WARNING root fetch - processPackages [nester-struct]: Skipping, unable to determine old version
+[2023-05-11 10:14:55] INFO root fetch - processPackages [nester-struct]: Start processing: AGIpdf2json
+[2023-05-11 10:14:55] INFO root fetch - main [MainThread]: End processing [nester-struct] error
+[2023-05-11 10:14:55] INFO root fetch - processPackages [AGIpdf2json]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-11 10:14:55] INFO root fetch - processPackages [AGIpdf2json]: Downloading https://files.pythonhosted.org/packages/7e/55/bb7c614d400317a30c4652c01a0189187f4ef1050a426437810de91c7b11/AGIpdf2json-1.0.0.tar.gz
+[2023-05-11 10:14:55] INFO root fetch - processPackages [edman]: Start processing: cdktf
+[2023-05-11 10:14:55] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2023-05-11 10:14:55] INFO root fetch - processPackages [AGIpdf2json]: executing diffoscope
+[2023-05-11 10:14:55] INFO root fetch - processPackages [AGIpdf2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AGIpdf2json-0.0.3.tar.gz tmp/AGIpdf2json-1.0.0.tar.gz --markdown 20230511/A/AGIpdf2json/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 10:14:55] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-11 10:14:56] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Start processing: topologicpy
+[2023-05-11 10:14:56] INFO root fetch - main [MainThread]: End processing [azureml-designer-recommender-modules]: success
+[2023-05-11 10:14:56] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-11 10:14:56] INFO root fetch - processPackages [ggp-template]: Start processing: neo-grammar-graph
+[2023-05-11 10:14:56] INFO root fetch - main [MainThread]: End processing [ggp-template]: success
+[2023-05-11 10:14:56] INFO root fetch - processPackages [mwrpy]: Start processing: pyclean
+[2023-05-11 10:14:56] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2023-05-11 10:14:56] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-05-11 10:14:56] INFO root fetch - processPackages [neo-grammar-graph]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-11 10:14:56] INFO root fetch - processPackages [pyclean]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-05-11 10:14:56] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-05-11 10:14:56] INFO root fetch - processPackages [topologicpy]: Start processing: semisup-segmentation
+[2023-05-11 10:14:56] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-05-11 10:14:56] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-05-11 10:14:56] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230511/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-11 10:14:56] INFO root fetch - processPackages [neo-grammar-graph]: Downloading https://files.pythonhosted.org/packages/fc/b0/3467746cd1553142371104a34af59ddc5c488350e2e63e0589321d2a8f3a/neo_grammar_graph-0.1.1.tar.gz
+[2023-05-11 10:14:56] INFO root fetch - processPackages [pyclean]: Downloading https://files.pythonhosted.org/packages/11/4d/055007bab892e0fc6efe3601cc9cb534797a9caa5f695285a2ee75fe3d49/pyclean-2.7.0.tar.gz
+[2023-05-11 10:14:56] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:14:56] INFO root fetch - processPackages [neo-grammar-graph]: Downloading https://files.pythonhosted.org/packages/a1/c4/6df895a6ca4c872d9a86afa2a44bbe435ff1a73aab32de8dad7ce8a28e5d/neo_grammar_graph-0.2.0.tar.gz
+[2023-05-11 10:14:56] INFO root fetch - processPackages [oscar-python]: Start processing: prompthub-py
+[2023-05-11 10:14:56] INFO root fetch - main [MainThread]: End processing [oscar-python]: success
+[2023-05-11 10:14:56] INFO root fetch - processPackages [pyclean]: Downloading https://files.pythonhosted.org/packages/43/db/41476905dc478abc691f886302e5b2ee520cfeec100b57fc485035eeebe1/pyclean-2.7.1.tar.gz
+[2023-05-11 10:14:56] INFO root fetch - processPackages [prompthub-py]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-11 10:14:56] INFO root fetch - processPackages [pyclean]: executing diffoscope
+[2023-05-11 10:14:56] INFO root fetch - processPackages [pyclean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclean-2.7.0.tar.gz tmp/pyclean-2.7.1.tar.gz --markdown 20230511/p/pyclean/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-05-11 10:14:56] INFO root fetch - processPackages [neo-grammar-graph]: executing diffoscope
+[2023-05-11 10:14:56] INFO root fetch - processPackages [neo-grammar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo_grammar_graph-0.1.1.tar.gz tmp/neo_grammar_graph-0.2.0.tar.gz --markdown 20230511/n/neo-grammar-graph/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 10:14:56] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-11 10:14:56] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230511/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:14:56] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Start processing: houdini-package-manager
+[2023-05-11 10:14:56] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-05-11 10:14:56] INFO root fetch - processPackages [prompthub-py]: Downloading https://files.pythonhosted.org/packages/80/22/112d74a4ddf4609f8183bd64de478799e827ab74a25f604ab25bafa9ea25/prompthub_py-1.0.0.tar.gz
+[2023-05-11 10:14:56] INFO root fetch - processPackages [houdini-package-manager]: New version: [0.2.2] Old Version: [0.1.0]
+[2023-05-11 10:14:57] INFO root fetch - processPackages [houdini-package-manager]: executing diffoscope
+[2023-05-11 10:14:57] INFO root fetch - processPackages [houdini-package-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/houdini_package_manager-0.1.0.tar.gz tmp/houdini_package_manager-0.2.2.tar.gz --markdown 20230511/h/houdini-package-manager/0.1.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 10:14:57] INFO root fetch - processPackages [prompthub-py]: Downloading https://files.pythonhosted.org/packages/d0/83/61ca29bb93e0b5010fb5bfcfe2240cbab274fde3db037ddb7e046f7ea840/prompthub_py-2.0.0.tar.gz
+[2023-05-11 10:14:57] INFO root fetch - processPackages [prompthub-py]: executing diffoscope
+[2023-05-11 10:14:57] INFO root fetch - processPackages [prompthub-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompthub_py-1.0.0.tar.gz tmp/prompthub_py-2.0.0.tar.gz --markdown 20230511/p/prompthub-py/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-11 10:14:57] INFO root fetch - processPackages [AGIpdf2json]: Start processing: OpenGeode-Inspector
+[2023-05-11 10:14:57] INFO root fetch - main [MainThread]: End processing [AGIpdf2json]: success
+[2023-05-11 10:14:57] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-05-11 10:14:57] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/2f/1c/faaa7e9d5297783d38a2a95fed58f2938da2db2ce254ab4fc9d5ff222917/OpenGeode_Inspector-3.0.3-cp39-cp39-win_amd64.whl
+[2023-05-11 10:14:58] INFO root fetch - processPackages [cdktf]: Start processing: webgui-jupyter-widgets
+[2023-05-11 10:14:58] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-05-11 10:14:58] INFO root fetch - processPackages [webgui-jupyter-widgets]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 10:14:58] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/3c/2d/8b750da5dcb0453fd2ff83db1bff5def31c86943ad1e6bee63e189874df0/OpenGeode_Inspector-3.0.4-cp39-cp39-win_amd64.whl
+[2023-05-11 10:14:58] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/50/1e/95ee9a6cc81dedd75b0ab0cabec9708b8665e6e4339930ec1ced9dd1a1b0/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl
+[2023-05-11 10:14:58] INFO root fetch - processPackages [pyclean]: Start processing: odoo-addon-account-due-list
+[2023-05-11 10:14:58] INFO root fetch - main [MainThread]: End processing [pyclean]: success
+[2023-05-11 10:14:58] INFO root fetch - processPackages [odoo-addon-account-due-list]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.4]
+[2023-05-11 10:14:58] INFO root fetch - processPackages [semisup-segmentation]: Start processing: labonneboite-datamodel
+[2023-05-11 10:14:58] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-11 10:14:58] INFO root fetch - processPackages [labonneboite-datamodel]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-11 10:14:58] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2023-05-11 10:14:58] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-3.0.3-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Inspector-3.0.4-cp39-cp39-win_amd64.whl.zip --markdown 20230511/O/OpenGeode-Inspector/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-05-11 10:14:58] INFO root fetch - processPackages [odoo-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/dd/f9/21a45a2da6b2f04157648a0430cc3dd8784cc30895e113957651aaccb6d2/odoo_addon_account_due_list-16.0.1.0.2.4-py3-none-any.whl
+[2023-05-11 10:14:58] INFO root fetch - processPackages [labonneboite-datamodel]: executing diffoscope
+[2023-05-11 10:14:58] INFO root fetch - processPackages [labonneboite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labonneboite_datamodel-1.0.6.tar.gz tmp/labonneboite_datamodel-1.0.7.tar.gz --markdown 20230511/l/labonneboite-datamodel/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-11 10:14:58] INFO root fetch - processPackages [lanceotron]: Start processing: pandus
+[2023-05-11 10:14:58] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
+[2023-05-11 10:14:58] INFO root fetch - processPackages [pandus]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-11 10:14:58] INFO root fetch - processPackages [odoo-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/73/11/5df4a2140ffeabd2ff0d770aed761b3c0c6fed429fc2269e897531dfba54/odoo_addon_account_due_list-16.0.1.1.0-py3-none-any.whl
+[2023-05-11 10:14:58] INFO root fetch - processPackages [prompthub-py]: Start processing: odoo-addon-account-due-list
+[2023-05-11 10:14:58] INFO root fetch - main [MainThread]: End processing [prompthub-py]: success
+[2023-05-11 10:14:58] INFO root fetch - processPackages [webgui-jupyter-widgets]: Downloading https://files.pythonhosted.org/packages/fc/d0/da80f94ec53ce62ad1628630b00e6735f285f65a586f0a53e570f18ed05d/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl
+[2023-05-11 10:14:59] INFO root fetch - processPackages [odoo-addon-account-due-list]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.2.4]
+[2023-05-11 10:14:59] INFO root fetch - processPackages [neo-grammar-graph]: Start processing: infoworkssdk
+[2023-05-11 10:14:59] INFO root fetch - processPackages [pandus]: Downloading https://files.pythonhosted.org/packages/ce/ef/a3c1a50c03285a839d4fa9c3e3dadcdcc75a55b2049fa3d79c490866ee3d/pandus-2.0.0.tar.gz
+[2023-05-11 10:14:59] INFO root fetch - main [MainThread]: End processing [neo-grammar-graph]: success
+[2023-05-11 10:14:59] INFO root fetch - processPackages [odoo-addon-account-due-list]: executing diffoscope
+[2023-05-11 10:14:59] INFO root fetch - processPackages [odoo-addon-account-due-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_due_list-16.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_account_due_list-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-account-due-list/16.0.1.0.2.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-11 10:14:59] INFO root fetch - processPackages [infoworkssdk]: New version: [3.0b0] Old Version: [3.0a0]
+[2023-05-11 10:14:59] INFO root fetch - processPackages [odoo-addon-account-due-list]: executing diffoscope
+[2023-05-11 10:14:59] INFO root fetch - processPackages [odoo-addon-account-due-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_due_list-16.0.1.0.2.4-py3-none-any.whl.zip tmp/odoo_addon_account_due_list-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-account-due-list/16.0.1.0.2.4-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-11 10:14:59] INFO root fetch - processPackages [infoworkssdk]: executing diffoscope
+[2023-05-11 10:14:59] INFO root fetch - processPackages [infoworkssdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infoworkssdk-3.0a0.tar.gz tmp/infoworkssdk-3.0b0.tar.gz --markdown 20230511/i/infoworkssdk/3.0a0-3.0b0/diff.md --exclude *.pyd
+[2023-05-11 10:14:59] INFO root fetch - processPackages [houdini-package-manager]: Start processing: aptos-sdk
+[2023-05-11 10:14:59] INFO root fetch - main [MainThread]: End processing [houdini-package-manager]: success
+[2023-05-11 10:14:59] INFO root fetch - processPackages [aptos-sdk]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-11 10:14:59] INFO root fetch - processPackages [pandus]: Downloading https://files.pythonhosted.org/packages/95/21/f775503113b04e937491c7f4a89a87c367d1460d4151267ae89218fb4a3d/pandus-2.0.1.tar.gz
+[2023-05-11 10:14:59] INFO root fetch - processPackages [pandus]: executing diffoscope
+[2023-05-11 10:14:59] INFO root fetch - processPackages [pandus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandus-2.0.0.tar.gz tmp/pandus-2.0.1.tar.gz --markdown 20230511/p/pandus/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-11 10:14:59] INFO root fetch - processPackages [aptos-sdk]: Downloading https://files.pythonhosted.org/packages/fd/f2/7e9ad08cad8d3712e67ddc627f19cad4832920afb7a4305cc558b46c0157/aptos_sdk-0.5.1.tar.gz
+[2023-05-11 10:14:59] INFO root fetch - processPackages [aptos-sdk]: Downloading https://files.pythonhosted.org/packages/26/3d/5bfd267b2259e98560315214c6ad00a6f974e04c1938478af51e9c9d8e67/aptos_sdk-0.6.0.tar.gz
+[2023-05-11 10:15:00] INFO root fetch - processPackages [aptos-sdk]: executing diffoscope
+[2023-05-11 10:15:00] INFO root fetch - processPackages [aptos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_sdk-0.5.1.tar.gz tmp/aptos_sdk-0.6.0.tar.gz --markdown 20230511/a/aptos-sdk/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-11 10:15:00] INFO root fetch - processPackages [webgui-jupyter-widgets]: executing diffoscope
+[2023-05-11 10:15:00] INFO root fetch - processPackages [webgui-jupyter-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webgui_jupyter_widgets-0.2.8-py2.py3-none-any.whl.zip tmp/webgui_jupyter_widgets-0.2.9-py2.py3-none-any.whl.zip --markdown 20230511/w/webgui-jupyter-widgets/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 10:15:00] INFO root fetch - processPackages [labonneboite-datamodel]: Start processing: sptag
+[2023-05-11 10:15:00] INFO root fetch - main [MainThread]: End processing [labonneboite-datamodel]: success
+[2023-05-11 10:15:00] INFO root fetch - processPackages [sptag]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-05-11 10:15:00] INFO root fetch - processPackages [sptag]: Downloading https://files.pythonhosted.org/packages/7c/80/4180845d8a2f768f6514464fb26a980f7d27aa5a1bf6ed1a652fb0959500/sptag-1.6.5-py39-none-win_amd64.whl
+[2023-05-11 10:15:00] INFO root fetch - processPackages [odoo-addon-account-due-list]: Start processing: insight-python-win
+[2023-05-11 10:15:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-due-list]: success
+[2023-05-11 10:15:00] INFO root fetch - processPackages [insight-python-win]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-11 10:15:00] INFO root fetch - processPackages [insight-python-win]: Downloading https://files.pythonhosted.org/packages/e7/87/586b45a74b648ccf6a4d4af616e57a794bde2eb48d5010004be78fbd195b/insight_python_win-4.3.0.tar.gz
+[2023-05-11 10:15:00] WARNING root fetch - processPackages [insight-python-win]: Skipping package: exceeds size limit 14680002>=10485760
+[2023-05-11 10:15:00] INFO root fetch - processPackages [insight-python-win]: Start processing: typename
+[2023-05-11 10:15:00] INFO root fetch - main [MainThread]: End processing [insight-python-win] error
+[2023-05-11 10:15:01] WARNING root fetch - processPackages [typename]: Skipping, unable to determine old version
+[2023-05-11 10:15:01] INFO root fetch - main [MainThread]: End processing [typename] error
+[2023-05-11 10:15:01] INFO root fetch - main [MainThread]: End processing [pandus]: success
+[2023-05-11 10:15:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-due-list]: success
+[2023-05-11 10:15:01] WARNING root fetch - processPackages [sptag]: Skipping package: exceeds size limit 11334296>=10485760
+[2023-05-11 10:15:01] INFO root fetch - main [MainThread]: End processing [sptag] error
+[2023-05-11 10:15:01] INFO root fetch - main [MainThread]: End processing [aptos-sdk]: success
+[2023-05-11 10:15:02] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2023-05-11 10:15:03] INFO root fetch - main [MainThread]: End processing [infoworkssdk]: success
+[2023-05-11 10:15:07] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-11 10:15:39] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
+[2023-05-11 10:16:03] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
+[2023-05-11 10:16:03] INFO root fetch - main [MainThread]: Store serial: [18059905]
