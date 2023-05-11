@@ -21716,3 +21716,176 @@ EOFError: EOF read where object expected
 [2023-05-11 17:04:21] INFO root fetch - main [MainThread]: End processing [clustaar.webhook]: success
 [2023-05-11 17:04:22] INFO root fetch - main [MainThread]: End processing [taskcluster]: success
 [2023-05-11 17:04:22] INFO root fetch - main [MainThread]: Store serial: [18065139]
+[2023-05-11 17:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065139]
+[2023-05-11 17:09:31] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-client
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motrackers
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-service-server
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-ui
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-v4-service
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: labvirtual
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-core
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fawltydeps
+[2023-05-11 17:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pretix-mpesa-mz
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [labvirtual]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-11 17:09:31] WARNING root fetch - processPackages [motrackers]: Skipping, unable to determine old version
+[2023-05-11 17:09:31] INFO root fetch - processPackages [motrackers]: Start processing: bridgeobjects
+[2023-05-11 17:09:31] INFO root fetch - main [MainThread]: End processing [motrackers] error
+[2023-05-11 17:09:31] INFO root fetch - processPackages [pretix-mpesa-mz]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230511/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 17:09:31] INFO root fetch - processPackages [fawltydeps]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230511/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-11 17:09:31] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230511/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/34/69/ed13bdddc9a8eb53549970ffc4de8df5320bd100787c9d0f1f287d97d1f3/labvirtual-0.2.9.tar.gz
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-11 17:09:32] INFO root fetch - processPackages [bridgeobjects]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 17:09:32] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/71/fa/03d58b5e6aa160abe1688754239bc7544f3ab38eea4500db8f7b57996145/pretix-mpesa-mz-1.0.2.tar.gz
+[2023-05-11 17:09:32] INFO root fetch - processPackages [fawltydeps]: Downloading https://files.pythonhosted.org/packages/7d/9a/15e241b9628884e859c3b589ee6e8562a9dd06880f12923b27712aca0a9d/fawltydeps-0.8.0.tar.gz
+[2023-05-11 17:09:32] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/fd/6a/0c207f0ded01e7a40f725f054939cf230697a9698c97059317f2a46db05c/bridgeobjects-0.1.8.tar.gz
+[2023-05-11 17:09:32] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43632071>=10485760
+[2023-05-11 17:09:32] INFO root fetch - processPackages [labvirtual]: Start processing: couturiehe01-package
+[2023-05-11 17:09:32] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 17:09:32] INFO root fetch - processPackages [pretix-mpesa-mz]: Downloading https://files.pythonhosted.org/packages/e9/11/94bf966cf57aa1ba9b8f71c1d9d00d717c4c5b20a931bc5f4baba0e5ec5a/pretix-mpesa-mz-1.1.0.tar.gz
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230511/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230511/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] INFO root fetch - processPackages [pretix-mpesa-mz]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [pretix-mpesa-mz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-mpesa-mz-1.0.2.tar.gz tmp/pretix-mpesa-mz-1.1.0.tar.gz --markdown 20230511/p/pretix-mpesa-mz/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] INFO root fetch - processPackages [fawltydeps]: Downloading https://files.pythonhosted.org/packages/d2/24/3326bfb619e855b09baee07d9e86bcd12797608ec0b91d04fb8e1b35baff/fawltydeps-0.9.0.tar.gz
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230511/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] WARNING root fetch - processPackages [couturiehe01-package]: Skipping, unable to determine old version
+[2023-05-11 17:09:32] INFO root fetch - processPackages [couturiehe01-package]: Start processing: testarchiver
+[2023-05-11 17:09:32] INFO root fetch - main [MainThread]: End processing [couturiehe01-package] error
+[2023-05-11 17:09:32] INFO root fetch - processPackages [testarchiver]: New version: [2.6.4rc4949312958] Old Version: [2.6.4]
+[2023-05-11 17:09:32] INFO root fetch - processPackages [fawltydeps]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [fawltydeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fawltydeps-0.8.0.tar.gz tmp/fawltydeps-0.9.0.tar.gz --markdown 20230511/f/fawltydeps/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/38/2f/5b27e39a9ed23770138c49305229e8819df09644dc9ad82aebc0cceeb86c/bridgeobjects-0.1.9.tar.gz
+[2023-05-11 17:09:32] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.4.tar.gz tmp/testarchiver-2.6.4rc4949312958.tar.gz --markdown 20230511/t/testarchiver/2.6.4-2.6.4rc4949312958/diff.md --exclude *.pyd
+[2023-05-11 17:09:32] INFO root fetch - processPackages [bridgeobjects]: executing diffoscope
+[2023-05-11 17:09:32] INFO root fetch - processPackages [bridgeobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeobjects-0.1.8.tar.gz tmp/bridgeobjects-0.1.9.tar.gz --markdown 20230511/b/bridgeobjects/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 17:09:33] INFO root fetch - processPackages [assemblyline-core]: Start processing: certora-cli-alpha-yuvalbd-less-verbose-errors
+[2023-05-11 17:09:33] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-11 17:09:33] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-less-verbose-errors]: Skipping, unable to determine old version
+[2023-05-11 17:09:33] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-less-verbose-errors]: Start processing: ansys-api-geometry
+[2023-05-11 17:09:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-less-verbose-errors] error
+[2023-05-11 17:09:33] INFO root fetch - processPackages [ansys-api-geometry]: New version: [0.2.dev0] Old Version: [0.2.9]
+[2023-05-11 17:09:33] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: pyqtorch
+[2023-05-11 17:09:33] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-11 17:09:34] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: accompanist
+[2023-05-11 17:09:34] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-11 17:09:34] INFO root fetch - processPackages [pyqtorch]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 17:09:34] INFO root fetch - processPackages [ansys-api-geometry]: Downloading https://files.pythonhosted.org/packages/f7/19/29f2e85e6d34e9d29482ace81acbd38d27e296d056070642c886025d8da3/ansys-api-geometry-0.2.9.tar.gz
+[2023-05-11 17:09:34] INFO root fetch - processPackages [accompanist]: New version: [1.1.2] Old Version: [1.1.0]
+[2023-05-11 17:09:34] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/da/0d/bd09d5cf12142e2f922153b1b8f454443887c4429527f4c2a2bdd2f39343/pyqtorch-0.2.1.tar.gz
+[2023-05-11 17:09:34] INFO root fetch - processPackages [pretix-mpesa-mz]: Start processing: cybrid-api-organization-python
+[2023-05-11 17:09:34] INFO root fetch - main [MainThread]: End processing [pretix-mpesa-mz]: success
+[2023-05-11 17:09:34] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 17:09:34] INFO root fetch - processPackages [accompanist]: Downloading https://files.pythonhosted.org/packages/f2/75/52583f4417a45d2f48bb961ef54c77afec4b99281cde7ffa006d323ac956/accompanist-1.1.0-py3-none-any.whl
+[2023-05-11 17:09:34] INFO root fetch - processPackages [ansys-api-geometry]: Downloading https://files.pythonhosted.org/packages/5a/e7/edcf39edf8e00f85d1150a441b00249e62669d4273f3571ef378182e37b4/ansys-api-geometry-0.2.dev0.tar.gz
+[2023-05-11 17:09:34] INFO root fetch - processPackages [pyqtorch]: Downloading https://files.pythonhosted.org/packages/27/e2/083bd4a23ad886a9bc1d07be66cea678439494a4798325746a12324bda77/pyqtorch-0.2.2.tar.gz
+[2023-05-11 17:09:34] INFO root fetch - processPackages [ansys-api-geometry]: executing diffoscope
+[2023-05-11 17:09:34] INFO root fetch - processPackages [ansys-api-geometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-geometry-0.2.9.tar.gz tmp/ansys-api-geometry-0.2.dev0.tar.gz --markdown 20230511/a/ansys-api-geometry/0.2.9-0.2.dev0/diff.md --exclude *.pyd
+[2023-05-11 17:09:34] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-05-11 17:09:34] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230511/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 17:09:34] INFO root fetch - processPackages [accompanist]: Downloading https://files.pythonhosted.org/packages/2a/b9/d82b4216a0f0c919d6f398c86ba5f29771d94d52cc4996847d4e5b4ef8ad/accompanist-1.1.2-py3-none-any.whl
+[2023-05-11 17:09:34] INFO root fetch - processPackages [pyqtorch]: executing diffoscope
+[2023-05-11 17:09:34] INFO root fetch - processPackages [pyqtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqtorch-0.2.1.tar.gz tmp/pyqtorch-0.2.2.tar.gz --markdown 20230511/p/pyqtorch/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 17:09:34] INFO root fetch - processPackages [accompanist]: executing diffoscope
+[2023-05-11 17:09:34] INFO root fetch - processPackages [accompanist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accompanist-1.1.0-py3-none-any.whl.zip tmp/accompanist-1.1.2-py3-none-any.whl.zip --markdown 20230511/a/accompanist/1.1.0-1.1.2/diff.md --exclude *.pyd
+[2023-05-11 17:09:34] INFO root fetch - processPackages [fawltydeps]: Start processing: python-upbit-api
+[2023-05-11 17:09:34] INFO root fetch - main [MainThread]: End processing [fawltydeps]: success
+[2023-05-11 17:09:34] INFO root fetch - processPackages [assemblyline]: Start processing: aiob2
+[2023-05-11 17:09:34] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-11 17:09:34] INFO root fetch - processPackages [aiob2]: New version: [0.8.2] Old Version: [0.5.3]
+[2023-05-11 17:09:34] INFO root fetch - processPackages [assemblyline-ui]: Start processing: cybrid-api-bank-python
+[2023-05-11 17:09:34] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-11 17:09:34] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 17:09:34] INFO root fetch - processPackages [python-upbit-api]: New version: [1.0.0a2] Old Version: [1.0.0a0]
+[2023-05-11 17:09:34] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-05-11 17:09:34] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230511/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 17:09:34] INFO root fetch - processPackages [aiob2]: Downloading https://files.pythonhosted.org/packages/b6/e1/98c6bb362f84d0e0d48c544df2c9d16b4360d48b990ace18ffbcf72cbfd4/aiob2-0.5.3.tar.gz
+[2023-05-11 17:09:35] INFO root fetch - processPackages [python-upbit-api]: Downloading https://files.pythonhosted.org/packages/24/ed/3a287875aeeb0122ef05288fa9cc7674c0148966eaccfa109175d41b632f/python-upbit-api-1.0.0a0.tar.gz
+[2023-05-11 17:09:35] INFO root fetch - processPackages [bridgeobjects]: Start processing: OncoAMBER
+[2023-05-11 17:09:35] INFO root fetch - main [MainThread]: End processing [bridgeobjects]: success
+[2023-05-11 17:09:35] INFO root fetch - processPackages [OncoAMBER]: New version: [1.2.5] Old Version: [1.2.3]
+[2023-05-11 17:09:35] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: substrafl
+[2023-05-11 17:09:35] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-11 17:09:35] INFO root fetch - processPackages [substrafl]: New version: [0.36.0rc1] Old Version: [0.35.1rc1]
+[2023-05-11 17:09:35] INFO root fetch - processPackages [OncoAMBER]: executing diffoscope
+[2023-05-11 17:09:35] INFO root fetch - processPackages [OncoAMBER]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OncoAMBER-1.2.3.tar.gz tmp/OncoAMBER-1.2.5.tar.gz --markdown 20230511/O/OncoAMBER/1.2.3-1.2.5/diff.md --exclude *.pyd
+[2023-05-11 17:09:35] INFO root fetch - processPackages [python-upbit-api]: Downloading https://files.pythonhosted.org/packages/48/a1/bea74136952635bd9121a387466354c73c8b1b17f87758106100f5845ab5/python-upbit-api-1.0.0a2.tar.gz
+[2023-05-11 17:09:35] INFO root fetch - processPackages [aiob2]: Downloading https://files.pythonhosted.org/packages/e3/66/bce8e9f3e01b0ff6597bde323b22b58a293e301f7975298cf665b88942a8/aiob2-0.8.2.tar.gz
+[2023-05-11 17:09:35] INFO root fetch - processPackages [testarchiver]: Start processing: osmosispy
+[2023-05-11 17:09:35] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 17:09:35] INFO root fetch - processPackages [substrafl]: executing diffoscope
+[2023-05-11 17:09:35] INFO root fetch - processPackages [substrafl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrafl-0.35.1rc1.tar.gz tmp/substrafl-0.36.0rc1.tar.gz --markdown 20230511/s/substrafl/0.35.1rc1-0.36.0rc1/diff.md --exclude *.pyd
+[2023-05-11 17:09:35] INFO root fetch - processPackages [aiob2]: executing diffoscope
+[2023-05-11 17:09:35] INFO root fetch - processPackages [aiob2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiob2-0.5.3.tar.gz tmp/aiob2-0.8.2.tar.gz --markdown 20230511/a/aiob2/0.5.3-0.8.2/diff.md --exclude *.pyd
+[2023-05-11 17:09:35] INFO root fetch - processPackages [python-upbit-api]: executing diffoscope
+[2023-05-11 17:09:35] INFO root fetch - processPackages [python-upbit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-upbit-api-1.0.0a0.tar.gz tmp/python-upbit-api-1.0.0a2.tar.gz --markdown 20230511/p/python-upbit-api/1.0.0a0-1.0.0a2/diff.md --exclude *.pyd
+[2023-05-11 17:09:35] INFO root fetch - processPackages [osmosispy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 17:09:35] INFO root fetch - processPackages [osmosispy]: Downloading https://files.pythonhosted.org/packages/48/df/e6f04000f56b7421d665c8e7b6c18f52d6abfab7c1972b371ea19696f871/osmosispy-0.0.8.tar.gz
+[2023-05-11 17:09:35] INFO root fetch - processPackages [osmosispy]: Downloading https://files.pythonhosted.org/packages/1c/6d/5fb0fc1880ac3390c417f5098ce7acaa7af049b37c1d06f320d9036d2859/osmosispy-0.0.9.tar.gz
+[2023-05-11 17:09:36] INFO root fetch - processPackages [osmosispy]: executing diffoscope
+[2023-05-11 17:09:36] INFO root fetch - processPackages [osmosispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osmosispy-0.0.8.tar.gz tmp/osmosispy-0.0.9.tar.gz --markdown 20230511/o/osmosispy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:09:36] INFO root fetch - processPackages [accompanist]: Start processing: pepperize.cdk-security-group
+[2023-05-11 17:09:36] INFO root fetch - main [MainThread]: End processing [accompanist]: success
+[2023-05-11 17:09:36] INFO root fetch - processPackages [ansys-api-geometry]: Start processing: nonebot-plugin-segbuilder
+[2023-05-11 17:09:36] INFO root fetch - main [MainThread]: End processing [ansys-api-geometry]: success
+[2023-05-11 17:09:36] WARNING root fetch - processPackages [nonebot-plugin-segbuilder]: Skipping, unable to determine old version
+[2023-05-11 17:09:36] INFO root fetch - processPackages [nonebot-plugin-segbuilder]: Start processing: starextractor
+[2023-05-11 17:09:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-segbuilder] error
+[2023-05-11 17:09:36] INFO root fetch - processPackages [pepperize.cdk-security-group]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 17:09:36] INFO root fetch - processPackages [starextractor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 17:09:37] INFO root fetch - processPackages [OncoAMBER]: Start processing: pt-lemmatizer
+[2023-05-11 17:09:37] INFO root fetch - main [MainThread]: End processing [OncoAMBER]: success
+[2023-05-11 17:09:37] INFO root fetch - processPackages [pt-lemmatizer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 17:09:37] INFO root fetch - processPackages [aiob2]: Start processing: certora-cli-alpha-alex-configscope
+[2023-05-11 17:09:37] INFO root fetch - main [MainThread]: End processing [aiob2]: success
+[2023-05-11 17:09:37] INFO root fetch - processPackages [starextractor]: Downloading https://files.pythonhosted.org/packages/2c/ee/d84beba44532669daad1a5f71f7f08320f84488b2f790cbf3e3b51d09cdc/starextractor-0.1.1-py3-none-any.whl
+[2023-05-11 17:09:37] INFO root fetch - processPackages [pt-lemmatizer]: executing diffoscope
+[2023-05-11 17:09:37] INFO root fetch - processPackages [pt-lemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_lemmatizer-0.1.8.tar.gz tmp/pt_lemmatizer-0.1.9.tar.gz --markdown 20230511/p/pt-lemmatizer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 17:09:37] WARNING root fetch - processPackages [certora-cli-alpha-alex-configscope]: Skipping, unable to determine old version
+[2023-05-11 17:09:37] INFO root fetch - processPackages [certora-cli-alpha-alex-configscope]: Start processing: petriflowLibrary
+[2023-05-11 17:09:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-configscope] error
+[2023-05-11 17:09:37] INFO root fetch - processPackages [python-upbit-api]: Start processing: ms-mailbox-reader
+[2023-05-11 17:09:37] INFO root fetch - main [MainThread]: End processing [python-upbit-api]: success
+[2023-05-11 17:09:37] WARNING root fetch - processPackages [petriflowLibrary]: Skipping, unable to determine old version
+[2023-05-11 17:09:37] INFO root fetch - processPackages [petriflowLibrary]: Start processing: cybrid-api-id-python
+[2023-05-11 17:09:37] INFO root fetch - main [MainThread]: End processing [petriflowLibrary] error
+[2023-05-11 17:09:37] INFO root fetch - processPackages [pepperize.cdk-security-group]: executing diffoscope
+[2023-05-11 17:09:37] INFO root fetch - processPackages [pepperize.cdk-security-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-security-group-0.0.98.tar.gz tmp/pepperize.cdk-security-group-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-security-group/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 17:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 17:09:37] INFO root fetch - processPackages [ms-mailbox-reader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 17:09:37] INFO root fetch - processPackages [starextractor]: Downloading https://files.pythonhosted.org/packages/02/98/9c58be48cde6470b4339a422272817f73a6c86945fc707e445db465a771e/starextractor-0.1.2-py3-none-any.whl
+[2023-05-11 17:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-05-11 17:09:37] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230511/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 17:09:37] INFO root fetch - processPackages [starextractor]: executing diffoscope
+[2023-05-11 17:09:37] INFO root fetch - processPackages [starextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starextractor-0.1.1-py3-none-any.whl.zip tmp/starextractor-0.1.2-py3-none-any.whl.zip --markdown 20230511/s/starextractor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 17:09:37] INFO root fetch - processPackages [ms-mailbox-reader]: Downloading https://files.pythonhosted.org/packages/e1/0e/66e11bb0a99f028463abc322ce8e38d396febfbd85ae675c69161330cda6/ms_mailbox_reader-1.0.0.tar.gz
+[2023-05-11 17:09:37] INFO root fetch - main [MainThread]: End processing [substrafl]: success
+[2023-05-11 17:09:37] INFO root fetch - processPackages [ms-mailbox-reader]: Downloading https://files.pythonhosted.org/packages/08/09/0111c76e4368a2cebb0dbdb60e28e1da739baa07d6ff0edce65db95c2f5a/ms_mailbox_reader-1.0.1.tar.gz
+[2023-05-11 17:09:37] INFO root fetch - processPackages [ms-mailbox-reader]: executing diffoscope
+[2023-05-11 17:09:37] INFO root fetch - processPackages [ms-mailbox-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_mailbox_reader-1.0.0.tar.gz tmp/ms_mailbox_reader-1.0.1.tar.gz --markdown 20230511/m/ms-mailbox-reader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 17:09:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-05-11 17:09:38] INFO root fetch - main [MainThread]: End processing [pyqtorch]: success
+[2023-05-11 17:09:38] INFO root fetch - main [MainThread]: End processing [pt-lemmatizer]: success
+[2023-05-11 17:09:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-05-11 17:09:39] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-security-group]: success
+[2023-05-11 17:09:39] INFO root fetch - main [MainThread]: End processing [starextractor]: success
+[2023-05-11 17:09:39] INFO root fetch - main [MainThread]: End processing [ms-mailbox-reader]: success
+[2023-05-11 17:09:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-05-11 17:09:46] INFO root fetch - main [MainThread]: End processing [osmosispy]: success
+[2023-05-11 17:09:46] INFO root fetch - main [MainThread]: Store serial: [18065238]
