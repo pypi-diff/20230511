@@ -10057,3 +10057,73 @@ EOFError: EOF read where object expected
 [2023-05-11 08:02:10] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
 [2023-05-11 08:02:11] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
 [2023-05-11 08:02:11] INFO root fetch - main [MainThread]: Store serial: [18058693]
+[2023-05-11 08:07:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058693]
+[2023-05-11 08:07:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-databricks
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-cloudinit
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cveutils
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arclet-alconna-ariadne
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arclet-alconna-avilla
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arclet-alconna-graia
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arclet-alconna-ichika
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aiven
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-alconna
+[2023-05-11 08:07:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-consul
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-ichika]: New version: [0.13.0rc3] Old Version: [0.13.0rc2]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-ariadne]: New version: [0.13.0rc3] Old Version: [0.13.0rc2]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [cveutils]: New version: [0.6] Old Version: [0.5]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-cloudinit]: New version: [1.4.0a1683783263] Old Version: [1.4.0a1683609593]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-avilla]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.4.0rc1] Old Version: [0.4.0]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-aiven]: New version: [6.2.0a1683782843] Old Version: [6.2.0a1683609864]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-consul]: New version: [3.9.0a1683783480] Old Version: [3.9.0a1683609724]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-graia]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-ichika]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-ichika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-ichika-0.13.0rc2.tar.gz tmp/arclet-alconna-ichika-0.13.0rc3.tar.gz --markdown 20230511/a/arclet-alconna-ichika/0.13.0rc2-0.13.0rc3/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-avilla]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-avilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-avilla-0.2.0.tar.gz tmp/arclet-alconna-avilla-0.3.0.tar.gz --markdown 20230511/a/arclet-alconna-avilla/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-graia]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-graia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-graia-0.9.0.tar.gz tmp/arclet-alconna-graia-0.9.1.tar.gz --markdown 20230511/a/arclet-alconna-graia/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/30/9f/1be0ecaee23b4b151c0e3e9ba9ff6eaa9e73573b1bf7edd8df357c65c746/nonebot-plugin-alconna-0.4.0.tar.gz
+[2023-05-11 08:07:20] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/fb/f5/ab8e1aff2c7e7c5cadb7d09f23b9fa78ad46343575264f027fabe88d9579/cveutils-0.5.tar.gz
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-ariadne]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [arclet-alconna-ariadne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-ariadne-0.13.0rc2.tar.gz tmp/arclet-alconna-ariadne-0.13.0rc3.tar.gz --markdown 20230511/a/arclet-alconna-ariadne/0.13.0rc2-0.13.0rc3/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-cloudinit]: Downloading https://files.pythonhosted.org/packages/19/53/377cbb0c05828951f232700b7737f49dff0c6c255e95854b14371794e4b3/pulumi_cloudinit-1.4.0a1683783263.tar.gz
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-aiven]: Downloading https://files.pythonhosted.org/packages/a3/1f/6881bd98376a39b3828adef0dd1b883e410623864e600d2f5fefd6e2f663/pulumi_aiven-6.2.0a1683782843.tar.gz
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-consul]: Downloading https://files.pythonhosted.org/packages/5b/25/c829e2ae37bbcb9fbceaa322001da7ee507f1611ff54c5beec145a7900b4/pulumi_consul-3.9.0a1683783480.tar.gz
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20230511/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.4.0.tar.gz tmp/nonebot-plugin-alconna-0.4.0rc1.tar.gz --markdown 20230511/n/nonebot-plugin-alconna/0.4.0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/ba/ba/74ba54bab0dd04388ce1061cc73838718509c1f4dce1a1b1e167a1ddced8/cveutils-0.6.tar.gz
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-consul]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-consul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_consul-3.9.0a1683609724.tar.gz tmp/pulumi_consul-3.9.0a1683783480.tar.gz --markdown 20230511/p/pulumi-consul/3.9.0a1683609724-3.9.0a1683783480/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-aiven]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-aiven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aiven-6.2.0a1683609864.tar.gz tmp/pulumi_aiven-6.2.0a1683782843.tar.gz --markdown 20230511/p/pulumi-aiven/6.2.0a1683609864-6.2.0a1683782843/diff.md --exclude *.pyd
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-cloudinit]: executing diffoscope
+[2023-05-11 08:07:20] INFO root fetch - processPackages [pulumi-cloudinit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudinit-1.4.0a1683609593.tar.gz tmp/pulumi_cloudinit-1.4.0a1683783263.tar.gz --markdown 20230511/p/pulumi-cloudinit/1.4.0a1683609593-1.4.0a1683783263/diff.md --exclude *.pyd
+[2023-05-11 08:07:21] INFO root fetch - processPackages [cveutils]: executing diffoscope
+[2023-05-11 08:07:21] INFO root fetch - processPackages [cveutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cveutils-0.5.tar.gz tmp/cveutils-0.6.tar.gz --markdown 20230511/c/cveutils/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-11 08:07:21] INFO root fetch - processPackages [arclet-alconna-avilla]: Start processing: pyg-nightly
+[2023-05-11 08:07:21] INFO root fetch - main [MainThread]: End processing [arclet-alconna-avilla]: success
+[2023-05-11 08:07:21] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230510] Old Version: [2.4.0.dev20230509]
+[2023-05-11 08:07:22] INFO root fetch - processPackages [arclet-alconna-ichika]: Start processing: fosslight-util
+[2023-05-11 08:07:22] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ichika]: success
+[2023-05-11 08:07:22] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/9d/e7/6c1642593664414039e1bb23cedd690fa047e84855fed9be27dd00607a08/pyg-nightly-2.4.0.dev20230510.tar.gz
+[2023-05-11 08:07:22] INFO root fetch - processPackages [fosslight-util]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-11 08:07:22] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ariadne]: success
+[2023-05-11 08:07:22] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-05-11 08:07:22] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230509.tar.gz tmp/pyg-nightly-2.4.0.dev20230510.tar.gz --markdown 20230511/p/pyg-nightly/2.4.0.dev20230509-2.4.0.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 08:07:22] INFO root fetch - main [MainThread]: End processing [arclet-alconna-graia]: success
+[2023-05-11 08:07:22] INFO root fetch - processPackages [fosslight-util]: executing diffoscope
+[2023-05-11 08:07:22] INFO root fetch - processPackages [fosslight-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_util-1.4.8.tar.gz tmp/fosslight_util-1.4.9.tar.gz --markdown 20230511/f/fosslight-util/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-11 08:07:22] INFO root fetch - main [MainThread]: End processing [cveutils]: success
+[2023-05-11 08:07:23] INFO root fetch - main [MainThread]: End processing [pulumi-cloudinit]: success
+[2023-05-11 08:07:23] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-05-11 08:07:24] INFO root fetch - main [MainThread]: End processing [fosslight-util]: success
+[2023-05-11 08:07:25] INFO root fetch - main [MainThread]: End processing [pulumi-aiven]: success
+[2023-05-11 08:07:25] INFO root fetch - main [MainThread]: End processing [pulumi-consul]: success
+[2023-05-11 08:07:27] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-05-11 08:07:27] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2023-05-11 08:07:27] INFO root fetch - main [MainThread]: Store serial: [18058729]
