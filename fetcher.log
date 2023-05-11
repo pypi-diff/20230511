@@ -12388,3 +12388,123 @@ EOFError: EOF read where object expected
 [2023-05-11 10:37:20] INFO root fetch - main [MainThread]: End processing [napari-tomotwin]: success
 [2023-05-11 10:37:21] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
 [2023-05-11 10:37:21] INFO root fetch - main [MainThread]: Store serial: [18060128]
+[2023-05-11 10:42:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18060128]
+[2023-05-11 10:42:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcarte
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-banking-pain-base
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyd
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: megfile
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-banking-pain-base
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dynamiqs
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg-hermes
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cloud-check3
+[2023-05-11 10:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bfgdealer
+[2023-05-11 10:42:30] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [hyd]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [odoo14-addon-account-banking-pain-base]: New version: [14.0.2.1.1.dev1] Old Version: [14.0.2.1.1]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: New version: [15.0.2.0.2] Old Version: [15.0.2.0.1]
+[2023-05-11 10:42:30] WARNING root fetch - processPackages [cloud-check3]: Skipping, unable to determine old version
+[2023-05-11 10:42:30] INFO root fetch - processPackages [megfile]: New version: [2.0.5] Old Version: [2.0.4.post3]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [bfgdealer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [cloud-check3]: Start processing: verbit-streaming-sdk
+[2023-05-11 10:42:30] INFO root fetch - main [MainThread]: End processing [cloud-check3] error
+[2023-05-11 10:42:30] WARNING root fetch - processPackages [dynamiqs]: Skipping, unable to determine old version
+[2023-05-11 10:42:30] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-11 10:42:30] INFO root fetch - processPackages [dynamiqs]: Start processing: tff-nightly
+[2023-05-11 10:42:30] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230511/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-11 10:42:30] INFO root fetch - main [MainThread]: End processing [dynamiqs] error
+[2023-05-11 10:42:30] INFO root fetch - processPackages [dcarte]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [cg-hermes]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230510] Old Version: [0.0.1.dev20230509]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [verbit-streaming-sdk]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-11 10:42:30] INFO root fetch - processPackages [odoo14-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/f4/ea/94dc187293bbe5eada67cd33d5c3c58b66e6118c18be63026876a1d4d3ba/odoo14_addon_account_banking_pain_base-14.0.2.1.1-py3-none-any.whl
+[2023-05-11 10:42:30] INFO root fetch - processPackages [hyd]: Downloading https://files.pythonhosted.org/packages/bf/80/dc701d06b879e9356c17402e92d63e0aceaee3c390d2c720ed6640a1d49b/hyd-0.1.3.tar.gz
+[2023-05-11 10:42:30] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/ee/6e/d4899941d46f5bb773158c64293b4fe5ae751c82dfd4eeabb6590af8d7ba/odoo_addon_account_banking_pain_base-15.0.2.0.1-py3-none-any.whl
+[2023-05-11 10:42:30] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/21/bc/34703cfad819a1e6d39c1fe46b5a66f97791114012a5f995ea7489990977/bfgdealer-0.0.4.tar.gz
+[2023-05-11 10:42:30] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/6f/0c/a584534c39bc4d96f13ad4273e0913b59d074204fc74b955f3f496188808/cg-hermes-1.8.0.tar.gz
+[2023-05-11 10:42:30] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/9f/f1/750fe84968a16970fb4db62aea29882ae9219196c53864536021602675fe/megfile-2.0.4.post3-py3-none-any.whl
+[2023-05-11 10:42:30] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/55/65/32b720a85ecf81d58db44e3354e94337e1b5b1b69546bfa901fe4aa9bc98/tff_nightly-0.0.1.dev20230510-py2.py3-none-any.whl
+[2023-05-11 10:42:30] INFO root fetch - processPackages [dcarte]: executing diffoscope
+[2023-05-11 10:42:30] INFO root fetch - processPackages [dcarte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcarte-0.4.8.tar.gz tmp/dcarte-0.4.9.tar.gz --markdown 20230511/d/dcarte/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [bfgdealer]: Downloading https://files.pythonhosted.org/packages/1b/3b/9ed706b756840a64d175bedd15fdfdddc89dc4f18f0c1b9e036a0553d6a4/bfgdealer-0.0.5.tar.gz
+[2023-05-11 10:42:31] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/0f/a1/0b3c61133047986caae62ef0256c258bb2848736d1b866488bb187a7b854/odoo_addon_account_banking_pain_base-15.0.2.0.2-py3-none-any.whl
+[2023-05-11 10:42:31] INFO root fetch - processPackages [hyd]: Downloading https://files.pythonhosted.org/packages/96/12/6b29d1f1cc94a427714a080b79534b4f4f508ff50f9007b527f64cfed3e2/hyd-0.1.4.tar.gz
+[2023-05-11 10:42:31] INFO root fetch - processPackages [odoo14-addon-account-banking-pain-base]: Downloading https://files.pythonhosted.org/packages/8e/c3/66d230671edc57a8bd0fe49e76710ec4ff259314d6593a7dc11d77f64fd6/odoo14_addon_account_banking_pain_base-14.0.2.1.1.dev1-py3-none-any.whl
+[2023-05-11 10:42:31] INFO root fetch - processPackages [megfile]: Downloading https://files.pythonhosted.org/packages/d0/d7/61a781ede2f41d85ce5fae40dd79e97baa8d8f692707f926a296ef896a08/megfile-2.0.5-py3-none-any.whl
+[2023-05-11 10:42:31] INFO root fetch - processPackages [verbit-streaming-sdk]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [verbit-streaming-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verbit-streaming-sdk-0.8.1.tar.gz tmp/verbit-streaming-sdk-0.9.0.tar.gz --markdown 20230511/v/verbit-streaming-sdk/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/67/6e/f35065005ad8e514ccb9524361723cdde5d9f965e4abcae652b25b97d748/cg-hermes-1.9.0.tar.gz
+[2023-05-11 10:42:31] INFO root fetch - processPackages [bfgdealer]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [bfgdealer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgdealer-0.0.4.tar.gz tmp/bfgdealer-0.0.5.tar.gz --markdown 20230511/b/bfgdealer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_pain_base-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_pain_base-15.0.2.0.2-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-account-banking-pain-base/15.0.2.0.1-15.0.2.0.2/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [hyd]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [hyd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyd-0.1.3.tar.gz tmp/hyd-0.1.4.tar.gz --markdown 20230511/h/hyd/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230509-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230510-py2.py3-none-any.whl.zip --markdown 20230511/t/tff-nightly/0.0.1.dev20230509-0.0.1.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [odoo14-addon-account-banking-pain-base]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [odoo14-addon-account-banking-pain-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_banking_pain_base-14.0.2.1.1-py3-none-any.whl.zip tmp/odoo14_addon_account_banking_pain_base-14.0.2.1.1.dev1-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-account-banking-pain-base/14.0.2.1.1-14.0.2.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [megfile]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [megfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megfile-2.0.4.post3-py3-none-any.whl.zip tmp/megfile-2.0.5-py3-none-any.whl.zip --markdown 20230511/m/megfile/2.0.4.post3-2.0.5/diff.md --exclude *.pyd
+[2023-05-11 10:42:31] INFO root fetch - processPackages [cg-hermes]: executing diffoscope
+[2023-05-11 10:42:31] INFO root fetch - processPackages [cg-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-hermes-1.8.0.tar.gz tmp/cg-hermes-1.9.0.tar.gz --markdown 20230511/c/cg-hermes/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 10:42:32] INFO root fetch - processPackages [dcarte]: Start processing: frontengine
+[2023-05-11 10:42:32] INFO root fetch - main [MainThread]: End processing [dcarte]: success
+[2023-05-11 10:42:32] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:42:32] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-05-11 10:42:32] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230511/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:42:33] INFO root fetch - processPackages [hyd]: Start processing: textprepro
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [hyd]: success
+[2023-05-11 10:42:33] INFO root fetch - processPackages [verbit-streaming-sdk]: Start processing: frontengine-dev
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [verbit-streaming-sdk]: success
+[2023-05-11 10:42:33] WARNING root fetch - processPackages [textprepro]: Skipping, unable to determine old version
+[2023-05-11 10:42:33] INFO root fetch - processPackages [textprepro]: Start processing: xplain
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [textprepro] error
+[2023-05-11 10:42:33] INFO root fetch - processPackages [bfgdealer]: Start processing: cmeel-console-bridge
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [bfgdealer]: success
+[2023-05-11 10:42:33] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:42:33] INFO root fetch - processPackages [xplain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:42:33] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-05-11 10:42:33] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230511/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:42:33] INFO root fetch - processPackages [cmeel-console-bridge]: New version: [1.0.2.2] Old Version: [1.0.2.1]
+[2023-05-11 10:42:33] INFO root fetch - processPackages [xplain]: Downloading https://files.pythonhosted.org/packages/d2/32/72d5bb95e5e32e62e09aa619ddf071b53b1d1bf600ed708cdfceb8f0dc6c/xplain-0.0.8.tar.gz
+[2023-05-11 10:42:33] INFO root fetch - processPackages [cmeel-console-bridge]: Downloading https://files.pythonhosted.org/packages/99/87/57a55d1a24738895dc6c0a0d2f8c1c382672f61935da209aa03341210252/cmeel_console_bridge-1.0.2.1-6-py3-none-musllinux_1_1_x86_64.whl
+[2023-05-11 10:42:33] INFO root fetch - processPackages [odoo-addon-account-banking-pain-base]: Start processing: pymince
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-pain-base]: success
+[2023-05-11 10:42:33] INFO root fetch - processPackages [megfile]: Start processing: flask-vite
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [megfile]: success
+[2023-05-11 10:42:33] INFO root fetch - processPackages [odoo14-addon-account-banking-pain-base]: Start processing: omnibelt
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-banking-pain-base]: success
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-11 10:42:33] INFO root fetch - processPackages [pymince]: New version: [2.7.0] Old Version: [2.6.0]
+[2023-05-11 10:42:33] INFO root fetch - processPackages [flask-vite]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-11 10:42:33] INFO root fetch - processPackages [cmeel-console-bridge]: Downloading https://files.pythonhosted.org/packages/3e/8f/a7e3ecc2674b67b808f77987bec67ca318c20f12612062b993c170d6f614/cmeel_console_bridge-1.0.2.2-0-py3-none-macosx_11_0_arm64.whl
+[2023-05-11 10:42:33] INFO root fetch - processPackages [omnibelt]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-05-11 10:42:33] INFO root fetch - processPackages [cmeel-console-bridge]: executing diffoscope
+[2023-05-11 10:42:33] INFO root fetch - processPackages [cmeel-console-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_console_bridge-1.0.2.1-6-py3-none-musllinux_1_1_x86_64.whl.zip tmp/cmeel_console_bridge-1.0.2.2-0-py3-none-macosx_11_0_arm64.whl.zip --markdown 20230511/c/cmeel-console-bridge/1.0.2.1-1.0.2.2/diff.md --exclude *.pyd
+[2023-05-11 10:42:33] INFO root fetch - processPackages [xplain]: Downloading https://files.pythonhosted.org/packages/0e/46/7fa5bb0d0652af9f74ed9059933d7cb7278cd61c9c83b7b6df084c6a931a/xplain-0.0.9.tar.gz
+[2023-05-11 10:42:33] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/ef/be/3ec3df87a22e546c5fc735072250e0e684f04756786730785bab9c4ddd0b/pymince-2.6.0.tar.gz
+[2023-05-11 10:42:33] INFO root fetch - main [MainThread]: End processing [cg-hermes]: success
+[2023-05-11 10:42:33] INFO root fetch - processPackages [flask-vite]: Downloading https://files.pythonhosted.org/packages/47/6b/2f784935a65fc495c04028ec7cb88e51cec8efc1372277275102f6d62335/flask_vite-0.2.3.tar.gz
+[2023-05-11 10:42:34] INFO root fetch - processPackages [omnibelt]: Downloading https://files.pythonhosted.org/packages/81/d3/7b7e361083ba797f900623560a55e204022276aafc082f30616fee9e53b2/omnibelt-0.7.4.tar.gz
+[2023-05-11 10:42:34] INFO root fetch - processPackages [xplain]: executing diffoscope
+[2023-05-11 10:42:34] INFO root fetch - processPackages [xplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplain-0.0.8.tar.gz tmp/xplain-0.0.9.tar.gz --markdown 20230511/x/xplain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:42:34] INFO root fetch - processPackages [pymince]: Downloading https://files.pythonhosted.org/packages/c5/4a/1e79653f8fbe32fff14f3f64413dd01d686932848da8557eadfcfa19c276/pymince-2.7.0.tar.gz
+[2023-05-11 10:42:34] INFO root fetch - processPackages [omnibelt]: Downloading https://files.pythonhosted.org/packages/04/3f/7c69bffc58b7ef85cbb685f72fb403f97d2187e8f2c205aa77c6901ddd4b/omnibelt-0.7.5.tar.gz
+[2023-05-11 10:42:34] INFO root fetch - processPackages [flask-vite]: Downloading https://files.pythonhosted.org/packages/a4/f4/e1b3a5d710988022cfedc1c7dfa1faf30c02c23bf149d0171f931ae23fd8/flask_vite-0.2.4.tar.gz
+[2023-05-11 10:42:34] INFO root fetch - processPackages [pymince]: executing diffoscope
+[2023-05-11 10:42:34] INFO root fetch - processPackages [pymince]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymince-2.6.0.tar.gz tmp/pymince-2.7.0.tar.gz --markdown 20230511/p/pymince/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2023-05-11 10:42:34] INFO root fetch - processPackages [flask-vite]: executing diffoscope
+[2023-05-11 10:42:34] INFO root fetch - processPackages [flask-vite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_vite-0.2.3.tar.gz tmp/flask_vite-0.2.4.tar.gz --markdown 20230511/f/flask-vite/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-11 10:42:34] INFO root fetch - processPackages [omnibelt]: executing diffoscope
+[2023-05-11 10:42:34] INFO root fetch - processPackages [omnibelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnibelt-0.7.4.tar.gz tmp/omnibelt-0.7.5.tar.gz --markdown 20230511/o/omnibelt/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-05-11 10:42:34] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-05-11 10:42:35] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-05-11 10:42:35] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-05-11 10:42:35] INFO root fetch - main [MainThread]: End processing [cmeel-console-bridge]: success
+[2023-05-11 10:42:35] INFO root fetch - main [MainThread]: End processing [xplain]: success
+[2023-05-11 10:42:35] INFO root fetch - main [MainThread]: End processing [pymince]: success
+[2023-05-11 10:42:35] INFO root fetch - main [MainThread]: End processing [flask-vite]: success
+[2023-05-11 10:42:36] INFO root fetch - main [MainThread]: End processing [omnibelt]: success
+[2023-05-11 10:42:36] INFO root fetch - main [MainThread]: Store serial: [18060188]
