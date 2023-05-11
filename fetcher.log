@@ -9663,3 +9663,73 @@ EOFError: EOF read where object expected
 [2023-05-11 07:25:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod190]: success
 [2023-05-11 07:25:27] INFO root fetch - main [MainThread]: End processing [pycallingcards]: success
 [2023-05-11 07:25:27] INFO root fetch - main [MainThread]: Store serial: [18058503]
+[2023-05-11 07:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058503]
+[2023-05-11 07:30:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipyvizzu-story
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycallingcards
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: armonik
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: automation-common-test
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-l10n-ch-states
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-l10n-switzerland
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: armonik
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crazy-thursday
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: erscipcard
+[2023-05-11 07:30:36] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230511.5.25.666096] Old Version: [20230511.3.9.29395]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [pycallingcards]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ipyvizzu-story]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev333] Old Version: [3.8.2.dev332]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: New version: [15.0.20230510.0] Old Version: [15.0.20221111.0]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev333] Old Version: [3.8.2.dev332]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [odoo-addon-l10n-ch-states]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [erscipcard]: New version: [1.18.8] Old Version: [1.18.7]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-11 07:30:36] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230511/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 07:30:36] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-11 07:30:36] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230511/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-11 07:30:36] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/3e/46/adeb4626fd8aa039e1b4b9f0f1343c6fb696dddbdcf11b1faab1420c5416/armonik-3.8.2.dev332.tar.gz
+[2023-05-11 07:30:36] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/3e/46/adeb4626fd8aa039e1b4b9f0f1343c6fb696dddbdcf11b1faab1420c5416/armonik-3.8.2.dev332.tar.gz
+[2023-05-11 07:30:36] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/05/45/7193665b5a578014e636a66e2d63dc470ef1ca1cff231d105056b361ce3f/certora-cli-alpha-rahav-cert-1987_update_regTest-20230511.3.9.29395.tar.gz
+[2023-05-11 07:30:36] INFO root fetch - processPackages [ipyvizzu-story]: Downloading https://files.pythonhosted.org/packages/0a/38/2de56c847c5a5d04882db5180ceab06d108f5eeb48cc8ce539af68354034/ipyvizzu-story-0.6.0.tar.gz
+[2023-05-11 07:30:36] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/71/29/1a3231dfd38de82f784288c381c568eda43603f3ff9bee060d390f51c02a/erscipcard-1.18.8.tar.gz
+[2023-05-11 07:30:36] INFO root fetch - processPackages [pycallingcards]: Downloading https://files.pythonhosted.org/packages/cb/99/224da6b43d895bcddaa4990e3d12a50ecb836a337d9b2a3ce871f2c63b47/pycallingcards-0.0.7.tar.gz
+[2023-05-11 07:30:36] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: Downloading https://files.pythonhosted.org/packages/71/67/d67f8e66b8de3035a5c26cd0613a590da70bb970b9fe0f9d736ba63dda6c/odoo_addons_oca_l10n_switzerland-15.0.20221111.0-py3-none-any.whl
+[2023-05-11 07:30:36] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 39213835>=10485760
+[2023-05-11 07:30:36] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Start processing: pylance
+[2023-05-11 07:30:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-11 07:30:36] INFO root fetch - processPackages [odoo-addon-l10n-ch-states]: Downloading https://files.pythonhosted.org/packages/2d/ec/bbdff5a26d6a034dbd5895b9034588f6ef572ef9f4b168917752f8e26917/odoo_addon_l10n_ch_states-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-11 07:30:36] INFO root fetch - processPackages [pylance]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-05-11 07:30:36] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-05-11 07:30:36] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.18.7.tar.gz tmp/erscipcard-1.18.8.tar.gz --markdown 20230511/e/erscipcard/1.18.7-1.18.8/diff.md --exclude *.pyd
+[2023-05-11 07:30:36] INFO root fetch - processPackages [pycallingcards]: executing diffoscope
+[2023-05-11 07:30:36] INFO root fetch - processPackages [pycallingcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycallingcards-0.0.6.tar.gz tmp/pycallingcards-0.0.7.tar.gz --markdown 20230511/p/pycallingcards/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 07:30:37] INFO root fetch - processPackages [ipyvizzu-story]: Downloading https://files.pythonhosted.org/packages/d6/ba/dcf6d7720de20940340032188c05a3a9fb29459c5b518c8d1012c0d82283/ipyvizzu-story-0.7.0.tar.gz
+[2023-05-11 07:30:37] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/3a/bf/b5da300564ebeaa28762c6421b936d4f2e9f1e7ef9dec93f8a9d83e209fe/pylance-0.4.7-cp38-abi3-win_amd64.whl
+[2023-05-11 07:30:37] INFO root fetch - processPackages [odoo-addon-l10n-ch-states]: Downloading https://files.pythonhosted.org/packages/b1/a2/3bf1708d980fd3b0ea3e9df4b81f8d1be1b658eaa6b6c577d22d630bf69d/odoo_addon_l10n_ch_states-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-11 07:30:37] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 20865300>=10485760
+[2023-05-11 07:30:37] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-05-11 07:30:37] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/ff/43/e93ef13b888d46b5f948c811647a809eecaf9cf50be8e22e2868873d8ccd/armonik-3.8.2.dev333.tar.gz
+[2023-05-11 07:30:37] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/ff/43/e93ef13b888d46b5f948c811647a809eecaf9cf50be8e22e2868873d8ccd/armonik-3.8.2.dev333.tar.gz
+[2023-05-11 07:30:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: Downloading https://files.pythonhosted.org/packages/c9/10/e9bcdb28b2f1735acfe8d3da1c041855ad0d41ccc33a7855f4944ff45d27/odoo_addons_oca_l10n_switzerland-15.0.20230510.0-py3-none-any.whl
+[2023-05-11 07:30:37] INFO root fetch - processPackages [ipyvizzu-story]: executing diffoscope
+[2023-05-11 07:30:37] INFO root fetch - processPackages [ipyvizzu-story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyvizzu-story-0.6.0.tar.gz tmp/ipyvizzu-story-0.7.0.tar.gz --markdown 20230511/i/ipyvizzu-story/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 07:30:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: executing diffoscope
+[2023-05-11 07:30:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-switzerland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_switzerland-15.0.20221111.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_switzerland-15.0.20230510.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addons-oca-l10n-switzerland/15.0.20221111.0-15.0.20230510.0/diff.md --exclude *.pyd
+[2023-05-11 07:30:37] INFO root fetch - processPackages [odoo-addon-l10n-ch-states]: executing diffoscope
+[2023-05-11 07:30:37] INFO root fetch - processPackages [odoo-addon-l10n-ch-states]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ch_states-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_ch_states-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-l10n-ch-states/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-11 07:30:37] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-05-11 07:30:37] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev332.tar.gz tmp/armonik-3.8.2.dev333.tar.gz --markdown 20230511/a/armonik/3.8.2.dev332-3.8.2.dev333/diff.md --exclude *.pyd
+[2023-05-11 07:30:37] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-05-11 07:30:37] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev332.tar.gz tmp/armonik-3.8.2.dev333.tar.gz --markdown 20230511/a/armonik/3.8.2.dev332-3.8.2.dev333/diff.md --exclude *.pyd
+[2023-05-11 07:30:38] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-11 07:30:38] INFO root fetch - main [MainThread]: End processing [pycallingcards]: success
+[2023-05-11 07:30:38] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-11 07:30:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-switzerland]: success
+[2023-05-11 07:30:38] INFO root fetch - main [MainThread]: End processing [ipyvizzu-story]: success
+[2023-05-11 07:30:39] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-05-11 07:30:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ch-states]: success
+[2023-05-11 07:30:39] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-05-11 07:30:39] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-05-11 07:30:39] INFO root fetch - main [MainThread]: Store serial: [18058532]
