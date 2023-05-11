@@ -18224,3 +18224,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:06:16] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-11 14:06:20] INFO root fetch - main [MainThread]: End processing [celery]: success
 [2023-05-11 14:06:20] INFO root fetch - main [MainThread]: Store serial: [18063191]
+[2023-05-11 14:11:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063191]
+[2023-05-11 14:11:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-11 14:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gluonts
+[2023-05-11 14:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samexporter
+[2023-05-11 14:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-pysigma
+[2023-05-11 14:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drpg
+[2023-05-11 14:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-11 14:11:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deltafi
+[2023-05-11 14:11:29] INFO root fetch - processPackages [gluonts]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 14:11:29] INFO root fetch - processPackages [drpg]: New version: [2023.5.11] Old Version: [2022.9.0]
+[2023-05-11 14:11:29] WARNING root fetch - processPackages [samexporter]: Skipping, unable to determine old version
+[2023-05-11 14:11:29] INFO root fetch - main [MainThread]: End processing [samexporter] error
+[2023-05-11 14:11:29] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.5.6] Old Version: [2023.5.5]
+[2023-05-11 14:11:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 14:11:29] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/de/5e/36db9b9fa7a6a76aa16ee07e2031455b4bb341ea08a41508d1908caacbaa/steam-pysigma-2023.5.5.tar.gz
+[2023-05-11 14:11:29] INFO root fetch - processPackages [deltafi]: New version: [0.99.8] Old Version: [0.99.7]
+[2023-05-11 14:11:29] WARNING root fetch - processPackages [steam-pysigma]: Skipping package: exceeds size limit 69830358>=10485760
+[2023-05-11 14:11:29] INFO root fetch - main [MainThread]: End processing [steam-pysigma] error
+[2023-05-11 14:11:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-11 14:11:29] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 14:11:29] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/60/f7/d0ddd80a3d92edfb8f3c89386d86c59ef4105f9632ec7c2b9beed228df72/gluonts-0.9.8.tar.gz
+[2023-05-11 14:11:29] INFO root fetch - processPackages [drpg]: Downloading https://files.pythonhosted.org/packages/76/9a/75907bbc2dbb94f92ece5120f560eb17403d214798f0dc36ea9d9b22c715/drpg-2022.9.0.tar.gz
+[2023-05-11 14:11:29] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/e5/f8/236e8805990b60ffcdaac35919630085374f687fd7c4782f76db5bf15b42/deltafi-0.99.7.tar.gz
+[2023-05-11 14:11:29] INFO root fetch - processPackages [drpg]: Downloading https://files.pythonhosted.org/packages/c3/4d/74db7d349a52d786c3f6d9da9487f02524bf9797b3dab0548f1fb97d457a/drpg-2023.5.11.tar.gz
+[2023-05-11 14:11:29] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/58/b9/f37d0ee984101ded21f6250f64c03cddeeef3a4bbe18f51bbc7be71b793d/deltafi-0.99.8.tar.gz
+[2023-05-11 14:11:29] INFO root fetch - processPackages [drpg]: executing diffoscope
+[2023-05-11 14:11:29] INFO root fetch - processPackages [drpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drpg-2022.9.0.tar.gz tmp/drpg-2023.5.11.tar.gz --markdown 20230511/d/drpg/2022.9.0-2023.5.11/diff.md --exclude *.pyd
+[2023-05-11 14:11:29] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2023-05-11 14:11:29] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-0.99.7.tar.gz tmp/deltafi-0.99.8.tar.gz --markdown 20230511/d/deltafi/0.99.7-0.99.8/diff.md --exclude *.pyd
+[2023-05-11 14:11:30] INFO root fetch - processPackages [gluonts]: Downloading https://files.pythonhosted.org/packages/f7/87/dfac0670fc583f4f815e8f67a47876c663c990e089c5d7a218bf3da607d2/gluonts-0.9.9.tar.gz
+[2023-05-11 14:11:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-11 14:11:30] INFO root fetch - processPackages [gluonts]: executing diffoscope
+[2023-05-11 14:11:30] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20230511/g/gluonts/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 14:11:31] INFO root fetch - main [MainThread]: End processing [drpg]: success
+[2023-05-11 14:11:31] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2023-05-11 14:11:44] INFO root fetch - main [MainThread]: End processing [gluonts]: success
+[2023-05-11 14:11:44] INFO root fetch - main [MainThread]: Store serial: [18063213]
