@@ -14553,3 +14553,125 @@ EOFError: EOF read where object expected
 [2023-05-11 11:27:01] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
 [2023-05-11 11:27:07] INFO root fetch - main [MainThread]: End processing [Orange3-ImageAnalytics]: success
 [2023-05-11 11:27:07] INFO root fetch - main [MainThread]: Store serial: [18061126]
+[2023-05-11 11:32:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061126]
+[2023-05-11 11:32:16] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modernmt
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veetility
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Alpha-Rabbit
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-workflows-tugraz
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: euclidian
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tomotwin-cryoet
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weasyprint
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wagtail-richer-text
+[2023-05-11 11:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fusionsc
+[2023-05-11 11:32:16] INFO root fetch - processPackages [veetility]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [weasyprint]: New version: [59.0b1] Old Version: [59.0]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-11 11:32:16] INFO root fetch - processPackages [tomotwin-cryoet]: New version: [0.4.2] Old Version: [0.3.0]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-05-11 11:32:16] INFO root fetch - processPackages [euclidian]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-05-11 11:32:16] WARNING root fetch - processPackages [wagtail-richer-text]: Skipping, unable to determine old version
+[2023-05-11 11:32:16] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.8.tar.gz tmp/veetility-0.1.9.tar.gz --markdown 20230511/v/veetility/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:16] INFO root fetch - processPackages [modernmt]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [wagtail-richer-text]: Start processing: steamship
+[2023-05-11 11:32:16] INFO root fetch - main [MainThread]: End processing [wagtail-richer-text] error
+[2023-05-11 11:32:16] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-11 11:32:16] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230511/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:16] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-11 11:32:16] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230511/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:16] INFO root fetch - processPackages [cg]: New version: [30.2.0] Old Version: [30.1.4]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [steamship]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [weasyprint]: Downloading https://files.pythonhosted.org/packages/1d/69/11343bbb46d4f2a311677058e19cc2f7bc55a769b64c547a64ea1e2b6045/weasyprint-59.0.tar.gz
+[2023-05-11 11:32:16] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-11 11:32:16] INFO root fetch - processPackages [fusionsc]: Start processing: PyAltiumRunTop
+[2023-05-11 11:32:16] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-11 11:32:16] INFO root fetch - processPackages [PyAltiumRunTop]: New version: [0.2.4.5] Old Version: [0.2.4.4]
+[2023-05-11 11:32:16] INFO root fetch - processPackages [steamship]: executing diffoscope
+[2023-05-11 11:32:16] INFO root fetch - processPackages [modernmt]: Downloading https://files.pythonhosted.org/packages/3b/ab/afc1c31b0a2a2b18a88973ac9e932200ae9ca92569c504a220044fd68dc1/modernmt-1.2.0.tar.gz
+[2023-05-11 11:32:16] INFO root fetch - processPackages [steamship]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamship-2.3.8.tar.gz tmp/steamship-2.3.9.tar.gz --markdown 20230511/s/steamship/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6f/39/40ef5b0d9738cc4cb3a3c9481517c61d631c45b727cd35e324f4a4bbe838/cg-30.1.4.tar.gz
+[2023-05-11 11:32:16] INFO root fetch - processPackages [tomotwin-cryoet]: Downloading https://files.pythonhosted.org/packages/1f/92/eb7843c1fd011595c18135cc804ee6cdc67f69035f1571b94055e97ed7f0/tomotwin-cryoet-0.3.0.tar.gz
+[2023-05-11 11:32:16] INFO root fetch - processPackages [euclidian]: Downloading https://files.pythonhosted.org/packages/c8/20/014ee725e577dd249b7c3e23b599db8eb2364b12b2ae68055ade46e03172/euclidian-0.9.2.tar.gz
+[2023-05-11 11:32:17] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/3c/f1/a4cb60ade44ccd2902d1e7e3f38685e478133d80ffb3249341b284a24b0c/PyAltiumRunTop-0.2.4.5.tar.gz
+[2023-05-11 11:32:17] INFO root fetch - processPackages [weasyprint]: Downloading https://files.pythonhosted.org/packages/18/fc/8449436943b535c306c25da8ab19dab606e0bbf329e1a324823163d02517/weasyprint-59.0b1.tar.gz
+[2023-05-11 11:32:17] INFO root fetch - processPackages [modernmt]: Downloading https://files.pythonhosted.org/packages/52/d9/cb58abd778641bb213e3b4bf2901026a7a3f763769d47482fc8d0fecba5f/modernmt-1.2.1.tar.gz
+[2023-05-11 11:32:17] INFO root fetch - processPackages [PyAltiumRunTop]: executing diffoscope
+[2023-05-11 11:32:17] INFO root fetch - processPackages [PyAltiumRunTop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAltiumRunTop-0.2.4.4.tar.gz tmp/PyAltiumRunTop-0.2.4.5.tar.gz --markdown 20230511/P/PyAltiumRunTop/0.2.4.4-0.2.4.5/diff.md --exclude *.pyd
+[2023-05-11 11:32:17] INFO root fetch - processPackages [weasyprint]: executing diffoscope
+[2023-05-11 11:32:17] INFO root fetch - processPackages [weasyprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasyprint-59.0.tar.gz tmp/weasyprint-59.0b1.tar.gz --markdown 20230511/w/weasyprint/59.0-59.0b1/diff.md --exclude *.pyd
+[2023-05-11 11:32:17] INFO root fetch - processPackages [euclidian]: Downloading https://files.pythonhosted.org/packages/e6/82/cb8a3b1f668c07600f109c0d9d5229effd3661d0613ddd62dd58e84716f7/euclidian-0.9.4.tar.gz
+[2023-05-11 11:32:17] INFO root fetch - processPackages [modernmt]: executing diffoscope
+[2023-05-11 11:32:17] INFO root fetch - processPackages [modernmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernmt-1.2.0.tar.gz tmp/modernmt-1.2.1.tar.gz --markdown 20230511/m/modernmt/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-11 11:32:17] INFO root fetch - processPackages [euclidian]: executing diffoscope
+[2023-05-11 11:32:17] INFO root fetch - processPackages [euclidian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euclidian-0.9.2.tar.gz tmp/euclidian-0.9.4.tar.gz --markdown 20230511/e/euclidian/0.9.2-0.9.4/diff.md --exclude *.pyd
+[2023-05-11 11:32:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/60/e8/9b4c46072d13ffb0e57b9dd73e66d62b68f349b6b3b1ee60b95cb090361e/cg-30.2.0.tar.gz
+[2023-05-11 11:32:18] INFO root fetch - processPackages [tomotwin-cryoet]: Downloading https://files.pythonhosted.org/packages/de/83/168596a3ae81da1f63c62ba77fcda88752be90b2e61464d519d2ad79a7f5/tomotwin-cryoet-0.4.2.tar.gz
+[2023-05-11 11:32:18] WARNING root fetch - processPackages [tomotwin-cryoet]: Skipping package: exceeds size limit 52111294>=10485760
+[2023-05-11 11:32:18] INFO root fetch - processPackages [tomotwin-cryoet]: Start processing: automation_rest_server
+[2023-05-11 11:32:18] INFO root fetch - main [MainThread]: End processing [tomotwin-cryoet] error
+[2023-05-11 11:32:18] INFO root fetch - processPackages [automation_rest_server]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-05-11 11:32:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-11 11:32:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.1.4.tar.gz tmp/cg-30.2.0.tar.gz --markdown 20230511/c/cg/30.1.4-30.2.0/diff.md --exclude *.pyd
+[2023-05-11 11:32:18] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-05-11 11:32:18] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.6.8.tar.gz tmp/automation_rest_server-3.6.9.tar.gz --markdown 20230511/a/automation_rest_server/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:18] INFO root fetch - processPackages [veetility]: Start processing: scylla-cqlsh
+[2023-05-11 11:32:18] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-05-11 11:32:18] INFO root fetch - processPackages [scylla-cqlsh]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-05-11 11:32:19] INFO root fetch - processPackages [scylla-cqlsh]: Downloading https://files.pythonhosted.org/packages/c3/44/6b5fdb40eb94f9bc6429a64df0ef93536f1704c686c2970ae7ccc34f81ed/scylla-cqlsh-6.0.8.tar.gz
+[2023-05-11 11:32:19] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: pyaml
+[2023-05-11 11:32:19] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-11 11:32:19] INFO root fetch - processPackages [pyaml]: New version: [23.5.8] Old Version: [23.5.7]
+[2023-05-11 11:32:19] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/06/d3/c73b4fc111814d37aaf34ca061cf3bed79e89acfb6a2207ac35d45092756/pyaml-23.5.7.tar.gz
+[2023-05-11 11:32:19] INFO root fetch - processPackages [invenio-workflows-tugraz]: Start processing: striprtf
+[2023-05-11 11:32:19] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-11 11:32:19] INFO root fetch - processPackages [striprtf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 11:32:19] INFO root fetch - processPackages [scylla-cqlsh]: Downloading https://files.pythonhosted.org/packages/53/27/c44270b183ff5326eb16ffc1de7cd7313ce3ce5d68eb0100a87665e4aeed/scylla-cqlsh-6.0.9.tar.gz
+[2023-05-11 11:32:19] INFO root fetch - processPackages [modernmt]: Start processing: rdfizer
+[2023-05-11 11:32:19] INFO root fetch - main [MainThread]: End processing [modernmt]: success
+[2023-05-11 11:32:19] INFO root fetch - processPackages [PyAltiumRunTop]: Start processing: alibabacloud-linkvisual20180120
+[2023-05-11 11:32:19] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
+[2023-05-11 11:32:20] INFO root fetch - processPackages [pyaml]: Downloading https://files.pythonhosted.org/packages/d0/2d/622fef090268c9bb89a0bc458834644599237d1816ebc4b28285c0d41781/pyaml-23.5.8.tar.gz
+[2023-05-11 11:32:20] INFO root fetch - processPackages [alibabacloud-linkvisual20180120]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-11 11:32:20] INFO root fetch - processPackages [striprtf]: Downloading https://files.pythonhosted.org/packages/53/44/0d8161a4e2073f0e27fc5614c5437a706fb2e25425cb4f99ee4035a028dc/striprtf-0.0.8.tar.gz
+[2023-05-11 11:32:20] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-11 11:32:20] INFO root fetch - processPackages [scylla-cqlsh]: executing diffoscope
+[2023-05-11 11:32:20] INFO root fetch - processPackages [scylla-cqlsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scylla-cqlsh-6.0.8.tar.gz tmp/scylla-cqlsh-6.0.9.tar.gz --markdown 20230511/s/scylla-cqlsh/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:20] INFO root fetch - processPackages [pyaml]: executing diffoscope
+[2023-05-11 11:32:20] INFO root fetch - processPackages [pyaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaml-23.5.7.tar.gz tmp/pyaml-23.5.8.tar.gz --markdown 20230511/p/pyaml/23.5.7-23.5.8/diff.md --exclude *.pyd
+[2023-05-11 11:32:20] INFO root fetch - processPackages [alibabacloud-linkvisual20180120]: Downloading https://files.pythonhosted.org/packages/a6/da/25e3f2e14c3efee1bfead0b905c46d1c03b96468be4270604ae52c8afc09/alibabacloud_linkvisual20180120-2.0.1.tar.gz
+[2023-05-11 11:32:20] INFO root fetch - processPackages [striprtf]: Downloading https://files.pythonhosted.org/packages/3a/0e/b1ee494c9bea3938d56478e2b32c650802e0e73fafa03b4077908922882d/striprtf-0.0.9.tar.gz
+[2023-05-11 11:32:20] INFO root fetch - processPackages [alibabacloud-linkvisual20180120]: Downloading https://files.pythonhosted.org/packages/83/f0/2ff1ba4f7fbfcdd2b5368e802d9f06860bc8b6e7cc7ebb30a53f244fca3c/alibabacloud_linkvisual20180120-2.0.2.tar.gz
+[2023-05-11 11:32:20] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-11 11:32:20] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230511/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-11 11:32:20] INFO root fetch - processPackages [alibabacloud-linkvisual20180120]: executing diffoscope
+[2023-05-11 11:32:20] INFO root fetch - processPackages [alibabacloud-linkvisual20180120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_linkvisual20180120-2.0.1.tar.gz tmp/alibabacloud_linkvisual20180120-2.0.2.tar.gz --markdown 20230511/a/alibabacloud-linkvisual20180120/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-11 11:32:20] INFO root fetch - processPackages [striprtf]: executing diffoscope
+[2023-05-11 11:32:20] INFO root fetch - processPackages [striprtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/striprtf-0.0.8.tar.gz tmp/striprtf-0.0.9.tar.gz --markdown 20230511/s/striprtf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:32:20] INFO root fetch - processPackages [euclidian]: Start processing: rdfizer
+[2023-05-11 11:32:20] INFO root fetch - main [MainThread]: End processing [euclidian]: success
+[2023-05-11 11:32:20] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-11 11:32:20] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-11 11:32:20] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230511/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-11 11:32:22] INFO root fetch - processPackages [pyaml]: Start processing: rdfizer
+[2023-05-11 11:32:22] INFO root fetch - main [MainThread]: End processing [pyaml]: success
+[2023-05-11 11:32:22] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2023-05-11 11:32:22] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2023-05-11 11:32:22] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20230511/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/diff.md --exclude *.pyd
+[2023-05-11 11:32:22] INFO root fetch - processPackages [rdfizer]: Start processing: icolyzer
+[2023-05-11 11:32:22] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-11 11:32:22] WARNING root fetch - processPackages [icolyzer]: Skipping, unable to determine old version
+[2023-05-11 11:32:22] INFO root fetch - main [MainThread]: End processing [icolyzer] error
+[2023-05-11 11:32:23] INFO root fetch - main [MainThread]: End processing [striprtf]: success
+[2023-05-11 11:32:23] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-11 11:32:24] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2023-05-11 11:32:24] INFO root fetch - main [MainThread]: End processing [alibabacloud-linkvisual20180120]: success
+[2023-05-11 11:32:24] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-05-11 11:32:25] INFO root fetch - main [MainThread]: End processing [weasyprint]: success
+[2023-05-11 11:32:25] INFO root fetch - main [MainThread]: End processing [scylla-cqlsh]: success
+[2023-05-11 11:32:25] INFO root fetch - main [MainThread]: End processing [steamship]: success
+[2023-05-11 11:32:33] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-11 11:32:33] INFO root fetch - main [MainThread]: Store serial: [18061237]
