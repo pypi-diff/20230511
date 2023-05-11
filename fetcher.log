@@ -22649,3 +22649,98 @@ EOFError: EOF read where object expected
 [2023-05-11 17:48:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 17:48:11] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2023-05-11 17:48:11] INFO root fetch - main [MainThread]: Store serial: [18065840]
+[2023-05-11 17:53:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065840]
+[2023-05-11 17:53:22] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-board
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TINTOlib
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edwh
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlrun
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: klassez
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gridworks-atn
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seavoice-sdk
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhmccli
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrc-test-python-package
+[2023-05-11 17:53:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jwst-mast-query
+[2023-05-11 17:53:22] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-05-11 17:53:22] WARNING root fetch - processPackages [pyrc-test-python-package]: Skipping, unable to determine old version
+[2023-05-11 17:53:22] INFO root fetch - processPackages [pyrc-test-python-package]: Start processing: labvirtual
+[2023-05-11 17:53:22] INFO root fetch - main [MainThread]: End processing [pyrc-test-python-package] error
+[2023-05-11 17:53:22] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-11 17:53:22] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc2-py3-none-any.whl.zip tmp/mlrun-1.4.0rc3-py3-none-any.whl.zip --markdown 20230511/m/mlrun/1.4.0rc2-1.4.0rc3/diff.md --exclude *.pyd
+[2023-05-11 17:53:22] INFO root fetch - processPackages [jwst-mast-query]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [labvirtual]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-11 17:53:22] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-11 17:53:22] INFO root fetch - processPackages [edwh]: Start processing: pyowletapi
+[2023-05-11 17:53:22] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-11 17:53:22] INFO root fetch - processPackages [gridworks-atn]: New version: [0.3.2] Old Version: [0.2.4]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [klassez]: New version: [0.2a0] Old Version: [0.1a2]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [zhmccli]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [seavoice-sdk]: New version: [0.2.9] Old Version: [0.2.8.post1]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [pipen-board]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/df/3b/0666c788b548782c86f2634e9770684565e1ab83c6e4a2a83a3e91c28981/labvirtual-0.3.4.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [pyowletapi]: New version: [2023.5.9] Old Version: [2023.5.7]
+[2023-05-11 17:53:22] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/87/a7/167b3942fa06088cb4bd10c30f31686ac2a78fee440d82ea7ae482864bc4/tintolib-0.0.3.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [seavoice-sdk]: Downloading https://files.pythonhosted.org/packages/13/dd/c2738cddb65237c11f3a77ab9612e6f7f2a5d0a438166faf979195e31f6e/seavoice-sdk-0.2.8.post1.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [jwst-mast-query]: Downloading https://files.pythonhosted.org/packages/70/fa/91fc7cc6726939a21ab0b24ba3d07ac69b9a8895e222ba5bee8deaea90be/jwst_mast_query-0.0.4.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [klassez]: Downloading https://files.pythonhosted.org/packages/52/aa/bc0ce998a95e7bbd084f4d7149e52370f45d0ba82a19aec3528ce4aa5b4e/klassez-0.1a2.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [gridworks-atn]: Downloading https://files.pythonhosted.org/packages/06/f3/4ef5f566954e92d474591edf962b7e2e6b8d05adb02f3f5a4fdd81a136a5/gridworks_atn-0.2.4.tar.gz
+[2023-05-11 17:53:22] INFO root fetch - processPackages [zhmccli]: Downloading https://files.pythonhosted.org/packages/c5/65/df05ba7a4419e4cc20e312cde6e820ee6755b86f59392c99fca7e1e411ce/zhmccli-1.6.0.tar.gz
+[2023-05-11 17:53:22] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43632060>=10485760
+[2023-05-11 17:53:22] INFO root fetch - processPackages [labvirtual]: Start processing: UEVaultManager
+[2023-05-11 17:53:22] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 17:53:22] INFO root fetch - processPackages [UEVaultManager]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 17:53:23] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.0.8.tar.gz tmp/pipen_board-0.0.9.tar.gz --markdown 20230511/p/pipen-board/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [gridworks-atn]: Downloading https://files.pythonhosted.org/packages/28/58/6faeac2e5731142a46e9cf0a6a9957ffc1e91ad898719742a735cf5bf1f6/gridworks_atn-0.3.2.tar.gz
+[2023-05-11 17:53:23] INFO root fetch - processPackages [zhmccli]: Downloading https://files.pythonhosted.org/packages/6f/a2/d40e8d9ea1e15de5056be57f5c7099990a287c4f63931c96bacdaec2c001/zhmccli-1.6.1.tar.gz
+[2023-05-11 17:53:23] INFO root fetch - processPackages [klassez]: Downloading https://files.pythonhosted.org/packages/ad/d6/623d3298ab4312ed68a7d79eb4e79df687f05fe78f7deedc150dc5bac989/klassez-0.2a0-py3-none-any.whl
+[2023-05-11 17:53:23] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/cf/31/91f2e9bcea2197cffa3385655b05126e44c1fc6adcc31ab24e5dc4b59c4f/tintolib-0.0.4.tar.gz
+[2023-05-11 17:53:23] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/c8/5f/e68e27270770a540ae2810742c32e744e5bb8ce3eb28088ae3919394f7be/UEVaultManager-1.1.1.tar.gz
+[2023-05-11 17:53:23] INFO root fetch - processPackages [seavoice-sdk]: Downloading https://files.pythonhosted.org/packages/76/83/644e23960d5837323156f0fc8dacc8b1df8fbffa20c178f7dd241a25998d/seavoice-sdk-0.2.9.tar.gz
+[2023-05-11 17:53:23] INFO root fetch - processPackages [zhmccli]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [zhmccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmccli-1.6.0.tar.gz tmp/zhmccli-1.6.1.tar.gz --markdown 20230511/z/zhmccli/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [gridworks-atn]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [gridworks-atn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_atn-0.2.4.tar.gz tmp/gridworks_atn-0.3.2.tar.gz --markdown 20230511/g/gridworks-atn/0.2.4-0.3.2/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [pyowletapi]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [pyowletapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyowletapi-2023.5.7.tar.gz tmp/pyowletapi-2023.5.9.tar.gz --markdown 20230511/p/pyowletapi/2023.5.7-2023.5.9/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [jwst-mast-query]: Downloading https://files.pythonhosted.org/packages/35/91/73ab2215d8c0a493ee01493cf54f72a8843faab5305bcc35e7b816800d74/jwst_mast_query-0.0.5.tar.gz
+[2023-05-11 17:53:23] INFO root fetch - processPackages [klassez]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [klassez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klassez-0.1a2.tar.gz tmp/klassez-0.2a0-py3-none-any.whl.zip --markdown 20230511/k/klassez/0.1a2-0.2a0/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.1.0.tar.gz tmp/UEVaultManager-1.1.1.tar.gz --markdown 20230511/U/UEVaultManager/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [seavoice-sdk]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [seavoice-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seavoice-sdk-0.2.8.post1.tar.gz tmp/seavoice-sdk-0.2.9.tar.gz --markdown 20230511/s/seavoice-sdk/0.2.8.post1-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 17:53:23] INFO root fetch - processPackages [jwst-mast-query]: executing diffoscope
+[2023-05-11 17:53:23] INFO root fetch - processPackages [jwst-mast-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jwst_mast_query-0.0.4.tar.gz tmp/jwst_mast_query-0.0.5.tar.gz --markdown 20230511/j/jwst-mast-query/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 17:53:24] INFO root fetch - processPackages [pyowletapi]: Start processing: cmd-queue
+[2023-05-11 17:53:24] INFO root fetch - main [MainThread]: End processing [pyowletapi]: success
+[2023-05-11 17:53:24] INFO root fetch - processPackages [cmd-queue]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 17:53:24] INFO root fetch - processPackages [TINTOlib]: executing diffoscope
+[2023-05-11 17:53:24] INFO root fetch - processPackages [TINTOlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tintolib-0.0.3.tar.gz tmp/tintolib-0.0.4.tar.gz --markdown 20230511/T/TINTOlib/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-11 17:53:25] INFO root fetch - processPackages [cmd-queue]: executing diffoscope
+[2023-05-11 17:53:25] INFO root fetch - processPackages [cmd-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmd_queue-0.1.8-py3-none-any.whl.zip tmp/cmd_queue-0.1.9-py3-none-any.whl.zip --markdown 20230511/c/cmd-queue/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 17:53:25] INFO root fetch - processPackages [zhmccli]: Start processing: pyreason
+[2023-05-11 17:53:25] INFO root fetch - main [MainThread]: End processing [zhmccli]: success
+[2023-05-11 17:53:25] INFO root fetch - processPackages [pyreason]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-11 17:53:25] INFO root fetch - processPackages [UEVaultManager]: Start processing: edwh
+[2023-05-11 17:53:25] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-11 17:53:25] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-11 17:53:25] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-05-11 17:53:25] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-05-11 17:53:25] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-05-11 17:53:25] INFO root fetch - processPackages [pyreason]: Downloading https://files.pythonhosted.org/packages/c5/01/faad3a3d03740a55a3139eaceb1e6f23efac71860c1ff04a60f5856d03c6/pyreason-1.4.1.tar.gz
+[2023-05-11 17:53:25] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
+[2023-05-11 17:53:25] INFO root fetch - main [MainThread]: End processing [seavoice-sdk]: success
+[2023-05-11 17:53:25] INFO root fetch - processPackages [pyreason]: executing diffoscope
+[2023-05-11 17:53:25] INFO root fetch - processPackages [pyreason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreason-1.4.0.tar.gz tmp/pyreason-1.4.1.tar.gz --markdown 20230511/p/pyreason/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-11 17:53:26] INFO root fetch - main [MainThread]: End processing [cmd-queue]: success
+[2023-05-11 17:53:26] INFO root fetch - main [MainThread]: End processing [jwst-mast-query]: success
+[2023-05-11 17:53:26] INFO root fetch - main [MainThread]: End processing [pyreason]: success
+[2023-05-11 17:53:27] INFO root fetch - main [MainThread]: End processing [klassez]: success
+[2023-05-11 17:53:30] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-11 17:53:31] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-05-11 17:54:04] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
+[2023-05-11 17:54:04] INFO root fetch - main [MainThread]: Store serial: [18065884]
