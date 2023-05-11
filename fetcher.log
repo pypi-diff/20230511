@@ -9023,3 +9023,63 @@ EOFError: EOF read where object expected
 [2023-05-11 06:25:08] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
 [2023-05-11 06:25:09] INFO root fetch - main [MainThread]: End processing [astro-ghost]: success
 [2023-05-11 06:25:09] INFO root fetch - main [MainThread]: Store serial: [18058130]
+[2023-05-11 06:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058130]
+[2023-05-11 06:30:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mercoa
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starcatalogquery
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stmapy
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cveutils
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrainman
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: generic-path
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utils-tddschn
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: accel
+[2023-05-11 06:30:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: snowflake-connector-python-nightly
+[2023-05-11 06:30:18] INFO root fetch - processPackages [mercoa]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [stmapy]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [cveutils]: New version: [0.2] Old Version: [0.1]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [utils-tddschn]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [terrainman]: New version: [0.0.9] Old Version: [0.0.19]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [generic-path]: New version: [0.4.1] Old Version: [0.4]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [accel]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-11 06:30:18] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/82/7e/efa0244cb2df7f7790356edfc48c921e9bfda10b12f3ab786a63848f10a2/cveutils-0.1.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [terrainman]: Downloading https://files.pythonhosted.org/packages/f3/07/bde643189daee102c75e37e7ef6356c79c84b3af76497df26025b5589c77/terrainman-0.0.19.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/c1/2d/307a3b210517b5cf4be60ec20f3c2b6f03523e4319f9c47d99c56ebd1074/mercoa-0.0.7.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/b0/ad/ae0e24d48a780b234297a01b48ab7fac76705b732f7922e1b05efcada852/starcatalogquery-0.1.0-py3-none-any.whl
+[2023-05-11 06:30:19] INFO root fetch - processPackages [utils-tddschn]: Downloading https://files.pythonhosted.org/packages/4a/fd/61863a0e3064f63c3013ea7165b322f42a1f5aac802061feacc049a07e21/utils_tddschn-1.0.3.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [stmapy]: Downloading https://files.pythonhosted.org/packages/6a/c2/3250e195924881327a0d2794aa9cbbb9c528cb066f78e90aabe1cb454cdc/stmapy-0.4.3.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/cc/62/07e7fb42d7d9a09c600a97a0fa08b7a188e7a5c66fb39d887bcd6d01eb7a/generic-path-0.4.1.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.5.3] Old Version: [2023.5.11]
+[2023-05-11 06:30:19] INFO root fetch - processPackages [accel]: Downloading https://files.pythonhosted.org/packages/65/65/eb7aa4f6ae05e78fd870cffbb9b5bcf6f715ec7023596f7d13a542474a76/accel-0.2.2-py3-none-any.whl
+[2023-05-11 06:30:19] INFO root fetch - processPackages [utils-tddschn]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [utils-tddschn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_tddschn-1.0.2.tar.gz tmp/utils_tddschn-1.0.3.tar.gz --markdown 20230511/u/utils-tddschn/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [terrainman]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [terrainman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrainman-0.0.19.tar.gz tmp/terrainman-0.0.9.tar.gz --markdown 20230511/t/terrainman/0.0.19-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.4.tar.gz tmp/generic-path-0.4.1.tar.gz --markdown 20230511/g/generic-path/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [stmapy]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [stmapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stmapy-0.4.2.tar.gz tmp/stmapy-0.4.3.tar.gz --markdown 20230511/s/stmapy/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/33/61/8e2268e0d436b19663e9af111529951932609c2bfdc5b76affb85ee065b4/cveutils-0.2.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/94/20/4c91f30c9601adb646c6e11cc8081d2f8b4551834ea29daaf7b279bb27ec/starcatalogquery-0.1.1-py3-none-any.whl
+[2023-05-11 06:30:19] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/e3/e1/e7d8116a4f074a01a719bd606fdbfb95c20cbab3b10330568c14172a09c3/mercoa-0.0.8.tar.gz
+[2023-05-11 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/67/90/4ba19ba90419a40ea6008bb2cac5a1d4b2765221ca4a6dec8b21c4780105/snowflake_connector_python_nightly-2023.5.11-cp311-cp311-macosx_11_0_arm64.whl
+[2023-05-11 06:30:19] INFO root fetch - processPackages [cveutils]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [cveutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cveutils-0.1.tar.gz tmp/cveutils-0.2.tar.gz --markdown 20230511/c/cveutils/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.0-py3-none-any.whl.zip tmp/starcatalogquery-0.1.1-py3-none-any.whl.zip --markdown 20230511/s/starcatalogquery/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [accel]: Downloading https://files.pythonhosted.org/packages/15/9e/e1b7c80db40284a6965cb5d90bd60c7bf8ec041b3c5371ba666769ba1847/accel-0.2.3-py3-none-any.whl
+[2023-05-11 06:30:19] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.0.7.tar.gz tmp/mercoa-0.0.8.tar.gz --markdown 20230511/m/mercoa/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] INFO root fetch - processPackages [accel]: executing diffoscope
+[2023-05-11 06:30:19] INFO root fetch - processPackages [accel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accel-0.2.2-py3-none-any.whl.zip tmp/accel-0.2.3-py3-none-any.whl.zip --markdown 20230511/a/accel/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-11 06:30:19] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Skipping package: exceeds size limit 15409458>=10485760
+[2023-05-11 06:30:19] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly] error
+[2023-05-11 06:30:20] INFO root fetch - main [MainThread]: End processing [terrainman]: success
+[2023-05-11 06:30:20] INFO root fetch - main [MainThread]: End processing [utils-tddschn]: success
+[2023-05-11 06:30:20] INFO root fetch - main [MainThread]: End processing [stmapy]: success
+[2023-05-11 06:30:20] INFO root fetch - main [MainThread]: End processing [cveutils]: success
+[2023-05-11 06:30:20] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-05-11 06:30:21] INFO root fetch - main [MainThread]: End processing [accel]: success
+[2023-05-11 06:30:21] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-05-11 06:30:24] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-05-11 06:30:24] INFO root fetch - main [MainThread]: Store serial: [18058165]
