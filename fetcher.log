@@ -9782,3 +9782,65 @@ EOFError: EOF read where object expected
 [2023-05-11 07:35:50] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
 [2023-05-11 07:35:50] INFO root fetch - main [MainThread]: End processing [pyobfuse]: success
 [2023-05-11 07:35:50] INFO root fetch - main [MainThread]: Store serial: [18058555]
+[2023-05-11 07:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058555]
+[2023-05-11 07:40:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irails
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armonik
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pravega
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: popv
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: attune-project-api
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matfree
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rum-with-telegram
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotmk
+[2023-05-11 07:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cliexercises
+[2023-05-11 07:40:59] INFO root fetch - processPackages [popv]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [pravega]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [attune-project-api]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev334] Old Version: [3.8.2.dev333]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [irails]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [matfree]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 07:40:59] INFO root fetch - processPackages [robotmk]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-05-11 07:41:00] INFO root fetch - processPackages [cliexercises]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-11 07:41:00] INFO root fetch - processPackages [pravega]: Downloading https://files.pythonhosted.org/packages/61/cf/43cbd6e9b839751d32121c2f33ce656f1cea42bc9eaa7b30df5e76f20574/pravega-0.3.3-cp39-none-win_amd64.whl
+[2023-05-11 07:41:00] INFO root fetch - processPackages [rum-with-telegram]: Downloading https://files.pythonhosted.org/packages/1e/3b/4306d55ee841987c108248e2660a6b93d73df906b56c2c514544398e6aa5/rum_with_telegram-0.9.8.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/17/77/9541ccba1920fb97a945648f51cd33ab8e1f3689d7d4c6be8eb2ef47aeb7/armonik-3.8.2.dev334.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/d7/f8/ced67fc9acf12de675f2d634457c7373e34106fd88baa6288503685dd4d6/attune-project-api-0.9.8.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [popv]: Downloading https://files.pythonhosted.org/packages/d6/a6/b9b5710eb71e3e8c173128ddb7215e4e3905990ae25efb4b8ada05e05bcf/popv-0.2.1.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [robotmk]: Downloading https://files.pythonhosted.org/packages/8f/1c/cdea60a453bea224297279e2ae384c6f6907a955956b2e478c0d6d14cad6/robotmk-0.0.56.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.7.tar.gz tmp/rum_with_telegram-0.9.8.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [cliexercises]: Downloading https://files.pythonhosted.org/packages/ee/95/617363f8ce74213f1fd2197e8fdc5f416b1cad57e9505b295ea3902f949c/cliexercises-1.1.2.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/c1/f3/2748ddd9d98d95649d208a40e92add2c9a7fbae7d84b8443bb539dc6fb13/irails-1.2.7.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [matfree]: Downloading https://files.pythonhosted.org/packages/9b/69/f1a418c875f3a4ccb896c29dd685c6fac2138ee8a366f7ac5b9fdd2a49a2/matfree-0.0.6.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev333.tar.gz tmp/armonik-3.8.2.dev334.tar.gz --markdown 20230511/a/armonik/3.8.2.dev333-3.8.2.dev334/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [popv]: Downloading https://files.pythonhosted.org/packages/90/87/42a5f2f02ab36903f6e12cd5d73964d1adc0f15cb6a254362a62fe1adbe6/popv-0.2.2.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [matfree]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [matfree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matfree-0.0.5.tar.gz tmp/matfree-0.0.6.tar.gz --markdown 20230511/m/matfree/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [attune-project-api]: Downloading https://files.pythonhosted.org/packages/c7/16/d44eb9ceaa1f24e93d7e0ef5a7cc8f16ca2354efe09e1f3d05025fa94147/attune-project-api-0.9.9.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [popv]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [popv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popv-0.2.1.tar.gz tmp/popv-0.2.2.tar.gz --markdown 20230511/p/popv/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.2.6.tar.gz tmp/irails-1.2.7.tar.gz --markdown 20230511/i/irails/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [cliexercises]: Downloading https://files.pythonhosted.org/packages/69/1d/2bbff4a67e867648028170ea4c454f9ed6f660e716070cbca29efb52492c/cliexercises-1.2.0.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [attune-project-api]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [attune-project-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/attune-project-api-0.9.8.tar.gz tmp/attune-project-api-0.9.9.tar.gz --markdown 20230511/a/attune-project-api/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [robotmk]: Downloading https://files.pythonhosted.org/packages/76/d3/60ea98d5b7e273819f5cfa892923a47e30d06d8b8d9293417d8d650de8f4/robotmk-0.0.57.tar.gz
+[2023-05-11 07:41:00] INFO root fetch - processPackages [cliexercises]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [cliexercises]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliexercises-1.1.2.tar.gz tmp/cliexercises-1.2.0.tar.gz --markdown 20230511/c/cliexercises/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-11 07:41:00] INFO root fetch - processPackages [robotmk]: executing diffoscope
+[2023-05-11 07:41:00] INFO root fetch - processPackages [robotmk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotmk-0.0.56.tar.gz tmp/robotmk-0.0.57.tar.gz --markdown 20230511/r/robotmk/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-05-11 07:41:01] INFO root fetch - processPackages [pravega]: Downloading https://files.pythonhosted.org/packages/7d/4e/32c6a6196d7d0bf7d052295c78aab5f027b35c2ce10cbd40cbaf38290346/pravega-0.3.4-cp39-cp39-manylinux_2_35_x86_64.whl
+[2023-05-11 07:41:01] INFO root fetch - processPackages [pravega]: executing diffoscope
+[2023-05-11 07:41:01] INFO root fetch - processPackages [pravega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pravega-0.3.3-cp39-none-win_amd64.whl.zip tmp/pravega-0.3.4-cp39-cp39-manylinux_2_35_x86_64.whl.zip --markdown 20230511/p/pravega/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-11 07:41:01] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 07:41:02] INFO root fetch - main [MainThread]: End processing [popv]: success
+[2023-05-11 07:41:02] INFO root fetch - main [MainThread]: End processing [matfree]: success
+[2023-05-11 07:41:02] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-05-11 07:41:02] INFO root fetch - main [MainThread]: End processing [attune-project-api]: success
+[2023-05-11 07:41:02] INFO root fetch - main [MainThread]: End processing [cliexercises]: success
+[2023-05-11 07:41:02] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-11 07:41:03] INFO root fetch - main [MainThread]: End processing [robotmk]: success
+[2023-05-11 07:41:03] INFO root fetch - main [MainThread]: End processing [pravega]: success
+[2023-05-11 07:41:03] INFO root fetch - main [MainThread]: Store serial: [18058582]
