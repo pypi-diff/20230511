@@ -18261,3 +18261,139 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:11:31] INFO root fetch - main [MainThread]: End processing [deltafi]: success
 [2023-05-11 14:11:44] INFO root fetch - main [MainThread]: End processing [gluonts]: success
 [2023-05-11 14:11:44] INFO root fetch - main [MainThread]: Store serial: [18063213]
+[2023-05-11 14:16:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063213]
+[2023-05-11 14:16:53] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-impact
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: issue-db-api
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitfount
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pspy
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyreduce-astro
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: based-metric
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pineboo
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: me-setups
+[2023-05-11 14:16:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MDbrew
+[2023-05-11 14:16:53] INFO root fetch - processPackages [issue-db-api]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [tap-impact]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [based-metric]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: New version: [20230511.12.11.471734] Old Version: [20230511.10.59.148299]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [me-setups]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [MDbrew]: New version: [2.3.3] Old Version: [2.3.2]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [bitfount]: New version: [0.5.9] Old Version: [0.5.71]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [pineboo]: New version: [1.0.5] Old Version: [1.0.4.6]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [pyreduce-astro]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [pspy]: New version: [1.6.1] Old Version: [1.6]
+[2023-05-11 14:16:53] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Downloading https://files.pythonhosted.org/packages/0a/06/76d5dba2d0f3a74ea39da17c2c7217c4ac2546095b4e752d269578699f15/certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize-20230511.10.59.148299.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pspy]: Downloading https://files.pythonhosted.org/packages/b5/0e/032ed782518d6f9f16973dd5de5337be61853fd9d5bed411d781b49ad399/pspy-1.6.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [issue-db-api]: Downloading https://files.pythonhosted.org/packages/01/d9/c88b793bf8f1ab333a51c362489e3c4c6eef2ba97bb1d79e3d0c44a9ecdd/issue_db_api-0.8.1.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [based-metric]: Downloading https://files.pythonhosted.org/packages/40/2a/9713ae0e71b3e57e27a4a01302b7cdc8f5af08492d82d58e5e5a939cedb5/based-metric-0.0.1.tar.gz
+[2023-05-11 14:16:54] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Skipping package: exceeds size limit 39424503>=10485760
+[2023-05-11 14:16:54] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize]: Start processing: express-pascal-voc-tools
+[2023-05-11 14:16:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACSummaryAndAnnotationSerialize] error
+[2023-05-11 14:16:54] INFO root fetch - processPackages [tap-impact]: Downloading https://files.pythonhosted.org/packages/66/8f/52e68f7dbb02b2ffdf339f0bc1b5804e2c9508fd3d91d1c2d0c9fb280098/tap-impact-1.0.0.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/e6/bf/029f918c21c917bca8957ad235627bfcfb76451b8ada284df447f7b52a64/bitfount-0.5.71.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.6.1] Old Version: [0.5.1]
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pyreduce-astro]: Downloading https://files.pythonhosted.org/packages/ba/96/d244eb79412aef9cd3910d4f8446ce0a688d91941bc89ccfe0fd4bab3414/pyreduce-astro-0.5.8.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [MDbrew]: Downloading https://files.pythonhosted.org/packages/95/dd/d79729071196471238b092903b11ebea9ecf56f8fc2bc1294be75b3e60ef/MDbrew-2.3.3.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [issue-db-api]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [issue-db-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/issue_db_api-0.8.0.tar.gz tmp/issue_db_api-0.8.1.tar.gz --markdown 20230511/i/issue-db-api/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [me-setups]: Downloading https://files.pythonhosted.org/packages/3e/61/5021910e971aa405b04ab18bdebf5cf02588379b27f19d50984500b3fc2d/me_setups-1.7.0.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.6.tar.gz tmp/pineboo-1.0.5.tar.gz --markdown 20230511/p/pineboo/1.0.4.6-1.0.5/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/fd/af/291b01ee2d4834abbf93ba1fddea57f91ea7363ebaee2cb3ae96b9fca94d/express-pascal-voc-tools-0.6.1.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [tap-impact]: Downloading https://files.pythonhosted.org/packages/dd/52/d16dd01952c77fd6b0abbf1041daaa17ee1ca8467b0d52128feb0e538994/tap-impact-1.0.1.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [MDbrew]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [MDbrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MDbrew-2.3.2.tar.gz tmp/MDbrew-2.3.3.tar.gz --markdown 20230511/M/MDbrew/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [me-setups]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [me-setups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/me_setups-1.6.9.tar.gz tmp/me_setups-1.7.0.tar.gz --markdown 20230511/m/me-setups/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [based-metric]: Downloading https://files.pythonhosted.org/packages/1b/da/3d3092ff8534f4aa8e660cadbaf69f4c0af86d9c980f14bd47618dfdfa74/based-metric-0.0.2.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [tap-impact]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [tap-impact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-impact-1.0.0.tar.gz tmp/tap-impact-1.0.1.tar.gz --markdown 20230511/t/tap-impact/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/6f/29/8f4206e615fc20a41a45ee646f360c3c10572297cf6c08f1b52fcab30b97/bitfount-0.5.9.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.5.1.tar.gz tmp/express-pascal-voc-tools-0.6.1.tar.gz --markdown 20230511/e/express-pascal-voc-tools/0.5.1-0.6.1/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.5.71.tar.gz tmp/bitfount-0.5.9.tar.gz --markdown 20230511/b/bitfount/0.5.71-0.5.9/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pyreduce-astro]: Downloading https://files.pythonhosted.org/packages/ca/69/0fcf6980b6cf190803fd285b4ab419fdac174c847f2241833676f113caa4/pyreduce-astro-0.5.9.tar.gz
+[2023-05-11 14:16:54] INFO root fetch - processPackages [based-metric]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [based-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/based-metric-0.0.1.tar.gz tmp/based-metric-0.0.2.tar.gz --markdown 20230511/b/based-metric/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pyreduce-astro]: executing diffoscope
+[2023-05-11 14:16:54] INFO root fetch - processPackages [pyreduce-astro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreduce-astro-0.5.8.tar.gz tmp/pyreduce-astro-0.5.9.tar.gz --markdown 20230511/p/pyreduce-astro/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-11 14:16:55] INFO root fetch - processPackages [pspy]: Downloading https://files.pythonhosted.org/packages/9b/95/ce5d67665234726c2f38304562c5f0b48d477074f381b5c71ed69c3a1314/pspy-1.6.1.tar.gz
+[2023-05-11 14:16:55] INFO root fetch - processPackages [pspy]: executing diffoscope
+[2023-05-11 14:16:55] INFO root fetch - processPackages [pspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pspy-1.6.tar.gz tmp/pspy-1.6.1.tar.gz --markdown 20230511/p/pspy/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-05-11 14:16:56] INFO root fetch - processPackages [me-setups]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [me-setups]: success
+[2023-05-11 14:16:56] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 14:16:56] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-11 14:16:56] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 14:16:56] INFO root fetch - processPackages [issue-db-api]: Start processing: cagpaint
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [issue-db-api]: success
+[2023-05-11 14:16:56] INFO root fetch - processPackages [cagpaint]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-11 14:16:56] INFO root fetch - processPackages [MDbrew]: Start processing: TheengsDecoder
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [MDbrew]: success
+[2023-05-11 14:16:56] INFO root fetch - processPackages [TheengsDecoder]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-05-11 14:16:56] INFO root fetch - processPackages [express-pascal-voc-tools]: Start processing: OpenGeode-IO
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-11 14:16:56] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-05-11 14:16:56] INFO root fetch - processPackages [tap-impact]: Start processing: pybpg400-tspspi
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [tap-impact]: success
+[2023-05-11 14:16:56] WARNING root fetch - processPackages [pybpg400-tspspi]: Skipping, unable to determine old version
+[2023-05-11 14:16:56] INFO root fetch - processPackages [pybpg400-tspspi]: Start processing: udata
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [pybpg400-tspspi] error
+[2023-05-11 14:16:56] INFO root fetch - processPackages [TheengsDecoder]: Downloading https://files.pythonhosted.org/packages/2d/64/aa37b62a6a0f5cb764a099502b53fc5a6a6fb10edd00d2a3ba026d86b635/TheengsDecoder-1.4.0.tar.gz
+[2023-05-11 14:16:56] INFO root fetch - processPackages [cagpaint]: Downloading https://files.pythonhosted.org/packages/75/69/acedb2f7f56c7d3cc12c1c43458f425dd5c3129cae57fe2024da8ac71884/cagpaint-0.2.0.tar.gz
+[2023-05-11 14:16:56] INFO root fetch - processPackages [based-metric]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-11 14:16:56] INFO root fetch - main [MainThread]: End processing [based-metric]: success
+[2023-05-11 14:16:56] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/d4/a7/134bf4fcd47989bf0cabb0b91b20d9995b354c416075cad2bd776b94c096/OpenGeode_IO-6.0.4-cp39-cp39-win_amd64.whl
+[2023-05-11 14:16:56] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230510.18.4.507237] Old Version: [20230510.16.29.808633]
+[2023-05-11 14:16:57] INFO root fetch - processPackages [udata]: New version: [6.1.4.dev25429] Old Version: [6.1.4.dev25411]
+[2023-05-11 14:16:57] INFO root fetch - processPackages [cagpaint]: executing diffoscope
+[2023-05-11 14:16:57] INFO root fetch - processPackages [cagpaint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cagpaint-0.1.9.tar.gz tmp/cagpaint-0.2.0.tar.gz --markdown 20230511/c/cagpaint/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 14:16:57] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/ff/ca/216dfb44f32d927eaf32af595ca16c09b47193d2fd54a545d5304bab3012/certora-cli-alpha-kit-annotation-20230510.16.29.808633.tar.gz
+[2023-05-11 14:16:57] INFO root fetch - processPackages [TheengsDecoder]: Downloading https://files.pythonhosted.org/packages/51/0b/10e4adb05ff98e56a85c996c28d3b586d07d19931466b52ec7563b7454bc/TheengsDecoder-1.4.2.tar.gz
+[2023-05-11 14:16:57] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 39225147>=10485760
+[2023-05-11 14:16:57] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Start processing: oarepo-ui
+[2023-05-11 14:16:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-11 14:16:57] INFO root fetch - processPackages [oarepo-ui]: New version: [5.0.9] Old Version: [5.0.8]
+[2023-05-11 14:16:57] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/d1/f9/e8cdfe1e469db4c86ba383578bdc45c594e16ace1e4fdd48d24cf922ed45/udata-6.1.4.dev25411-py2.py3-none-any.whl
+[2023-05-11 14:16:57] INFO root fetch - processPackages [TheengsDecoder]: executing diffoscope
+[2023-05-11 14:16:57] INFO root fetch - processPackages [TheengsDecoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheengsDecoder-1.4.0.tar.gz tmp/TheengsDecoder-1.4.2.tar.gz --markdown 20230511/T/TheengsDecoder/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-05-11 14:16:57] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19606435>=10485760
+[2023-05-11 14:16:57] INFO root fetch - processPackages [udata]: Start processing: trademasterntu
+[2023-05-11 14:16:57] INFO root fetch - main [MainThread]: End processing [udata] error
+[2023-05-11 14:16:57] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/4f/d5/2c1e3e0526350aeb6eb17103d581568f25c964053a1512a117e9e63a10de/OpenGeode_IO-6.0.5-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-11 14:16:57] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2023-05-11 14:16:57] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.0.8.tar.gz tmp/oarepo-ui-5.0.9.tar.gz --markdown 20230511/o/oarepo-ui/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2023-05-11 14:16:57] WARNING root fetch - processPackages [trademasterntu]: Skipping, unable to determine old version
+[2023-05-11 14:16:57] INFO root fetch - processPackages [trademasterntu]: Start processing: smartjs
+[2023-05-11 14:16:57] INFO root fetch - main [MainThread]: End processing [trademasterntu] error
+[2023-05-11 14:16:57] INFO root fetch - processPackages [smartjs]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 14:16:57] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/0d/b8/b19965f6977284461e7b18ea3f2c82828f8f839a498ce14b393cfdeae484/smartjs-0.1.3.tar.gz
+[2023-05-11 14:16:57] INFO root fetch - processPackages [pyreduce-astro]: Start processing: odh-core
+[2023-05-11 14:16:57] INFO root fetch - main [MainThread]: End processing [pyreduce-astro]: success
+[2023-05-11 14:16:57] INFO root fetch - processPackages [smartjs]: executing diffoscope
+[2023-05-11 14:16:57] INFO root fetch - processPackages [smartjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartjs-0.1.2.tar.gz tmp/smartjs-0.1.3.tar.gz --markdown 20230511/s/smartjs/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 14:16:57] INFO root fetch - processPackages [odh-core]: New version: [0.1.9] Old Version: [0.1.12]
+[2023-05-11 14:16:57] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-05-11 14:16:57] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.4-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.5-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230511/O/OpenGeode-IO/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-05-11 14:16:57] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/a6/cd/dc0a0ab0666c8de7ff33776f1d88b9a23d5a907ed72ca26c1afbb3ea4ead/odh_core-0.1.12-py3-none-any.whl
+[2023-05-11 14:16:58] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: rum-with-telegram
+[2023-05-11 14:16:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-11 14:16:58] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 14:16:58] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 14:16:58] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.8.tar.gz tmp/rum_with_telegram-0.9.9.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 14:16:58] INFO root fetch - processPackages [odh-core]: Downloading https://files.pythonhosted.org/packages/e2/59/84e2244bc7adbdda6de71553b6c508d191ca90e12c18b6a253e6672be9c0/odh_core-0.1.9.tar.gz
+[2023-05-11 14:16:58] INFO root fetch - processPackages [odh-core]: executing diffoscope
+[2023-05-11 14:16:58] INFO root fetch - processPackages [odh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odh_core-0.1.12-py3-none-any.whl.zip tmp/odh_core-0.1.9.tar.gz --markdown 20230511/o/odh-core/0.1.12-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 14:16:58] INFO root fetch - main [MainThread]: End processing [smartjs]: success
+[2023-05-11 14:16:59] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-05-11 14:16:59] INFO root fetch - main [MainThread]: End processing [cagpaint]: success
+[2023-05-11 14:16:59] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2023-05-11 14:16:59] INFO root fetch - main [MainThread]: End processing [odh-core]: success
+[2023-05-11 14:17:00] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 14:17:00] INFO root fetch - main [MainThread]: End processing [TheengsDecoder]: success
+[2023-05-11 14:17:00] INFO root fetch - main [MainThread]: End processing [pspy]: success
+[2023-05-11 14:17:01] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2023-05-11 14:17:05] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-11 14:17:05] INFO root fetch - main [MainThread]: Store serial: [18063292]
