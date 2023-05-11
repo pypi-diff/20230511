@@ -8964,3 +8964,23 @@ EOFError: EOF read where object expected
 [2023-05-11 06:14:45] INFO root fetch - main [MainThread]: End processing [symlib]: success
 [2023-05-11 06:14:46] INFO root fetch - main [MainThread]: End processing [sanpy-ephys]: success
 [2023-05-11 06:14:46] INFO root fetch - main [MainThread]: Store serial: [18058092]
+[2023-05-11 06:19:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058092]
+[2023-05-11 06:19:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-05-11 06:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cveutils
+[2023-05-11 06:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utils-tddschn
+[2023-05-11 06:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-fieldservice-route-stock
+[2023-05-11 06:19:55] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-stock]: New version: [12.0.1.2.1.99.dev8] Old Version: [12.0.1.2.1.99.dev7]
+[2023-05-11 06:19:55] WARNING root fetch - processPackages [cveutils]: Skipping, unable to determine old version
+[2023-05-11 06:19:55] INFO root fetch - main [MainThread]: End processing [cveutils] error
+[2023-05-11 06:19:55] INFO root fetch - processPackages [utils-tddschn]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 06:19:56] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-stock]: Downloading https://files.pythonhosted.org/packages/e5/01/acafd5cd763d0908d83f967a7155e96c04d945fc5837e873886fa3ab81aa/odoo12_addon_fieldservice_route_stock-12.0.1.2.1.99.dev7-py3-none-any.whl
+[2023-05-11 06:19:56] INFO root fetch - processPackages [utils-tddschn]: Downloading https://files.pythonhosted.org/packages/dd/bb/7323df32939c3f5ef2cdb31372e76bf2816e2b9925009007fe36bcd4d8b9/utils-tddschn-1.0.1.tar.gz
+[2023-05-11 06:19:56] INFO root fetch - processPackages [utils-tddschn]: Downloading https://files.pythonhosted.org/packages/36/d4/d5f18ea5b232244799c472e06249bad5f6af17ea55457e7914ed7c3f5b3b/utils_tddschn-1.0.2.tar.gz
+[2023-05-11 06:19:56] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-stock]: Downloading https://files.pythonhosted.org/packages/a0/cb/d83c36aa17b0e5681e737387a95f3567f156d050a47573b079ae0287cdb8/odoo12_addon_fieldservice_route_stock-12.0.1.2.1.99.dev8-py3-none-any.whl
+[2023-05-11 06:19:56] INFO root fetch - processPackages [utils-tddschn]: executing diffoscope
+[2023-05-11 06:19:56] INFO root fetch - processPackages [utils-tddschn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils-tddschn-1.0.1.tar.gz tmp/utils_tddschn-1.0.2.tar.gz --markdown 20230511/u/utils-tddschn/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 06:19:56] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-stock]: executing diffoscope
+[2023-05-11 06:19:56] INFO root fetch - processPackages [odoo12-addon-fieldservice-route-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_route_stock-12.0.1.2.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_route_stock-12.0.1.2.1.99.dev8-py3-none-any.whl.zip --markdown 20230511/o/odoo12-addon-fieldservice-route-stock/12.0.1.2.1.99.dev7-12.0.1.2.1.99.dev8/diff.md --exclude *.pyd
+[2023-05-11 06:19:57] INFO root fetch - main [MainThread]: End processing [utils-tddschn]: success
+[2023-05-11 06:19:57] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-route-stock]: success
+[2023-05-11 06:19:57] INFO root fetch - main [MainThread]: Store serial: [18058106]
