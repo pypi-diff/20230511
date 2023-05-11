@@ -22816,3 +22816,81 @@ EOFError: EOF read where object expected
 [2023-05-11 17:59:18] INFO root fetch - main [MainThread]: End processing [langchain]: success
 [2023-05-11 17:59:18] INFO root fetch - main [MainThread]: End processing [ob-metaflow]: success
 [2023-05-11 17:59:18] INFO root fetch - main [MainThread]: Store serial: [18065936]
+[2023-05-11 18:04:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18065936]
+[2023-05-11 18:04:28] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-admin-kubi
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stability-sdk
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-sale-stock-line-customer-ref
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postgres-tq
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orbit-database-shell
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usaddress-scourgify
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eulertools
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: looker-sdk
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: celerity
+[2023-05-11 18:04:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelspec
+[2023-05-11 18:04:28] INFO root fetch - processPackages [orbit-database-shell]: New version: [0.99.93] Old Version: [0.99.92]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [postgres-tq]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [looker-sdk]: New version: [7.20.0] Old Version: [23.8.0]
+[2023-05-11 18:04:28] WARNING root fetch - processPackages [django-admin-kubi]: Skipping, unable to determine old version
+[2023-05-11 18:04:28] WARNING root fetch - processPackages [odoo14-addon-sale-stock-line-customer-ref]: Skipping, unable to determine old version
+[2023-05-11 18:04:28] INFO root fetch - processPackages [django-admin-kubi]: Start processing: contrast-agent
+[2023-05-11 18:04:28] INFO root fetch - main [MainThread]: End processing [django-admin-kubi] error
+[2023-05-11 18:04:28] INFO root fetch - processPackages [odoo14-addon-sale-stock-line-customer-ref]: Start processing: databricks-sql-cli
+[2023-05-11 18:04:28] INFO root fetch - processPackages [usaddress-scourgify]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [celerity]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 18:04:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-stock-line-customer-ref] error
+[2023-05-11 18:04:28] INFO root fetch - processPackages [stability-sdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [modelspec]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [eulertools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [contrast-agent]: New version: [5.9.1] Old Version: [5.9.0]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [orbit-database-shell]: Downloading https://files.pythonhosted.org/packages/69/db/daa37cc6530a38c346fb3f3e01a099c56ba5342aebe274ee1b9bdd20c561/orbit_database_shell-0.99.92.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [looker-sdk]: Downloading https://files.pythonhosted.org/packages/ce/e4/2a1aa9f98f084f9813092f14c2c2fd310b73afcfe885bd69879038afc11e/looker_sdk-23.8.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [databricks-sql-cli]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-11 18:04:28] INFO root fetch - processPackages [stability-sdk]: Downloading https://files.pythonhosted.org/packages/19/fd/8663eba0e14039966a9612dec5b96c70af70ba67b8a538894af774c484c2/stability-sdk-0.7.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [modelspec]: Downloading https://files.pythonhosted.org/packages/1a/56/2188607c14410b4084243c16366866c37fd370af0b7b0f7a58322e176bb5/modelspec-0.2.7.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [usaddress-scourgify]: Downloading https://files.pythonhosted.org/packages/f1/af/24ee6b8fd2a61323a85b1dc3f03f63d2546d5737a9089530c9c54fb5f8d9/usaddress-scourgify-0.4.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/e3/6d/f1b5a4c2de384c84deb69164ddf0d0a3696c00aedb2f0fb78b44c1096ce4/eulertools-0.2.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [postgres-tq]: Downloading https://files.pythonhosted.org/packages/5f/b3/59bceafb18be66c89a5b50064f4eb7ab2fb4cf49a8e4f5eab72f93b5b370/postgres-tq-0.0.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/fa/4f/561dff848ab959988cacc16c02374f870dfce30cde6aa7b8bb1e9d9a7b11/contrast-agent-5.9.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [databricks-sql-cli]: Downloading https://files.pythonhosted.org/packages/a4/ca/aa396b8b34113c545e0a85a661f8e4988d9819d6c6b5dda0672323d0dfc2/databricks_sql_cli-0.3.1.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/79/4c/fff46be01acbf0b37b14747d283f3f72b17e6e82da671fe50d55af13bc17/eulertools-0.3.0.tar.gz
+[2023-05-11 18:04:28] INFO root fetch - processPackages [celerity]: executing diffoscope
+[2023-05-11 18:04:28] INFO root fetch - processPackages [celerity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celerity-0.8.0.tar.gz tmp/celerity-0.9.0.tar.gz --markdown 20230511/c/celerity/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [postgres-tq]: Downloading https://files.pythonhosted.org/packages/7b/61/f48d264bfe470922e0899dcee88683bef5e0abd63ec4940e99efc0cd414b/postgres-tq-0.0.1.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [stability-sdk]: Downloading https://files.pythonhosted.org/packages/6a/d7/c1cc98501e87a3c3cfd4c4adf2ed8d8de807258118abf5ea5de8990a9e91/stability-sdk-0.8.0.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [looker-sdk]: Downloading https://files.pythonhosted.org/packages/6f/7b/238e67b445e366c606f1ae4bd628b427293ee69e827cbfbb4c92acd59dff/looker_sdk-7.20.0.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [usaddress-scourgify]: Downloading https://files.pythonhosted.org/packages/bf/54/4757b6e76e43828e9b86c49e0d86c94d89e37f21efedcdf08c960dd4f2d2/usaddress-scourgify-0.5.0.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [modelspec]: Downloading https://files.pythonhosted.org/packages/e9/07/9f7121ad70e78a9693d2ed6e488a1cd50bef762c2a2d2ea1279d32c873e8/modelspec-0.3.0.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [orbit-database-shell]: Downloading https://files.pythonhosted.org/packages/e7/8a/f6cd9f30cc9f57875f5e19fddafa0fc400c33acf048d6525ed48d475d59e/orbit_database_shell-0.99.93.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [postgres-tq]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [postgres-tq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postgres-tq-0.0.0.tar.gz tmp/postgres-tq-0.0.1.tar.gz --markdown 20230511/p/postgres-tq/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [databricks-sql-cli]: Downloading https://files.pythonhosted.org/packages/75/43/7a1554057ad0831afda830e959d1d2e3c9ee5d7e35ae093577aaff1ad4d4/databricks_sql_cli-0.3.2.tar.gz
+[2023-05-11 18:04:29] INFO root fetch - processPackages [usaddress-scourgify]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [usaddress-scourgify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usaddress-scourgify-0.4.0.tar.gz tmp/usaddress-scourgify-0.5.0.tar.gz --markdown 20230511/u/usaddress-scourgify/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [stability-sdk]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [stability-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stability-sdk-0.7.0.tar.gz tmp/stability-sdk-0.8.0.tar.gz --markdown 20230511/s/stability-sdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [looker-sdk]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [modelspec]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [looker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looker_sdk-23.8.0.tar.gz tmp/looker_sdk-7.20.0.tar.gz --markdown 20230511/l/looker-sdk/23.8.0-7.20.0/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [modelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelspec-0.2.7.tar.gz tmp/modelspec-0.3.0.tar.gz --markdown 20230511/m/modelspec/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [orbit-database-shell]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [orbit-database-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_database_shell-0.99.92.tar.gz tmp/orbit_database_shell-0.99.93.tar.gz --markdown 20230511/o/orbit-database-shell/0.99.92-0.99.93/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-0.2.0.tar.gz tmp/eulertools-0.3.0.tar.gz --markdown 20230511/e/eulertools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] INFO root fetch - processPackages [databricks-sql-cli]: executing diffoscope
+[2023-05-11 18:04:29] INFO root fetch - processPackages [databricks-sql-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_sql_cli-0.3.1.tar.gz tmp/databricks_sql_cli-0.3.2.tar.gz --markdown 20230511/d/databricks-sql-cli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-11 18:04:29] WARNING root fetch - processPackages [contrast-agent]: Skipping package: exceeds size limit 10668876>=10485760
+[2023-05-11 18:04:29] INFO root fetch - processPackages [contrast-agent]: Start processing: Pyxela
+[2023-05-11 18:04:29] INFO root fetch - main [MainThread]: End processing [contrast-agent] error
+[2023-05-11 18:04:29] WARNING root fetch - processPackages [Pyxela]: Skipping, unable to determine old version
+[2023-05-11 18:04:29] INFO root fetch - main [MainThread]: End processing [Pyxela] error
+[2023-05-11 18:04:30] INFO root fetch - main [MainThread]: End processing [celerity]: success
+[2023-05-11 18:04:30] INFO root fetch - main [MainThread]: End processing [postgres-tq]: success
+[2023-05-11 18:04:30] INFO root fetch - main [MainThread]: End processing [stability-sdk]: success
+[2023-05-11 18:04:31] INFO root fetch - main [MainThread]: End processing [orbit-database-shell]: success
+[2023-05-11 18:04:31] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2023-05-11 18:04:31] INFO root fetch - main [MainThread]: End processing [databricks-sql-cli]: success
+[2023-05-11 18:04:31] INFO root fetch - main [MainThread]: End processing [usaddress-scourgify]: success
+[2023-05-11 18:04:31] INFO root fetch - main [MainThread]: End processing [modelspec]: success
+[2023-05-11 18:04:34] INFO root fetch - main [MainThread]: End processing [looker-sdk]: success
+[2023-05-11 18:04:34] INFO root fetch - main [MainThread]: Store serial: [18065980]
