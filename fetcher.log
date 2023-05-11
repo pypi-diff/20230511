@@ -10809,3 +10809,68 @@ EOFError: EOF read where object expected
 [2023-05-11 08:57:15] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
 [2023-05-11 08:57:19] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
 [2023-05-11 08:57:19] INFO root fetch - main [MainThread]: Store serial: [18059206]
+[2023-05-11 09:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059206]
+[2023-05-11 09:02:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-postgresql
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-yoav-static-arrays-splitting
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-pagerduty
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-rabbitmq
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcontext
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marionette-driver
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: express-pascal-voc-tools
+[2023-05-11 09:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Streamlit-Fullcalendar-Component
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-postgresql]: New version: [3.9.0a1683786533] Old Version: [3.9.0a1683612344]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-rabbitmq]: New version: [3.4.0a1683786543] Old Version: [3.4.0a1683612450]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: New version: [20230511.6.57.364457] Old Version: [20230510.17.37.208772]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.429.0]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [3.9.0a1678824312] Old Version: [3.9.0a1678231019]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [marionette-driver]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [qcontext]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-11 09:02:29] WARNING root fetch - processPackages [Streamlit-Fullcalendar-Component]: Skipping, unable to determine old version
+[2023-05-11 09:02:29] INFO root fetch - processPackages [Streamlit-Fullcalendar-Component]: Start processing: seqio-nightly
+[2023-05-11 09:02:29] INFO root fetch - main [MainThread]: End processing [Streamlit-Fullcalendar-Component] error
+[2023-05-11 09:02:29] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-11 09:02:29] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/00/d7/189434436b4fb05e8f4c4886cc08f9f84e116af7f8e442672e85efe9225c/stigg_api_client-0.429.0.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [qcontext]: Downloading https://files.pythonhosted.org/packages/71/93/baf72a5dfebff16408c324142408d51441769af0b5a67116c1bc7d8e87a1/qcontext-1.0.3.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: Downloading https://files.pythonhosted.org/packages/54/c1/53d2836ffa30a4d9a84c10a7c9490a47e87389265aeea6434d9dcbcacd60/certora-cli-alpha-yoav-static_arrays_splitting-20230510.17.37.208772.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/45/cb/e6ac327e6e620208d4746d55151729fb019a8d0080b5852618e0bc4adc17/express-pascal-voc-tools-0.4.0.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [marionette-driver]: Downloading https://files.pythonhosted.org/packages/36/c8/756075d03e8f8d6e01d191f485c2d120c0cbeef8792db0c9babaa17da3b7/marionette_driver-3.2.0.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230511/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] WARNING root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: Skipping package: exceeds size limit 39216199>=10485760
+[2023-05-11 09:02:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-static-arrays-splitting] error
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-rabbitmq]: Downloading https://files.pythonhosted.org/packages/a5/25/ebc1586149aaf05a999647777f8044ff44d7ce6fcf6cc61b395d3bb22bfa/pulumi_rabbitmq-3.4.0a1683786543.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-postgresql]: Downloading https://files.pythonhosted.org/packages/74/1d/15abb1a9169362b1350168cfcdd80846f055d82ec6bb9093e58451382c04/pulumi_postgresql-3.9.0a1683786533.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-rabbitmq]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_rabbitmq-3.4.0a1683612450.tar.gz tmp/pulumi_rabbitmq-3.4.0a1683786543.tar.gz --markdown 20230511/p/pulumi-rabbitmq/3.4.0a1683612450-3.4.0a1683786543/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-postgresql]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_postgresql-3.9.0a1683612344.tar.gz tmp/pulumi_postgresql-3.9.0a1683786533.tar.gz --markdown 20230511/p/pulumi-postgresql/3.9.0a1683612344-3.9.0a1683786533/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-3.9.0a1678231019.tar.gz tmp/pulumi_pagerduty-3.9.0a1678824312.tar.gz --markdown 20230511/p/pulumi-pagerduty/3.9.0a1678231019-3.9.0a1678824312/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230511/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.429.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230511/s/stigg-api-client/0.429.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [express-pascal-voc-tools]: Downloading https://files.pythonhosted.org/packages/cd/f9/74e4de35ada4d9b16e6a40f19d3bec9c0b9666a94bc5847df835cef1f0bb/express-pascal-voc-tools-0.5.0.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [marionette-driver]: Downloading https://files.pythonhosted.org/packages/e1/07/62f588e34f5fd59e941b80f14933c4c8ea75656e453487c8c1caf4f45473/marionette_driver-3.3.0.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [qcontext]: Downloading https://files.pythonhosted.org/packages/7c/c3/3b9e23e4d37f5e17d99cfd5a409f7c8012ad97c1add775581597a2f69de7/qcontext-1.0.4.tar.gz
+[2023-05-11 09:02:29] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.4.0.tar.gz tmp/express-pascal-voc-tools-0.5.0.tar.gz --markdown 20230511/e/express-pascal-voc-tools/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [marionette-driver]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [marionette-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marionette_driver-3.2.0.tar.gz tmp/marionette_driver-3.3.0.tar.gz --markdown 20230511/m/marionette-driver/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-05-11 09:02:29] INFO root fetch - processPackages [qcontext]: executing diffoscope
+[2023-05-11 09:02:29] INFO root fetch - processPackages [qcontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcontext-1.0.3.tar.gz tmp/qcontext-1.0.4.tar.gz --markdown 20230511/q/qcontext/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 09:02:31] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-05-11 09:02:31] INFO root fetch - main [MainThread]: End processing [pulumi-rabbitmq]: success
+[2023-05-11 09:02:31] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-11 09:02:31] INFO root fetch - main [MainThread]: End processing [pulumi-postgresql]: success
+[2023-05-11 09:02:31] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-11 09:02:32] INFO root fetch - main [MainThread]: End processing [marionette-driver]: success
+[2023-05-11 09:02:34] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2023-05-11 09:02:34] INFO root fetch - main [MainThread]: End processing [qcontext]: success
+[2023-05-11 09:02:58] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-05-11 09:02:58] INFO root fetch - main [MainThread]: Store serial: [18059243]
