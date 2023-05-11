@@ -15017,3 +15017,141 @@ EOFError: EOF read where object expected
 [2023-05-11 11:53:38] INFO root fetch - main [MainThread]: End processing [eyes-soatra]: success
 [2023-05-11 11:53:43] INFO root fetch - main [MainThread]: End processing [rer.customersatisfaction]: success
 [2023-05-11 11:53:43] INFO root fetch - main [MainThread]: Store serial: [18061446]
+[2023-05-11 11:58:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18061446]
+[2023-05-11 11:58:52] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lsst-ctrl-bps-parsl
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdcalls
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Promium
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps-panda
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-utils
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureenergylabelerlib
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: akerbp.mlops
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: secmarker-py3
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: radonpy-pypi
+[2023-05-11 11:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OctoBot-Trading
+[2023-05-11 11:58:52] INFO root fetch - processPackages [Promium]: New version: [3.3.9] Old Version: [3.3.8]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.1a5] Old Version: [3.1.1a4]
+[2023-05-11 11:58:52] WARNING root fetch - processPackages [secmarker-py3]: Skipping, unable to determine old version
+[2023-05-11 11:58:52] INFO root fetch - processPackages [secmarker-py3]: Start processing: pywry
+[2023-05-11 11:58:52] INFO root fetch - main [MainThread]: End processing [secmarker-py3] error
+[2023-05-11 11:58:52] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [azureenergylabelerlib]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [Promium]: executing diffoscope
+[2023-05-11 11:58:52] WARNING root fetch - processPackages [radonpy-pypi]: Skipping, unable to determine old version
+[2023-05-11 11:58:52] INFO root fetch - processPackages [fdcalls]: New version: [1.3] Old Version: [1.2]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [Promium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Promium-3.3.8.tar.gz tmp/Promium-3.3.9.tar.gz --markdown 20230511/P/Promium/3.3.8-3.3.9/diff.md --exclude *.pyd
+[2023-05-11 11:58:52] INFO root fetch - processPackages [radonpy-pypi]: Start processing: alibabacloud-aligenieip-1-0
+[2023-05-11 11:58:52] INFO root fetch - main [MainThread]: End processing [radonpy-pypi] error
+[2023-05-11 11:58:52] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-11 11:58:52] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.1a4.tar.gz tmp/akerbp.mlops-3.1.1a5.tar.gz --markdown 20230511/a/akerbp.mlops/3.1.1a4-3.1.1a5/diff.md --exclude *.pyd
+[2023-05-11 11:58:52] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-05-11 11:58:52] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [1.0.9] Old Version: [1.0.20]
+[2023-05-11 11:58:53] INFO root fetch - processPackages [pywry]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-05-11 11:58:53] INFO root fetch - processPackages [azureenergylabelerlib]: Downloading https://files.pythonhosted.org/packages/5f/7e/a6b8d78c8d630a6166652b381e4a87f63d7fa84bc13dc41f9b24ca317c0f/azureenergylabelerlib-3.1.1.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [fdcalls]: Downloading https://files.pythonhosted.org/packages/8e/38/0fc43c0fa35611de170e34fea87876e4d5f7c50aeb9631ec0fabe9c74fa4/fdcalls-1.2-py3-none-any.whl
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/a0/22/0b893c9cd95d92d19da99d597013f1dd89c378a4a37bd4122e57406ac7c5/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/a3/31/a027bcaa351782d583019e33b6d7799754921078c269aa835faa3811a7e6/OctoBot-Trading-2.4.1.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/fa/4f/bee3ace0393377f80a7d4259626e346a7fce4b86c42b2724cb0189845c3c/alibabacloud_aligenieip_1_0-1.0.20.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/dc/c5/b5485ec0f333943bd0d73a89d669f645e8e22d83fd90f366a70ea98d7fe9/pywry-0.5.4.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [azureenergylabelerlib]: Downloading https://files.pythonhosted.org/packages/a9/14/2d2d2e81c2d073ca5970cf8338af9209c490d34b5e3b14fe86201e337d85/azureenergylabelerlib-3.2.0.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [fdcalls]: Downloading https://files.pythonhosted.org/packages/5e/22/dfac95fb3113c465092368428b03b24ea18c3fd2e4f23fc13c39798fa12a/fdcalls-1.3-py3-none-any.whl
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/43/d4/bef8832f46b6e87e6c1eb92d446b75f28ddc913cf13dd7ed59cd06700e51/OctoBot-Trading-2.4.2.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/cc/f9/8e8f3beb90eb0d5aaefa6c2e3d7873ed761e3275d9d89b78f318811f6d6b/alibabacloud_aligenieip_1_0-1.0.9.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [fdcalls]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [fdcalls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdcalls-1.2-py3-none-any.whl.zip tmp/fdcalls-1.3-py3-none-any.whl.zip --markdown 20230511/f/fdcalls/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [azureenergylabelerlib]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [azureenergylabelerlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureenergylabelerlib-3.1.1.tar.gz tmp/azureenergylabelerlib-3.2.0.tar.gz --markdown 20230511/a/azureenergylabelerlib/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/68/73/220eb613172bcce921a4d51c76efc50a37bcd1469c86a7fdd5726300f75b/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [pywry]: Downloading https://files.pythonhosted.org/packages/80/14/7c375f0504ff917a88b27840fa20521143aebd8bfe8359b80c74e21fd51d/pywry-0.5.5.tar.gz
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.1.tar.gz tmp/OctoBot-Trading-2.4.2.tar.gz --markdown 20230511/O/OctoBot-Trading/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-panda-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-ctrl-bps-panda/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [pywry]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [pywry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywry-0.5.4.tar.gz tmp/pywry-0.5.5.tar.gz --markdown 20230511/p/pywry/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:58:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-05-11 11:58:53] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-1.0.20.tar.gz tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz --markdown 20230511/a/alibabacloud-aligenieip-1-0/1.0.20-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 11:58:54] INFO root fetch - processPackages [akerbp.mlops]: Start processing: betby
+[2023-05-11 11:58:54] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-11 11:58:54] INFO root fetch - processPackages [betby]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 11:58:54] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/fa/8f/89db21d61b0fbe95850a2ba2b995e4eb63fb9cf1bc684428bdd8c085ab97/betby-0.2.2.tar.gz
+[2023-05-11 11:58:54] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-05-11 11:58:54] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.2.1.tar.gz tmp/betby-0.2.2.tar.gz --markdown 20230511/b/betby/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 11:58:55] INFO root fetch - processPackages [fdcalls]: Start processing: alibabacloud-iot20180120
+[2023-05-11 11:58:55] INFO root fetch - main [MainThread]: End processing [fdcalls]: success
+[2023-05-11 11:58:55] INFO root fetch - processPackages [alibabacloud-iot20180120]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-05-11 11:58:55] INFO root fetch - processPackages [Promium]: Start processing: subsonic-connector
+[2023-05-11 11:58:55] INFO root fetch - main [MainThread]: End processing [Promium]: success
+[2023-05-11 11:58:55] INFO root fetch - processPackages [subsonic-connector]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 11:58:55] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/9f/c1/7ec8a1d812054c8fcd6e27dfb914dfaa8f9759fa2bbbcf16eb370ca4e683/alibabacloud_iot20180120-3.1.2.tar.gz
+[2023-05-11 11:58:55] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: lsst-ctrl-bps
+[2023-05-11 11:58:55] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2023-05-11 11:58:55] INFO root fetch - processPackages [alibabacloud-iot20180120]: executing diffoscope
+[2023-05-11 11:58:55] INFO root fetch - processPackages [alibabacloud-iot20180120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_iot20180120-3.1.1.tar.gz tmp/alibabacloud_iot20180120-3.1.2.tar.gz --markdown 20230511/a/alibabacloud-iot20180120/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-05-11 11:58:55] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:58:55] INFO root fetch - processPackages [subsonic-connector]: executing diffoscope
+[2023-05-11 11:58:55] INFO root fetch - processPackages [subsonic-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subsonic_connector-0.1.8.tar.gz tmp/subsonic_connector-0.1.9.tar.gz --markdown 20230511/s/subsonic-connector/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 11:58:55] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Start processing: digitalguide
+[2023-05-11 11:58:55] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-05-11 11:58:55] INFO root fetch - processPackages [digitalguide]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 11:58:55] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-05-11 11:58:55] INFO root fetch - processPackages [digitalguide]: executing diffoscope
+[2023-05-11 11:58:55] INFO root fetch - processPackages [digitalguide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalguide-0.0.98.tar.gz tmp/digitalguide-0.0.99.tar.gz --markdown 20230511/d/digitalguide/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: lsst-daf-relation
+[2023-05-11 11:58:56] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-05-11 11:58:56] INFO root fetch - processPackages [betby]: Start processing: typedparser
+[2023-05-11 11:58:56] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-05-11 11:58:56] INFO root fetch - processPackages [typedparser]: New version: [0.1.19] Old Version: [0.1.15]
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-utils]: Start processing: jaibasic-Cal
+[2023-05-11 11:58:56] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230511/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:58:56] INFO root fetch - processPackages [pywry]: Start processing: odoo-image-changelog
+[2023-05-11 11:58:56] INFO root fetch - main [MainThread]: End processing [pywry]: success
+[2023-05-11 11:58:56] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/43/29/672a67daf04cd16f02915942ef0790b40724ac81e775f6c6d2142d07b011/typedparser-0.1.15.tar.gz
+[2023-05-11 11:58:56] WARNING root fetch - processPackages [jaibasic-Cal]: Skipping, unable to determine old version
+[2023-05-11 11:58:56] INFO root fetch - processPackages [jaibasic-Cal]: Start processing: lsst-pipe-base
+[2023-05-11 11:58:56] INFO root fetch - main [MainThread]: End processing [jaibasic-Cal] error
+[2023-05-11 11:58:56] INFO root fetch - processPackages [odoo-image-changelog]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-05-11 11:58:56] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-05-11 11:58:57] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/a8/6d/4ac0eb0dde75d4840402353f8cd4429e1fae3ab8304d3d4427d6fa9c2b8f/typedparser-0.1.19.tar.gz
+[2023-05-11 11:58:57] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-05-11 11:58:57] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.1.15.tar.gz tmp/typedparser-0.1.19.tar.gz --markdown 20230511/t/typedparser/0.1.15-0.1.19/diff.md --exclude *.pyd
+[2023-05-11 11:58:57] INFO root fetch - processPackages [odoo-image-changelog]: Downloading https://files.pythonhosted.org/packages/50/34/3689b65428ea85c8a46ad49429dab8f8578fc22bad8f65aaedcaa533764d/odoo_image_changelog-0.1.3.tar.gz
+[2023-05-11 11:58:57] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-05-11 11:58:57] INFO root fetch - processPackages [azureenergylabelerlib]: Start processing: devxhub
+[2023-05-11 11:58:57] INFO root fetch - main [MainThread]: End processing [azureenergylabelerlib]: success
+[2023-05-11 11:58:57] INFO root fetch - main [MainThread]: End processing [subsonic-connector]: success
+[2023-05-11 11:58:57] INFO root fetch - processPackages [odoo-image-changelog]: Downloading https://files.pythonhosted.org/packages/35/14/c2ec94cbc1d214bc605ca43ba5ab203c6a86467110dcb01f864bc3769dec/odoo_image_changelog-0.2.0.tar.gz
+[2023-05-11 11:58:57] WARNING root fetch - processPackages [devxhub]: Skipping, unable to determine old version
+[2023-05-11 11:58:57] INFO root fetch - main [MainThread]: End processing [devxhub] error
+[2023-05-11 11:58:57] INFO root fetch - processPackages [odoo-image-changelog]: executing diffoscope
+[2023-05-11 11:58:57] INFO root fetch - processPackages [odoo-image-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_image_changelog-0.1.3.tar.gz tmp/odoo_image_changelog-0.2.0.tar.gz --markdown 20230511/o/odoo-image-changelog/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 11:58:57] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-05-11 11:58:57] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-05-11 11:58:57] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230511/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-05-11 11:58:57] INFO root fetch - main [MainThread]: End processing [digitalguide]: success
+[2023-05-11 11:58:57] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-05-11 11:58:58] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-05-11 11:58:58] INFO root fetch - main [MainThread]: End processing [odoo-image-changelog]: success
+[2023-05-11 11:58:59] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-05-11 11:58:59] INFO root fetch - main [MainThread]: End processing [alibabacloud-iot20180120]: success
+[2023-05-11 11:58:59] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-05-11 11:58:59] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-05-11 11:58:59] INFO root fetch - main [MainThread]: Store serial: [18061533]
