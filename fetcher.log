@@ -10745,3 +10745,67 @@ EOFError: EOF read where object expected
 [2023-05-11 08:51:23] INFO root fetch - main [MainThread]: End processing [echolocator]: success
 [2023-05-11 08:52:01] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-05-11 08:52:01] INFO root fetch - main [MainThread]: Store serial: [18059140]
+[2023-05-11 08:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059140]
+[2023-05-11 08:57:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynrm
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srctools
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudamqp
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fosslight-prechecker
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: memprocfs
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solscan
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Orange3-Text
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testservices
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-cli
+[2023-05-11 08:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlgame
+[2023-05-11 08:57:10] INFO root fetch - processPackages [Orange3-Text]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-11 08:57:10] INFO root fetch - processPackages [fosslight-prechecker]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-11 08:57:10] INFO root fetch - processPackages [solscan]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-11 08:57:10] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [memprocfs]: New version: [5.6.1] Old Version: [5.6.0]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [srctools]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [mlgame]: New version: [9.5.4.1b0] Old Version: [9.5.3.2a0]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pynrm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [testservices]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [fosslight-prechecker]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [fosslight-prechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_prechecker-3.0.8.tar.gz tmp/fosslight_prechecker-3.0.9.tar.gz --markdown 20230511/f/fosslight-prechecker/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pulumi-cloudamqp]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-05-11 08:57:11] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230511/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [Orange3-Text]: Downloading https://files.pythonhosted.org/packages/fb/83/b2c6056a4d42e42c2fd6eae93203a1c08a82d0bde8256a6a878521fcdfd4/Orange3-Text-1.8.3.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [solscan]: Downloading https://files.pythonhosted.org/packages/31/5d/dd6d78712700023c6ae369305be84c6170a51e6630cde6817475442b5f2e/solscan-0.1.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/58/57/d217f0c3076a9645a864286f140034fa7a8b4058982e673e463c32a46453/memprocfs-5.6.0.tar.gz
+[2023-05-11 08:57:11] WARNING root fetch - processPackages [Orange3-Text]: Skipping package: exceeds size limit 37079250>=10485760
+[2023-05-11 08:57:11] INFO root fetch - main [MainThread]: End processing [Orange3-Text] error
+[2023-05-11 08:57:11] INFO root fetch - processPackages [mlgame]: Downloading https://files.pythonhosted.org/packages/71/dd/bd1af65e461808883c5416da4ab24ec57178a8e706431713bff64735db6d/mlgame-9.5.3.2a0.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pynrm]: Downloading https://files.pythonhosted.org/packages/19/b1/c6499b4a338e1f117e690fa93d22045154b819193992b01bb9b8df0e9d14/pynrm-0.1.1.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [srctools]: Downloading https://files.pythonhosted.org/packages/f7/3e/6018e9e6583399a0f2944fd34099fb53a3428ec3fce59ebc66adc8eba321/srctools-2.3.8.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [testservices]: Downloading https://files.pythonhosted.org/packages/45/27/cea9a7d113335781b167c806e1754d9b72fb83a61693bd4d2f378142dca5/testservices-0.2.0.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [solscan]: Downloading https://files.pythonhosted.org/packages/df/3e/7c8a92f99bad9793fa3b511a7b9a178cc9a83040454c59729e9a42a7b8bc/solscan-0.1.1.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pynrm]: Downloading https://files.pythonhosted.org/packages/02/ab/847e65ea2f1bcdea3a0fb9552dfdf9fc349a8dafcf26f9b6b56355d696f1/pynrm-0.1.2.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [solscan]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [solscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solscan-0.1.tar.gz tmp/solscan-0.1.1.tar.gz --markdown 20230511/s/solscan/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pulumi-cloudamqp]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pulumi-cloudamqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudamqp-3.9.1.tar.gz tmp/pulumi_cloudamqp-3.9.2.tar.gz --markdown 20230511/p/pulumi-cloudamqp/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [mlgame]: Downloading https://files.pythonhosted.org/packages/90/4a/24da707ffd5e5e9c58a9152027dcefaea62c8c144dec954cbf651ab38c3b/mlgame-9.5.4.1b0.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [testservices]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [testservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testservices-0.1.0.tar.gz tmp/testservices-0.2.0.tar.gz --markdown 20230511/t/testservices/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pynrm]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [pynrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynrm-0.1.1.tar.gz tmp/pynrm-0.1.2.tar.gz --markdown 20230511/p/pynrm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [srctools]: Downloading https://files.pythonhosted.org/packages/19/ac/74971b7272c749295958890b1ec054d70a0e6269a7ede8dee2a2238b48d7/srctools-2.3.9.tar.gz
+[2023-05-11 08:57:11] INFO root fetch - processPackages [mlgame]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [mlgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlgame-9.5.3.2a0.tar.gz tmp/mlgame-9.5.4.1b0.tar.gz --markdown 20230511/m/mlgame/9.5.3.2a0-9.5.4.1b0/diff.md --exclude *.pyd
+[2023-05-11 08:57:11] INFO root fetch - processPackages [srctools]: executing diffoscope
+[2023-05-11 08:57:11] INFO root fetch - processPackages [srctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srctools-2.3.8.tar.gz tmp/srctools-2.3.9.tar.gz --markdown 20230511/s/srctools/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-11 08:57:12] INFO root fetch - processPackages [memprocfs]: Downloading https://files.pythonhosted.org/packages/86/1f/7f4b7bae6d58d0e1635e2c0cee1de64018569c8560bc54ad4ce3dfecd941/memprocfs-5.6.1.tar.gz
+[2023-05-11 08:57:12] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
+[2023-05-11 08:57:12] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-11 08:57:12] INFO root fetch - main [MainThread]: End processing [solscan]: success
+[2023-05-11 08:57:12] INFO root fetch - processPackages [memprocfs]: executing diffoscope
+[2023-05-11 08:57:12] INFO root fetch - processPackages [memprocfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memprocfs-5.6.0.tar.gz tmp/memprocfs-5.6.1.tar.gz --markdown 20230511/m/memprocfs/5.6.0-5.6.1/diff.md --exclude *.pyd
+[2023-05-11 08:57:13] INFO root fetch - main [MainThread]: End processing [pynrm]: success
+[2023-05-11 08:57:13] INFO root fetch - main [MainThread]: End processing [testservices]: success
+[2023-05-11 08:57:13] INFO root fetch - main [MainThread]: End processing [mlgame]: success
+[2023-05-11 08:57:14] INFO root fetch - main [MainThread]: End processing [srctools]: success
+[2023-05-11 08:57:15] INFO root fetch - main [MainThread]: End processing [pulumi-cloudamqp]: success
+[2023-05-11 08:57:19] INFO root fetch - main [MainThread]: End processing [memprocfs]: success
+[2023-05-11 08:57:19] INFO root fetch - main [MainThread]: Store serial: [18059206]
