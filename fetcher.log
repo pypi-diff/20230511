@@ -11088,3 +11088,130 @@ EOFError: EOF read where object expected
 [2023-05-11 09:19:06] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
 [2023-05-11 09:19:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-05-11 09:19:06] INFO root fetch - main [MainThread]: Store serial: [18059348]
+[2023-05-11 09:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059348]
+[2023-05-11 09:24:15] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dev-gpt
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-libvirt
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-sumologic
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssb-altinn3-util
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blacksmith
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pawnlib
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: masonite-servicing
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-venafi
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dev-gpt
+[2023-05-11 09:24:15] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.38.dev1] Old Version: [0.18.37.dev81]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-libvirt]: New version: [0.4.1a1683788313] Old Version: [0.4.1a1683610844]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.38.dev1] Old Version: [0.18.37.dev81]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-venafi]: New version: [1.6.0a1683788474] Old Version: [1.6.0a1683614082]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pawnlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [blacksmith]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20230511/s/ssb-altinn3-util/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-1.0.8-py3-none-any.whl.zip tmp/pawnlib-1.0.9-py3-none-any.whl.zip --markdown 20230511/p/pawnlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230511/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/30/df/55668889a26c4e76293fa116d7f070220df75b32b6158d01762999859553/dev-gpt-0.18.37.dev81.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/30/df/55668889a26c4e76293fa116d7f070220df75b32b6158d01762999859553/dev-gpt-0.18.37.dev81.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/b5/8a/a0efa7091d57a4624ea0550610c082fcca823b57652ab207f6318aef37e6/masonite-servicing-0.0.5.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [blacksmith]: Downloading https://files.pythonhosted.org/packages/42/ef/7a235b2a68cabcccb51e45ff9756df2bfc6ade25d8958b0c2a8adb38c5f0/blacksmith-2.3.1.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-libvirt]: Downloading https://files.pythonhosted.org/packages/44/9c/47be28d69b656ce065824eb745b06cbba4472d801e3ffb72e47e22ae1540/pulumi_libvirt-0.4.1a1683788313.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-venafi]: Downloading https://files.pythonhosted.org/packages/c7/bb/cad6e701eb24074d8311e584e52bb383c670edbabac8230c75ca6c6009aa/pulumi_venafi-1.6.0a1683788474.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/df/a0/bda29e52c25671185106f67ff5ff3f521c63090057f3077311a4c1b7619e/masonite-servicing-0.0.6.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230511/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/a5/fd/6bf4c03672742cf4eff18df424448f029c6fc382cb59a4947c161ebc9928/dev-gpt-0.18.38.dev1.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [dev-gpt]: Downloading https://files.pythonhosted.org/packages/a5/fd/6bf4c03672742cf4eff18df424448f029c6fc382cb59a4947c161ebc9928/dev-gpt-0.18.38.dev1.tar.gz
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-libvirt]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-libvirt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_libvirt-0.4.1a1683610844.tar.gz tmp/pulumi_libvirt-0.4.1a1683788313.tar.gz --markdown 20230511/p/pulumi-libvirt/0.4.1a1683610844-0.4.1a1683788313/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-venafi]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [pulumi-venafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_venafi-1.6.0a1683614082.tar.gz tmp/pulumi_venafi-1.6.0a1683788474.tar.gz --markdown 20230511/p/pulumi-venafi/1.6.0a1683614082-1.6.0a1683788474/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-11 09:24:15] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.5.tar.gz tmp/masonite-servicing-0.0.6.tar.gz --markdown 20230511/m/masonite-servicing/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 09:24:15] INFO root fetch - processPackages [blacksmith]: Downloading https://files.pythonhosted.org/packages/a3/2f/156fc1c3a47cd834023a12548436ad57b48f39949e6a577b5719977f8a3e/blacksmith-2.3.2.tar.gz
+[2023-05-11 09:24:16] INFO root fetch - processPackages [blacksmith]: executing diffoscope
+[2023-05-11 09:24:16] INFO root fetch - processPackages [blacksmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksmith-2.3.1.tar.gz tmp/blacksmith-2.3.2.tar.gz --markdown 20230511/b/blacksmith/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-05-11 09:24:16] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 09:24:16] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev81.tar.gz tmp/dev-gpt-0.18.38.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.37.dev81-0.18.38.dev1/diff.md --exclude *.pyd
+[2023-05-11 09:24:16] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 09:24:16] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev81.tar.gz tmp/dev-gpt-0.18.38.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.37.dev81-0.18.38.dev1/diff.md --exclude *.pyd
+[2023-05-11 09:24:17] INFO root fetch - processPackages [ssb-altinn3-util]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-11 09:24:17] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2023-05-11 09:24:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-11 09:24:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-11 09:24:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 09:24:17] INFO root fetch - processPackages [pawnlib]: Start processing: testservices
+[2023-05-11 09:24:17] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-05-11 09:24:17] INFO root fetch - processPackages [testservices]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 09:24:17] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: dev-gpt
+[2023-05-11 09:24:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-11 09:24:17] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.38.dev1] Old Version: [0.18.37.dev81]
+[2023-05-11 09:24:17] INFO root fetch - processPackages [testservices]: Downloading https://files.pythonhosted.org/packages/7e/ba/e24e1c4ce6f2db22b0272283f8f0629319317df581511b6171350a988e91/testservices-0.2.1.tar.gz
+[2023-05-11 09:24:17] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 09:24:17] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev81.tar.gz tmp/dev-gpt-0.18.38.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.37.dev81-0.18.38.dev1/diff.md --exclude *.pyd
+[2023-05-11 09:24:17] INFO root fetch - processPackages [masonite-servicing]: Start processing: tfq-nightly
+[2023-05-11 09:24:17] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-11 09:24:17] INFO root fetch - processPackages [testservices]: executing diffoscope
+[2023-05-11 09:24:17] INFO root fetch - processPackages [testservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testservices-0.2.0.tar.gz tmp/testservices-0.2.1.tar.gz --markdown 20230511/t/testservices/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 09:24:17] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230510] Old Version: [0.7.3.dev20230509]
+[2023-05-11 09:24:18] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/b6/13/a8089c46b833f570de7408f1ef10d4176ecd506d53c533e6ca769729f1a8/tfq_nightly-0.7.3.dev20230509-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 09:24:18] INFO root fetch - processPackages [pulumi-sumologic]: Start processing: gradient-accumulator
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-05-11 09:24:18] INFO root fetch - processPackages [gradient-accumulator]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-11 09:24:18] INFO root fetch - processPackages [blacksmith]: Start processing: dev-gpt
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [blacksmith]: success
+[2023-05-11 09:24:18] INFO root fetch - processPackages [pulumi-libvirt]: Start processing: bkapi-plugins-py
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [pulumi-libvirt]: success
+[2023-05-11 09:24:18] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.38.dev1] Old Version: [0.18.37.dev81]
+[2023-05-11 09:24:18] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.511] Old Version: [0.510.post1314]
+[2023-05-11 09:24:18] INFO root fetch - processPackages [pulumi-venafi]: Start processing: argus-toolbelt
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [pulumi-venafi]: success
+[2023-05-11 09:24:18] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 09:24:18] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev81.tar.gz tmp/dev-gpt-0.18.38.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.37.dev81-0.18.38.dev1/diff.md --exclude *.pyd
+[2023-05-11 09:24:18] INFO root fetch - processPackages [argus-toolbelt]: New version: [6.9.3] Old Version: [6.9.2]
+[2023-05-11 09:24:18] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819845>=10485760
+[2023-05-11 09:24:18] INFO root fetch - processPackages [tfq-nightly]: Start processing: certora-cli-alpha-uri-broaden-server
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-05-11 09:24:18] WARNING root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Skipping, unable to determine old version
+[2023-05-11 09:24:18] INFO root fetch - processPackages [certora-cli-alpha-uri-broaden-server]: Start processing: clophfit
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-broaden-server] error
+[2023-05-11 09:24:18] INFO root fetch - processPackages [gradient-accumulator]: Downloading https://files.pythonhosted.org/packages/46/35/c849a8613ca2e1733f3f9cb296cae8f8e69ab35bfa405719d73ceb9e39e4/gradient-accumulator-0.5.1.tar.gz
+[2023-05-11 09:24:18] INFO root fetch - processPackages [clophfit]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-11 09:24:18] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/5a/9b/9ffe0dedbbba053489bd0128af23ba436e9b4b4e790dc4523bd1c9150589/argus_toolbelt-6.9.2-py3-none-any.whl
+[2023-05-11 09:24:18] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/0a/17/140466311b7702142a3e3f5e8a991f9c7830a3b8f49f2069907a45ec6e00/bkapi-plugins-py-0.511.tar.gz
+[2023-05-11 09:24:18] WARNING root fetch - processPackages [bkapi-plugins-py]: Skipping package: exceeds size limit 12640638>=10485760
+[2023-05-11 09:24:18] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: pulumi-wavefront
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py] error
+[2023-05-11 09:24:18] INFO root fetch - processPackages [gradient-accumulator]: executing diffoscope
+[2023-05-11 09:24:18] INFO root fetch - processPackages [gradient-accumulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradient-accumulator-0.5.0.tar.gz tmp/gradient-accumulator-0.5.1.tar.gz --markdown 20230511/g/gradient-accumulator/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-11 09:24:18] INFO root fetch - processPackages [pulumi-wavefront]: New version: [1.4.0a1683788506] Old Version: [1.4.0a1683614159]
+[2023-05-11 09:24:18] INFO root fetch - processPackages [dev-gpt]: Start processing: pulumi-openstack
+[2023-05-11 09:24:18] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 09:24:19] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 09:24:19] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/b7/a1/72c8c4de737e233775d5d75822ec3082214447ad8159fa2f5cdbda5a25ae/argus_toolbelt-6.9.3-py3-none-any.whl
+[2023-05-11 09:24:19] INFO root fetch - processPackages [pulumi-openstack]: New version: [3.9.0a1659603007] Old Version: [3.9.0a1654086724]
+[2023-05-11 09:24:19] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/04/02/e738a37eea24b040f26a4c2dd21c8c75ee04ea4b6c434265123c4b108984/clophfit-0.5.4.tar.gz
+[2023-05-11 09:24:19] INFO root fetch - processPackages [argus-toolbelt]: executing diffoscope
+[2023-05-11 09:24:19] INFO root fetch - processPackages [argus-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_toolbelt-6.9.2-py3-none-any.whl.zip tmp/argus_toolbelt-6.9.3-py3-none-any.whl.zip --markdown 20230511/a/argus-toolbelt/6.9.2-6.9.3/diff.md --exclude *.pyd
+[2023-05-11 09:24:19] INFO root fetch - processPackages [pulumi-wavefront]: Downloading https://files.pythonhosted.org/packages/35/07/c9642002cc82b2e888cecad5c0e2b2e242906f23f08133300362c5d9ef39/pulumi_wavefront-1.4.0a1683788506.tar.gz
+[2023-05-11 09:24:19] INFO root fetch - processPackages [pulumi-wavefront]: executing diffoscope
+[2023-05-11 09:24:19] INFO root fetch - processPackages [pulumi-wavefront]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_wavefront-1.4.0a1683614159.tar.gz tmp/pulumi_wavefront-1.4.0a1683788506.tar.gz --markdown 20230511/p/pulumi-wavefront/1.4.0a1683614159-1.4.0a1683788506/diff.md --exclude *.pyd
+[2023-05-11 09:24:19] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2023-05-11 09:24:19] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1654086724.tar.gz tmp/pulumi_openstack-3.9.0a1659603007.tar.gz --markdown 20230511/p/pulumi-openstack/3.9.0a1654086724-3.9.0a1659603007/diff.md --exclude *.pyd
+[2023-05-11 09:24:19] INFO root fetch - main [MainThread]: End processing [testservices]: success
+[2023-05-11 09:24:19] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 09:24:19] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2023-05-11 09:24:19] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.5.3.tar.gz tmp/clophfit-0.5.4.tar.gz --markdown 20230511/c/clophfit/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-11 09:24:20] INFO root fetch - main [MainThread]: End processing [gradient-accumulator]: success
+[2023-05-11 09:24:20] INFO root fetch - main [MainThread]: End processing [argus-toolbelt]: success
+[2023-05-11 09:24:20] INFO root fetch - main [MainThread]: End processing [pulumi-wavefront]: success
+[2023-05-11 09:24:21] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 09:24:21] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-11 09:24:22] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2023-05-11 09:24:24] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2023-05-11 09:24:24] INFO root fetch - main [MainThread]: Store serial: [18059407]
