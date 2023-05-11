@@ -10244,3 +10244,52 @@ EOFError: EOF read where object expected
 [2023-05-11 08:17:53] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
 [2023-05-11 08:17:55] INFO root fetch - main [MainThread]: End processing [qcontext]: success
 [2023-05-11 08:17:55] INFO root fetch - main [MainThread]: Store serial: [18058830]
+[2023-05-11 08:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058830]
+[2023-05-11 08:23:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iac-scan-runner
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-gitlab
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyt-gpt
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: z4d-certified-devices
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-ec
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WeConnect-SolarManager
+[2023-05-11 08:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-supplierinfo-for-customer
+[2023-05-11 08:23:04] INFO root fetch - processPackages [WeConnect-SolarManager]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [hyt-gpt]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230510] Old Version: [1.5.3.dev20230509]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [iac-scan-runner]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [hyt-gpt]: executing diffoscope
+[2023-05-11 08:23:04] INFO root fetch - processPackages [hyt-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyt-gpt-0.3.5.tar.gz tmp/hyt-gpt-0.3.6.tar.gz --markdown 20230511/h/hyt-gpt/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pulumi-gitlab]: New version: [4.9.0a1666628674] Old Version: [4.9.0]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [z4d-certified-devices]: New version: [2.58] Old Version: [2.57]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pulumi-ec]: New version: [0.5.2a1683784024] Old Version: [0.5.2a1683610439]
+[2023-05-11 08:23:04] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: executing diffoscope
+[2023-05-11 08:23:04] INFO root fetch - processPackages [odoo-addon-product-supplierinfo-for-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_product_supplierinfo_for_customer-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-product-supplierinfo-for-customer/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-05-11 08:23:04] INFO root fetch - processPackages [WeConnect-SolarManager]: Downloading https://files.pythonhosted.org/packages/07/d4/dffd26bbf887500d4d88b445ed8db83357f76cc2eba3676623e5e53c2270/WeConnect_SolarManager-0.2.1-py3-none-any.whl
+[2023-05-11 08:23:04] INFO root fetch - processPackages [iac-scan-runner]: Downloading https://files.pythonhosted.org/packages/0d/4e/05aaf7b9f53d3bf649041f2860a2aabe0869ecb25eb028592a8f92e0607d/iac-scan-runner-0.3.0.tar.gz
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/9b/f8/e6624ac045d0fe8ddae291609fd414922e931444da076ada8e83ce5d297a/pretext-1.5.3.dev20230510.tar.gz
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230509.tar.gz tmp/pretext-1.5.3.dev20230510.tar.gz --markdown 20230511/p/pretext/1.5.3.dev20230509-1.5.3.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 08:23:04] INFO root fetch - processPackages [z4d-certified-devices]: Downloading https://files.pythonhosted.org/packages/77/33/91d4fb8d5ab25188f3142e88c22fef55b2bd99d20321e280b4ad5e6ef177/z4d-certified-devices-2.58.tar.gz
+[2023-05-11 08:23:04] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/4f/10/dacebef8264f256abba00cdb0f493f2c753fd53dda7fe022ee50b96d487c/pulumi_ec-0.5.2a1683784024.tar.gz
+[2023-05-11 08:23:05] INFO root fetch - processPackages [WeConnect-SolarManager]: executing diffoscope
+[2023-05-11 08:23:05] INFO root fetch - processPackages [WeConnect-SolarManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WeConnect_SolarManager-0.2.1-py3-none-any.whl.zip tmp/WeConnect_SolarManager-0.2.2-py3-none-any.whl.zip --markdown 20230511/W/WeConnect-SolarManager/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 08:23:05] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-05-11 08:23:05] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-4.9.0.tar.gz tmp/pulumi_gitlab-4.9.0a1666628674.tar.gz --markdown 20230511/p/pulumi-gitlab/4.9.0-4.9.0a1666628674/diff.md --exclude *.pyd
+[2023-05-11 08:23:05] INFO root fetch - processPackages [z4d-certified-devices]: executing diffoscope
+[2023-05-11 08:23:05] INFO root fetch - processPackages [z4d-certified-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/z4d-certified-devices-2.57.tar.gz tmp/z4d-certified-devices-2.58.tar.gz --markdown 20230511/z/z4d-certified-devices/2.57-2.58/diff.md --exclude *.pyd
+[2023-05-11 08:23:05] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2023-05-11 08:23:05] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.5.2a1683610439.tar.gz tmp/pulumi_ec-0.5.2a1683784024.tar.gz --markdown 20230511/p/pulumi-ec/0.5.2a1683610439-0.5.2a1683784024/diff.md --exclude *.pyd
+[2023-05-11 08:23:05] INFO root fetch - processPackages [iac-scan-runner]: Downloading https://files.pythonhosted.org/packages/94/1a/a9971f00db66786b564304c53655866b38fbfbcb15db3fabfa504b1240c4/iac-scan-runner-0.4.0.tar.gz
+[2023-05-11 08:23:05] INFO root fetch - processPackages [iac-scan-runner]: executing diffoscope
+[2023-05-11 08:23:05] INFO root fetch - processPackages [iac-scan-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac-scan-runner-0.3.0.tar.gz tmp/iac-scan-runner-0.4.0.tar.gz --markdown 20230511/i/iac-scan-runner/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 08:23:06] INFO root fetch - main [MainThread]: End processing [hyt-gpt]: success
+[2023-05-11 08:23:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-supplierinfo-for-customer]: success
+[2023-05-11 08:23:06] INFO root fetch - main [MainThread]: End processing [WeConnect-SolarManager]: success
+[2023-05-11 08:23:06] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2023-05-11 08:23:07] INFO root fetch - main [MainThread]: End processing [iac-scan-runner]: success
+[2023-05-11 08:23:08] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-05-11 08:23:09] INFO root fetch - main [MainThread]: End processing [z4d-certified-devices]: success
+[2023-05-11 08:23:10] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-11 08:23:10] INFO root fetch - main [MainThread]: Store serial: [18058867]
