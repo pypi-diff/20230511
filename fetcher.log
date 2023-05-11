@@ -12289,3 +12289,102 @@ EOFError: EOF read where object expected
 [2023-05-11 10:32:01] INFO root fetch - main [MainThread]: End processing [exudyn]: success
 [2023-05-11 10:32:06] INFO root fetch - main [MainThread]: End processing [testgear-api-client]: success
 [2023-05-11 10:32:06] INFO root fetch - main [MainThread]: Store serial: [18060077]
+[2023-05-11 10:37:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18060077]
+[2023-05-11 10:37:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-report-substitute
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo-grammar-graph
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datagen-protocol-core
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datagen-protocol-functional
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-microservice
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datagen-validation-protocol
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evalutils
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soil-sdk
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trianglechain
+[2023-05-11 10:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-check2
+[2023-05-11 10:37:15] INFO root fetch - processPackages [neo-grammar-graph]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [st-microservice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 10:37:15] WARNING root fetch - processPackages [odoo-addon-report-substitute]: Skipping, unable to determine old version
+[2023-05-11 10:37:15] INFO root fetch - processPackages [odoo-addon-report-substitute]: Start processing: odoo-addon-ddmrp
+[2023-05-11 10:37:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-substitute] error
+[2023-05-11 10:37:15] INFO root fetch - processPackages [datagen-validation-protocol]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2023-05-11 10:37:15] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20230511/s/soil-sdk/0.6.8.dev2-0.6.9/diff.md --exclude *.pyd
+[2023-05-11 10:37:15] WARNING root fetch - processPackages [cloud-check2]: Skipping, unable to determine old version
+[2023-05-11 10:37:15] INFO root fetch - processPackages [cloud-check2]: Start processing: cmeel-tinyxml
+[2023-05-11 10:37:15] INFO root fetch - main [MainThread]: End processing [cloud-check2] error
+[2023-05-11 10:37:15] INFO root fetch - processPackages [evalutils]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [trianglechain]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [datagen-protocol-core]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [datagen-protocol-functional]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2023-05-11 10:37:15] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-0.9.8.tar.gz tmp/st_microservice-0.9.9.tar.gz --markdown 20230511/s/st-microservice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 10:37:15] INFO root fetch - processPackages [neo-grammar-graph]: executing diffoscope
+[2023-05-11 10:37:15] INFO root fetch - processPackages [neo-grammar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo_grammar_graph-0.1.1.tar.gz tmp/neo_grammar_graph-0.2.0.tar.gz --markdown 20230511/n/neo-grammar-graph/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 10:37:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.6.1] Old Version: [15.0.1.6.0.1]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [cmeel-tinyxml]: New version: [2.6.2.2] Old Version: [2.6.2.1]
+[2023-05-11 10:37:15] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/73/e7/1ffbff7f1f243699f2a7cd2ace260907e7e5c1149d4c4f05639125d4887c/datagen_validation_protocol-0.8.3.tar.gz
+[2023-05-11 10:37:15] INFO root fetch - processPackages [evalutils]: Downloading https://files.pythonhosted.org/packages/d1/39/a6d9b86511eafbd81eee8a4011a6a454bd5b249f3ad2eb7f42ea033ec053/evalutils-0.4.0.tar.gz
+[2023-05-11 10:37:15] INFO root fetch - processPackages [trianglechain]: Downloading https://files.pythonhosted.org/packages/14/35/e40dcfee4b372dba941cb91a83d2dafb40f90e0dbc9770a7c4daa89c9bab/trianglechain-0.3.0.tar.gz
+[2023-05-11 10:37:15] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/73/cf/d72a66b042acdd5ce2d20ac72a57d6124200bdf5b8e1b6b0585cde8d7aa7/datagen_protocol_functional-0.8.3.tar.gz
+[2023-05-11 10:37:15] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/57/59/4ebf774c106dcbc6271c9a2652fbee9da94442550053ee65c293393490a5/datagen_protocol_core-0.8.3.tar.gz
+[2023-05-11 10:37:15] INFO root fetch - processPackages [cmeel-tinyxml]: Downloading https://files.pythonhosted.org/packages/a7/f7/002f25807e26c461da7121dc2ef0ddc6d72b28318b2053941940417e6853/cmeel_tinyxml-2.6.2.1-4-py3-none-musllinux_1_1_x86_64.whl
+[2023-05-11 10:37:15] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/5a/03/648199be9dda5abea3c7f1fbc638e733023d93bf7f57b2ce5451051f8bcb/odoo_addon_ddmrp-15.0.1.6.1-py3-none-any.whl
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/43/94/0d069cac7f9b7e0f430c6f1ddd8e7af9e56e43aa6cab0054e71e9b067dc8/datagen_validation_protocol-0.9.0.tar.gz
+[2023-05-11 10:37:16] INFO root fetch - processPackages [evalutils]: Downloading https://files.pythonhosted.org/packages/25/64/64cbec9e0c5d8c07eb7340408ff34cfb7f70ce4d020307c55bd43de09e98/evalutils-0.4.1.tar.gz
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/3e/52/fdba1e8d2d19879e3ab38685476d5b3a3dfca41ba6b919505acc733cfe8c/datagen_protocol_functional-0.9.0.tar.gz
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/39/74/f7713c45abf230a8f0db23c6c02f5d5d0b5203573afa931ed6d67228a510/datagen_protocol_core-0.9.0.tar.gz
+[2023-05-11 10:37:16] INFO root fetch - processPackages [trianglechain]: Downloading https://files.pythonhosted.org/packages/a3/70/3588382c56af582791508964510673d10f6779417b195ea9ab8cbf208f3e/trianglechain-0.3.1.tar.gz
+[2023-05-11 10:37:16] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.6.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.6.1-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-ddmrp/15.0.1.6.0.1-15.0.1.6.1/diff.md --exclude *.pyd
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-validation-protocol]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-validation-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_validation_protocol-0.8.3.tar.gz tmp/datagen_validation_protocol-0.9.0.tar.gz --markdown 20230511/d/datagen-validation-protocol/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 10:37:16] INFO root fetch - processPackages [evalutils]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [evalutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalutils-0.4.0.tar.gz tmp/evalutils-0.4.1.tar.gz --markdown 20230511/e/evalutils/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 10:37:16] INFO root fetch - processPackages [cmeel-tinyxml]: Downloading https://files.pythonhosted.org/packages/f3/5f/4faa1a118015b4952a19ee28134d418b215585ac685725d6490ac44f8429/cmeel_tinyxml-2.6.2.2-0-py3-none-macosx_11_0_arm64.whl
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-protocol-functional]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-protocol-functional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_functional-0.8.3.tar.gz tmp/datagen_protocol_functional-0.9.0.tar.gz --markdown 20230511/d/datagen-protocol-functional/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-protocol-core]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [datagen-protocol-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_core-0.8.3.tar.gz tmp/datagen_protocol_core-0.9.0.tar.gz --markdown 20230511/d/datagen-protocol-core/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 10:37:16] INFO root fetch - processPackages [trianglechain]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [trianglechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trianglechain-0.3.0.tar.gz tmp/trianglechain-0.3.1.tar.gz --markdown 20230511/t/trianglechain/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-11 10:37:16] INFO root fetch - processPackages [cmeel-tinyxml]: executing diffoscope
+[2023-05-11 10:37:16] INFO root fetch - processPackages [cmeel-tinyxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_tinyxml-2.6.2.1-4-py3-none-musllinux_1_1_x86_64.whl.zip tmp/cmeel_tinyxml-2.6.2.2-0-py3-none-macosx_11_0_arm64.whl.zip --markdown 20230511/c/cmeel-tinyxml/2.6.2.1-2.6.2.2/diff.md --exclude *.pyd
+[2023-05-11 10:37:17] INFO root fetch - processPackages [st-microservice]: Start processing: akerbp.mlops
+[2023-05-11 10:37:17] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2023-05-11 10:37:17] INFO root fetch - processPackages [akerbp.mlops]: New version: [3.1.1a5] Old Version: [3.1.1a4]
+[2023-05-11 10:37:17] INFO root fetch - processPackages [akerbp.mlops]: Downloading https://files.pythonhosted.org/packages/e2/92/af3bad4a25324f355437690beda65f252590f30b74cfbb02d6004a76fcdb/akerbp.mlops-3.1.1a5.tar.gz
+[2023-05-11 10:37:17] INFO root fetch - processPackages [akerbp.mlops]: executing diffoscope
+[2023-05-11 10:37:17] INFO root fetch - processPackages [akerbp.mlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akerbp.mlops-3.1.1a4.tar.gz tmp/akerbp.mlops-3.1.1a5.tar.gz --markdown 20230511/a/akerbp.mlops/3.1.1a4-3.1.1a5/diff.md --exclude *.pyd
+[2023-05-11 10:37:18] INFO root fetch - processPackages [datagen-validation-protocol]: Start processing: sakkara
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [datagen-validation-protocol]: success
+[2023-05-11 10:37:18] INFO root fetch - processPackages [datagen-protocol-core]: Start processing: minder-downloader
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [datagen-protocol-core]: success
+[2023-05-11 10:37:18] INFO root fetch - processPackages [sakkara]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-11 10:37:18] INFO root fetch - processPackages [minder-downloader]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-05-11 10:37:18] INFO root fetch - processPackages [sakkara]: Downloading https://files.pythonhosted.org/packages/fd/d8/d31c8eb6b8775cd044ec2c62f15833cffd7c8d3cfc479e921e49d7134540/sakkara-0.6.1.tar.gz
+[2023-05-11 10:37:18] INFO root fetch - processPackages [evalutils]: Start processing: odoo13-addon-ddmrp
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [evalutils]: success
+[2023-05-11 10:37:18] INFO root fetch - processPackages [sakkara]: executing diffoscope
+[2023-05-11 10:37:18] INFO root fetch - processPackages [sakkara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sakkara-0.6.0.tar.gz tmp/sakkara-0.6.1.tar.gz --markdown 20230511/s/sakkara/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-11 10:37:18] INFO root fetch - processPackages [cmeel-tinyxml]: Start processing: napari-tomotwin
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [cmeel-tinyxml]: success
+[2023-05-11 10:37:18] INFO root fetch - processPackages [napari-tomotwin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [datagen-protocol-functional]: success
+[2023-05-11 10:37:18] INFO root fetch - processPackages [minder-downloader]: executing diffoscope
+[2023-05-11 10:37:18] INFO root fetch - processPackages [minder-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder_downloader-0.1.7.tar.gz tmp/minder_downloader-0.1.9.tar.gz --markdown 20230511/m/minder-downloader/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 10:37:18] INFO root fetch - processPackages [odoo13-addon-ddmrp]: New version: [13.0.1.9.1.dev1] Old Version: [13.0.1.9.0]
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-05-11 10:37:18] INFO root fetch - processPackages [napari-tomotwin]: executing diffoscope
+[2023-05-11 10:37:18] INFO root fetch - processPackages [napari-tomotwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-tomotwin-0.1.2.tar.gz tmp/napari-tomotwin-0.1.3.tar.gz --markdown 20230511/n/napari-tomotwin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [neo-grammar-graph]: success
+[2023-05-11 10:37:18] INFO root fetch - main [MainThread]: End processing [trianglechain]: success
+[2023-05-11 10:37:19] INFO root fetch - processPackages [odoo13-addon-ddmrp]: executing diffoscope
+[2023-05-11 10:37:19] INFO root fetch - processPackages [odoo13-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp-13.0.1.9.0-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp-13.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230511/o/odoo13-addon-ddmrp/13.0.1.9.0-13.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-11 10:37:19] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2023-05-11 10:37:19] INFO root fetch - main [MainThread]: End processing [akerbp.mlops]: success
+[2023-05-11 10:37:20] INFO root fetch - main [MainThread]: End processing [minder-downloader]: success
+[2023-05-11 10:37:20] INFO root fetch - main [MainThread]: End processing [sakkara]: success
+[2023-05-11 10:37:20] INFO root fetch - main [MainThread]: End processing [napari-tomotwin]: success
+[2023-05-11 10:37:21] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp]: success
+[2023-05-11 10:37:21] INFO root fetch - main [MainThread]: Store serial: [18060128]
