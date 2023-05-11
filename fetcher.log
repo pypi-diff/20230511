@@ -16663,3 +16663,166 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 12:45:37] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
 [2023-05-11 12:45:38] INFO root fetch - main [MainThread]: End processing [goldretriever]: success
 [2023-05-11 12:45:38] INFO root fetch - main [MainThread]: Store serial: [18062242]
+[2023-05-11 12:50:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062242]
+[2023-05-11 12:50:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectacularAI
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: foscat
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-router
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: experiment-scheduler
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TRIdentificationValidator
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phoenixAES
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trademas
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ar-site-maker
+[2023-05-11 12:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iso15118
+[2023-05-11 12:50:46] INFO root fetch - processPackages [TRIdentificationValidator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 12:50:46] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-11 12:50:46] INFO root fetch - processPackages [foscat]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [phoenixAES]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [TRIdentificationValidator]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [TRIdentificationValidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TRIdentificationValidator-0.0.1.tar.gz tmp/TRIdentificationValidator-0.0.2.tar.gz --markdown 20230511/T/TRIdentificationValidator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [experiment-scheduler]: New version: [0.1] Old Version: [0.0.0]
+[2023-05-11 12:50:47] WARNING root fetch - processPackages [ar-site-maker]: Skipping, unable to determine old version
+[2023-05-11 12:50:47] WARNING root fetch - processPackages [trademas]: Skipping, unable to determine old version
+[2023-05-11 12:50:47] INFO root fetch - processPackages [ar-site-maker]: Start processing: scandal
+[2023-05-11 12:50:47] INFO root fetch - main [MainThread]: End processing [ar-site-maker] error
+[2023-05-11 12:50:47] INFO root fetch - processPackages [trademas]: Start processing: navalmartin-mir-vision-utils
+[2023-05-11 12:50:47] INFO root fetch - main [MainThread]: End processing [trademas] error
+[2023-05-11 12:50:47] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230511/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [spectacularAI]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [iso15118]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [rapid-router]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-2.0.0.tar.gz tmp/foscat-2.0.1.tar.gz --markdown 20230511/f/foscat/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [scandal]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [iso15118]: Downloading https://files.pythonhosted.org/packages/ef/dd/e18cf63de58aa4819175858bea5d77b3ca4bd4ba7822845dcfa559088a84/iso15118-0.8.1.tar.gz
+[2023-05-11 12:50:47] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230511/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [scandal]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [scandal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scandal-0.0.6.tar.gz tmp/scandal-0.1.0.tar.gz --markdown 20230511/s/scandal/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [experiment-scheduler]: Downloading https://files.pythonhosted.org/packages/e8/61/921c45dc90281b02144173fa23b2b68e51b818e1652b7dac56a9b0b718a9/experiment-scheduler-0.0.0.tar.gz
+[2023-05-11 12:50:47] INFO root fetch - processPackages [phoenixAES]: Downloading https://files.pythonhosted.org/packages/0d/01/2a9e6eb0b902d50f0170034290094d931416b74dbc3f0d60dc69deb0f684/phoenixAES-0.0.4.tar.gz
+[2023-05-11 12:50:47] WARNING root fetch - processPackages [iso15118]: Skipping package: exceeds size limit 11797341>=10485760
+[2023-05-11 12:50:47] INFO root fetch - processPackages [iso15118]: Start processing: cloudsmith-cli
+[2023-05-11 12:50:47] INFO root fetch - main [MainThread]: End processing [iso15118] error
+[2023-05-11 12:50:47] INFO root fetch - processPackages [rapid-router]: Downloading https://files.pythonhosted.org/packages/f2/b8/68b5b8a7d7fdf50b63afbafdc617d1f70f0f450a0ccb6301247f610fa8df/rapid-router-5.9.2.tar.gz
+[2023-05-11 12:50:47] INFO root fetch - processPackages [cloudsmith-cli]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-11 12:50:47] INFO root fetch - processPackages [spectacularAI]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [spectacularAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20230511/s/spectacularAI/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [phoenixAES]: Downloading https://files.pythonhosted.org/packages/af/a1/7c4f5cb4426421498686ebf6f8d67b19dd658ba41dae0ca47a4feba3e1df/phoenixAES-0.0.5.tar.gz
+[2023-05-11 12:50:47] INFO root fetch - processPackages [experiment-scheduler]: Downloading https://files.pythonhosted.org/packages/08/54/a3b3baab3a54b2e558b43964579f1a666e593b0602b7524745f99b20f526/experiment-scheduler-0.1.tar.gz
+[2023-05-11 12:50:47] INFO root fetch - processPackages [phoenixAES]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [phoenixAES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixAES-0.0.4.tar.gz tmp/phoenixAES-0.0.5.tar.gz --markdown 20230511/p/phoenixAES/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [experiment-scheduler]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [experiment-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-scheduler-0.0.0.tar.gz tmp/experiment-scheduler-0.1.tar.gz --markdown 20230511/e/experiment-scheduler/0.0.0-0.1/diff.md --exclude *.pyd
+[2023-05-11 12:50:47] INFO root fetch - processPackages [cloudsmith-cli]: executing diffoscope
+[2023-05-11 12:50:47] INFO root fetch - processPackages [cloudsmith-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudsmith_cli-0.8.2-py2.py3-none-any.whl.zip tmp/cloudsmith_cli-0.9.0-py2.py3-none-any.whl.zip --markdown 20230511/c/cloudsmith-cli/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 12:50:48] INFO root fetch - processPackages [TRIdentificationValidator]: Start processing: odoo-addon-account-move-fiscal-month
+[2023-05-11 12:50:48] INFO root fetch - main [MainThread]: End processing [TRIdentificationValidator]: success
+[2023-05-11 12:50:48] WARNING root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Skipping, unable to determine old version
+[2023-05-11 12:50:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-fiscal-month] error
+[2023-05-11 12:50:48] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2023-05-11 12:50:49] INFO root fetch - main [MainThread]: End processing [scandal]: success
+[2023-05-11 12:50:49] INFO root fetch - processPackages [rapid-router]: Downloading https://files.pythonhosted.org/packages/cc/02/30f72d97397793614a152d21e24caef108d45b449a77d52d121c9cfbf808/rapid-router-5.9.3.tar.gz
+[2023-05-11 12:50:49] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-11 12:50:49] INFO root fetch - main [MainThread]: End processing [experiment-scheduler]: success
+[2023-05-11 12:50:49] INFO root fetch - main [MainThread]: End processing [cloudsmith-cli]: success
+[2023-05-11 12:50:49] INFO root fetch - main [MainThread]: End processing [phoenixAES]: success
+[2023-05-11 12:50:49] ERROR root fetch - processPackages [spectacularAI]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140458852359520)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140458986577408)
+
+[2023-05-11 12:50:49] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
+[2023-05-11 12:50:50] INFO root fetch - processPackages [rapid-router]: executing diffoscope
+[2023-05-11 12:50:50] INFO root fetch - processPackages [rapid-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid-router-5.9.2.tar.gz tmp/rapid-router-5.9.3.tar.gz --markdown 20230511/r/rapid-router/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-11 12:50:50] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-11 12:51:01] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
+[2023-05-11 12:51:01] INFO root fetch - main [MainThread]: Store serial: [18062296]
