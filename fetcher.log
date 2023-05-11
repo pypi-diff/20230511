@@ -9246,3 +9246,40 @@ EOFError: EOF read where object expected
 [2023-05-11 06:46:04] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
 [2023-05-11 06:46:05] INFO root fetch - main [MainThread]: End processing [realnet]: success
 [2023-05-11 06:46:05] INFO root fetch - main [MainThread]: Store serial: [18058276]
+[2023-05-11 06:51:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058276]
+[2023-05-11 06:51:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-11 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinytuya
+[2023-05-11 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-account-nfe
+[2023-05-11 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: starcatalogquery
+[2023-05-11 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-05-11 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywencai
+[2023-05-11 06:51:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spacectl
+[2023-05-11 06:51:14] INFO root fetch - processPackages [spacectl]: New version: [1.9.7rc3] Old Version: [1.9.7rc2]
+[2023-05-11 06:51:14] INFO root fetch - processPackages [tinytuya]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-11 06:51:14] INFO root fetch - processPackages [pywencai]: New version: [0.8.3] Old Version: [0.8.0]
+[2023-05-11 06:51:14] INFO root fetch - processPackages [starcatalogquery]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: New version: [14.0.2.1.1.dev1] Old Version: [14.0.2.1.0]
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-05-11 06:51:14] INFO root fetch - processPackages [pywencai]: Downloading https://files.pythonhosted.org/packages/59/c5/45fcaba204feb5fc3ad7a1785822e0c23487e6a2f3f7dd09f5042beeab13/pywencai-0.8.3.tar.gz
+[2023-05-11 06:51:14] INFO root fetch - processPackages [starcatalogquery]: Downloading https://files.pythonhosted.org/packages/6a/b9/139b432d33ea79e0fd030e278f3196b502c23ea777e2babb321a840c2338/starcatalogquery-0.1.2-py3-none-any.whl
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/4b/88/8e097ec0a7c2102af5516070095acff4cd4d66b25dcf283cfe2d8d5e6c5c/odoo14_addon_l10n_br_account_nfe-14.0.2.1.0-py3-none-any.whl
+[2023-05-11 06:51:14] INFO root fetch - processPackages [starcatalogquery]: executing diffoscope
+[2023-05-11 06:51:14] INFO root fetch - processPackages [starcatalogquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starcatalogquery-0.1.1-py3-none-any.whl.zip tmp/starcatalogquery-0.1.2-py3-none-any.whl.zip --markdown 20230511/s/starcatalogquery/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 06:51:14] INFO root fetch - processPackages [pywencai]: executing diffoscope
+[2023-05-11 06:51:14] INFO root fetch - processPackages [pywencai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywencai-0.8.0.tar.gz tmp/pywencai-0.8.3.tar.gz --markdown 20230511/p/pywencai/0.8.0-0.8.3/diff.md --exclude *.pyd
+[2023-05-11 06:51:14] INFO root fetch - processPackages [tinytuya]: executing diffoscope
+[2023-05-11 06:51:14] INFO root fetch - processPackages [tinytuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinytuya-1.9.0-py2.py3-none-any.whl.zip tmp/tinytuya-1.9.1-py2.py3-none-any.whl.zip --markdown 20230511/t/tinytuya/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-11 06:51:14] INFO root fetch - processPackages [spacectl]: executing diffoscope
+[2023-05-11 06:51:14] INFO root fetch - processPackages [spacectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacectl-1.9.7rc2-py3-none-any.whl.zip tmp/spacectl-1.9.7rc3-py3-none-any.whl.zip --markdown 20230511/s/spacectl/1.9.7rc2-1.9.7rc3/diff.md --exclude *.pyd
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/1d/38/4b8c06818bf984df71cf465e62b80999510ea268f180703352e2d7e4f27f/odoo14_addon_l10n_br_account_nfe-14.0.2.1.1.dev1-py3-none-any.whl
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: executing diffoscope
+[2023-05-11 06:51:14] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.1.dev1-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-l10n-br-account-nfe/14.0.2.1.0-14.0.2.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-11 06:51:15] INFO root fetch - main [MainThread]: End processing [pywencai]: success
+[2023-05-11 06:51:15] INFO root fetch - main [MainThread]: End processing [starcatalogquery]: success
+[2023-05-11 06:51:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-nfe]: success
+[2023-05-11 06:51:16] INFO root fetch - main [MainThread]: End processing [spacectl]: success
+[2023-05-11 06:51:16] INFO root fetch - main [MainThread]: End processing [tinytuya]: success
+[2023-05-11 06:51:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-05-11 06:51:17] INFO root fetch - main [MainThread]: Store serial: [18058293]
