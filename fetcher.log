@@ -7076,3 +7076,78 @@ EOFError: EOF read where object expected
 [2023-05-11 04:29:47] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cls]: success
 [2023-05-11 04:29:48] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-05-11 04:29:48] INFO root fetch - main [MainThread]: Store serial: [18057156]
+[2023-05-11 04:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18057156]
+[2023-05-11 04:34:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-cme
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-cmq
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-cms
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aimmo
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-speak
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-plus-25
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Augmentum
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calfps
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bias-adjustment
+[2023-05-11 04:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: civilpy
+[2023-05-11 04:34:58] INFO root fetch - processPackages [Augmentum]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [civilpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [neon-skill-speak]: New version: [1.0.0] Old Version: [0.1.1a2]
+[2023-05-11 04:34:58] WARNING root fetch - processPackages [calfps]: Skipping, unable to determine old version
+[2023-05-11 04:34:58] INFO root fetch - processPackages [calfps]: Start processing: flarespy
+[2023-05-11 04:34:58] INFO root fetch - main [MainThread]: End processing [calfps] error
+[2023-05-11 04:34:58] INFO root fetch - processPackages [bias-adjustment]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-05-11 04:34:58] INFO root fetch - processPackages [Augmentum]: Downloading https://files.pythonhosted.org/packages/77/fa/4f83c9c78b8c4024e10fdb9e61cacfa421c935c708f560d590dbd3f5bebb/Augmentum-0.1.1.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.7.8.tar.gz tmp/cdk8s-plus-25-2.7.9.tar.gz --markdown 20230511/c/cdk8s-plus-25/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [bias-adjustment]: Downloading https://files.pythonhosted.org/packages/f4/e0/bc8aa03d502e31562a6fb48a577dba5971423c020f0bba6ab57837dc7548/bias_adjustment-1.0.1.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Downloading https://files.pythonhosted.org/packages/84/f1/59eab52656ee4dec0bbbc5a78e7964b76d282c7423af2b86d43278f2a3da/tencentcloud-sdk-python-cmq-3.0.888.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Downloading https://files.pythonhosted.org/packages/93/e1/885c3764c116e051752a35aa16b36c39d9b9dccc66150636c5c8b4a6a5ae/tencentcloud-sdk-python-cme-3.0.888.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.7.tar.gz tmp/civilpy-0.0.8.tar.gz --markdown 20230511/c/civilpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [neon-skill-speak]: Downloading https://files.pythonhosted.org/packages/21/1c/bcda24713f77442605b7c402ffcdc5a8680a29ceff7fbf31a01fa08e22ba/neon_skill_speak-1.0.0-py3-none-any.whl
+[2023-05-11 04:34:58] INFO root fetch - processPackages [neon-skill-speak]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [neon-skill-speak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_speak-0.1.1a2-py3-none-any.whl.zip tmp/neon_skill_speak-1.0.0-py3-none-any.whl.zip --markdown 20230511/n/neon-skill-speak/0.1.1a2-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [Augmentum]: Downloading https://files.pythonhosted.org/packages/1f/6a/6cf734ba7222eb64729dfe3771549e4a3a78d42b0abd683d25a4d2d15f4a/Augmentum-0.1.2.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [Augmentum]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [Augmentum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Augmentum-0.1.1.tar.gz tmp/Augmentum-0.1.2.tar.gz --markdown 20230511/A/Augmentum/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: Downloading https://files.pythonhosted.org/packages/6c/56/aa6b03c0415d76143037991db36556ee4cd746a53f110b906eaef456fccc/tencentcloud-sdk-python-cms-3.0.889.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: Downloading https://files.pythonhosted.org/packages/a6/44/c6b25af0b7d6154d85238f3d4bb1382495d85401813d0ee35d717c8d83ec/tencentcloud-sdk-python-cmq-3.0.889.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: Downloading https://files.pythonhosted.org/packages/8b/0d/698d4f46b7e02b3e88067471d40a480f0ce7d3aedd33eb60d3395c211872/tencentcloud-sdk-python-cme-3.0.889.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cms-3.0.888.tar.gz tmp/tencentcloud-sdk-python-cms-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-cms/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230511/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cmq-3.0.888.tar.gz tmp/tencentcloud-sdk-python-cmq-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-cmq/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [tencentcloud-sdk-python-cme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cme-3.0.888.tar.gz tmp/tencentcloud-sdk-python-cme-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-cme/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [bias-adjustment]: Downloading https://files.pythonhosted.org/packages/9b/42/083ba15c6da7abf0ca251cf5e4757ad6c9c28949b00d9dfa88a672d1e3f4/bias_adjustment-1.0.2.tar.gz
+[2023-05-11 04:34:58] INFO root fetch - processPackages [bias-adjustment]: executing diffoscope
+[2023-05-11 04:34:58] INFO root fetch - processPackages [bias-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bias_adjustment-1.0.1.tar.gz tmp/bias_adjustment-1.0.2.tar.gz --markdown 20230511/b/bias-adjustment/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 04:34:58] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-05-11 04:34:59] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-05-11 04:34:59] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230511/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-05-11 04:35:00] INFO root fetch - processPackages [Augmentum]: Start processing: neon-mana-utils
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [Augmentum]: success
+[2023-05-11 04:35:00] INFO root fetch - processPackages [neon-mana-utils]: New version: [0.1.0] Old Version: [0.0.5a7]
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cmq]: success
+[2023-05-11 04:35:00] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/90/c5/998eaebb5f0bbf1c8ae5d5a335f582502bf63801409357b1f241e254b150/neon_mana_utils-0.0.5a7-py3-none-any.whl
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cme]: success
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [neon-skill-speak]: success
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [bias-adjustment]: success
+[2023-05-11 04:35:00] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/3c/08/37184b6162ff02771e742ada5f91c40ef88a715308240ec8e3184915b1ae/neon_mana_utils-0.1.0-py3-none-any.whl
+[2023-05-11 04:35:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cms]: success
+[2023-05-11 04:35:00] INFO root fetch - processPackages [neon-mana-utils]: executing diffoscope
+[2023-05-11 04:35:00] INFO root fetch - processPackages [neon-mana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mana_utils-0.0.5a7-py3-none-any.whl.zip tmp/neon_mana_utils-0.1.0-py3-none-any.whl.zip --markdown 20230511/n/neon-mana-utils/0.0.5a7-0.1.0/diff.md --exclude *.pyd
+[2023-05-11 04:35:01] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-11 04:35:02] INFO root fetch - main [MainThread]: End processing [neon-mana-utils]: success
+[2023-05-11 04:35:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-05-11 04:35:02] INFO root fetch - main [MainThread]: Store serial: [18057191]
