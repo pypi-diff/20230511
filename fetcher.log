@@ -8285,3 +8285,80 @@ EOFError: EOF read where object expected
 [2023-05-11 05:17:13] INFO root fetch - main [MainThread]: End processing [django-fragments]: success
 [2023-05-11 05:17:20] INFO root fetch - main [MainThread]: End processing [FlexGet]: success
 [2023-05-11 05:17:20] INFO root fetch - main [MainThread]: Store serial: [18057743]
+[2023-05-11 05:22:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18057743]
+[2023-05-11 05:22:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyforce
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hostphot
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyroscopegridding
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tcss
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyportfolioanalytics
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tdcpg
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-tdid
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-tdmq
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-tds
+[2023-05-11 05:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-tem
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyroscopegridding]: New version: [0.3.1.4] Old Version: [0.3.1.3]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [hostphot]: New version: [2.6.2] Old Version: [2.6.1]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyportfolioanalytics]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: New version: [3.0.889] Old Version: [3.0.887]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyroscopegridding]: Downloading https://files.pythonhosted.org/packages/fc/b8/a38577fa1c57511b781b9e589332b4373de99094f21c90828b7b6bbb8fb7/pyroscopegridding-0.3.1.3.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyportfolioanalytics]: Downloading https://files.pythonhosted.org/packages/7d/c4/7f6395cadbc84941e60cae48148e0888d506c9cb6b19acf838632d21a2ce/pyportfolioanalytics-0.0.5.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: Downloading https://files.pythonhosted.org/packages/f1/49/d957ce4bc96d8413276d69fdbaea680b720d3bfea909d71d4d72b994c62e/tencentcloud-sdk-python-tds-3.0.888.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Downloading https://files.pythonhosted.org/packages/f5/3d/9ddc75292fb968474433870fc4d0e4c5486e013a147dfcdb0ded55af578a/tencentcloud-sdk-python-tdid-3.0.888.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyroscopegridding]: Downloading https://files.pythonhosted.org/packages/dc/1c/e5c9d18663d08ef7b593238ffe35366cbd574463e73d4e5abe1f79898b1e/pyroscopegridding-0.3.1.4.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyportfolioanalytics]: Downloading https://files.pythonhosted.org/packages/72/5b/6c0b63daafcd1963cc4dc92129a7bf8a30cfdb1c634ebbfdab69139bd29a/pyportfolioanalytics-0.0.6.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [hostphot]: Downloading https://files.pythonhosted.org/packages/bb/67/fbd57b5a9fd106c9b025000506354d78d77ef5f4f42e5d166ba3dadf5e81/hostphot-2.6.2.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: Downloading https://files.pythonhosted.org/packages/4f/03/1934d171d8606b7ad35854c0cbee37b809b710762a42b41c523eee8c4236/tencentcloud-sdk-python-tdmq-3.0.889.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: Downloading https://files.pythonhosted.org/packages/b6/e8/b719b4f4dc26524817f40c8226f696bf4308129b0dfa716f96abc57fb4b3/tencentcloud-sdk-python-tem-3.0.889.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/d9/b4/c7d93e4e7d67bffb61e3e068460165caa5ee4ab7fdd3b3adcd7512165a4c/tencentcloud-sdk-python-tcss-3.0.889.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Downloading https://files.pythonhosted.org/packages/a5/e7/85848059b1be5d696b1d0aa7b6eeb171323f9d0e6a335c066df770725f81/tencentcloud-sdk-python-tdcpg-3.0.889.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyroscopegridding]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: Downloading https://files.pythonhosted.org/packages/3d/11/6869b5e6d797762744086084ddc5ffe7539b36144dcaef65e854df0d57c3/tencentcloud-sdk-python-tdid-3.0.889.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyroscopegridding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscopegridding-0.3.1.3.tar.gz tmp/pyroscopegridding-0.3.1.4.tar.gz --markdown 20230511/p/pyroscopegridding/0.3.1.3-0.3.1.4/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: Downloading https://files.pythonhosted.org/packages/80/e8/b07f8f2ef58e2baec904bab8c0181bc7d9d0963e634a334a59d7a1a1ff45/tencentcloud-sdk-python-tds-3.0.889.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcss-3.0.888.tar.gz tmp/tencentcloud-sdk-python-tcss-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-tcss/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdcpg-3.0.887.tar.gz tmp/tencentcloud-sdk-python-tdcpg-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-tdcpg/3.0.887-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [hostphot]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [hostphot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hostphot-2.6.1.tar.gz tmp/hostphot-2.6.2.tar.gz --markdown 20230511/h/hostphot/2.6.1-2.6.2/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyportfolioanalytics]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [pyportfolioanalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyportfolioanalytics-0.0.5.tar.gz tmp/pyportfolioanalytics-0.0.6.tar.gz --markdown 20230511/p/pyportfolioanalytics/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tem-3.0.888.tar.gz tmp/tencentcloud-sdk-python-tem-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-tem/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdmq-3.0.888.tar.gz tmp/tencentcloud-sdk-python-tdmq-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-tdmq/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tdid-3.0.888.tar.gz tmp/tencentcloud-sdk-python-tdid-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-tdid/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: executing diffoscope
+[2023-05-11 05:22:30] INFO root fetch - processPackages [tencentcloud-sdk-python-tds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tds-3.0.888.tar.gz tmp/tencentcloud-sdk-python-tds-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-tds/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:31] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-05-11 05:22:31] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230511/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 05:22:32] INFO root fetch - processPackages [pyroscopegridding]: Start processing: tencentcloud-sdk-python-teo
+[2023-05-11 05:22:32] INFO root fetch - main [MainThread]: End processing [pyroscopegridding]: success
+[2023-05-11 05:22:32] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 05:22:32] INFO root fetch - processPackages [tencentcloud-sdk-python-tdcpg]: Start processing: qcontext
+[2023-05-11 05:22:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdcpg]: success
+[2023-05-11 05:22:32] WARNING root fetch - processPackages [qcontext]: Skipping, unable to determine old version
+[2023-05-11 05:22:32] INFO root fetch - main [MainThread]: End processing [qcontext] error
+[2023-05-11 05:22:32] INFO root fetch - main [MainThread]: End processing [pyportfolioanalytics]: success
+[2023-05-11 05:22:32] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: Downloading https://files.pythonhosted.org/packages/fb/a7/75af7869bb9cd8dde887e8db7cc551221361262b19f2f4e191e5bcc944ae/tencentcloud-sdk-python-teo-3.0.889.tar.gz
+[2023-05-11 05:22:32] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: executing diffoscope
+[2023-05-11 05:22:32] INFO root fetch - processPackages [tencentcloud-sdk-python-teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-teo-3.0.888.tar.gz tmp/tencentcloud-sdk-python-teo-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-teo/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 05:22:32] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tds]: success
+[2023-05-11 05:22:33] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-05-11 05:22:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdid]: success
+[2023-05-11 05:22:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tem]: success
+[2023-05-11 05:22:34] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tdmq]: success
+[2023-05-11 05:22:35] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-teo]: success
+[2023-05-11 05:22:35] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcss]: success
+[2023-05-11 05:22:35] INFO root fetch - main [MainThread]: End processing [hostphot]: success
+[2023-05-11 05:22:35] INFO root fetch - main [MainThread]: Store serial: [18057780]
