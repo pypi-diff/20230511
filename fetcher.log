@@ -19090,3 +19090,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:39:09] INFO root fetch - main [MainThread]: End processing [stix-shifter-utils]: success
 [2023-05-11 14:39:10] INFO root fetch - main [MainThread]: End processing [efemarai]: success
 [2023-05-11 14:39:10] INFO root fetch - main [MainThread]: Store serial: [18063611]
+[2023-05-11 14:44:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063611]
+[2023-05-11 14:44:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fdk
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyNumeca
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rkvst-archivist
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: os2ds-rules
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CovRegpy
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: classconfig
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taskiq-aiohttp
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: addict-tracking-changes
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nanoprep-ffm
+[2023-05-11 14:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cwl-utils
+[2023-05-11 14:44:19] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [fdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [rkvst-archivist]: New version: [0.22.0] Old Version: [0.21.0]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-05-11 14:44:19] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230511/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 14:44:19] INFO root fetch - processPackages [taskiq-aiohttp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [CovRegpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [addict-tracking-changes]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [classconfig]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [os2ds-rules]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [cwl-utils]: New version: [0.9] Old Version: [0.8]
+[2023-05-11 14:44:19] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/10/7f/f459d5a81d6d9ddbb07271dd0458bf3e0b1bd812bb9f40b6c8112a96cc47/fdk-0.1.6.tar.gz
+[2023-05-11 14:44:19] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/79/58/8071f3d0dc87d38ff32031f266fa00a080553dd026080daec9aa3b82eff4/rkvst-archivist-0.21.0.tar.gz
+[2023-05-11 14:44:19] INFO root fetch - processPackages [classconfig]: Downloading https://files.pythonhosted.org/packages/4a/2c/c88a62f70bb4509d31ce1770e636fee9454ac3f80b0cec33d405bb9a76cd/classconfig-1.0.2.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/e1/ca/b7d7ca0b0370b0ed144bcafabffb35431470d3c39c1daa7da3fa18189ab0/taskiq_aiohttp-0.1.1.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [CovRegpy]: Downloading https://files.pythonhosted.org/packages/5a/40/2d77b5314bf987ac8de94cbc0a5dd355084298f88750adb2ddfa442fca13/CovRegpy-0.0.1.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [cwl-utils]: Downloading https://files.pythonhosted.org/packages/d3/68/559c19042fa610b775dcfe7ca7bc224f7d1de637598b7195ca091722772a/cwl-utils-0.8.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/41/14/7e8071666d416049e6ba639840e5d0889e22a4fdd85ef4e7fe82361f9507/nanoprep-ffm-0.0.8.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [os2ds-rules]: Downloading https://files.pythonhosted.org/packages/0a/a7/451e8ca5b0000d7f23f356090cb91a7493f1b7a15803ed780d89e4d1faf6/os2ds-rules-0.0.5.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [addict-tracking-changes]: Downloading https://files.pythonhosted.org/packages/a4/ee/ff433ae4a1f9a7cd51b04602f929aed20dd3b52fba7d0c91be6b995b5d56/addict-tracking-changes-1.0.1.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [classconfig]: Downloading https://files.pythonhosted.org/packages/dd/9e/33140b3f90d3cd2846c5c0afd9834658d042b4272b4ceeb9563a2a47f8a3/classconfig-1.0.3.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [CovRegpy]: Downloading https://files.pythonhosted.org/packages/03/cf/76cadb86ce12ec4611927f95b2b3d7249c496b6bc5f1403d9eb205c5f925/CovRegpy-0.0.2.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [addict-tracking-changes]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [addict-tracking-changes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/addict-tracking-changes-1.0.0.tar.gz tmp/addict-tracking-changes-1.0.1.tar.gz --markdown 20230511/a/addict-tracking-changes/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [nanoprep-ffm]: Downloading https://files.pythonhosted.org/packages/39/b5/ffdc4b6a746556d4e5b3f4d2b834a5a8b74bb23852f492280c37d2a0c30e/nanoprep-ffm-0.0.9.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [os2ds-rules]: Downloading https://files.pythonhosted.org/packages/c3/a2/d9d4aa6827db06cec5dffa5709619d05c375f027fd615b4c0ab3f21f88eb/os2ds-rules-0.0.6.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [taskiq-aiohttp]: Downloading https://files.pythonhosted.org/packages/71/1a/8fd775be65187e300f8d1928d7679cf5fa2f308d552b9ec8a59c132cd4f2/taskiq_aiohttp-0.1.2.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [fdk]: Downloading https://files.pythonhosted.org/packages/74/b2/ab2c7f832a93a09451a20012dd2e52b5b30bc10a46e67390e01ddf7a4918/fdk-0.1.7.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/b3/d7/1b57efdab98fcd7b998eef647f1080eb673a5d9a747cac74b447f4c2b221/rkvst-archivist-0.22.0.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [classconfig]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [classconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classconfig-1.0.2.tar.gz tmp/classconfig-1.0.3.tar.gz --markdown 20230511/c/classconfig/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [CovRegpy]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [CovRegpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CovRegpy-0.0.1.tar.gz tmp/CovRegpy-0.0.2.tar.gz --markdown 20230511/C/CovRegpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep-ffm-0.0.8.tar.gz tmp/nanoprep-ffm-0.0.9.tar.gz --markdown 20230511/n/nanoprep-ffm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [taskiq-aiohttp]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [taskiq-aiohttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aiohttp-0.1.1.tar.gz tmp/taskiq_aiohttp-0.1.2.tar.gz --markdown 20230511/t/taskiq-aiohttp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [os2ds-rules]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [os2ds-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os2ds-rules-0.0.5.tar.gz tmp/os2ds-rules-0.0.6.tar.gz --markdown 20230511/o/os2ds-rules/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [rkvst-archivist]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [rkvst-archivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rkvst-archivist-0.21.0.tar.gz tmp/rkvst-archivist-0.22.0.tar.gz --markdown 20230511/r/rkvst-archivist/0.21.0-0.22.0/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [cwl-utils]: Downloading https://files.pythonhosted.org/packages/9a/1f/d99d30c8bc20f664466623599492829bec26e97df95fa688a1bec49b0c50/cwl-utils-0.9.tar.gz
+[2023-05-11 14:44:20] INFO root fetch - processPackages [fdk]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [fdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk-0.1.6.tar.gz tmp/fdk-0.1.7.tar.gz --markdown 20230511/f/fdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 14:44:20] INFO root fetch - processPackages [cwl-utils]: executing diffoscope
+[2023-05-11 14:44:20] INFO root fetch - processPackages [cwl-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwl-utils-0.8.tar.gz tmp/cwl-utils-0.9.tar.gz --markdown 20230511/c/cwl-utils/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-11 14:44:21] INFO root fetch - processPackages [PyNumeca]: Start processing: certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook
+[2023-05-11 14:44:21] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-05-11 14:44:21] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: New version: [20230510.8.43.321308] Old Version: [20230510.6.25.196118]
+[2023-05-11 14:44:21] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Downloading https://files.pythonhosted.org/packages/9c/82/8a37757c243fbda72190dfbc6e1906a5ae08b4315e47d6bc6ef76fb58ffa/certora-cli-alpha-naftali-CERT-1883_support_multiple_blocks_in_hook-20230510.6.25.196118.tar.gz
+[2023-05-11 14:44:21] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Skipping package: exceeds size limit 39214430>=10485760
+[2023-05-11 14:44:21] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Start processing: fastapi2postman
+[2023-05-11 14:44:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook] error
+[2023-05-11 14:44:21] WARNING root fetch - processPackages [fastapi2postman]: Skipping, unable to determine old version
+[2023-05-11 14:44:21] INFO root fetch - processPackages [fastapi2postman]: Start processing: labvirtual
+[2023-05-11 14:44:21] INFO root fetch - main [MainThread]: End processing [fastapi2postman] error
+[2023-05-11 14:44:21] INFO root fetch - processPackages [labvirtual]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 14:44:21] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/25/59/c2cd46c0e46f16c1062bbb5494aa8f51033cdcd129b3bfd4df34fc8fea56/labvirtual-0.2.1.tar.gz
+[2023-05-11 14:44:21] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43630711>=10485760
+[2023-05-11 14:44:21] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 14:44:21] INFO root fetch - main [MainThread]: End processing [CovRegpy]: success
+[2023-05-11 14:44:21] INFO root fetch - main [MainThread]: End processing [classconfig]: success
+[2023-05-11 14:44:22] INFO root fetch - main [MainThread]: End processing [taskiq-aiohttp]: success
+[2023-05-11 14:44:22] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-05-11 14:44:22] INFO root fetch - main [MainThread]: End processing [os2ds-rules]: success
+[2023-05-11 14:44:22] INFO root fetch - main [MainThread]: End processing [rkvst-archivist]: success
+[2023-05-11 14:44:23] INFO root fetch - main [MainThread]: End processing [fdk]: success
+[2023-05-11 14:44:23] INFO root fetch - main [MainThread]: End processing [addict-tracking-changes]: success
+[2023-05-11 14:44:25] INFO root fetch - main [MainThread]: End processing [cwl-utils]: success
+[2023-05-11 14:44:25] INFO root fetch - main [MainThread]: Store serial: [18063655]
