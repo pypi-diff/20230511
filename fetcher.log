@@ -19795,3 +19795,139 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:22:36] INFO root fetch - main [MainThread]: End processing [dbt-coves]: success
 [2023-05-11 15:22:38] INFO root fetch - main [MainThread]: End processing [xgi]: success
 [2023-05-11 15:22:38] INFO root fetch - main [MainThread]: Store serial: [18064027]
+[2023-05-11 15:27:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064027]
+[2023-05-11 15:27:48] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lendsmart-autotest
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model2queue
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: generic-path
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fusion-platform-python-sdk
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: x4i3
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: orbit-database-shell
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: analysis-engine
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-pfx
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: highrise-bot-sdk
+[2023-05-11 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pqinput
+[2023-05-11 15:27:48] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.9] Old Version: [1.8]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [generic-path]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [model2queue]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [x4i3]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [fusion-platform-python-sdk]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [analysis-engine]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [pqinput]: New version: [0.0.400] Old Version: [0.0.4]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [highrise-bot-sdk]: New version: [23.1.0b9] Old Version: [23.1.0b8]
+[2023-05-11 15:27:48] WARNING root fetch - processPackages [orbit-database-shell]: Skipping, unable to determine old version
+[2023-05-11 15:27:48] INFO root fetch - processPackages [orbit-database-shell]: Start processing: dbt-ai
+[2023-05-11 15:27:48] INFO root fetch - main [MainThread]: End processing [orbit-database-shell] error
+[2023-05-11 15:27:48] INFO root fetch - processPackages [django-pfx]: New version: [1.2.dev8] Old Version: [1.2.dev6]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-05-11 15:27:48] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.4.tar.gz tmp/pqinput-0.0.400.tar.gz --markdown 20230511/p/pqinput/0.0.4-0.0.400/diff.md --exclude *.pyd
+[2023-05-11 15:27:48] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/7e/d1/c856c9b1015405857e64f9aec713bf9cb0bb2d84239890831042df9ec28f/generic-path-0.4.2.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/6b/01/95ec0f95d62c77cb3869b07be9add474b3876f268d12b6ac375665ddc0c9/fusion-platform-python-sdk-1.6.7.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [analysis-engine]: Downloading https://files.pythonhosted.org/packages/8a/d3/2b4ad9ea7a450e3782c1d84bb671e583cc2ac5c939ccd16e845a18276fb0/analysis_engine-2.0.8.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [x4i3]: Downloading https://files.pythonhosted.org/packages/81/b7/3ef3c7ae33d49c1ac0a5df08715281d6bf17ff04b1f3d0d457d06321c392/x4i3-1.2.3.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 15:27:48] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/9e/7a/166090069cb26db15a97cf0f76551e0b46b799267bfe38724670f1d5c38b/highrise_bot_sdk-23.1.0b8.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/54/70/4a4f797964213e9f66229027443676c47a7e9fdf6f893c9e3643ca382e1f/lendsmart_autotest-1.9.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [model2queue]: Downloading https://files.pythonhosted.org/packages/03/4e/299ab78916bd3dc752f682cf0e22ce0be8262286bee35ffebf5b7a951632/model2queue-0.1.3.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/0e/f4/7ff2daaa0aaeadb2b9117275b9409106f1f4008632472cc4e33efdb29a43/generic-path-0.4.3.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-11 15:27:48] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.8.tar.gz tmp/lendsmart_autotest-1.9.tar.gz --markdown 20230511/l/lendsmart-autotest/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-11 15:27:48] INFO root fetch - processPackages [model2queue]: executing diffoscope
+[2023-05-11 15:27:48] INFO root fetch - processPackages [model2queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model2queue-0.1.2.tar.gz tmp/model2queue-0.1.3.tar.gz --markdown 20230511/m/model2queue/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 15:27:48] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2023-05-11 15:27:48] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.2.dev6.tar.gz tmp/django-pfx-1.2.dev8.tar.gz --markdown 20230511/d/django-pfx/1.2.dev6-1.2.dev8/diff.md --exclude *.pyd
+[2023-05-11 15:27:48] INFO root fetch - processPackages [x4i3]: Downloading https://files.pythonhosted.org/packages/04/98/290f423615798f1f25ce73928f1d3070f2bd589280689d6b5ba0ade4d2fe/x4i3-1.2.4.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [highrise-bot-sdk]: Downloading https://files.pythonhosted.org/packages/d8/2e/d478c8615ab808c6782ccfc14040e1326b207fe0187fe64a760f8532ed5e/highrise_bot_sdk-23.1.0b9.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [dbt-ai]: Downloading https://files.pythonhosted.org/packages/57/82/a19c989561fd751e6cf0862b495356ce98f5286cc6e275dde288f2828508/dbt-ai-0.2.1.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [analysis-engine]: Downloading https://files.pythonhosted.org/packages/e1/62/9dab7df46643efdd0e8f349f472256e54dff4221e46ffae244b1dcd7ff87/analysis_engine-2.0.9.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [fusion-platform-python-sdk]: Downloading https://files.pythonhosted.org/packages/e9/a4/26415d05cf71df8f04f7d59fc5019d66cd72d8560ce583880c7bb24e93f6/fusion-platform-python-sdk-1.6.9.tar.gz
+[2023-05-11 15:27:48] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-05-11 15:27:48] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.4.2.tar.gz tmp/generic-path-0.4.3.tar.gz --markdown 20230511/g/generic-path/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-11 15:27:49] INFO root fetch - processPackages [x4i3]: executing diffoscope
+[2023-05-11 15:27:49] INFO root fetch - processPackages [x4i3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x4i3-1.2.3.tar.gz tmp/x4i3-1.2.4.tar.gz --markdown 20230511/x/x4i3/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-05-11 15:27:49] INFO root fetch - processPackages [highrise-bot-sdk]: executing diffoscope
+[2023-05-11 15:27:49] INFO root fetch - processPackages [highrise-bot-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highrise_bot_sdk-23.1.0b8.tar.gz tmp/highrise_bot_sdk-23.1.0b9.tar.gz --markdown 20230511/h/highrise-bot-sdk/23.1.0b8-23.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 15:27:49] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-11 15:27:49] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.2.0.tar.gz tmp/dbt-ai-0.2.1.tar.gz --markdown 20230511/d/dbt-ai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 15:27:49] INFO root fetch - processPackages [fusion-platform-python-sdk]: executing diffoscope
+[2023-05-11 15:27:49] INFO root fetch - processPackages [fusion-platform-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-platform-python-sdk-1.6.7.tar.gz tmp/fusion-platform-python-sdk-1.6.9.tar.gz --markdown 20230511/f/fusion-platform-python-sdk/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-05-11 15:27:49] INFO root fetch - processPackages [analysis-engine]: executing diffoscope
+[2023-05-11 15:27:49] INFO root fetch - processPackages [analysis-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis_engine-2.0.8.tar.gz tmp/analysis_engine-2.0.9.tar.gz --markdown 20230511/a/analysis-engine/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-11 15:27:50] INFO root fetch - processPackages [pqinput]: Start processing: pyquokka
+[2023-05-11 15:27:50] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-05-11 15:27:50] INFO root fetch - processPackages [pyquokka]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-11 15:27:50] INFO root fetch - processPackages [lendsmart-autotest]: Start processing: fbgemm-gpu-nightly
+[2023-05-11 15:27:50] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-11 15:27:50] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-11 15:27:50] INFO root fetch - processPackages [model2queue]: Start processing: ecs-composex
+[2023-05-11 15:27:50] INFO root fetch - main [MainThread]: End processing [model2queue]: success
+[2023-05-11 15:27:50] INFO root fetch - processPackages [ecs-composex]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-05-11 15:27:50] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/40/00/54798e4b8e6961970749ab00775cbd6ed5c717d16faba8ea895ca7bd8599/fbgemm_gpu_nightly-2023.5.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-05-11 15:27:50] INFO root fetch - processPackages [pyquokka]: Downloading https://files.pythonhosted.org/packages/c2/74/c0c71e095ecd97eb84a52168edc9e3a178f77f6ed1d6612755f14b0f3b9e/pyquokka-0.3.0-py3-none-any.whl
+[2023-05-11 15:27:50] INFO root fetch - processPackages [pyquokka]: executing diffoscope
+[2023-05-11 15:27:50] INFO root fetch - processPackages [pyquokka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquokka-0.2.9-py3-none-any.whl.zip tmp/pyquokka-0.3.0-py3-none-any.whl.zip --markdown 20230511/p/pyquokka/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 15:27:50] INFO root fetch - processPackages [ecs-composex]: Downloading https://files.pythonhosted.org/packages/71/65/25118bd168574eb25b00b44521d69a32ebbb8ff437dcc4638e6968c6cdb5/ecs_composex-0.8.9.tar.gz
+[2023-05-11 15:27:51] INFO root fetch - processPackages [highrise-bot-sdk]: Start processing: xguard
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [highrise-bot-sdk]: success
+[2023-05-11 15:27:51] INFO root fetch - processPackages [xguard]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 15:27:51] INFO root fetch - processPackages [dbt-ai]: Start processing: omero2pandas
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-11 15:27:51] INFO root fetch - processPackages [ecs-composex]: Downloading https://files.pythonhosted.org/packages/82/e2/6ac5b2b2eca42a9b9d8d90efb9d2bd1e3a36ec6a48879ad6635a60b3ec4a/ecs_composex-0.9.2.tar.gz
+[2023-05-11 15:27:51] INFO root fetch - processPackages [omero2pandas]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 15:27:51] INFO root fetch - processPackages [x4i3]: Start processing: NEMO-billing
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [x4i3]: success
+[2023-05-11 15:27:51] INFO root fetch - processPackages [NEMO-billing]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-11 15:27:51] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 267868661>=10485760
+[2023-05-11 15:27:51] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: great-components
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-05-11 15:27:51] INFO root fetch - processPackages [xguard]: Downloading https://files.pythonhosted.org/packages/c5/ff/8b18bbaac68df8d0d1c97ce00bd03c9fe86a4d2fb6f53d3fe8f341b1921f/xguard-1.0.2.tar.gz
+[2023-05-11 15:27:51] INFO root fetch - processPackages [omero2pandas]: Downloading https://files.pythonhosted.org/packages/f2/af/7e4749f1a5827808188e839220206993fc5bcc4f9df38bfb11c141a13025/omero2pandas-0.1.1.tar.gz
+[2023-05-11 15:27:51] INFO root fetch - processPackages [analysis-engine]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [analysis-engine]: success
+[2023-05-11 15:27:51] INFO root fetch - processPackages [great-components]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-05-11 15:27:51] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/cf/8b/a8293688cd82f6f84f847ba467b4198373cbd9c7bf8216ca33844171f144/NEMO_billing-2.1.1-py3-none-any.whl
+[2023-05-11 15:27:51] INFO root fetch - processPackages [ecs-composex]: executing diffoscope
+[2023-05-11 15:27:51] INFO root fetch - processPackages [ecs-composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-0.8.9.tar.gz tmp/ecs_composex-0.9.2.tar.gz --markdown 20230511/e/ecs-composex/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 15:27:51] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:27:51] INFO root fetch - processPackages [fusion-platform-python-sdk]: Start processing: meshed
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [fusion-platform-python-sdk]: success
+[2023-05-11 15:27:51] INFO root fetch - processPackages [xguard]: executing diffoscope
+[2023-05-11 15:27:51] INFO root fetch - processPackages [xguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xguard-1.0.2.tar.gz tmp/xguard-1.0.3.tar.gz --markdown 20230511/x/xguard/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:27:51] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-11 15:27:51] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-11 15:27:51] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:27:51] INFO root fetch - processPackages [django-pfx]: Start processing: fakeredis
+[2023-05-11 15:27:51] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2023-05-11 15:27:51] INFO root fetch - processPackages [great-components]: Downloading https://files.pythonhosted.org/packages/c2/00/228c045f4b5acf44a9aeaa8c48023e56c84950051520ad18f628d2556f63/great_components-2.1.2-py3-none-any.whl
+[2023-05-11 15:27:51] INFO root fetch - processPackages [omero2pandas]: Downloading https://files.pythonhosted.org/packages/8c/ae/10a657a5a899af81cfb126aadfa3edf6f69735f5b79349c55205a29e296a/omero2pandas-0.1.2.tar.gz
+[2023-05-11 15:27:51] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-05-11 15:27:51] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230511/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-11 15:27:51] INFO root fetch - processPackages [fakeredis]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-11 15:27:51] INFO root fetch - processPackages [omero2pandas]: executing diffoscope
+[2023-05-11 15:27:51] INFO root fetch - processPackages [omero2pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero2pandas-0.1.1.tar.gz tmp/omero2pandas-0.1.2.tar.gz --markdown 20230511/o/omero2pandas/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 15:27:51] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/f8/22/e89ff4d734207200d4667a0e099d06078b8935e9fbc6e569e13a575d9938/NEMO_billing-2.1.2-py3-none-any.whl
+[2023-05-11 15:27:52] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-05-11 15:27:52] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.1.1-py3-none-any.whl.zip tmp/NEMO_billing-2.1.2-py3-none-any.whl.zip --markdown 20230511/N/NEMO-billing/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-11 15:27:52] INFO root fetch - processPackages [fakeredis]: executing diffoscope
+[2023-05-11 15:27:52] INFO root fetch - processPackages [fakeredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakeredis-2.9.1.tar.gz tmp/fakeredis-2.9.2.tar.gz --markdown 20230511/f/fakeredis/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-11 15:27:53] INFO root fetch - processPackages [pyquokka]: Start processing: wsidicomizer
+[2023-05-11 15:27:53] INFO root fetch - main [MainThread]: End processing [pyquokka]: success
+[2023-05-11 15:27:53] INFO root fetch - processPackages [wsidicomizer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-11 15:27:53] INFO root fetch - processPackages [great-components]: Downloading https://files.pythonhosted.org/packages/37/e4/a547c05486cf6b786c120f9cabf5e98ddb166fb6234008c76764e3f8716a/great_components-2.1.3-py3-none-any.whl
+[2023-05-11 15:27:53] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-05-11 15:27:53] INFO root fetch - processPackages [great-components]: executing diffoscope
+[2023-05-11 15:27:53] INFO root fetch - processPackages [great-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_components-2.1.2-py3-none-any.whl.zip tmp/great_components-2.1.3-py3-none-any.whl.zip --markdown 20230511/g/great-components/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-05-11 15:27:53] INFO root fetch - processPackages [wsidicomizer]: Downloading https://files.pythonhosted.org/packages/f3/48/470a865d7c90952a6d11f5614041acdb03958ebfc3b22fb5ee7a40a19840/wsidicomizer-0.9.1.tar.gz
+[2023-05-11 15:27:53] INFO root fetch - main [MainThread]: End processing [xguard]: success
+[2023-05-11 15:27:53] INFO root fetch - processPackages [wsidicomizer]: Downloading https://files.pythonhosted.org/packages/6b/84/5916082efd279aa16c977e7f16300a4bdb6e1fdfb661beb78e4b190a393c/wsidicomizer-0.9.2.tar.gz
+[2023-05-11 15:27:53] INFO root fetch - main [MainThread]: End processing [omero2pandas]: success
+[2023-05-11 15:27:53] INFO root fetch - processPackages [wsidicomizer]: executing diffoscope
+[2023-05-11 15:27:53] INFO root fetch - processPackages [wsidicomizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsidicomizer-0.9.1.tar.gz tmp/wsidicomizer-0.9.2.tar.gz --markdown 20230511/w/wsidicomizer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 15:27:54] INFO root fetch - main [MainThread]: End processing [fakeredis]: success
+[2023-05-11 15:27:54] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-05-11 15:27:54] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-05-11 15:27:55] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-11 15:27:56] INFO root fetch - main [MainThread]: End processing [wsidicomizer]: success
+[2023-05-11 15:27:56] INFO root fetch - main [MainThread]: End processing [ecs-composex]: success
+[2023-05-11 15:28:05] INFO root fetch - main [MainThread]: End processing [great-components]: success
+[2023-05-11 15:28:05] INFO root fetch - main [MainThread]: Store serial: [18064100]
