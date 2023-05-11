@@ -9901,3 +9901,55 @@ EOFError: EOF read where object expected
 [2023-05-11 07:46:14] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
 [2023-05-11 07:46:33] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2023-05-11 07:46:33] INFO root fetch - main [MainThread]: Store serial: [18058611]
+[2023-05-11 07:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058611]
+[2023-05-11 07:51:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-rahav-cert-1987-update-regTest
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyAltiumRunTop
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyAltiumRunTop
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CreateAI
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-auth0
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitlab
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arclet-alconna-tools
+[2023-05-11 07:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rum-with-telegram
+[2023-05-11 07:51:42] INFO root fetch - processPackages [PyAltiumRunTop]: New version: [0.2.4.4] Old Version: [0.2.4.3]
+[2023-05-11 07:51:42] INFO root fetch - processPackages [PyAltiumRunTop]: New version: [0.2.4.4] Old Version: [0.2.4.3]
+[2023-05-11 07:51:42] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: New version: [20230511.5.47.946966] Old Version: [20230511.5.25.666096]
+[2023-05-11 07:51:42] INFO root fetch - processPackages [rum-with-telegram]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-11 07:51:42] INFO root fetch - processPackages [CreateAI]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-11 07:51:42] INFO root fetch - processPackages [unitlab]: New version: [1.8.0] Old Version: [1.7.9]
+[2023-05-11 07:51:43] INFO root fetch - processPackages [arclet-alconna-tools]: New version: [0.6.0rc1] Old Version: [0.6.0]
+[2023-05-11 07:51:43] INFO root fetch - processPackages [pulumi-auth0]: New version: [2.9.0a1653604814] Old Version: [2.9.0a1651588791]
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/50/0d/2fc68c26c34f00278a12e42ec971ab5ec44c56b669a368ca13efc590b397/PyAltiumRunTop-0.2.4.3.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [rum-with-telegram]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [rum-with-telegram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rum_with_telegram-0.9.7.tar.gz tmp/rum_with_telegram-0.9.8.tar.gz --markdown 20230511/r/rum-with-telegram/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/50/0d/2fc68c26c34f00278a12e42ec971ab5ec44c56b669a368ca13efc590b397/PyAltiumRunTop-0.2.4.3.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Downloading https://files.pythonhosted.org/packages/98/8c/b1cda3ae97d15808fd8905717f356c4f1b90a955ca3801858c128550b81a/certora-cli-alpha-rahav-cert-1987_update_regTest-20230511.5.25.666096.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [arclet-alconna-tools]: Downloading https://files.pythonhosted.org/packages/b9/1b/e27ada44b40f39d05a76ffc4a83e1fa28e3e52287262a03a3c79516c2f91/arclet-alconna-tools-0.6.0.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [CreateAI]: Downloading https://files.pythonhosted.org/packages/7c/76/1b949517a5a5486f4558b288519ac98a8f0b23c82c98284e97442b67c85b/CreateAI-0.9.4.tar.gz
+[2023-05-11 07:51:43] WARNING root fetch - processPackages [certora-cli-alpha-rahav-cert-1987-update-regTest]: Skipping package: exceeds size limit 39213891>=10485760
+[2023-05-11 07:51:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-rahav-cert-1987-update-regTest] error
+[2023-05-11 07:51:43] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/5d/38/3539d7daf3aa55301764519d2961f4b1e97a3e4df6b10b07966845e04029/unitlab-1.7.9.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/09/e0/1caf61fd758e0a0a7c3d9b8c564a0067afb36783e4d54b392b99c6926710/PyAltiumRunTop-0.2.4.4.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: Downloading https://files.pythonhosted.org/packages/09/e0/1caf61fd758e0a0a7c3d9b8c564a0067afb36783e4d54b392b99c6926710/PyAltiumRunTop-0.2.4.4.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAltiumRunTop-0.2.4.3.tar.gz tmp/PyAltiumRunTop-0.2.4.4.tar.gz --markdown 20230511/P/PyAltiumRunTop/0.2.4.3-0.2.4.4/diff.md --exclude *.pyd
+[2023-05-11 07:51:43] INFO root fetch - processPackages [CreateAI]: Downloading https://files.pythonhosted.org/packages/83/7b/e1348a1d8fa2c5db9473ce7aadd7b22ce44824758c2fe761926f072cd091/CreateAI-0.9.5.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [PyAltiumRunTop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAltiumRunTop-0.2.4.3.tar.gz tmp/PyAltiumRunTop-0.2.4.4.tar.gz --markdown 20230511/P/PyAltiumRunTop/0.2.4.3-0.2.4.4/diff.md --exclude *.pyd
+[2023-05-11 07:51:43] INFO root fetch - processPackages [pulumi-auth0]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [pulumi-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_auth0-2.9.0a1651588791.tar.gz tmp/pulumi_auth0-2.9.0a1653604814.tar.gz --markdown 20230511/p/pulumi-auth0/2.9.0a1651588791-2.9.0a1653604814/diff.md --exclude *.pyd
+[2023-05-11 07:51:43] INFO root fetch - processPackages [CreateAI]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [CreateAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CreateAI-0.9.4.tar.gz tmp/CreateAI-0.9.5.tar.gz --markdown 20230511/C/CreateAI/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-11 07:51:43] INFO root fetch - processPackages [arclet-alconna-tools]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [arclet-alconna-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-tools-0.6.0.tar.gz tmp/arclet-alconna-tools-0.6.0rc1.tar.gz --markdown 20230511/a/arclet-alconna-tools/0.6.0-0.6.0rc1/diff.md --exclude *.pyd
+[2023-05-11 07:51:43] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/dd/f0/6f78ae1607fdeaf2d1d7e90800d3e5a29d74e76356ae16e59c5af99676ec/unitlab-1.8.0.tar.gz
+[2023-05-11 07:51:43] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2023-05-11 07:51:43] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-1.7.9.tar.gz tmp/unitlab-1.8.0.tar.gz --markdown 20230511/u/unitlab/1.7.9-1.8.0/diff.md --exclude *.pyd
+[2023-05-11 07:51:44] INFO root fetch - main [MainThread]: End processing [rum-with-telegram]: success
+[2023-05-11 07:51:44] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
+[2023-05-11 07:51:44] INFO root fetch - main [MainThread]: End processing [CreateAI]: success
+[2023-05-11 07:51:44] INFO root fetch - main [MainThread]: End processing [arclet-alconna-tools]: success
+[2023-05-11 07:51:45] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
+[2023-05-11 07:51:45] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2023-05-11 07:51:45] INFO root fetch - main [MainThread]: End processing [pulumi-auth0]: success
+[2023-05-11 07:51:45] INFO root fetch - main [MainThread]: Store serial: [18058639]
