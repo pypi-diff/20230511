@@ -19576,3 +19576,143 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:11:05] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-05-11 15:11:48] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2023-05-11 15:11:48] INFO root fetch - main [MainThread]: Store serial: [18063899]
+[2023-05-11 15:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063899]
+[2023-05-11 15:17:07] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ldbpy
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edk2-basetools
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpycocotools-stubs
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scw-serverless
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: livesolid
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-scipy
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsj-gcf-utils
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmcb-avt
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netgen-mesher
+[2023-05-11 15:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spacetraders
+[2023-05-11 15:17:08] INFO root fetch - processPackages [livesolid]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [edk2-basetools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [rpycocotools-stubs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [ldbpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [spacetraders]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [scw-serverless]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.82] Old Version: [0.0.81]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nsj-gcf-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2302.post43.dev0] Old Version: [6.2.2302.post42.dev0]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [scw-serverless]: Downloading https://files.pythonhosted.org/packages/2a/15/35ac0efc6f5ed00376f0a4b8ff099c650be691ee2b27ae22ae975d5415fa/scw_serverless-1.0.2.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/58/c8/f6db6785950c5af720fb15fd8678ffac2f291f178a626ca2c550a6a343b5/mmcb-avt-0.0.82.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nsj-gcf-utils]: Downloading https://files.pythonhosted.org/packages/cd/56/1474ea19fb90c1e05108cd230f30a99b7811aa965c24870dbdca0ae70984/nsj_gcf_utils-1.0.8.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/5e/76/6a2beadb473b393559ff4218143a92c7f03516001677a05943d4af6ca250/netgen_mesher-6.2.2302.post42.dev0-cp39-cp39-win_amd64.whl
+[2023-05-11 15:17:08] INFO root fetch - processPackages [ldbpy]: Downloading https://files.pythonhosted.org/packages/31/70/b3be6b3a46115523a06ad1788ce510ab1a04c9fa83052f3269a8753b0d64/ldbpy-0.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 15:17:08] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20013318>=10485760
+[2023-05-11 15:17:08] INFO root fetch - processPackages [netgen-mesher]: Start processing: nbdev-sphinx
+[2023-05-11 15:17:08] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-05-11 15:17:08] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/73/20/00d89382541c2ae8f983d5df0a686f71b9f5422ef9465b634edab6c8b0fc/spacetraders-0.2.0.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:17:08] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.81.tar.gz tmp/mmcb-avt-0.0.82.tar.gz --markdown 20230511/m/mmcb-avt/0.0.81-0.0.82/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [livesolid]: Downloading https://files.pythonhosted.org/packages/8f/e4/e9d38402b089695413ff78a7876f38d33bd8e52b93689c3fdcb37c78723c/livesolid-0.0.7.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [edk2-basetools]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [edk2-basetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-basetools-0.1.8.tar.gz tmp/edk2-basetools-0.1.9.tar.gz --markdown 20230511/e/edk2-basetools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.1.4.tar.gz tmp/spacetraders-0.2.0.tar.gz --markdown 20230511/s/spacetraders/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [ldbpy]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [ldbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldbpy-0.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ldbpy-0.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230511/l/ldbpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230511/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [rpycocotools-stubs]: Downloading https://files.pythonhosted.org/packages/b6/39/650d023cc82787788fee4eea5544efbda48870e5cd475743be2ad71a986d/rpycocotools_stubs-0.0.5.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [livesolid]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [livesolid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livesolid-0.0.6.tar.gz tmp/livesolid-0.0.7.tar.gz --markdown 20230511/l/livesolid/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230511/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [rpycocotools-stubs]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [rpycocotools-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpycocotools_stubs-0.0.4.tar.gz tmp/rpycocotools_stubs-0.0.5.tar.gz --markdown 20230511/r/rpycocotools-stubs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [scw-serverless]: Downloading https://files.pythonhosted.org/packages/6e/a2/bcef3f2817d93c6190f71a4a3d6019350bd137d6e562e1e882b2c61add1b/scw_serverless-1.1.0.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nsj-gcf-utils]: Downloading https://files.pythonhosted.org/packages/d7/f8/41447127b0a9ca38b7a771547c4690dd7eb7a6390f04714a50eb07e2a113/nsj_gcf_utils-1.0.9.tar.gz
+[2023-05-11 15:17:08] INFO root fetch - processPackages [scw-serverless]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [scw-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scw_serverless-1.0.2.tar.gz tmp/scw_serverless-1.1.0.tar.gz --markdown 20230511/s/scw-serverless/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nsj-gcf-utils]: executing diffoscope
+[2023-05-11 15:17:08] INFO root fetch - processPackages [nsj-gcf-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsj_gcf_utils-1.0.8.tar.gz tmp/nsj_gcf_utils-1.0.9.tar.gz --markdown 20230511/n/nsj-gcf-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 15:17:10] INFO root fetch - processPackages [nbdev-scipy]: Start processing: batdetect2
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-11 15:17:10] INFO root fetch - processPackages [mmcb-avt]: Start processing: certora-cli-alpha-shelly-releasewithci
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-11 15:17:10] INFO root fetch - processPackages [batdetect2]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-11 15:17:10] WARNING root fetch - processPackages [certora-cli-alpha-shelly-releasewithci]: Skipping, unable to determine old version
+[2023-05-11 15:17:10] INFO root fetch - processPackages [certora-cli-alpha-shelly-releasewithci]: Start processing: xguard
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-releasewithci] error
+[2023-05-11 15:17:10] INFO root fetch - processPackages [livesolid]: Start processing: fastapi2postman
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [livesolid]: success
+[2023-05-11 15:17:10] INFO root fetch - processPackages [xguard]: New version: [1.0.3] Old Version: [1.0.1]
+[2023-05-11 15:17:10] INFO root fetch - processPackages [fastapi2postman]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 15:17:10] INFO root fetch - processPackages [batdetect2]: Downloading https://files.pythonhosted.org/packages/c1/78/d302225d7f93f8ea07b621dd698a5263f8fc0c45c6be21d7131be6b63b3a/batdetect2-1.0.4.tar.gz
+[2023-05-11 15:17:10] INFO root fetch - processPackages [xguard]: executing diffoscope
+[2023-05-11 15:17:10] INFO root fetch - processPackages [xguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xguard-1.0.1.tar.gz tmp/xguard-1.0.3.tar.gz --markdown 20230511/x/xguard/1.0.1-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:17:10] INFO root fetch - processPackages [fastapi2postman]: Downloading https://files.pythonhosted.org/packages/57/d5/a00d8bad78f79497d345384a289d026a50685e685eeeb7a8d3f444bffb07/fastapi2postman-0.1.0.tar.gz
+[2023-05-11 15:17:10] INFO root fetch - processPackages [nsj-gcf-utils]: Start processing: lendsmart-autotest
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [nsj-gcf-utils]: success
+[2023-05-11 15:17:10] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nbdev-django
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-11 15:17:10] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.8] Old Version: [1.7]
+[2023-05-11 15:17:10] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:17:10] INFO root fetch - processPackages [rpycocotools-stubs]: Start processing: feathers
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [rpycocotools-stubs]: success
+[2023-05-11 15:17:10] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-11 15:17:10] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.7.tar.gz tmp/lendsmart_autotest-1.8.tar.gz --markdown 20230511/l/lendsmart-autotest/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-11 15:17:10] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-11 15:17:10] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230511/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:17:10] INFO root fetch - processPackages [feathers]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 15:17:10] INFO root fetch - processPackages [fastapi2postman]: Downloading https://files.pythonhosted.org/packages/5d/13/11a9f0e5f5f464b79c3b435bad1e28df0adf1f6b769c3a93574d860339f7/fastapi2postman-0.1.1.tar.gz
+[2023-05-11 15:17:10] INFO root fetch - processPackages [feathers]: Downloading https://files.pythonhosted.org/packages/25/38/7baa028d8ba0be52a3e37a6ec7d2082c5b895f0d9ec08cdac8359d0190b9/feathers-0.1.1.tar.gz
+[2023-05-11 15:17:10] INFO root fetch - processPackages [fastapi2postman]: executing diffoscope
+[2023-05-11 15:17:10] INFO root fetch - processPackages [fastapi2postman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi2postman-0.1.0.tar.gz tmp/fastapi2postman-0.1.1.tar.gz --markdown 20230511/f/fastapi2postman/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 15:17:10] INFO root fetch - processPackages [scw-serverless]: Start processing: meg-qc
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [scw-serverless]: success
+[2023-05-11 15:17:10] WARNING root fetch - processPackages [meg-qc]: Skipping, unable to determine old version
+[2023-05-11 15:17:10] INFO root fetch - processPackages [meg-qc]: Start processing: jupyter-scheduler
+[2023-05-11 15:17:10] INFO root fetch - main [MainThread]: End processing [meg-qc] error
+[2023-05-11 15:17:11] INFO root fetch - processPackages [jupyter-scheduler]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-11 15:17:11] INFO root fetch - processPackages [jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/c9/b1/582ef06dee2084754d45c2bf4cffa8cfd166c2b132a8b27b6014ee4f3b7f/jupyter_scheduler-1.3.1.tar.gz
+[2023-05-11 15:17:11] INFO root fetch - processPackages [feathers]: Downloading https://files.pythonhosted.org/packages/f7/69/47ea2036c44b1c51ec865b7e0e946a61e09eee215f27a3afe58d6f2924b0/feathers-0.1.2.tar.gz
+[2023-05-11 15:17:11] INFO root fetch - processPackages [feathers]: executing diffoscope
+[2023-05-11 15:17:11] INFO root fetch - processPackages [feathers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feathers-0.1.1.tar.gz tmp/feathers-0.1.2.tar.gz --markdown 20230511/f/feathers/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 15:17:11] INFO root fetch - processPackages [jupyter-scheduler]: Downloading https://files.pythonhosted.org/packages/6e/bf/b21ca49a93b787abaf8921a13a6bc67592275c8dfea54d432693d307ca72/jupyter_scheduler-1.3.2.tar.gz
+[2023-05-11 15:17:11] INFO root fetch - processPackages [xguard]: Start processing: nbdev-apl
+[2023-05-11 15:17:11] INFO root fetch - main [MainThread]: End processing [xguard]: success
+[2023-05-11 15:17:11] INFO root fetch - processPackages [batdetect2]: Downloading https://files.pythonhosted.org/packages/45/14/1444fcd6985875d455e8d7df509db3e8194d5d15c77267c1426f7ee4b36e/batdetect2-1.0.5.tar.gz
+[2023-05-11 15:17:11] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.765] Old Version: [0.0.764]
+[2023-05-11 15:17:11] INFO root fetch - processPackages [jupyter-scheduler]: executing diffoscope
+[2023-05-11 15:17:11] INFO root fetch - processPackages [jupyter-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_scheduler-1.3.1.tar.gz tmp/jupyter_scheduler-1.3.2.tar.gz --markdown 20230511/j/jupyter-scheduler/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-11 15:17:11] INFO root fetch - processPackages [lendsmart-autotest]: Start processing: ctapipe
+[2023-05-11 15:17:11] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-11 15:17:11] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-11 15:17:11] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.764.tar.gz tmp/nbdev-apl-0.0.765.tar.gz --markdown 20230511/n/nbdev-apl/0.0.764-0.0.765/diff.md --exclude *.pyd
+[2023-05-11 15:17:11] INFO root fetch - processPackages [batdetect2]: executing diffoscope
+[2023-05-11 15:17:11] INFO root fetch - processPackages [batdetect2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batdetect2-1.0.4.tar.gz tmp/batdetect2-1.0.5.tar.gz --markdown 20230511/b/batdetect2/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-11 15:17:11] INFO root fetch - processPackages [ctapipe]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-05-11 15:17:12] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/12/52/fdca6e2609ea0fede514bcdb5a11f6277382264ad9a681ba868680fadac1/ctapipe-0.8.0.tar.gz
+[2023-05-11 15:17:12] INFO root fetch - processPackages [fastapi2postman]: Start processing: juts
+[2023-05-11 15:17:12] INFO root fetch - main [MainThread]: End processing [fastapi2postman]: success
+[2023-05-11 15:17:12] INFO root fetch - processPackages [juts]: New version: [2023.4.2] Old Version: [2023.4.1]
+[2023-05-11 15:17:12] INFO root fetch - processPackages [juts]: Downloading https://files.pythonhosted.org/packages/b1/74/0b09f8912576b5cd80dcbf693c39eaf8829cb0547d61740453f0eb911ce5/juts-2023.4.2.tar.gz
+[2023-05-11 15:17:12] INFO root fetch - processPackages [juts]: executing diffoscope
+[2023-05-11 15:17:12] INFO root fetch - processPackages [juts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juts-2023.4.1.tar.gz tmp/juts-2023.4.2.tar.gz --markdown 20230511/j/juts/2023.4.1-2023.4.2/diff.md --exclude *.pyd
+[2023-05-11 15:17:12] INFO root fetch - processPackages [nbdev-django]: Start processing: JBPhD
+[2023-05-11 15:17:12] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-11 15:17:12] INFO root fetch - main [MainThread]: End processing [feathers]: success
+[2023-05-11 15:17:13] INFO root fetch - processPackages [JBPhD]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-11 15:17:13] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-11 15:17:13] INFO root fetch - main [MainThread]: End processing [ldbpy]: success
+[2023-05-11 15:17:13] INFO root fetch - processPackages [JBPhD]: Downloading https://files.pythonhosted.org/packages/f1/49/23f155e19d2df50b46c8fdf06182c60c156eba4148c3d8fe41109579c20d/JBPhD-2.0.3-py3-none-any.whl
+[2023-05-11 15:17:13] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/04/8c/09554f91c5de9d06950b469a382199c0a690474b62285f6c4a4ce12bb950/ctapipe-0.9.1.tar.gz
+[2023-05-11 15:17:13] INFO root fetch - processPackages [JBPhD]: executing diffoscope
+[2023-05-11 15:17:13] INFO root fetch - processPackages [JBPhD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBPhD-2.0.2-py3-none-any.whl.zip tmp/JBPhD-2.0.3-py3-none-any.whl.zip --markdown 20230511/J/JBPhD/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-11 15:17:13] INFO root fetch - processPackages [ctapipe]: executing diffoscope
+[2023-05-11 15:17:13] INFO root fetch - processPackages [ctapipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctapipe-0.8.0.tar.gz tmp/ctapipe-0.9.1.tar.gz --markdown 20230511/c/ctapipe/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 15:17:14] INFO root fetch - main [MainThread]: End processing [juts]: success
+[2023-05-11 15:17:14] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-05-11 15:17:15] INFO root fetch - main [MainThread]: End processing [edk2-basetools]: success
+[2023-05-11 15:17:15] INFO root fetch - main [MainThread]: End processing [JBPhD]: success
+[2023-05-11 15:17:17] INFO root fetch - main [MainThread]: End processing [batdetect2]: success
+[2023-05-11 15:17:18] INFO root fetch - main [MainThread]: End processing [ctapipe]: success
+[2023-05-11 15:17:23] INFO root fetch - main [MainThread]: End processing [jupyter-scheduler]: success
+[2023-05-11 15:17:23] INFO root fetch - main [MainThread]: Store serial: [18063982]
