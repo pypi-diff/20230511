@@ -3750,3 +3750,33 @@ EOFError: EOF read where object expected
 [2023-05-11 02:30:15] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2023-05-11 02:30:16] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
 [2023-05-11 02:30:16] INFO root fetch - main [MainThread]: Store serial: [18055030]
+[2023-05-11 02:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18055030]
+[2023-05-11 02:35:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-11 02:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-05-11 02:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-index
+[2023-05-11 02:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index
+[2023-05-11 02:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-dataprep-rslex
+[2023-05-11 02:35:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrc-python-utils
+[2023-05-11 02:35:25] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 02:35:25] INFO root fetch - processPackages [llama-index]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-11 02:35:25] INFO root fetch - processPackages [gpt-index]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-11 02:35:25] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-05-11 02:35:25] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230511/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 02:35:25] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 02:35:25] INFO root fetch - processPackages [azureml-dataprep-rslex]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-11 02:35:25] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 02:35:25] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 02:35:25] INFO root fetch - processPackages [azureml-dataprep-rslex]: Downloading https://files.pythonhosted.org/packages/a3/d5/7a9b0965a3954085cb0614195ffdb7507030614aff2fa0c8d65551f20d62/azureml_dataprep_rslex-2.9.0-cp39-cp39-win_amd64.whl
+[2023-05-11 02:35:25] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/2f/a0/693c48ff3706fd8edf76df4a1934bf8a541b4b88c54cee9bd76a8475fc24/gpt_index-0.6.5.tar.gz
+[2023-05-11 02:35:25] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/87/79/86e62e8dd09ebf91f9450ac540c87705b136f51099adce836e50702360a1/llama_index-0.6.5.tar.gz
+[2023-05-11 02:35:25] WARNING root fetch - processPackages [azureml-dataprep-rslex]: Skipping package: exceeds size limit 13348921>=10485760
+[2023-05-11 02:35:25] INFO root fetch - main [MainThread]: End processing [azureml-dataprep-rslex] error
+[2023-05-11 02:35:25] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-05-11 02:35:25] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.6.4.tar.gz tmp/gpt_index-0.6.5.tar.gz --markdown 20230511/g/gpt-index/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-11 02:35:25] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-05-11 02:35:25] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.6.4.tar.gz tmp/llama_index-0.6.5.tar.gz --markdown 20230511/l/llama-index/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-11 02:35:26] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 02:35:27] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-05-11 02:35:29] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-05-11 02:35:31] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-05-11 02:35:31] INFO root fetch - main [MainThread]: Store serial: [18055055]
