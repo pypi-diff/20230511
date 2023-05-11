@@ -6127,3 +6127,76 @@ EOFError: EOF read where object expected
 [2023-05-11 03:36:35] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-05-11 03:36:37] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
 [2023-05-11 03:36:37] INFO root fetch - main [MainThread]: Store serial: [18056607]
+[2023-05-11 03:41:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18056607]
+[2023-05-11 03:41:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-ak-ea70f896f759459588dfbc7d1fafe2f9
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matplotlips
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: social-auth-core-tweaked
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hbshare
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frontengine
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: frontengine-dev
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-scipy
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: astronomer-cosmos
+[2023-05-11 03:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: patchnetvlad
+[2023-05-11 03:41:45] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 03:41:45] INFO root fetch - processPackages [matplotlips]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [frontengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [astronomer-cosmos]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230511/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] WARNING root fetch - processPackages [social-auth-core-tweaked]: Skipping, unable to determine old version
+[2023-05-11 03:41:46] INFO root fetch - processPackages [social-auth-core-tweaked]: Start processing: nbdev-sphinx
+[2023-05-11 03:41:46] INFO root fetch - main [MainThread]: End processing [social-auth-core-tweaked] error
+[2023-05-11 03:41:46] INFO root fetch - processPackages [patchnetvlad]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.0.tar.gz tmp/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.1.tar.gz --markdown 20230511/a/antchain-ak-ea70f896f759459588dfbc7d1fafe2f9/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [frontengine]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [frontengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine-0.0.8.tar.gz tmp/frontengine-0.0.9.tar.gz --markdown 20230511/f/frontengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230511/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/a9/58/78c1c9aa60700679646d8006e001c36188750493c5ab8244ad4739b04b37/astronomer_cosmos-0.6.5.tar.gz
+[2023-05-11 03:41:46] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/22/08/4cc57f8a50495e02ad8cff3080dfaaac8ffb703dd8244e23f7a680626965/matplotlips-0.0.7.tar.gz
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230511/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230511/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230511/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [patchnetvlad]: Downloading https://files.pythonhosted.org/packages/1c/4b/8d9ceb7702b878951b48bc0a9b2ccf85cfad8f380cd3299c81da7a76a5f5/patchnetvlad-0.1.6.tar.gz
+[2023-05-11 03:41:46] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/33/b9/47bab7bc96c4b6935fb63b7b8cc4de9e2d2d55a9179eb5a58052aca259cf/matplotlips-0.0.8.tar.gz
+[2023-05-11 03:41:46] INFO root fetch - processPackages [astronomer-cosmos]: Downloading https://files.pythonhosted.org/packages/db/3a/5011643e52cbdb0f6e0c71ec3ef0ca6e07d51652f50c2a9105df860b0ec5/astronomer_cosmos-0.6.6.tar.gz
+[2023-05-11 03:41:46] INFO root fetch - processPackages [matplotlips]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [matplotlips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlips-0.0.7.tar.gz tmp/matplotlips-0.0.8.tar.gz --markdown 20230511/m/matplotlips/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 03:41:46] INFO root fetch - processPackages [astronomer-cosmos]: executing diffoscope
+[2023-05-11 03:41:46] INFO root fetch - processPackages [astronomer-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astronomer_cosmos-0.6.5.tar.gz tmp/astronomer_cosmos-0.6.6.tar.gz --markdown 20230511/a/astronomer-cosmos/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-05-11 03:41:47] INFO root fetch - processPackages [nbdev-scipy]: Start processing: cdk-webapp-skeleton
+[2023-05-11 03:41:47] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-11 03:41:47] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-05-11 03:41:47] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-05-11 03:41:47] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230511/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 03:41:47] INFO root fetch - processPackages [patchnetvlad]: Downloading https://files.pythonhosted.org/packages/22/40/20a1fb97a72981aa239a31b85fe9d4f073d54603974be2d8b149c6d9fd15/patchnetvlad-0.1.7.tar.gz
+[2023-05-11 03:41:47] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Start processing: edman-web
+[2023-05-11 03:41:47] INFO root fetch - main [MainThread]: End processing [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: success
+[2023-05-11 03:41:47] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-11 03:41:47] INFO root fetch - processPackages [edman-web]: New version: [2023.5.8] Old Version: [2023.5.11]
+[2023-05-11 03:41:48] INFO root fetch - main [MainThread]: End processing [matplotlips]: success
+[2023-05-11 03:41:48] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/6c/89/c944ac69119d05adc8b644b5f23eaecf384990fb3c7652667f2632d9b536/edman_web-2023.5.11.tar.gz
+[2023-05-11 03:41:48] INFO root fetch - main [MainThread]: End processing [frontengine]: success
+[2023-05-11 03:41:48] INFO root fetch - main [MainThread]: End processing [astronomer-cosmos]: success
+[2023-05-11 03:41:48] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-05-11 03:41:48] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.5.11.tar.gz tmp/edman_web-2023.5.8.tar.gz --markdown 20230511/e/edman-web/2023.5.11-2023.5.8/diff.md --exclude *.pyd
+[2023-05-11 03:41:48] INFO root fetch - processPackages [patchnetvlad]: executing diffoscope
+[2023-05-11 03:41:48] INFO root fetch - processPackages [patchnetvlad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchnetvlad-0.1.6.tar.gz tmp/patchnetvlad-0.1.7.tar.gz --markdown 20230511/p/patchnetvlad/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 03:41:49] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-05-11 03:41:49] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-11 03:41:49] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-05-11 03:41:49] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-05-11 03:41:51] INFO root fetch - main [MainThread]: End processing [patchnetvlad]: success
+[2023-05-11 03:41:51] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-05-11 03:41:51] INFO root fetch - main [MainThread]: Store serial: [18056651]
