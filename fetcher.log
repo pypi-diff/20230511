@@ -10992,3 +10992,99 @@ EOFError: EOF read where object expected
 [2023-05-11 09:13:44] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-11 09:13:51] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-05-11 09:13:51] INFO root fetch - main [MainThread]: Store serial: [18059295]
+[2023-05-11 09:18:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059295]
+[2023-05-11 09:19:00] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-jtoman-try-catch
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AGIpdf2jsonparser
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assisted-service-client
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-jtoman-infinite-loop-fix
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphql-service-framework
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: the-keyspy
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-okta
+[2023-05-11 09:19:00] WARNING root fetch - processPackages [AGIpdf2jsonparser]: Skipping, unable to determine old version
+[2023-05-11 09:19:00] INFO root fetch - processPackages [AGIpdf2jsonparser]: Start processing: AGIpdf2json
+[2023-05-11 09:19:00] INFO root fetch - main [MainThread]: End processing [AGIpdf2jsonparser] error
+[2023-05-11 09:19:00] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: New version: [20230511.7.14.551287] Old Version: [20230511.3.6.551125]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: New version: [20230511.7.16.430036] Old Version: [20230511.3.8.291076]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [the-keyspy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-okta]: New version: [3.9.0a1652715097] Old Version: [3.9.0a1650909822]
+[2023-05-11 09:19:00] WARNING root fetch - processPackages [AGIpdf2json]: Skipping, unable to determine old version
+[2023-05-11 09:19:00] INFO root fetch - processPackages [AGIpdf2json]: Start processing: ykenan-fragments
+[2023-05-11 09:19:00] INFO root fetch - main [MainThread]: End processing [AGIpdf2json] error
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230511/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 09:19:00] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Downloading https://files.pythonhosted.org/packages/55/f1/cfe1e6e589ec57f284b8ed14feaf5b84d570ee6bb7d69fab28e73a698ecd/certora-cli-alpha-jtoman-try-catch-20230511.3.6.551125.tar.gz
+[2023-05-11 09:19:00] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Downloading https://files.pythonhosted.org/packages/74/7a/104e581d326232072fe399b3f9b90a5f1f430205dd0fcc506f88172c1213/certora-cli-alpha-jtoman-infinite-loop-fix-20230511.3.8.291076.tar.gz
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230511/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.4.tar.gz tmp/ykenan_fragments-1.2.5.tar.gz --markdown 20230511/y/ykenan-fragments/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-11 09:19:00] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Skipping package: exceeds size limit 39423876>=10485760
+[2023-05-11 09:19:00] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Skipping package: exceeds size limit 39424399>=10485760
+[2023-05-11 09:19:00] INFO root fetch - processPackages [certora-cli-alpha-jtoman-infinite-loop-fix]: Start processing: pulumi-equinix-metal
+[2023-05-11 09:19:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-infinite-loop-fix] error
+[2023-05-11 09:19:00] INFO root fetch - processPackages [certora-cli-alpha-jtoman-try-catch]: Start processing: pulumi-splunk
+[2023-05-11 09:19:00] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-try-catch] error
+[2023-05-11 09:19:00] INFO root fetch - processPackages [the-keyspy]: Downloading https://files.pythonhosted.org/packages/dc/b2/9fcc3ac21d5f3bf88c9c126a0fcc7ad323860fe9766308466f78965af430/the_keyspy-0.0.8.tar.gz
+[2023-05-11 09:19:00] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230511/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-equinix-metal]: New version: [3.3.0a1683784128] Old Version: [3.3.0a1683610315]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-splunk]: New version: [1.3.0a1683787946] Old Version: [1.3.0a1683613441]
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20230511/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-okta]: executing diffoscope
+[2023-05-11 09:19:00] INFO root fetch - processPackages [pulumi-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_okta-3.9.0a1650909822.tar.gz tmp/pulumi_okta-3.9.0a1652715097.tar.gz --markdown 20230511/p/pulumi-okta/3.9.0a1650909822-3.9.0a1652715097/diff.md --exclude *.pyd
+[2023-05-11 09:19:01] INFO root fetch - processPackages [the-keyspy]: Downloading https://files.pythonhosted.org/packages/ea/34/96749b1bceb3a50e26b7db860f036ae8f5b6464143d6241c23ff7559900a/the_keyspy-0.0.9.tar.gz
+[2023-05-11 09:19:01] INFO root fetch - processPackages [pulumi-equinix-metal]: Downloading https://files.pythonhosted.org/packages/a9/5b/3692e4798e9abb318e1f3c0def4b8e0b72346539a25de37fe6effaf57416/pulumi_equinix_metal-3.3.0a1683784128.tar.gz
+[2023-05-11 09:19:01] INFO root fetch - processPackages [pulumi-splunk]: Downloading https://files.pythonhosted.org/packages/43/59/a6f7aba6507df0dc2b1d51f99cd55ca4cf6d3660f8e3fb6c88e353e3ddb3/pulumi_splunk-1.3.0a1683787946.tar.gz
+[2023-05-11 09:19:01] INFO root fetch - processPackages [the-keyspy]: executing diffoscope
+[2023-05-11 09:19:01] INFO root fetch - processPackages [the-keyspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/the_keyspy-0.0.8.tar.gz tmp/the_keyspy-0.0.9.tar.gz --markdown 20230511/t/the-keyspy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 09:19:01] INFO root fetch - processPackages [pulumi-equinix-metal]: executing diffoscope
+[2023-05-11 09:19:01] INFO root fetch - processPackages [pulumi-equinix-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_equinix_metal-3.3.0a1683610315.tar.gz tmp/pulumi_equinix_metal-3.3.0a1683784128.tar.gz --markdown 20230511/p/pulumi-equinix-metal/3.3.0a1683610315-3.3.0a1683784128/diff.md --exclude *.pyd
+[2023-05-11 09:19:01] INFO root fetch - processPackages [pulumi-splunk]: executing diffoscope
+[2023-05-11 09:19:01] INFO root fetch - processPackages [pulumi-splunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_splunk-1.3.0a1683613441.tar.gz tmp/pulumi_splunk-1.3.0a1683787946.tar.gz --markdown 20230511/p/pulumi-splunk/1.3.0a1683613441-1.3.0a1683787946/diff.md --exclude *.pyd
+[2023-05-11 09:19:02] INFO root fetch - processPackages [graphql-service-framework]: Start processing: k1lib
+[2023-05-11 09:19:02] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-11 09:19:02] INFO root fetch - processPackages [k1lib]: New version: [1.3.7.4] Old Version: [1.3.7.3]
+[2023-05-11 09:19:02] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/95/16/a33e257662ed5cb77f9a26fb9bce8cf3d7ccdfa6f5fcc85d20c1ba4fe57e/k1lib-1.3.7.4-py3-none-any.whl
+[2023-05-11 09:19:02] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-11 09:19:02] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.7.3-py3-none-any.whl.zip tmp/k1lib-1.3.7.4-py3-none-any.whl.zip --markdown 20230511/k/k1lib/1.3.7.3-1.3.7.4/diff.md --exclude *.pyd
+[2023-05-11 09:19:02] INFO root fetch - processPackages [ykenan-fragments]: Start processing: inference-client
+[2023-05-11 09:19:02] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-11 09:19:02] INFO root fetch - processPackages [inference-client]: New version: [0.0.3] Old Version: [0.0.2rc1]
+[2023-05-11 09:19:02] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/37/ad/16c28b55ccc9633c9bd5ebf5aed22e3644c29cfce6626ecf7970243c7adb/inference_client-0.0.2rc1.tar.gz
+[2023-05-11 09:19:03] INFO root fetch - processPackages [the-keyspy]: Start processing: odoo-addon-rpc-helper
+[2023-05-11 09:19:03] INFO root fetch - main [MainThread]: End processing [the-keyspy]: success
+[2023-05-11 09:19:03] WARNING root fetch - processPackages [odoo-addon-rpc-helper]: Skipping, unable to determine old version
+[2023-05-11 09:19:03] INFO root fetch - processPackages [odoo-addon-rpc-helper]: Start processing: odoo-addons-oca-server-tools
+[2023-05-11 09:19:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-rpc-helper] error
+[2023-05-11 09:19:03] INFO root fetch - processPackages [inference-client]: Downloading https://files.pythonhosted.org/packages/31/bc/af25e47d8e1153245c32a6dc54814a15c013a8966c6d7d9a3105e1a95486/inference_client-0.0.3.tar.gz
+[2023-05-11 09:19:03] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: New version: [16.0.20230510.0] Old Version: [16.0.20230418.0]
+[2023-05-11 09:19:03] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-11 09:19:03] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2023-05-11 09:19:03] INFO root fetch - processPackages [inference-client]: executing diffoscope
+[2023-05-11 09:19:03] INFO root fetch - processPackages [inference-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_client-0.0.2rc1.tar.gz tmp/inference_client-0.0.3.tar.gz --markdown 20230511/i/inference-client/0.0.2rc1-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 09:19:03] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/70/81/35901e501e7493f126a45b6f63929aa7c89c3bd00fdcc8111a44793ee6a0/odoo_addons_oca_server_tools-16.0.20230418.0-py3-none-any.whl
+[2023-05-11 09:19:03] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: Downloading https://files.pythonhosted.org/packages/d8/5a/1b597f9bfa81fa293b08f6595b26d24f5a53e464334622327e0efd3f886f/odoo_addons_oca_server_tools-16.0.20230510.0-py3-none-any.whl
+[2023-05-11 09:19:03] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: executing diffoscope
+[2023-05-11 09:19:03] INFO root fetch - processPackages [odoo-addons-oca-server-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_tools-16.0.20230418.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_tools-16.0.20230510.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addons-oca-server-tools/16.0.20230418.0-16.0.20230510.0/diff.md --exclude *.pyd
+[2023-05-11 09:19:04] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-11 09:19:04] INFO root fetch - main [MainThread]: End processing [inference-client]: success
+[2023-05-11 09:19:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-tools]: success
+[2023-05-11 09:19:04] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-11 09:19:05] INFO root fetch - main [MainThread]: End processing [pulumi-equinix-metal]: success
+[2023-05-11 09:19:05] INFO root fetch - main [MainThread]: End processing [pulumi-okta]: success
+[2023-05-11 09:19:06] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
+[2023-05-11 09:19:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-05-11 09:19:06] INFO root fetch - main [MainThread]: Store serial: [18059348]
