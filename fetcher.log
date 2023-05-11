@@ -21393,3 +21393,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:48:10] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
 [2023-05-11 16:48:12] INFO root fetch - main [MainThread]: End processing [cf-plot]: success
 [2023-05-11 16:48:12] INFO root fetch - main [MainThread]: Store serial: [18064968]
+[2023-05-11 16:53:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064968]
+[2023-05-11 16:53:21] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: koios-api
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webexpython
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: koios-api
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exoscale
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-adafruitio
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sefazetllib
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dirigera
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PatryksAutoAI
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: minipti
+[2023-05-11 16:53:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airbyte-cdk
+[2023-05-11 16:53:21] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [adafruit-circuitpython-adafruitio]: New version: [5.6.9] Old Version: [5.6.8]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [minipti]: New version: [1.9.0] Old Version: [1.0.1]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [exoscale]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [koios-api]: New version: [1.0.2] Old Version: [1.0.10]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [koios-api]: New version: [1.0.2] Old Version: [1.0.10]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [webexpython]: New version: [0.2.16] Old Version: [0.2.15]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [minipti]: executing diffoscope
+[2023-05-11 16:53:21] INFO root fetch - processPackages [minipti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minipti-1.0.1.tar.gz tmp/minipti-1.9.0.tar.gz --markdown 20230511/m/minipti/1.0.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:53:21] INFO root fetch - processPackages [sefazetllib]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-05-11 16:53:21] INFO root fetch - processPackages [dirigera]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 16:53:22] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-11 16:53:22] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/44/d3/57ada837707c6ccbf50de6b0507a7cdf92a7453860701f98dbd895d5cf5c/PatryksAutoAI-0.2.4.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [adafruit-circuitpython-adafruitio]: Downloading https://files.pythonhosted.org/packages/45/e6/7077ad87a05de59d1525476d2340f4969e5ab48916fd4ea86819d508f593/adafruit-circuitpython-adafruitio-5.6.8.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.2.3.tar.gz tmp/PatryksAutoAI-0.2.4.tar.gz --markdown 20230511/P/PatryksAutoAI/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/13/96/2fb42e858e6535c8e5aa602c7a05574efdec248b0a4a25995d719de81434/koios-api-1.0.10.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/13/96/2fb42e858e6535c8e5aa602c7a05574efdec248b0a4a25995d719de81434/koios-api-1.0.10.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [exoscale]: Downloading https://files.pythonhosted.org/packages/33/d5/fca27581341cebe165b42bace1f7218e7598e59b89d6e0bd1920949b9c0b/exoscale-0.7.1.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [webexpython]: Downloading https://files.pythonhosted.org/packages/a4/96/715578a91b285e978af66ded115fddc842798f2a743beadecced52a66dfb/webexpython-0.2.15.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/08/f8/b3da15121a46ea6f63b18e6917430480b49c7b25a08c333e88f4648db330/dirigera-0.1.5.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/33/6a/8cf55fcff83abd9f4104c5e7fb8346d3e93575deb25807f9fb9fa3c4ef1d/sefazetllib-0.1.29.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [adafruit-circuitpython-adafruitio]: Downloading https://files.pythonhosted.org/packages/d8/9c/d0a6324a64e0e03b0bd2b65d8d78d1e79e49fde3345fd121524d15dc1f8e/adafruit-circuitpython-adafruitio-5.6.9.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [adafruit-circuitpython-adafruitio]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [adafruit-circuitpython-adafruitio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-adafruitio-5.6.8.tar.gz tmp/adafruit-circuitpython-adafruitio-5.6.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-adafruitio/5.6.8-5.6.9/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/06/27/6c0732d8755fd7b6b350693f20a77f9f8ce8966729a3697fd62fa9ab33ee/dirigera-0.1.6.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230511/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/ac/98/7e2acc0953da0c230dd252e3b74eeb3fc26975fa39f003dd2f21656b3fe9/koios-api-1.0.2.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: Downloading https://files.pythonhosted.org/packages/ac/98/7e2acc0953da0c230dd252e3b74eeb3fc26975fa39f003dd2f21656b3fe9/koios-api-1.0.2.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [webexpython]: Downloading https://files.pythonhosted.org/packages/15/2c/1ad75a6e8af78f192e78e295e17606b2ca66ecf9b3e4ccf29004f6cac598/webexpython-0.2.16.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [sefazetllib]: Downloading https://files.pythonhosted.org/packages/7d/72/c4cf8b3738931785a397fedce706089df9130cd83c9f920e8c353968b49b/sefazetllib-0.1.30.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [dirigera]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [dirigera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirigera-0.1.5.tar.gz tmp/dirigera-0.1.6.tar.gz --markdown 20230511/d/dirigera/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koios-api-1.0.10.tar.gz tmp/koios-api-1.0.2.tar.gz --markdown 20230511/k/koios-api/1.0.10-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [koios-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koios-api-1.0.10.tar.gz tmp/koios-api-1.0.2.tar.gz --markdown 20230511/k/koios-api/1.0.10-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [webexpython]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [webexpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webexpython-0.2.15.tar.gz tmp/webexpython-0.2.16.tar.gz --markdown 20230511/w/webexpython/0.2.15-0.2.16/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [sefazetllib]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [sefazetllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sefazetllib-0.1.29.tar.gz tmp/sefazetllib-0.1.30.tar.gz --markdown 20230511/s/sefazetllib/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-05-11 16:53:22] INFO root fetch - processPackages [exoscale]: Downloading https://files.pythonhosted.org/packages/c7/48/470d19442d56b79a1f607bf84bff03c6802803d9399254c2350428820e4d/exoscale-0.8.0.tar.gz
+[2023-05-11 16:53:22] INFO root fetch - processPackages [exoscale]: executing diffoscope
+[2023-05-11 16:53:22] INFO root fetch - processPackages [exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoscale-0.7.1.tar.gz tmp/exoscale-0.8.0.tar.gz --markdown 20230511/e/exoscale/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-05-11 16:53:24] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: mrfix
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [adafruit-circuitpython-adafruitio]: Start processing: labvirtual
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-adafruitio]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [labvirtual]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-11 16:53:24] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/05/93/5e90def04195c2af193332084ca16212dc2680abc90cc5dd0d76f30620e5/labvirtual-0.2.6.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [minipti]: Start processing: adafruit-circuitpython-gfx
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [minipti]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [mrfix]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 16:53:24] INFO root fetch - processPackages [adafruit-circuitpython-gfx]: New version: [1.1.17] Old Version: [1.1.16]
+[2023-05-11 16:53:24] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43632058>=10485760
+[2023-05-11 16:53:24] INFO root fetch - processPackages [labvirtual]: Start processing: CNFgen
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 16:53:24] INFO root fetch - processPackages [dirigera]: Start processing: UEVaultManager
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [dirigera]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [UEVaultManager]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-11 16:53:24] INFO root fetch - processPackages [webexpython]: Start processing: django-liveview
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [webexpython]: success
+[2023-05-11 16:53:24] WARNING root fetch - processPackages [django-liveview]: Skipping, unable to determine old version
+[2023-05-11 16:53:24] INFO root fetch - processPackages [django-liveview]: Start processing: xturing
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [django-liveview] error
+[2023-05-11 16:53:24] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/65/ca/eb059049dab2e00daead2ad60acdc3354b996bd1b059cc797b7314d9c15d/mrfix-1.0.1.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [adafruit-circuitpython-gfx]: Downloading https://files.pythonhosted.org/packages/07/ad/ea902b948f1d1eefb04d09a51006f54e5f8fe3ad331cb7c8034c532d565a/adafruit-circuitpython-gfx-1.1.16.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [CNFgen]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-11 16:53:24] INFO root fetch - processPackages [koios-api]: Start processing: leadguru-jobs
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [koios-api]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [xturing]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-11 16:53:24] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/54/f9/62ecbbba998e5cc79833ad963d0762cb73dfc67b3b9c85a6d2af5f692b42/UEVaultManager-1.0.4.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [koios-api]: Start processing: sonusai
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [koios-api]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2023-05-11 16:53:24] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-1.0.0.tar.gz tmp/mrfix-1.0.1.tar.gz --markdown 20230511/m/mrfix/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 16:53:24] INFO root fetch - processPackages [CNFgen]: Downloading https://files.pythonhosted.org/packages/b6/8d/56571c7abdbe1962655872fc1401ff2f1060de8bf7165623479b26b99bc9/CNFgen-0.9.1.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-05-11 16:53:24] INFO root fetch - main [MainThread]: End processing [exoscale]: success
+[2023-05-11 16:53:24] INFO root fetch - processPackages [adafruit-circuitpython-gfx]: Downloading https://files.pythonhosted.org/packages/f0/0e/de8dce5ca657529cb28c6b4240d7a9a66e4d495471892c55e9718a3b75dc/adafruit-circuitpython-gfx-1.1.17.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [adafruit-circuitpython-gfx]: executing diffoscope
+[2023-05-11 16:53:24] INFO root fetch - processPackages [adafruit-circuitpython-gfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-gfx-1.1.16.tar.gz tmp/adafruit-circuitpython-gfx-1.1.17.tar.gz --markdown 20230511/a/adafruit-circuitpython-gfx/1.1.16-1.1.17/diff.md --exclude *.pyd
+[2023-05-11 16:53:24] INFO root fetch - processPackages [xturing]: Downloading https://files.pythonhosted.org/packages/ca/44/0843e5f97b4d1dfdb000ebf58ccb6887bda6f8c1e232cbd2919aa5750c51/xturing-0.1.2.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [UEVaultManager]: Downloading https://files.pythonhosted.org/packages/90/47/34e00e4471cee118b6c176e5ece4d59f496abf0ceab0bf57499fd862aef9/UEVaultManager-1.0.5.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [sonusai]: New version: [0.9.1] Old Version: [0.8.8]
+[2023-05-11 16:53:24] INFO root fetch - processPackages [CNFgen]: Downloading https://files.pythonhosted.org/packages/ff/6f/8e7d4845efa84ba14aac47f016a171eab70954ea10fce76b6beef465c859/CNFgen-0.9.2.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [UEVaultManager]: executing diffoscope
+[2023-05-11 16:53:24] INFO root fetch - processPackages [UEVaultManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UEVaultManager-1.0.4.tar.gz tmp/UEVaultManager-1.0.5.tar.gz --markdown 20230511/U/UEVaultManager/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-11 16:53:24] INFO root fetch - processPackages [xturing]: Downloading https://files.pythonhosted.org/packages/07/29/6f44372d208c5959fe06672905e2d017687a08fd1e7b1474e362ae0a8fcc/xturing-0.1.3.tar.gz
+[2023-05-11 16:53:24] INFO root fetch - processPackages [CNFgen]: executing diffoscope
+[2023-05-11 16:53:24] INFO root fetch - processPackages [CNFgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CNFgen-0.9.1.tar.gz tmp/CNFgen-0.9.2.tar.gz --markdown 20230511/C/CNFgen/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 16:53:24] INFO root fetch - processPackages [sonusai]: Downloading https://files.pythonhosted.org/packages/01/bc/b29241da5226b7c86354b898c731df2e09fe1e9001c56b46ec07b45746a3/sonusai-0.8.8.tar.gz
+[2023-05-11 16:53:25] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-05-11 16:53:25] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230511/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-05-11 16:53:25] INFO root fetch - processPackages [xturing]: executing diffoscope
+[2023-05-11 16:53:25] INFO root fetch - processPackages [xturing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xturing-0.1.2.tar.gz tmp/xturing-0.1.3.tar.gz --markdown 20230511/x/xturing/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 16:53:25] INFO root fetch - main [MainThread]: End processing [sefazetllib]: success
+[2023-05-11 16:53:25] INFO root fetch - processPackages [sonusai]: Downloading https://files.pythonhosted.org/packages/75/67/eded2dfbb1dfea6a6fb92384facdfdd02363e197dfc4320e2e761a2aa80f/sonusai-0.9.1.tar.gz
+[2023-05-11 16:53:25] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2023-05-11 16:53:26] INFO root fetch - main [MainThread]: End processing [UEVaultManager]: success
+[2023-05-11 16:53:26] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-gfx]: success
+[2023-05-11 16:53:26] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-05-11 16:53:26] INFO root fetch - main [MainThread]: End processing [CNFgen]: success
+[2023-05-11 16:53:26] INFO root fetch - processPackages [sonusai]: executing diffoscope
+[2023-05-11 16:53:26] INFO root fetch - processPackages [sonusai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonusai-0.8.8.tar.gz tmp/sonusai-0.9.1.tar.gz --markdown 20230511/s/sonusai/0.8.8-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 16:53:26] INFO root fetch - main [MainThread]: End processing [xturing]: success
+[2023-05-11 16:53:27] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-05-11 16:53:28] INFO root fetch - main [MainThread]: End processing [sonusai]: success
+[2023-05-11 16:53:28] INFO root fetch - main [MainThread]: Store serial: [18065057]
