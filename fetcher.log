@@ -8907,3 +8907,29 @@ EOFError: EOF read where object expected
 [2023-05-11 06:04:22] INFO root fetch - main [MainThread]: End processing [pycanha-core]: success
 [2023-05-11 06:04:22] INFO root fetch - main [MainThread]: End processing [osd-slides]: success
 [2023-05-11 06:04:22] INFO root fetch - main [MainThread]: Store serial: [18058066]
+[2023-05-11 06:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058066]
+[2023-05-11 06:09:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-11 06:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactpy-router
+[2023-05-11 06:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyutils-basstal
+[2023-05-11 06:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wanna-ml
+[2023-05-11 06:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generic-path
+[2023-05-11 06:09:31] INFO root fetch - processPackages [pyutils-basstal]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-11 06:09:31] WARNING root fetch - processPackages [reactpy-router]: Skipping, unable to determine old version
+[2023-05-11 06:09:31] INFO root fetch - main [MainThread]: End processing [reactpy-router] error
+[2023-05-11 06:09:31] INFO root fetch - processPackages [generic-path]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 06:09:31] INFO root fetch - processPackages [wanna-ml]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 06:09:31] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/03/d2/d93bbff880054e30f34d89fdeeffccae317b051be3f698bbdb5c0743c05f/generic-path-0.3.tar.gz
+[2023-05-11 06:09:31] INFO root fetch - processPackages [pyutils-basstal]: Downloading https://files.pythonhosted.org/packages/c7/30/f95c6e45003191c260e46e47a8557910a2839ab70b4676abf9b26fc82066/pyutils_basstal-0.4.4.tar.gz
+[2023-05-11 06:09:31] INFO root fetch - processPackages [wanna-ml]: Downloading https://files.pythonhosted.org/packages/23/f5/366f60cb7660fc223085c2152137b1c31d0009507d50f0df0fb967d8fd43/wanna-ml-0.2.8.tar.gz
+[2023-05-11 06:09:31] INFO root fetch - processPackages [pyutils-basstal]: executing diffoscope
+[2023-05-11 06:09:31] INFO root fetch - processPackages [pyutils-basstal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils_basstal-0.4.3.tar.gz tmp/pyutils_basstal-0.4.4.tar.gz --markdown 20230511/p/pyutils-basstal/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-11 06:09:32] INFO root fetch - processPackages [generic-path]: Downloading https://files.pythonhosted.org/packages/f0/2a/c70e9e35f98b8aed52d34f465205697342287451614deea895f0d43b84bd/generic-path-0.4.tar.gz
+[2023-05-11 06:09:32] INFO root fetch - processPackages [generic-path]: executing diffoscope
+[2023-05-11 06:09:32] INFO root fetch - processPackages [generic-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-path-0.3.tar.gz tmp/generic-path-0.4.tar.gz --markdown 20230511/g/generic-path/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 06:09:32] INFO root fetch - processPackages [wanna-ml]: Downloading https://files.pythonhosted.org/packages/d2/31/e24fa7241cafc732581765cfb1d4f22944b79c52e8718e2fadfab8a768a2/wanna-ml-0.2.9.tar.gz
+[2023-05-11 06:09:32] INFO root fetch - processPackages [wanna-ml]: executing diffoscope
+[2023-05-11 06:09:32] INFO root fetch - processPackages [wanna-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wanna-ml-0.2.8.tar.gz tmp/wanna-ml-0.2.9.tar.gz --markdown 20230511/w/wanna-ml/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 06:09:33] INFO root fetch - main [MainThread]: End processing [pyutils-basstal]: success
+[2023-05-11 06:09:33] INFO root fetch - main [MainThread]: End processing [generic-path]: success
+[2023-05-11 06:09:34] INFO root fetch - main [MainThread]: End processing [wanna-ml]: success
+[2023-05-11 06:09:34] INFO root fetch - main [MainThread]: Store serial: [18058080]
