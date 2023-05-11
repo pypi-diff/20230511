@@ -9610,3 +9610,56 @@ EOFError: EOF read where object expected
 [2023-05-11 07:20:14] INFO root fetch - main [MainThread]: End processing [xchem-chimp]: success
 [2023-05-11 07:20:15] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
 [2023-05-11 07:20:15] INFO root fetch - main [MainThread]: Store serial: [18058477]
+[2023-05-11 07:25:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058477]
+[2023-05-11 07:25:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automation-common-test
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycallingcards
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cveutils
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-es-aeat-mod190
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sosin
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: databend
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: runpod
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xj-user
+[2023-05-11 07:25:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cveutils
+[2023-05-11 07:25:24] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 07:25:24] ERROR root fetch - processPackages [databend]: Unable to get metadata: No such project 'databend'
+[2023-05-11 07:25:24] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-05-11 07:25:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [pycallingcards]: New version: [0.0.6] Old Version: [0.0.0]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [cveutils]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [runpod]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [cveutils]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [sosin]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-11 07:25:24] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-11 07:25:24] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230511/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 07:25:24] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-05-11 07:25:24] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.5.tar.gz tmp/runpod-0.9.6.tar.gz --markdown 20230511/r/runpod/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-11 07:25:24] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-05-11 07:25:24] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230511/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-11 07:25:24] INFO root fetch - processPackages [pycallingcards]: Downloading https://files.pythonhosted.org/packages/6a/06/10d768a4c056ee4223d41c8256b165c6e2b417c63ee760a4d60b4f3d0c8d/pycallingcards-0.0.0.tar.gz
+[2023-05-11 07:25:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/3d/83/980dca8e8340144dd5c5d8a7104a3ba4990af01ac5797453ca6c8f45c107/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-11 07:25:24] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/a8/cb/0b95333bc86818aec3b8a4c8db1f4123098f2373e454b679040d31e4d7f8/sosin-1.1.1.tar.gz
+[2023-05-11 07:25:24] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/64/ac/9d50363328fdb865350d2a08d75d9fde0ece2452065baf0c41b7f137412c/cveutils-0.4.tar.gz
+[2023-05-11 07:25:24] INFO root fetch - processPackages [cveutils]: Downloading https://files.pythonhosted.org/packages/64/ac/9d50363328fdb865350d2a08d75d9fde0ece2452065baf0c41b7f137412c/cveutils-0.4.tar.gz
+[2023-05-11 07:25:24] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-05-11 07:25:24] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.1.0.tar.gz tmp/sosin-1.1.1.tar.gz --markdown 20230511/s/sosin/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 07:25:24] INFO root fetch - processPackages [cveutils]: executing diffoscope
+[2023-05-11 07:25:24] INFO root fetch - processPackages [cveutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cveutils-0.3.tar.gz tmp/cveutils-0.4.tar.gz --markdown 20230511/c/cveutils/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 07:25:25] INFO root fetch - processPackages [cveutils]: executing diffoscope
+[2023-05-11 07:25:25] INFO root fetch - processPackages [cveutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cveutils-0.3.tar.gz tmp/cveutils-0.4.tar.gz --markdown 20230511/c/cveutils/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 07:25:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: Downloading https://files.pythonhosted.org/packages/79/17/622957d6c6fde21ee4fe87f41c7f1055b984d4b4e08427ecaba778a71bb6/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.3-py3-none-any.whl
+[2023-05-11 07:25:25] INFO root fetch - processPackages [pycallingcards]: Downloading https://files.pythonhosted.org/packages/9d/71/ea7f882d7b017ba806b09041f00ec242915cd168cb91c24c135f62464fac/pycallingcards-0.0.6.tar.gz
+[2023-05-11 07:25:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: executing diffoscope
+[2023-05-11 07:25:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod190]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod190-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-l10n-es-aeat-mod190/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-11 07:25:25] INFO root fetch - processPackages [pycallingcards]: executing diffoscope
+[2023-05-11 07:25:25] INFO root fetch - processPackages [pycallingcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycallingcards-0.0.0.tar.gz tmp/pycallingcards-0.0.6.tar.gz --markdown 20230511/p/pycallingcards/0.0.0-0.0.6/diff.md --exclude *.pyd
+[2023-05-11 07:25:26] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-11 07:25:26] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-05-11 07:25:26] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-05-11 07:25:26] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-05-11 07:25:26] INFO root fetch - main [MainThread]: End processing [cveutils]: success
+[2023-05-11 07:25:26] INFO root fetch - main [MainThread]: End processing [cveutils]: success
+[2023-05-11 07:25:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod190]: success
+[2023-05-11 07:25:27] INFO root fetch - main [MainThread]: End processing [pycallingcards]: success
+[2023-05-11 07:25:27] INFO root fetch - main [MainThread]: Store serial: [18058503]
