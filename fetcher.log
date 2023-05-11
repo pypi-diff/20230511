@@ -20407,3 +20407,116 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:05:27] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
 [2023-05-11 16:05:27] INFO root fetch - main [MainThread]: End processing [stepmix]: success
 [2023-05-11 16:05:27] INFO root fetch - main [MainThread]: Store serial: [18064398]
+[2023-05-11 16:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064398]
+[2023-05-11 16:10:36] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eotdl-cli
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequency-feature-map-visualization
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IQM-Vis
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yw-etl-tap-sqlalchemy
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nowcasting-datamodel
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypipr
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pg-bulk-ingest
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strato-skipper
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dynamicio
+[2023-05-11 16:10:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: itkdb-gtk
+[2023-05-11 16:10:36] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [frequency-feature-map-visualization]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [strato-skipper]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.65] Old Version: [0.2.5.64]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [eotdl-cli]: New version: [2023.5.9.post4] Old Version: [2023.5.9.post3]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [dynamicio]: New version: [5.0.0rc1] Old Version: [4.3.3]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pypipr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-0.1.8.tar.gz tmp/pypipr-0.1.9.tar.gz --markdown 20230511/p/pypipr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:10:36] INFO root fetch - processPackages [frequency-feature-map-visualization]: Downloading https://files.pythonhosted.org/packages/79/b0/2de9441fc304d76e601681e0a9e41c969e086db319d48854fbd2a3d272c7/frequency_feature_map_visualization-0.6.0.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/71/32/d6d80e2c2c5b2e31cff5d4e7b41d079015a03b95cb19dd37b1f98cb01917/IQM-Vis-0.2.5.64.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [strato-skipper]: Downloading https://files.pythonhosted.org/packages/f8/db/7266d94834cdeba863a248579915b7ce55a192d29787cd9e01f7aefc1680/strato-skipper-2.0.0.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/30/e5/dd0234608d8a3ee1e434805203dc066b7fc8e79d562d7fc3231feeba3899/yw_etl_tap_sqlalchemy-0.1.0-py3-none-any.whl
+[2023-05-11 16:10:36] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/8f/74/7feed5ce95229b9a5882311b6f94158033b38e5b0f479b4705214ab54353/dynamicio-4.3.3.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/ab/32/438602ba781d4fb864c245ff042a9d2956c9c09059cf69b0d1a82638c465/pg_bulk_ingest-0.0.4.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1e/f3/d2c15173c9bcc299c72d508e42fa3f45864e3ed83c705be57ad137acb4aa/itkdb_gtk-0.0.3.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/ff/0c/9e2ae41be5da3d4971d7b47b86411f71bbef35b62b6553dd9982cdfab06b/nowcasting_datamodel-1.3.8.tar.gz
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-05-11 16:10:36] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.3.tar.gz tmp/pg_bulk_ingest-0.0.4.tar.gz --markdown 20230511/p/pg-bulk-ingest/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-11 16:10:36] INFO root fetch - processPackages [frequency-feature-map-visualization]: executing diffoscope
+[2023-05-11 16:10:36] INFO root fetch - processPackages [frequency-feature-map-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequency_feature_map_visualization-0.5.0.tar.gz tmp/frequency_feature_map_visualization-0.6.0.tar.gz --markdown 20230511/f/frequency-feature-map-visualization/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-11 16:10:36] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/2a/73/1dd835719bdafb6782a37585f52b28e5c1af0758acc568f4ef8690cd4645/yw_etl_tap_sqlalchemy-0.1.1.tar.gz
+[2023-05-11 16:10:37] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-2023.5.9.post3.tar.gz tmp/eotdl-cli-2023.5.9.post4.tar.gz --markdown 20230511/e/eotdl-cli/2023.5.9.post3-2023.5.9.post4/diff.md --exclude *.pyd
+[2023-05-11 16:10:37] INFO root fetch - processPackages [dynamicio]: Downloading https://files.pythonhosted.org/packages/43/2a/fb8abe10c4c2d4ae6b54d98e5094d788450f38026839f6fdcb2e26a52c8e/dynamicio-5.0.0rc1.tar.gz
+[2023-05-11 16:10:37] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/dd/d2/3d22cb9fb58611ca1b922aa98b36480f05d643c6357f864a561b0e8ff07e/IQM-Vis-0.2.5.65.tar.gz
+[2023-05-11 16:10:37] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/a7/44/5bf963546670b66b7d3202413d5d0f3695be5fac1ab44604efc2554d5d8b/itkdb_gtk-0.0.4.tar.gz
+[2023-05-11 16:10:37] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yw_etl_tap_sqlalchemy-0.1.0-py3-none-any.whl.zip tmp/yw_etl_tap_sqlalchemy-0.1.1.tar.gz --markdown 20230511/y/yw-etl-tap-sqlalchemy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 16:10:37] INFO root fetch - processPackages [strato-skipper]: Downloading https://files.pythonhosted.org/packages/f4/02/6160050467c9451372aac154ef04e4555914d810b6a40ba000d87fd14d1b/strato-skipper-2.0.1.tar.gz
+[2023-05-11 16:10:37] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/85/3a/77aec3e3f785906ab6b5e728e0bbdc218228baac25a9e2e94a4fa62f0f53/nowcasting_datamodel-1.3.9.tar.gz
+[2023-05-11 16:10:37] INFO root fetch - processPackages [dynamicio]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [dynamicio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicio-4.3.3.tar.gz tmp/dynamicio-5.0.0rc1.tar.gz --markdown 20230511/d/dynamicio/4.3.3-5.0.0rc1/diff.md --exclude *.pyd
+[2023-05-11 16:10:37] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.3.tar.gz tmp/itkdb_gtk-0.0.4.tar.gz --markdown 20230511/i/itkdb-gtk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-11 16:10:37] INFO root fetch - processPackages [strato-skipper]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [strato-skipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strato-skipper-2.0.0.tar.gz tmp/strato-skipper-2.0.1.tar.gz --markdown 20230511/s/strato-skipper/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-11 16:10:37] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-Vis-0.2.5.64.tar.gz tmp/IQM-Vis-0.2.5.65.tar.gz --markdown 20230511/I/IQM-Vis/0.2.5.64-0.2.5.65/diff.md --exclude *.pyd
+[2023-05-11 16:10:37] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-05-11 16:10:37] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.3.8.tar.gz tmp/nowcasting_datamodel-1.3.9.tar.gz --markdown 20230511/n/nowcasting-datamodel/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 16:10:38] INFO root fetch - processPackages [pypipr]: Start processing: cognite-gql-pygen
+[2023-05-11 16:10:38] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2023-05-11 16:10:38] INFO root fetch - processPackages [cognite-gql-pygen]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-11 16:10:38] INFO root fetch - processPackages [pg-bulk-ingest]: Start processing: WinTraceroute
+[2023-05-11 16:10:38] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-05-11 16:10:38] INFO root fetch - processPackages [WinTraceroute]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-05-11 16:10:38] INFO root fetch - processPackages [cognite-gql-pygen]: Downloading https://files.pythonhosted.org/packages/ea/d2/b39f5b1f0e508dc0a83f39148962ed60606490749355a537e0ed44758171/cognite_gql_pygen-0.4.5.tar.gz
+[2023-05-11 16:10:38] INFO root fetch - processPackages [frequency-feature-map-visualization]: Start processing: frouros
+[2023-05-11 16:10:38] INFO root fetch - main [MainThread]: End processing [frequency-feature-map-visualization]: success
+[2023-05-11 16:10:38] INFO root fetch - processPackages [cognite-gql-pygen]: executing diffoscope
+[2023-05-11 16:10:38] INFO root fetch - processPackages [cognite-gql-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_gql_pygen-0.4.4.tar.gz tmp/cognite_gql_pygen-0.4.5.tar.gz --markdown 20230511/c/cognite-gql-pygen/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-11 16:10:38] INFO root fetch - processPackages [frouros]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-11 16:10:38] INFO root fetch - processPackages [WinTraceroute]: Downloading https://files.pythonhosted.org/packages/a0/20/4dc8e809100465b92f05c2231436c71155eb2efc8105337f6faf29d494b9/WinTraceroute-1.3.1.tar.gz
+[2023-05-11 16:10:38] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/1f/46/dd0fa32da58fa5f032c99743d39ce985093a7d5228f7df297499f7782424/frouros-0.2.6.tar.gz
+[2023-05-11 16:10:38] INFO root fetch - processPackages [WinTraceroute]: executing diffoscope
+[2023-05-11 16:10:38] INFO root fetch - processPackages [WinTraceroute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WinTraceroute-1.3.0.tar.gz tmp/WinTraceroute-1.3.1.tar.gz --markdown 20230511/W/WinTraceroute/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-05-11 16:10:38] INFO root fetch - processPackages [yw-etl-tap-sqlalchemy]: Start processing: tgclients
+[2023-05-11 16:10:38] INFO root fetch - main [MainThread]: End processing [yw-etl-tap-sqlalchemy]: success
+[2023-05-11 16:10:38] INFO root fetch - processPackages [tgclients]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 16:10:38] INFO root fetch - processPackages [tgclients]: executing diffoscope
+[2023-05-11 16:10:38] INFO root fetch - processPackages [tgclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgclients-0.8.0.tar.gz tmp/tgclients-0.9.0.tar.gz --markdown 20230511/t/tgclients/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:10:39] INFO root fetch - processPackages [eotdl-cli]: Start processing: jrpytensorflow
+[2023-05-11 16:10:39] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-05-11 16:10:39] INFO root fetch - processPackages [frouros]: Downloading https://files.pythonhosted.org/packages/49/73/1ead45802985bba29270ee288d138b49271f39eeaf6ab595f1b3101b01f5/frouros-0.2.7.tar.gz
+[2023-05-11 16:10:39] INFO root fetch - processPackages [frouros]: executing diffoscope
+[2023-05-11 16:10:39] INFO root fetch - processPackages [frouros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frouros-0.2.6.tar.gz tmp/frouros-0.2.7.tar.gz --markdown 20230511/f/frouros/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-11 16:10:39] INFO root fetch - processPackages [jrpytensorflow]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:10:39] INFO root fetch - processPackages [jrpytensorflow]: Downloading https://files.pythonhosted.org/packages/67/f1/f706de44281a1ac1eaf2ad35709ad00745c4cf78b0a3d2e6f9e792a46e99/jrpytensorflow-0.1.8.tar.gz
+[2023-05-11 16:10:39] INFO root fetch - processPackages [itkdb-gtk]: Start processing: mawk
+[2023-05-11 16:10:39] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2023-05-11 16:10:39] WARNING root fetch - processPackages [mawk]: Skipping, unable to determine old version
+[2023-05-11 16:10:39] INFO root fetch - processPackages [mawk]: Start processing: django-tenants
+[2023-05-11 16:10:39] INFO root fetch - main [MainThread]: End processing [mawk] error
+[2023-05-11 16:10:39] INFO root fetch - processPackages [IQM-Vis]: Start processing: ocflib
+[2023-05-11 16:10:39] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-05-11 16:10:39] INFO root fetch - processPackages [django-tenants]: New version: [3.5.0] Old Version: [3.4.8]
+[2023-05-11 16:10:39] WARNING root fetch - processPackages [jrpytensorflow]: Skipping package: exceeds size limit 35770804>=10485760
+[2023-05-11 16:10:39] INFO root fetch - main [MainThread]: End processing [jrpytensorflow] error
+[2023-05-11 16:10:39] INFO root fetch - processPackages [django-tenants]: Downloading https://files.pythonhosted.org/packages/c9/e0/dbec0653a86c49bae9937f3d0a2c184b4e38814e4ed5901d70332b9d51a3/django-tenants-3.4.8.tar.gz
+[2023-05-11 16:10:39] INFO root fetch - main [MainThread]: End processing [strato-skipper]: success
+[2023-05-11 16:10:40] INFO root fetch - main [MainThread]: End processing [dynamicio]: success
+[2023-05-11 16:10:40] INFO root fetch - processPackages [django-tenants]: Downloading https://files.pythonhosted.org/packages/9a/2a/da4db7649ac516fc4b89b86d697edb92362c4f6b0ab2d2fe20d1e0f6ab10/django-tenants-3.5.0.tar.gz
+[2023-05-11 16:10:40] INFO root fetch - processPackages [django-tenants]: executing diffoscope
+[2023-05-11 16:10:40] INFO root fetch - processPackages [django-tenants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-tenants-3.4.8.tar.gz tmp/django-tenants-3.5.0.tar.gz --markdown 20230511/d/django-tenants/3.4.8-3.5.0/diff.md --exclude *.pyd
+[2023-05-11 16:10:40] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-05-11 16:10:40] INFO root fetch - processPackages [ocflib]: New version: [9] Old Version: [8]
+[2023-05-11 16:10:40] INFO root fetch - main [MainThread]: End processing [WinTraceroute]: success
+[2023-05-11 16:10:40] INFO root fetch - processPackages [ocflib]: Downloading https://files.pythonhosted.org/packages/37/9e/7d858340853127292efd32ac4cd52b6c17167e4e2a1394341eda0aed3106/ocflib-8.tar.gz
+[2023-05-11 16:10:40] INFO root fetch - main [MainThread]: End processing [tgclients]: success
+[2023-05-11 16:10:40] INFO root fetch - main [MainThread]: End processing [cognite-gql-pygen]: success
+[2023-05-11 16:10:41] INFO root fetch - processPackages [ocflib]: Downloading https://files.pythonhosted.org/packages/9e/8a/34785feea7f069288ddee58a7ae104928ba33da6e1b49be66a2b1fa792b5/ocflib-9.tar.gz
+[2023-05-11 16:10:41] INFO root fetch - main [MainThread]: End processing [frouros]: success
+[2023-05-11 16:10:41] INFO root fetch - processPackages [ocflib]: executing diffoscope
+[2023-05-11 16:10:41] INFO root fetch - processPackages [ocflib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocflib-8.tar.gz tmp/ocflib-9.tar.gz --markdown 20230511/o/ocflib/8-9/diff.md --exclude *.pyd
+[2023-05-11 16:10:42] INFO root fetch - main [MainThread]: End processing [ocflib]: success
+[2023-05-11 16:10:42] INFO root fetch - main [MainThread]: End processing [django-tenants]: success
+[2023-05-11 16:10:42] INFO root fetch - main [MainThread]: Store serial: [18064459]
