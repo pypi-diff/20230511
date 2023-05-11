@@ -19272,3 +19272,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:49:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 14:49:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-11 14:49:47] INFO root fetch - main [MainThread]: Store serial: [18063742]
+[2023-05-11 14:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063742]
+[2023-05-11 14:54:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AdsorptionBreakthroughAnalysis
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cookie-composer
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fudgeo
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: media-catalogue
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: recon-lw
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartjs
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: manticore
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyneweb
+[2023-05-11 14:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doped
+[2023-05-11 14:54:56] INFO root fetch - processPackages [cookie-composer]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4948146675] Old Version: [2.0.0.dev4946478922]
+[2023-05-11 14:54:56] WARNING root fetch - processPackages [media-catalogue]: Skipping, unable to determine old version
+[2023-05-11 14:54:56] INFO root fetch - main [MainThread]: End processing [media-catalogue] error
+[2023-05-11 14:54:56] INFO root fetch - processPackages [pyneweb]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [fudgeo]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230510] Old Version: [0.3.8.dev230509]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [smartjs]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [doped]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-11 14:54:56] INFO root fetch - processPackages [cookie-composer]: executing diffoscope
+[2023-05-11 14:54:56] INFO root fetch - processPackages [cookie-composer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookie_composer-0.9.1.tar.gz tmp/cookie_composer-0.9.2.tar.gz --markdown 20230511/c/cookie-composer/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 14:54:56] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-11 14:54:56] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230509.tar.gz tmp/manticore-0.3.8.dev230510.tar.gz --markdown 20230511/m/manticore/0.3.8.dev230509-0.3.8.dev230510/diff.md --exclude *.pyd
+[2023-05-11 14:54:56] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/fd/d2/e8899302d2abf60587760671543157fd4a0b4dee7ea0cc82000fe6342e79/smartjs-0.1.5.tar.gz
+[2023-05-11 14:54:56] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: Downloading https://files.pythonhosted.org/packages/4c/4f/23919a052f1b2b8b2f8026c21c54424f6786111a4401064690aa3ac24386/AdsorptionBreakthroughAnalysis-0.0.1.tar.gz
+[2023-05-11 14:54:56] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/57/9e/b327903b6ba90425bb8f1c32740bbfbdeb8953b8b72354b51ba0eebf23fa/pyneweb-0.5.2.tar.gz
+[2023-05-11 14:54:56] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/1e/a4/bc17c7cb217674ad1851b7e4d262bf8a7ff05c592dedf130d31fa87f8637/recon_lw-2.0.0.dev4948146675.tar.gz
+[2023-05-11 14:54:56] INFO root fetch - processPackages [pyneweb]: executing diffoscope
+[2023-05-11 14:54:56] INFO root fetch - processPackages [pyneweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneweb-0.5.1.tar.gz tmp/pyneweb-0.5.2.tar.gz --markdown 20230511/p/pyneweb/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-11 14:54:56] INFO root fetch - processPackages [fudgeo]: Downloading https://files.pythonhosted.org/packages/ab/57/6a76bfb6f14d1b1332c307360e30e7ad4dc392ff0239bef333a2e96288ff/fudgeo-0.4.2-py3-none-any.whl
+[2023-05-11 14:54:56] INFO root fetch - processPackages [doped]: Downloading https://files.pythonhosted.org/packages/88/46/5ff207665a3972221cab5da5c3ff4525c70a89b0412256459ed0adb9dbc4/doped-1.1.2.tar.gz
+[2023-05-11 14:54:56] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-11 14:54:56] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4946478922.tar.gz tmp/recon_lw-2.0.0.dev4948146675.tar.gz --markdown 20230511/r/recon-lw/2.0.0.dev4946478922-2.0.0.dev4948146675/diff.md --exclude *.pyd
+[2023-05-11 14:54:56] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/b1/f9/077a5620490de49447e7dcd47266d8cfa9d817c862b2c8c1a578a1900df6/smartjs-0.1.6.tar.gz
+[2023-05-11 14:54:56] INFO root fetch - processPackages [fudgeo]: executing diffoscope
+[2023-05-11 14:54:56] INFO root fetch - processPackages [fudgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudgeo-0.4.1-py3-none-any.whl.zip tmp/fudgeo-0.4.2-py3-none-any.whl.zip --markdown 20230511/f/fudgeo/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-11 14:54:56] INFO root fetch - processPackages [doped]: executing diffoscope
+[2023-05-11 14:54:56] INFO root fetch - processPackages [doped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doped-1.1.1.tar.gz tmp/doped-1.1.2.tar.gz --markdown 20230511/d/doped/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-11 14:54:57] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: Downloading https://files.pythonhosted.org/packages/a0/d5/be9213bb646ca985c47d47e20dd4f841c25f41493f3fa2064f410540e2cd/AdsorptionBreakthroughAnalysis-0.0.2.tar.gz
+[2023-05-11 14:54:57] INFO root fetch - processPackages [smartjs]: executing diffoscope
+[2023-05-11 14:54:57] INFO root fetch - processPackages [smartjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartjs-0.1.5.tar.gz tmp/smartjs-0.1.6.tar.gz --markdown 20230511/s/smartjs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 14:54:57] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: executing diffoscope
+[2023-05-11 14:54:57] INFO root fetch - processPackages [AdsorptionBreakthroughAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdsorptionBreakthroughAnalysis-0.0.1.tar.gz tmp/AdsorptionBreakthroughAnalysis-0.0.2.tar.gz --markdown 20230511/A/AdsorptionBreakthroughAnalysis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 14:54:58] INFO root fetch - main [MainThread]: End processing [pyneweb]: success
+[2023-05-11 14:54:58] INFO root fetch - main [MainThread]: End processing [fudgeo]: success
+[2023-05-11 14:54:58] INFO root fetch - main [MainThread]: End processing [smartjs]: success
+[2023-05-11 14:54:58] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-11 14:54:59] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-11 14:54:59] INFO root fetch - main [MainThread]: End processing [doped]: success
+[2023-05-11 14:54:59] INFO root fetch - main [MainThread]: End processing [cookie-composer]: success
+[2023-05-11 14:55:01] INFO root fetch - main [MainThread]: End processing [AdsorptionBreakthroughAnalysis]: success
+[2023-05-11 14:55:01] INFO root fetch - main [MainThread]: Store serial: [18063775]
