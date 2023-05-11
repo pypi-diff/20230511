@@ -11354,3 +11354,69 @@ EOFError: EOF read where object expected
 [2023-05-11 09:34:52] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
 [2023-05-11 09:35:12] INFO root fetch - main [MainThread]: End processing [localcosmos-server]: success
 [2023-05-11 09:35:12] INFO root fetch - main [MainThread]: Store serial: [18059471]
+[2023-05-11 09:40:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059471]
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Alpha-Rabbit
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloud-check1
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lalsuite
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdx-to-pd
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: databend
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Zeraora
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botok
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Cofea
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Geode-Explicit
+[2023-05-11 09:40:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: espressoconnect
+[2023-05-11 09:40:21] WARNING root fetch - processPackages [cloud-check1]: Skipping, unable to determine old version
+[2023-05-11 09:40:21] INFO root fetch - processPackages [cloud-check1]: Start processing: odoo12-addon-stock-return-request
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: End processing [cloud-check1] error
+[2023-05-11 09:40:21] WARNING root fetch - processPackages [databend]: Skipping, unable to determine old version
+[2023-05-11 09:40:21] INFO root fetch - processPackages [databend]: Start processing: bagbag
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 09:40:21] WARNING root fetch - processPackages [mdx-to-pd]: Skipping, unable to determine old version
+[2023-05-11 09:40:21] INFO root fetch - processPackages [mdx-to-pd]: Start processing: vdk-gdp-execution-id
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: End processing [mdx-to-pd] error
+[2023-05-11 09:40:21] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-11 09:40:21] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Geode-Explicit]: New version: [3.1.0] Old Version: [3.0.4]
+[2023-05-11 09:40:21] WARNING root fetch - processPackages [Cofea]: Skipping, unable to determine old version
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Zeraora]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: End processing [Cofea] error
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-05-11 09:40:21] WARNING root fetch - processPackages [espressoconnect]: Skipping, unable to determine old version
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230511/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: End processing [espressoconnect] error
+[2023-05-11 09:40:21] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-11 09:40:21] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230511/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-11 09:40:21] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: New version: [12.0.1.0.2.99.dev9] Old Version: [12.0.1.0.2.99.dev8]
+[2023-05-11 09:40:21] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-11 09:40:21] INFO root fetch - processPackages [vdk-gdp-execution-id]: New version: [0.0.863985686] Old Version: [0.0.848464550]
+[2023-05-11 09:40:21] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-11 09:40:21] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-11 09:40:21] INFO root fetch - processPackages [botok]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-11 09:40:21] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Downloading https://files.pythonhosted.org/packages/a0/f8/420749911a392eddb386633f25d0071f927fd5efcdc09fd12fdf39d75836/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl
+[2023-05-11 09:40:21] INFO root fetch - processPackages [vdk-gdp-execution-id]: Downloading https://files.pythonhosted.org/packages/e2/a2/412682feb9f6b6f04621b89bbdc60f6674bd1a587051d40aa3cbd8af80b0/vdk-gdp-execution-id-0.0.848464550.tar.gz
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Zeraora]: Downloading https://files.pythonhosted.org/packages/f7/73/b91824a6dfda9a3b3ead9c4733978aa7c469cb8f4463964bf8c0c5801eae/Zeraora-0.2.8.tar.gz
+[2023-05-11 09:40:21] INFO root fetch - processPackages [botok]: Downloading https://files.pythonhosted.org/packages/37/cd/d98cfc9086ab4ed7012de6ef464233590dd75c3b126ec0fea24f09204481/botok-0.8.7.tar.gz
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/ad/03/bec9b3cadc6da931e53cc5ba8c2d80ab6340730fd667f4d430a1b366108c/Geode_Explicit-3.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Zeraora]: executing diffoscope
+[2023-05-11 09:40:21] INFO root fetch - processPackages [Zeraora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zeraora-0.2.7.tar.gz tmp/Zeraora-0.2.8.tar.gz --markdown 20230511/Z/Zeraora/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-11 09:40:21] INFO root fetch - processPackages [vdk-gdp-execution-id]: Downloading https://files.pythonhosted.org/packages/52/c3/3d11d7c1f3bfb534ae66a6d99348e8f3dd532c34256ee236a7d253cf0db7/vdk-gdp-execution-id-0.0.863985686.tar.gz
+[2023-05-11 09:40:21] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: Downloading https://files.pythonhosted.org/packages/6e/d2/f7113ddf9a3f34ebf18d0ee65a73918ddf0d8b8357678f927a6d48af1a1e/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl
+[2023-05-11 09:40:22] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-05-11 09:40:22] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-3.0.4-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-3.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230511/G/Geode-Explicit/3.0.4-3.1.0/diff.md --exclude *.pyd
+[2023-05-11 09:40:22] INFO root fetch - processPackages [botok]: Downloading https://files.pythonhosted.org/packages/61/98/9d84e5229d9d3fdc3377acd7a622c0ea25556c7db2b6d922cc4426be1cc3/botok-0.8.8.tar.gz
+[2023-05-11 09:40:22] INFO root fetch - processPackages [vdk-gdp-execution-id]: executing diffoscope
+[2023-05-11 09:40:22] INFO root fetch - processPackages [vdk-gdp-execution-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-gdp-execution-id-0.0.848464550.tar.gz tmp/vdk-gdp-execution-id-0.0.863985686.tar.gz --markdown 20230511/v/vdk-gdp-execution-id/0.0.848464550-0.0.863985686/diff.md --exclude *.pyd
+[2023-05-11 09:40:22] INFO root fetch - processPackages [botok]: executing diffoscope
+[2023-05-11 09:40:22] INFO root fetch - processPackages [botok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botok-0.8.7.tar.gz tmp/botok-0.8.8.tar.gz --markdown 20230511/b/botok/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-11 09:40:22] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: executing diffoscope
+[2023-05-11 09:40:22] INFO root fetch - processPackages [odoo12-addon-stock-return-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_return_request-12.0.1.0.2.99.dev9-py3-none-any.whl.zip --markdown 20230511/o/odoo12-addon-stock-return-request/12.0.1.0.2.99.dev8-12.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2023-05-11 09:40:22] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-05-11 09:40:23] INFO root fetch - main [MainThread]: End processing [Zeraora]: success
+[2023-05-11 09:40:23] INFO root fetch - main [MainThread]: End processing [vdk-gdp-execution-id]: success
+[2023-05-11 09:40:23] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-05-11 09:40:23] INFO root fetch - main [MainThread]: End processing [botok]: success
+[2023-05-11 09:40:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-return-request]: success
+[2023-05-11 09:40:25] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-11 09:40:25] INFO root fetch - main [MainThread]: Store serial: [18059532]
