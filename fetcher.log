@@ -10393,3 +10393,112 @@ EOFError: EOF read where object expected
 [2023-05-11 08:28:34] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-05-11 08:29:04] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-11 08:29:04] INFO root fetch - main [MainThread]: Store serial: [18058921]
+[2023-05-11 08:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058921]
+[2023-05-11 08:34:14] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-hcloud
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-project-stock
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-project
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mailgun
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sharingiscaring
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-docker
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-minio
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atas-client
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-keycloak
+[2023-05-11 08:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: isqlab
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [atas-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230510.0] Old Version: [16.0.20230314.0]
+[2023-05-11 08:34:14] WARNING root fetch - processPackages [isqlab]: Skipping, unable to determine old version
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-minio]: New version: [0.9.1a1682440158] Old Version: [0.9.1a1681933919]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [isqlab]: Start processing: odoo-addon-purchase-comment-template
+[2023-05-11 08:34:14] INFO root fetch - main [MainThread]: End processing [isqlab] error
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-keycloak]: New version: [5.2.0a1683784672] Old Version: [5.2.0a1683610820]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.5.0a1683784775] Old Version: [3.5.0a1683610813]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 08:34:14] WARNING root fetch - processPackages [odoo-addon-purchase-comment-template]: Skipping, unable to determine old version
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Start processing: odoo-addons-oca-purchase-reporting
+[2023-05-11 08:34:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-comment-template] error
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-docker]: New version: [4.3.0a1683784263] Old Version: [4.3.0a1683610879]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: New version: [16.0.20230425.1] Old Version: [15.0.20230510.0]
+[2023-05-11 08:34:14] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/97/26/6940324f0c98bc59b252fcc5353567d415d6043fa253593cb5a5c5a9c74a/atas_client-0.0.3.tar.gz
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/32/65/b53de68bd901694d43d131ff6c562f94d76adc078c7ab7e83b218ef52b19/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/5b/64/61029100a8f3075328edd42e28b61bfa9b588e49492fc5f7a0e976d6d72c/odoo_addons_oca_project-16.0.20230314.0-py3-none-any.whl
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Downloading https://files.pythonhosted.org/packages/c5/df/cd4992927d61fc8c80dd0b0ecdc75c32c832f3d46322451f8ae3ca581e25/odoo_addons_oca_purchase_reporting-15.0.20230510.0-py3-none-any.whl
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230511/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-docker]: Downloading https://files.pythonhosted.org/packages/40/ab/ed61abac336454e58a814c63dfabd85bc9cddf267f2eae0fa3e4637b02dd/pulumi_docker-4.3.0a1683784263.tar.gz
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/fb/0a/3fd29adda0c8a9edb74f9191d12f75fff387a6b858d2783621fd569282f0/pulumi_mailgun-3.5.0a1683784775.tar.gz
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-keycloak]: Downloading https://files.pythonhosted.org/packages/af/bd/5c8ee2055d9123a01c7bc51d89d3ad2e4ed76c40db84837405a5a4345bbf/pulumi_keycloak-5.2.0a1683784672.tar.gz
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/9c/2b/9f97e316d278653ff538054107699f87810c0ae96ccc47cd7fd524a05588/odoo_addons_oca_project-16.0.20230510.0-py3-none-any.whl
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-minio]: executing diffoscope
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-minio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_minio-0.9.1a1681933919.tar.gz tmp/pulumi_minio-0.9.1a1682440158.tar.gz --markdown 20230511/p/pulumi-minio/0.9.1a1681933919-0.9.1a1682440158/diff.md --exclude *.pyd
+[2023-05-11 08:34:14] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-11 08:34:14] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230511/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.5.0a1683610813.tar.gz tmp/pulumi_mailgun-3.5.0a1683784775.tar.gz --markdown 20230511/p/pulumi-mailgun/3.5.0a1683610813-3.5.0a1683784775/diff.md --exclude *.pyd
+[2023-05-11 08:34:14] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/4c/10/88ec244822f452bd89812c5e54804f2d631a7e6a6f0710e4451c8828413c/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-keycloak]: executing diffoscope
+[2023-05-11 08:34:14] INFO root fetch - processPackages [pulumi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_keycloak-5.2.0a1683610820.tar.gz tmp/pulumi_keycloak-5.2.0a1683784672.tar.gz --markdown 20230511/p/pulumi-keycloak/5.2.0a1683610820-5.2.0a1683784672/diff.md --exclude *.pyd
+[2023-05-11 08:34:15] INFO root fetch - processPackages [atas-client]: Downloading https://files.pythonhosted.org/packages/31/cb/7432effe8cf7c24cbdc9973d914153d8bfbb54d7f08c0566dc6ca05e1abb/atas_client-0.0.4.tar.gz
+[2023-05-11 08:34:15] INFO root fetch - processPackages [pulumi-docker]: executing diffoscope
+[2023-05-11 08:34:15] INFO root fetch - processPackages [pulumi-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_docker-4.3.0a1683610879.tar.gz tmp/pulumi_docker-4.3.0a1683784263.tar.gz --markdown 20230511/p/pulumi-docker/4.3.0a1683610879-4.3.0a1683784263/diff.md --exclude *.pyd
+[2023-05-11 08:34:15] INFO root fetch - processPackages [atas-client]: executing diffoscope
+[2023-05-11 08:34:15] INFO root fetch - processPackages [atas-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atas_client-0.0.3.tar.gz tmp/atas_client-0.0.4.tar.gz --markdown 20230511/a/atas-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230314.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230510.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addons-oca-project/16.0.20230314.0-16.0.20230510.0/diff.md --exclude *.pyd
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Downloading https://files.pythonhosted.org/packages/14/c2/e98433f6835d8a6443b631659cb79508a219e634cb08b2069d4f099cd58e/odoo_addons_oca_purchase_reporting-16.0.20230425.1-py3-none-any.whl
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-project-stock/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: executing diffoscope
+[2023-05-11 08:34:15] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_reporting-15.0.20230510.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_reporting-16.0.20230425.1-py3-none-any.whl.zip --markdown 20230511/o/odoo-addons-oca-purchase-reporting/15.0.20230510.0-16.0.20230425.1/diff.md --exclude *.pyd
+[2023-05-11 08:34:16] INFO root fetch - processPackages [pulumi-hcloud]: Start processing: scrape-schema
+[2023-05-11 08:34:16] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-05-11 08:34:16] INFO root fetch - processPackages [scrape-schema]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-11 08:34:16] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-05-11 08:34:16] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.1.4.tar.gz tmp/scrape_schema-0.2.0.tar.gz --markdown 20230511/s/scrape-schema/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 08:34:17] INFO root fetch - processPackages [atas-client]: Start processing: djlds
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [atas-client]: success
+[2023-05-11 08:34:17] INFO root fetch - processPackages [odoo-addons-oca-project]: Start processing: gpt-convo-reader
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-05-11 08:34:17] INFO root fetch - processPackages [pulumi-docker]: Start processing: smartjs
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [pulumi-docker]: success
+[2023-05-11 08:34:17] INFO root fetch - processPackages [smartjs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 08:34:17] INFO root fetch - processPackages [djlds]: New version: [2023.5.11] Old Version: [2022.5.23]
+[2023-05-11 08:34:17] INFO root fetch - processPackages [gpt-convo-reader]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 08:34:17] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Start processing: shaheencal
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-reporting]: success
+[2023-05-11 08:34:17] INFO root fetch - processPackages [smartjs]: executing diffoscope
+[2023-05-11 08:34:17] INFO root fetch - processPackages [smartjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartjs-0.1.1.tar.gz tmp/smartjs-0.1.2.tar.gz --markdown 20230511/s/smartjs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 08:34:17] WARNING root fetch - processPackages [shaheencal]: Skipping, unable to determine old version
+[2023-05-11 08:34:17] INFO root fetch - processPackages [shaheencal]: Start processing: PureCloudPlatformClientV2
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [shaheencal] error
+[2023-05-11 08:34:17] INFO root fetch - processPackages [djlds]: Downloading https://files.pythonhosted.org/packages/43/83/18786d531dbe8b1f45082ad26e722cdd857a907cfdf0aff252868a72c869/djlds-2022.5.23.tar.gz
+[2023-05-11 08:34:17] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/6e/39/25cde4c92c93f609bfc7f72e8a63d4d0ad1e77202d507f3afd560b562dd5/gpt-convo-reader-0.1.1.tar.gz
+[2023-05-11 08:34:17] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-05-11 08:34:17] INFO root fetch - processPackages [pulumi-minio]: Start processing: odoo12-addon-purchase-request
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [pulumi-minio]: success
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2023-05-11 08:34:17] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-05-11 08:34:17] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.3.1.99.dev9] Old Version: [12.0.5.3.1.99.dev8]
+[2023-05-11 08:34:17] INFO root fetch - processPackages [djlds]: Downloading https://files.pythonhosted.org/packages/94/1d/3eefeabd069079521f6a497dd05515991b795473874fe1c5fa77f6b81ac4/djlds-2023.5.11.tar.gz
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-05-11 08:34:17] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2023-05-11 08:34:17] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.3.1.99.dev9-py3-none-any.whl.zip --markdown 20230511/o/odoo12-addon-purchase-request/12.0.5.3.1.99.dev8-12.0.5.3.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-11 08:34:17] INFO root fetch - processPackages [djlds]: executing diffoscope
+[2023-05-11 08:34:17] INFO root fetch - processPackages [djlds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlds-2022.5.23.tar.gz tmp/djlds-2023.5.11.tar.gz --markdown 20230511/d/djlds/2022.5.23-2023.5.11/diff.md --exclude *.pyd
+[2023-05-11 08:34:17] INFO root fetch - processPackages [gpt-convo-reader]: Downloading https://files.pythonhosted.org/packages/61/be/bce688ce0342568df89f750510c405c860cf8db2e3b6ccf0a71a4da7db02/gpt-convo-reader-0.1.2.tar.gz
+[2023-05-11 08:34:17] INFO root fetch - processPackages [gpt-convo-reader]: executing diffoscope
+[2023-05-11 08:34:17] INFO root fetch - processPackages [gpt-convo-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-convo-reader-0.1.1.tar.gz tmp/gpt-convo-reader-0.1.2.tar.gz --markdown 20230511/g/gpt-convo-reader/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 08:34:17] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-11 08:34:18] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-05-11 08:34:18] INFO root fetch - main [MainThread]: End processing [pulumi-keycloak]: success
+[2023-05-11 08:34:18] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-05-11 08:34:18] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230511/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-05-11 08:34:18] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-05-11 08:34:18] INFO root fetch - main [MainThread]: End processing [smartjs]: success
+[2023-05-11 08:34:19] INFO root fetch - main [MainThread]: End processing [gpt-convo-reader]: success
+[2023-05-11 08:34:19] INFO root fetch - main [MainThread]: End processing [djlds]: success
+[2023-05-11 08:34:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2023-05-11 08:35:06] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-05-11 08:35:06] INFO root fetch - main [MainThread]: Store serial: [18058973]
