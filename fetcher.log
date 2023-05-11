@@ -20204,3 +20204,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:49:39] INFO root fetch - main [MainThread]: End processing [clyngor]: success
 [2023-05-11 15:49:47] INFO root fetch - main [MainThread]: End processing [Vespa-Suite]: success
 [2023-05-11 15:49:47] INFO root fetch - main [MainThread]: Store serial: [18064276]
+[2023-05-11 15:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064276]
+[2023-05-11 15:54:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wc-django-envoyer
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: huscy.project-consents
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taxonomy-connector
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: laboneq
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mattlib
+[2023-05-11 15:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mirutil
+[2023-05-11 15:54:56] INFO root fetch - processPackages [wc-django-envoyer]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [huscy.project-consents]: New version: [0.6.0a7] Old Version: [0.4.0a8]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [mirutil]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [mattlib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [laboneq]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [quantplay]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-11 15:54:56] INFO root fetch - processPackages [mirutil]: executing diffoscope
+[2023-05-11 15:54:56] INFO root fetch - processPackages [mirutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirutil-9.3.1.tar.gz tmp/mirutil-9.4.0.tar.gz --markdown 20230511/m/mirutil/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-05-11 15:54:56] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/ba/66/e9fe2f29e823f5df3cb1269e856b0583eb34730bcd77fa5d1af8cee3172a/huscy.project_consents-0.4.0a8.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/27/35/708857f272e70bfb982cdbf64403f8f5a2dda24d5c4885a68e3ddeff7245/laboneq-2.5.0-py3-none-any.whl
+[2023-05-11 15:54:56] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/36/89/9725eb45bc166363e6e84241f0831b05fcdcecef7beddf8c08cc7447cd62/PatryksAutoAI-0.1.9.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [mattlib]: Downloading https://files.pythonhosted.org/packages/6a/8c/5b23efb6534ea741f3ae6f38aed855e9e5cc537704a6167d4073c3e99757/mattlib-1.1.0.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [wc-django-envoyer]: Downloading https://files.pythonhosted.org/packages/1b/51/b0aa08a0aeed8cab78310b715051b1a47c695c391622cbffd1ec89ef55f9/wc-django-envoyer-0.2.3.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/6c/ca/68653b4969c3cd449aeb81948699810d6138ca69e1bea8ba4a0e37df2099/huscy.project_consents-0.6.0a7.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 15:54:56] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.8.tar.gz tmp/PatryksAutoAI-0.1.9.tar.gz --markdown 20230511/P/PatryksAutoAI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 15:54:56] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-05-11 15:54:56] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.2.8.tar.gz tmp/quantplay-1.2.9.tar.gz --markdown 20230511/q/quantplay/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-11 15:54:56] INFO root fetch - processPackages [wc-django-envoyer]: executing diffoscope
+[2023-05-11 15:54:56] INFO root fetch - processPackages [wc-django-envoyer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wc-django-envoyer-0.2.2.tar.gz tmp/wc-django-envoyer-0.2.3.tar.gz --markdown 20230511/w/wc-django-envoyer/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-11 15:54:56] INFO root fetch - processPackages [mattlib]: Downloading https://files.pythonhosted.org/packages/88/fc/20cc49d0ac28f18bda935ad19d6eebd1b1f3ec31c55eeb47f09c1e6ec305/mattlib-1.1.1.tar.gz
+[2023-05-11 15:54:56] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/7f/59/cfe9fc89421ab7fe5883e221673949e95504ae133b9365721059b9d82b8a/laboneq-2.6.0-py3-none-any.whl
+[2023-05-11 15:54:57] INFO root fetch - processPackages [huscy.project-consents]: executing diffoscope
+[2023-05-11 15:54:57] INFO root fetch - processPackages [huscy.project-consents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_consents-0.4.0a8.tar.gz tmp/huscy.project_consents-0.6.0a7.tar.gz --markdown 20230511/h/huscy.project-consents/0.4.0a8-0.6.0a7/diff.md --exclude *.pyd
+[2023-05-11 15:54:57] INFO root fetch - processPackages [mattlib]: executing diffoscope
+[2023-05-11 15:54:57] INFO root fetch - processPackages [mattlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattlib-1.1.0.tar.gz tmp/mattlib-1.1.1.tar.gz --markdown 20230511/m/mattlib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 15:54:57] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2023-05-11 15:54:57] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.5.0-py3-none-any.whl.zip tmp/laboneq-2.6.0-py3-none-any.whl.zip --markdown 20230511/l/laboneq/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-05-11 15:54:57] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-05-11 15:54:57] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-05-11 15:54:57] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230511/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 15:54:57] INFO root fetch - main [MainThread]: End processing [mirutil]: success
+[2023-05-11 15:54:58] INFO root fetch - main [MainThread]: End processing [wc-django-envoyer]: success
+[2023-05-11 15:54:58] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 15:54:58] INFO root fetch - main [MainThread]: End processing [huscy.project-consents]: success
+[2023-05-11 15:54:58] INFO root fetch - main [MainThread]: End processing [mattlib]: success
+[2023-05-11 15:54:59] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-05-11 15:54:59] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-05-11 15:55:01] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2023-05-11 15:55:01] INFO root fetch - main [MainThread]: Store serial: [18064299]
