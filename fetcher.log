@@ -9548,3 +9548,65 @@ EOFError: EOF read where object expected
 [2023-05-11 07:15:02] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
 [2023-05-11 07:15:02] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
 [2023-05-11 07:15:02] INFO root fetch - main [MainThread]: Store serial: [18058442]
+[2023-05-11 07:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058442]
+[2023-05-11 07:20:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-ro-fiscal-validation
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dls-servbase
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdxpy
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpe-rift-pipe
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runpod
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devcellpy
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blitzgsea
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moira-python-client
+[2023-05-11 07:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xchem-chimp
+[2023-05-11 07:20:11] INFO root fetch - processPackages [moira-python-client]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [runpod]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [odoo14-addon-l10n-ro-fiscal-validation]: New version: [14.0.3.4.1.dev1] Old Version: [14.0.3.4.0]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [devcellpy]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [blitzgsea]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [dls-servbase]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [tdxpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.3.dev20230511] Old Version: [0.2.3.dev20230510]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [moira-python-client]: Downloading https://files.pythonhosted.org/packages/d6/74/057a497c1d1c5cc39addab894f8310c394ab512a9e33cd50a3236814ea4e/moira-python-client-4.0.0.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [xchem-chimp]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 07:20:11] INFO root fetch - processPackages [odoo14-addon-l10n-ro-fiscal-validation]: Downloading https://files.pythonhosted.org/packages/7a/61/d1839e74d3ab971d30aa883fb68f97a66194899a956698c77f28ae1b4937/odoo14_addon_l10n_ro_fiscal_validation-14.0.3.4.0-py3-none-any.whl
+[2023-05-11 07:20:11] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/63/a0/aca2ded4f84a8b9436db075c6087ffe3e9d0a9f53eae107b800d2ba2bb9a/rapidpe_rift_pipe-0.2.3.dev20230510.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [devcellpy]: Downloading https://files.pythonhosted.org/packages/db/c9/06d8d63e57ec6ba71e4e5953aff408c838a5a656c47f5a20cb3d9eef38f2/devcellpy-1.1.0-py3-none-any.whl
+[2023-05-11 07:20:11] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/e8/e3/79e480be384714793cb1d56a590e73776352d009722d6e10fdb2a9fdf767/runpod-0.9.6.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/1f/bd/02d99a85a4b7e665f138ea60c7195f17735776d4b43655f284f7462bc457/dls-servbase-1.2.2.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [xchem-chimp]: Downloading https://files.pythonhosted.org/packages/a2/75/db759fdbf73999e1192e2bc7fd11926fbe83a56eed6c91682341edb98d62/xchem-chimp-1.0.0.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [tdxpy]: Downloading https://files.pythonhosted.org/packages/50/cf/2159155bee162fc3d6e48e21c9bae8d29a8e3b6c609bb5cb39922082daa2/tdxpy-0.2.1.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [blitzgsea]: executing diffoscope
+[2023-05-11 07:20:11] INFO root fetch - processPackages [blitzgsea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blitzgsea-1.3.8.tar.gz tmp/blitzgsea-1.3.9.tar.gz --markdown 20230511/b/blitzgsea/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 07:20:11] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-05-11 07:20:11] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.5.tar.gz tmp/runpod-0.9.6.tar.gz --markdown 20230511/r/runpod/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-11 07:20:11] INFO root fetch - processPackages [devcellpy]: Downloading https://files.pythonhosted.org/packages/b3/1a/ffc565c52087179dcc2ea50d59d014436bf507fd899947ae11ce6bee4cb8/devcellpy-1.1.1.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [odoo14-addon-l10n-ro-fiscal-validation]: Downloading https://files.pythonhosted.org/packages/1d/cb/9e4f891c497db15037642722b30fe3f5989bab9648c8ce92f680cdc9c34d/odoo14_addon_l10n_ro_fiscal_validation-14.0.3.4.1.dev1-py3-none-any.whl
+[2023-05-11 07:20:11] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/a5/3e/ea6af13e3b159d02b544381eb313caa08b5c1025f3055f23a45b4ca604d1/dls-servbase-1.3.1.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/09/d2/26b3ecddb8921bb61ded7b6c2c8eda7a09310f1ebb5fb8027f3e79790608/rapidpe_rift_pipe-0.2.3.dev20230511.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [moira-python-client]: Downloading https://files.pythonhosted.org/packages/e9/ac/2609938f7250da48ab5fafab0ff6c251343bc1214522b568da18edc82783/moira-python-client-4.0.1.tar.gz
+[2023-05-11 07:20:11] INFO root fetch - processPackages [tdxpy]: executing diffoscope
+[2023-05-11 07:20:11] INFO root fetch - processPackages [tdxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdxpy-0.2.0.tar.gz tmp/tdxpy-0.2.1.tar.gz --markdown 20230511/t/tdxpy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 07:20:11] INFO root fetch - processPackages [devcellpy]: executing diffoscope
+[2023-05-11 07:20:11] INFO root fetch - processPackages [devcellpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcellpy-1.1.0-py3-none-any.whl.zip tmp/devcellpy-1.1.1.tar.gz --markdown 20230511/d/devcellpy/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-11 07:20:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.3.dev20230510.tar.gz tmp/rapidpe_rift_pipe-0.2.3.dev20230511.tar.gz --markdown 20230511/r/rapidpe-rift-pipe/0.2.3.dev20230510-0.2.3.dev20230511/diff.md --exclude *.pyd
+[2023-05-11 07:20:12] INFO root fetch - processPackages [odoo14-addon-l10n-ro-fiscal-validation]: executing diffoscope
+[2023-05-11 07:20:12] INFO root fetch - processPackages [odoo14-addon-l10n-ro-fiscal-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_fiscal_validation-14.0.3.4.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_fiscal_validation-14.0.3.4.1.dev1-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-l10n-ro-fiscal-validation/14.0.3.4.0-14.0.3.4.1.dev1/diff.md --exclude *.pyd
+[2023-05-11 07:20:12] INFO root fetch - processPackages [moira-python-client]: executing diffoscope
+[2023-05-11 07:20:12] INFO root fetch - processPackages [moira-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moira-python-client-4.0.0.tar.gz tmp/moira-python-client-4.0.1.tar.gz --markdown 20230511/m/moira-python-client/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-11 07:20:12] INFO root fetch - processPackages [dls-servbase]: executing diffoscope
+[2023-05-11 07:20:12] INFO root fetch - processPackages [dls-servbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-servbase-1.2.2.tar.gz tmp/dls-servbase-1.3.1.tar.gz --markdown 20230511/d/dls-servbase/1.2.2-1.3.1/diff.md --exclude *.pyd
+[2023-05-11 07:20:12] INFO root fetch - processPackages [xchem-chimp]: Downloading https://files.pythonhosted.org/packages/5b/5c/2e77b91a86aeb6d79e77369680c6b0f3fc99e005a954ba3d6297a4c11ac7/xchem-chimp-1.0.1.tar.gz
+[2023-05-11 07:20:12] INFO root fetch - processPackages [xchem-chimp]: executing diffoscope
+[2023-05-11 07:20:12] INFO root fetch - processPackages [xchem-chimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchem-chimp-1.0.0.tar.gz tmp/xchem-chimp-1.0.1.tar.gz --markdown 20230511/x/xchem-chimp/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 07:20:13] INFO root fetch - main [MainThread]: End processing [devcellpy]: success
+[2023-05-11 07:20:13] INFO root fetch - main [MainThread]: End processing [blitzgsea]: success
+[2023-05-11 07:20:13] INFO root fetch - main [MainThread]: End processing [tdxpy]: success
+[2023-05-11 07:20:13] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-05-11 07:20:13] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-11 07:20:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-fiscal-validation]: success
+[2023-05-11 07:20:14] INFO root fetch - main [MainThread]: End processing [moira-python-client]: success
+[2023-05-11 07:20:14] INFO root fetch - main [MainThread]: End processing [xchem-chimp]: success
+[2023-05-11 07:20:15] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
+[2023-05-11 07:20:15] INFO root fetch - main [MainThread]: Store serial: [18058477]
