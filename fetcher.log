@@ -18060,3 +18060,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 13:55:37] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
 [2023-05-11 13:55:37] INFO root fetch - main [MainThread]: End processing [juju]: success
 [2023-05-11 13:55:37] INFO root fetch - main [MainThread]: Store serial: [18063090]
+[2023-05-11 14:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063090]
+[2023-05-11 14:00:57] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anoexpress
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alldebrid.py
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btconfig
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oneai
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rddl-verify
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmsis-stream
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyneweb
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: balena-sdk
+[2023-05-11 14:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cosmoplots
+[2023-05-11 14:00:57] WARNING root fetch - processPackages [alldebrid.py]: Skipping, unable to determine old version
+[2023-05-11 14:00:57] INFO root fetch - processPackages [alldebrid.py]: Start processing: waifuim.py
+[2023-05-11 14:00:57] INFO root fetch - main [MainThread]: End processing [alldebrid.py] error
+[2023-05-11 14:00:57] INFO root fetch - processPackages [btconfig]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230511.11.55.578904] Old Version: [20230510.9.51.843026]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [rddl-verify]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [cosmoplots]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [pyneweb]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [anoexpress]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [waifuim.py]: New version: [4.2.3] Old Version: [4.2.2]
+[2023-05-11 14:00:57] WARNING root fetch - processPackages [cmsis-stream]: Skipping, unable to determine old version
+[2023-05-11 14:00:57] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [cmsis-stream]: Start processing: playmolecule
+[2023-05-11 14:00:57] INFO root fetch - main [MainThread]: End processing [cmsis-stream] error
+[2023-05-11 14:00:57] INFO root fetch - processPackages [oneai]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [playmolecule]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-11 14:00:57] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.7.2.tar.gz tmp/playmolecule-1.7.3.tar.gz --markdown 20230511/p/playmolecule/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-11 14:00:57] INFO root fetch - processPackages [btconfig]: Downloading https://files.pythonhosted.org/packages/2a/b5/83660aefd5501e082696b73462412ec82b52dc218a98e7167288eee1702c/btconfig-4.4.1.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [rddl-verify]: Downloading https://files.pythonhosted.org/packages/26/53/38ed6021e15acb827ea786d3f560e8d51e6af24598aec7bd4e789e48ff24/rddl_verify-0.1.1.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/c5/d4/469db46b2e3bc0aab69d921d2cc493f9875be82eed2c11e629b99efeff67/certora-cli-alpha-roy-CERT-1955-assertHits-20230510.9.51.843026.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [waifuim.py]: Downloading https://files.pythonhosted.org/packages/52/81/aa2f5aa0dd44e66c000310744c366fc219feb382d3d036c48c782e067577/waifuim.py-4.2.2.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/48/29/0cb292183e2cc85770b44377f0008f62f2d503031536045c054a67800f4d/pyneweb-0.5.0.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [anoexpress]: Downloading https://files.pythonhosted.org/packages/4e/f2/f9a7f0b20997d21602dded2f2f08b5ea3fd404a0291e4ed30655df9ae308/anoexpress-0.1.4.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/89/0a/916602909edf1a6e1b661edd45fea91d4c79d5b47c0e06ab35b279a9464b/oneai-0.9.8.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [cosmoplots]: Downloading https://files.pythonhosted.org/packages/94/2d/1fa9341b55818ef49f0eb19a98e86b992473a287fde76d36f252fbe0ecf5/cosmoplots-0.1.6.tar.gz
+[2023-05-11 14:00:57] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39213582>=10485760
+[2023-05-11 14:00:57] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: better-translation
+[2023-05-11 14:00:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-11 14:00:57] INFO root fetch - processPackages [btconfig]: Downloading https://files.pythonhosted.org/packages/e6/bb/c9a5c2468e75dce80d03d78246c537131a42c7231afa3c72b1b0f00e7bc0/btconfig-4.4.2.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [better-translation]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-11 14:00:57] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/27/3c/04a338253f9280f711a73be301c0d14e812cd57bfc1f60c60365ffeb768d/pyneweb-0.5.1.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [anoexpress]: Downloading https://files.pythonhosted.org/packages/5c/05/e5ee33133f7210a07cd37f7147d83f0f9a265dd5e37442d40363ea642c4b/anoexpress-0.1.5.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [rddl-verify]: Downloading https://files.pythonhosted.org/packages/eb/b3/0e3c7d3b21a394c6a08a3fa7f9446181c3349b516592183ea123f0915e9c/rddl_verify-0.2.0.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [cosmoplots]: Downloading https://files.pythonhosted.org/packages/9a/d0/7bd1a214e940d69bfc8115fa2a90eb96d991bb54f40c620cb9a08639b8a0/cosmoplots-0.2.0.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [btconfig]: executing diffoscope
+[2023-05-11 14:00:57] INFO root fetch - processPackages [btconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btconfig-4.4.1.tar.gz tmp/btconfig-4.4.2.tar.gz --markdown 20230511/b/btconfig/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-05-11 14:00:57] INFO root fetch - processPackages [oneai]: Downloading https://files.pythonhosted.org/packages/a8/be/4f8d749fd967478a2b1fff1577b187c9e85d1892517acbe16a8cdf91e094/oneai-0.9.9.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-05-11 14:00:57] INFO root fetch - processPackages [pyneweb]: executing diffoscope
+[2023-05-11 14:00:57] INFO root fetch - processPackages [pyneweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneweb-0.5.0.tar.gz tmp/pyneweb-0.5.1.tar.gz --markdown 20230511/p/pyneweb/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-11 14:00:57] INFO root fetch - processPackages [anoexpress]: executing diffoscope
+[2023-05-11 14:00:57] INFO root fetch - processPackages [anoexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anoexpress-0.1.4.tar.gz tmp/anoexpress-0.1.5.tar.gz --markdown 20230511/a/anoexpress/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-11 14:00:58] INFO root fetch - processPackages [waifuim.py]: Downloading https://files.pythonhosted.org/packages/b6/b3/e0f03ed1f27ccd2cb66ba83fb0214ecbcaa7161da412c246e3bee2d33872/waifuim.py-4.2.3.tar.gz
+[2023-05-11 14:00:58] INFO root fetch - processPackages [rddl-verify]: executing diffoscope
+[2023-05-11 14:00:58] INFO root fetch - processPackages [rddl-verify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rddl_verify-0.1.1.tar.gz tmp/rddl_verify-0.2.0.tar.gz --markdown 20230511/r/rddl-verify/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 14:00:58] INFO root fetch - processPackages [cosmoplots]: executing diffoscope
+[2023-05-11 14:00:58] INFO root fetch - processPackages [cosmoplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmoplots-0.1.6.tar.gz tmp/cosmoplots-0.2.0.tar.gz --markdown 20230511/c/cosmoplots/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 14:00:58] INFO root fetch - processPackages [better-translation]: Downloading https://files.pythonhosted.org/packages/e5/f7/9e1a9433286144600af54a8b8dcd175977fd2b45710c6aada793135f0d26/better-translation-0.3.2.tar.gz
+[2023-05-11 14:00:58] INFO root fetch - processPackages [oneai]: executing diffoscope
+[2023-05-11 14:00:58] INFO root fetch - processPackages [oneai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oneai-0.9.8.tar.gz tmp/oneai-0.9.9.tar.gz --markdown 20230511/o/oneai/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 14:00:58] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-05-11 14:00:58] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230511/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-05-11 14:00:58] INFO root fetch - processPackages [waifuim.py]: executing diffoscope
+[2023-05-11 14:00:58] INFO root fetch - processPackages [waifuim.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waifuim.py-4.2.2.tar.gz tmp/waifuim.py-4.2.3.tar.gz --markdown 20230511/w/waifuim.py/4.2.2-4.2.3/diff.md --exclude *.pyd
+[2023-05-11 14:00:58] INFO root fetch - processPackages [better-translation]: Downloading https://files.pythonhosted.org/packages/6a/c2/10bf83337fa2e398dca657660c00cd59f2d8aaab59ba6e6bbbbabdd92512/better-translation-0.4.0.tar.gz
+[2023-05-11 14:00:58] INFO root fetch - processPackages [better-translation]: executing diffoscope
+[2023-05-11 14:00:58] INFO root fetch - processPackages [better-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better-translation-0.3.2.tar.gz tmp/better-translation-0.4.0.tar.gz --markdown 20230511/b/better-translation/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 14:00:59] INFO root fetch - processPackages [pyneweb]: Start processing: certora-cli-alpha-eyalf-clean-EvaldCVLExp
+[2023-05-11 14:00:59] INFO root fetch - main [MainThread]: End processing [pyneweb]: success
+[2023-05-11 14:00:59] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-clean-EvaldCVLExp]: Skipping, unable to determine old version
+[2023-05-11 14:00:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-clean-EvaldCVLExp] error
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [anoexpress]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [cosmoplots]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [btconfig]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [rddl-verify]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [waifuim.py]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [oneai]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: End processing [better-translation]: success
+[2023-05-11 14:01:00] INFO root fetch - main [MainThread]: Store serial: [18063142]
