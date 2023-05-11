@@ -11694,3 +11694,49 @@ EOFError: EOF read where object expected
 [2023-05-11 09:56:15] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-alinlp]: success
 [2023-05-11 09:56:15] INFO root fetch - main [MainThread]: End processing [slippistats]: success
 [2023-05-11 09:56:15] INFO root fetch - main [MainThread]: Store serial: [18059681]
+[2023-05-11 10:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059681]
+[2023-05-11 10:01:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llcsciencesdk
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ugot
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scipion-em-sphire
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jamespopcat
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy_baseline
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teko-cli
+[2023-05-11 10:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-cms20190101
+[2023-05-11 10:01:24] INFO root fetch - processPackages [alibabacloud-cms20190101]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-05-11 10:01:24] INFO root fetch - processPackages [teko-cli]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-05-11 10:01:25] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230511.7.56.807160] Old Version: [20230504.7.27.314377]
+[2023-05-11 10:01:25] INFO root fetch - processPackages [llcsciencesdk]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-11 10:01:25] INFO root fetch - processPackages [scipion-em-sphire]: New version: [3.1.8] Old Version: [3.1.6]
+[2023-05-11 10:01:25] WARNING root fetch - processPackages [jamespopcat]: Skipping, unable to determine old version
+[2023-05-11 10:01:25] INFO root fetch - processPackages [mypy_baseline]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-11 10:01:25] INFO root fetch - main [MainThread]: End processing [jamespopcat] error
+[2023-05-11 10:01:25] WARNING root fetch - processPackages [ugot]: Skipping, unable to determine old version
+[2023-05-11 10:01:25] INFO root fetch - main [MainThread]: End processing [ugot] error
+[2023-05-11 10:01:25] INFO root fetch - processPackages [teko-cli]: executing diffoscope
+[2023-05-11 10:01:25] INFO root fetch - processPackages [teko-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teko-cli-0.9.5.tar.gz tmp/teko-cli-0.9.6.tar.gz --markdown 20230511/t/teko-cli/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-05-11 10:01:25] INFO root fetch - processPackages [alibabacloud-cms20190101]: Downloading https://files.pythonhosted.org/packages/d1/ed/f517fabd575bcde9a844cca9feed92aa989e742f250f7c1f8ae1664f9ef7/alibabacloud_cms20190101-2.0.4.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [llcsciencesdk]: Downloading https://files.pythonhosted.org/packages/0c/06/a7d2d32787d32b2f6ea86665d5b672b079a6793181f59bbbc9388aa78486/llcsciencesdk-2.0.1.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/af/9e/6d0f89d284bbfd21674680effcac6fa6ab0705d6805c1bc2075324c63d01/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230504.7.27.314377.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [scipion-em-sphire]: Downloading https://files.pythonhosted.org/packages/46/af/2cb87a0100777587c912546c88e6c810bf0183645d0aa8dac14c9dd0c8ac/scipion-em-sphire-3.1.6.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [mypy_baseline]: Downloading https://files.pythonhosted.org/packages/d0/3e/eb3c0d17981073408bf3a2dbf939034f08628de2b0811a1082d8200ae5c0/mypy_baseline-0.5.0.tar.gz
+[2023-05-11 10:01:25] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 38418184>=10485760
+[2023-05-11 10:01:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-11 10:01:25] INFO root fetch - processPackages [llcsciencesdk]: executing diffoscope
+[2023-05-11 10:01:25] INFO root fetch - processPackages [llcsciencesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llcsciencesdk-2.0.0.tar.gz tmp/llcsciencesdk-2.0.1.tar.gz --markdown 20230511/l/llcsciencesdk/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-11 10:01:25] INFO root fetch - processPackages [scipion-em-sphire]: Downloading https://files.pythonhosted.org/packages/59/26/0ed31dc519ae42640a02c6c622c227471a9226d80ca6ddd10b2a1e1a9f1e/scipion-em-sphire-3.1.8.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [mypy_baseline]: Downloading https://files.pythonhosted.org/packages/64/2c/5f23d2663b5f0cf458c2a1b078b6f3d18c2ac4defa080fc196f4c0a010eb/mypy_baseline-0.5.1.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [scipion-em-sphire]: executing diffoscope
+[2023-05-11 10:01:25] INFO root fetch - processPackages [alibabacloud-cms20190101]: Downloading https://files.pythonhosted.org/packages/8c/9b/18df219fa367b71aaa0b291786c6fc197f550c9c0505095968dd01d06527/alibabacloud_cms20190101-2.0.5.tar.gz
+[2023-05-11 10:01:25] INFO root fetch - processPackages [scipion-em-sphire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-sphire-3.1.6.tar.gz tmp/scipion-em-sphire-3.1.8.tar.gz --markdown 20230511/s/scipion-em-sphire/3.1.6-3.1.8/diff.md --exclude *.pyd
+[2023-05-11 10:01:25] INFO root fetch - processPackages [mypy_baseline]: executing diffoscope
+[2023-05-11 10:01:25] INFO root fetch - processPackages [mypy_baseline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_baseline-0.5.0.tar.gz tmp/mypy_baseline-0.5.1.tar.gz --markdown 20230511/m/mypy_baseline/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-11 10:01:25] INFO root fetch - processPackages [alibabacloud-cms20190101]: executing diffoscope
+[2023-05-11 10:01:25] INFO root fetch - processPackages [alibabacloud-cms20190101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cms20190101-2.0.4.tar.gz tmp/alibabacloud_cms20190101-2.0.5.tar.gz --markdown 20230511/a/alibabacloud-cms20190101/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-05-11 10:01:26] INFO root fetch - main [MainThread]: End processing [teko-cli]: success
+[2023-05-11 10:01:26] INFO root fetch - main [MainThread]: End processing [llcsciencesdk]: success
+[2023-05-11 10:01:26] INFO root fetch - main [MainThread]: End processing [scipion-em-sphire]: success
+[2023-05-11 10:01:26] INFO root fetch - main [MainThread]: End processing [mypy_baseline]: success
+[2023-05-11 10:01:28] INFO root fetch - main [MainThread]: End processing [alibabacloud-cms20190101]: success
+[2023-05-11 10:01:28] INFO root fetch - main [MainThread]: Store serial: [18059710]
