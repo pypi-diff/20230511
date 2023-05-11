@@ -11501,3 +11501,110 @@ EOFError: EOF read where object expected
 [2023-05-11 09:45:39] INFO root fetch - main [MainThread]: End processing [pytorch-pfn-extras]: success
 [2023-05-11 09:45:40] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
 [2023-05-11 09:45:40] INFO root fetch - main [MainThread]: Store serial: [18059575]
+[2023-05-11 09:50:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059575]
+[2023-05-11 09:50:49] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megadata
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-hr-timesheet-sheet-attendance
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asqlcell
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-ak-ee637c8293f64104af9686dc12e0cd18
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: triplify-csv
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yuna-db
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: igi-lab3-Oleg
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aliyun-python-sdk-airticketopen
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-iot20180120
+[2023-05-11 09:50:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supervisely
+[2023-05-11 09:50:49] INFO root fetch - processPackages [alibabacloud-iot20180120]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [asqlcell]: New version: [0.1.7] Old Version: [0.1.6.1]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: New version: [14.0.1.0.1.dev7] Old Version: [14.0.1.0.1.dev6]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [yuna-db]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [triplify-csv]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-11 09:50:49] WARNING root fetch - processPackages [igi-lab3-Oleg]: Skipping, unable to determine old version
+[2023-05-11 09:50:49] WARNING root fetch - processPackages [aliyun-python-sdk-airticketopen]: Skipping, unable to determine old version
+[2023-05-11 09:50:49] INFO root fetch - processPackages [igi-lab3-Oleg]: Start processing: cost-monitoring-construct
+[2023-05-11 09:50:49] INFO root fetch - main [MainThread]: End processing [igi-lab3-Oleg] error
+[2023-05-11 09:50:49] INFO root fetch - processPackages [aliyun-python-sdk-airticketopen]: Start processing: dev-gpt
+[2023-05-11 09:50:49] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-airticketopen] error
+[2023-05-11 09:50:49] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [dev-gpt]: New version: [0.18.38.dev1] Old Version: [0.18.37.dev81]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/4c/e2/34a9e19124da59cccefcc449b0a5b0c858a3dcf7f06d54db83b3dfb54b2a/alibabacloud_iot20180120-3.1.0.tar.gz
+[2023-05-11 09:50:49] INFO root fetch - processPackages [dev-gpt]: executing diffoscope
+[2023-05-11 09:50:49] INFO root fetch - processPackages [dev-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dev-gpt-0.18.37.dev81.tar.gz tmp/dev-gpt-0.18.38.dev1.tar.gz --markdown 20230511/d/dev-gpt/0.18.37.dev81-0.18.38.dev1/diff.md --exclude *.pyd
+[2023-05-11 09:50:49] INFO root fetch - processPackages [cost-monitoring-construct]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-11 09:50:49] INFO root fetch - processPackages [asqlcell]: Downloading https://files.pythonhosted.org/packages/2f/e2/bf84b32c5823d9405e065f0a1ff24c916704968e089a6a5d8726e84ca0cd/asqlcell-0.1.6.1-py2.py3-none-any.whl
+[2023-05-11 09:50:49] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-05-11 09:50:49] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/c5/a1/7c06b1d955068bf8a4a056e57fe7c618e6c21c7289d57366d125f436114f/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-11 09:50:49] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: executing diffoscope
+[2023-05-11 09:50:49] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.0.2.tar.gz tmp/antchain_ak_ee637c8293f64104af9686dc12e0cd18-1.1.0.tar.gz --markdown 20230511/a/antchain-ak-ee637c8293f64104af9686dc12e0cd18/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-05-11 09:50:49] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/d1/da/7656f3560c99b87dbc6f4af733939e059331f1dce3f0e67d376713acfc3f/cost-monitoring-construct-1.1.0.tar.gz
+[2023-05-11 09:50:49] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/48/2a/c41eb2a79fb772ce780965e951eda4498ecd16ce123b856a38dc6584a35d/alibabacloud_iot20180120-3.1.1.tar.gz
+[2023-05-11 09:50:49] INFO root fetch - processPackages [triplify-csv]: Downloading https://files.pythonhosted.org/packages/ab/30/573203f7010d0175b2c09c03843ff90e565a512d64580aee55d4d1effa59/triplify_csv-0.4.0.tar.gz
+[2023-05-11 09:50:49] INFO root fetch - processPackages [yuna-db]: Downloading https://files.pythonhosted.org/packages/05/08/8dc75d536e0fa1f94716e549e28f78ce17b83d3e2a5601b271966dff7436/yuna-db-0.2.5.tar.gz
+[2023-05-11 09:50:49] INFO root fetch - processPackages [alibabacloud-iot20180120]: executing diffoscope
+[2023-05-11 09:50:49] INFO root fetch - processPackages [alibabacloud-iot20180120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_iot20180120-3.1.0.tar.gz tmp/alibabacloud_iot20180120-3.1.1.tar.gz --markdown 20230511/a/alibabacloud-iot20180120/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-11 09:50:49] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-05-11 09:50:49] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230511/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-05-11 09:50:49] INFO root fetch - processPackages [triplify-csv]: executing diffoscope
+[2023-05-11 09:50:49] INFO root fetch - processPackages [triplify-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triplify_csv-0.3.0.tar.gz tmp/triplify_csv-0.4.0.tar.gz --markdown 20230511/t/triplify-csv/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 09:50:49] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Downloading https://files.pythonhosted.org/packages/59/80/a9ceade191a666268c6ababe03a0d4fe7c9c9acaf45f705a774b600a7f31/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-05-11 09:50:49] INFO root fetch - processPackages [yuna-db]: executing diffoscope
+[2023-05-11 09:50:49] INFO root fetch - processPackages [yuna-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuna-db-0.2.3.tar.gz tmp/yuna-db-0.2.5.tar.gz --markdown 20230511/y/yuna-db/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-05-11 09:50:50] INFO root fetch - processPackages [cost-monitoring-construct]: Downloading https://files.pythonhosted.org/packages/38/d2/891a5300c293e659e297cc5690ed41adbb457a31a869bddb4387c630d8ea/cost-monitoring-construct-1.1.1.tar.gz
+[2023-05-11 09:50:50] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-05-11 09:50:50] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: executing diffoscope
+[2023-05-11 09:50:50] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet_attendance-14.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-hr-timesheet-sheet-attendance/14.0.1.0.1.dev6-14.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-05-11 09:50:50] INFO root fetch - processPackages [cost-monitoring-construct]: executing diffoscope
+[2023-05-11 09:50:50] INFO root fetch - processPackages [cost-monitoring-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cost-monitoring-construct-1.1.0.tar.gz tmp/cost-monitoring-construct-1.1.1.tar.gz --markdown 20230511/c/cost-monitoring-construct/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-11 09:50:50] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-05-11 09:50:50] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230511/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 09:50:50] WARNING root fetch - processPackages [asqlcell]: Skipping package: exceeds size limit 16173043>=10485760
+[2023-05-11 09:50:50] INFO root fetch - processPackages [asqlcell]: Start processing: orb-billing
+[2023-05-11 09:50:50] INFO root fetch - main [MainThread]: End processing [asqlcell] error
+[2023-05-11 09:50:50] INFO root fetch - processPackages [orb-billing]: New version: [1.2.0] Old Version: [0.9.3]
+[2023-05-11 09:50:50] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/f7/b7/62fb9119a4d77f1b6d975787d392ffd167ddcd68a1c9e237f0d2cfbabd13/orb-billing-0.9.3.tar.gz
+[2023-05-11 09:50:50] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2023-05-11 09:50:50] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb-billing-0.9.3.tar.gz tmp/orb-billing-1.2.0.tar.gz --markdown 20230511/o/orb-billing/0.9.3-1.2.0/diff.md --exclude *.pyd
+[2023-05-11 09:50:51] INFO root fetch - processPackages [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: Start processing: napari-threedee
+[2023-05-11 09:50:51] INFO root fetch - main [MainThread]: End processing [antchain-ak-ee637c8293f64104af9686dc12e0cd18]: success
+[2023-05-11 09:50:51] INFO root fetch - processPackages [napari-threedee]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 09:50:51] INFO root fetch - processPackages [napari-threedee]: executing diffoscope
+[2023-05-11 09:50:51] INFO root fetch - processPackages [napari-threedee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-threedee-0.0.8.tar.gz tmp/napari-threedee-0.0.9.tar.gz --markdown 20230511/n/napari-threedee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 09:50:51] INFO root fetch - processPackages [triplify-csv]: Start processing: keras-nightly
+[2023-05-11 09:50:51] INFO root fetch - main [MainThread]: End processing [triplify-csv]: success
+[2023-05-11 09:50:51] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-05-11 09:50:52] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-05-11 09:50:52] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230511/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-05-11 09:50:52] INFO root fetch - processPackages [dev-gpt]: Start processing: bagbag
+[2023-05-11 09:50:52] INFO root fetch - main [MainThread]: End processing [dev-gpt]: success
+[2023-05-11 09:50:52] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-attendance]: Start processing: mozartpy
+[2023-05-11 09:50:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet-attendance]: success
+[2023-05-11 09:50:52] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-11 09:50:52] INFO root fetch - processPackages [yuna-db]: Start processing: tf-nightly-cpu
+[2023-05-11 09:50:52] INFO root fetch - main [MainThread]: End processing [yuna-db]: success
+[2023-05-11 09:50:52] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-11 09:50:52] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230511/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-11 09:50:52] INFO root fetch - processPackages [mozartpy]: New version: [1.0.0rc0] Old Version: [0.0.9rc2]
+[2023-05-11 09:50:52] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230511] Old Version: [2.14.0.dev20230510]
+[2023-05-11 09:50:52] INFO root fetch - processPackages [cost-monitoring-construct]: Start processing: bagbag
+[2023-05-11 09:50:52] INFO root fetch - main [MainThread]: End processing [cost-monitoring-construct]: success
+[2023-05-11 09:50:52] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-11 09:50:52] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-05-11 09:50:52] INFO root fetch - processPackages [mozartpy]: Downloading https://files.pythonhosted.org/packages/6f/78/ea4d96b492befaa315942f3f11b12f5f6a0d2080d70ac74c1035a1800420/mozartpy-0.0.9rc2-py3-none-any.whl
+[2023-05-11 09:50:52] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-11 09:50:52] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230511/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-11 09:50:52] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a0/ae/91c47b112322ee4d2a18b32d005a09772162d9aaf55446a18b8740aefa54/tf_nightly_cpu-2.14.0.dev20230511-cp39-cp39-win_amd64.whl
+[2023-05-11 09:50:52] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-05-11 09:50:52] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230510-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230511-cp39-cp39-win_amd64.whl.zip --markdown 20230511/t/tf-nightly-cpu/2.14.0.dev20230510-2.14.0.dev20230511/diff.md --exclude *.pyd
+[2023-05-11 09:50:53] INFO root fetch - processPackages [mozartpy]: Downloading https://files.pythonhosted.org/packages/28/d8/99e9bc831c29bcf9a93d1ef525b6fa97227fa34c5b2834afc37f61019949/mozartpy-1.0.0rc0-py3-none-any.whl
+[2023-05-11 09:50:53] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-05-11 09:50:53] WARNING root fetch - processPackages [mozartpy]: Skipping package: exceeds size limit 45625830>=10485760
+[2023-05-11 09:50:53] INFO root fetch - main [MainThread]: End processing [mozartpy] error
+[2023-05-11 09:50:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-iot20180120]: success
+[2023-05-11 09:50:53] INFO root fetch - main [MainThread]: End processing [napari-threedee]: success
+[2023-05-11 09:50:54] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-05-11 09:50:54] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2023-05-11 09:50:54] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-11 09:50:55] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-11 09:51:01] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-05-11 09:51:01] INFO root fetch - main [MainThread]: Store serial: [18059634]
