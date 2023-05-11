@@ -17674,3 +17674,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 13:34:30] INFO root fetch - main [MainThread]: End processing [pybarb]: success
 [2023-05-11 13:34:30] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
 [2023-05-11 13:34:30] INFO root fetch - main [MainThread]: Store serial: [18062842]
+[2023-05-11 13:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062842]
+[2023-05-11 13:39:39] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rabbie
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudnetpy-qc
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: experiment-scheduler
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hpy
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evalda-pub2
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmeel-assimp
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mujoco-dev
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-nano
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-chronos
+[2023-05-11 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyneweb
+[2023-05-11 13:39:39] INFO root fetch - processPackages [experiment-scheduler]: New version: [0.2] Old Version: [0.1]
+[2023-05-11 13:39:39] INFO root fetch - processPackages [evalda-pub2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 13:39:39] INFO root fetch - processPackages [rabbie]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 13:39:39] INFO root fetch - processPackages [pyneweb]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev530925161] Old Version: [2.3.6.dev530591696]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [cmeel-assimp]: New version: [5.2.5] Old Version: [5.2.4]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [hpy]: New version: [0.9.0rc2] Old Version: [0.9.0rc1]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [cloudnetpy-qc]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [rabbie]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [rabbie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbie-0.0.4.tar.gz tmp/rabbie-0.0.5.tar.gz --markdown 20230511/r/rabbie/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [cmeel-assimp]: Downloading https://files.pythonhosted.org/packages/e2/f5/3cb226e0315414bf75afdc27075a2c2c483752848904da22d9038fe519a8/cmeel_assimp-5.2.4-3-pp39-pypy39_pp73-manylinux_2_17_x86_64.whl
+[2023-05-11 13:39:40] INFO root fetch - processPackages [evalda-pub2]: Downloading https://files.pythonhosted.org/packages/7e/c8/d8285b3a08fbb42d721d1b81993d6b8bd9dbc6a5c52e752e554ad1db4dd5/evalda_pub2-0.0.3.tar.gz
+[2023-05-11 13:39:40] INFO root fetch - processPackages [hpy]: Downloading https://files.pythonhosted.org/packages/40/32/2a1fbaa081b22725102777d3f1e7f3be62c329ed8e6a06d7aee04e69db44/hpy-0.9.0rc1.tar.gz
+[2023-05-11 13:39:40] ERROR root fetch - processPackages [experiment-scheduler]: Unable to fetch info: No such project/version 'experiment-scheduler' 0.2
+[2023-05-11 13:39:40] INFO root fetch - processPackages [experiment-scheduler]: Start processing: experiment-scheduler
+[2023-05-11 13:39:40] INFO root fetch - main [MainThread]: End processing [experiment-scheduler] error
+[2023-05-11 13:39:40] INFO root fetch - processPackages [pyneweb]: Downloading https://files.pythonhosted.org/packages/7d/9f/26d93b816b0b8973874df77fcea35a4e33c3582af4c06346a678d738fadd/pyneweb-0.4.0.tar.gz
+[2023-05-11 13:39:40] INFO root fetch - processPackages [experiment-scheduler]: New version: [1.0] Old Version: [0.1]
+[2023-05-11 13:39:40] WARNING root fetch - processPackages [cmeel-assimp]: Skipping package: exceeds size limit 13582977>=10485760
+[2023-05-11 13:39:40] INFO root fetch - processPackages [cmeel-assimp]: Start processing: bigdl-serving
+[2023-05-11 13:39:40] INFO root fetch - main [MainThread]: End processing [cmeel-assimp] error
+[2023-05-11 13:39:40] INFO root fetch - processPackages [pyneweb]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [pyneweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneweb-0.3.0.tar.gz tmp/pyneweb-0.4.0.tar.gz --markdown 20230511/p/pyneweb/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230508-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230510-py3-none-win_amd64.whl.zip --markdown 20230511/b/bigdl-chronos/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230508-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230510-py3-none-win_amd64.whl.zip --markdown 20230511/b/bigdl-nano/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [cloudnetpy-qc]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [cloudnetpy-qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudnetpy_qc-1.9.4.tar.gz tmp/cloudnetpy_qc-1.9.5.tar.gz --markdown 20230511/c/cloudnetpy-qc/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev530591696-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mujoco_dev-2.3.6.dev530925161-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230511/m/mujoco-dev/2.3.6.dev530591696-2.3.6.dev530925161/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [experiment-scheduler]: Downloading https://files.pythonhosted.org/packages/7e/e1/23f9839db10e1916549e38eec0bedbc1ced6937b957587fd4556f90928bd/experiment-scheduler-1.0.tar.gz
+[2023-05-11 13:39:40] INFO root fetch - processPackages [hpy]: Downloading https://files.pythonhosted.org/packages/16/69/46fe4b5ac396b7565a2e2ab404132f7b93de394f01ec20c11fefcf202de1/hpy-0.9.0rc2.tar.gz
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 13:39:40] INFO root fetch - processPackages [experiment-scheduler]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [experiment-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experiment-scheduler-0.1.tar.gz tmp/experiment-scheduler-1.0.tar.gz --markdown 20230511/e/experiment-scheduler/0.1-1.0/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [hpy]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [hpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpy-0.9.0rc1.tar.gz tmp/hpy-0.9.0rc2.tar.gz --markdown 20230511/h/hpy/0.9.0rc1-0.9.0rc2/diff.md --exclude *.pyd
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d1/c3/c70fd152634eb0faefdb44fdd8a020c0dde4ba2078fb133ad5cc63c29e0a/bigdl_serving-2.4.0b20230511-py2.py3-none-any.whl
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-11 13:39:40] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230510-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230511-py2.py3-none-any.whl.zip --markdown 20230511/b/bigdl-serving/2.4.0b20230510-2.4.0b20230511/diff.md --exclude *.pyd
+[2023-05-11 13:39:41] INFO root fetch - processPackages [evalda-pub2]: executing diffoscope
+[2023-05-11 13:39:41] INFO root fetch - processPackages [evalda-pub2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalda_pub2-0.0.2.tar.gz tmp/evalda_pub2-0.0.3.tar.gz --markdown 20230511/e/evalda-pub2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 13:39:42] INFO root fetch - processPackages [pyneweb]: Start processing: SpectroscopicBinarySystem
+[2023-05-11 13:39:42] INFO root fetch - main [MainThread]: End processing [pyneweb]: success
+[2023-05-11 13:39:42] INFO root fetch - processPackages [SpectroscopicBinarySystem]: New version: [1.2.0] Old Version: [1.1.44]
+[2023-05-11 13:39:42] INFO root fetch - processPackages [rabbie]: Start processing: bert-dot-config
+[2023-05-11 13:39:42] INFO root fetch - main [MainThread]: End processing [rabbie]: success
+[2023-05-11 13:39:42] WARNING root fetch - processPackages [bert-dot-config]: Skipping, unable to determine old version
+[2023-05-11 13:39:42] INFO root fetch - processPackages [bert-dot-config]: Start processing: funasr
+[2023-05-11 13:39:42] INFO root fetch - main [MainThread]: End processing [bert-dot-config] error
+[2023-05-11 13:39:42] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/32/6f/9f59c8eb1c7504d8683b6b3b8b13482c71cc3b08dc37395eda0c1be4149b/SpectroscopicBinarySystem-1.1.44.tar.gz
+[2023-05-11 13:39:42] INFO root fetch - processPackages [funasr]: New version: [0.5.0] Old Version: [0.4.8]
+[2023-05-11 13:39:42] INFO root fetch - processPackages [experiment-scheduler]: Start processing: HyperEvalSR
+[2023-05-11 13:39:42] INFO root fetch - main [MainThread]: End processing [experiment-scheduler]: success
+[2023-05-11 13:39:42] INFO root fetch - processPackages [HyperEvalSR]: New version: [0.32] Old Version: [0.31]
+[2023-05-11 13:39:42] INFO root fetch - processPackages [bigdl-serving]: Start processing: fastapi-soap
+[2023-05-11 13:39:42] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-11 13:39:42] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Downloading https://files.pythonhosted.org/packages/67/cf/a54dcaf109a1dd63883795f3ec4947fe8ef3cd79d3aa77cc644e31a78da2/SpectroscopicBinarySystem-1.2.0.tar.gz
+[2023-05-11 13:39:42] INFO root fetch - processPackages [SpectroscopicBinarySystem]: executing diffoscope
+[2023-05-11 13:39:42] INFO root fetch - processPackages [SpectroscopicBinarySystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpectroscopicBinarySystem-1.1.44.tar.gz tmp/SpectroscopicBinarySystem-1.2.0.tar.gz --markdown 20230511/S/SpectroscopicBinarySystem/1.1.44-1.2.0/diff.md --exclude *.pyd
+[2023-05-11 13:39:42] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/29/a7/e3bada919f733df2724d6ad8b3e23bebdb150e91a2ba3c9a2e487a5b3167/funasr-0.5.0.tar.gz
+[2023-05-11 13:39:42] INFO root fetch - processPackages [fastapi-soap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 13:39:42] INFO root fetch - processPackages [HyperEvalSR]: Downloading https://files.pythonhosted.org/packages/fc/f3/c35465cbbd226de77f784ae669b0f405fddc2afff8f3441c1121b1b9ec9f/HyperEvalSR-0.32.tar.gz
+[2023-05-11 13:39:42] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-05-11 13:39:42] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.4.8.tar.gz tmp/funasr-0.5.0.tar.gz --markdown 20230511/f/funasr/0.4.8-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 13:39:43] INFO root fetch - processPackages [fastapi-soap]: Downloading https://files.pythonhosted.org/packages/a1/24/f6ed3cd02e8ddd802330f836da25b2c1e6bbac78a633dff4083f4ec0a976/fastapi-soap-0.0.2.tar.gz
+[2023-05-11 13:39:43] INFO root fetch - processPackages [HyperEvalSR]: executing diffoscope
+[2023-05-11 13:39:43] INFO root fetch - processPackages [HyperEvalSR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HyperEvalSR-0.31.tar.gz tmp/HyperEvalSR-0.32.tar.gz --markdown 20230511/H/HyperEvalSR/0.31-0.32/diff.md --exclude *.pyd
+[2023-05-11 13:39:43] INFO root fetch - processPackages [fastapi-soap]: Downloading https://files.pythonhosted.org/packages/68/a6/7f20537f28c5215d07e483bbbcf37b0e2b05253f84620ac174dc2a9871da/fastapi_soap-0.0.3-py3-none-any.whl
+[2023-05-11 13:39:43] INFO root fetch - processPackages [fastapi-soap]: executing diffoscope
+[2023-05-11 13:39:43] INFO root fetch - processPackages [fastapi-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-soap-0.0.2.tar.gz tmp/fastapi_soap-0.0.3-py3-none-any.whl.zip --markdown 20230511/f/fastapi-soap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 13:39:43] INFO root fetch - processPackages [bigdl-chronos]: Start processing: encomp
+[2023-05-11 13:39:43] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-11 13:39:43] INFO root fetch - processPackages [encomp]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-11 13:39:43] INFO root fetch - processPackages [encomp]: Downloading https://files.pythonhosted.org/packages/17/36/d4c738c2e4c566fb6ee2167642515c52e8ff7738103a5ad9a2acd0a9a797/encomp-0.9.0.tar.gz
+[2023-05-11 13:39:43] INFO root fetch - processPackages [evalda-pub2]: Start processing: airoboros
+[2023-05-11 13:39:43] INFO root fetch - main [MainThread]: End processing [evalda-pub2]: success
+[2023-05-11 13:39:43] INFO root fetch - processPackages [airoboros]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-11 13:39:43] INFO root fetch - processPackages [encomp]: Downloading https://files.pythonhosted.org/packages/2b/6d/0a5b78adcb9c3aa692327e8081448603bc2f86741c605b8b290fd8b68095/encomp-0.9.1.tar.gz
+[2023-05-11 13:39:44] INFO root fetch - processPackages [bigdl-nano]: Start processing: vantage6-common
+[2023-05-11 13:39:44] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-11 13:39:44] INFO root fetch - processPackages [encomp]: executing diffoscope
+[2023-05-11 13:39:44] INFO root fetch - processPackages [encomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encomp-0.9.0.tar.gz tmp/encomp-0.9.1.tar.gz --markdown 20230511/e/encomp/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-11 13:39:44] INFO root fetch - processPackages [SpectroscopicBinarySystem]: Start processing: vantage6-client
+[2023-05-11 13:39:44] INFO root fetch - main [MainThread]: End processing [SpectroscopicBinarySystem]: success
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-11 13:39:44] INFO root fetch - processPackages [airoboros]: Downloading https://files.pythonhosted.org/packages/ef/37/5fedf744289145d0b4dc9e7d1857d7aeb018cb8be935445394c424d44712/airoboros-0.2.0.tar.gz
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.8.7rc1.tar.gz tmp/vantage6-common-3.9.0rc2.tar.gz --markdown 20230511/v/vantage6-common/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.8.7rc1.tar.gz tmp/vantage6-client-3.9.0rc2.tar.gz --markdown 20230511/v/vantage6-client/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-11 13:39:44] INFO root fetch - processPackages [airoboros]: executing diffoscope
+[2023-05-11 13:39:44] INFO root fetch - processPackages [airoboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airoboros-0.1.0.tar.gz tmp/airoboros-0.2.0.tar.gz --markdown 20230511/a/airoboros/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 13:39:44] INFO root fetch - processPackages [fastapi-soap]: Start processing: vantage6
+[2023-05-11 13:39:44] INFO root fetch - main [MainThread]: End processing [fastapi-soap]: success
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-05-11 13:39:44] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.8.7rc1.tar.gz tmp/vantage6-3.9.0rc2.tar.gz --markdown 20230511/v/vantage6/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-11 13:39:45] INFO root fetch - processPackages [HyperEvalSR]: Start processing: vantage6-node
+[2023-05-11 13:39:45] INFO root fetch - main [MainThread]: End processing [HyperEvalSR]: success
+[2023-05-11 13:39:45] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-11 13:39:45] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-05-11 13:39:45] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.8.7rc1.tar.gz tmp/vantage6-node-3.9.0rc2.tar.gz --markdown 20230511/v/vantage6-node/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-11 13:39:45] INFO root fetch - processPackages [vantage6-common]: Start processing: vantage6-server
+[2023-05-11 13:39:45] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-05-11 13:39:45] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-11 13:39:46] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-05-11 13:39:46] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.8.7rc1.tar.gz tmp/vantage6-server-3.9.0rc2.tar.gz --markdown 20230511/v/vantage6-server/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-11 13:39:46] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-05-11 13:39:46] INFO root fetch - main [MainThread]: End processing [airoboros]: success
+[2023-05-11 13:39:46] INFO root fetch - main [MainThread]: End processing [cloudnetpy-qc]: success
+[2023-05-11 13:39:46] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-05-11 13:39:46] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-05-11 13:39:48] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-05-11 13:39:48] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-05-11 13:39:48] INFO root fetch - main [MainThread]: End processing [encomp]: success
+[2023-05-11 13:39:48] INFO root fetch - main [MainThread]: End processing [hpy]: success
+[2023-05-11 13:39:55] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-05-11 13:39:55] INFO root fetch - main [MainThread]: Store serial: [18062941]
