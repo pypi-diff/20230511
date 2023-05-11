@@ -7307,3 +7307,46 @@ EOFError: EOF read where object expected
 [2023-05-11 04:40:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-drm]: success
 [2023-05-11 04:40:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ds]: success
 [2023-05-11 04:40:17] INFO root fetch - main [MainThread]: Store serial: [18057261]
+[2023-05-11 04:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18057261]
+[2023-05-11 04:45:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-demo5678
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-cutoff-base
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-dts
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-eb
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-ecc
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simpleparallelize
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: civilpy
+[2023-05-11 04:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-financial-report
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-05-11 04:45:27] WARNING root fetch - processPackages [poetry-demo5678]: Skipping, unable to determine old version
+[2023-05-11 04:45:27] INFO root fetch - main [MainThread]: End processing [poetry-demo5678] error
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.3.4.3] Old Version: [16.0.1.3.4.1]
+[2023-05-11 04:45:27] WARNING root fetch - processPackages [simpleparallelize]: Skipping, unable to determine old version
+[2023-05-11 04:45:27] INFO root fetch - main [MainThread]: End processing [simpleparallelize] error
+[2023-05-11 04:45:27] INFO root fetch - processPackages [civilpy]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: New version: [3.0.889] Old Version: [3.0.887]
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ecc]: New version: [3.0.889] Old Version: [3.0.888]
+[2023-05-11 04:45:27] INFO root fetch - processPackages [civilpy]: executing diffoscope
+[2023-05-11 04:45:27] INFO root fetch - processPackages [civilpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civilpy-0.0.7.tar.gz tmp/civilpy-0.0.8.tar.gz --markdown 20230511/c/civilpy/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/9b/e8/343bbf7d1bc0015700808bf15d81e6759b9eb9c082b93b22c9c4ab5e73ac/odoo_addon_account_financial_report-16.0.1.3.4.3-py3-none-any.whl
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Downloading https://files.pythonhosted.org/packages/2f/9f/a554fff0a5b8d6a8a694ec166cbaf2ab74d48acbb8976d93048730117b70/tencentcloud-sdk-python-dts-3.0.889.tar.gz
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-account-cutoff-base/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ecc]: Downloading https://files.pythonhosted.org/packages/f7/be/8e04189fa62b73c776d51b8811b5c0eb9b77ffee8352420f8a8e585b0e41/tencentcloud-sdk-python-ecc-3.0.889.tar.gz
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: Downloading https://files.pythonhosted.org/packages/91/22/ab5a18fbf97184e51423d3e98a7a5e3c887eacffb19ab391720575b6f610/tencentcloud-sdk-python-eb-3.0.889.tar.gz
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2023-05-11 04:45:27] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.3.4.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.3.4.3-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-account-financial-report/16.0.1.3.4.1-16.0.1.3.4.3/diff.md --exclude *.pyd
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ecc]: executing diffoscope
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-ecc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ecc-3.0.888.tar.gz tmp/tencentcloud-sdk-python-ecc-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-ecc/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: executing diffoscope
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dts-3.0.887.tar.gz tmp/tencentcloud-sdk-python-dts-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-dts/3.0.887-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: executing diffoscope
+[2023-05-11 04:45:27] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-eb-3.0.888.tar.gz tmp/tencentcloud-sdk-python-eb-3.0.889.tar.gz --markdown 20230511/t/tencentcloud-sdk-python-eb/3.0.888-3.0.889/diff.md --exclude *.pyd
+[2023-05-11 04:45:28] INFO root fetch - main [MainThread]: End processing [civilpy]: success
+[2023-05-11 04:45:28] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ecc]: success
+[2023-05-11 04:45:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-05-11 04:45:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-eb]: success
+[2023-05-11 04:45:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2023-05-11 04:45:29] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dts]: success
+[2023-05-11 04:45:29] INFO root fetch - main [MainThread]: Store serial: [18057287]
