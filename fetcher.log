@@ -16826,3 +16826,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 12:50:50] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2023-05-11 12:51:01] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
 [2023-05-11 12:51:01] INFO root fetch - main [MainThread]: Store serial: [18062296]
+[2023-05-11 12:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18062296]
+[2023-05-11 12:56:10] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-move-fiscal-month
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 7Wonder-RL-Lib
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playmolecule
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autonomy-dev
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ruminate
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eis1600
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arabic2latin
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ev-fleet-sim
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linktest
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: thrivve-core
+[2023-05-11 12:56:10] WARNING root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Skipping, unable to determine old version
+[2023-05-11 12:56:10] INFO root fetch - processPackages [odoo-addon-account-move-fiscal-month]: Start processing: asad-jsonStorage
+[2023-05-11 12:56:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-fiscal-month] error
+[2023-05-11 12:56:10] INFO root fetch - processPackages [thrivve-core]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [7Wonder-RL-Lib]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 12:56:10] WARNING root fetch - processPackages [autonomy-dev]: Skipping, unable to determine old version
+[2023-05-11 12:56:10] INFO root fetch - processPackages [autonomy-dev]: Start processing: dinamis-sdk
+[2023-05-11 12:56:10] INFO root fetch - main [MainThread]: End processing [autonomy-dev] error
+[2023-05-11 12:56:10] INFO root fetch - processPackages [linktest]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [arabic2latin]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-11 12:56:10] WARNING root fetch - processPackages [ruminate]: Skipping, unable to determine old version
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ruminate]: Start processing: authomize-rest-api-client
+[2023-05-11 12:56:10] INFO root fetch - main [MainThread]: End processing [ruminate] error
+[2023-05-11 12:56:10] INFO root fetch - processPackages [playmolecule]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-11 12:56:10] WARNING root fetch - processPackages [asad-jsonStorage]: Skipping, unable to determine old version
+[2023-05-11 12:56:10] INFO root fetch - processPackages [asad-jsonStorage]: Start processing: pylabdevs-tspspi
+[2023-05-11 12:56:10] INFO root fetch - main [MainThread]: End processing [asad-jsonStorage] error
+[2023-05-11 12:56:10] INFO root fetch - processPackages [eis1600]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ev-fleet-sim]: New version: [1.9.post3] Old Version: [1.9.post2]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [authomize-rest-api-client]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [authomize-rest-api-client]: executing diffoscope
+[2023-05-11 12:56:10] INFO root fetch - processPackages [authomize-rest-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authomize-rest-api-client-3.2.1.tar.gz tmp/authomize-rest-api-client-3.2.2.tar.gz --markdown 20230511/a/authomize-rest-api-client/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-05-11 12:56:10] INFO root fetch - processPackages [7Wonder-RL-Lib]: Downloading https://files.pythonhosted.org/packages/b1/6e/b4dc3e6d41444f3e7f47c091e6209f7c4492b9821f88a42c3b8fdb7755f7/7Wonder-RL-Lib-0.1.0.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [pylabdevs-tspspi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 12:56:10] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/f2/41/6e6f4078fed6d8cab49870156c8c6754fe468536934e9c7c6078cc6ed956/eis1600-0.8.9.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [ev-fleet-sim]: Downloading https://files.pythonhosted.org/packages/9f/fa/97e1842a6936621deff659e680b528d87d2eb818019b674006332f84a1c6/ev-fleet-sim-1.9.post2.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/0a/3a/fa73fb8240e1c6bb4ba05d91b3e31868d002e4a054dd32e40c234b8b62fb/dinamis-sdk-0.0.7.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/a6/df/825ad51055e8be3481f06d0e3b7beeb29f0c833bced254b1240ee3ba8c47/thrivve_core-0.2.2.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/52/84/96a54743ae6f5c7948c5b6cfb7d29cd8c04aaec5c61fdcdf5a8a273aad5c/linktest-2.0.8.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [arabic2latin]: Downloading https://files.pythonhosted.org/packages/1a/2c/8954c7fcee8b3743b4c0f35baac44d927224cbdabbfb98822c9c255a29bc/arabic2latin-1.1.3.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-11 12:56:10] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.2.1.tar.gz tmp/thrivve_core-0.2.2.tar.gz --markdown 20230511/t/thrivve-core/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 12:56:10] INFO root fetch - processPackages [pylabdevs-tspspi]: Downloading https://files.pythonhosted.org/packages/f9/7a/bbdd7e54a0b27c74cda5d7116e6933eb392ad9b34ce9aa983c3abeb51e79/pylabdevs-tspspi-0.0.7.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2023-05-11 12:56:10] INFO root fetch - processPackages [7Wonder-RL-Lib]: Downloading https://files.pythonhosted.org/packages/24/bb/6a213194d5f06522203c7617e9c4c53580f91add432ca4dc457507761a57/7Wonder-RL-Lib-0.1.1.tar.gz
+[2023-05-11 12:56:10] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.0.7.tar.gz tmp/linktest-2.0.8.tar.gz --markdown 20230511/l/linktest/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-11 12:56:10] INFO root fetch - processPackages [arabic2latin]: executing diffoscope
+[2023-05-11 12:56:10] INFO root fetch - processPackages [arabic2latin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabic2latin-1.1.2.tar.gz tmp/arabic2latin-1.1.3.tar.gz --markdown 20230511/a/arabic2latin/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-11 12:56:10] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/df/ef/5b0abd02a36e2e14aae5d9710f28da4eb32e63eb60033d9a61e4ae62d0fa/playmolecule-1.7.2.tar.gz
+[2023-05-11 12:56:11] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/2b/b2/fcb0ed9fa622ad06520ebccdbbe77c061ce2e3864dca9b103e2fb8501e53/eis1600-0.9.0.tar.gz
+[2023-05-11 12:56:11] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/f4/05/802fa81e5b2dc455bb7d27c463cdaec469477ffa53555ac8b685b09dfd1d/dinamis-sdk-0.0.8.tar.gz
+[2023-05-11 12:56:11] INFO root fetch - processPackages [7Wonder-RL-Lib]: executing diffoscope
+[2023-05-11 12:56:11] INFO root fetch - processPackages [7Wonder-RL-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/7Wonder-RL-Lib-0.1.0.tar.gz tmp/7Wonder-RL-Lib-0.1.1.tar.gz --markdown 20230511/7/7Wonder-RL-Lib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 12:56:11] INFO root fetch - processPackages [pylabdevs-tspspi]: Downloading https://files.pythonhosted.org/packages/34/c9/f2ca70d4cf45837c19261d981d26a2eea6bd130f09f4d6fa7a7a4a1e6fe4/pylabdevs-tspspi-0.0.8.tar.gz
+[2023-05-11 12:56:11] INFO root fetch - processPackages [ev-fleet-sim]: Downloading https://files.pythonhosted.org/packages/a7/1d/a279a9aa98276f3d9d5c318a702dfc338e938dc6f69ac685509fd0f5bef2/ev-fleet-sim-1.9.post3.tar.gz
+[2023-05-11 12:56:11] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2023-05-11 12:56:11] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-0.8.9.tar.gz tmp/eis1600-0.9.0.tar.gz --markdown 20230511/e/eis1600/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 12:56:11] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2023-05-11 12:56:11] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.0.7.tar.gz tmp/dinamis-sdk-0.0.8.tar.gz --markdown 20230511/d/dinamis-sdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 12:56:11] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/07/d9/ff68e03d1ad5c57bd863306ef17047aea5f828fe749ccdcad908d53a0241/playmolecule-1.7.3.tar.gz
+[2023-05-11 12:56:11] INFO root fetch - processPackages [pylabdevs-tspspi]: executing diffoscope
+[2023-05-11 12:56:11] INFO root fetch - processPackages [pylabdevs-tspspi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabdevs-tspspi-0.0.7.tar.gz tmp/pylabdevs-tspspi-0.0.8.tar.gz --markdown 20230511/p/pylabdevs-tspspi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 12:56:11] INFO root fetch - processPackages [ev-fleet-sim]: executing diffoscope
+[2023-05-11 12:56:11] INFO root fetch - processPackages [ev-fleet-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ev-fleet-sim-1.9.post2.tar.gz tmp/ev-fleet-sim-1.9.post3.tar.gz --markdown 20230511/e/ev-fleet-sim/1.9.post2-1.9.post3/diff.md --exclude *.pyd
+[2023-05-11 12:56:11] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2023-05-11 12:56:11] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-1.7.2.tar.gz tmp/playmolecule-1.7.3.tar.gz --markdown 20230511/p/playmolecule/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-11 12:56:12] INFO root fetch - processPackages [arabic2latin]: Start processing: langchain-serve
+[2023-05-11 12:56:12] INFO root fetch - main [MainThread]: End processing [arabic2latin]: success
+[2023-05-11 12:56:12] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-11 12:56:12] INFO root fetch - processPackages [thrivve-core]: Start processing: pytest-wake
+[2023-05-11 12:56:12] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-11 12:56:12] INFO root fetch - processPackages [pytest-wake]: New version: [0.3.2] Old Version: [0.2.5]
+[2023-05-11 12:56:12] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-11 12:56:12] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230511/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-11 12:56:12] INFO root fetch - processPackages [pytest-wake]: Downloading https://files.pythonhosted.org/packages/7c/18/9d054a2625df9a4a107ec38244b4ab9e82eec27f26558d450c72f485bf9a/pytest-wake-0.2.5.tar.gz
+[2023-05-11 12:56:13] INFO root fetch - processPackages [pylabdevs-tspspi]: Start processing: sdkit
+[2023-05-11 12:56:13] INFO root fetch - main [MainThread]: End processing [pylabdevs-tspspi]: success
+[2023-05-11 12:56:13] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.89]
+[2023-05-11 12:56:13] INFO root fetch - processPackages [pytest-wake]: executing diffoscope
+[2023-05-11 12:56:13] INFO root fetch - processPackages [pytest-wake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-wake-0.2.5.tar.gz tmp/pytest_wake-0.3.2-py3-none-any.whl.zip --markdown 20230511/p/pytest-wake/0.2.5-0.3.2/diff.md --exclude *.pyd
+[2023-05-11 12:56:13] INFO root fetch - processPackages [authomize-rest-api-client]: Start processing: jprint
+[2023-05-11 12:56:13] INFO root fetch - main [MainThread]: End processing [authomize-rest-api-client]: success
+[2023-05-11 12:56:13] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/c5/5b/6bb37af9b8ed5f1e448e5a895622be2587ebf7995ee79177ce7e686fd1e2/sdkit-1.0.89.tar.gz
+[2023-05-11 12:56:13] INFO root fetch - processPackages [jprint]: New version: [1.4] Old Version: [1.3]
+[2023-05-11 12:56:13] INFO root fetch - processPackages [eis1600]: Start processing: invenio-workflows-tugraz
+[2023-05-11 12:56:13] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2023-05-11 12:56:13] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 12:56:13] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-11 12:56:13] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.89.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230511/s/sdkit/1.0.89-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 12:56:13] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-11 12:56:13] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230511/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 12:56:13] INFO root fetch - processPackages [jprint]: Downloading https://files.pythonhosted.org/packages/4d/bb/a4748b3644b6c18e56dca7d3b824d490da4328ea4c103703d1a4b440998b/jprint-1.3.tar.gz
+[2023-05-11 12:56:13] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2023-05-11 12:56:13] INFO root fetch - processPackages [jprint]: Downloading https://files.pythonhosted.org/packages/69/a9/10731acf62731b5573ca6ccbf0d36f992bc8a8d5c128e2b65e1d3efde357/jprint-1.4.tar.gz
+[2023-05-11 12:56:13] INFO root fetch - processPackages [jprint]: executing diffoscope
+[2023-05-11 12:56:13] INFO root fetch - processPackages [jprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jprint-1.3.tar.gz tmp/jprint-1.4.tar.gz --markdown 20230511/j/jprint/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-11 12:56:14] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2023-05-11 12:56:14] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-11 12:56:14] INFO root fetch - main [MainThread]: End processing [pytest-wake]: success
+[2023-05-11 12:56:14] INFO root fetch - main [MainThread]: End processing [7Wonder-RL-Lib]: success
+[2023-05-11 12:56:14] INFO root fetch - main [MainThread]: End processing [ev-fleet-sim]: success
+[2023-05-11 12:56:15] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2023-05-11 12:56:15] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-11 12:56:17] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-11 12:56:47] INFO root fetch - main [MainThread]: End processing [jprint]: success
+[2023-05-11 12:56:47] INFO root fetch - main [MainThread]: Store serial: [18062361]
