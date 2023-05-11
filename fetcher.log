@@ -19931,3 +19931,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:27:56] INFO root fetch - main [MainThread]: End processing [ecs-composex]: success
 [2023-05-11 15:28:05] INFO root fetch - main [MainThread]: End processing [great-components]: success
 [2023-05-11 15:28:05] INFO root fetch - main [MainThread]: Store serial: [18064100]
+[2023-05-11 15:33:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064100]
+[2023-05-11 15:33:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sharingiscaring
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jschemator
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-report-qweb-parameter
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b3dnet
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rkvst-samples
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-ai
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: resolwe
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MHTMLconverter
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: launchpy
+[2023-05-11 15:33:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: searchium
+[2023-05-11 15:33:15] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-11 15:33:15] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.2.0.tar.gz tmp/dbt-ai-0.2.1.tar.gz --markdown 20230511/d/dbt-ai/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 15:33:15] WARNING root fetch - processPackages [b3dnet]: Skipping, unable to determine old version
+[2023-05-11 15:33:15] INFO root fetch - processPackages [b3dnet]: Start processing: text-fabric
+[2023-05-11 15:33:15] INFO root fetch - main [MainThread]: End processing [b3dnet] error
+[2023-05-11 15:33:15] INFO root fetch - processPackages [MHTMLconverter]: New version: [0.4] Old Version: [0.3]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.4]
+[2023-05-11 15:33:15] WARNING root fetch - processPackages [jschemator]: Skipping, unable to determine old version
+[2023-05-11 15:33:15] INFO root fetch - processPackages [launchpy]: New version: [0.4.1] Old Version: [0.4.0.post3]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [jschemator]: Start processing: hcpdiff
+[2023-05-11 15:33:15] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-11 15:33:15] INFO root fetch - main [MainThread]: End processing [jschemator] error
+[2023-05-11 15:33:15] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2023-05-11 15:33:15] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-05-11 15:33:15] INFO root fetch - processPackages [searchium]: New version: [0.0.1rc4] Old Version: [0.0.1rc3]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20230511/r/resolwe/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2023-05-11 15:33:15] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230511/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 15:33:15] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [MHTMLconverter]: Downloading https://files.pythonhosted.org/packages/06/16/d80fb62857ea38f5a5cebd7bc64207f43c01690f0298e5383656002338f3/MHTMLconverter-0.3.tar.gz
+[2023-05-11 15:33:15] INFO root fetch - processPackages [hcpdiff]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-11 15:33:15] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230511/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-11 15:33:15] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: Downloading https://files.pythonhosted.org/packages/45/0b/a989771fb6f511eb9c5cfd0a90f3782355ec43b1676f0159e531cfb210b9/odoo_addon_report_qweb_parameter-15.0.1.0.0.4-py3-none-any.whl
+[2023-05-11 15:33:15] INFO root fetch - processPackages [searchium]: Downloading https://files.pythonhosted.org/packages/fc/58/04282e896beab04da694678d5ee3a2e05d5739910472a909c4f7f719ef42/searchium-0.0.1rc3.tar.gz
+[2023-05-11 15:33:15] INFO root fetch - processPackages [launchpy]: Downloading https://files.pythonhosted.org/packages/8d/0e/22a9474585bb6281fe4f181df2eda13d08d46d3eb2db2c72783e9215ef5d/launchpy-0.4.0.post3.tar.gz
+[2023-05-11 15:33:15] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-05-11 15:33:15] INFO root fetch - processPackages [MHTMLconverter]: Downloading https://files.pythonhosted.org/packages/c6/0e/fe15e4b7e7ff7d38326b9c91f01311af4d220c0e3e51cfaaa2f105f2db3a/MHTMLconverter-0.4.tar.gz
+[2023-05-11 15:33:15] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-05-11 15:33:15] INFO root fetch - processPackages [rkvst-samples]: Start processing: PatryksAutoAI
+[2023-05-11 15:33:15] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-05-11 15:33:15] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 15:33:15] INFO root fetch - processPackages [MHTMLconverter]: executing diffoscope
+[2023-05-11 15:33:15] INFO root fetch - processPackages [MHTMLconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MHTMLconverter-0.3.tar.gz tmp/MHTMLconverter-0.4.tar.gz --markdown 20230511/M/MHTMLconverter/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-11 15:33:15] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: Downloading https://files.pythonhosted.org/packages/50/21/f020dff302785c67ea5f3a0ba58090240df7fdaf164c5c12737dc6df5a58/odoo_addon_report_qweb_parameter-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-11 15:33:15] INFO root fetch - processPackages [searchium]: Downloading https://files.pythonhosted.org/packages/10/1c/b5786490bce5f4d2649fdf3eb3e22434163ed56b8d9c952f130959c2bb42/searchium-0.0.1rc4.tar.gz
+[2023-05-11 15:33:15] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-11 15:33:15] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.5.tar.gz tmp/PatryksAutoAI-0.1.6.tar.gz --markdown 20230511/P/PatryksAutoAI/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 15:33:15] INFO root fetch - processPackages [hcpdiff]: Downloading https://files.pythonhosted.org/packages/33/dc/931abd76dfd213b347bc3b50e2b2dd493687e6f30ce7e50276e7b32f3340/hcpdiff-0.4.0.tar.gz
+[2023-05-11 15:33:15] INFO root fetch - processPackages [launchpy]: Downloading https://files.pythonhosted.org/packages/c5/d6/48fa53e14dc21cd13f236654080ee55d988c6f11a870e15e4bff1232c529/launchpy-0.4.1.tar.gz
+[2023-05-11 15:33:16] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: executing diffoscope
+[2023-05-11 15:33:16] INFO root fetch - processPackages [searchium]: executing diffoscope
+[2023-05-11 15:33:16] INFO root fetch - processPackages [searchium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchium-0.0.1rc3.tar.gz tmp/searchium-0.0.1rc4.tar.gz --markdown 20230511/s/searchium/0.0.1rc3-0.0.1rc4/diff.md --exclude *.pyd
+[2023-05-11 15:33:16] INFO root fetch - processPackages [odoo-addon-report-qweb-parameter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_qweb_parameter-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_report_qweb_parameter-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-report-qweb-parameter/15.0.1.0.0.4-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-11 15:33:16] INFO root fetch - processPackages [launchpy]: executing diffoscope
+[2023-05-11 15:33:16] INFO root fetch - processPackages [launchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchpy-0.4.0.post3.tar.gz tmp/launchpy-0.4.1.tar.gz --markdown 20230511/l/launchpy/0.4.0.post3-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 15:33:16] INFO root fetch - processPackages [hcpdiff]: executing diffoscope
+[2023-05-11 15:33:16] INFO root fetch - processPackages [hcpdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcpdiff-0.3.7.tar.gz tmp/hcpdiff-0.4.0.tar.gz --markdown 20230511/h/hcpdiff/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-05-11 15:33:16] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-11 15:33:17] INFO root fetch - main [MainThread]: End processing [searchium]: success
+[2023-05-11 15:33:17] INFO root fetch - main [MainThread]: End processing [MHTMLconverter]: success
+[2023-05-11 15:33:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-qweb-parameter]: success
+[2023-05-11 15:33:17] INFO root fetch - main [MainThread]: End processing [launchpy]: success
+[2023-05-11 15:33:17] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-11 15:33:18] INFO root fetch - main [MainThread]: End processing [hcpdiff]: success
+[2023-05-11 15:33:19] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-11 15:33:19] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-05-11 15:33:21] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2023-05-11 15:33:21] INFO root fetch - main [MainThread]: Store serial: [18064150]
