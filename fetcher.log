@@ -12691,3 +12691,107 @@ EOFError: EOF read where object expected
 [2023-05-11 10:53:17] INFO root fetch - main [MainThread]: End processing [camerahub]: success
 [2023-05-11 10:53:30] INFO root fetch - main [MainThread]: End processing [tencentcloud-iac-pulumi]: success
 [2023-05-11 10:53:30] INFO root fetch - main [MainThread]: Store serial: [18060302]
+[2023-05-11 10:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18060302]
+[2023-05-11 10:58:40] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyAltiumRunTop
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mashetz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffusionjax
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-provider-databricks
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyAltiumRunTop
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphql-service-framework
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: madai
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grai-source-dbt-cloud
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bluepyopt
+[2023-05-11 10:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: freepaths
+[2023-05-11 10:58:40] INFO root fetch - processPackages [diffusionjax]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [diffusionjax]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [diffusionjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusionjax-0.0.7.tar.gz tmp/diffusionjax-0.0.8.tar.gz --markdown 20230511/d/diffusionjax/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230511/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] WARNING root fetch - processPackages [mashetz]: Skipping, unable to determine old version
+[2023-05-11 10:58:40] INFO root fetch - processPackages [PyAltiumRunTop]: New version: [0.2.4.4] Old Version: [0.2.4.3]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [mashetz]: Start processing: EQ-monke
+[2023-05-11 10:58:40] INFO root fetch - main [MainThread]: End processing [mashetz] error
+[2023-05-11 10:58:40] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: New version: [0.0.3a1] Old Version: [0.0.2]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [astro-provider-databricks]: New version: [0.1.3a1] Old Version: [0.1.3]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230511/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] INFO root fetch - processPackages [madai]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [freepaths]: New version: [1.3] Old Version: [1.2.1]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [PyAltiumRunTop]: New version: [0.2.4.4] Old Version: [0.2.4.3]
+[2023-05-11 10:58:40] WARNING root fetch - processPackages [EQ-monke]: Skipping, unable to determine old version
+[2023-05-11 10:58:40] INFO root fetch - processPackages [EQ-monke]: Start processing: kboxx
+[2023-05-11 10:58:40] INFO root fetch - main [MainThread]: End processing [EQ-monke] error
+[2023-05-11 10:58:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/f6/69/9429e4dd3d446827b7666a871bcf28bcc6858c3ad1929dcc76c7a137abee/grai_source_dbt_cloud-0.0.2.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/7d/11/2549ba47069146c1d6cbb559f78c78d043b6017f1d6094d5b4212d53eb73/madai-0.2.1.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [astro-provider-databricks]: Downloading https://files.pythonhosted.org/packages/7c/c9/93602875ba75a7f0faba1ee554961e3e3ecf04dc3ce87a0a226caf790ee7/astro_provider_databricks-0.1.3.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/7a/4a/3b128bcc61e5523ee9a7b8fee3530a3b2870a40e5576dfbbcb9d23c9bbe8/freepaths-1.2.1.tar.gz
+[2023-05-11 10:58:40] WARNING root fetch - processPackages [kboxx]: Skipping, unable to determine old version
+[2023-05-11 10:58:40] INFO root fetch - processPackages [kboxx]: Start processing: flask-query-builder
+[2023-05-11 10:58:40] INFO root fetch - main [MainThread]: End processing [kboxx] error
+[2023-05-11 10:58:40] INFO root fetch - processPackages [flask-query-builder]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-11 10:58:40] INFO root fetch - processPackages [PyAltiumRunTop]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [PyAltiumRunTop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAltiumRunTop-0.2.4.3.tar.gz tmp/PyAltiumRunTop-0.2.4.4.tar.gz --markdown 20230511/P/PyAltiumRunTop/0.2.4.3-0.2.4.4/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] INFO root fetch - processPackages [PyAltiumRunTop]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [PyAltiumRunTop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAltiumRunTop-0.2.4.3.tar.gz tmp/PyAltiumRunTop-0.2.4.4.tar.gz --markdown 20230511/P/PyAltiumRunTop/0.2.4.3-0.2.4.4/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: Downloading https://files.pythonhosted.org/packages/c1/cb/e14fcacfd1a556f63e910b174d32b5efd39e96bdaf5a4111cc53c87a63c9/grai_source_dbt_cloud-0.0.3a1.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [madai]: Downloading https://files.pythonhosted.org/packages/ff/14/b8a281e3510b24a6f96aee647ac4a93db5ca2503f5887e2cb4248d7a8270/madai-0.2.2.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/2d/c4/085862fec7f33688e261b36d9efc6a53a09ad5b337c6fa133a0598e7424f/freepaths-1.3.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [grai-source-dbt-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_dbt_cloud-0.0.2.tar.gz tmp/grai_source_dbt_cloud-0.0.3a1.tar.gz --markdown 20230511/g/grai-source-dbt-cloud/0.0.2-0.0.3a1/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] INFO root fetch - processPackages [flask-query-builder]: Downloading https://files.pythonhosted.org/packages/9e/b5/8e0a449d37ec7b809be17bffe9ce6ee0f1fad82c4540b12e6a42e094ded1/flask-query-builder-0.2.0.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [madai]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [madai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madai-0.2.1.tar.gz tmp/madai-0.2.2.tar.gz --markdown 20230511/m/madai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-11 10:58:40] INFO root fetch - processPackages [astro-provider-databricks]: Downloading https://files.pythonhosted.org/packages/d5/24/0444d52d823c8b8d4ad066d3892827fff9a3096e2f764e8f215d4beaf382/astro_provider_databricks-0.1.3a1.tar.gz
+[2023-05-11 10:58:40] INFO root fetch - processPackages [freepaths]: executing diffoscope
+[2023-05-11 10:58:40] INFO root fetch - processPackages [freepaths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freepaths-1.2.1.tar.gz tmp/freepaths-1.3.tar.gz --markdown 20230511/f/freepaths/1.2.1-1.3/diff.md --exclude *.pyd
+[2023-05-11 10:58:41] INFO root fetch - processPackages [flask-query-builder]: Downloading https://files.pythonhosted.org/packages/d3/8c/386a5e5010ee938fb69b1c18f1839ed5dbb23572fff3b30b74036017e1b1/flask_query_builder-0.2.1.tar.gz
+[2023-05-11 10:58:41] INFO root fetch - processPackages [astro-provider-databricks]: executing diffoscope
+[2023-05-11 10:58:41] INFO root fetch - processPackages [astro-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_provider_databricks-0.1.3.tar.gz tmp/astro_provider_databricks-0.1.3a1.tar.gz --markdown 20230511/a/astro-provider-databricks/0.1.3-0.1.3a1/diff.md --exclude *.pyd
+[2023-05-11 10:58:41] INFO root fetch - processPackages [flask-query-builder]: executing diffoscope
+[2023-05-11 10:58:41] INFO root fetch - processPackages [flask-query-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-query-builder-0.2.0.tar.gz tmp/flask_query_builder-0.2.1.tar.gz --markdown 20230511/f/flask-query-builder/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-11 10:58:42] INFO root fetch - processPackages [graphql-service-framework]: Start processing: fsapp
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-11 10:58:42] WARNING root fetch - processPackages [fsapp]: Skipping, unable to determine old version
+[2023-05-11 10:58:42] INFO root fetch - processPackages [fsapp]: Start processing: carate
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [fsapp] error
+[2023-05-11 10:58:42] INFO root fetch - processPackages [carate]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-11 10:58:42] INFO root fetch - processPackages [PyAltiumRunTop]: Start processing: kcli
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
+[2023-05-11 10:58:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202305101301] Old Version: [99.0.202305100911]
+[2023-05-11 10:58:42] INFO root fetch - processPackages [PyAltiumRunTop]: Start processing: wodoo
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [PyAltiumRunTop]: success
+[2023-05-11 10:58:42] INFO root fetch - processPackages [carate]: Downloading https://files.pythonhosted.org/packages/fa/13/418f87351688b66a900259ada5412eefec626a0a172308a78dc1a059da2d/carate-0.3.8.tar.gz
+[2023-05-11 10:58:42] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 10:58:42] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305100911-py3-none-any.whl.zip tmp/kcli-99.0.202305101301-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305100911-99.0.202305101301/diff.md --exclude *.pyd
+[2023-05-11 10:58:42] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-05-11 10:58:42] INFO root fetch - processPackages [madai]: Start processing: moira-python-client
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [madai]: success
+[2023-05-11 10:58:42] INFO root fetch - processPackages [moira-python-client]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-05-11 10:58:42] INFO root fetch - processPackages [grai-source-dbt-cloud]: Start processing: neutron-lib
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [grai-source-dbt-cloud]: success
+[2023-05-11 10:58:42] INFO root fetch - processPackages [moira-python-client]: executing diffoscope
+[2023-05-11 10:58:42] INFO root fetch - processPackages [moira-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moira-python-client-4.0.0.tar.gz tmp/moira-python-client-4.0.1.tar.gz --markdown 20230511/m/moira-python-client/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-05-11 10:58:42] INFO root fetch - processPackages [carate]: Downloading https://files.pythonhosted.org/packages/bc/12/575875304cb985ca255ad8178617d4694a2b9eb77510ac16bedd4e76df55/carate-0.3.9.tar.gz
+[2023-05-11 10:58:42] INFO root fetch - processPackages [neutron-lib]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-05-11 10:58:42] INFO root fetch - processPackages [carate]: executing diffoscope
+[2023-05-11 10:58:42] INFO root fetch - processPackages [carate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carate-0.3.8.tar.gz tmp/carate-0.3.9.tar.gz --markdown 20230511/c/carate/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-11 10:58:42] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-05-11 10:58:42] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230511/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [diffusionjax]: success
+[2023-05-11 10:58:42] INFO root fetch - processPackages [neutron-lib]: Downloading https://files.pythonhosted.org/packages/3f/f5/7f7b85cb8b182747596b8fdd7f5898e124baa4c2e475d6f06b705e3a29f4/neutron-lib-3.5.0.tar.gz
+[2023-05-11 10:58:42] INFO root fetch - main [MainThread]: End processing [freepaths]: success
+[2023-05-11 10:58:43] INFO root fetch - main [MainThread]: End processing [flask-query-builder]: success
+[2023-05-11 10:58:43] INFO root fetch - processPackages [neutron-lib]: Downloading https://files.pythonhosted.org/packages/67/7c/602c6e0b5a7a8a894c65174b22f8e28e9cde4cc06169b57c2f31ad810fc0/neutron-lib-3.6.0.tar.gz
+[2023-05-11 10:58:43] INFO root fetch - processPackages [neutron-lib]: executing diffoscope
+[2023-05-11 10:58:43] INFO root fetch - processPackages [neutron-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neutron-lib-3.5.0.tar.gz tmp/neutron-lib-3.6.0.tar.gz --markdown 20230511/n/neutron-lib/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-05-11 10:58:43] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-05-11 10:58:44] INFO root fetch - main [MainThread]: End processing [carate]: success
+[2023-05-11 10:58:44] INFO root fetch - main [MainThread]: End processing [moira-python-client]: success
+[2023-05-11 10:58:44] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-05-11 10:58:46] INFO root fetch - main [MainThread]: End processing [astro-provider-databricks]: success
+[2023-05-11 10:58:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 10:59:00] INFO root fetch - main [MainThread]: End processing [neutron-lib]: success
+[2023-05-11 10:59:00] INFO root fetch - main [MainThread]: Store serial: [18060380]
