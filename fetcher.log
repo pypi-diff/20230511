@@ -8727,3 +8727,40 @@ EOFError: EOF read where object expected
 [2023-05-11 05:38:20] INFO root fetch - main [MainThread]: End processing [forerunner]: success
 [2023-05-11 05:38:21] INFO root fetch - main [MainThread]: End processing [mda-simulator]: success
 [2023-05-11 05:38:21] INFO root fetch - main [MainThread]: Store serial: [18057992]
+[2023-05-11 05:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18057992]
+[2023-05-11 05:43:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-11 05:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: siat
+[2023-05-11 05:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: overcome
+[2023-05-11 05:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: summerepi2
+[2023-05-11 05:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecoscope
+[2023-05-11 05:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mockupgen
+[2023-05-11 05:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-spark-gpt
+[2023-05-11 05:43:29] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 05:43:29] INFO root fetch - processPackages [overcome]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-11 05:43:29] INFO root fetch - processPackages [mockupgen]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 05:43:30] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: executing diffoscope
+[2023-05-11 05:43:30] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_spark_gpt-0.1.1.tar.gz tmp/nonebot_plugin_spark_gpt-0.1.2.tar.gz --markdown 20230511/n/nonebot-plugin-spark-gpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 05:43:30] INFO root fetch - processPackages [ecoscope]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-11 05:43:30] INFO root fetch - processPackages [siat]: New version: [2.0.1] Old Version: [2.0]
+[2023-05-11 05:43:30] INFO root fetch - processPackages [summerepi2]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-11 05:43:30] INFO root fetch - processPackages [overcome]: executing diffoscope
+[2023-05-11 05:43:30] INFO root fetch - processPackages [overcome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overcome-0.3.0.tar.gz tmp/overcome-0.3.1.tar.gz --markdown 20230511/o/overcome/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-11 05:43:30] INFO root fetch - processPackages [mockupgen]: Downloading https://files.pythonhosted.org/packages/78/81/87ee3ce5cf47448523f17aaf9d39ba18a62249e89937710b2c6f7f0c476a/mockupgen-0.0.2.tar.gz
+[2023-05-11 05:43:30] WARNING root fetch - processPackages [mockupgen]: Skipping package: exceeds size limit 20862526>=10485760
+[2023-05-11 05:43:30] INFO root fetch - main [MainThread]: End processing [mockupgen] error
+[2023-05-11 05:43:30] INFO root fetch - processPackages [summerepi2]: Downloading https://files.pythonhosted.org/packages/94/50/02baa116fbdc9feaf5c45b45ed24379bde77f43c64f0c5a4b6de283ffa12/summerepi2-1.2.2.tar.gz
+[2023-05-11 05:43:30] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/12/24/6e7cdf3a57b4f1fa34197ac7d3134a3601672a0f7644fff03c60f307a76e/siat-2.0.1-py3-none-any.whl
+[2023-05-11 05:43:30] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/55/d0/b04078a7b30d96dd4fbda9705e33cf165bfa00ed0860dc946436f5588277/ecoscope-1.2.1.tar.gz
+[2023-05-11 05:43:30] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-05-11 05:43:30] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0-py3-none-any.whl.zip tmp/siat-2.0.1-py3-none-any.whl.zip --markdown 20230511/s/siat/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-11 05:43:30] INFO root fetch - processPackages [summerepi2]: Downloading https://files.pythonhosted.org/packages/96/75/122a5917858917e5d22826fc1d7ae981a734c7f8e68c1eb969cbc5d92e02/summerepi2-1.2.3.tar.gz
+[2023-05-11 05:43:30] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2023-05-11 05:43:30] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.2.0.tar.gz tmp/ecoscope-1.2.1.tar.gz --markdown 20230511/e/ecoscope/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-11 05:43:30] INFO root fetch - processPackages [summerepi2]: executing diffoscope
+[2023-05-11 05:43:30] INFO root fetch - processPackages [summerepi2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summerepi2-1.2.2.tar.gz tmp/summerepi2-1.2.3.tar.gz --markdown 20230511/s/summerepi2/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-11 05:43:31] INFO root fetch - main [MainThread]: End processing [overcome]: success
+[2023-05-11 05:43:31] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2023-05-11 05:43:32] INFO root fetch - main [MainThread]: End processing [summerepi2]: success
+[2023-05-11 05:43:32] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-05-11 05:43:33] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt]: success
+[2023-05-11 05:43:33] INFO root fetch - main [MainThread]: Store serial: [18058006]
