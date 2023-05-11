@@ -10926,3 +10926,69 @@ EOFError: EOF read where object expected
 [2023-05-11 09:08:13] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
 [2023-05-11 09:08:17] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Local]: success
 [2023-05-11 09:08:17] INFO root fetch - main [MainThread]: Store serial: [18059263]
+[2023-05-11 09:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059263]
+[2023-05-11 09:13:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcontext
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osd-slides
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamodump
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-models-nightly
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-random
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gtki-module-orup-errors
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inhandtest
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: espressoconnect
+[2023-05-11 09:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-snowflake
+[2023-05-11 09:13:32] INFO root fetch - processPackages [osd-slides]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 09:13:32] INFO root fetch - processPackages [qcontext]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.35.71] Old Version: [1.35.7]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [osd-slides]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [osd-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osd_slides-0.1.3.tar.gz tmp/osd_slides-0.1.4.tar.gz --markdown 20230511/o/osd-slides/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [inhandtest]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-11 09:13:33] WARNING root fetch - processPackages [espressoconnect]: Skipping, unable to determine old version
+[2023-05-11 09:13:33] INFO root fetch - processPackages [espressoconnect]: Start processing: streamlit-nightly
+[2023-05-11 09:13:33] INFO root fetch - main [MainThread]: End processing [espressoconnect] error
+[2023-05-11 09:13:33] INFO root fetch - processPackages [dynamodump]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pulumi-random]: New version: [4.9.0a1674773801] Old Version: [4.9.0a1673556316]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [qcontext]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [qcontext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcontext-1.0.3.tar.gz tmp/qcontext-1.0.4.tar.gz --markdown 20230511/q/qcontext/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230511/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/72/c9/4b87cc5fddefa9cd13245cad1d9626917e9b83a5033cc4ad3230949f0a87/gtki_module_orup_errors-1.35.71-py3-none-any.whl
+[2023-05-11 09:13:33] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230511/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/2d/11/d420bd2161e11603826c5f62f245bb670ee7e815389d40ad98397f14c8cb/inhandtest-0.0.42.tar.gz
+[2023-05-11 09:13:33] INFO root fetch - processPackages [dynamodump]: Downloading https://files.pythonhosted.org/packages/d7/d2/57d4e1b54e8702df41043b19a536fce0fa5c300b4b874e2e8718c32da0db/dynamodump-1.8.0.tar.gz
+[2023-05-11 09:13:33] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.35.7-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.35.71-py3-none-any.whl.zip --markdown 20230511/g/gtki-module-orup-errors/1.35.7-1.35.71/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pulumi-random]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pulumi-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_random-4.9.0a1673556316.tar.gz tmp/pulumi_random-4.9.0a1674773801.tar.gz --markdown 20230511/p/pulumi-random/4.9.0a1673556316-4.9.0a1674773801/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230511/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230511/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/4e/15/dfee54759ea690b57837f607bfa4537f9197a8ad6f70b25fd8e83d182254/inhandtest-0.0.43.tar.gz
+[2023-05-11 09:13:33] INFO root fetch - processPackages [dynamodump]: Downloading https://files.pythonhosted.org/packages/04/85/437ad19d560f955aac8387c0dbc70b21fb4da4221e70cb4b77a5b8a5d1b5/dynamodump-1.9.0.tar.gz
+[2023-05-11 09:13:33] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.42.tar.gz tmp/inhandtest-0.0.43.tar.gz --markdown 20230511/i/inhandtest/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-05-11 09:13:33] INFO root fetch - processPackages [dynamodump]: executing diffoscope
+[2023-05-11 09:13:33] INFO root fetch - processPackages [dynamodump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamodump-1.8.0.tar.gz tmp/dynamodump-1.9.0.tar.gz --markdown 20230511/d/dynamodump/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 09:13:34] INFO root fetch - processPackages [osd-slides]: Start processing: pulumi-github
+[2023-05-11 09:13:34] INFO root fetch - main [MainThread]: End processing [osd-slides]: success
+[2023-05-11 09:13:34] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.0a1683752304] Old Version: [5.9.0a1683610445]
+[2023-05-11 09:13:35] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-05-11 09:13:35] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683610445.tar.gz tmp/pulumi_github-5.9.0a1683752304.tar.gz --markdown 20230511/p/pulumi-github/5.9.0a1683610445-5.9.0a1683752304/diff.md --exclude *.pyd
+[2023-05-11 09:13:35] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-11 09:13:35] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-05-11 09:13:35] INFO root fetch - main [MainThread]: End processing [dynamodump]: success
+[2023-05-11 09:13:35] INFO root fetch - main [MainThread]: End processing [pulumi-random]: success
+[2023-05-11 09:13:36] INFO root fetch - main [MainThread]: End processing [qcontext]: success
+[2023-05-11 09:13:36] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-05-11 09:13:38] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-05-11 09:13:38] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-05-11 09:13:44] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-05-11 09:13:51] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-11 09:13:51] INFO root fetch - main [MainThread]: Store serial: [18059295]
