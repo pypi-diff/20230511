@@ -6277,3 +6277,63 @@ EOFError: EOF read where object expected
 [2023-05-11 03:47:03] INFO root fetch - main [MainThread]: End processing [newWhoisBobPkgs]: success
 [2023-05-11 03:47:44] INFO root fetch - main [MainThread]: End processing [checkov3]: success
 [2023-05-11 03:47:44] INFO root fetch - main [MainThread]: Store serial: [18056689]
+[2023-05-11 03:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18056689]
+[2023-05-11 03:52:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matplotlips
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-webapp-skeleton
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hbshare
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trame
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usepy
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SNPfilter
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyp8s
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ditti-boost
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jionlp
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: discotoolkit
+[2023-05-11 03:52:53] INFO root fetch - processPackages [matplotlips]: New version: [0.1.2] Old Version: [0.1]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [trame]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [discotoolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [hbshare]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-05-11 03:52:53] WARNING root fetch - processPackages [SNPfilter]: Skipping, unable to determine old version
+[2023-05-11 03:52:53] INFO root fetch - main [MainThread]: End processing [SNPfilter] error
+[2023-05-11 03:52:53] INFO root fetch - processPackages [pyp8s]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [discotoolkit]: executing diffoscope
+[2023-05-11 03:52:53] INFO root fetch - processPackages [discotoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotoolkit-1.0.1.tar.gz tmp/discotoolkit-1.0.2.tar.gz --markdown 20230511/d/discotoolkit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 03:52:53] INFO root fetch - processPackages [usepy]: New version: [0.2.0a0] Old Version: [0.2.0]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ditti-boost]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [jionlp]: New version: [1.4.7] Old Version: [1.4.40]
+[2023-05-11 03:52:53] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/b3/ac/7b342e0dca103d4f380baa42b20fc114440e39f724e0a2f95522a66aa4f6/trame-2.4.0.tar.gz
+[2023-05-11 03:52:53] INFO root fetch - processPackages [pyp8s]: Downloading https://files.pythonhosted.org/packages/f4/20/91749bba3ce0abe35f5d3bc9ca709804faf49b8f37c0e7710d317792e7d3/pyp8s-3.1.0-py3-none-any.whl
+[2023-05-11 03:52:53] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/68/eb/5bf99a81ca2fcf74ef2f3468a3eb802ea789b46b1d50ec650c5b9668f53c/usepy-0.2.0.tar.gz
+[2023-05-11 03:52:53] INFO root fetch - processPackages [matplotlips]: Downloading https://files.pythonhosted.org/packages/de/42/f36143ad0b07fb2c1534fe1e18841e78deec847c43319e8130af5f9defb5/matplotlips-0.1.2.tar.gz
+[2023-05-11 03:52:53] INFO root fetch - processPackages [jionlp]: Downloading https://files.pythonhosted.org/packages/62/ca/2499336b041f1c7615c8ee8caff9ae7b5c55e700e192ab84f369f0fdfd01/jionlp-1.4.40-py2.py3-none-any.whl
+[2023-05-11 03:52:53] INFO root fetch - processPackages [ditti-boost]: Downloading https://files.pythonhosted.org/packages/e6/48/060b33ccdaadb1608a53e376398e0a2e472610f07666fc26de5346f827e4/ditti_boost-1.0.0.tar.gz
+[2023-05-11 03:52:53] WARNING root fetch - processPackages [jionlp]: Skipping package: exceeds size limit 19040568>=10485760
+[2023-05-11 03:52:53] INFO root fetch - main [MainThread]: End processing [jionlp] error
+[2023-05-11 03:52:53] INFO root fetch - processPackages [matplotlips]: executing diffoscope
+[2023-05-11 03:52:53] INFO root fetch - processPackages [matplotlips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlips-0.1.tar.gz tmp/matplotlips-0.1.2.tar.gz --markdown 20230511/m/matplotlips/0.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 03:52:54] INFO root fetch - processPackages [hbshare]: executing diffoscope
+[2023-05-11 03:52:54] INFO root fetch - processPackages [hbshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbshare-3.7.8.tar.gz tmp/hbshare-3.7.9.tar.gz --markdown 20230511/h/hbshare/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-05-11 03:52:54] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-05-11 03:52:54] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230511/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 03:52:54] INFO root fetch - processPackages [pyp8s]: Downloading https://files.pythonhosted.org/packages/93/f4/1eab4090aa5088228b76ccec6e968313fa7a205e5d0ca9e2e677536cd346/pyp8s-3.1.1-py3-none-any.whl
+[2023-05-11 03:52:54] INFO root fetch - processPackages [ditti-boost]: Downloading https://files.pythonhosted.org/packages/66/94/f901e746cd7e3ff31a54e1e95869af28f36bae896c5841acba9a1604bf83/ditti_boost-1.0.1.tar.gz
+[2023-05-11 03:52:54] INFO root fetch - processPackages [trame]: Downloading https://files.pythonhosted.org/packages/5d/2a/ef05a4019950c8ef8ce3b03b4cc5578ab148deced4dcc11598c0aca1b8d8/trame-2.4.1.tar.gz
+[2023-05-11 03:52:54] INFO root fetch - processPackages [pyp8s]: executing diffoscope
+[2023-05-11 03:52:54] INFO root fetch - processPackages [pyp8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyp8s-3.1.0-py3-none-any.whl.zip tmp/pyp8s-3.1.1-py3-none-any.whl.zip --markdown 20230511/p/pyp8s/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-11 03:52:54] INFO root fetch - processPackages [usepy]: Downloading https://files.pythonhosted.org/packages/70/2e/8fc38434da4b366379cf5f9d8086f9f6c95cdb245b7175ec4a549f112051/usepy-0.2.0a0.tar.gz
+[2023-05-11 03:52:54] INFO root fetch - processPackages [ditti-boost]: executing diffoscope
+[2023-05-11 03:52:54] INFO root fetch - processPackages [ditti-boost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ditti_boost-1.0.0.tar.gz tmp/ditti_boost-1.0.1.tar.gz --markdown 20230511/d/ditti-boost/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 03:52:54] INFO root fetch - processPackages [trame]: executing diffoscope
+[2023-05-11 03:52:54] INFO root fetch - processPackages [trame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-2.4.0.tar.gz tmp/trame-2.4.1.tar.gz --markdown 20230511/t/trame/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-05-11 03:52:54] INFO root fetch - processPackages [usepy]: executing diffoscope
+[2023-05-11 03:52:54] INFO root fetch - processPackages [usepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usepy-0.2.0.tar.gz tmp/usepy-0.2.0a0.tar.gz --markdown 20230511/u/usepy/0.2.0-0.2.0a0/diff.md --exclude *.pyd
+[2023-05-11 03:52:55] INFO root fetch - main [MainThread]: End processing [discotoolkit]: success
+[2023-05-11 03:52:55] INFO root fetch - main [MainThread]: End processing [matplotlips]: success
+[2023-05-11 03:52:55] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-05-11 03:52:55] INFO root fetch - main [MainThread]: End processing [ditti-boost]: success
+[2023-05-11 03:52:55] INFO root fetch - main [MainThread]: End processing [pyp8s]: success
+[2023-05-11 03:52:56] INFO root fetch - main [MainThread]: End processing [usepy]: success
+[2023-05-11 03:52:56] INFO root fetch - main [MainThread]: End processing [trame]: success
+[2023-05-11 03:52:57] INFO root fetch - main [MainThread]: End processing [hbshare]: success
+[2023-05-11 03:52:57] INFO root fetch - main [MainThread]: Store serial: [18056736]
