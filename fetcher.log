@@ -6444,3 +6444,57 @@ EOFError: EOF read where object expected
 [2023-05-11 04:03:25] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
 [2023-05-11 04:03:27] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
 [2023-05-11 04:03:27] INFO root fetch - main [MainThread]: Store serial: [18056818]
+[2023-05-11 04:08:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18056818]
+[2023-05-11 04:08:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webdrivertools
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intecomm-edc
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrc-python-utils
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gridappsd-python
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: newWhoisBobPkgs
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clip-bbox
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tracers-spans-python
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nepse-scraper
+[2023-05-11 04:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrc-python-utils
+[2023-05-11 04:08:36] INFO root fetch - processPackages [webdrivertools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-11 04:08:36] INFO root fetch - processPackages [clip-bbox]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-11 04:08:36] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 04:08:36] INFO root fetch - processPackages [newWhoisBobPkgs]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-05-11 04:08:36] WARNING root fetch - processPackages [tracers-spans-python]: Skipping, unable to determine old version
+[2023-05-11 04:08:36] INFO root fetch - main [MainThread]: End processing [tracers-spans-python] error
+[2023-05-11 04:08:36] INFO root fetch - processPackages [gridappsd-python]: New version: [2023.5.1a1] Old Version: [2.8.20230425182060a0]
+[2023-05-11 04:08:36] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 04:08:36] INFO root fetch - processPackages [nepse-scraper]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-11 04:08:36] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 04:08:37] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230511/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [newWhoisBobPkgs]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [newWhoisBobPkgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newWhoisBobPkgs-1.0.0.8-py3-none-any.whl.zip tmp/newWhoisBobPkgs-1.0.0.9-py3-none-any.whl.zip --markdown 20230511/n/newWhoisBobPkgs/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [webdrivertools]: Downloading https://files.pythonhosted.org/packages/a3/14/56536120dcff53fb0c132d70ffef62e7063f24047b64c504230f99221f03/webdrivertools-0.0.1.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [clip-bbox]: Downloading https://files.pythonhosted.org/packages/be/3f/c04a3532a115231f4baccd6b9ae3c18aea728857f8e20fb81ef6fd75d8ee/clip_bbox-0.3.0.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.8.tar.gz tmp/pyrc-python-utils-1.0.9.tar.gz --markdown 20230511/p/pyrc-python-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/87/91/d8be5418cd503d0d693bc84961046a6376b509c54394deeeb69fc66dec47/gridappsd_python-2.8.20230425182060a0-py3-none-any.whl
+[2023-05-11 04:08:37] INFO root fetch - processPackages [nepse-scraper]: Downloading https://files.pythonhosted.org/packages/02/16/93e78b934a546b25dbc8b5e1d9637c2b1040e4842a82837688dd4b920553/nepse_scraper-0.1.5.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [webdrivertools]: Downloading https://files.pythonhosted.org/packages/3f/d6/456fc710ca165b74686db27d5f4e956cceb95d426c74b9da127e547b3fa5/webdrivertools-0.0.2.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [nepse-scraper]: Downloading https://files.pythonhosted.org/packages/37/04/3f12c15247b55d00de65d5970eeac9fb6e47be146d02d05cdc05cef07f6d/nepse_scraper-0.1.6.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [gridappsd-python]: Downloading https://files.pythonhosted.org/packages/8d/ac/2d99b1a4e7097b122a3d65fff851851db1432162bfe080a1bae18a124e2b/gridappsd_python-2023.5.1a1.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [webdrivertools]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [webdrivertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdrivertools-0.0.1.tar.gz tmp/webdrivertools-0.0.2.tar.gz --markdown 20230511/w/webdrivertools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [nepse-scraper]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [nepse-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepse_scraper-0.1.5.tar.gz tmp/nepse_scraper-0.1.6.tar.gz --markdown 20230511/n/nepse-scraper/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [gridappsd-python]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [gridappsd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridappsd_python-2.8.20230425182060a0-py3-none-any.whl.zip tmp/gridappsd_python-2023.5.1a1.tar.gz --markdown 20230511/g/gridappsd-python/2.8.20230425182060a0-2023.5.1a1/diff.md --exclude *.pyd
+[2023-05-11 04:08:37] INFO root fetch - processPackages [clip-bbox]: Downloading https://files.pythonhosted.org/packages/7f/04/ca3733c9159a7c6395568ffac0f5851c307eec9aa2e9a69d7cb0261ecfc6/clip_bbox-0.3.1.tar.gz
+[2023-05-11 04:08:37] INFO root fetch - processPackages [clip-bbox]: executing diffoscope
+[2023-05-11 04:08:37] INFO root fetch - processPackages [clip-bbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clip_bbox-0.3.0.tar.gz tmp/clip_bbox-0.3.1.tar.gz --markdown 20230511/c/clip-bbox/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-11 04:08:38] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 04:08:38] INFO root fetch - main [MainThread]: End processing [newWhoisBobPkgs]: success
+[2023-05-11 04:08:38] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-11 04:08:38] INFO root fetch - main [MainThread]: End processing [webdrivertools]: success
+[2023-05-11 04:08:38] INFO root fetch - main [MainThread]: End processing [gridappsd-python]: success
+[2023-05-11 04:08:39] INFO root fetch - main [MainThread]: End processing [nepse-scraper]: success
+[2023-05-11 04:08:40] INFO root fetch - main [MainThread]: End processing [clip-bbox]: success
+[2023-05-11 04:08:43] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-05-11 04:08:43] INFO root fetch - main [MainThread]: Store serial: [18056845]
