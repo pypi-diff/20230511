@@ -12029,3 +12029,119 @@ EOFError: EOF read where object expected
 [2023-05-11 10:15:39] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2023-05-11 10:16:03] INFO root fetch - main [MainThread]: End processing [webgui-jupyter-widgets]: success
 [2023-05-11 10:16:03] INFO root fetch - main [MainThread]: Store serial: [18059905]
+[2023-05-11 10:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059905]
+[2023-05-11 10:21:13] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pp-kd-common
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mage-ai
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: st-microservice
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-html-text
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-html-image-url-extractor
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-product-attribute-set
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-account-asset-management
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-account-journal-general-sequence
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edman-web
+[2023-05-11 10:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: semisup-segmentation
+[2023-05-11 10:21:13] INFO root fetch - processPackages [edman-web]: New version: [2023.5.8] Old Version: [2023.5.11]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [semisup-segmentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-html-image-url-extractor]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-05-11 10:21:13] WARNING root fetch - processPackages [pp-kd-common]: Skipping, unable to determine old version
+[2023-05-11 10:21:13] INFO root fetch - processPackages [pp-kd-common]: Start processing: odoo-addon-l10n-ro-city
+[2023-05-11 10:21:13] INFO root fetch - main [MainThread]: End processing [pp-kd-common] error
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-html-text]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [mage-ai]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-product-attribute-set]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.3.dev2]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-account-journal-general-sequence]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev1]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: New version: [14.0.3.0.1.dev4] Old Version: [14.0.3.0.1.dev3]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2023-05-11 10:21:13] INFO root fetch - processPackages [semisup-segmentation]: executing diffoscope
+[2023-05-11 10:21:13] INFO root fetch - processPackages [st-microservice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2023.5.11.tar.gz tmp/edman_web-2023.5.8.tar.gz --markdown 20230511/e/edman-web/2023.5.11-2023.5.8/diff.md --exclude *.pyd
+[2023-05-11 10:21:13] INFO root fetch - processPackages [semisup-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semisup-segmentation-0.0.8.tar.gz tmp/semisup-segmentation-0.0.9.tar.gz --markdown 20230511/s/semisup-segmentation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: New version: [16.0.3.3.0] Old Version: [15.0.3.2.0]
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-html-image-url-extractor]: Downloading https://files.pythonhosted.org/packages/03/26/09f1f16aef2c319d6a2f92bac279427c9dfac4eadbbe53e23a7693b708f1/odoo14_addon_html_image_url_extractor-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/9d/ec/f019ecfec7c4d6679de573e2699b91247e0cc388b144b2d505d691255a8a/odoo14_addon_account_journal_general_sequence-14.0.1.0.3.dev1-py3-none-any.whl
+[2023-05-11 10:21:13] INFO root fetch - processPackages [odoo14-addon-html-text]: Downloading https://files.pythonhosted.org/packages/14/bc/9c38a643049b36fb28d70293b8f41f0440898daa3b305852299d07ec4d24/odoo14_addon_html_text-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-product-attribute-set]: Downloading https://files.pythonhosted.org/packages/4d/d7/f6fe27790d2520abcb9db2c0860e4f828b04eaa5cf287941afd251b70fa2/odoo14_addon_product_attribute_set-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/03/b0/5ff4d5cd8d1a3b9a26d036757f0c144097b9111aeb877e5f3a66f9b76033/odoo14_addon_account_asset_management-14.0.3.0.1.dev3-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Downloading https://files.pythonhosted.org/packages/14/96/47085c4ca2623b8ab79b6a41239b8e8e801b9cf25ff6ceb50f1ef96f6725/odoo_addon_l10n_ro_city-15.0.3.2.0-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-0.9.8.tar.gz tmp/st_microservice-0.9.9.tar.gz --markdown 20230511/s/st-microservice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-journal-general-sequence]: Downloading https://files.pythonhosted.org/packages/4a/35/4556d2c32f8f32e6748d6c06595c28db6feb65276700b102edc5ac8f57a1/odoo14_addon_account_journal_general_sequence-14.0.1.0.3.dev3-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/d5/d6/918ae9504ad916ddccdeb56b99648af23de85050b1410b0996dfb8fb3bd3/odoo14_addon_account_asset_management-14.0.3.0.1.dev4-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.8.tar.gz tmp/mage-ai-0.8.9.tar.gz --markdown 20230511/m/mage-ai/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: Downloading https://files.pythonhosted.org/packages/e1/62/866f9f57b0007af9436b555c7543f8ef722ad4c0861ff4896298cd525606/odoo_addon_l10n_ro_city-16.0.3.3.0-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-product-attribute-set]: Downloading https://files.pythonhosted.org/packages/6b/cd/efbc018e2f976589f32d2430ccd4bd113acd18fb0f3d395064239c8da278/odoo14_addon_product_attribute_set-14.0.1.1.0-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-journal-general-sequence]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-journal-general-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_journal_general_sequence-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_journal_general_sequence-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-account-journal-general-sequence/14.0.1.0.3.dev1-14.0.1.0.3.dev3/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-html-text]: Downloading https://files.pythonhosted.org/packages/93/28/0832338a5ddb81c19c13dd46fd8e634e0af50ae24ae7d26f2044eec2d298/odoo14_addon_html_text-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-html-image-url-extractor]: Downloading https://files.pythonhosted.org/packages/4a/00/17bbb5e15831d5631d3f7d2f9f155235d22f93ff3938e39de7439bb8ddce/odoo14_addon_html_image_url_extractor-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_asset_management-14.0.3.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_account_asset_management-14.0.3.0.1.dev4-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-account-asset-management/14.0.3.0.1.dev3-14.0.3.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-product-attribute-set]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-product-attribute-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_attribute_set-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_product_attribute_set-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-product-attribute-set/14.0.1.0.3.dev2-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo-addon-l10n-ro-city]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_city-15.0.3.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_city-16.0.3.3.0-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-l10n-ro-city/15.0.3.2.0-16.0.3.3.0/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-html-text]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-html-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_html_text-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_html_text-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-html-text/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-html-image-url-extractor]: executing diffoscope
+[2023-05-11 10:21:14] INFO root fetch - processPackages [odoo14-addon-html-image-url-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_html_image_url_extractor-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_html_image_url_extractor-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-html-image-url-extractor/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-11 10:21:15] INFO root fetch - processPackages [edman-web]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-11 10:21:15] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2023-05-11 10:21:15] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230511.7.56.807160] Old Version: [20230504.7.27.314377]
+[2023-05-11 10:21:15] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/af/9e/6d0f89d284bbfd21674680effcac6fa6ab0705d6805c1bc2075324c63d01/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230504.7.27.314377.tar.gz
+[2023-05-11 10:21:15] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 38418184>=10485760
+[2023-05-11 10:21:15] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Start processing: aptos-sdk
+[2023-05-11 10:21:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-11 10:21:15] INFO root fetch - processPackages [aptos-sdk]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-11 10:21:15] INFO root fetch - processPackages [aptos-sdk]: executing diffoscope
+[2023-05-11 10:21:15] INFO root fetch - processPackages [aptos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_sdk-0.5.1.tar.gz tmp/aptos_sdk-0.6.0.tar.gz --markdown 20230511/a/aptos-sdk/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-11 10:21:15] INFO root fetch - processPackages [semisup-segmentation]: Start processing: AGIpdf2json
+[2023-05-11 10:21:15] INFO root fetch - main [MainThread]: End processing [semisup-segmentation]: success
+[2023-05-11 10:21:15] INFO root fetch - processPackages [AGIpdf2json]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-11 10:21:15] INFO root fetch - processPackages [AGIpdf2json]: executing diffoscope
+[2023-05-11 10:21:15] INFO root fetch - processPackages [AGIpdf2json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AGIpdf2json-0.0.3.tar.gz tmp/AGIpdf2json-1.0.0.tar.gz --markdown 20230511/A/AGIpdf2json/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-11 10:21:15] INFO root fetch - processPackages [st-microservice]: Start processing: xrscipy
+[2023-05-11 10:21:15] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2023-05-11 10:21:15] WARNING root fetch - processPackages [xrscipy]: Skipping, unable to determine old version
+[2023-05-11 10:21:15] INFO root fetch - processPackages [xrscipy]: Start processing: deale-library
+[2023-05-11 10:21:15] INFO root fetch - main [MainThread]: End processing [xrscipy] error
+[2023-05-11 10:21:15] WARNING root fetch - processPackages [deale-library]: Skipping, unable to determine old version
+[2023-05-11 10:21:15] INFO root fetch - processPackages [deale-library]: Start processing: lanceotron
+[2023-05-11 10:21:15] INFO root fetch - main [MainThread]: End processing [deale-library] error
+[2023-05-11 10:21:15] INFO root fetch - processPackages [lanceotron]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-11 10:21:16] INFO root fetch - processPackages [lanceotron]: executing diffoscope
+[2023-05-11 10:21:16] INFO root fetch - processPackages [lanceotron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanceotron-1.2.0-py3-none-any.whl.zip tmp/lanceotron-1.2.1-py3-none-any.whl.zip --markdown 20230511/l/lanceotron/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-11 10:21:16] INFO root fetch - processPackages [odoo14-addon-account-journal-general-sequence]: Start processing: pytamer
+[2023-05-11 10:21:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-journal-general-sequence]: success
+[2023-05-11 10:21:16] INFO root fetch - processPackages [pytamer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 10:21:16] INFO root fetch - processPackages [odoo14-addon-product-attribute-set]: Start processing: typename
+[2023-05-11 10:21:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-attribute-set]: success
+[2023-05-11 10:21:16] INFO root fetch - processPackages [odoo14-addon-html-text]: Start processing: pull-dash-components
+[2023-05-11 10:21:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-html-text]: success
+[2023-05-11 10:21:16] INFO root fetch - processPackages [pytamer]: Downloading https://files.pythonhosted.org/packages/b8/5b/e874027aaecbfd99dd298c2233d835fc8c62ededc6d8380608360da146f4/pytamer-0.1.8-cp39-cp39-win_amd64.whl
+[2023-05-11 10:21:16] INFO root fetch - processPackages [typename]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 10:21:16] WARNING root fetch - processPackages [pull-dash-components]: Skipping, unable to determine old version
+[2023-05-11 10:21:16] INFO root fetch - processPackages [pull-dash-components]: Start processing: dop-integration-libs
+[2023-05-11 10:21:16] INFO root fetch - main [MainThread]: End processing [pull-dash-components] error
+[2023-05-11 10:21:16] INFO root fetch - processPackages [dop-integration-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 10:21:16] INFO root fetch - processPackages [typename]: Downloading https://files.pythonhosted.org/packages/a9/71/17b6bef1b75e71f9b19eea02161a24b46fd79ee84d0a19db740dd1824987/typename-1.0.0.tar.gz
+[2023-05-11 10:21:16] INFO root fetch - processPackages [dop-integration-libs]: executing diffoscope
+[2023-05-11 10:21:16] INFO root fetch - processPackages [dop-integration-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dop_integration_libs-0.1.8.tar.gz tmp/dop_integration_libs-0.1.9.tar.gz --markdown 20230511/d/dop-integration-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 10:21:17] INFO root fetch - processPackages [typename]: Downloading https://files.pythonhosted.org/packages/6b/54/6abe66af11694a17de3f18bfde17eae19022aadbaffb5931487c2c65c2c1/typename-1.0.1.tar.gz
+[2023-05-11 10:21:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-html-image-url-extractor]: success
+[2023-05-11 10:21:17] INFO root fetch - processPackages [typename]: executing diffoscope
+[2023-05-11 10:21:17] INFO root fetch - processPackages [typename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typename-1.0.0.tar.gz tmp/typename-1.0.1.tar.gz --markdown 20230511/t/typename/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 10:21:17] INFO root fetch - main [MainThread]: End processing [AGIpdf2json]: success
+[2023-05-11 10:21:17] INFO root fetch - processPackages [pytamer]: Downloading https://files.pythonhosted.org/packages/bd/75/c64c1686792601a958eedba4a55d17cac6b9affff863b88cf013a2a0db2d/pytamer-0.1.9-cp39-cp39-win_amd64.whl
+[2023-05-11 10:21:17] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-asset-management]: success
+[2023-05-11 10:21:17] INFO root fetch - main [MainThread]: End processing [lanceotron]: success
+[2023-05-11 10:21:17] INFO root fetch - main [MainThread]: End processing [aptos-sdk]: success
+[2023-05-11 10:21:18] INFO root fetch - main [MainThread]: End processing [dop-integration-libs]: success
+[2023-05-11 10:21:18] INFO root fetch - processPackages [pytamer]: executing diffoscope
+[2023-05-11 10:21:18] INFO root fetch - processPackages [pytamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytamer-0.1.8-cp39-cp39-win_amd64.whl.zip tmp/pytamer-0.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230511/p/pytamer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 10:21:18] INFO root fetch - main [MainThread]: End processing [typename]: success
+[2023-05-11 10:21:19] INFO root fetch - main [MainThread]: End processing [pytamer]: success
+[2023-05-11 10:21:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-city]: success
+[2023-05-11 10:21:25] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-05-11 10:21:25] INFO root fetch - main [MainThread]: Store serial: [18059986]
