@@ -20960,3 +20960,159 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:32:05] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2023-05-11 16:32:16] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
 [2023-05-11 16:32:16] INFO root fetch - main [MainThread]: Store serial: [18064709]
+[2023-05-11 16:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064709]
+[2023-05-11 16:37:25] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quintus
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: substra
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kgx
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polydown
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-eks-blueprint
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minipti
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foscat
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-liveview
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multi-docker-build
+[2023-05-11 16:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: printername
+[2023-05-11 16:37:25] INFO root fetch - processPackages [quintus]: New version: [0.2] Old Version: [0.1]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [foscat]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [polydown]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-11 16:37:25] WARNING root fetch - processPackages [django-liveview]: Skipping, unable to determine old version
+[2023-05-11 16:37:25] INFO root fetch - processPackages [printername]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [django-liveview]: Start processing: docbuild
+[2023-05-11 16:37:25] WARNING root fetch - processPackages [cdk-eks-blueprint]: Skipping, unable to determine old version
+[2023-05-11 16:37:25] INFO root fetch - processPackages [cdk-eks-blueprint]: Start processing: pikendus-backend
+[2023-05-11 16:37:25] INFO root fetch - processPackages [multi-docker-build]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [minipti]: New version: [1.9.0] Old Version: [1.0.1]
+[2023-05-11 16:37:25] INFO root fetch - main [MainThread]: End processing [django-liveview] error
+[2023-05-11 16:37:25] INFO root fetch - main [MainThread]: End processing [cdk-eks-blueprint] error
+[2023-05-11 16:37:25] INFO root fetch - processPackages [substra]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [kgx]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [quintus]: executing diffoscope
+[2023-05-11 16:37:25] INFO root fetch - processPackages [quintus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quintus-0.1.tar.gz tmp/quintus-0.2-py3-none-any.whl.zip --markdown 20230511/q/quintus/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-11 16:37:25] INFO root fetch - processPackages [pikendus-backend]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [docbuild]: New version: [0.1.107] Old Version: [0.1.106]
+[2023-05-11 16:37:25] INFO root fetch - processPackages [multi-docker-build]: Downloading https://files.pythonhosted.org/packages/5d/cb/77b4e8126b9fae9b628c948cda52bdd01125fc874da77cce9cdf53d42603/multi_docker_build-0.7.1-py3-none-any.whl
+[2023-05-11 16:37:25] INFO root fetch - processPackages [printername]: Downloading https://files.pythonhosted.org/packages/1f/68/c38e7c9c31c1b871003918dc90cb58428ef8d37ec69b78c7cb237c6b288d/printername-0.0.2.tar.gz
+[2023-05-11 16:37:25] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/ee/5f/7c392c76abf7c5ae19bf41fbc47c4597eca00b0d61b796da43e608e9a599/foscat-2.0.2.tar.gz
+[2023-05-11 16:37:25] INFO root fetch - processPackages [kgx]: Downloading https://files.pythonhosted.org/packages/96/f4/90399f6b6069e412133cb5d3a975d10e773e6525210fc408d945335e743d/kgx-2.0.7.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [minipti]: Downloading https://files.pythonhosted.org/packages/33/6e/d2ed03e0ebdc7a4caf816f861f737ee141e96af40bcb1d1e9daf13024dcc/minipti-1.0.1.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [polydown]: Downloading https://files.pythonhosted.org/packages/63/dc/58cba83d9558846b51a713f5338be0d086da4c1eba443f12baa296af11b3/polydown-0.2.2.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/c1/2d/62d507b5e63bb0e3cd624dc4bb5883f9df9428cae7cd0cba68722367b89e/substra-0.8.0.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-2.0.1.tar.gz tmp/foscat-2.0.2.tar.gz --markdown 20230511/f/foscat/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [pikendus-backend]: Downloading https://files.pythonhosted.org/packages/4e/a1/35b78325358241832888d8fe86ecd4938a285eb8c84ad680955200884cae/pikendus_backend-0.2.3.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [pikendus-backend]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [pikendus-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikendus_backend-0.2.2.tar.gz tmp/pikendus_backend-0.2.3.tar.gz --markdown 20230511/p/pikendus-backend/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [docbuild]: Downloading https://files.pythonhosted.org/packages/6b/df/7b7b295c2e2d37e7b2537d5f019e23307917cd1422ada6bf0d9c9cb300c9/docbuild-0.1.107.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [multi-docker-build]: Downloading https://files.pythonhosted.org/packages/cb/41/dd3e6ca2c4d5ea0fa285f5322ca00823886aab6db066f96ec8ae42f89978/multi_docker_build-0.7.2-py3-none-any.whl
+[2023-05-11 16:37:26] INFO root fetch - processPackages [printername]: Downloading https://files.pythonhosted.org/packages/6a/e5/0c7cff7705c45a98d310f75d09138712ea4772a5134d491a6f65f547c3c1/printername-0.0.3.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [minipti]: Downloading https://files.pythonhosted.org/packages/d9/82/557b392fca517abdd896f0365598bdc3df6ecb34ac3f80560f8f07c9f6b4/minipti-1.9.0.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [kgx]: Downloading https://files.pythonhosted.org/packages/df/35/3e2651fe36a0bc154ea8f559b8b9cbac3596915b79285f9465e4fb7fc0be/kgx-2.0.8.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [polydown]: Downloading https://files.pythonhosted.org/packages/c4/b3/05c498c496a97533dec2d5f1daf794678089d8e849b0e259fdb613ca398c/polydown-0.3.0.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [multi-docker-build]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [multi-docker-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_docker_build-0.7.1-py3-none-any.whl.zip tmp/multi_docker_build-0.7.2-py3-none-any.whl.zip --markdown 20230511/m/multi-docker-build/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [printername]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [printername]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printername-0.0.2.tar.gz tmp/printername-0.0.3.tar.gz --markdown 20230511/p/printername/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [minipti]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [minipti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minipti-1.0.1.tar.gz tmp/minipti-1.9.0.tar.gz --markdown 20230511/m/minipti/1.0.1-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [polydown]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [polydown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polydown-0.2.2.tar.gz tmp/polydown-0.3.0.tar.gz --markdown 20230511/p/polydown/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [docbuild]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [docbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docbuild-0.1.106.tar.gz tmp/docbuild-0.1.107.tar.gz --markdown 20230511/d/docbuild/0.1.106-0.1.107/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [substra]: Downloading https://files.pythonhosted.org/packages/77/94/7ac07b92e6d0a9e079501fd00e84ccda59ae39ff73ac88360496f72aef29/substra-0.9.0.tar.gz
+[2023-05-11 16:37:26] INFO root fetch - processPackages [kgx]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [kgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgx-2.0.7.tar.gz tmp/kgx-2.0.8.tar.gz --markdown 20230511/k/kgx/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-05-11 16:37:26] INFO root fetch - processPackages [substra]: executing diffoscope
+[2023-05-11 16:37:26] INFO root fetch - processPackages [substra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substra-0.8.0.tar.gz tmp/substra-0.9.0.tar.gz --markdown 20230511/s/substra/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:37:27] INFO root fetch - processPackages [quintus]: Start processing: docarray
+[2023-05-11 16:37:27] INFO root fetch - main [MainThread]: End processing [quintus]: success
+[2023-05-11 16:37:27] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-11 16:37:27] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-11 16:37:27] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230511/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-11 16:37:27] INFO root fetch - processPackages [pikendus-backend]: Start processing: volttron
+[2023-05-11 16:37:27] INFO root fetch - main [MainThread]: End processing [pikendus-backend]: success
+[2023-05-11 16:37:27] INFO root fetch - processPackages [volttron]: New version: [10.0.3a9] Old Version: [10.0.3a8]
+[2023-05-11 16:37:27] INFO root fetch - processPackages [volttron]: executing diffoscope
+[2023-05-11 16:37:27] INFO root fetch - processPackages [volttron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron-10.0.3a8-py3-none-any.whl.zip tmp/volttron-10.0.3a9.tar.gz --markdown 20230511/v/volttron/10.0.3a8-10.0.3a9/diff.md --exclude *.pyd
+[2023-05-11 16:37:28] INFO root fetch - processPackages [printername]: Start processing: kcli
+[2023-05-11 16:37:28] INFO root fetch - main [MainThread]: End processing [printername]: success
+[2023-05-11 16:37:28] INFO root fetch - processPackages [multi-docker-build]: Start processing: testarchiver
+[2023-05-11 16:37:28] INFO root fetch - main [MainThread]: End processing [multi-docker-build]: success
+[2023-05-11 16:37:28] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111259] Old Version: [99.0.202305111258]
+[2023-05-11 16:37:28] INFO root fetch - processPackages [testarchiver]: New version: [2.6.1rc4949012430] Old Version: [2.6.1rc4948985236]
+[2023-05-11 16:37:28] INFO root fetch - processPackages [foscat]: Start processing: ods-tools
+[2023-05-11 16:37:28] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2023-05-11 16:37:28] INFO root fetch - processPackages [testarchiver]: executing diffoscope
+[2023-05-11 16:37:28] INFO root fetch - processPackages [testarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testarchiver-2.6.1rc4948985236.tar.gz tmp/testarchiver-2.6.1rc4949012430.tar.gz --markdown 20230511/t/testarchiver/2.6.1rc4948985236-2.6.1rc4949012430/diff.md --exclude *.pyd
+[2023-05-11 16:37:28] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/50/b1/1b5a842eeefcad3788ff5054621d1adb9dee19b09941e6febf52b48b3780/kcli-99.0.202305111258-py3-none-any.whl
+[2023-05-11 16:37:28] INFO root fetch - processPackages [polydown]: Start processing: fast-oad-core
+[2023-05-11 16:37:28] INFO root fetch - main [MainThread]: End processing [polydown]: success
+[2023-05-11 16:37:28] INFO root fetch - processPackages [ods-tools]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-05-11 16:37:28] INFO root fetch - processPackages [fast-oad-core]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-11 16:37:28] INFO root fetch - processPackages [ods-tools]: Downloading https://files.pythonhosted.org/packages/2a/cc/5f40afc3f976e7ad4227e38cc48108dfeee25b615295cd67577a48e00f05/ods_tools-3.0.5.tar.gz
+[2023-05-11 16:37:28] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b3/f8/21fb8ef6763e6d1e96c0ef6645410e02ba42378d50c221c2cdb02d4e6061/kcli-99.0.202305111259-py3-none-any.whl
+[2023-05-11 16:37:28] INFO root fetch - processPackages [fast-oad-core]: Downloading https://files.pythonhosted.org/packages/35/d2/e0ebffe08ab01c839326319473d175117f9476424a84cd974027c68a975f/fast_oad_core-1.5.0.tar.gz
+[2023-05-11 16:37:28] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 16:37:28] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111258-py3-none-any.whl.zip tmp/kcli-99.0.202305111259-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111258-99.0.202305111259/diff.md --exclude *.pyd
+[2023-05-11 16:37:28] INFO root fetch - processPackages [ods-tools]: Downloading https://files.pythonhosted.org/packages/e1/53/c17dacef8eb58acf91809aea8cb681a658f8cfc8b7966ef3a4464d9cba9b/ods_tools-3.0.6.tar.gz
+[2023-05-11 16:37:28] INFO root fetch - processPackages [minipti]: Start processing: labvirtual
+[2023-05-11 16:37:28] INFO root fetch - main [MainThread]: End processing [minipti]: success
+[2023-05-11 16:37:28] INFO root fetch - processPackages [docbuild]: Start processing: fast-oad
+[2023-05-11 16:37:28] INFO root fetch - main [MainThread]: End processing [docbuild]: success
+[2023-05-11 16:37:28] INFO root fetch - processPackages [ods-tools]: executing diffoscope
+[2023-05-11 16:37:28] INFO root fetch - processPackages [ods-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ods_tools-3.0.5.tar.gz tmp/ods_tools-3.0.6.tar.gz --markdown 20230511/o/ods-tools/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-05-11 16:37:28] INFO root fetch - processPackages [fast-oad-core]: Downloading https://files.pythonhosted.org/packages/4c/26/1d917b36c15adc6ee58c2c05d9077ac8f4584bc20f0b3d86b734223e1f4e/fast_oad_core-1.5.1.tar.gz
+[2023-05-11 16:37:29] INFO root fetch - processPackages [labvirtual]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad-core]: executing diffoscope
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_oad_core-1.5.0.tar.gz tmp/fast_oad_core-1.5.1.tar.gz --markdown 20230511/f/fast-oad-core/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-11 16:37:29] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/66/a8/c0bd183eb951a60c5ef644470340d3fb312c598eecd75958dec6c5ce1832/labvirtual-0.2.5.tar.gz
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad]: Downloading https://files.pythonhosted.org/packages/0c/17/c0c2cf43bd6473c1a96230b78a194c3ad8747b7a184861c3edf98f514629/fast_oad-1.5.0.tar.gz
+[2023-05-11 16:37:29] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43630992>=10485760
+[2023-05-11 16:37:29] INFO root fetch - processPackages [labvirtual]: Start processing: jina
+[2023-05-11 16:37:29] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 16:37:29] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad]: Downloading https://files.pythonhosted.org/packages/84/e0/f8ba25eea43c876cf8f115f6d455aeb90a88c1a4272df3d0fefbe6b3ec6b/fast_oad-1.5.1.tar.gz
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad]: executing diffoscope
+[2023-05-11 16:37:29] INFO root fetch - processPackages [fast-oad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_oad-1.5.0.tar.gz tmp/fast_oad-1.5.1.tar.gz --markdown 20230511/f/fast-oad/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-11 16:37:29] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-05-11 16:37:29] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230511/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 16:37:29] INFO root fetch - processPackages [volttron]: Start processing: WeConnect-SolarManager
+[2023-05-11 16:37:29] INFO root fetch - main [MainThread]: End processing [volttron]: success
+[2023-05-11 16:37:29] INFO root fetch - processPackages [WeConnect-SolarManager]: New version: [0.3.0rc2] Old Version: [0.2.2]
+[2023-05-11 16:37:29] ERROR root fetch - processPackages [WeConnect-SolarManager]: Unable to fetch info: No such project/version 'WeConnect-SolarManager' 0.3.0rc2
+[2023-05-11 16:37:29] INFO root fetch - processPackages [WeConnect-SolarManager]: Start processing: pt-lemmatizer
+[2023-05-11 16:37:29] INFO root fetch - main [MainThread]: End processing [WeConnect-SolarManager] error
+[2023-05-11 16:37:29] INFO root fetch - processPackages [pt-lemmatizer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:37:30] INFO root fetch - processPackages [pt-lemmatizer]: executing diffoscope
+[2023-05-11 16:37:30] INFO root fetch - processPackages [pt-lemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_lemmatizer-0.1.8.tar.gz tmp/pt_lemmatizer-0.1.9.tar.gz --markdown 20230511/p/pt-lemmatizer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:37:30] INFO root fetch - processPackages [substra]: Start processing: jupyterhub-traefik-proxy
+[2023-05-11 16:37:30] INFO root fetch - main [MainThread]: End processing [substra]: success
+[2023-05-11 16:37:30] INFO root fetch - processPackages [kgx]: Start processing: k1lib
+[2023-05-11 16:37:30] INFO root fetch - main [MainThread]: End processing [kgx]: success
+[2023-05-11 16:37:30] INFO root fetch - processPackages [jupyterhub-traefik-proxy]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-05-11 16:37:30] INFO root fetch - processPackages [k1lib]: New version: [1.3.7.5] Old Version: [1.3.7.4]
+[2023-05-11 16:37:30] INFO root fetch - processPackages [testarchiver]: Start processing: cmd-queue
+[2023-05-11 16:37:30] INFO root fetch - main [MainThread]: End processing [testarchiver]: success
+[2023-05-11 16:37:30] INFO root fetch - processPackages [jupyterhub-traefik-proxy]: Downloading https://files.pythonhosted.org/packages/25/1d/da0f1486dec24ddd278a65e820f763794522559d485941c5aed3167aa150/jupyterhub-traefik-proxy-1.0.0b2.tar.gz
+[2023-05-11 16:37:30] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/8e/07/7fdbdb1cd3faca34216833c5df6741c491a5e9e10dc6c03186df0e5ad396/k1lib-1.3.7.5-py3-none-any.whl
+[2023-05-11 16:37:30] INFO root fetch - processPackages [cmd-queue]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:37:30] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-11 16:37:30] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.7.4-py3-none-any.whl.zip tmp/k1lib-1.3.7.5-py3-none-any.whl.zip --markdown 20230511/k/k1lib/1.3.7.4-1.3.7.5/diff.md --exclude *.pyd
+[2023-05-11 16:37:30] INFO root fetch - processPackages [jupyterhub-traefik-proxy]: Downloading https://files.pythonhosted.org/packages/32/cd/6c910651e8dc65652fda07b5949a1b1413a43c2f44141fe5c11710273f8b/jupyterhub-traefik-proxy-1.0.0b3.tar.gz
+[2023-05-11 16:37:30] INFO root fetch - processPackages [cmd-queue]: Downloading https://files.pythonhosted.org/packages/e0/50/bbb5f7f5b44908cff532ea36d860dc81ba265b0686c1a5b7549ccc311f71/cmd_queue-0.1.8-py3-none-any.whl
+[2023-05-11 16:37:30] INFO root fetch - processPackages [jupyterhub-traefik-proxy]: executing diffoscope
+[2023-05-11 16:37:30] INFO root fetch - processPackages [jupyterhub-traefik-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub-traefik-proxy-1.0.0b2.tar.gz tmp/jupyterhub-traefik-proxy-1.0.0b3.tar.gz --markdown 20230511/j/jupyterhub-traefik-proxy/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-05-11 16:37:30] INFO root fetch - main [MainThread]: End processing [fast-oad]: success
+[2023-05-11 16:37:31] INFO root fetch - main [MainThread]: End processing [ods-tools]: success
+[2023-05-11 16:37:31] INFO root fetch - processPackages [cmd-queue]: Downloading https://files.pythonhosted.org/packages/fc/f6/2b6b069a477cc3f33c599afa3d877e072f005716649e73d8e6a4976a618a/cmd_queue-0.1.9-py3-none-any.whl
+[2023-05-11 16:37:31] INFO root fetch - processPackages [cmd-queue]: executing diffoscope
+[2023-05-11 16:37:31] INFO root fetch - processPackages [cmd-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmd_queue-0.1.8-py3-none-any.whl.zip tmp/cmd_queue-0.1.9-py3-none-any.whl.zip --markdown 20230511/c/cmd-queue/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:37:31] INFO root fetch - main [MainThread]: End processing [pt-lemmatizer]: success
+[2023-05-11 16:37:32] INFO root fetch - main [MainThread]: End processing [fast-oad-core]: success
+[2023-05-11 16:37:32] INFO root fetch - main [MainThread]: End processing [jupyterhub-traefik-proxy]: success
+[2023-05-11 16:37:32] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-11 16:37:32] INFO root fetch - main [MainThread]: End processing [cmd-queue]: success
+[2023-05-11 16:37:32] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-11 16:37:34] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-05-11 16:37:37] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 16:37:37] INFO root fetch - main [MainThread]: Store serial: [18064798]
