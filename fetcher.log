@@ -12145,3 +12145,79 @@ EOFError: EOF read where object expected
 [2023-05-11 10:21:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-city]: success
 [2023-05-11 10:21:25] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-05-11 10:21:25] INFO root fetch - main [MainThread]: Store serial: [18059986]
+[2023-05-11 10:26:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18059986]
+[2023-05-11 10:26:34] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneoncli
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-planner-calendar
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyNumeca
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insight-python-linux
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AGIpdf2json
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soil-sdk
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elevenlabs
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: checkQC
+[2023-05-11 10:26:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiontutil
+[2023-05-11 10:26:34] INFO root fetch - processPackages [insight-python-linux]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [aiontutil]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-11 10:26:34] WARNING root fetch - processPackages [AGIpdf2json]: Skipping, unable to determine old version
+[2023-05-11 10:26:34] INFO root fetch - processPackages [AGIpdf2json]: Start processing: deale-library
+[2023-05-11 10:26:34] INFO root fetch - main [MainThread]: End processing [AGIpdf2json] error
+[2023-05-11 10:26:34] WARNING root fetch - processPackages [deale-library]: Skipping, unable to determine old version
+[2023-05-11 10:26:34] INFO root fetch - processPackages [deale-library]: Start processing: numerous.sdk
+[2023-05-11 10:26:34] INFO root fetch - main [MainThread]: End processing [deale-library] error
+[2023-05-11 10:26:34] INFO root fetch - processPackages [cg]: New version: [30.1.1] Old Version: [30.1.0]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [aiontutil]: executing diffoscope
+[2023-05-11 10:26:34] INFO root fetch - processPackages [aiontutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiontutil-0.0.3.tar.gz tmp/aiontutil-0.0.4.tar.gz --markdown 20230511/a/aiontutil/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-11 10:26:34] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [pyneoncli]: New version: [0.0.7a0] Old Version: [0.0.5a0]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [elevenlabs]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [checkQC]: New version: [3.8.1rc1] Old Version: [3.8.0]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-11 10:26:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.1.0.tar.gz tmp/cg-30.1.1.tar.gz --markdown 20230511/c/cg/30.1.0-30.1.1/diff.md --exclude *.pyd
+[2023-05-11 10:26:34] INFO root fetch - processPackages [soil-sdk]: New version: [0.6.9] Old Version: [0.6.8.dev2]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [numerous.sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 10:26:34] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/73/ec/bfad00f407f5e1e9c8f05fe4d99836b3914bc026e04234c49f0e9eacf037/insight_python_linux-4.3.0.tar.gz
+[2023-05-11 10:26:34] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/48/2f/b2ff6fbbbe44c39381e112409b7eaa98b0c96137cf627d21b69b59a8a5d6/odoo_addon_sale_planner_calendar-15.0.1.1.0-py3-none-any.whl
+[2023-05-11 10:26:34] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/89/fb/5d31105c58a43eb63084420ac7fa65e3e3085361c4a479b698eaf25c8549/PyNumeca-v0.0.8.tar.gz
+[2023-05-11 10:26:34] INFO root fetch - processPackages [pyneoncli]: Downloading https://files.pythonhosted.org/packages/42/ed/b177f4a6fa99755a68f81ea89b677c506fd356ed3783997bad14d8f3c100/pyneoncli-0.0.5a0.tar.gz
+[2023-05-11 10:26:34] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/68f336f248034f5496c0f6133882d758ff76d98fbc108383165e5c203e35/soil-sdk-0.6.8.dev2.tar.gz
+[2023-05-11 10:26:34] INFO root fetch - processPackages [checkQC]: Downloading https://files.pythonhosted.org/packages/c3/0e/a5e34a7d56134bef0710f93137b39ce3e9337ddf10dc83baaf2d8b34cfcb/checkQC-3.8.0.tar.gz
+[2023-05-11 10:26:34] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 81645685>=10485760
+[2023-05-11 10:26:34] INFO root fetch - processPackages [insight-python-linux]: Start processing: odoo14-addon-ddmrp
+[2023-05-11 10:26:34] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2023-05-11 10:26:34] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/c5/19/eb5f9aae5084b96359e6dc09800409c59b897f0ca6465db254d85a753429/numerous.sdk-0.8.0.tar.gz
+[2023-05-11 10:26:35] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-05-11 10:26:35] INFO root fetch - processPackages [checkQC]: Downloading https://files.pythonhosted.org/packages/24/35/3a7c6a1241f8b70680c2de4947d95781483dac6e67b473f5947ddf7d0a3d/checkQC-3.8.1rc1.tar.gz
+[2023-05-11 10:26:35] INFO root fetch - processPackages [elevenlabs]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [elevenlabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elevenlabs-0.2.8.tar.gz tmp/elevenlabs-0.2.9.tar.gz --markdown 20230511/e/elevenlabs/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [PyNumeca]: Downloading https://files.pythonhosted.org/packages/cb/4d/71bb3aa775b0b7b13bf2bbd7a68930a1eecebedea249b0604b0c4535c3b1/PyNumeca-v0.0.9.tar.gz
+[2023-05-11 10:26:35] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: Downloading https://files.pythonhosted.org/packages/72/37/9016fb691e6a078a411381340df980593e7572d3488fbea0f32120cc4f11/odoo_addon_sale_planner_calendar-15.0.1.1.1-py3-none-any.whl
+[2023-05-11 10:26:35] INFO root fetch - processPackages [pyneoncli]: Downloading https://files.pythonhosted.org/packages/04/1d/515d5e3759cb586ceee396bd1ff34074efb048ba181d87b947a3763bbc4a/pyneoncli-0.0.7a0.tar.gz
+[2023-05-11 10:26:35] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230511/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [checkQC]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [checkQC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkQC-3.8.0.tar.gz tmp/checkQC-3.8.1rc1.tar.gz --markdown 20230511/c/checkQC/3.8.0-3.8.1rc1/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [odoo-addon-sale-planner-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_planner_calendar-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_sale_planner_calendar-15.0.1.1.1-py3-none-any.whl.zip --markdown 20230511/o/odoo-addon-sale-planner-calendar/15.0.1.1.0-15.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [numerous.sdk]: Downloading https://files.pythonhosted.org/packages/89/b1/8a2eaf2d3b5e5114385f9f271a9de81af8376e58d63490ec17de7acb2de6/numerous.sdk-0.9.0.tar.gz
+[2023-05-11 10:26:35] INFO root fetch - processPackages [pyneoncli]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [pyneoncli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneoncli-0.0.5a0.tar.gz tmp/pyneoncli-0.0.7a0.tar.gz --markdown 20230511/p/pyneoncli/0.0.5a0-0.0.7a0/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [soil-sdk]: Downloading https://files.pythonhosted.org/packages/95/a4/5d6fcf9c297529ccac89f00ed380d87a066c0f04eab9df8f4237645e0542/soil-sdk-0.6.9.tar.gz
+[2023-05-11 10:26:35] INFO root fetch - processPackages [numerous.sdk]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [numerous.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous.sdk-0.8.0.tar.gz tmp/numerous.sdk-0.9.0.tar.gz --markdown 20230511/n/numerous.sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230511/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-05-11 10:26:35] INFO root fetch - processPackages [soil-sdk]: executing diffoscope
+[2023-05-11 10:26:35] INFO root fetch - processPackages [soil-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soil-sdk-0.6.8.dev2.tar.gz tmp/soil-sdk-0.6.9.tar.gz --markdown 20230511/s/soil-sdk/0.6.8.dev2-0.6.9/diff.md --exclude *.pyd
+[2023-05-11 10:26:36] INFO root fetch - main [MainThread]: End processing [aiontutil]: success
+[2023-05-11 10:26:36] INFO root fetch - main [MainThread]: End processing [elevenlabs]: success
+[2023-05-11 10:26:36] INFO root fetch - main [MainThread]: End processing [checkQC]: success
+[2023-05-11 10:26:37] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-05-11 10:26:37] INFO root fetch - main [MainThread]: End processing [pyneoncli]: success
+[2023-05-11 10:26:37] INFO root fetch - main [MainThread]: End processing [numerous.sdk]: success
+[2023-05-11 10:26:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-planner-calendar]: success
+[2023-05-11 10:26:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-05-11 10:26:41] INFO root fetch - main [MainThread]: End processing [soil-sdk]: success
+[2023-05-11 10:26:48] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-11 10:26:48] INFO root fetch - main [MainThread]: Store serial: [18060032]
