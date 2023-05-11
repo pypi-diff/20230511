@@ -19173,3 +19173,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:44:23] INFO root fetch - main [MainThread]: End processing [addict-tracking-changes]: success
 [2023-05-11 14:44:25] INFO root fetch - main [MainThread]: End processing [cwl-utils]: success
 [2023-05-11 14:44:25] INFO root fetch - main [MainThread]: Store serial: [18063655]
+[2023-05-11 14:49:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063655]
+[2023-05-11 14:49:34] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygifconvt-9test
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xarray-safe-s1
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forestadmin-datasource-toolkit
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tusuan
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aldine
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exqalibur
+[2023-05-11 14:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aixplain
+[2023-05-11 14:49:34] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.0.dev20230510] Old Version: [0.9.0.dev20230509]
+[2023-05-11 14:49:34] WARNING root fetch - processPackages [aixplain]: Skipping, unable to determine old version
+[2023-05-11 14:49:34] INFO root fetch - processPackages [aixplain]: Start processing: tupa123
+[2023-05-11 14:49:34] INFO root fetch - main [MainThread]: End processing [aixplain] error
+[2023-05-11 14:49:34] WARNING root fetch - processPackages [aldine]: Skipping, unable to determine old version
+[2023-05-11 14:49:34] INFO root fetch - processPackages [aldine]: Start processing: xorius
+[2023-05-11 14:49:34] INFO root fetch - main [MainThread]: End processing [aldine] error
+[2023-05-11 14:49:34] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [exqalibur]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [tusuan]: New version: [0.0.5.3] Old Version: [0.0.4.1]
+[2023-05-11 14:49:34] WARNING root fetch - processPackages [pygifconvt-9test]: Skipping, unable to determine old version
+[2023-05-11 14:49:34] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111021] Old Version: [99.0.202305111019]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [pygifconvt-9test]: Start processing: forestadmin-agent-toolkit
+[2023-05-11 14:49:34] WARNING root fetch - processPackages [xorius]: Skipping, unable to determine old version
+[2023-05-11 14:49:34] INFO root fetch - main [MainThread]: End processing [pygifconvt-9test] error
+[2023-05-11 14:49:34] INFO root fetch - processPackages [xorius]: Start processing: scipion-em-pwperformance
+[2023-05-11 14:49:34] INFO root fetch - main [MainThread]: End processing [xorius] error
+[2023-05-11 14:49:34] INFO root fetch - processPackages [tupa123]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2023-05-11 14:49:34] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-s1-2023.5.4.tar.gz tmp/xarray-safe-s1-2023.5.5.tar.gz --markdown 20230511/x/xarray-safe-s1/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230511/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 14:49:34] INFO root fetch - processPackages [exqalibur]: Downloading https://files.pythonhosted.org/packages/1e/2c/711051b1ef581154dc6a489778628e233014f76fc843afec1649216640ac/exqalibur-0.1.2-cp39-cp39-win_amd64.whl
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230511/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 14:49:34] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/1e/55/d72287ccd6c9b1ec982a6f79756aac0fcb31c00b956617e58caed1873cb1/tensorcircuit-nightly-0.9.0.dev20230510.tar.gz
+[2023-05-11 14:49:34] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 14:49:34] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111019-py3-none-any.whl.zip tmp/kcli-99.0.202305111021-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111019-99.0.202305111021/diff.md --exclude *.pyd
+[2023-05-11 14:49:34] INFO root fetch - processPackages [scipion-em-pwperformance]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-05-11 14:49:34] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230511/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 14:49:34] INFO root fetch - processPackages [tusuan]: Downloading https://files.pythonhosted.org/packages/1e/12/b3274cadc545eaf6b28b34f689f081db0ca8fe775f9dd138f4056f30cc8b/tusuan-0.0.4.1.tar.gz
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.0.dev20230509.tar.gz tmp/tensorcircuit-nightly-0.9.0.dev20230510.tar.gz --markdown 20230511/t/tensorcircuit-nightly/0.9.0.dev20230509-0.9.0.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 14:49:35] INFO root fetch - processPackages [scipion-em-pwperformance]: Downloading https://files.pythonhosted.org/packages/ff/ec/d0dcdb01a20cf0ecbde6324c6f3aaaf4e12f282ff3c7296fffbce13ea8f6/scipion-em-pwperformance-0.0.4.tar.gz
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.4.8.tar.gz tmp/tupa123-1.4.9.tar.gz --markdown 20230511/t/tupa123/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tusuan]: Downloading https://files.pythonhosted.org/packages/28/e1/ce62d7fb4edffa8f7d9518f933b4da0b533514ab59d6f383cf64a32b5001/tusuan-0.0.5.3.tar.gz
+[2023-05-11 14:49:35] INFO root fetch - processPackages [exqalibur]: Downloading https://files.pythonhosted.org/packages/e6/20/4317d145d4f2062abe001a41ee31ad9e1a2d294a5674f312e0f0f02272fb/exqalibur-0.2.0-cp39-cp39-win_amd64.whl
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tusuan]: executing diffoscope
+[2023-05-11 14:49:35] INFO root fetch - processPackages [tusuan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tusuan-0.0.4.1.tar.gz tmp/tusuan-0.0.5.3.tar.gz --markdown 20230511/t/tusuan/0.0.4.1-0.0.5.3/diff.md --exclude *.pyd
+[2023-05-11 14:49:35] INFO root fetch - processPackages [scipion-em-pwperformance]: Downloading https://files.pythonhosted.org/packages/31/4f/487a0f5b964de4eb663c291ece71af9c71573d83119c88f869085fdfa030/scipion-em-pwperformance-0.0.5.tar.gz
+[2023-05-11 14:49:35] INFO root fetch - processPackages [scipion-em-pwperformance]: executing diffoscope
+[2023-05-11 14:49:35] INFO root fetch - processPackages [scipion-em-pwperformance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-pwperformance-0.0.4.tar.gz tmp/scipion-em-pwperformance-0.0.5.tar.gz --markdown 20230511/s/scipion-em-pwperformance/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 14:49:35] INFO root fetch - processPackages [exqalibur]: executing diffoscope
+[2023-05-11 14:49:35] INFO root fetch - processPackages [exqalibur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exqalibur-0.1.2-cp39-cp39-win_amd64.whl.zip tmp/exqalibur-0.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230511/e/exqalibur/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 14:49:36] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Start processing: kcli
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-05-11 14:49:36] INFO root fetch - processPackages [kcli]: New version: [99.0.202305111247] Old Version: [99.0.202305111244]
+[2023-05-11 14:49:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/e9/56/8f675b7f3d92f9faef9add5d0a2e5ca0190889de0dae77c17416bfff7457/kcli-99.0.202305111244-py3-none-any.whl
+[2023-05-11 14:49:36] INFO root fetch - processPackages [xarray-safe-s1]: Start processing: forestadmin-agent-flask
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2023-05-11 14:49:36] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Start processing: emm
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-05-11 14:49:36] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-11 14:49:36] WARNING root fetch - processPackages [emm]: Skipping, unable to determine old version
+[2023-05-11 14:49:36] INFO root fetch - processPackages [emm]: Start processing: modal-client
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [emm] error
+[2023-05-11 14:49:36] INFO root fetch - processPackages [modal-client]: New version: [0.49.2164] Old Version: [0.49.2159]
+[2023-05-11 14:49:36] INFO root fetch - processPackages [tusuan]: Start processing: odoo14-addon-jsonifier-stored
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [tusuan]: success
+[2023-05-11 14:49:36] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-05-11 14:49:36] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230511/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-11 14:49:36] INFO root fetch - processPackages [tupa123]: Start processing: media-catalogue
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-05-11 14:49:36] WARNING root fetch - processPackages [odoo14-addon-jsonifier-stored]: Skipping, unable to determine old version
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [odoo14-addon-jsonifier-stored] error
+[2023-05-11 14:49:36] WARNING root fetch - processPackages [media-catalogue]: Skipping, unable to determine old version
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [media-catalogue] error
+[2023-05-11 14:49:36] INFO root fetch - main [MainThread]: End processing [exqalibur]: success
+[2023-05-11 14:49:37] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/20/68/b88461d28f802f42dd3696a9fec2d12db52afe4f031bcd3a3c50194cd77e/modal_client-0.49.2164-py3-none-any.whl
+[2023-05-11 14:49:37] INFO root fetch - main [MainThread]: End processing [scipion-em-pwperformance]: success
+[2023-05-11 14:49:37] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-11 14:49:37] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2159-py3-none-any.whl.zip tmp/modal_client-0.49.2164-py3-none-any.whl.zip --markdown 20230511/m/modal-client/0.49.2159-0.49.2164/diff.md --exclude *.pyd
+[2023-05-11 14:49:37] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-05-11 14:49:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/71/79/f0fd469193dd237f91ad23c8e488dd2375a978170f3657b7e216dcaf52c8/kcli-99.0.202305111247-py3-none-any.whl
+[2023-05-11 14:49:37] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-05-11 14:49:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-05-11 14:49:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202305111244-py3-none-any.whl.zip tmp/kcli-99.0.202305111247-py3-none-any.whl.zip --markdown 20230511/k/kcli/99.0.202305111244-99.0.202305111247/diff.md --exclude *.pyd
+[2023-05-11 14:49:39] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-11 14:49:39] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-05-11 14:49:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 14:49:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-05-11 14:49:47] INFO root fetch - main [MainThread]: Store serial: [18063742]
