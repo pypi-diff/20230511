@@ -18635,3 +18635,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:27:49] INFO root fetch - main [MainThread]: End processing [funasr]: success
 [2023-05-11 14:27:50] INFO root fetch - main [MainThread]: End processing [opengeode]: success
 [2023-05-11 14:27:50] INFO root fetch - main [MainThread]: Store serial: [18063426]
+[2023-05-11 14:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063426]
+[2023-05-11 14:33:00] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi2postman
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facefinder
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-eman2
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libertem
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: segmentheepy-test
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyNumeca
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lendsmart-autotest
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: palmers-agents-general
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartjs
+[2023-05-11 14:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: better-translation
+[2023-05-11 14:33:00] WARNING root fetch - processPackages [fastapi2postman]: Skipping, unable to determine old version
+[2023-05-11 14:33:00] INFO root fetch - processPackages [fastapi2postman]: Start processing: pyinst
+[2023-05-11 14:33:00] INFO root fetch - main [MainThread]: End processing [fastapi2postman] error
+[2023-05-11 14:33:00] INFO root fetch - processPackages [smartjs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [facefinder]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [scipion-em-eman2]: New version: [3.5] Old Version: [3.4.2]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [better-translation]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [libertem]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.10.0] Old Version: [0.0.9]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.4] Old Version: [1.3]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [PyNumeca]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [segmentheepy-test]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-05-11 14:33:00] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.9.tar.gz tmp/palmers_agents_general-0.10.0.tar.gz --markdown 20230511/p/palmers-agents-general/0.0.9-0.10.0/diff.md --exclude *.pyd
+[2023-05-11 14:33:00] WARNING root fetch - processPackages [pyinst]: Skipping, unable to determine old version
+[2023-05-11 14:33:00] INFO root fetch - processPackages [pyinst]: Start processing: bigdl-orca-spark2
+[2023-05-11 14:33:00] INFO root fetch - main [MainThread]: End processing [pyinst] error
+[2023-05-11 14:33:00] INFO root fetch - processPackages [PyNumeca]: executing diffoscope
+[2023-05-11 14:33:00] INFO root fetch - processPackages [PyNumeca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNumeca-v0.0.8.tar.gz tmp/PyNumeca-v0.0.9.tar.gz --markdown 20230511/P/PyNumeca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-11 14:33:00] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-11 14:33:00] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/84/49/80ba8d979a690f8fc085253339f4df21e56877a3836dd1c7bbb18ec4457b/smartjs-0.1.4.tar.gz
+[2023-05-11 14:33:00] INFO root fetch - processPackages [better-translation]: Downloading https://files.pythonhosted.org/packages/a0/89/78c0f170d2360fe142d000996e7f34951862a9967fbee9c2c93e15cd21dc/better-translation-0.4.1.tar.gz
+[2023-05-11 14:33:00] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-11 14:33:00] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.3.tar.gz tmp/lendsmart_autotest-1.4.tar.gz --markdown 20230511/l/lendsmart-autotest/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-11 14:33:00] INFO root fetch - processPackages [scipion-em-eman2]: Downloading https://files.pythonhosted.org/packages/c8/6d/68d2dd44fdf96fffebef806683c1c19fa32955fc9f6087fa9b94db21f28f/scipion-em-eman2-3.4.2.tar.gz
+[2023-05-11 14:33:00] INFO root fetch - processPackages [libertem]: Downloading https://files.pythonhosted.org/packages/6c/3d/633d2b82782e8824f3c1945ed1d7917c1b92879001a7bdd047fd65feb193/libertem-0.9.0.tar.gz
+[2023-05-11 14:33:00] INFO root fetch - processPackages [facefinder]: Downloading https://files.pythonhosted.org/packages/c7/38/b75f579a9e23cce1bc4335b1174649e1fb2c9cf64007f8576debab4e730e/facefinder-0.1.9.tar.gz
+[2023-05-11 14:33:00] INFO root fetch - processPackages [segmentheepy-test]: Downloading https://files.pythonhosted.org/packages/82/bf/e458a35e4df4ee38e720c2dd30e90fc5436ff18ccc2ba23ef04d0a117579/segmentheepy_test-0.0.3-py3-none-any.whl
+[2023-05-11 14:33:00] INFO root fetch - processPackages [smartjs]: executing diffoscope
+[2023-05-11 14:33:00] INFO root fetch - processPackages [smartjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartjs-0.1.3.tar.gz tmp/smartjs-0.1.4.tar.gz --markdown 20230511/s/smartjs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-11 14:33:00] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/aa/06/44f5d60d2f9350f418da24b4c20fcbab43abc167503eff721a5d71386713/bigdl_orca_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-11 14:33:00] INFO root fetch - processPackages [facefinder]: executing diffoscope
+[2023-05-11 14:33:00] INFO root fetch - processPackages [facefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facefinder-0.1.8.tar.gz tmp/facefinder-0.1.9.tar.gz --markdown 20230511/f/facefinder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 14:33:00] INFO root fetch - processPackages [better-translation]: executing diffoscope
+[2023-05-11 14:33:00] INFO root fetch - processPackages [better-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better-translation-0.4.0.tar.gz tmp/better-translation-0.4.1.tar.gz --markdown 20230511/b/better-translation/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-11 14:33:00] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369311>=10485760
+[2023-05-11 14:33:00] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: onedep-biocuration-api
+[2023-05-11 14:33:00] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-05-11 14:33:00] INFO root fetch - processPackages [segmentheepy-test]: Downloading https://files.pythonhosted.org/packages/74/0c/0b1491b64390409328167d21c1c18f1a9064cfc94b40cd08ea76a0cff878/segmentheepy_test-0.0.4-py3-none-any.whl
+[2023-05-11 14:33:00] INFO root fetch - processPackages [scipion-em-eman2]: Downloading https://files.pythonhosted.org/packages/10/04/e2451ea371a8848eca4ddb3902bf5fc5a2fc80fe955e1ab03f95dd6336a6/scipion-em-eman2-3.5.tar.gz
+[2023-05-11 14:33:01] INFO root fetch - processPackages [onedep-biocuration-api]: New version: [0.3] Old Version: [0.2]
+[2023-05-11 14:33:01] INFO root fetch - processPackages [segmentheepy-test]: executing diffoscope
+[2023-05-11 14:33:01] INFO root fetch - processPackages [segmentheepy-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentheepy_test-0.0.3-py3-none-any.whl.zip tmp/segmentheepy_test-0.0.4-py3-none-any.whl.zip --markdown 20230511/s/segmentheepy-test/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-11 14:33:01] INFO root fetch - processPackages [scipion-em-eman2]: executing diffoscope
+[2023-05-11 14:33:01] INFO root fetch - processPackages [scipion-em-eman2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-eman2-3.4.2.tar.gz tmp/scipion-em-eman2-3.5.tar.gz --markdown 20230511/s/scipion-em-eman2/3.4.2-3.5/diff.md --exclude *.pyd
+[2023-05-11 14:33:01] INFO root fetch - processPackages [onedep-biocuration-api]: Downloading https://files.pythonhosted.org/packages/95/a0/5b0aaaa28cfa12b3d83e1a7213f46f2621ddd263568e101c1946c4796f5e/onedep_biocuration_api-0.2.tar.gz
+[2023-05-11 14:33:01] INFO root fetch - processPackages [onedep-biocuration-api]: Downloading https://files.pythonhosted.org/packages/af/da/49d05136736f49a2182778d006ff2ac35c5dd42f06badcc0635c350226da/onedep_biocuration_api-0.3.tar.gz
+[2023-05-11 14:33:01] INFO root fetch - processPackages [onedep-biocuration-api]: executing diffoscope
+[2023-05-11 14:33:01] INFO root fetch - processPackages [onedep-biocuration-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedep_biocuration_api-0.2.tar.gz tmp/onedep_biocuration_api-0.3.tar.gz --markdown 20230511/o/onedep-biocuration-api/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-11 14:33:01] INFO root fetch - processPackages [libertem]: Downloading https://files.pythonhosted.org/packages/17/a4/20eb6a06158774138afbd4118e2800d1e0db54fd5a8136025cd723535ee3/libertem-0.9.2.tar.gz
+[2023-05-11 14:33:01] INFO root fetch - processPackages [palmers-agents-general]: Start processing: bigdl-friesian-spark2
+[2023-05-11 14:33:01] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-05-11 14:33:02] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [facefinder]: success
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [PyNumeca]: success
+[2023-05-11 14:33:02] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-05-11 14:33:02] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip --markdown 20230511/b/bigdl-friesian-spark2/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [segmentheepy-test]: success
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [smartjs]: success
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [better-translation]: success
+[2023-05-11 14:33:02] INFO root fetch - processPackages [libertem]: executing diffoscope
+[2023-05-11 14:33:02] INFO root fetch - processPackages [libertem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libertem-0.9.0.tar.gz tmp/libertem-0.9.2.tar.gz --markdown 20230511/l/libertem/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-05-11 14:33:02] INFO root fetch - main [MainThread]: End processing [onedep-biocuration-api]: success
+[2023-05-11 14:33:03] INFO root fetch - main [MainThread]: End processing [scipion-em-eman2]: success
+[2023-05-11 14:33:04] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-05-11 14:33:43] INFO root fetch - main [MainThread]: End processing [libertem]: success
+[2023-05-11 14:33:43] INFO root fetch - main [MainThread]: Store serial: [18063468]
