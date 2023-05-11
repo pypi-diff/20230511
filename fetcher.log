@@ -20004,3 +20004,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 15:33:19] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
 [2023-05-11 15:33:21] INFO root fetch - main [MainThread]: End processing [resolwe]: success
 [2023-05-11 15:33:21] INFO root fetch - main [MainThread]: Store serial: [18064150]
+[2023-05-11 15:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064150]
+[2023-05-11 15:38:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-route53-health-check
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frequency-feature-map-visualization
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ubuntu-cloud-image-changelog
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-alex-handle-array-index-subtraction
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbnlab-preview
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FicImageScript
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tableautransformer
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Vespa-Suite
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emmi
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MHTMLconverter
+[2023-05-11 15:38:30] INFO root fetch - processPackages [frequency-feature-map-visualization]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [Vespa-Suite]: New version: [1.1.0rc1] Old Version: [1.0.2]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [emmi]: New version: [0.1.3] Old Version: [0.0.10]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [FicImageScript]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [tableautransformer]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: New version: [20230511.13.34.271581] Old Version: [20230510.15.18.601786]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [MHTMLconverter]: New version: [0.5] Old Version: [0.4]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 15:38:30] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.6-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230511/f/fbnlab-preview/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [frequency-feature-map-visualization]: Downloading https://files.pythonhosted.org/packages/0b/ff/49b3d7f8129dbcd718732f3643413c323969e74d0115e7fd078cc5fddb2b/frequency_feature_map_visualization-0.4.0.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [tableautransformer]: Downloading https://files.pythonhosted.org/packages/54/8a/bf56408427a944a4af118393ed670509c4f1abb1ae7a2c572e65e50b9863/tableautransformer-1.0.1.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [Vespa-Suite]: Downloading https://files.pythonhosted.org/packages/82/1f/f7d4f09187489e8e340dfc61d16dd68871ef626513e625c6ce419bbe800d/Vespa_Suite-1.0.2-py38-none-any.whl
+[2023-05-11 15:38:30] INFO root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: Downloading https://files.pythonhosted.org/packages/dc/d7/64aef0c6683174326bb004f884004f2826580f191f7c50498f5bd75b584f/certora-cli-alpha-alex-handle-array-index-subtraction-20230510.15.18.601786.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Downloading https://files.pythonhosted.org/packages/27/c6/ca2c3d95bad6b1138a1e90bbad4378f4f516d530d960b4f61419ae6b117d/ubuntu-cloud-image-changelog-0.9.7.tar.gz
+[2023-05-11 15:38:30] WARNING root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: Skipping package: exceeds size limit 39213562>=10485760
+[2023-05-11 15:38:30] INFO root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: Start processing: journify-python-sdk
+[2023-05-11 15:38:30] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-handle-array-index-subtraction] error
+[2023-05-11 15:38:30] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/6f/c8/2a5bc9d008bf0bb9c7f414210d57a7bb78ced21673012d03fc1ff371451c/FicImageScript-1.0.0.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [MHTMLconverter]: Downloading https://files.pythonhosted.org/packages/db/d4/c896a99c978e343b76db87b3ba2ea31f1294871bc7fbb343772db9a582df/MHTMLconverter-0.5.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [MHTMLconverter]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [MHTMLconverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MHTMLconverter-0.4.tar.gz tmp/MHTMLconverter-0.5.tar.gz --markdown 20230511/M/MHTMLconverter/0.4-0.5/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [emmi]: Downloading https://files.pythonhosted.org/packages/cc/d7/256d89ee7d8b458d1308ab7ffcda2da886e12f4cf06883792345764afe94/emmi-0.0.10.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [tableautransformer]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [tableautransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableautransformer-1.0.0.tar.gz tmp/tableautransformer-1.0.1.tar.gz --markdown 20230511/t/tableautransformer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] WARNING root fetch - processPackages [journify-python-sdk]: Skipping, unable to determine old version
+[2023-05-11 15:38:30] INFO root fetch - main [MainThread]: End processing [journify-python-sdk] error
+[2023-05-11 15:38:30] INFO root fetch - processPackages [FicImageScript]: Downloading https://files.pythonhosted.org/packages/99/39/b278420a5ecf76039bebedf02c12bdd8c983f7d629167ce2a2dc6a98c5a0/FicImageScript-1.0.1.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [frequency-feature-map-visualization]: Downloading https://files.pythonhosted.org/packages/60/df/6826164d8e0104d39841f9fca4062d65ef790ed1720c1ecdfadd42596605/frequency_feature_map_visualization-0.5.0.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [frequency-feature-map-visualization]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [frequency-feature-map-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequency_feature_map_visualization-0.4.0.tar.gz tmp/frequency_feature_map_visualization-0.5.0.tar.gz --markdown 20230511/f/frequency-feature-map-visualization/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: Downloading https://files.pythonhosted.org/packages/72/76/5b87054656ddb4d853064d1b01e9dbe849e96f7a8d15137f3d099d076341/ubuntu-cloud-image-changelog-0.9.8.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [FicImageScript]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [FicImageScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FicImageScript-1.0.0.tar.gz tmp/FicImageScript-1.0.1.tar.gz --markdown 20230511/F/FicImageScript/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [emmi]: Downloading https://files.pythonhosted.org/packages/00/b9/d99df531922d6ab68c6f2bdcaa8d52d91d3d98856ba79da5c2e867a38e22/emmi-0.1.3.tar.gz
+[2023-05-11 15:38:30] INFO root fetch - processPackages [emmi]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [emmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmi-0.0.10.tar.gz tmp/emmi-0.1.3.tar.gz --markdown 20230511/e/emmi/0.0.10-0.1.3/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: executing diffoscope
+[2023-05-11 15:38:30] INFO root fetch - processPackages [ubuntu-cloud-image-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubuntu-cloud-image-changelog-0.9.7.tar.gz tmp/ubuntu-cloud-image-changelog-0.9.8.tar.gz --markdown 20230511/u/ubuntu-cloud-image-changelog/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-11 15:38:30] INFO root fetch - processPackages [Vespa-Suite]: Downloading https://files.pythonhosted.org/packages/f9/c9/f77528db3e352d290d9bc5167d78a00c4f28902e390f00b4a8078fb71e72/Vespa_Suite-1.1.0rc1-py37-none-any.whl
+[2023-05-11 15:38:31] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-05-11 15:38:32] INFO root fetch - processPackages [Vespa-Suite]: executing diffoscope
+[2023-05-11 15:38:32] INFO root fetch - processPackages [Vespa-Suite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vespa_Suite-1.0.2-py38-none-any.whl.zip tmp/Vespa_Suite-1.1.0rc1-py37-none-any.whl.zip --markdown 20230511/V/Vespa-Suite/1.0.2-1.1.0rc1/diff.md --exclude *.pyd
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [tableautransformer]: success
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [frequency-feature-map-visualization]: success
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [MHTMLconverter]: success
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [FicImageScript]: success
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [emmi]: success
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [ubuntu-cloud-image-changelog]: success
+[2023-05-11 15:38:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-05-11 15:38:41] INFO root fetch - main [MainThread]: End processing [Vespa-Suite]: success
+[2023-05-11 15:38:41] INFO root fetch - main [MainThread]: Store serial: [18064182]
