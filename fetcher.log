@@ -3235,3 +3235,55 @@ EOFError: EOF read where object expected
 [2023-05-11 02:01:40] WARNING root fetch - processPackages [yaml-sync]: Skipping, unable to determine old version
 [2023-05-11 02:01:40] INFO root fetch - main [MainThread]: End processing [yaml-sync] error
 [2023-05-11 02:01:40] INFO root fetch - main [MainThread]: Store serial: [18054726]
+[2023-05-11 02:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18054726]
+[2023-05-11 02:06:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iparapheur-provisioning
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cleanlab-studio
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: benchling-api-client
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchdatasets-nightly
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graphql-service-framework
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Chaeslib
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-nightly
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pawflim
+[2023-05-11 02:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jaxutils-nightly
+[2023-05-11 02:06:49] INFO root fetch - processPackages [cleanlab-studio]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-11 02:06:49] WARNING root fetch - processPackages [iparapheur-provisioning]: Skipping, unable to determine old version
+[2023-05-11 02:06:49] INFO root fetch - main [MainThread]: End processing [iparapheur-provisioning] error
+[2023-05-11 02:06:49] INFO root fetch - processPackages [graphql-service-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-11 02:06:49] WARNING root fetch - processPackages [Chaeslib]: Skipping, unable to determine old version
+[2023-05-11 02:06:49] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230510] Old Version: [0.0.8.dev20230509]
+[2023-05-11 02:06:49] INFO root fetch - main [MainThread]: End processing [Chaeslib] error
+[2023-05-11 02:06:49] INFO root fetch - processPackages [pawflim]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-11 02:06:49] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-11 02:06:49] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1683676995] Old Version: [1683590616]
+[2023-05-11 02:06:49] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-05-11 02:06:49] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9052023.post348] Old Version: [1.8.0.9042023.post411]
+[2023-05-11 02:06:49] INFO root fetch - processPackages [graphql-service-framework]: executing diffoscope
+[2023-05-11 02:06:49] INFO root fetch - processPackages [graphql-service-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphql_service_framework-1.1.8.tar.gz tmp/graphql_service_framework-1.1.9.tar.gz --markdown 20230511/g/graphql-service-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-11 02:06:49] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-05-11 02:06:49] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1683590616.tar.gz tmp/torchdatasets-nightly-1683676995.tar.gz --markdown 20230511/t/torchdatasets-nightly/1683590616-1683676995/diff.md --exclude *.pyd
+[2023-05-11 02:06:49] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-05-11 02:06:49] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230511/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-11 02:06:49] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-05-11 02:06:49] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230511/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-05-11 02:06:49] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-05-11 02:06:49] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9042023.post411.tar.gz tmp/mct-nightly-1.8.0.9052023.post348.tar.gz --markdown 20230511/m/mct-nightly/1.8.0.9042023.post411-1.8.0.9052023.post348/diff.md --exclude *.pyd
+[2023-05-11 02:06:49] INFO root fetch - processPackages [cleanlab-studio]: Downloading https://files.pythonhosted.org/packages/99/8a/4fde4c4aad65314ebad7ec738f4c32e5232aa8d68aff3dfc7f2d86099662/cleanlab-studio-1.0.4.tar.gz
+[2023-05-11 02:06:49] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/06/62/453f45ec6b7a8cc5e34f7199c5cfa211ce86a629161f96b34cd084066cce/jaxutils-nightly-0.0.8.dev20230510.tar.gz
+[2023-05-11 02:06:50] INFO root fetch - processPackages [pawflim]: Downloading https://files.pythonhosted.org/packages/0b/e2/fc022b0f0b1add88e442a71a54eec59864cf836a5515ba8d18ec487aee75/pawflim-1.0.2.tar.gz
+[2023-05-11 02:06:50] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-05-11 02:06:50] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230509.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230510.tar.gz --markdown 20230511/j/jaxutils-nightly/0.0.8.dev20230509-0.0.8.dev20230510/diff.md --exclude *.pyd
+[2023-05-11 02:06:50] INFO root fetch - processPackages [cleanlab-studio]: executing diffoscope
+[2023-05-11 02:06:50] INFO root fetch - processPackages [cleanlab-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanlab-studio-1.0.3.tar.gz tmp/cleanlab-studio-1.0.4.tar.gz --markdown 20230511/c/cleanlab-studio/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-11 02:06:50] INFO root fetch - processPackages [pawflim]: executing diffoscope
+[2023-05-11 02:06:50] INFO root fetch - processPackages [pawflim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawflim-1.0.1.tar.gz tmp/pawflim-1.0.2.tar.gz --markdown 20230511/p/pawflim/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-11 02:06:51] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-05-11 02:06:51] INFO root fetch - main [MainThread]: End processing [graphql-service-framework]: success
+[2023-05-11 02:06:51] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-05-11 02:06:51] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-05-11 02:06:51] INFO root fetch - main [MainThread]: End processing [cleanlab-studio]: success
+[2023-05-11 02:06:52] INFO root fetch - main [MainThread]: End processing [pawflim]: success
+[2023-05-11 02:06:58] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-05-11 02:08:31] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-05-11 02:08:31] INFO root fetch - main [MainThread]: Store serial: [18054756]
