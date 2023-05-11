@@ -9733,3 +9733,52 @@ EOFError: EOF read where object expected
 [2023-05-11 07:30:39] INFO root fetch - main [MainThread]: End processing [armonik]: success
 [2023-05-11 07:30:39] INFO root fetch - main [MainThread]: End processing [armonik]: success
 [2023-05-11 07:30:39] INFO root fetch - main [MainThread]: Store serial: [18058532]
+[2023-05-11 07:35:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18058532]
+[2023-05-11 07:35:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aksharify
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudone-vsapi
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toml-cli
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyobfuse
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vortexpy
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-common-test
+[2023-05-11 07:35:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepdriver
+[2023-05-11 07:35:48] INFO root fetch - processPackages [pyobfuse]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [automation-common-test]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [aksharify]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [toml-cli]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [cloudone-vsapi]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [automation-common-test]: executing diffoscope
+[2023-05-11 07:35:48] INFO root fetch - processPackages [automation-common-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation-common-test-1.8.0.tar.gz tmp/automation-common-test-1.9.0.tar.gz --markdown 20230511/a/automation-common-test/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-11 07:35:48] INFO root fetch - processPackages [deepdriver]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [vortexpy]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-05-11 07:35:48] INFO root fetch - processPackages [pyobfuse]: Downloading https://files.pythonhosted.org/packages/86/27/8ce69293b76761d42e3cd47ce9128bb7ddbb2af5506d1fd39def3b3b746f/pyobfuse-1.0.0.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [toml-cli]: Downloading https://files.pythonhosted.org/packages/b0/a0/95cde9897eea8cb76fa7f5e3cbe34cb23ed0e6ca57df37add66e96fd6af3/toml_cli-0.4.2.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/4c/34/a459c8f2753993191fa6c547d77c98e7aa32453dd94c94dc89dfd5b991a9/aksharify-2.2.2.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [cloudone-vsapi]: Downloading https://files.pythonhosted.org/packages/68/c7/d8ae30b156f2cd73ad312f71727129f3dbeadd783470fd76390d2825927a/cloudone-vsapi-1.0.3.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [deepdriver]: Downloading https://files.pythonhosted.org/packages/5e/9d/ba6f6c029ccebce0005f12a2a1f72814bff6b71a2dd7f9f855fadb0d38bf/deepdriver-1.0.0.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [vortexpy]: Downloading https://files.pythonhosted.org/packages/02/00/caf36df32aa159e41478b999b97318039295fe93490a4736fd766dc874fb/vortexpy-3.4.4.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [cloudone-vsapi]: executing diffoscope
+[2023-05-11 07:35:48] INFO root fetch - processPackages [cloudone-vsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudone-vsapi-1.0.2.tar.gz tmp/cloudone-vsapi-1.0.3.tar.gz --markdown 20230511/c/cloudone-vsapi/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-11 07:35:48] INFO root fetch - processPackages [pyobfuse]: Downloading https://files.pythonhosted.org/packages/9d/a2/32a65c41bd057c54b8b23a1333419b69a65ddd7f0b6e696eae8d7808583c/pyobfuse-2.0.0.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [toml-cli]: Downloading https://files.pythonhosted.org/packages/92/2d/b514b6f1640d80d98a3d47ed7eb2aa37712a5607084ef4be5d6ab8e4d792/toml_cli-0.5.0.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [aksharify]: Downloading https://files.pythonhosted.org/packages/c2/b6/73699a9306f443f006db72bdfaebc9f303ba0bf7ff3fbd97b73dd8f7b4b2/aksharify-2.2.3.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [toml-cli]: executing diffoscope
+[2023-05-11 07:35:48] INFO root fetch - processPackages [toml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toml_cli-0.4.2.tar.gz tmp/toml_cli-0.5.0.tar.gz --markdown 20230511/t/toml-cli/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-11 07:35:48] INFO root fetch - processPackages [pyobfuse]: executing diffoscope
+[2023-05-11 07:35:48] INFO root fetch - processPackages [pyobfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobfuse-1.0.0.tar.gz tmp/pyobfuse-2.0.0.tar.gz --markdown 20230511/p/pyobfuse/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-11 07:35:48] INFO root fetch - processPackages [aksharify]: executing diffoscope
+[2023-05-11 07:35:48] INFO root fetch - processPackages [aksharify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aksharify-2.2.2.tar.gz tmp/aksharify-2.2.3.tar.gz --markdown 20230511/a/aksharify/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-05-11 07:35:48] INFO root fetch - processPackages [deepdriver]: Downloading https://files.pythonhosted.org/packages/a3/68/1258fb3fff62563df602ef32a7b69c1dc3ec18a91dda90e0698140eb341d/deepdriver-1.0.1.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [vortexpy]: Downloading https://files.pythonhosted.org/packages/c0/ed/cd5f2d14384ab5fdae4b5c737baf772f259d6067cb5a158fb33ec72843e4/vortexpy-3.4.5.tar.gz
+[2023-05-11 07:35:48] INFO root fetch - processPackages [vortexpy]: executing diffoscope
+[2023-05-11 07:35:48] INFO root fetch - processPackages [vortexpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexpy-3.4.4.tar.gz tmp/vortexpy-3.4.5.tar.gz --markdown 20230511/v/vortexpy/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-05-11 07:35:49] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-05-11 07:35:49] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-1.0.0.tar.gz tmp/deepdriver-1.0.1.tar.gz --markdown 20230511/d/deepdriver/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-11 07:35:49] INFO root fetch - main [MainThread]: End processing [automation-common-test]: success
+[2023-05-11 07:35:49] INFO root fetch - main [MainThread]: End processing [cloudone-vsapi]: success
+[2023-05-11 07:35:49] INFO root fetch - main [MainThread]: End processing [toml-cli]: success
+[2023-05-11 07:35:50] INFO root fetch - main [MainThread]: End processing [aksharify]: success
+[2023-05-11 07:35:50] INFO root fetch - main [MainThread]: End processing [vortexpy]: success
+[2023-05-11 07:35:50] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-05-11 07:35:50] INFO root fetch - main [MainThread]: End processing [pyobfuse]: success
+[2023-05-11 07:35:50] INFO root fetch - main [MainThread]: Store serial: [18058555]
