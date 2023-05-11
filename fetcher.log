@@ -18397,3 +18397,178 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 14:17:01] INFO root fetch - main [MainThread]: End processing [bitfount]: success
 [2023-05-11 14:17:05] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-11 14:17:05] INFO root fetch - main [MainThread]: Store serial: [18063292]
+[2023-05-11 14:22:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18063292]
+[2023-05-11 14:22:14] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-05-11 14:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2023-05-11 14:22:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-client
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-dataset
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-models
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-protos
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-utils
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyneweb
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gandai
+[2023-05-11 14:22:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-dllib
+[2023-05-11 14:22:15] INFO root fetch - processPackages [pyneweb]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post256] Old Version: [2.8.5.post255]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post256] Old Version: [2.8.5.post255]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [pyneweb]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [pyneweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneweb-0.5.0.tar.gz tmp/pyneweb-0.5.1.tar.gz --markdown 20230511/p/pyneweb/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post257] Old Version: [2.8.5.post256]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post257] Old Version: [2.8.5.post256]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [gandai]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post257] Old Version: [2.8.5.post256]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post257] Old Version: [2.8.5.post256]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post257] Old Version: [2.8.5.post256]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/54/f2/e437dd715c8816d5c702a615033dd96c5b3a386ff9c24fbada12d14f72b8/bigdl-dllib-2.4.0b20230510.tar.gz
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a0/47/fa5379ab9dcfd71ec851a1b2da10c535d95d1ce6f1eaf8d8a14bd14167eb/nucliadb_sdk-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/81/b9/8e55ffb234e13aefc274960c96d1ce4c174d9611ebe690c54dce7ceafe73/nucliadb_utils-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/6b/56/ddac0794ced5ee4e77d4d16bd2942fb3275049514463f53a4cf0022b3d13/nucliadb_dataset-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560827>=10485760
+[2023-05-11 14:22:15] INFO root fetch - processPackages [bigdl-dllib]: Start processing: certora-cli-alpha-gereon-cert-1836-autodetect-bv
+[2023-05-11 14:22:15] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/b1/2f/246cd9af5b5770cf236dd40af24748562cba05fe593c08c82df9c4f5dfd9/nucliadb_client-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/16/92/cce7cb6a2c701f8cbdc431a887e205c6729a3513af68bba8af74bfe5ab21/nucliadb_models-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: New version: [20230511.8.18.991881] Old Version: [20230511.7.56.807160]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post255-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post256-py3-none-any.whl.zip --markdown 20230511/n/nucliadb-sdk/2.8.5.post255-2.8.5.post256/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b5/28/0fab4eb22c5325e798e69038e72a2631f8654f0a8697fb2d49e41dcb76d8/nucliadb-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/61/bf/34a699d2a9686ac5461ea30a3183a041b5b72590c8e25f1fc09f344de889/nucliadb_protos-2.8.5.post256-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post255-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post256-py3-none-any.whl.zip --markdown 20230511/n/nucliadb-utils/2.8.5.post255-2.8.5.post256/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Downloading https://files.pythonhosted.org/packages/f9/7a/c6edd60cc5cfef40c2c30e093c5bf585323e955723d1e791420671ef6be0/certora-cli-alpha-gereon-cert-1836-autodetect-bv-20230511.7.56.807160.tar.gz
+[2023-05-11 14:22:15] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Skipping package: exceeds size limit 39424803>=10485760
+[2023-05-11 14:22:15] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1836-autodetect-bv]: Start processing: botcity-ms365-credentials-plugin
+[2023-05-11 14:22:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1836-autodetect-bv] error
+[2023-05-11 14:22:15] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/d0/60/c954e242720a2861d9e6c5de2a8afc0f72383cb00e4566bd145fc2fec19e/gandai-1.1.3.tar.gz
+[2023-05-11 14:22:15] INFO root fetch - processPackages [botcity-ms365-credentials-plugin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/51/67/afb6cc60a58d3d0aa01c1060400e7291257defce65569d6b52c4879ae368/nucliadb_dataset-2.8.5.post257-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.2.tar.gz tmp/gandai-1.1.3.tar.gz --markdown 20230511/g/gandai/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/f8/6f/2bade41715b3308ded1bdf3d1df193c78a070a920eff7faa91602a6bc329/nucliadb_client-2.8.5.post257-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/85/e6/8e4ed3b6e651735e077d50508018937a1d2a1751b84c30e3fc77b327e73c/nucliadb_models-2.8.5.post257-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post256-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post257-py3-none-any.whl.zip --markdown 20230511/n/nucliadb-dataset/2.8.5.post256-2.8.5.post257/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/62/ee/c194c0350b38bc24a3bcffdb7206b30960b556d49e729125a994ab818d68/nucliadb_protos-2.8.5.post257-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [botcity-ms365-credentials-plugin]: Downloading https://files.pythonhosted.org/packages/ac/1d/9628955266702d84499c36398df63efbc42bcf515c4f00676f6d5acd6bf2/botcity-ms365-credentials-plugin-0.1.0.tar.gz
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/b2/bc/ffbbb919b6e4a86e654dbe888c91daf83954bfa13ff2631a543aabd23768/nucliadb-2.8.5.post257-py3-none-any.whl
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post256-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post257-py3-none-any.whl.zip --markdown 20230511/n/nucliadb-client/2.8.5.post256-2.8.5.post257/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post256-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post257-py3-none-any.whl.zip --markdown 20230511/n/nucliadb-models/2.8.5.post256-2.8.5.post257/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post256-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post257-py3-none-any.whl.zip --markdown 20230511/n/nucliadb-protos/2.8.5.post256-2.8.5.post257/diff.md --exclude *.pyd
+[2023-05-11 14:22:15] INFO root fetch - processPackages [botcity-ms365-credentials-plugin]: Downloading https://files.pythonhosted.org/packages/50/a5/7e77d6cff2f2a2840a07fb6828a8e884b3e96a669d03f18be0403f5a20c5/botcity-ms365-credentials-plugin-0.2.0.tar.gz
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-11 14:22:15] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post256-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post257-py3-none-any.whl.zip --markdown 20230511/n/nucliadb/2.8.5.post256-2.8.5.post257/diff.md --exclude *.pyd
+[2023-05-11 14:22:16] INFO root fetch - processPackages [botcity-ms365-credentials-plugin]: executing diffoscope
+[2023-05-11 14:22:16] INFO root fetch - processPackages [botcity-ms365-credentials-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botcity-ms365-credentials-plugin-0.1.0.tar.gz tmp/botcity-ms365-credentials-plugin-0.2.0.tar.gz --markdown 20230511/b/botcity-ms365-credentials-plugin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 14:22:16] INFO root fetch - processPackages [pyneweb]: Start processing: bigdl-orca
+[2023-05-11 14:22:16] INFO root fetch - main [MainThread]: End processing [pyneweb]: success
+[2023-05-11 14:22:16] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 14:22:16] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: neural-compressor
+[2023-05-11 14:22:16] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-11 14:22:16] INFO root fetch - processPackages [neural-compressor]: New version: [2.1.1] Old Version: [2.1]
+[2023-05-11 14:22:16] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/16/a4/902ef38e86bfae5b8a158792cc9b8705bdd794faea6d670147d05aa9fae8/bigdl_orca-2.4.0b20230510-py3-none-manylinux1_x86_64.whl
+[2023-05-11 14:22:17] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369365>=10485760
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [neural-compressor]: Downloading https://files.pythonhosted.org/packages/bc/f1/546c810ec8e58ce3fd4f30e0e75c6002c88bd36d4503261f0acef1962a74/neural_compressor-2.1.tar.gz
+[2023-05-11 14:22:17] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: dash-extensions
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [dash-extensions]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [nucliadb-client]: Start processing: based-metric
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [based-metric]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [nucliadb-utils]: Start processing: neural-compressor-full
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/17/28/74d99f27f5c6acd7f77f805a35315d39ddac597f48003d644fc8659ea3b2/bigdl_friesian-2.4.0b20230511-py3-none-manylinux1_x86_64.whl
+[2023-05-11 14:22:17] INFO root fetch - processPackages [neural-compressor]: Downloading https://files.pythonhosted.org/packages/2b/b8/263f4a2b3f373e6cd31d56d9c8a1cb437c4b91b91b978f9c20d10feb2c26/neural_compressor-2.1.1.tar.gz
+[2023-05-11 14:22:17] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/1f/63/69d65c7c96da764f61655c16499ec69f9b9e87ca7e612d0bb00392783427/dash_extensions-1.0.0rc1.tar.gz
+[2023-05-11 14:22:17] INFO root fetch - processPackages [neural-compressor-full]: New version: [2.1.1] Old Version: [2.1]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230511-py3-none-manylinux1_x86_64.whl.zip --markdown 20230511/b/bigdl-friesian/2.4.0b20230510-2.4.0b20230511/diff.md --exclude *.pyd
+[2023-05-11 14:22:17] INFO root fetch - processPackages [nucliadb-models]: Start processing: bigdl
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [neural-compressor]: executing diffoscope
+[2023-05-11 14:22:17] INFO root fetch - processPackages [neural-compressor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural_compressor-2.1.tar.gz tmp/neural_compressor-2.1.1.tar.gz --markdown 20230511/n/neural-compressor/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-05-11 14:22:17] INFO root fetch - processPackages [based-metric]: Downloading https://files.pythonhosted.org/packages/bf/04/0fc9a4f3b53f5bfa64d3f1a66099d36f8af46713a25c2dd413f8167e5485/based-metric-0.0.3.tar.gz
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [gandai]: Start processing: graph-z-c
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [graph-z-c]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [neural-compressor-full]: Downloading https://files.pythonhosted.org/packages/a3/3f/680d59a85121c6d3d4d6a6930157bb0b398e4cec51ef434417b0027343fe/neural_compressor_full-2.1.tar.gz
+[2023-05-11 14:22:17] INFO root fetch - processPackages [based-metric]: executing diffoscope
+[2023-05-11 14:22:17] INFO root fetch - processPackages [based-metric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/based-metric-0.0.2.tar.gz tmp/based-metric-0.0.3.tar.gz --markdown 20230511/b/based-metric/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-11 14:22:17] INFO root fetch - processPackages [nucliadb-protos]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/f7/03/5dc99c02b42b6d9f01ea75573a062ce6cfc8df36be475aac9f931d599ebb/graph_z_c-0.0.7.tar.gz
+[2023-05-11 14:22:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-11 14:22:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 14:22:17] INFO root fetch - processPackages [botcity-ms365-credentials-plugin]: Start processing: gluonts
+[2023-05-11 14:22:17] INFO root fetch - main [MainThread]: End processing [botcity-ms365-credentials-plugin]: success
+[2023-05-11 14:22:17] INFO root fetch - processPackages [gluonts]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-11 14:22:17] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/fd/76/55ff5376443d4f7d074a9ba1234efea79b1e435332f536f0d8e3d6bee8ee/bigdl-2.4.0b20230511-py3-none-manylinux1_x86_64.whl
+[2023-05-11 14:22:18] INFO root fetch - processPackages [graph-z-c]: executing diffoscope
+[2023-05-11 14:22:18] INFO root fetch - processPackages [graph-z-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_z_c-0.0.6.tar.gz tmp/graph_z_c-0.0.7.tar.gz --markdown 20230511/g/graph-z-c/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-11 14:22:18] INFO root fetch - processPackages [neural-compressor-full]: Downloading https://files.pythonhosted.org/packages/d3/fe/0373342d96d2dab64baa1deee3d62d2e7c38b0989e47e3acc14e52d73b9d/neural_compressor_full-2.1.1.tar.gz
+[2023-05-11 14:22:18] INFO root fetch - processPackages [dash-extensions]: Downloading https://files.pythonhosted.org/packages/61/0d/c2248ab3a3e479093039b3f8d7c763b787cffc4cebae841a105756b7ea82/dash_extensions-1.0.0rc2.tar.gz
+[2023-05-11 14:22:18] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-05-11 14:22:18] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230511-py3-none-manylinux1_x86_64.whl.zip --markdown 20230511/b/bigdl/2.4.0b20230510-2.4.0b20230511/diff.md --exclude *.pyd
+[2023-05-11 14:22:18] INFO root fetch - processPackages [gluonts]: executing diffoscope
+[2023-05-11 14:22:18] INFO root fetch - processPackages [gluonts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluonts-0.9.8.tar.gz tmp/gluonts-0.9.9.tar.gz --markdown 20230511/g/gluonts/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-11 14:22:18] INFO root fetch - processPackages [neural-compressor-full]: executing diffoscope
+[2023-05-11 14:22:18] INFO root fetch - processPackages [neural-compressor-full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural_compressor_full-2.1.tar.gz tmp/neural_compressor_full-2.1.1.tar.gz --markdown 20230511/n/neural-compressor-full/2.1-2.1.1/diff.md --exclude *.pyd
+[2023-05-11 14:22:18] INFO root fetch - processPackages [dash-extensions]: executing diffoscope
+[2023-05-11 14:22:18] INFO root fetch - processPackages [dash-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_extensions-1.0.0rc1.tar.gz tmp/dash_extensions-1.0.0rc2.tar.gz --markdown 20230511/d/dash-extensions/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-05-11 14:22:19] INFO root fetch - processPackages [graph-z-c]: Start processing: bigdl-dllib-spark2
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
+[2023-05-11 14:22:19] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230511] Old Version: [2.4.0b20230510]
+[2023-05-11 14:22:19] INFO root fetch - processPackages [bigdl]: Start processing: picsellia-tf2
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-05-11 14:22:19] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/b4/c5/58a6ec88d7e30aa6c33113cf9510500b0d54bb08321158abadd11917e39c/bigdl-dllib-spark2-2.4.0b20230510.tar.gz
+[2023-05-11 14:22:19] INFO root fetch - processPackages [picsellia-tf2]: New version: [0.9] Old Version: [0.8]
+[2023-05-11 14:22:19] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53560857>=10485760
+[2023-05-11 14:22:19] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: hostsmate
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-05-11 14:22:19] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: jupyter-ai-magics
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-11 14:22:19] INFO root fetch - processPackages [jupyter-ai-magics]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-11 14:22:19] WARNING root fetch - processPackages [hostsmate]: Skipping, unable to determine old version
+[2023-05-11 14:22:19] INFO root fetch - processPackages [hostsmate]: Start processing: cloudnetpy
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [hostsmate] error
+[2023-05-11 14:22:19] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-11 14:22:19] INFO root fetch - processPackages [based-metric]: Start processing: jupyter-ai
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [based-metric]: success
+[2023-05-11 14:22:19] INFO root fetch - processPackages [picsellia-tf2]: Downloading https://files.pythonhosted.org/packages/ac/b0/7b861c72c6f1d95076b7debb36d3d5e14f6dd83ae8f3cc1e6da4d90a25b3/picsellia_tf2-0.8.tar.gz
+[2023-05-11 14:22:19] INFO root fetch - processPackages [jupyter-ai]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-05-11 14:22:19] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-11 14:22:19] INFO root fetch - processPackages [jupyter-ai-magics]: executing diffoscope
+[2023-05-11 14:22:19] INFO root fetch - processPackages [jupyter-ai-magics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai_magics-0.6.1.tar.gz tmp/jupyter_ai_magics-0.7.0.tar.gz --markdown 20230511/j/jupyter-ai-magics/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 14:22:19] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-11 14:22:19] INFO root fetch - processPackages [cloudnetpy]: Start processing: botcity-ms365-onedrive-plugin
+[2023-05-11 14:22:19] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-11 14:22:19] INFO root fetch - processPackages [jupyter-ai]: executing diffoscope
+[2023-05-11 14:22:19] INFO root fetch - processPackages [jupyter-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_ai-0.6.1.tar.gz tmp/jupyter_ai-0.7.0.tar.gz --markdown 20230511/j/jupyter-ai/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-05-11 14:22:19] INFO root fetch - processPackages [botcity-ms365-onedrive-plugin]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-11 14:22:20] INFO root fetch - processPackages [botcity-ms365-onedrive-plugin]: Downloading https://files.pythonhosted.org/packages/56/0a/55035d88e9de2d8c503c201c747a570dc99a0aea7614a2e1e6bd5d6de99b/botcity-ms365-onedrive-plugin-0.1.0.tar.gz
+[2023-05-11 14:22:20] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-11 14:22:20] INFO root fetch - processPackages [botcity-ms365-onedrive-plugin]: Downloading https://files.pythonhosted.org/packages/2d/79/3c7ed447731543cd46e10eb6aa51bdfaeeef173721af2289cfed6de8e319/botcity-ms365-onedrive-plugin-0.2.0.tar.gz
+[2023-05-11 14:22:20] INFO root fetch - processPackages [botcity-ms365-onedrive-plugin]: executing diffoscope
+[2023-05-11 14:22:20] INFO root fetch - processPackages [botcity-ms365-onedrive-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botcity-ms365-onedrive-plugin-0.1.0.tar.gz tmp/botcity-ms365-onedrive-plugin-0.2.0.tar.gz --markdown 20230511/b/botcity-ms365-onedrive-plugin/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-11 14:22:20] INFO root fetch - processPackages [picsellia-tf2]: Downloading https://files.pythonhosted.org/packages/26/f2/f175e7ae2469853745a7b7bb529b52b165c48c11b7575ed4ae85ab00f65d/picsellia_tf2-0.9.tar.gz
+[2023-05-11 14:22:21] INFO root fetch - processPackages [picsellia-tf2]: executing diffoscope
+[2023-05-11 14:22:21] INFO root fetch - processPackages [picsellia-tf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picsellia_tf2-0.8.tar.gz tmp/picsellia_tf2-0.9.tar.gz --markdown 20230511/p/picsellia-tf2/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-11 14:22:21] INFO root fetch - main [MainThread]: End processing [jupyter-ai-magics]: success
+[2023-05-11 14:22:21] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-05-11 14:22:21] INFO root fetch - main [MainThread]: End processing [botcity-ms365-onedrive-plugin]: success
+[2023-05-11 14:22:23] INFO root fetch - main [MainThread]: End processing [dash-extensions]: success
+[2023-05-11 14:22:24] INFO root fetch - main [MainThread]: End processing [jupyter-ai]: success
+[2023-05-11 14:22:27] INFO root fetch - main [MainThread]: End processing [picsellia-tf2]: success
+[2023-05-11 14:22:27] INFO root fetch - main [MainThread]: End processing [neural-compressor]: success
+[2023-05-11 14:22:32] INFO root fetch - main [MainThread]: End processing [gluonts]: success
+[2023-05-11 14:22:32] INFO root fetch - main [MainThread]: End processing [neural-compressor-full]: success
+[2023-05-11 14:22:32] INFO root fetch - main [MainThread]: Store serial: [18063373]
