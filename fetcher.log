@@ -3913,3 +3913,62 @@ EOFError: EOF read where object expected
 [2023-05-11 02:51:17] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-05-11 02:51:18] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2023-05-11 02:51:18] INFO root fetch - main [MainThread]: Store serial: [18055203]
+[2023-05-11 02:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18055203]
+[2023-05-11 02:56:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shewchuk
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logmaster
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioversions
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygmalion
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: QuickReaderPDF
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-aioboto3
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-aioboto3-lite
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-sns-notify
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-webapp-skeleton
+[2023-05-11 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logmaster
+[2023-05-11 02:56:27] WARNING root fetch - processPackages [logmaster]: Skipping, unable to determine old version
+[2023-05-11 02:56:27] INFO root fetch - main [MainThread]: End processing [logmaster] error
+[2023-05-11 02:56:27] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev9] Old Version: [0.3.dev8]
+[2023-05-11 02:56:27] WARNING root fetch - processPackages [logmaster]: Skipping, unable to determine old version
+[2023-05-11 02:56:27] INFO root fetch - main [MainThread]: End processing [logmaster] error
+[2023-05-11 02:56:27] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [pygmalion]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [types-aioboto3]: New version: [9.6.0.post2] Old Version: [9.6.0.post1]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [QuickReaderPDF]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-05-11 02:56:27] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev8.tar.gz tmp/cdk_webapp_skeleton-0.3.dev9.tar.gz --markdown 20230511/c/cdk-webapp-skeleton/0.3.dev8-0.3.dev9/diff.md --exclude *.pyd
+[2023-05-11 02:56:27] INFO root fetch - processPackages [types-aioboto3-lite]: New version: [9.6.0.post2] Old Version: [9.6.0.post1]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-11 02:56:27] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230511/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 02:56:27] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-11 02:56:27] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230511/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-11 02:56:27] INFO root fetch - processPackages [pygmalion]: Downloading https://files.pythonhosted.org/packages/56/d3/dc9f540cb99f9390d554835a0f3298b58acf2737223f31c92b79b2b1fda3/pygmalion-0.1.4.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [shewchuk]: New version: [6.7.0] Old Version: [6.6.0]
+[2023-05-11 02:56:27] INFO root fetch - processPackages [QuickReaderPDF]: Downloading https://files.pythonhosted.org/packages/d8/2e/b61223cda0ae47959308627c2862dc3e8dc7853306a068489a8bd64f402f/QuickReaderPDF-0.1.1.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [shewchuk]: Downloading https://files.pythonhosted.org/packages/52/0e/25208d22949005dc524a2321c3f293de838284c19949a5893b19a21ca7d0/shewchuk-6.6.0.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [types-aioboto3-lite]: Downloading https://files.pythonhosted.org/packages/4b/65/6d702a82fd929543487f4207d22f94d4caf0ce62dcc29fed2c2fcbce553b/types-aioboto3-lite-9.6.0.post1.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [types-aioboto3]: Downloading https://files.pythonhosted.org/packages/6b/9e/1ae562ad0dd0242df62661c6acc142cb00addc28a6ca3f2273151803897b/types-aioboto3-9.6.0.post1.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [pygmalion]: Downloading https://files.pythonhosted.org/packages/88/a7/11d722e97ec65f03c3ae34685996f50b624040c6cccfe484240e10928b6e/pygmalion-0.1.5.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [shewchuk]: Downloading https://files.pythonhosted.org/packages/41/be/c5f3c3ae92ddd449472696f638c2bbc85bf6c04941e85631b169081e6cb2/shewchuk-6.7.0.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [QuickReaderPDF]: Downloading https://files.pythonhosted.org/packages/36/2b/541435b355324e6cb5bd2994e686ef1d2b49fda644201df876bbf92eeceb/QuickReaderPDF-0.1.2.tar.gz
+[2023-05-11 02:56:27] INFO root fetch - processPackages [QuickReaderPDF]: executing diffoscope
+[2023-05-11 02:56:27] INFO root fetch - processPackages [QuickReaderPDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuickReaderPDF-0.1.1.tar.gz tmp/QuickReaderPDF-0.1.2.tar.gz --markdown 20230511/Q/QuickReaderPDF/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-11 02:56:28] INFO root fetch - processPackages [pygmalion]: executing diffoscope
+[2023-05-11 02:56:28] INFO root fetch - processPackages [pygmalion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmalion-0.1.4.tar.gz tmp/pygmalion-0.1.5.tar.gz --markdown 20230511/p/pygmalion/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-11 02:56:28] INFO root fetch - processPackages [shewchuk]: executing diffoscope
+[2023-05-11 02:56:28] INFO root fetch - processPackages [shewchuk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shewchuk-6.6.0.tar.gz tmp/shewchuk-6.7.0.tar.gz --markdown 20230511/s/shewchuk/6.6.0-6.7.0/diff.md --exclude *.pyd
+[2023-05-11 02:56:28] INFO root fetch - processPackages [types-aioboto3-lite]: Downloading https://files.pythonhosted.org/packages/dd/3e/91469bf32915012bae21e70385886a3da0df18bff09ced07e027f50c4ec9/types-aioboto3-lite-9.6.0.post2.tar.gz
+[2023-05-11 02:56:28] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-11 02:56:28] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-05-11 02:56:28] INFO root fetch - processPackages [types-aioboto3-lite]: executing diffoscope
+[2023-05-11 02:56:28] INFO root fetch - processPackages [types-aioboto3-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aioboto3-lite-9.6.0.post1.tar.gz tmp/types-aioboto3-lite-9.6.0.post2.tar.gz --markdown 20230511/t/types-aioboto3-lite/9.6.0.post1-9.6.0.post2/diff.md --exclude *.pyd
+[2023-05-11 02:56:29] INFO root fetch - main [MainThread]: End processing [QuickReaderPDF]: success
+[2023-05-11 02:56:29] INFO root fetch - processPackages [types-aioboto3]: Downloading https://files.pythonhosted.org/packages/81/46/e2fd85a86e21520ea0b146242afb655782a9973c2a71df13bc24cc9fc425/types-aioboto3-9.6.0.post2.tar.gz
+[2023-05-11 02:56:29] INFO root fetch - main [MainThread]: End processing [pygmalion]: success
+[2023-05-11 02:56:29] INFO root fetch - processPackages [types-aioboto3]: executing diffoscope
+[2023-05-11 02:56:29] INFO root fetch - processPackages [types-aioboto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aioboto3-9.6.0.post1.tar.gz tmp/types-aioboto3-9.6.0.post2.tar.gz --markdown 20230511/t/types-aioboto3/9.6.0.post1-9.6.0.post2/diff.md --exclude *.pyd
+[2023-05-11 02:56:29] INFO root fetch - main [MainThread]: End processing [types-aioboto3-lite]: success
+[2023-05-11 02:56:30] INFO root fetch - main [MainThread]: End processing [shewchuk]: success
+[2023-05-11 02:56:31] INFO root fetch - main [MainThread]: End processing [types-aioboto3]: success
+[2023-05-11 02:56:47] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-11 02:56:47] INFO root fetch - main [MainThread]: Store serial: [18055291]
