@@ -21294,3 +21294,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-11 16:42:56] INFO root fetch - main [MainThread]: End processing [declearn]: success
 [2023-05-11 16:42:56] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-11 16:42:56] INFO root fetch - main [MainThread]: Store serial: [18064887]
+[2023-05-11 16:48:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18064887]
+[2023-05-11 16:48:06] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: printername
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-sysrepolibrary
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdup
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lisflood-utilities
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gracy
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-bitbangio
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fdk
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cf-plot
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: labvirtual
+[2023-05-11 16:48:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-05-11 16:48:06] INFO root fetch - processPackages [printername]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [robotframework-sysrepolibrary]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [adafruit-circuitpython-bitbangio]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [lisflood-utilities]: New version: [0.9] Old Version: [0.8]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [labvirtual]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [fdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [fastdup]: New version: [0.928] Old Version: [0.927]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [gracy]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [printername]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [printername]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printername-0.0.4.tar.gz tmp/printername-0.0.5.tar.gz --markdown 20230511/p/printername/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [cf-plot]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [fdk]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [fdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk-0.1.6.tar.gz tmp/fdk-0.1.7.tar.gz --markdown 20230511/f/fdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [gracy]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [gracy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gracy-1.9.0.tar.gz tmp/gracy-1.9.1.tar.gz --markdown 20230511/g/gracy/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [labvirtual]: Downloading https://files.pythonhosted.org/packages/05/93/5e90def04195c2af193332084ca16212dc2680abc90cc5dd0d76f30620e5/labvirtual-0.2.6.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230511/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [lisflood-utilities]: Downloading https://files.pythonhosted.org/packages/b2/34/bf68eea851b37b57c44642ad19baebed25324f10515a5ccf7ea977c30ace/lisflood-utilities-0.8.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [robotframework-sysrepolibrary]: Downloading https://files.pythonhosted.org/packages/4f/25/d8b979f94ded02d85151a129d130b017d30a21c20e17bed66c51dc1ca096/robotframework-sysrepolibrary-0.1.0.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [adafruit-circuitpython-bitbangio]: Downloading https://files.pythonhosted.org/packages/22/5e/ab5e9d7a3bb1a36d2230ef96af46f8bb16e8217fb18a5ef30f97507f7bfe/adafruit-circuitpython-bitbangio-1.3.8.tar.gz
+[2023-05-11 16:48:06] WARNING root fetch - processPackages [labvirtual]: Skipping package: exceeds size limit 43632058>=10485760
+[2023-05-11 16:48:06] INFO root fetch - processPackages [labvirtual]: Start processing: rsconnect-python
+[2023-05-11 16:48:06] INFO root fetch - main [MainThread]: End processing [labvirtual] error
+[2023-05-11 16:48:06] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/84/5d/39733aebcb1bbf498a832960d4297c6ca5fa9e3536a4e25b8567df1881a1/fastdup-0.927-cp39-cp39-win_amd64.whl
+[2023-05-11 16:48:06] INFO root fetch - processPackages [rsconnect-python]: New version: [1.9.0b2] Old Version: [1.9.0b1]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [cf-plot]: Downloading https://files.pythonhosted.org/packages/ce/4d/46e8ef367ffbca7ec4bb6deeef567e6abf21c3b31a63a44dba97bf3fbfe5/cf-plot-3.2.6.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [rsconnect-python]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [rsconnect-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsconnect_python-1.9.0b1-py2.py3-none-any.whl.zip tmp/rsconnect_python-1.9.0b2-py2.py3-none-any.whl.zip --markdown 20230511/r/rsconnect-python/1.9.0b1-1.9.0b2/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 35398390>=10485760
+[2023-05-11 16:48:06] INFO root fetch - processPackages [fastdup]: Start processing: wsgi-lineprof
+[2023-05-11 16:48:06] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-05-11 16:48:06] INFO root fetch - processPackages [robotframework-sysrepolibrary]: Downloading https://files.pythonhosted.org/packages/ba/99/b75bae0c6fa9790cb1c040f89957d43acf7ddf672a2309484b191042b2da/robotframework-sysrepolibrary-0.1.1.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [lisflood-utilities]: Downloading https://files.pythonhosted.org/packages/5f/2c/bd1a084dc74a65967c1ce6b181f6cea7ab6d3fe27602b7e615c7997e5972/lisflood-utilities-0.9.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [adafruit-circuitpython-bitbangio]: Downloading https://files.pythonhosted.org/packages/2d/56/df71494e25fac7f043c9ce0f559d256491244a33c2ea8a60a2be22ebf602/adafruit-circuitpython-bitbangio-1.3.9.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [wsgi-lineprof]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-11 16:48:06] INFO root fetch - processPackages [cf-plot]: Downloading https://files.pythonhosted.org/packages/2c/25/af6ae9580ed44ad918cc4dc4c99c98268cda6c4239d64618ec2f95585630/cf-plot-3.2.7.tar.gz
+[2023-05-11 16:48:06] INFO root fetch - processPackages [robotframework-sysrepolibrary]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [robotframework-sysrepolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-sysrepolibrary-0.1.0.tar.gz tmp/robotframework-sysrepolibrary-0.1.1.tar.gz --markdown 20230511/r/robotframework-sysrepolibrary/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [cf-plot]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [cf-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-plot-3.2.6.tar.gz tmp/cf-plot-3.2.7.tar.gz --markdown 20230511/c/cf-plot/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [lisflood-utilities]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [lisflood-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lisflood-utilities-0.8.tar.gz tmp/lisflood-utilities-0.9.tar.gz --markdown 20230511/l/lisflood-utilities/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [adafruit-circuitpython-bitbangio]: executing diffoscope
+[2023-05-11 16:48:06] INFO root fetch - processPackages [adafruit-circuitpython-bitbangio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-bitbangio-1.3.8.tar.gz tmp/adafruit-circuitpython-bitbangio-1.3.9.tar.gz --markdown 20230511/a/adafruit-circuitpython-bitbangio/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-11 16:48:06] INFO root fetch - processPackages [wsgi-lineprof]: Downloading https://files.pythonhosted.org/packages/92/01/b3dc0d6277f57f159523e48a18c0d08646963add7ea0b56039cc97b06472/wsgi_lineprof-0.8.0.tar.gz
+[2023-05-11 16:48:07] INFO root fetch - processPackages [wsgi-lineprof]: Downloading https://files.pythonhosted.org/packages/3b/a3/4a3fe59c05c2e360e79f22d15b88e448bf35982a3955d684364309ff1e08/wsgi_lineprof-0.9.0.tar.gz
+[2023-05-11 16:48:07] INFO root fetch - processPackages [printername]: Start processing: openhexa.sdk
+[2023-05-11 16:48:07] INFO root fetch - main [MainThread]: End processing [printername]: success
+[2023-05-11 16:48:07] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-11 16:48:07] INFO root fetch - processPackages [wsgi-lineprof]: executing diffoscope
+[2023-05-11 16:48:07] INFO root fetch - processPackages [wsgi-lineprof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wsgi_lineprof-0.8.0.tar.gz tmp/wsgi_lineprof-0.9.0.tar.gz --markdown 20230511/w/wsgi-lineprof/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-11 16:48:07] INFO root fetch - processPackages [gracy]: Start processing: pytmv1
+[2023-05-11 16:48:07] INFO root fetch - main [MainThread]: End processing [gracy]: success
+[2023-05-11 16:48:07] INFO root fetch - processPackages [pytmv1]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-11 16:48:08] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-05-11 16:48:08] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230511/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-11 16:48:08] INFO root fetch - processPackages [pytmv1]: Downloading https://files.pythonhosted.org/packages/61/25/c09b7203c621c5854884e892b5a5a11c49ae504cb3910cff2d46168733f8/pytmv1-0.4.2.tar.gz
+[2023-05-11 16:48:08] INFO root fetch - processPackages [pytmv1]: executing diffoscope
+[2023-05-11 16:48:08] INFO root fetch - processPackages [pytmv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmv1-0.4.1.tar.gz tmp/pytmv1-0.4.2.tar.gz --markdown 20230511/p/pytmv1/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-11 16:48:08] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: bioat
+[2023-05-11 16:48:08] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-05-11 16:48:08] INFO root fetch - processPackages [bioat]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2023-05-11 16:48:08] INFO root fetch - processPackages [rsconnect-python]: Start processing: gaiaFramework
+[2023-05-11 16:48:08] INFO root fetch - main [MainThread]: End processing [rsconnect-python]: success
+[2023-05-11 16:48:08] INFO root fetch - processPackages [fdk]: Start processing: joshua-test1
+[2023-05-11 16:48:08] INFO root fetch - main [MainThread]: End processing [fdk]: success
+[2023-05-11 16:48:08] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-11 16:48:08] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-05-11 16:48:08] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230511/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-11 16:48:08] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/11/9a/b310cde7dc5c59e9c973c6332564df405216db664eb25522fb363ee34921/bioat-0.1.5.2.tar.gz
+[2023-05-11 16:48:08] WARNING root fetch - processPackages [joshua-test1]: Skipping, unable to determine old version
+[2023-05-11 16:48:08] INFO root fetch - main [MainThread]: End processing [joshua-test1] error
+[2023-05-11 16:48:08] INFO root fetch - main [MainThread]: End processing [robotframework-sysrepolibrary]: success
+[2023-05-11 16:48:08] INFO root fetch - main [MainThread]: End processing [lisflood-utilities]: success
+[2023-05-11 16:48:09] INFO root fetch - processPackages [bioat]: Downloading https://files.pythonhosted.org/packages/b9/64/fc6a26aad6f5ee7eca6a193f13e1056c64aeadf373e3f9e759dbf04c65f5/bioat-0.1.5.3.tar.gz
+[2023-05-11 16:48:09] INFO root fetch - processPackages [bioat]: executing diffoscope
+[2023-05-11 16:48:09] INFO root fetch - processPackages [bioat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230511:/home/abi/fetcher/20230511:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioat-0.1.5.2.tar.gz tmp/bioat-0.1.5.3.tar.gz --markdown 20230511/b/bioat/0.1.5.2-0.1.5.3/diff.md --exclude *.pyd
+[2023-05-11 16:48:09] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bitbangio]: success
+[2023-05-11 16:48:09] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-05-11 16:48:09] INFO root fetch - main [MainThread]: End processing [pytmv1]: success
+[2023-05-11 16:48:10] INFO root fetch - main [MainThread]: End processing [wsgi-lineprof]: success
+[2023-05-11 16:48:10] INFO root fetch - main [MainThread]: End processing [bioat]: success
+[2023-05-11 16:48:10] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-05-11 16:48:12] INFO root fetch - main [MainThread]: End processing [cf-plot]: success
+[2023-05-11 16:48:12] INFO root fetch - main [MainThread]: Store serial: [18064968]
